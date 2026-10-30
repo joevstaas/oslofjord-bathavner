@@ -1,0 +1,71 @@
+{
+  "tested_polygons": [
+    {
+      "id": "H02-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H03-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H04-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H05-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H06-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H07-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H08-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H09-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H10-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H11-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H12-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H12-B02",
+      "image_loaded": true
+    },
+    {
+      "id": "H12-B03",
+      "image_loaded": true
+    },
+    {
+      "id": "H13-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K01-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K02-B01",
+      "image_loaded": true
+    }
+  ],
+  "javascript_errors": [],
+  "geojson_download": "horten-bathavner-alle-forslag.geojson",
+  "mobile_horizontal_overflow": false
+}

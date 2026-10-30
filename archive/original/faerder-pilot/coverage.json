@@ -1,0 +1,23 @@
+{
+  "municipality": "Færder",
+  "code": "3911",
+  "topographic_scan_tiles_reviewed": 62,
+  "downloaded_georeferenced_images_by_source": {
+    "Esri World Imagery": 45,
+    "Kartverket Topografisk norgeskart": 71
+  },
+  "successful_image_payload_bytes": 116354878,
+  "detailed_candidate_images_reviewed": 27,
+  "limitations": [
+    "Ingen fullstendighetsgaranti; topografisk kart ble gjennomgått systematisk, bildene målrettet og i brede kystsektorer.",
+    "Bredt Esri-utsnitt coast-1-6 feilet; lokale detaljbilder ved blant annet Holtane, Grimestad og Mågerø ble brukt i sektoren.",
+    "Lokale opptaksdatoer og oppgitt posisjonsnøyaktighet er ukjente.",
+    "Bred OSM/Overpass-uthenting feilet; 20 kjente OSM-objekter ble hentet individuelt. Kandidatlisten ble supplert visuelt og med kommunale kilder.",
+    "Ikke alle brygger er verifisert som dagens aktive anlegg."
+  ],
+  "visual_export_qa": "Alle 34 eksporterte polygoner projisert tilbake på kildebildene og visuelt kontrollert; qa-0.jpg til qa-3.jpg.",
+  "not_a_harbour": [
+    "Båtopplag på land ved Vestskogen nord.",
+    "Spredte private brygger, badebrygger, rene fergekaier og naturhavner uten dokumentert fast bryggeanlegg."
+  ]
+}

@@ -1,0 +1,1255 @@
+{
+  "type": "FeatureCollection",
+  "name": "Råde – godkjent uttrekk fra samlefil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H01-B01",
+        "harbour_id": "3112-H01",
+        "candidate_id": "SRC-RBF",
+        "name": "Makrellrød båthavn / Råde båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 30059.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7775007,
+        "latitude": 59.3096332,
+        "sources": [
+          "https://www.rbf.no/index.php/batplasser",
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/993953253",
+          "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf",
+          "https://www.openstreetmap.org/node/5106918395",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=259300%2C6581900%2C260100%2C6582700&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5106918395"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 402,
+        "berth_count_source": "https://www.rbf.no/index.php/batplasser",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havneanlegget",
+        "berth_count_reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir 402 båtplasser og 4 gjesteplasser langs ytre molo. Kommunedelplanen fra 2007 oppga 280 plasser; tallene er ikke summert. Polygonet dekker bassenget innenfor moloen. Ytre molo med gjesteplasser, separat nordre servicebrygge, opplag og parkering er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-makrellrod",
+        "image_sha256": "76b16051c6df3944983e5711c4f892c441c9e714607284552425777151532281"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.776260010362497,
+              59.310472912018405
+            ],
+            [
+              10.775882118993183,
+              59.310620497635384
+            ],
+            [
+              10.775519567983329,
+              59.31039291721139
+            ],
+            [
+              10.77531495438764,
+              59.310026594280934
+            ],
+            [
+              10.775475626099185,
+              59.30948829977844
+            ],
+            [
+              10.777377598787245,
+              59.30877475315545
+            ],
+            [
+              10.77772012513095,
+              59.308785872255406
+            ],
+            [
+              10.778892047824769,
+              59.309167599573094
+            ],
+            [
+              10.779535612884503,
+              59.309524180807564
+            ],
+            [
+              10.779602354804164,
+              59.30974215230872
+            ],
+            [
+              10.778659773756246,
+              59.310031279042576
+            ],
+            [
+              10.777374635104252,
+              59.31030927947494
+            ],
+            [
+              10.776260010362497,
+              59.310472912018405
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H02-B01",
+        "harbour_id": "3112-H02",
+        "candidate_id": "SRC-SBF",
+        "name": "Saltholmen båthavn / Saltnes båtforening – Råde-del",
+        "name_is_descriptive": false,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 7887.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7461802,
+        "latitude": 59.2864838,
+        "sources": [
+          "https://saltnesbf.no/?page_id=19",
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/993955779",
+          "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=257300%2C6579200%2C258100%2C6580000&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 220,
+        "berth_count_source": "https://saltnesbf.no/?page_id=19",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havneanlegget",
+        "berth_count_reference_period": "foreningen_oppgir_tall_med_medlemstall_pr_2021-01-01",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": true,
+        "cross_municipality_group_id": "X-SALTHOLMEN-3112-3107",
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Foreningen oppgir 220 bryggeplasser for hele havna. Offisiell kommunegrense krysser bryggeanlegget; bare Råde-delen er levert. Søndre del ligger i Fredrikstad (3107) og er registrert i ventelogg for egen behandling. Kapasiteten gjelder hele anlegget, ikke Råde-delen. Klippet ved offisiell kommunegrense; 59 % av det tegnede omrisset ligger i Råde.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-saltholmen",
+        "image_sha256": "59a4c4615cae6fb0dd574559fe899d154e87504fd3c4d5c0c5bfa3e77c8b770e"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.746750252341743,
+              59.2870550455946
+            ],
+            [
+              10.746011027696532,
+              59.28709480497624
+            ],
+            [
+              10.745807857733755,
+              59.28672047952804
+            ],
+            [
+              10.745517311559988,
+              59.2862953364728
+            ],
+            [
+              10.744954685195765,
+              59.28579734427925
+            ],
+            [
+              10.744963675410443,
+              59.285795400729576
+            ],
+            [
+              10.745810092529332,
+              59.28612830166136
+            ],
+            [
+              10.7464908690126,
+              59.28639606040104
+            ],
+            [
+              10.7469374768848,
+              59.28657162954448
+            ],
+            [
+              10.747677406112349,
+              59.28658848499722
+            ],
+            [
+              10.747725556100361,
+              59.28675124189219
+            ],
+            [
+              10.747392499527027,
+              59.28691619425923
+            ],
+            [
+              10.746750252341743,
+              59.2870550455946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H03-B01",
+        "harbour_id": "3112-H03",
+        "candidate_id": "OSM-node/5106950299",
+        "name": "Åven – vestre båthavn",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 5293.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7268563,
+        "latitude": 59.3126868,
+        "sources": [
+          "https://www.openstreetmap.org/node/5106950299",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=256600%2C6582500%2C257400%2C6583300&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5106950299"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Hovedbrygge med tre utriggerbrygger og mer enn ti synlige båtplasser. OSM-punkt «Småbåtshavn». Operatør og faste plasser er ikke dokumentert.",
+        "geometry_status": "forelopig_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-aven",
+        "image_sha256": "3371d8b49b445bcf7926866ba009ba0f1cf4c982a33e4ed5689830ea9c8b5014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.726952061105786,
+              59.313192282066765
+            ],
+            [
+              10.726047812198129,
+              59.312823668050264
+            ],
+            [
+              10.726054616728886,
+              59.312769538685174
+            ],
+            [
+              10.727055205092464,
+              59.31217255673023
+            ],
+            [
+              10.72718741851646,
+              59.31221526656662
+            ],
+            [
+              10.727077992471978,
+              59.312339561235945
+            ],
+            [
+              10.72753879489824,
+              59.3126040812793
+            ],
+            [
+              10.72745781215776,
+              59.31294991929374
+            ],
+            [
+              10.727101311190609,
+              59.313149226353595
+            ],
+            [
+              10.726952061105786,
+              59.313192282066765
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H04-B01",
+        "harbour_id": "3112-H04",
+        "candidate_id": "VIS-aven-indre",
+        "name": "Åven – indre båtbasseng",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 4707.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7302086,
+        "latitude": 59.3137784,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=256600%2C6582500%2C257400%2C6583300&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "To brygger i et avgrenset indre basseng med mer enn ti synlige båter. Nærhet til vestre båthavn dokumenterer ikke felles drift; derfor egen havne-ID. Strandsoner og grunne partier er delvis inkludert ved inngangen.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-aven",
+        "image_sha256": "3371d8b49b445bcf7926866ba009ba0f1cf4c982a33e4ed5689830ea9c8b5014"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.73010662186133,
+              59.3141175563107
+            ],
+            [
+              10.72903718096416,
+              59.31342062204946
+            ],
+            [
+              10.729170944797227,
+              59.313351477723025
+            ],
+            [
+              10.729480354972283,
+              59.31337762217289
+            ],
+            [
+              10.7297805673176,
+              59.313477000088774
+            ],
+            [
+              10.730374648301805,
+              59.313477317682334
+            ],
+            [
+              10.730997764899612,
+              59.313644840991536
+            ],
+            [
+              10.730664021387248,
+              59.31391204605141
+            ],
+            [
+              10.730359754558908,
+              59.314093892852846
+            ],
+            [
+              10.73010662186133,
+              59.3141175563107
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H05-B01",
+        "harbour_id": "3112-H05",
+        "candidate_id": "OSM-node/5106953733",
+        "name": "Fuglevik (Råde) – søndre bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 4147.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7542461,
+        "latitude": 59.3124811,
+        "sources": [
+          "https://www.openstreetmap.org/node/5106953733",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=257800%2C6582300%2C258600%2C6583100&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5106953733"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tre brygger med utriggere og mer enn ti synlige båter, ved Katteskjærveien. OSM-punkt «Småbåtshavn». Ikke samme anlegg som Fuglevik marina/Rygge båtforening i Moss. Operatør er ikke dokumentert.",
+        "geometry_status": "forelopig_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-fuglevik",
+        "image_sha256": "5ae6b23cea90c601c90f7a680723d7665e89e5ef8dc1af35b5bf909c15aa46c6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.75411654485495,
+              59.312963160357945
+            ],
+            [
+              10.75364270051577,
+              59.312727887210414
+            ],
+            [
+              10.753687841052386,
+              59.31267940488695
+            ],
+            [
+              10.753843661446119,
+              59.312409734007886
+            ],
+            [
+              10.754084368429698,
+              59.31224274554628
+            ],
+            [
+              10.7539798103759,
+              59.312101953970874
+            ],
+            [
+              10.754154359512377,
+              59.31199525074122
+            ],
+            [
+              10.754259852681376,
+              59.3120111830188
+            ],
+            [
+              10.754575085196135,
+              59.31242111859977
+            ],
+            [
+              10.754804398412144,
+              59.31254100316008
+            ],
+            [
+              10.754883078943568,
+              59.31269343843157
+            ],
+            [
+              10.75469724356746,
+              59.31281226329002
+            ],
+            [
+              10.754288714614272,
+              59.312953793142796
+            ],
+            [
+              10.75411654485495,
+              59.312963160357945
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H06-B01",
+        "harbour_id": "3112-H06",
+        "candidate_id": "VIS-fuglevik-kanal",
+        "name": "Fuglevik (Råde) – båtplasser langs kanalen",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 5780.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7523195,
+        "latitude": 59.3155367,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=257800%2C6582300%2C258600%2C6583100&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Flere korte brygger og utriggere langs kanalen og vestsiden av fyllingen, samlet mer enn ti synlige båter. Felles drift og operatør er ikke dokumentert; avgrensningen mot fyllingen er usikker.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-fuglevik",
+        "image_sha256": "5ae6b23cea90c601c90f7a680723d7665e89e5ef8dc1af35b5bf909c15aa46c6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.75183280565482,
+              59.31657734467081
+            ],
+            [
+              10.75141127433487,
+              59.31655658480185
+            ],
+            [
+              10.75157497119629,
+              59.316177270131845
+            ],
+            [
+              10.75177518877533,
+              59.31583411712043
+            ],
+            [
+              10.751959885671512,
+              59.31556039534614
+            ],
+            [
+              10.752249801531438,
+              59.31542998571787
+            ],
+            [
+              10.752216487319542,
+              59.31514914474394
+            ],
+            [
+              10.75205127331545,
+              59.314829027478794
+            ],
+            [
+              10.751827210261125,
+              59.314541957270315
+            ],
+            [
+              10.751924476671157,
+              59.3144751953468
+            ],
+            [
+              10.752117973324697,
+              59.31456893693704
+            ],
+            [
+              10.752323776938182,
+              59.314837925794244
+            ],
+            [
+              10.752518705591477,
+              59.31519398201754
+            ],
+            [
+              10.752649861989465,
+              59.31551298657496
+            ],
+            [
+              10.752415020086707,
+              59.31575010276422
+            ],
+            [
+              10.752106944255337,
+              59.31629954955195
+            ],
+            [
+              10.75183280565482,
+              59.31657734467081
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H07-B01",
+        "harbour_id": "3112-H07",
+        "candidate_id": "VIS-fuglevik-vest",
+        "name": "Fuglevik (Råde) – vestre felles brygge",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "en_lang_brygge_med_rundt_10_synlige_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 976.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7499402,
+        "latitude": 59.3142,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=257800%2C6582300%2C258600%2C6583100&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Én lang brygge med båter på begge sider, rundt ti synlige båtplasser. Felles drift og faste plasser er ikke dokumentert.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-fuglevik",
+        "image_sha256": "5ae6b23cea90c601c90f7a680723d7665e89e5ef8dc1af35b5bf909c15aa46c6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.749676351900995,
+              59.314401760611965
+            ],
+            [
+              10.749564893871474,
+              59.314363149626296
+            ],
+            [
+              10.749550987688144,
+              59.31431024144063
+            ],
+            [
+              10.749774954245398,
+              59.31416019786274
+            ],
+            [
+              10.750173582472126,
+              59.31398089105883
+            ],
+            [
+              10.750312007195289,
+              59.31396792872661
+            ],
+            [
+              10.750448820513169,
+              59.314077305760385
+            ],
+            [
+              10.750072806720786,
+              59.31423986763294
+            ],
+            [
+              10.749676351900995,
+              59.314401760611965
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H08-B01",
+        "harbour_id": "3112-H08",
+        "candidate_id": "SRC-KROGSTAD-BF",
+        "name": "Krokstadfjorden – østre bryggeanlegg (Krogstad båtforening)",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 7252.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.8055032,
+        "latitude": 59.3244256,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/992113030",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=260900%2C6583200%2C261700%2C6584000&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Fem–seks brygger med utriggere og mer enn ti synlige båter innerst i Krokstadfjorden. Krogstad båtforening (stiftet 1984) har adresse Krogstadveien 3 like ved; koblingen er geografisk og ikke en dokumentert operatørgrense. Kapasitet er ikke funnet.",
+        "geometry_status": "forelopig_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-krokstad-inner",
+        "image_sha256": "4f07b1fc00701cdbedd1f4e73ffe9761284e372252e4c43f1754f4caa09b8715"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.8044232264464,
+              59.32440281899932
+            ],
+            [
+              10.804169198222551,
+              59.32433228466198
+            ],
+            [
+              10.804517131029131,
+              59.324022198123636
+            ],
+            [
+              10.804755501428469,
+              59.3239915191715
+            ],
+            [
+              10.805027041524738,
+              59.324072208203646
+            ],
+            [
+              10.80548550653213,
+              59.32415892267066
+            ],
+            [
+              10.805986578786243,
+              59.3242805780793
+            ],
+            [
+              10.806481171365641,
+              59.32445477429099
+            ],
+            [
+              10.806843235655425,
+              59.32456235485618
+            ],
+            [
+              10.807161517071018,
+              59.32464454551364
+            ],
+            [
+              10.807234355160068,
+              59.32481473867123
+            ],
+            [
+              10.807085319663095,
+              59.324881870234236
+            ],
+            [
+              10.806710285080806,
+              59.324879375710154
+            ],
+            [
+              10.806250038823233,
+              59.32480699523929
+            ],
+            [
+              10.805887973910096,
+              59.32469941301885
+            ],
+            [
+              10.80556792662141,
+              59.324631549084984
+            ],
+            [
+              10.805160903143214,
+              59.324508128632075
+            ],
+            [
+              10.804792948649402,
+              59.32444830943482
+            ],
+            [
+              10.8044232264464,
+              59.32440281899932
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H09-B01",
+        "harbour_id": "3112-H09",
+        "candidate_id": "SRC-KROGSTAD-MARINA",
+        "name": "Krokstadfjorden – kai og bryggerekke ved båtverkstedet",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 4795.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.8013676,
+        "latitude": 59.3233356,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/937345348",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=260900%2C6583200%2C261700%2C6584000&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Bryggerekke med utriggere og mange båter langs kaien ved båtverksted/forhandler (Krogstadfjorden Marina AS, Krogstadveien 5). Det er uklart om plassene er faste småbåtplasser eller verksted-/salgsplasser. Ikke gruppert med østre anlegg fordi felles drift ikke er dokumentert.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-krokstad-inner",
+        "image_sha256": "4f07b1fc00701cdbedd1f4e73ffe9761284e372252e4c43f1754f4caa09b8715"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.800533031009122,
+              59.32323187547498
+            ],
+            [
+              10.799668787188228,
+              59.32301215348083
+            ],
+            [
+              10.799754868405785,
+              59.32284708551697
+            ],
+            [
+              10.800104104663284,
+              59.32290631532219
+            ],
+            [
+              10.800738833886461,
+              59.32308505786616
+            ],
+            [
+              10.801375340124574,
+              59.3232494676526
+            ],
+            [
+              10.802292230790465,
+              59.32342292027567
+            ],
+            [
+              10.803192208558592,
+              59.32358143386591
+            ],
+            [
+              10.803143526081037,
+              59.32374771009956
+            ],
+            [
+              10.803041217770465,
+              59.323816344291174
+            ],
+            [
+              10.802264502559414,
+              59.323647419694765
+            ],
+            [
+              10.801213317991605,
+              59.3234216771604
+            ],
+            [
+              10.800533031009122,
+              59.32323187547498
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H10-B01",
+        "harbour_id": "3112-H10",
+        "candidate_id": "SRC-TASKEN",
+        "name": "Nordre Tasken – felles brygge i Kurefjorden",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "eiendomsannonse_omtaler_felles_bryggeanlegg_rundt_10_synlige_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 735.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.751113,
+        "latitude": 59.3259478,
+        "sources": [
+          "https://www.finn.no/385649027",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=257600%2C6583700%2C258400%2C6584500&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Eiendomsannonse for Nordre Tasken omtaler felles bryggeanlegg ved Kurefjorden med egne båtplasser. Bildet viser én brygge med utriggere og rundt ti båter. Annonsen er en svak kilde; kobling og antall faste plasser er ikke bekreftet. Grunt område med vegetasjon.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "saltvann",
+        "image_id": "z-kure-s",
+        "image_sha256": "e84bf7249bb3860f1669a5b8089e57b0c159ea06bcc2bb402fdf5790094294a5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.750738362322814,
+              59.3261018096076
+            ],
+            [
+              10.750627284748603,
+              59.32608954959651
+            ],
+            [
+              10.750657366911884,
+              59.325984065962004
+            ],
+            [
+              10.750902920174122,
+              59.325911516278666
+            ],
+            [
+              10.751246542647056,
+              59.32586518825754
+            ],
+            [
+              10.751527639219045,
+              59.32586861204046
+            ],
+            [
+              10.751568200679678,
+              59.32590446597262
+            ],
+            [
+              10.75128542008687,
+              59.32600457587432
+            ],
+            [
+              10.750998947504778,
+              59.326044137947484
+            ],
+            [
+              10.750738362322814,
+              59.3261018096076
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3112-H11-B01",
+        "harbour_id": "3112-H11",
+        "candidate_id": "SRC-GRIMSTADBUKTA",
+        "name": "Grimstadstøa – felles brygge i Vansjø",
+        "name_is_descriptive": true,
+        "municipality": "Råde",
+        "municipality_code": "3112",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "forening_registrert_og_brygge_med_utriggere_men_faste_plasser_ikke_dokumentert",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T19:10:25Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 688.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.8159051,
+        "latitude": 59.3715357,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/916901321",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=261900%2C6588300%2C262700%2C6589100&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "berth_count_reference_period": null,
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Kildeangitte operatører, Enhetsregisteret og Råde kommune; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Brygge med utriggere ved stedsnavnet Grimstadstøa. Grimstadbukta bryggeforening (stiftet 1984) har adresse i Grimstad; koblingen er geografisk og foreløpig. Bildet viser få båter; antall plasser og felles drift er ikke dokumentert. Vannmiljø: ferskvann.",
+        "geometry_status": "usikker_avgrensning",
+        "water_body": "ferskvann",
+        "image_id": "z-grimstad",
+        "image_sha256": "c623bec587cd3b515591ab6109b5069af940ce1bbc98fe0eceb62c159c651999"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.815637488580164,
+              59.37143417293989
+            ],
+            [
+              10.815527402476341,
+              59.37124684600617
+            ],
+            [
+              10.815636429821279,
+              59.371242796049565
+            ],
+            [
+              10.815821219995224,
+              59.37134440457994
+            ],
+            [
+              10.815966702172222,
+              59.371444749984214
+            ],
+            [
+              10.816141596864583,
+              59.371626605496814
+            ],
+            [
+              10.816078302627465,
+              59.3716598194845
+            ],
+            [
+              10.815918590704754,
+              59.37167482984009
+            ],
+            [
+              10.815637488580164,
+              59.37143417293989
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

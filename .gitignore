@@ -1,0 +1,23 @@
+# Mål: sluttresultater + nok til å fortsette med nye kommuner på en annen maskin.
+# Godkjente kommuner skal ikke evalueres på nytt; underlag for det holdes utenfor git.
+
+# --- Lokalt miljø (gjenskapes med python -m venv .venv && pip install -r requirements.txt)
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+cache/
+
+# --- Arbeidsmapper for kommuner: bare skript tas med (mal for neste kommune).
+# Godkjente resultater, kandidatlogg, beslutninger og kontrollfiler er kopiert til data/kommuner/<kode>-<navn>/rev-NN/.
+# Bilder, rådata (Overpass, kommunegrense), QA-ark og mellomresultater kan hentes/genereres på nytt.
+work/*/*
+!work/*/*.py
+!work/*/*.sh
+
+# --- Historisk arkiv: behold skript, logger og beslutningsfiler, ikke tungt kildeunderlag.
+archive/original/*/images/
+archive/original/*/raw/
+archive/original/*/*-kart.html

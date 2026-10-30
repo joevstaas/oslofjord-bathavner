@@ -1,0 +1,959 @@
+[
+  {
+    "name": "Ollebukta marina",
+    "map": "sentrum",
+    "display_size": [
+      1300,
+      1138
+    ],
+    "pixels": [
+      [
+        534,
+        632
+      ],
+      [
+        528,
+        634
+      ],
+      [
+        519,
+        657
+      ],
+      [
+        518,
+        696
+      ],
+      [
+        849,
+        905
+      ],
+      [
+        869,
+        916
+      ],
+      [
+        885,
+        900
+      ],
+      [
+        909,
+        856
+      ],
+      [
+        894,
+        848
+      ],
+      [
+        909,
+        818
+      ],
+      [
+        880,
+        793
+      ],
+      [
+        767,
+        733
+      ],
+      [
+        752,
+        746
+      ],
+      [
+        699,
+        716
+      ],
+      [
+        544,
+        639
+      ]
+    ],
+    "osm_ids": [
+      "way/38901313"
+    ],
+    "sources": [
+      "https://www.ollebukta.no/"
+    ],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Kaldnes marina",
+    "map": "sentrum",
+    "display_size": [
+      1300,
+      1138
+    ],
+    "pixels": [
+      [
+        442,
+        680
+      ],
+      [
+        432,
+        687
+      ],
+      [
+        439,
+        710
+      ],
+      [
+        460,
+        743
+      ],
+      [
+        475,
+        734
+      ]
+    ],
+    "osm_ids": [
+      "way/38848945"
+    ],
+    "sources": [],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Tønsberg gjestehavn – Brygga",
+    "map": "sentrum",
+    "display_size": [
+      1300,
+      1138
+    ],
+    "pixels": [
+      [
+        353,
+        278
+      ],
+      [
+        378,
+        322
+      ],
+      [
+        407,
+        369
+      ],
+      [
+        441,
+        419
+      ],
+      [
+        475,
+        471
+      ],
+      [
+        494,
+        501
+      ],
+      [
+        488,
+        514
+      ],
+      [
+        475,
+        514
+      ],
+      [
+        461,
+        484
+      ],
+      [
+        426,
+        437
+      ],
+      [
+        393,
+        387
+      ],
+      [
+        362,
+        339
+      ],
+      [
+        337,
+        292
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.tonsberg.kommune.no/tjenester/kultur-idrett-og-fritid/turist-i-tonsberg/gjestehavna/"
+    ],
+    "uncertain": false,
+    "note": "Avgrenser bryggebeltet vest for sentrum; farleden er utelatt. Kommunen oppgir sesongstengt vinteren 2026/27."
+  },
+  {
+    "name": "Kaldnes – indre bryggeanlegg",
+    "map": "sentrum",
+    "display_size": [
+      1300,
+      1138
+    ],
+    "pixels": [
+      [
+        237,
+        391
+      ],
+      [
+        255,
+        394
+      ],
+      [
+        282,
+        481
+      ],
+      [
+        298,
+        570
+      ],
+      [
+        287,
+        576
+      ],
+      [
+        274,
+        562
+      ],
+      [
+        255,
+        485
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Brygger i kanal mellom boligrekker; havnestatus og organisering må bekreftes."
+  },
+  {
+    "name": "Kaldnes – ytre bryggeanlegg",
+    "map": "sentrum",
+    "display_size": [
+      1300,
+      1138
+    ],
+    "pixels": [
+      [
+        258,
+        374
+      ],
+      [
+        302,
+        391
+      ],
+      [
+        324,
+        445
+      ],
+      [
+        350,
+        452
+      ],
+      [
+        374,
+        531
+      ],
+      [
+        352,
+        539
+      ],
+      [
+        325,
+        465
+      ],
+      [
+        300,
+        470
+      ],
+      [
+        279,
+        400
+      ],
+      [
+        270,
+        395
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Brygger ved boligrekker; havnestatus og organisering må bekreftes."
+  },
+  {
+    "name": "Vallø Småbåthavn",
+    "map": "vallo",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        480,
+        500
+      ],
+      [
+        540,
+        351
+      ],
+      [
+        584,
+        287
+      ],
+      [
+        609,
+        282
+      ],
+      [
+        699,
+        330
+      ],
+      [
+        753,
+        375
+      ],
+      [
+        754,
+        476
+      ],
+      [
+        717,
+        542
+      ],
+      [
+        716,
+        580
+      ],
+      [
+        627,
+        589
+      ],
+      [
+        602,
+        595
+      ],
+      [
+        484,
+        519
+      ]
+    ],
+    "osm_ids": [
+      "relation/11898442",
+      "node/1891818749"
+    ],
+    "sources": [],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Sjøsenteret Vallø",
+    "map": "vallo",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        588,
+        785
+      ],
+      [
+        719,
+        763
+      ],
+      [
+        731,
+        834
+      ],
+      [
+        775,
+        891
+      ],
+      [
+        721,
+        919
+      ],
+      [
+        650,
+        893
+      ],
+      [
+        586,
+        847
+      ]
+    ],
+    "osm_ids": [
+      "way/546762948",
+      "node/5107343361"
+    ],
+    "sources": [
+      "https://www.xn--btplassvall-x8a1x.no/"
+    ],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Bliksekilen Båthavn",
+    "map": "bliksekilen",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        592,
+        495
+      ],
+      [
+        600,
+        478
+      ],
+      [
+        608,
+        457
+      ],
+      [
+        726,
+        509
+      ],
+      [
+        694,
+        656
+      ],
+      [
+        568,
+        636
+      ]
+    ],
+    "osm_ids": [
+      "way/1217522237"
+    ],
+    "sources": [],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Husvik/Nes – båthavn",
+    "map": "husvik",
+    "display_size": [
+      1219,
+      1500
+    ],
+    "pixels": [
+      [
+        563,
+        501
+      ],
+      [
+        650,
+        479
+      ],
+      [
+        666,
+        508
+      ],
+      [
+        616,
+        579
+      ],
+      [
+        572,
+        589
+      ],
+      [
+        535,
+        518
+      ]
+    ],
+    "osm_ids": [
+      "way/546250542",
+      "node/5107520723"
+    ],
+    "sources": [],
+    "uncertain": false,
+    "note": "Beskrivende navn; OSM-punkt og område er slått sammen som samme havn."
+  },
+  {
+    "name": "Nordre Nes – bryggeanlegg",
+    "map": "husvik",
+    "display_size": [
+      1219,
+      1500
+    ],
+    "pixels": [
+      [
+        423,
+        937
+      ],
+      [
+        472,
+        918
+      ],
+      [
+        477,
+        934
+      ],
+      [
+        466,
+        974
+      ],
+      [
+        449,
+        986
+      ],
+      [
+        430,
+        982
+      ]
+    ],
+    "osm_ids": [
+      "node/5107521786"
+    ],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Få brygger; avgrensning og om dette er en felles småbåthavn må bekreftes."
+  },
+  {
+    "name": "Søndre Nes – båthavn",
+    "map": "husvik",
+    "display_size": [
+      1219,
+      1500
+    ],
+    "pixels": [
+      [
+        767,
+        1023
+      ],
+      [
+        827,
+        1030
+      ],
+      [
+        899,
+        1075
+      ],
+      [
+        853,
+        1112
+      ],
+      [
+        800,
+        1100
+      ],
+      [
+        739,
+        1080
+      ],
+      [
+        711,
+        1109
+      ],
+      [
+        700,
+        1102
+      ],
+      [
+        733,
+        1061
+      ]
+    ],
+    "osm_ids": [
+      "node/5107521775"
+    ],
+    "sources": [],
+    "uncertain": false,
+    "note": "Beskrivende navn; omfatter den sammenhengende bryggegruppen."
+  },
+  {
+    "name": "Soria Moria Båtforening",
+    "map": "husoy",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        383,
+        295
+      ],
+      [
+        427,
+        297
+      ],
+      [
+        431,
+        322
+      ],
+      [
+        383,
+        338
+      ]
+    ],
+    "osm_ids": [
+      "node/3051926714"
+    ],
+    "sources": [],
+    "uncertain": true,
+    "note": "OSM navngir båtforeningen; lite bryggeanlegg med usikker yttergrense."
+  },
+  {
+    "name": "Husøysund/Kirkegaten – mulig havneområde",
+    "map": "husoy",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        811,
+        876
+      ],
+      [
+        847,
+        844
+      ],
+      [
+        836,
+        806
+      ],
+      [
+        770,
+        736
+      ],
+      [
+        701,
+        686
+      ],
+      [
+        668,
+        707
+      ],
+      [
+        671,
+        727
+      ]
+    ],
+    "osm_ids": [
+      "way/53878403"
+    ],
+    "sources": [],
+    "uncertain": true,
+    "note": "OSM har marinaområde, men topografisk kart viser ikke et tydelig sammenhengende marinaanlegg. Må kontrolleres mot ortofoto."
+  },
+  {
+    "name": "Jarlsø Vest",
+    "map": "jarlso",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        846,
+        775
+      ],
+      [
+        853,
+        789
+      ],
+      [
+        827,
+        903
+      ],
+      [
+        810,
+        1010
+      ],
+      [
+        833,
+        1140
+      ],
+      [
+        814,
+        1158
+      ],
+      [
+        802,
+        1125
+      ],
+      [
+        779,
+        1119
+      ],
+      [
+        782,
+        1097
+      ],
+      [
+        801,
+        1099
+      ],
+      [
+        792,
+        1060
+      ],
+      [
+        775,
+        1009
+      ],
+      [
+        797,
+        1004
+      ],
+      [
+        786,
+        956
+      ],
+      [
+        809,
+        953
+      ],
+      [
+        817,
+        913
+      ],
+      [
+        780,
+        902
+      ],
+      [
+        784,
+        882
+      ],
+      [
+        816,
+        888
+      ],
+      [
+        826,
+        865
+      ],
+      [
+        787,
+        853
+      ],
+      [
+        789,
+        834
+      ],
+      [
+        833,
+        846
+      ],
+      [
+        842,
+        814
+      ],
+      [
+        798,
+        803
+      ],
+      [
+        803,
+        784
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.havneweb.no/jarlso-brygge/"
+    ],
+    "uncertain": false,
+    "note": "Bryggesameiets boligtilknyttede båtplasser. Avgrenset til vestre bryggerekke; landanlegg er utelatt."
+  },
+  {
+    "name": "Jarlsø – nordre gjestebrygger",
+    "map": "jarlso",
+    "display_size": [
+      1300,
+      1300
+    ],
+    "pixels": [
+      [
+        951,
+        733
+      ],
+      [
+        1019,
+        738
+      ],
+      [
+        1028,
+        766
+      ],
+      [
+        954,
+        765
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://jarlsoe.no/servicetilbud/"
+    ],
+    "uncertain": false,
+    "note": "To gjestebrygger ved broen; adskilt fra Jarlsø Vest."
+  },
+  {
+    "name": "Rakkevik båthavn",
+    "map": "vestfjord",
+    "display_size": [
+      825,
+      1500
+    ],
+    "pixels": [
+      [
+        620,
+        510
+      ],
+      [
+        649,
+        515
+      ],
+      [
+        663,
+        546
+      ],
+      [
+        649,
+        583
+      ],
+      [
+        616,
+        575
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/899098242"
+    ],
+    "uncertain": false,
+    "note": ""
+  },
+  {
+    "name": "Ringshaugodden – mulig småbåthavn",
+    "map": "ringshaug",
+    "display_size": [
+      900,
+      1500
+    ],
+    "pixels": [
+      [
+        491,
+        1034
+      ],
+      [
+        549,
+        1043
+      ],
+      [
+        537,
+        1068
+      ],
+      [
+        523,
+        1080
+      ],
+      [
+        497,
+        1098
+      ],
+      [
+        488,
+        1090
+      ],
+      [
+        512,
+        1069
+      ],
+      [
+        519,
+        1056
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Moloområde; småbåtbruk og operativ status er ikke bekreftet."
+  },
+  {
+    "name": "Furustrand – mulig småbåthavn",
+    "map": "ringshaug",
+    "display_size": [
+      900,
+      1500
+    ],
+    "pixels": [
+      [
+        296,
+        1289
+      ],
+      [
+        320,
+        1300
+      ],
+      [
+        322,
+        1322
+      ],
+      [
+        305,
+        1341
+      ],
+      [
+        293,
+        1338
+      ],
+      [
+        289,
+        1314
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Lite moloområde ved campingplass; småbåtbruk må bekreftes."
+  },
+  {
+    "name": "Karlsvika – mulig småbåthavn",
+    "map": "karlsvika",
+    "display_size": [
+      900,
+      1500
+    ],
+    "pixels": [
+      [
+        687,
+        1393
+      ],
+      [
+        706,
+        1393
+      ],
+      [
+        716,
+        1404
+      ],
+      [
+        733,
+        1409
+      ],
+      [
+        732,
+        1419
+      ],
+      [
+        706,
+        1414
+      ],
+      [
+        700,
+        1430
+      ],
+      [
+        680,
+        1421
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "uncertain": true,
+    "note": "Beskrivende navn. Brygge-/moloområde kan ha annen bruk; krever bekreftelse."
+  }
+]

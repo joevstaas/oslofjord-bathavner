@@ -1,0 +1,2280 @@
+[
+ {
+  "candidate_id": "A007",
+  "x_25833": 257267,
+  "y_25833": 6649835,
+  "osm_ids": [
+   "way/225821326"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A008",
+  "x_25833": 256774,
+  "y_25833": 6649621,
+  "osm_ids": [
+   "way/119385331"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A012",
+  "x_25833": 257885,
+  "y_25833": 6647829,
+  "osm_ids": [
+   "way/1125382490"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A013",
+  "x_25833": 257995,
+  "y_25833": 6647717,
+  "osm_ids": [
+   "way/1412345816"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A016",
+  "x_25833": 258217,
+  "y_25833": 6650100,
+  "osm_ids": [
+   "way/1218937978",
+   "way/1218937979",
+   "way/1500316213"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A022",
+  "x_25833": 259198,
+  "y_25833": 6648618,
+  "osm_ids": [
+   "way/1218936765",
+   "way/1218936766"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A024",
+  "x_25833": 259423,
+  "y_25833": 6648274,
+  "osm_ids": [
+   "way/1412315497"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A026",
+  "x_25833": 258993,
+  "y_25833": 6648003,
+  "osm_ids": [
+   "way/1166118884"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A028",
+  "x_25833": 258089,
+  "y_25833": 6647813,
+  "osm_ids": [
+   "way/1552906766",
+   "way/1552906767",
+   "way/1552906768"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A030",
+  "x_25833": 258761,
+  "y_25833": 6647736,
+  "osm_ids": [
+   "way/1289832984"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A031",
+  "x_25833": 258516,
+  "y_25833": 6647727,
+  "osm_ids": [
+   "way/1019954535"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A032",
+  "x_25833": 258264,
+  "y_25833": 6647559,
+  "osm_ids": [
+   "way/154145587"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A033",
+  "x_25833": 259096,
+  "y_25833": 6647153,
+  "osm_ids": [
+   "way/56053411"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A035",
+  "x_25833": 259958,
+  "y_25833": 6647107,
+  "osm_ids": [
+   "way/56059388"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A048",
+  "x_25833": 260013,
+  "y_25833": 6649142,
+  "osm_ids": [
+   "way/865144361",
+   "way/1536141871",
+   "way/1536141872"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A051",
+  "x_25833": 260676,
+  "y_25833": 6648690,
+  "osm_ids": [
+   "way/665284428",
+   "way/665284429"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A055",
+  "x_25833": 260891,
+  "y_25833": 6647329,
+  "osm_ids": [
+   "way/457726215",
+   "way/457726216"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A057",
+  "x_25833": 260017,
+  "y_25833": 6647173,
+  "osm_ids": [
+   "way/139424295"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A062",
+  "x_25833": 261417,
+  "y_25833": 6646738,
+  "osm_ids": [
+   "way/139434115"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A063",
+  "x_25833": 260547,
+  "y_25833": 6646732,
+  "osm_ids": [
+   "way/1523396139"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A067",
+  "x_25833": 260795,
+  "y_25833": 6646261,
+  "osm_ids": [
+   "way/155184560",
+   "way/1078785602"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A068",
+  "x_25833": 260206,
+  "y_25833": 6645943,
+  "osm_ids": [
+   "way/134904231",
+   "way/155184553"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A069",
+  "x_25833": 261882,
+  "y_25833": 6644129,
+  "osm_ids": [
+   "way/630187961"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A072",
+  "x_25833": 262218,
+  "y_25833": 6648654,
+  "osm_ids": [
+   "way/1007358771"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A074",
+  "x_25833": 262999,
+  "y_25833": 6648532,
+  "osm_ids": [
+   "way/940759863"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A076",
+  "x_25833": 262663,
+  "y_25833": 6648326,
+  "osm_ids": [
+   "way/939283707"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A079",
+  "x_25833": 262762,
+  "y_25833": 6645564,
+  "osm_ids": [
+   "way/134933108"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A081",
+  "x_25833": 262516,
+  "y_25833": 6645266,
+  "osm_ids": [
+   "way/1258991542",
+   "way/1258991543"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A088",
+  "x_25833": 263800,
+  "y_25833": 6644609,
+  "osm_ids": [
+   "way/1122284010",
+   "way/1122284011",
+   "way/1122284012"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A089",
+  "x_25833": 262249,
+  "y_25833": 6644556,
+  "osm_ids": [
+   "way/141129562",
+   "way/141129610",
+   "way/141129655",
+   "way/141129661"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A090",
+  "x_25833": 263085,
+  "y_25833": 6644409,
+  "osm_ids": [
+   "way/134923000",
+   "way/134923107"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A092",
+  "x_25833": 263863,
+  "y_25833": 6644375,
+  "osm_ids": [
+   "way/856151042"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A095",
+  "x_25833": 263124,
+  "y_25833": 6644259,
+  "osm_ids": [
+   "way/134923012",
+   "way/134923048",
+   "way/134923056",
+   "way/134923211",
+   "way/134923231"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A096",
+  "x_25833": 263219,
+  "y_25833": 6644130,
+  "osm_ids": [
+   "way/1122655448"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A097",
+  "x_25833": 262055,
+  "y_25833": 6643990,
+  "osm_ids": [
+   "way/148637204",
+   "way/1530445603",
+   "way/1530445605",
+   "way/1531396699"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A098",
+  "x_25833": 262834,
+  "y_25833": 6643960,
+  "osm_ids": [
+   "way/141129673"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A099",
+  "x_25833": 263890,
+  "y_25833": 6643838,
+  "osm_ids": [
+   "way/1125377471",
+   "way/1125377472"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A100",
+  "x_25833": 262464,
+  "y_25833": 6643737,
+  "osm_ids": [
+   "way/148637206",
+   "way/148637216"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A102",
+  "x_25833": 263957,
+  "y_25833": 6643376,
+  "osm_ids": [
+   "way/1124419867"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A103",
+  "x_25833": 263974,
+  "y_25833": 6643301,
+  "osm_ids": [
+   "way/1124419868",
+   "way/1124419869"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A104",
+  "x_25833": 263936,
+  "y_25833": 6642992,
+  "osm_ids": [
+   "way/1163549715",
+   "way/1163549716",
+   "way/1163549717"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A106",
+  "x_25833": 263768,
+  "y_25833": 6642506,
+  "osm_ids": [
+   "way/301829814"
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge(r) med få synlige båter; ikke dokumentert felles anlegg med minst 10 plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A029",
+  "x_25833": 258588,
+  "y_25833": 6647787,
+  "osm_ids": [
+   "way/1019954530",
+   "way/1019954531",
+   "way/1019954532",
+   "way/1019954533",
+   "way/1019954534",
+   "way/1289832986",
+   "way/1289832985"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A037",
+  "x_25833": 259326,
+  "y_25833": 6646906,
+  "osm_ids": [
+   "way/463667934",
+   "way/463667935"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A038",
+  "x_25833": 259039,
+  "y_25833": 6646876,
+  "osm_ids": [
+   "way/463667955",
+   "way/463667956"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A039",
+  "x_25833": 259642,
+  "y_25833": 6646847,
+  "osm_ids": [
+   "way/56059374"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A040",
+  "x_25833": 259322,
+  "y_25833": 6646795,
+  "osm_ids": [
+   "way/463667936",
+   "way/463667937",
+   "way/463667939",
+   "way/463667941",
+   "way/464404764",
+   "way/464404765"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A041",
+  "x_25833": 259143,
+  "y_25833": 6646764,
+  "osm_ids": [
+   "way/463667953"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A042",
+  "x_25833": 259321,
+  "y_25833": 6646653,
+  "osm_ids": [
+   "way/463667942",
+   "way/463667944",
+   "way/463667946",
+   "way/463667947",
+   "way/463667949",
+   "way/463667951"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A044",
+  "x_25833": 259766,
+  "y_25833": 6646588,
+  "osm_ids": [
+   "way/139424275",
+   "way/139424286",
+   "way/139424282",
+   "way/139424294"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A085",
+  "x_25833": 262321,
+  "y_25833": 6644805,
+  "osm_ids": [
+   "way/141129538",
+   "way/141129567",
+   "way/141129618",
+   "way/141129622",
+   "way/141129630",
+   "way/141129697",
+   "way/141129706",
+   "way/141129711"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A091",
+  "x_25833": 262397,
+  "y_25833": 6644390,
+  "osm_ids": [
+   "way/141129552",
+   "way/141129563",
+   "way/141129692",
+   "way/141129668",
+   "way/141129703",
+   "way/141129705",
+   "way/141129611",
+   "way/141129634",
+   "way/141129654",
+   "way/141129625",
+   "way/141129710"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A093",
+  "x_25833": 263551,
+  "y_25833": 6644326,
+  "osm_ids": [
+   "way/134923028",
+   "way/134923104",
+   "way/134923120",
+   "way/134923093",
+   "way/134923158",
+   "way/134923080",
+   "way/134923099",
+   "way/134923157",
+   "way/134923248",
+   "way/134923046",
+   "way/134923071",
+   "way/134923130",
+   "way/134923161",
+   "way/134923181",
+   "way/134923251",
+   "way/134923256",
+   "way/134923262"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A101",
+  "x_25833": 263930,
+  "y_25833": 6643620,
+  "osm_ids": [
+   "way/899289691",
+   "way/1123291706",
+   "way/1127698795",
+   "way/1125283173",
+   "way/1125283174",
+   "way/1125283175",
+   "way/1125283176",
+   "way/1125283177",
+   "way/1125283178",
+   "way/1125283179",
+   "way/1125283180",
+   "way/1125377470"
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger ved separate eiendommer/hytter; ikke summert.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A001",
+  "x_25833": 255842,
+  "y_25833": 6656680,
+  "osm_ids": [
+   "way/149609319"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A002",
+  "x_25833": 256360,
+  "y_25833": 6656203,
+  "osm_ids": [
+   "way/1394563012"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A003",
+  "x_25833": 256434,
+  "y_25833": 6656145,
+  "osm_ids": [
+   "way/845130527",
+   "way/1394563014"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A014",
+  "x_25833": 258807,
+  "y_25833": 6653337,
+  "osm_ids": [
+   "way/829029598",
+   "way/885970748"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A045",
+  "x_25833": 261825,
+  "y_25833": 6656691,
+  "osm_ids": [
+   "way/1165372735",
+   "way/1165372736",
+   "way/1165372737"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A046",
+  "x_25833": 261549,
+  "y_25833": 6656194,
+  "osm_ids": [
+   "way/1047645498",
+   "way/1165372733"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A047",
+  "x_25833": 261474,
+  "y_25833": 6655803,
+  "osm_ids": [
+   "way/1047645496",
+   "way/1047645497"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A108",
+  "x_25833": 265113,
+  "y_25833": 6650354,
+  "osm_ids": [
+   "way/764454116",
+   "way/764454117",
+   "way/782047988",
+   "way/1314718986"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A109",
+  "x_25833": 266803,
+  "y_25833": 6662925,
+  "osm_ids": [
+   "way/1185399467",
+   "way/1185399468",
+   "way/1185399469"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A110",
+  "x_25833": 266392,
+  "y_25833": 6662047,
+  "osm_ids": [
+   "way/178396010",
+   "way/232373788",
+   "way/232373789",
+   "way/232373786",
+   "way/232373787"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A111",
+  "x_25833": 266055,
+  "y_25833": 6654522,
+  "osm_ids": [
+   "way/1192611808"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A112",
+  "x_25833": 266864,
+  "y_25833": 6645747,
+  "osm_ids": [
+   "way/1456532477"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A113",
+  "x_25833": 266772,
+  "y_25833": 6645519,
+  "osm_ids": [
+   "way/1122250886",
+   "way/1122250887"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A114",
+  "x_25833": 267843,
+  "y_25833": 6644277,
+  "osm_ids": [
+   "way/1128237375",
+   "node/1338479621"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A115",
+  "x_25833": 269436,
+  "y_25833": 6646443,
+  "osm_ids": [
+   "way/388110504"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A116",
+  "x_25833": 268479,
+  "y_25833": 6644834,
+  "osm_ids": [
+   "way/1122312209"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A117",
+  "x_25833": 268237,
+  "y_25833": 6644575,
+  "osm_ids": [
+   "way/150774537",
+   "way/150774540"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A118",
+  "x_25833": 268613,
+  "y_25833": 6638580,
+  "osm_ids": [
+   "way/1177854472"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A119",
+  "x_25833": 270360,
+  "y_25833": 6656489,
+  "osm_ids": [
+   "way/1184219914"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A120",
+  "x_25833": 270346,
+  "y_25833": 6656331,
+  "osm_ids": [
+   "way/1184219911",
+   "way/1184219912",
+   "way/1184219913"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A121",
+  "x_25833": 270156,
+  "y_25833": 6653210,
+  "osm_ids": [
+   "way/224983451"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A122",
+  "x_25833": 270103,
+  "y_25833": 6638962,
+  "osm_ids": [
+   "way/431290733"
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/elv (Maridalsvannet, Østensjøvannet, Akerselva m.fl.); utenfor Oslofjorden og ingen kvalifiserende anlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A005",
+  "x_25833": 257641,
+  "y_25833": 6650136,
+  "osm_ids": [
+   "way/221407077",
+   "way/1418154754",
+   "way/1418154755",
+   "way/1500316214",
+   "way/1500316215"
+  ],
+  "decision": "utelatt",
+  "reason": "Klubbhus/restaurant på ponton; ikke båtplassanlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A011",
+  "x_25833": 257646,
+  "y_25833": 6649396,
+  "osm_ids": [
+   "way/1526849459",
+   "way/1526849460",
+   "way/1526849461",
+   "way/1526849462",
+   "way/1535987414",
+   "way/1535987415",
+   "way/1539657524"
+  ],
+  "decision": "utelatt",
+  "reason": "OSM-pirer på land/parkering ved Killingen; selve båtplassene inngår i A010.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A050",
+  "x_25833": 261500,
+  "y_25833": 6648903,
+  "osm_ids": [
+   "way/1409127734"
+  ],
+  "decision": "utelatt",
+  "reason": "Ferje-/passasjerkai eller utstikker i sentrumshavna; ikke småbåthavn.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A052",
+  "x_25833": 261976,
+  "y_25833": 6648125,
+  "osm_ids": [
+   "way/620402897"
+  ],
+  "decision": "utelatt",
+  "reason": "Ferje-/passasjerkai eller utstikker i sentrumshavna; ikke småbåthavn.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A053",
+  "x_25833": 261266,
+  "y_25833": 6647848,
+  "osm_ids": [
+   "way/457825566",
+   "way/1522894694",
+   "way/1522894696"
+  ],
+  "decision": "utelatt",
+  "reason": "Ferje-/passasjerkai eller utstikker i sentrumshavna; ikke småbåthavn.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A070",
+  "x_25833": 262488,
+  "y_25833": 6648836,
+  "osm_ids": [
+   "way/936845891",
+   "way/936845892",
+   "way/936845893"
+  ],
+  "decision": "utelatt",
+  "reason": "Kaier, kanaler og sjøbad i Bjørvika; ikke båtplassanlegg med faste plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A071",
+  "x_25833": 262727,
+  "y_25833": 6648784,
+  "osm_ids": [
+   "way/547500198",
+   "way/940076456"
+  ],
+  "decision": "utelatt",
+  "reason": "Kaier, kanaler og sjøbad i Bjørvika; ikke båtplassanlegg med faste plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A073",
+  "x_25833": 262810,
+  "y_25833": 6648571,
+  "osm_ids": [
+   "way/936521746",
+   "way/936521747",
+   "way/936521748",
+   "way/936755642",
+   "way/936755643",
+   "way/936755644",
+   "way/936755645",
+   "way/936755649",
+   "way/936755650",
+   "way/1128457182",
+   "way/1539882237",
+   "way/1539882238",
+   "way/1539882239",
+   "way/1539961750",
+   "way/1539961751",
+   "way/1540101805"
+  ],
+  "decision": "utelatt",
+  "reason": "Kaier, kanaler og sjøbad i Bjørvika; ikke båtplassanlegg med faste plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A077",
+  "x_25833": 262390,
+  "y_25833": 6648004,
+  "osm_ids": [
+   "way/435811537",
+   "way/1061158046"
+  ],
+  "decision": "utelatt",
+  "reason": "Kaier, kanaler og sjøbad i Bjørvika; ikke båtplassanlegg med faste plasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "O-gjoa",
+  "x_25833": null,
+  "y_25833": null,
+  "osm_ids": [],
+  "decision": "utelatt",
+  "reason": "OSM «Gjøahaven» ved Bygdøynes: museumskai/molo uten synlige småbåtplasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A004",
+  "x_25833": 257876,
+  "y_25833": 6650148,
+  "osm_ids": [
+   "way/27767925",
+   "way/27767926",
+   "way/27767927",
+   "way/27767928",
+   "way/27767930",
+   "way/871717533",
+   "way/871717534",
+   "way/871717535",
+   "way/871717536",
+   "way/1301721039",
+   "way/1500316213",
+   "way/1500316214"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H03-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A006",
+  "x_25833": 257529,
+  "y_25833": 6650029,
+  "osm_ids": [
+   "way/27767936",
+   "way/27767938",
+   "way/27767937",
+   "way/27767939",
+   "way/27767940",
+   "way/1308150185",
+   "way/27767941",
+   "way/1147069547",
+   "way/1500316215"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H04-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A009",
+  "x_25833": 256541,
+  "y_25833": 6649543,
+  "osm_ids": [
+   "way/30809056",
+   "way/30809057",
+   "way/30809060",
+   "way/30809065",
+   "way/1218937983",
+   "way/1218937984",
+   "way/1539178814",
+   "way/1539178815",
+   "way/1539181424",
+   "way/1539178810"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H01-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A010",
+  "x_25833": 257462,
+  "y_25833": 6649413,
+  "osm_ids": [
+   "way/572106698",
+   "way/572106702",
+   "way/572106705",
+   "way/572106716",
+   "way/572106721",
+   "way/1218937980",
+   "way/1218942061",
+   "way/1218937981",
+   "way/1218937982",
+   "way/1218942062",
+   "way/1218942063",
+   "way/1218942064",
+   "way/1218942065",
+   "way/1218942066",
+   "way/1539657524"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H05-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A015",
+  "x_25833": 258138,
+  "y_25833": 6650269,
+  "osm_ids": [
+   "way/27767910",
+   "way/27767918",
+   "way/27767912",
+   "way/27767913",
+   "way/27767914",
+   "way/27767915",
+   "way/27767916",
+   "way/27767917",
+   "way/27767919",
+   "way/27767929",
+   "way/27767932",
+   "way/27767934",
+   "way/27767935",
+   "way/1218937975",
+   "way/1218937976",
+   "way/1218937977",
+   "node/11757570705",
+   "way/1500316213",
+   "way/1500316214"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H02-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A017",
+  "x_25833": 259064,
+  "y_25833": 6649980,
+  "osm_ids": [
+   "way/27767736",
+   "way/27767737",
+   "way/27767738",
+   "way/27767739",
+   "way/164217187",
+   "way/164217188",
+   "way/178733982",
+   "way/1536140718",
+   "way/1536140714"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H07-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A018",
+  "x_25833": 259670,
+  "y_25833": 6649369,
+  "osm_ids": [
+   "way/27767741",
+   "way/27767742",
+   "way/27767743",
+   "way/27767744",
+   "way/27767745",
+   "way/27767746",
+   "way/27767747",
+   "way/27767748",
+   "way/27767749",
+   "way/27767750",
+   "way/27767751",
+   "way/27767752",
+   "way/27767754",
+   "way/27767755",
+   "way/27767756",
+   "way/27767757",
+   "way/27767758",
+   "way/27767759",
+   "way/978526033",
+   "way/1105519919",
+   "way/1105519899",
+   "way/1105519900",
+   "way/1105519901",
+   "way/1105519902",
+   "way/1105519903",
+   "way/1105519904",
+   "way/1105519905",
+   "way/1105519914",
+   "way/1105519915",
+   "way/1105519922",
+   "way/1105519926",
+   "way/1218936754",
+   "way/1410881574",
+   "way/1536140718",
+   "way/1536140714",
+   "way/1536140715",
+   "way/1536140716",
+   "way/1536141871",
+   "way/1536141872"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H08-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A019",
+  "x_25833": 259426,
+  "y_25833": 6649139,
+  "osm_ids": [
+   "way/27767772",
+   "way/27767774",
+   "way/27767782",
+   "way/27767777",
+   "way/27767778",
+   "way/27767779",
+   "way/27767783",
+   "way/71461508",
+   "way/71461509",
+   "way/114200488",
+   "way/114200489",
+   "way/114200492",
+   "way/154004724",
+   "way/291774094",
+   "way/291774095",
+   "way/845186772",
+   "way/674027702",
+   "way/1218936755",
+   "way/1218936758",
+   "way/1218936759",
+   "way/1218936760",
+   "way/1218936761",
+   "way/1185455743",
+   "node/8060433431",
+   "way/1536140714",
+   "way/1536140715",
+   "way/1536140716",
+   "way/1536141871"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H09-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A020",
+  "x_25833": 259255,
+  "y_25833": 6649076,
+  "osm_ids": [
+   "way/114200485",
+   "way/114200487",
+   "way/114200490",
+   "way/114200493",
+   "way/114200494",
+   "way/114200495",
+   "way/1218936756",
+   "way/1218936757",
+   "node/8060433431",
+   "way/1536140716"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H10-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A021",
+  "x_25833": 259301,
+  "y_25833": 6648691,
+  "osm_ids": [
+   "way/1185455744",
+   "way/1218936762",
+   "way/1218936763",
+   "way/1218936764"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H11-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A023",
+  "x_25833": 259075,
+  "y_25833": 6648459,
+  "osm_ids": [
+   "way/128980479",
+   "way/128980484",
+   "way/128980489",
+   "way/1218936767",
+   "way/1218936768",
+   "way/1190122801"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H12-B01",
+   "0301-H12-B02"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A025",
+  "x_25833": 259281,
+  "y_25833": 6648081,
+  "osm_ids": [
+   "way/83636902",
+   "way/1125414118",
+   "way/989909662",
+   "way/989909664",
+   "way/1125414119",
+   "way/1125414120",
+   "way/1125414121",
+   "way/1125414122",
+   "way/1218942056",
+   "way/157696248",
+   "way/157696249",
+   "way/991953461",
+   "way/1218942055",
+   "way/1218942057",
+   "way/1218942058",
+   "way/1218942059",
+   "way/1218942060"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H13-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A027",
+  "x_25833": 258881,
+  "y_25833": 6647844,
+  "osm_ids": [
+   "way/1166118885",
+   "way/1166118886",
+   "way/1166118887",
+   "way/1166118888",
+   "way/1166118889"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H06-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A034",
+  "x_25833": 259320,
+  "y_25833": 6647132,
+  "osm_ids": [
+   "way/56053417",
+   "way/463667966",
+   "way/1218943610",
+   "way/1218943611",
+   "way/1218943612",
+   "way/1218943613"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H15-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A036",
+  "x_25833": 259822,
+  "y_25833": 6646949,
+  "osm_ids": [
+   "way/56059382",
+   "way/139424272",
+   "way/139424279",
+   "way/139424284",
+   "way/139424289",
+   "way/139424271",
+   "way/139424273",
+   "way/139424274",
+   "way/139424276",
+   "way/139424278",
+   "way/139424280",
+   "way/139424281",
+   "way/139424283",
+   "way/139424285",
+   "way/139424287",
+   "way/139424290",
+   "way/139424291",
+   "way/139424292",
+   "way/139424296",
+   "way/865659907"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H16-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A043",
+  "x_25833": 259953,
+  "y_25833": 6646640,
+  "osm_ids": [
+   "way/56060653",
+   "way/957845645",
+   "way/957845652",
+   "way/957845653"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H20-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A049",
+  "x_25833": 261131,
+  "y_25833": 6648977,
+  "osm_ids": [
+   "way/92664279",
+   "way/185505576",
+   "way/947246737",
+   "way/848866858",
+   "way/947246743",
+   "way/947246744",
+   "way/947246745",
+   "way/947246746",
+   "way/947246747",
+   "way/947246748",
+   "way/947246749",
+   "way/947246750",
+   "way/947246751",
+   "way/947246752",
+   "way/947246753",
+   "way/947246760",
+   "way/519586656",
+   "way/939764479",
+   "way/654718553",
+   "way/939764476",
+   "way/939764478",
+   "way/939764477",
+   "way/939764480",
+   "way/939764481",
+   "way/947246761",
+   "way/947246764",
+   "way/947246766",
+   "way/949212428",
+   "way/949212415",
+   "way/949212416",
+   "way/949212418",
+   "way/949212419",
+   "way/949212420",
+   "way/949212421",
+   "way/949212426",
+   "way/949212427",
+   "way/949212429",
+   "way/949212430",
+   "way/949212431",
+   "way/949212432",
+   "way/949212433",
+   "way/949212434",
+   "way/949212435",
+   "way/949212436",
+   "way/949212437",
+   "way/949212438",
+   "way/949212439",
+   "way/949212440",
+   "way/949212441",
+   "way/949212442",
+   "way/1181827540",
+   "way/1181827541",
+   "way/1181827543",
+   "way/1181827544",
+   "way/1181827545",
+   "way/1181827546",
+   "way/1181827549",
+   "way/1181827550",
+   "way/1181827551",
+   "way/1181827552",
+   "way/1181827553",
+   "way/1181827554",
+   "way/1181827555",
+   "way/1181827556",
+   "way/1181827557",
+   "way/1181827558",
+   "way/1181827559",
+   "way/1181827560",
+   "way/1181827561",
+   "way/1181827562",
+   "way/1181827563",
+   "way/1181827564",
+   "way/1181827565",
+   "way/1181827566",
+   "way/1181827567",
+   "way/1181827568",
+   "way/1181827569",
+   "way/1181827570",
+   "way/1181827573",
+   "way/1181827574",
+   "way/1181827575",
+   "way/1181827576",
+   "way/1181827577",
+   "way/1181827578",
+   "way/1181827579",
+   "way/1181827580",
+   "way/1181827581",
+   "way/1181827582",
+   "way/1181827583",
+   "way/1181827584",
+   "way/1181827585",
+   "way/1181827586",
+   "way/1181827587",
+   "way/1181827588",
+   "way/1181827589",
+   "way/1181827590",
+   "way/1181827591",
+   "way/1181827592",
+   "way/1181827593",
+   "way/1181827594",
+   "way/1181827595",
+   "way/1181827596",
+   "way/1181827597",
+   "way/1181827598",
+   "way/1181827599",
+   "way/1181827600",
+   "way/1181827601",
+   "way/1181827602",
+   "way/1181827603",
+   "way/1181827604",
+   "way/1181827605",
+   "way/1181827606",
+   "way/1181827607",
+   "way/1181827608",
+   "way/1181827609",
+   "way/1181827610",
+   "node/9050400136",
+   "way/1552909152",
+   "way/1552909153"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H22-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A054",
+  "x_25833": 261447,
+  "y_25833": 6647618,
+  "osm_ids": [
+   "way/457825565",
+   "way/1236333690",
+   "way/1523107207",
+   "way/1523107204",
+   "way/1523107205",
+   "way/1523107206",
+   "way/1523107208",
+   "way/1145112733",
+   "way/1523090092",
+   "way/1523090093",
+   "way/1523075135",
+   "way/1523075136",
+   "way/1523075137",
+   "way/1523075138",
+   "way/1523075139",
+   "way/1523075140",
+   "way/1523075141",
+   "way/1523075142",
+   "way/1523075143",
+   "way/1523075144",
+   "way/1523075145",
+   "way/1523075148",
+   "way/1523075146",
+   "way/1523075147",
+   "way/1523090090",
+   "way/1523090091",
+   "way/1523090094",
+   "way/1523107209",
+   "way/1523107210",
+   "way/1523107211",
+   "way/1523107212",
+   "node/5107584855"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H23-B01",
+   "0301-H23-B02"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A056",
+  "x_25833": 260617,
+  "y_25833": 6647217,
+  "osm_ids": [
+   "way/1301721033",
+   "way/1301721034",
+   "node/5107584854"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H14-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A058",
+  "x_25833": 260557,
+  "y_25833": 6647116,
+  "osm_ids": [
+   "way/56060594",
+   "way/1301721035",
+   "node/5107584854"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H14-B02"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A059",
+  "x_25833": 260667,
+  "y_25833": 6647087,
+  "osm_ids": [
+   "way/56060641",
+   "way/1301721032",
+   "node/5107584854"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H14-B03"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A060",
+  "x_25833": 261662,
+  "y_25833": 6646847,
+  "osm_ids": [
+   "way/139433985",
+   "way/139434035",
+   "way/1566282758"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H24-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A061",
+  "x_25833": 260594,
+  "y_25833": 6646834,
+  "osm_ids": [
+   "way/1523396140",
+   "way/1523396141",
+   "way/1523396142"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H17-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A064",
+  "x_25833": 260128,
+  "y_25833": 6646718,
+  "osm_ids": [
+   "way/1218943614"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H18-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A065",
+  "x_25833": 260289,
+  "y_25833": 6646701,
+  "osm_ids": [
+   "way/1218943615",
+   "way/1218943616"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H19-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A066",
+  "x_25833": 260366,
+  "y_25833": 6646292,
+  "osm_ids": [
+   "way/134904241",
+   "way/1218943620",
+   "way/1218943621",
+   "way/152993084",
+   "way/155184555",
+   "way/1218943622",
+   "way/1218943623",
+   "way/1218943624",
+   "way/1218943625",
+   "way/1218943626",
+   "way/155184551",
+   "way/155184554",
+   "way/1218943617",
+   "way/1218943618",
+   "way/1218943619",
+   "way/1218943627",
+   "way/1218943628",
+   "way/1218943629",
+   "way/1218943630"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H21-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A075",
+  "x_25833": 262530,
+  "y_25833": 6648483,
+  "osm_ids": [
+   "way/936514850",
+   "way/936514855",
+   "way/936514856",
+   "way/936514857",
+   "way/936514858",
+   "way/959577559"
+  ],
+  "decision": "utelatt",
+  "reason": "Omrisset dekket land/byggeplass ved Sørenga; flytebryggene har få båter og ukjent bruk. Utelatt etter overleggskontroll.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A078",
+  "x_25833": 262050,
+  "y_25833": 6646418,
+  "osm_ids": [
+   "way/141094918",
+   "way/141094923",
+   "way/141094925",
+   "way/141094927",
+   "way/141094928"
+  ],
+  "decision": "utelatt",
+  "reason": "Omrisset dekket tomt vann ved containerhavna; de få bryggene nord ligger utenfor. Utelatt etter overleggskontroll; bør vurderes på nytt.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A080",
+  "x_25833": 262996,
+  "y_25833": 6645428,
+  "osm_ids": [
+   "way/134932992",
+   "way/134933153",
+   "way/134933160",
+   "way/1529487301",
+   "way/134933019",
+   "way/134933022",
+   "way/134933052",
+   "way/134933109",
+   "way/134933128",
+   "way/1258991549",
+   "way/303544617",
+   "way/1153608838",
+   "way/1529487284",
+   "way/1529487296",
+   "way/1529487297",
+   "way/1529487298",
+   "way/1529487299",
+   "way/1258991554",
+   "way/1529487300",
+   "way/1529487302",
+   "way/1529487310",
+   "way/1529487311",
+   "way/1529487312",
+   "way/1529487313",
+   "way/1529487314",
+   "way/1529487315",
+   "way/1529487344"
+  ],
+  "decision": "utelatt",
+  "reason": "Omrisset fulgte vei/land; ingen tydelig felles bryggeanlegg. Utelatt etter overleggskontroll.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A082",
+  "x_25833": 263368,
+  "y_25833": 6645151,
+  "osm_ids": [
+   "way/141124966",
+   "way/141124990",
+   "way/141124998",
+   "way/1125380790",
+   "way/1125380791",
+   "way/1125380792",
+   "way/1125634217",
+   "way/1125634218",
+   "way/1125804217",
+   "way/1125804218",
+   "way/1125804219",
+   "way/1125804220",
+   "way/1125804221",
+   "way/1125804222",
+   "way/1125804223",
+   "way/1125804224",
+   "way/1125804225",
+   "way/1125804226",
+   "way/1125804227",
+   "way/1125804228",
+   "way/1125804229",
+   "way/1125804230",
+   "way/1125804231",
+   "way/1125804232",
+   "way/1125804233",
+   "way/1125804234",
+   "way/1125804236",
+   "way/1125804237",
+   "way/1125804238",
+   "way/1125804239",
+   "way/1125804240",
+   "way/1125804241",
+   "way/1135668662",
+   "way/1135668663",
+   "way/1529406900",
+   "way/1529406901",
+   "way/1529406903",
+   "way/1529406906",
+   "way/1529406908",
+   "way/1258991551",
+   "way/1258991552",
+   "way/1529406909",
+   "way/1529406914",
+   "way/1529406916",
+   "way/1529406918",
+   "way/1529406920",
+   "way/1147069548",
+   "way/1529406922",
+   "way/1529406924",
+   "way/1529406926",
+   "way/1529406928",
+   "node/5107584856"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H29-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A083",
+  "x_25833": 262621,
+  "y_25833": 6645045,
+  "osm_ids": [
+   "way/135591843",
+   "way/141129605",
+   "way/141129640",
+   "way/141129695",
+   "way/141129531",
+   "way/141129681",
+   "way/141129680",
+   "way/141129689",
+   "way/141129709",
+   "way/1529924781",
+   "way/1529487316",
+   "way/1529487317",
+   "way/1529487318",
+   "way/1529487319",
+   "way/1529487320",
+   "way/1529487321",
+   "way/1529487322",
+   "way/1529487323",
+   "way/1529487324",
+   "way/1529487325",
+   "way/1529487326",
+   "way/1529487327",
+   "way/1529487328",
+   "way/1529487329",
+   "way/1529487330",
+   "way/1529487331",
+   "way/1529487332",
+   "way/1529487333",
+   "way/1529487334",
+   "way/1529487335",
+   "way/1529487336",
+   "way/1529487337",
+   "way/1529487338",
+   "way/1529487340",
+   "way/1529487341",
+   "way/1529487342",
+   "way/1529924778",
+   "way/1529924779",
+   "way/1529924780",
+   "way/1529924782",
+   "way/1529924785",
+   "way/1258991541",
+   "way/1529924786",
+   "way/1529924787",
+   "way/1530445652",
+   "node/5107584857"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H25-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A084",
+  "x_25833": 263681,
+  "y_25833": 6644919,
+  "osm_ids": [
+   "way/141124960",
+   "way/1125377473",
+   "way/1125377474",
+   "way/141124964",
+   "way/1125380787",
+   "way/1125380788",
+   "way/1125380789",
+   "way/1530445659",
+   "way/1530461673",
+   "way/1122284009",
+   "way/1122284013"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H30-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A086",
+  "x_25833": 263319,
+  "y_25833": 6644765,
+  "osm_ids": [
+   "way/134923004",
+   "way/134923010",
+   "way/134923166",
+   "way/134923088",
+   "way/134923094",
+   "way/134923271",
+   "way/134923014",
+   "way/134923019",
+   "way/134923025",
+   "way/134923051",
+   "way/134923060",
+   "way/134923085",
+   "way/134923095",
+   "way/134923111",
+   "way/134923118",
+   "way/134923134",
+   "way/134923138",
+   "way/134923150",
+   "way/134923153",
+   "way/134923162",
+   "way/134923172",
+   "way/134923184",
+   "way/134923186",
+   "way/134923234",
+   "way/134923240",
+   "way/134923242",
+   "way/134923117"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H31-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A087",
+  "x_25833": 262673,
+  "y_25833": 6644677,
+  "osm_ids": [
+   "way/1530445635",
+   "way/1530445636",
+   "way/1530445638",
+   "way/1530445640",
+   "way/1530445641",
+   "way/1530445642",
+   "way/1530445643",
+   "way/1530445644",
+   "way/1530445645",
+   "way/1530445646",
+   "way/1530445647",
+   "way/1530445648",
+   "way/1530445649",
+   "way/1530445650",
+   "way/1530445651"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H26-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A094",
+  "x_25833": 262748,
+  "y_25833": 6644300,
+  "osm_ids": [
+   "way/141129587",
+   "way/1530445623",
+   "way/141129671",
+   "way/1530445612",
+   "way/1530445607",
+   "way/1530445608",
+   "way/1530445609",
+   "way/1530445610",
+   "way/1530445611",
+   "way/1530445613",
+   "way/1530445614",
+   "way/1530445615",
+   "way/1530445616",
+   "way/1530445617",
+   "way/1530445618",
+   "way/1530445619",
+   "way/1530445620",
+   "way/1530445621",
+   "way/1530445622",
+   "way/1530445624",
+   "way/141129641",
+   "way/1530445625",
+   "way/1530445626",
+   "way/1530445627",
+   "way/1530445628",
+   "way/1530445629",
+   "way/1530445630",
+   "way/1530445631",
+   "way/1530445632",
+   "way/1530445633",
+   "way/1530445654"
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "feature_ids": [
+   "0301-H27-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A105",
+  "x_25833": 263803,
+  "y_25833": 6642622,
+  "osm_ids": [
+   "way/1125072021",
+   "way/1125072022"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H32-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A107",
+  "x_25833": 262550,
+  "y_25833": 6640093,
+  "osm_ids": [
+   "way/955114880",
+   "way/89719107"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "0301-H28-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ }
+]

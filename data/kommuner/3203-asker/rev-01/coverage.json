@@ -1,0 +1,9 @@
+{
+ "boundary_source": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3203/omrade?utkoordsys=4326",
+ "working_crs": "EPSG:25833",
+ "overview_tiles": 67,
+ "detail_tiles": 347,
+ "images_total": 471,
+ "candidate_generation": "Metode 1.2: OSM-pirer klynget, bufret, lukket og klippet mot kartvann; hver kandidat vurdert visuelt.",
+ "sweep": "Kystflisene (169 av 347 detaljfliser, valgt innen 600 m av OSM-pirer/kandidater) gjennomgått i kontaktark; ett nytt anlegg (M001, Sandtaket sør) funnet utenfor OSM. Fliser lengre fra pirer, innsjøer og innlandsvassdrag bare grovt kontrollert i kontaktark/oversikt. Hurum vestside (Drammensfjorden) har gråskjær i deler av mosaikken."
+}

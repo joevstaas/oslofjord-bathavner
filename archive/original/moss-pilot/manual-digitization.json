@@ -1,0 +1,2027 @@
+[
+  {
+    "candidate_id": "OSM-way/368366977",
+    "name": "Fiske båthavn",
+    "image": "p01",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        261.56847629523253,
+        333.78629101049154
+      ],
+      [
+        254.423990254628,
+        330.75148940496143
+      ],
+      [
+        248.81650098371318,
+        323.01963997632265
+      ],
+      [
+        247.42405627385597,
+        320.87789203952997
+      ],
+      [
+        245.57827450636543,
+        317.3193479374051
+      ],
+      [
+        244.71275423411865,
+        314.06630324665457
+      ],
+      [
+        244.52388993255445,
+        312.5730364300311
+      ],
+      [
+        244.3991107886599,
+        308.17581028249117
+      ],
+      [
+        244.63484711887432,
+        305.51763455662876
+      ],
+      [
+        244.7051786023483,
+        304.4970185955986
+      ],
+      [
+        246.58496093453724,
+        298.060153144598
+      ],
+      [
+        248.78593925388995,
+        290.52530712056904
+      ],
+      [
+        251.39043713937278,
+        290.58215434569865
+      ],
+      [
+        253.42901171162376,
+        293.75128546468915
+      ],
+      [
+        253.8173158544814,
+        294.49373240321876
+      ],
+      [
+        256.0863127787481,
+        297.84548816531895
+      ],
+      [
+        256.8910205129476,
+        298.84976326301694
+      ],
+      [
+        257.5351235908165,
+        300.0646360661835
+      ],
+      [
+        259.5999363275303,
+        303.30248846691103
+      ],
+      [
+        261.2651734280982,
+        305.91776923388244
+      ],
+      [
+        261.74681395176447,
+        306.7467432836071
+      ],
+      [
+        261.9544723707251,
+        306.59953713286666
+      ],
+      [
+        280.36384208599924,
+        293.66090880241245
+      ],
+      [
+        281.0582948709838,
+        293.1703645952046
+      ],
+      [
+        281.30169320427234,
+        292.9986963579431
+      ],
+      [
+        286.87109990963944,
+        288.96802585199475
+      ],
+      [
+        296.60057003645926,
+        283.0322467887774
+      ],
+      [
+        297.4272499029001,
+        282.5034590788186
+      ],
+      [
+        300.59586640651105,
+        280.1514261910692
+      ],
+      [
+        302.28597288869787,
+        278.064330406487
+      ],
+      [
+        302.70137830564636,
+        277.716310835816
+      ],
+      [
+        307.60664713417646,
+        274.75440286025406
+      ],
+      [
+        308.22819366793266,
+        274.386388636753
+      ],
+      [
+        308.4202772164601,
+        273.6953918522224
+      ],
+      [
+        310.9023270207108,
+        272.3905826026574
+      ],
+      [
+        311.86409566733056,
+        271.8840453118086
+      ],
+      [
+        316.95071321408034,
+        268.96750848311933
+      ],
+      [
+        323.5194064472686,
+        265.67902912516143
+      ],
+      [
+        327.52222881771155,
+        263.9847035933286
+      ],
+      [
+        328.5128342436568,
+        263.5068528302014
+      ],
+      [
+        337.06976836685203,
+        260.04038946982473
+      ],
+      [
+        342.397169262293,
+        257.87666743230074
+      ],
+      [
+        344.8940351309662,
+        256.8140241293237
+      ],
+      [
+        353.8250802939932,
+        253.0034708155319
+      ],
+      [
+        354.9593169216416,
+        252.5216184698045
+      ],
+      [
+        372.2911135943723,
+        245.7501714007929
+      ],
+      [
+        372.61908982163294,
+        245.79846087656912
+      ],
+      [
+        373.57626187729187,
+        245.9348753526807
+      ],
+      [
+        374.92753001857204,
+        248.5495997350663
+      ],
+      [
+        394.8314850885363,
+        296.9466097980738
+      ],
+      [
+        419.6002719330951,
+        315.95736459810286
+      ],
+      [
+        408.8558092006424,
+        330.14955811221154
+      ],
+      [
+        388.1519214947184,
+        325.12148274723444
+      ],
+      [
+        367.8016571660642,
+        325.483717344515
+      ],
+      [
+        347.8850954371621,
+        328.0318455224857
+      ],
+      [
+        332.6992824806948,
+        331.9485226236284
+      ],
+      [
+        318.84682087107217,
+        336.4081354781985
+      ],
+      [
+        307.43534027235,
+        342.4817205961794
+      ],
+      [
+        304.4065388656687,
+        344.1058428481221
+      ],
+      [
+        302.04514033554585,
+        345.3917558820918
+      ],
+      [
+        300.31136945861505,
+        346.4775718750432
+      ],
+      [
+        289.6697241177899,
+        354.45095681827513
+      ],
+      [
+        282.4568092615984,
+        363.29232225660235
+      ],
+      [
+        277.0885030064208,
+        355.5025279344991
+      ],
+      [
+        274.12985004750664,
+        351.3685038182884
+      ],
+      [
+        271.7035165603389,
+        348.019861869514
+      ],
+      [
+        262.9005916094582,
+        335.70294602997603
+      ],
+      [
+        261.56847629523253,
+        333.78629101049154
+      ]
+    ],
+    "group": "p01",
+    "capacity": 384,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://www.fiske-baatforening.no/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_og_avfallsplan_dokumenterer_faste_plasser",
+    "note": " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/368366977"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 3,
+        "name": "Fiske Båtforening (Privat)",
+        "berth_count": 384,
+        "guest_count": 2,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "OSM-node/212913243",
+    "name": "Fuglevik båthavn / Rygge båtforening",
+    "image": "p02",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        258,
+        245
+      ],
+      [
+        279,
+        245
+      ],
+      [
+        276,
+        260
+      ],
+      [
+        293,
+        267
+      ],
+      [
+        302,
+        268
+      ],
+      [
+        305,
+        257
+      ],
+      [
+        321,
+        260
+      ],
+      [
+        320,
+        279
+      ],
+      [
+        382,
+        277
+      ],
+      [
+        383,
+        353
+      ],
+      [
+        291,
+        354
+      ],
+      [
+        272,
+        340
+      ],
+      [
+        261,
+        312
+      ]
+    ],
+    "group": "p02",
+    "capacity": 409,
+    "sources": [
+      "https://www.havneweb.no/ryggebf/",
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Operatøren oppgir 409 båtplasser og 7 faste gjesteplasser. Avfallsplanens eldre tall er 412 og 10; gjesteplasser er ikke lagt til kapasitetstallet. Båtplassbassenget følger alle synlige rekker; opplag og parkering nordøst er utelatt.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/212913243"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 14,
+        "name": "Fuglevik Båthavn v/Rygge Båtforening (Privat)",
+        "berth_count": 412,
+        "guest_count": 10,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/1450881540",
+    "name": "Kambo båtforening",
+    "image": "p03",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        210,
+        369
+      ],
+      [
+        233,
+        360
+      ],
+      [
+        255,
+        347
+      ],
+      [
+        276,
+        330
+      ],
+      [
+        285,
+        310
+      ],
+      [
+        296,
+        278
+      ],
+      [
+        346,
+        286
+      ],
+      [
+        349,
+        296
+      ],
+      [
+        304,
+        293
+      ],
+      [
+        297,
+        315
+      ],
+      [
+        286,
+        339
+      ],
+      [
+        263,
+        356
+      ],
+      [
+        239,
+        371
+      ],
+      [
+        217,
+        382
+      ],
+      [
+        205,
+        382
+      ],
+      [
+        205,
+        374
+      ]
+    ],
+    "group": "p03",
+    "capacity": 97,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://kambobf.no/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": "Båt-/fortøyningsrekke langs buet strand i nordre havnebasseng. Indre siv-/landområde er utelatt. OSM-omriss er ikke brukt som sjøfasit. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "way/1450881540"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 9,
+        "name": "Kambo båtforening (Privat)",
+        "berth_count": 97,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "OSM-way/1448562959",
+    "name": "Kambo Marina",
+    "image": "p04",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        112,
+        328
+      ],
+      [
+        144,
+        306
+      ],
+      [
+        193,
+        286
+      ],
+      [
+        245,
+        276
+      ],
+      [
+        280,
+        273
+      ],
+      [
+        300,
+        287
+      ],
+      [
+        281,
+        315
+      ],
+      [
+        259,
+        337
+      ],
+      [
+        225,
+        355
+      ],
+      [
+        178,
+        379
+      ],
+      [
+        135,
+        367
+      ],
+      [
+        111,
+        359
+      ]
+    ],
+    "group": "p04",
+    "capacity": 300,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://www.kambomarina.no/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_og_avfallsplan_dokumenterer_faste_plasser",
+    "note": "300 båtplasser i eldre avfallsplan; andre kilder kan oppgi nyere kapasitet. Ingen nåtelling fra bildet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/1448562959"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 8,
+        "name": "Kambo Marina AS (Privat)",
+        "berth_count": 300,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "OSM-way/1430843512",
+    "name": "Moss motorbåtforening / Betongen",
+    "image": "p06",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        269,
+        310
+      ],
+      [
+        315,
+        328
+      ],
+      [
+        367,
+        352
+      ],
+      [
+        394,
+        347
+      ],
+      [
+        345,
+        425
+      ],
+      [
+        246,
+        379
+      ],
+      [
+        246,
+        348
+      ]
+    ],
+    "group": "p06",
+    "capacity": 360,
+    "sources": [
+      "https://www.betongen.no/",
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Operatøren oppgir ca. 360 båter på vann; 200 opplagsplasser på land inngår ikke i havnepolygon eller kapasitet. OSM-omrissets land-/opplagsdel er utelatt.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/1430843512"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 7,
+        "name": "Moss Motorbåtfor ening (Betongen) (Privat)",
+        "berth_count": 360,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "capacity_approximate": true
+  },
+  {
+    "candidate_id": "OSM-node/5106902846",
+    "name": "Rørvika – vestre nordre båtbrygger",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        72,
+        348
+      ],
+      [
+        85,
+        347
+      ],
+      [
+        103,
+        355
+      ],
+      [
+        102,
+        367
+      ],
+      [
+        91,
+        362
+      ],
+      [
+        91,
+        369
+      ],
+      [
+        123,
+        374
+      ],
+      [
+        123,
+        386
+      ],
+      [
+        91,
+        381
+      ],
+      [
+        91,
+        391
+      ],
+      [
+        76,
+        391
+      ]
+    ],
+    "group": "rorvik-west",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_og_synlige_felles_batplasser",
+    "note": "To navngitte bryggeaktører og fiskermolo i Rørvika omtales i avfallsplanen. Interne grenser er uavklart. Fysiske småbåtdeler, ikke hele bukta.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5106902846"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 19,
+        "name": "Rørvik brygge (Privat)",
+        "berth_count": 29,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      },
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 20,
+        "name": "Rørvik Bryggeforenig (Privat)",
+        "berth_count": 29,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      },
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 21,
+        "name": "Fiskermoloen (Statlig)",
+        "berth_count": null,
+        "guest_count": null,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p09",
+    "name": "Rørvika – vestre søndre båtbrygger",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        86,
+        407
+      ],
+      [
+        101,
+        409
+      ],
+      [
+        112,
+        414
+      ],
+      [
+        140,
+        431
+      ],
+      [
+        149,
+        433
+      ],
+      [
+        147,
+        447
+      ],
+      [
+        117,
+        434
+      ],
+      [
+        90,
+        421
+      ]
+    ],
+    "group": "rorvik-west",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_og_synlige_felles_batplasser",
+    "note": "",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 19,
+        "name": "Rørvik brygge (Privat)",
+        "berth_count": 29,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      },
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 20,
+        "name": "Rørvik Bryggeforenig (Privat)",
+        "berth_count": 29,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      },
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 21,
+        "name": "Fiskermoloen (Statlig)",
+        "berth_count": null,
+        "guest_count": null,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p09",
+    "name": "Nasle bryggesameie – Rørvika øst",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        304,
+        309
+      ],
+      [
+        316,
+        306
+      ],
+      [
+        326,
+        299
+      ],
+      [
+        341,
+        298
+      ],
+      [
+        361,
+        300
+      ],
+      [
+        365,
+        309
+      ],
+      [
+        392,
+        307
+      ],
+      [
+        394,
+        341
+      ],
+      [
+        303,
+        344
+      ]
+    ],
+    "group": "p09",
+    "capacity": 123,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://naslebrygge.wordpress.com/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": "Navnekobling basert på stedsnavn Nasle og fellesanlegget øst i Rørvika. Eldre kapasitet fra avfallsplan; interne operatørgrenser ikke landmålt. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 24,
+        "name": "Nasle Bryggesameie (Privat)",
+        "berth_count": 123,
+        "guest_count": 2,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "OSM-node/5106902880",
+    "name": "Støtvig – indre båthavn",
+    "image": "p10",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        240,
+        265
+      ],
+      [
+        254,
+        269
+      ],
+      [
+        264,
+        258
+      ],
+      [
+        280,
+        259
+      ],
+      [
+        293,
+        266
+      ],
+      [
+        295,
+        309
+      ],
+      [
+        233,
+        307
+      ],
+      [
+        223,
+        294
+      ],
+      [
+        231,
+        287
+      ],
+      [
+        245,
+        289
+      ]
+    ],
+    "group": "p10",
+    "capacity": 70,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://stotvighotel.com/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": "Fische AS – Støtvig i avfallsplanen. Geografisk navnekobling til havnebassenget; kapasitet fra eldre plan. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5106902880"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 16,
+        "name": "Fische AS – Støtvig (Privat)",
+        "berth_count": 70,
+        "guest_count": 5,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "VIS-p10",
+    "name": "Støtvig – østre felles brygge",
+    "image": "p10",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        310,
+        309
+      ],
+      [
+        356,
+        305
+      ],
+      [
+        363,
+        311
+      ],
+      [
+        359,
+        321
+      ],
+      [
+        310,
+        323
+      ]
+    ],
+    "group": "stotvig-east",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": true,
+    "basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+    "note": "Tydelig brygge med båter. Kan være knyttet til Lersbauen, men navnekobling og minst ti faste plasser er ikke bekreftet.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 22,
+        "name": "Lersbauen (Privat)",
+        "berth_count": 39,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/1394937685",
+    "name": "Søly båthavn / Moss Seilforening",
+    "image": "p12",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        245,
+        320
+      ],
+      [
+        339,
+        254
+      ],
+      [
+        356,
+        253
+      ],
+      [
+        398,
+        292
+      ],
+      [
+        401,
+        305
+      ],
+      [
+        377,
+        328
+      ],
+      [
+        337,
+        347
+      ],
+      [
+        291,
+        379
+      ],
+      [
+        278,
+        381
+      ],
+      [
+        239,
+        348
+      ]
+    ],
+    "group": "p12",
+    "capacity": null,
+    "sources": [
+      "https://moss-seilforening.no/havn-og-klubbhus",
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Operatøren oppgir litt over 300 faste plasser; den eldre avfallsplanen oppgir 380. Ingen presis oppdatert kapasitet er satt. OSM-omrissets parkering og klubbhus er utelatt.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/1394937685"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 6,
+        "name": "Søly båthavn (Moss Seilforening) (Privat)",
+        "berth_count": 380,
+        "guest_count": 2,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/505121328",
+    "name": "Vansjø båtforening",
+    "image": "p13",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        287,
+        265
+      ],
+      [
+        318,
+        256
+      ],
+      [
+        342,
+        241
+      ],
+      [
+        350,
+        242
+      ],
+      [
+        352,
+        308
+      ],
+      [
+        344,
+        323
+      ],
+      [
+        301,
+        331
+      ],
+      [
+        287,
+        322
+      ]
+    ],
+    "group": "p13",
+    "capacity": 185,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": " Parkering/opplag på land utelatt fra OSM-kandidaten. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/505121328"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde",
+    "water_body": "ferskvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 10,
+        "name": "Vansjø båtforening (Privat)",
+        "berth_count": 185,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "OSM-way/1361970107",
+    "name": "Verket – småbåt- og gjestehavn",
+    "image": "p15",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        268,
+        261
+      ],
+      [
+        296,
+        210
+      ],
+      [
+        349,
+        242
+      ],
+      [
+        347,
+        272
+      ],
+      [
+        319,
+        287
+      ],
+      [
+        295,
+        283
+      ]
+    ],
+    "group": "verket",
+    "capacity": null,
+    "sources": [
+      "https://www.verketmoss.no/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "sammenhengende_anlegg_med_minst_10_synlige_batplasser",
+    "note": "Tre nærliggende OSM-flater beskriver samme fysiske bryggegruppe i bildene. Ikke tre selvstendige havner. Fordeling mellom fast-/gjestebruk og intern operatørgrense er ikke bekreftet.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/1361970107",
+      "way/1361970105",
+      "way/1361970108"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-kippenes",
+    "name": "Kippenes hyttegrend – felles båtbrygge",
+    "image": "kippenes",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        196,
+        420
+      ],
+      [
+        231,
+        399
+      ],
+      [
+        238,
+        409
+      ],
+      [
+        200,
+        432
+      ]
+    ],
+    "group": "kippenes",
+    "capacity": 33,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 13,
+        "name": "Kippenes hyttegrend (Privat)",
+        "berth_count": 33,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "VIS-sildebaugen",
+    "name": "Sildebaugen – nordre båtbrygge",
+    "image": "sildebaugen",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        399,
+        156
+      ],
+      [
+        451,
+        174
+      ],
+      [
+        451,
+        186
+      ],
+      [
+        398,
+        170
+      ],
+      [
+        394,
+        164
+      ]
+    ],
+    "group": "sildebaugen",
+    "capacity": 38,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": "Sameiet Sildebaugen Båtbrygge i avfallsplanen; navnekoblingen er geografisk. To hovedbrygger, men interne rettigheter er ikke kartlagt. Kapasiteten gjelder begge delpolygoner samlet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 17,
+        "name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+        "berth_count": 38,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "VIS-refsnes-gods",
+    "name": "Refsnes Gods / Refsnes bryggeforening – båtbrygge",
+    "image": "refsnes-gods",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        285,
+        216
+      ],
+      [
+        303,
+        209
+      ],
+      [
+        331,
+        209
+      ],
+      [
+        332,
+        218
+      ],
+      [
+        308,
+        221
+      ],
+      [
+        299,
+        239
+      ],
+      [
+        285,
+        235
+      ]
+    ],
+    "group": "refsnes-gods",
+    "capacity": 18,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/refsnes-bryggeforening/vedtak-om-tillatelse-etter-forurensningsloven-til-mudring-ved-felles-batanlegg---1_2864---moss-kommune.pdf"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_og_mudringsvedtak_dokumenterer_felles_batanlegg",
+    "note": "18 plasser i avfallsplan. Mudringsvedtak 05.06.2024 beskriver eksisterende fellesanlegg og adkomst til hotellet. Ikke samme kandidat som Refsnes småbåtforening. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 2,
+        "name": "Refsnes Gods brygge (Privat)",
+        "berth_count": 18,
+        "guest_count": 4,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "VIS-knutvika-havn",
+    "name": "Knutvika / Teibern – felles havneområde",
+    "image": "knutvika-havn",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        230,
+        270
+      ],
+      [
+        267,
+        280
+      ],
+      [
+        282,
+        290
+      ],
+      [
+        300,
+        289
+      ],
+      [
+        317,
+        337
+      ],
+      [
+        322,
+        352
+      ],
+      [
+        306,
+        365
+      ],
+      [
+        270,
+        359
+      ],
+      [
+        243,
+        348
+      ],
+      [
+        212,
+        333
+      ],
+      [
+        221,
+        308
+      ]
+    ],
+    "group": "knutvika",
+    "capacity": null,
+    "sources": [
+      "https://knutvika.no/",
+      "https://abf-teibern.no/baat/",
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "operatorer_dokumenterer_faste_batplasser",
+    "note": "Knutvika har tre utleiere ifølge Vindstegs operatørside. ABF-Teibern og Vindsteg omtaler samme bukt. Fysisk havnegruppe; ingen konstruerte interne operatørgrenser og ingen summerte kildekapasiteter.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 15,
+        "name": "Knutvika – Vindsteg AS (Privat)",
+        "berth_count": 83,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      },
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 18,
+        "name": "Arbeidernes båtforening Moss-Teibern (Privat)",
+        "berth_count": 100,
+        "guest_count": 4,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-fleischer",
+    "name": "Mossesundet vest – Moss Marina / Værftsgata brygger",
+    "image": "fleischer",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        215,
+        336
+      ],
+      [
+        239,
+        334
+      ],
+      [
+        294,
+        376
+      ],
+      [
+        285,
+        404
+      ],
+      [
+        267,
+        419
+      ],
+      [
+        250,
+        409
+      ],
+      [
+        232,
+        396
+      ],
+      [
+        211,
+        367
+      ]
+    ],
+    "group": "moss-marina",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/982743354"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Tydelig felles båtplassanlegg. Foreløpig kobling til Moss Marina; registrert adresse alene fastslår ikke operatørgrensen. Kapasiteten 125 fra avfallsplanen er derfor ikke satt på dette omrisset.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 1,
+        "name": "Moss Marina AS (privat)",
+        "berth_count": 125,
+        "guest_count": 9,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-fleischer",
+    "name": "Mossesundet øst – Fleischer Brygge-området",
+    "image": "fleischer",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        408,
+        447
+      ],
+      [
+        429,
+        426
+      ],
+      [
+        458,
+        407
+      ],
+      [
+        479,
+        424
+      ],
+      [
+        452,
+        444
+      ],
+      [
+        420,
+        473
+      ],
+      [
+        409,
+        480
+      ],
+      [
+        399,
+        467
+      ]
+    ],
+    "group": "fleischer-east",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Felles brygger på østsiden av Mossesundet ved Fleischer Brygge. Navnekoblingen og intern avgrensning er foreløpig; planens 34 plasser er ikke automatisk kapasitet for hele dette polygonet. Den separate gjestepontongen ved Tollbodbrygga er utelatt.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 12,
+        "name": "Fleischer Brygge Båtforening (Privat)",
+        "berth_count": 34,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/6802559307",
+    "name": "Moss gjestehavn – søndre kanal øst",
+    "image": "p05",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        298,
+        266
+      ],
+      [
+        306,
+        266
+      ],
+      [
+        310,
+        376
+      ],
+      [
+        310,
+        489
+      ],
+      [
+        302,
+        491
+      ],
+      [
+        302,
+        379
+      ]
+    ],
+    "group": "mossguest",
+    "capacity": null,
+    "sources": [
+      "https://www.moss-havn.no/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "havneoperator_dokumenterer_gjestehavn",
+    "note": "Foreløpig sjøbelte langs gjestekai; ferjekaier og seilingsleden er utelatt. Sesong-/anleggsrestriksjoner må kontrolleres hos operatøren.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/6802559307"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p05",
+    "name": "Moss gjestehavn – nordre kanal vest",
+    "image": "p05",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        286,
+        181
+      ],
+      [
+        294,
+        181
+      ],
+      [
+        294,
+        229
+      ],
+      [
+        286,
+        229
+      ]
+    ],
+    "group": "mossguest",
+    "capacity": null,
+    "sources": [
+      "https://www.moss-havn.no/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "havneoperator_dokumenterer_gjestehavn",
+    "note": "",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p05",
+    "name": "Moss gjestehavn – nordre kanal øst / Tollbodbrygga",
+    "image": "p05",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        296,
+        154
+      ],
+      [
+        330,
+        154
+      ],
+      [
+        330,
+        176
+      ],
+      [
+        304,
+        178
+      ],
+      [
+        305,
+        226
+      ],
+      [
+        297,
+        226
+      ]
+    ],
+    "group": "mossguest",
+    "capacity": null,
+    "sources": [
+      "https://www.moss-havn.no/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "havneoperator_dokumenterer_gjestehavn",
+    "note": "Tollbodbryggas sjø-/bryggefelt og østre kanalkai. Fast-/gjestefordeling er ikke landmålt.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p09",
+    "name": "Rørvika – nordre skråbrygge",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        241,
+        315
+      ],
+      [
+        250,
+        312
+      ],
+      [
+        278,
+        338
+      ],
+      [
+        273,
+        349
+      ],
+      [
+        261,
+        340
+      ]
+    ],
+    "group": "rorvik-north-pier",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Samlet rekke av småbåter langs en felles brygge. Operatør-/navnekobling til avfallsplanens aktører er ikke avklart.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-sildebaugen",
+    "name": "Sildebaugen – søndre båtbrygge",
+    "image": "sildebaugen",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        374,
+        180
+      ],
+      [
+        436,
+        197
+      ],
+      [
+        435,
+        211
+      ],
+      [
+        372,
+        194
+      ]
+    ],
+    "group": "sildebaugen",
+    "capacity": null,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser",
+    "note": "Andre del av samme fysiske anlegg. Kapasitet er bare oppgitt på nordre delrad.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 17,
+        "name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+        "berth_count": 38,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-place-Rødstranda",
+    "name": "Sameiet Røedsstranda – molo og båtbrygge",
+    "image": "place-Rødstranda",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        206,
+        174
+      ],
+      [
+        216,
+        174
+      ],
+      [
+        217,
+        181
+      ],
+      [
+        251,
+        179
+      ],
+      [
+        253,
+        189
+      ],
+      [
+        218,
+        191
+      ],
+      [
+        216,
+        216
+      ],
+      [
+        206,
+        216
+      ]
+    ],
+    "group": "place-Rødstranda",
+    "capacity": 16,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_og_sameiebeskrivelse_dokumenterer_16_faste_batplasser",
+    "note": "Stedfestet ved Rødstranda/Billmannsbakken. Sameiebeskrivelse angir steinmolo med trebrygge ytterst og 16 plasser. Kildekapasitet fra avfallsplan; nøyaktig fortøyningsutstrekning er usikker. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 23,
+        "name": "Sameiet Røedsstranda Molo og Bryggeanlegg (Privat)",
+        "berth_count": 16,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "bilde_og_kildekontrollert"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  },
+  {
+    "candidate_id": "VIS-fuglevik-west",
+    "name": "Fuglevikbryggen – Jeløya",
+    "image": "fuglevik-west",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        415,
+        484
+      ],
+      [
+        426,
+        487
+      ],
+      [
+        431,
+        504
+      ],
+      [
+        455,
+        522
+      ],
+      [
+        487,
+        539
+      ],
+      [
+        486,
+        553
+      ],
+      [
+        451,
+        538
+      ],
+      [
+        426,
+        519
+      ],
+      [
+        413,
+        501
+      ]
+    ],
+    "group": "fuglevik-west",
+    "capacity": 54,
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/920520111"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "avfallsplan_dokumenterer_faste_plasser_og_synlig_felles_batplassrekke",
+    "note": "Geografisk kobling til Fuglevik gård/Jeløya og synlig båt-/molorekke i sørvestre Fuglevika. Ikke samme anlegg som Fuglevik båthavn i tidligere Rygge. Sjø-/bryggebelte, ikke hele det grunne strandbassenget. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [
+      {
+        "source": "avfallsplan_ca_2020",
+        "number": 11,
+        "name": "AL Fuglevikbryggen (Privat)",
+        "berth_count": 54,
+        "guest_count": 0,
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "link_status": "forelopig_geografisk"
+      }
+    ],
+    "capacity_components": [],
+    "berth_count_reference_period": "ca_2020_ikke_bekreftet"
+  }
+]

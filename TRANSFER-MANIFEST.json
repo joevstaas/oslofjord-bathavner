@@ -1,0 +1,3905 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 82,
+      "sha256": "752d6667bfc551b3f0c1114ce161f36639c7b43f7434b85df760f48c8d1eeeef"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 2107,
+      "sha256": "130d5a7d400a9cf7662e1a43289ff237b022b1fdd0fa1caf2dec12202af99657"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1627,
+      "sha256": "4c00d1226df5db7a698caceef49376cee5093e943e8b8c85019b32076736caa6"
+    },
+    {
+      "path": "archive/original/faerder-pilot/archive-rev1/faerder-bathavner.geojson",
+      "bytes": 112698,
+      "sha256": "66105e3e8acf8c8faa81b37747de6d83c2500429d6b9d306a0f7dd0f96f086ab"
+    },
+    {
+      "path": "archive/original/faerder-pilot/archive-rev1/faerder-metadata.csv",
+      "bytes": 36292,
+      "sha256": "6f01a8755a9bf3b0ffc4e8ef23f68782128168d9276ea218a7cac5b2022d04f6"
+    },
+    {
+      "path": "archive/original/faerder-pilot/archive-rev1/manual-digitization.json",
+      "bytes": 28972,
+      "sha256": "25bd7757e90644a308993cdf9b1aad6b87e305cc2d6534f15987cc0e64a9ec35"
+    },
+    {
+      "path": "archive/original/faerder-pilot/archive-rev1/summary.json",
+      "bytes": 189,
+      "sha256": "b3f38ada3904aca638bd2e641228bb84328333387b45309efcfaaedf3682c156"
+    },
+    {
+      "path": "archive/original/faerder-pilot/build_dataset.py",
+      "bytes": 5195,
+      "sha256": "f9ce9c1b10767c9a68b51ba00844aa36693bc58aa5202f7976ea3863bef71e9b"
+    },
+    {
+      "path": "archive/original/faerder-pilot/candidate-specs.json",
+      "bytes": 2942,
+      "sha256": "571affbeec074b2ff9bcea1e1deec676dfb8c8b339ac60962b3e4524093452a1"
+    },
+    {
+      "path": "archive/original/faerder-pilot/coast-imagery.json",
+      "bytes": 2380,
+      "sha256": "6ea888459a2046a213d7e6bef6d9392f5da9280d24e7fe2265ac8377b2a73bd9"
+    },
+    {
+      "path": "archive/original/faerder-pilot/coverage.json",
+      "bytes": 1205,
+      "sha256": "b1c2c746c40a12e619afeab764ea30fcd7087e31b7f82b0e99c3b439b8f8586c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/detail-maps-v2.json",
+      "bytes": 4240,
+      "sha256": "052866048c60e3859417d343ed49e3d42af16417438c12c8a4a1680c43482948"
+    },
+    {
+      "path": "archive/original/faerder-pilot/detail-maps.json",
+      "bytes": 4240,
+      "sha256": "4879c570436114dad431a65f4912230bbbfb26b2c2536f2dc53cfe5e0d340e23"
+    },
+    {
+      "path": "archive/original/faerder-pilot/digitize.py",
+      "bytes": 11896,
+      "sha256": "41608ac003e52fdc4ba2e55d712e45264cb343ea787f68c1ae90a335caf0a72d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/excluded-geometries.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "archive/original/faerder-pilot/extra-maps.json",
+      "bytes": 1146,
+      "sha256": "baf0c8a3e9d8ddfabdac379918e0499485ec32f04fd76acc50c79b4b69762d38"
+    },
+    {
+      "path": "archive/original/faerder-pilot/extra-topo.json",
+      "bytes": 1824,
+      "sha256": "5db68f4fb97ddafdf87ff5af8b240f4085ae3ba098a1515fc18e8bbbdb983f83"
+    },
+    {
+      "path": "archive/original/faerder-pilot/faerder-bathavner.geojson",
+      "bytes": 116995,
+      "sha256": "30b5bf67004fbf3753f94818700ca1240171c0804efbce813dbfcb43cc89734d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/faerder-metadata.csv",
+      "bytes": 38219,
+      "sha256": "6ce6bf6adc15b66aa1b08757f2d960cb06ade9deb794bbde6ec066406d502ab4"
+    },
+    {
+      "path": "archive/original/faerder-pilot/fetch_images.py",
+      "bytes": 2788,
+      "sha256": "61520fa76093b632ffd2384a484a552408a2ad28fdf0d249ca5d892d2f7a3c1d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/finalize.py",
+      "bytes": 6915,
+      "sha256": "e14cc9d4d89a4185d3e38bf46188ffbe99dfb5b2073b8e96579b7af3709a45cf"
+    },
+    {
+      "path": "archive/original/faerder-pilot/kommunegrense.geojson",
+      "bytes": 10750,
+      "sha256": "9c9dd48d36766a2c6a87af2fa35524aaeed371276eb960b7ff4477e6585a3bdf"
+    },
+    {
+      "path": "archive/original/faerder-pilot/last-maps.json",
+      "bytes": 528,
+      "sha256": "310366d70179e3f6a3fba0fb5a71a310f42d21688ee1af18fa3db9e6e5e1f95c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/make_scan.py",
+      "bytes": 1425,
+      "sha256": "167497e5fa876b907ace8c9fc910a839a5c06864d383f11525763b4039356d3e"
+    },
+    {
+      "path": "archive/original/faerder-pilot/manual-digitization.json",
+      "bytes": 30011,
+      "sha256": "e26fc39ac8e6fca5d5f76431d9ff2c54b83ac16af9148e70d66a3e4645327e4e"
+    },
+    {
+      "path": "archive/original/faerder-pilot/osm-candidates.json",
+      "bytes": 18040,
+      "sha256": "e6e80786ecc4acd90a674836664a9400c040a87a8653d9647d4d295e576e149c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/prepare.py",
+      "bytes": 1142,
+      "sha256": "c076c0225d28dda42fdb5cd133474633ce55bc9ed1cf9decdb9f12da6fc463be"
+    },
+    {
+      "path": "archive/original/faerder-pilot/qa.py",
+      "bytes": 1236,
+      "sha256": "17455fe8bc5c5a9ea71c03c03dd53ef77ecff8f2bcfbe4df5775c79941984caa"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/buerstad-address.json",
+      "bytes": 219,
+      "sha256": "72534cbee1d0249c0e032c65b25880daca2e624cb72956e84bad4f4f5c3f3bc6"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/buerstad-export.json",
+      "bytes": 440,
+      "sha256": "839950f61bda9fd26ec7c1b9900a6195ace67a652e22f5781445de97040f4205"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c00-export.json",
+      "bytes": 443,
+      "sha256": "5ac78a7d6482899b90ae62663b436d871cc3472912c032d097ee2471363fe6d4"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c01-export.json",
+      "bytes": 443,
+      "sha256": "c13a542a1a1913814b114dce572c296e5b498557fb20025c18a7c9e8f3715e59"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c02-export.json",
+      "bytes": 443,
+      "sha256": "f12cb8ddb427c9fd418d9aa953f48e4502e4d1cbd1ff4a5d8cac9dbaba18cc4c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c03-export.json",
+      "bytes": 443,
+      "sha256": "a0b7a42ec7be1870decab95c6295575cf35c86f376eb3b8251dfe6e8b7de037d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c04-export.json",
+      "bytes": 281,
+      "sha256": "14fdaf3f9281da585752ce7ceb2ec92a14afe01476baf5144322282906db7d4a"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c05-export.json",
+      "bytes": 441,
+      "sha256": "bf1c6f791628345a7448b08118f968b4ba91c7909dca3973bf35deb50140ff3d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c06-export.json",
+      "bytes": 443,
+      "sha256": "5c5ecae9b1c1cc0bf695776207b83c688cb225fc38ec2b691714f2f76bdec30c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c07-export.json",
+      "bytes": 441,
+      "sha256": "1e89a13e621309acc428a91a5cb4738a037bbe4ab7c7921af114717e5aadcd6f"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c08-export.json",
+      "bytes": 443,
+      "sha256": "3b53da7da250cfa3239548c21e0d11485d507f2ea65b070d8c5e97f423edcf69"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c09-export.json",
+      "bytes": 443,
+      "sha256": "df7ad3a76fae004d031b8e1691685f4492045d9d48fc2d7b3bcee1b463b0283a"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c10-export.json",
+      "bytes": 445,
+      "sha256": "5db37e4dabda2ac1b525a854ebda534f05b5e688f7afe650cf21f5d5f4ba427a"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c11-export.json",
+      "bytes": 443,
+      "sha256": "45a51dc0af206ba97a252548042f470ea2c0c5d7e4b0cd5c6a7d5586ef235ae5"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c12-export.json",
+      "bytes": 443,
+      "sha256": "f4e1d29897cf6db02ba87ce6a9b34892fa595f4c734937ad59696e5129fccddd"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c13-export.json",
+      "bytes": 441,
+      "sha256": "425a85f5ed082bf6353589491c41f01000589fc78b3e8a660bb5b6e64393d0ed"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c14-export.json",
+      "bytes": 443,
+      "sha256": "105f4b48ce2bf6eb4cf30235cba118a09d61907a4c92eb0af2867b68ba6d3611"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c15-export.json",
+      "bytes": 441,
+      "sha256": "eafebb25a3b2afd63fbe21e3f914facc400a34f1ab552bb7cc8fa31461cf62c0"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c16-export.json",
+      "bytes": 443,
+      "sha256": "6324d781644bb7ce122aa08d3496092c1600940dd22b83517aa187a83a84a29f"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c17-export.json",
+      "bytes": 443,
+      "sha256": "6302a21f535dc0534ee5e6aecfc2b4a105fe1a08f0ffcbb8c94140ac92ae7ab4"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c18-export.json",
+      "bytes": 443,
+      "sha256": "4fd0c00462f918769bd217337c141b1064cc3afe91630afd46c758807295e001"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/c19-export.json",
+      "bytes": 443,
+      "sha256": "bc28bdc1ee24b1a2adcbd7068bfc5751beb7d8366e46c38b9a7099b93a121e06"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/candidate-links.json",
+      "bytes": 2294,
+      "sha256": "08dd26537e7504ed74d1520d2314302b95f113425857654d2765d014b644d9c3"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-0-7-export.json",
+      "bytes": 398,
+      "sha256": "679a137f8eb6de4b2a3ccf5e8ddaf6603b9d9bb3c8e7c43b3398b329e6992160"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-0-8-export.json",
+      "bytes": 398,
+      "sha256": "ad5a3740c7b6fe4d359b13e7c3d29c91a1394aa978a012858b2e4d774d77c4bf"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-0-9-export.json",
+      "bytes": 398,
+      "sha256": "c33ead7cc1afffd6dcbf982e118f6320201a63326d03c5431782b1eb9d7398f7"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-1-10-export.json",
+      "bytes": 442,
+      "sha256": "120f81a1843edd33198d3d75265a07183bc4c330f432f2bfd0757586ec532e32"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-1-4-export.json",
+      "bytes": 398,
+      "sha256": "90d6cea3b164679bc6bc6b12ffe6a42a478b2cfdf674b2692180014bd9be7f21"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-1-5-export.json",
+      "bytes": 398,
+      "sha256": "78d19d53320cf81e3c7c6a83c070d98845e6e55b4228b1fd22c0c5a91e3121c7"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-1-6-export.json",
+      "bytes": 442,
+      "sha256": "5b572ee9ba4255d67302fe20f2215e0996daaca064b93640a0b460545c33ab02"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-1-7-export.json",
+      "bytes": 398,
+      "sha256": "6914615538e8f5dee06e3a3adec8b38c91ab55a45ddbe71b73ce934b9f2902ef"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-2-4-export.json",
+      "bytes": 442,
+      "sha256": "209f375f44cda403c18bcd7eb5b37932a243f98b2fa03ff101fc11445d74404a"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-2-7-export.json",
+      "bytes": 398,
+      "sha256": "d40e7be3bba099965dabad4c07b2c9756d01950d23f6976cec71df8762d7fbe1"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-2-8-export.json",
+      "bytes": 442,
+      "sha256": "fe461befb3e9cb174ac8abe3c7da9e0220ba4bc039966503520fad607c71084d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-2-9-export.json",
+      "bytes": 398,
+      "sha256": "a1030cd16a4b8130b1f4953ca58c1a6e58d906179c9f423c95b2461302e1fa1a"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/coast-3-8-export.json",
+      "bytes": 398,
+      "sha256": "706128d489bf641efddcd5628de8ad527305d3c9f8fc5a743a8d74a3c11b4628"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/grimestad-export.json",
+      "bytes": 442,
+      "sha256": "666f348c33d8fbe31401ec252eab4ff6da21e9fc0703ced46ca28110584ec0aa"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/hagakilen-export.json",
+      "bytes": 442,
+      "sha256": "3e6a9c60d4bc89758d1bd84512cc5ade35385a3121285b914662f3080b7b5885"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/hella-address.json",
+      "bytes": 7576,
+      "sha256": "c0ff6bb8008a998b5109853c9b5ad24827123cad368e1e55f23e1b0daf30391c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/hella-export.json",
+      "bytes": 443,
+      "sha256": "cfc1b22002e74e6f18da60c01576f36489d5307864453af2e558dbc9c9dc43cd"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/holtane-address.json",
+      "bytes": 1663,
+      "sha256": "dbf5e25728fbaaed2e9f57049b2cac73b839129911cf972128d2b4974c1b40d4"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/holtane-export.json",
+      "bytes": 441,
+      "sha256": "6b60583e085ea5d74a865e454450ce5ad8c007000edbe6bd1dda1a6d488e7d12"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/huseoy-export.json",
+      "bytes": 440,
+      "sha256": "632611ef5ed9d64d38538a6a75c205edc37b9d3cb642178c0b41a54261838eb9"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/jensesund-havn-export.json",
+      "bytes": 443,
+      "sha256": "614a934122f92f3cc7257d4925cc8c6d546daee5b7dacb714f4270cac96960c2"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/kommune.json",
+      "bytes": 730,
+      "sha256": "7e1fc5b35c849fbf958b5305b973322a72e86787504c1eb81878bb52b0b269e2"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/kommunegrense-response.json",
+      "bytes": 10146,
+      "sha256": "1068ae59f7c121d353d702ebb69823c07b4833bed0ce7c9f2193649ee342ba11"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107343355.osm",
+      "bytes": 594,
+      "sha256": "35d6ea1d08b320456dd2d7024cb5c4ceb7ccc0fb1b1fb8f8a2b38f7072ee8583"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107343357.osm",
+      "bytes": 624,
+      "sha256": "0141ddaff95eee723f769c70704f8aeb7be82c864ab41e196e0d8dad4ace6e99"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107343358.osm",
+      "bytes": 634,
+      "sha256": "b475d7386c03b6fd5f9fb5fd4edcf768295b6b7d6332caa27af82b15c1c38304"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107343359.osm",
+      "bytes": 624,
+      "sha256": "64e4d131b562b071b7e48888f3c0e05ad33fb799aa2da6e63cb70043867142eb"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107482195.osm",
+      "bytes": 624,
+      "sha256": "5749731709ea47e0be4ecd6a80de434aa31b039606e48e648a34d54c919d392d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107482196.osm",
+      "bytes": 624,
+      "sha256": "573e1608e5f94aee6db7431f0527f7631ed9a3a2c112c21edd5d50d2fdd94771"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107500227.osm",
+      "bytes": 624,
+      "sha256": "1b37522d08f6221f7d461d712615582cb94651dc3d7b17a97b5d02a4f30ba656"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107500242.osm",
+      "bytes": 624,
+      "sha256": "fe291fe1d1a419084cf261dc938d8ed52789613ad429b4a236a547ba7bc9a908"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107512191.osm",
+      "bytes": 618,
+      "sha256": "b4082925a2ba45d98ebd7efd18f5b8c3ffb0de66f01eb9007f2cbf7c48337c69"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5107512192.osm",
+      "bytes": 636,
+      "sha256": "30f75e93c97ff787823caf8e32d9ffe2caf959ba4b01692a2bcabf4fabdcbda5"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5783278365.osm",
+      "bytes": 635,
+      "sha256": "c655b89ec8216cf6f0b6e6cb6f439c98037d6e63ffce74b63db468a92f2f6550"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-node-5821970309.osm",
+      "bytes": 628,
+      "sha256": "d15d0bda6e277ada34b83add387b779fd9b6b1a95392e1ff4bb3e1db0ddcdbf5"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-200180554.osm",
+      "bytes": 6891,
+      "sha256": "c544f50c9c35aa4edecf58b8bf25eb0a9f83b1e445cf14314366f41fa23fc4e6"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-300991039.osm",
+      "bytes": 3299,
+      "sha256": "b9cb24bc63b7acdb6efb627924f0ed66e99d8c213ae4813c5e6a380ed5968bac"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-344059239.osm",
+      "bytes": 3729,
+      "sha256": "8ca0a451a2af16bd42f951c36646b627d8ad6a9dba2a4b66fbb821c370b9ab79"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-38867268.osm",
+      "bytes": 6180,
+      "sha256": "45489c26c2fdbd854988a6a1031dc0c45bb81793bcca22d24de9f90ffcbc8060"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-561277276.osm",
+      "bytes": 2614,
+      "sha256": "811ec12b7db75c78b6802dcbb100ad82e1ed445f4bb70f721f87c8d2234a41cd"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-760070485.osm",
+      "bytes": 4584,
+      "sha256": "a47d1d99f99361ad3a615432d2ea3aae07b1599493360d9023b08d7a34a5d815"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-925843335.osm",
+      "bytes": 5635,
+      "sha256": "03403b37e2f963eefb70d1814ec981f81a2aee83df76c4146aa982ed606e4a17"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/osm-way-984083824.osm",
+      "bytes": 3963,
+      "sha256": "2f804a1dc507fd172b92cb55d39fabb0740297d996197ae603f8689ebb138785"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/sjosett.html",
+      "bytes": 46147,
+      "sha256": "cbe3fea362d2fdb4542185e02ab0b73873138e4b3a2e7f87f789e075936dd988"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/sondre-strandvei.json",
+      "bytes": 14680,
+      "sha256": "3fd644d60252c4ed3281ae9bdac26c58520a55bcb12dabaab54429d2ca43564d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Albykilen.json",
+      "bytes": 970,
+      "sha256": "58e62c9da2ea1aa0c77b3e3b34596dfd6742adf6a825982e21108d8f64063d63"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Buerstad.json",
+      "bytes": 575,
+      "sha256": "dd49cb53d779ac06a0b3d9512d9418331debacfbc720ef6eb151c4849a3f221f"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Grimestad.json",
+      "bytes": 2137,
+      "sha256": "2eedd741213aab0098267ec80c7496c5d27ffaba000f535c52b64ef78dc371bd"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Gåsøy.json",
+      "bytes": 3380,
+      "sha256": "0fe751c0e31e9921374c34dcd7e8bd8e427dee1d501da2edaf19308037bb1811"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Hagakilen.json",
+      "bytes": 582,
+      "sha256": "a8fa2e5f0f8bc29cfe76e325f00db20578c77bf33ead85b3aa760d00cd46a2c3"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Hella.json",
+      "bytes": 3341,
+      "sha256": "81be35ea68349f26c29fc884541af8592da131b4a373c6938b1a818731a7ae92"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Holtane.json",
+      "bytes": 3297,
+      "sha256": "bd011ef92b85214022562e7cb7714ce439300921a0c639c38a56a0bd91d639b7"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Jensesundet.json",
+      "bytes": 180,
+      "sha256": "6d84b17cffb6337e2c10170d65f7a6903ac924c45f2173c9be4652d3c30cab0b"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Kjøpmannskjær.json",
+      "bytes": 1014,
+      "sha256": "e6c18657cc02d17a236a797bd4413040808e22029907cfc905ab87fc5fd923fe"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Sundene.json",
+      "bytes": 557,
+      "sha256": "6dfbe7877ae3ecd89da94bfc4de66fe77cd93f5058c28b814fed38cc8f08781b"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Tangen.json",
+      "bytes": 3289,
+      "sha256": "54188ad6a499af6a6280e069a644e94d64805a05a80cc567bbc0a99471be996d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-Tenvik.json",
+      "bytes": 1315,
+      "sha256": "82cb762b65af6415b1c2e7e9695461e9407bb9b5d843fe6fd1a0c829c82eaf09"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-full-Grimestad.json",
+      "bytes": 2124,
+      "sha256": "f4ef97a046b51c1a7c9ab99553730e9f583a560659f3c3e0f60104c158eb1a0b"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-full-Hella.json",
+      "bytes": 40232,
+      "sha256": "b7f5b97855cd6a8d1991aa11c4cf386e8e16c99c9a344fe8691fbdcbe3673e0c"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/stedsnavn-full-Holtane.json",
+      "bytes": 31655,
+      "sha256": "6183fd8350a0f38b2a138812de510c210f4c1aa95985d93651ccd1e2cb54f82b"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/sundene-export.json",
+      "bytes": 443,
+      "sha256": "5857973f946acb63b310c5cbdeea92796cf3a3430f54f3d7baa3e00e087ef7db"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/tangen-export.json",
+      "bytes": 442,
+      "sha256": "f211dce8f04e112fa5d873fa099cd044c9a6fbd9a467210b21ac780118edd195"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/veierland-export.json",
+      "bytes": 442,
+      "sha256": "6436f0c676b7a863f1716f991542e9f54f6e97874e24a965ae6d549269e89a02"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/vestgarden-export.json",
+      "bytes": 419,
+      "sha256": "76ee9bfbacb77d3df6e276ee28b64311f1fccc7f3734ceca9b9cf1c06c2be1d1"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/vestskogen-nord-export.json",
+      "bytes": 423,
+      "sha256": "1b0449118556e75f78e8ba05981de21f1e8bbd54a533a3e199a10998e2fa32f1"
+    },
+    {
+      "path": "archive/original/faerder-pilot/raw/vestskogen-sor-export.json",
+      "bytes": 443,
+      "sha256": "da313cc8ef06c8054910c269b4656801866b202066d2793bb6be518bc02a97bc"
+    },
+    {
+      "path": "archive/original/faerder-pilot/remaining-maps.json",
+      "bytes": 1088,
+      "sha256": "a556a8eb64d63e056111ef9d59ed634a30390de2d212465467b777ddcc982c13"
+    },
+    {
+      "path": "archive/original/faerder-pilot/scan-maps.json",
+      "bytes": 11223,
+      "sha256": "43b44cd36f408aaeb763e56de35d548f78afcc59faa6a95f9e446c7f3f546a70"
+    },
+    {
+      "path": "archive/original/faerder-pilot/scan-order.json",
+      "bytes": 874,
+      "sha256": "df1a0db2849a6979694881f4a0e7483c9902a749748c8e336575fa2292c56c9d"
+    },
+    {
+      "path": "archive/original/faerder-pilot/summary.json",
+      "bytes": 189,
+      "sha256": "039aaaca888cf4d8b07bbc178f144d35d2b33dc8d37b9c5d2adba20259730588"
+    },
+    {
+      "path": "archive/original/faerder-pilot/tangen-map.json",
+      "bytes": 191,
+      "sha256": "25a2c082e1a4a11f8a0955b4dceb4f37bf8673a71411411e0f2751f0da8d8daf"
+    },
+    {
+      "path": "archive/original/faerder-pilot/timing.json",
+      "bytes": 1119,
+      "sha256": "f93128af24193c95583d9f902ca1d77ad673e1ed8b0c03b5693440700b006a0e"
+    },
+    {
+      "path": "archive/original/faerder-pilot/vestskogen-maps.json",
+      "bytes": 397,
+      "sha256": "b3a266047fd4d289a127eb1026a617126cbc8a856ce828f923676a27a4a315b4"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/REPRODUKSJON.txt",
+      "bytes": 680,
+      "sha256": "954db0023878a04bd472cd90fb74917dee8a3c6afee858fe1662dbdfb1c1882c"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/additional-maps.json",
+      "bytes": 846,
+      "sha256": "10d341221c37ed9dc294655d57dcfd59bbd075d6f5378cedf1a213e7ee45d507"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/bathavner-alle-forslag.geojson",
+      "bytes": 35079,
+      "sha256": "0072f66c43f58220afacac0404bfcae4122f218c13d44b15d5106f1dafb3cf2f"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/bathavner-kart-og-kilde.geojson",
+      "bytes": 21030,
+      "sha256": "e340617304c126e57b017d3fdf24fa00cb5af519108e500dfd1f4c25780a040b"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/bathavner-ma-avklares.geojson",
+      "bytes": 14103,
+      "sha256": "20eeca637ac8888ec6eba56b2bcf70fe54fd868d8e0649c77f0f18e4fa065b61"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/bildemanifest.json",
+      "bytes": 39857,
+      "sha256": "13609878f5fc293cdd66109a921525d881f07546ec8c4823bcd430058fe39b1f"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/build_dataset.py",
+      "bytes": 8244,
+      "sha256": "7ccbf14944ded8ffc5f8db6da249fc42b16487f2a82b163151523aa2ed2a0b43"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/build_viewer.py",
+      "bytes": 2460,
+      "sha256": "5d9e178794d3c7421513f74d524ff280ee58e9fd5e18d40021e878dc41ab4233"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/dekningsruter.geojson",
+      "bytes": 468185,
+      "sha256": "3d0dc39a91c14b41aaf8d1cbbfe20b52abf5ecb00dfddb5a53f2a541548c3ec8"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/detail-maps.json",
+      "bytes": 426,
+      "sha256": "9985fe183b224a1cbcb8b88884272779f3c8588f132893173a06e8c63aaba758"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/digitization.json",
+      "bytes": 4879,
+      "sha256": "b0f8f09aa66ffb6c10c19fdd6ccb9fb4d72642d2d2dae539ebd4464dd14a0237"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/fetch_maps.py",
+      "bytes": 2199,
+      "sha256": "6065adfcd23ca61cd90bf844b839300aaf006bae43d4876cfc8b7ed4a7110027"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/havneoversikt.csv",
+      "bytes": 1390,
+      "sha256": "e4583aa4701ec0dd8651622685f1f859e8135859657c03da0e0e900831bb19eb"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/holmestrand-kart.html",
+      "bytes": 9271354,
+      "sha256": "9d8388cff8ee715daafa0c756ce1cfd3d119b83e6a36dd2d9401186843a91320"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/initial-maps.json",
+      "bytes": 527,
+      "sha256": "c5ba5e891df0a831e1c457f74358432a9ecdf2ed2695da9cd0d0bd393014f1e7"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/inland-maps.json",
+      "bytes": 143,
+      "sha256": "f9b7c2cc25a2f652b92501bf71a44298370c76aee4c3eb67d28c3d071f3e1dab"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/kartoversikt.png",
+      "bytes": 945319,
+      "sha256": "ae4aa3410090d95b340796cf5fa78744e2d31f5f2c87b059b52c67c655d1b7c2"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/kommunegrense.geojson",
+      "bytes": 190984,
+      "sha256": "35997e19d2d16064d47c788018ed9765fe39c8eb6912f5ea20e33c306ec3280d"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/kvalitetskontroll.json",
+      "bytes": 3018,
+      "sha256": "eb633d6720ae7738cfb604a6b250963c20235cbaef9554b75bf6bcec06d6d5f9"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/oppfolgingspunkter.geojson",
+      "bytes": 2580,
+      "sha256": "b1afe1be0dd508e5ade48dab6b246c99295624f69834046c3b767beb5218f42c"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/osm-kandidater.geojson",
+      "bytes": 15886,
+      "sha256": "fa3f2992a296e3fd2bffd60024a231d7a64eefdc2a96289d493749526a86d2b6"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/osm-uttrekk.json",
+      "bytes": 1517,
+      "sha256": "e4ac0bb12b90e4e18d2767b991ae66242008a14f5121c73800d521d92dc7d7fa"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/rapport.txt",
+      "bytes": 7175,
+      "sha256": "b11fb7765ef92a1c422385f4367ab16f78ac7bdee1bf4175620a71961e47b72b"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/holmbrygge.html",
+      "bytes": 6042,
+      "sha256": "6d13f7ae23cc9a57975e61998d1c4c4ebea80d040ec3a46876df797000057c8b"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/kolabann.html",
+      "bytes": 67597,
+      "sha256": "f611b15f17103c63bc4a01cd5f895082ad69097b3b3316cf5d3437885eec297d"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/kommune.json",
+      "bytes": 730,
+      "sha256": "07f3612e8a9e1fbce89df26802b210a0e00a4f60c04318f94e72f6779da1fe39"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/kommunegrense-response.json",
+      "bytes": 181583,
+      "sha256": "5f803a47e7eae7ac23e249b25bcf27d6895ef807b79ac8d17672b6a684613be7"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/kommuneinfo-openapi.json",
+      "bytes": 17552,
+      "sha256": "cb0b69f0012d0631fd936ad4c32dc1698ec5dac6ac802a4ae0d2e00c70a51096"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/njb.html",
+      "bytes": 154736,
+      "sha256": "b4fe458b7d73b5ce4f31ae32fd74730d90083189a4318e1c8eb726f6915364f3"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/ortofoto-capabilities.xml",
+      "bytes": 407,
+      "sha256": "c337e30b7cb4c852ca081d0291512c99851c2ad308d4a30d959c12c919f5d0d0"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-bekkestranda-detail.osm",
+      "bytes": 946171,
+      "sha256": "7c179defc864227e6616fad4f3c2e0eb1a8390a343c7a6f52164f68915bfbff8"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-bjerkoya-vest-detail.osm",
+      "bytes": 1130917,
+      "sha256": "7583a06c11a92fa19ddfa309f6510455593a5c219e90ff76df7e63bc0d570876"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-bjerkoya.osm",
+      "bytes": 2656011,
+      "sha256": "00f640be38e49821deac61dfba90d0c4c1d7d8e6c25214e5132729f0fda6da14"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-eidsfoss.osm",
+      "bytes": 2163720,
+      "sha256": "b2bf073f477bedb891543f63dcb71effebb0059c6aac09245147eab6e61b809a"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-holm-detail.osm",
+      "bytes": 815856,
+      "sha256": "1b0b1e040e393f598c9179714d59e0c08e4cb2a39c96270146cf215b58fc8f87"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-njb.osm",
+      "bytes": 2729454,
+      "sha256": "025f0a72f10612e292726b34a5ac02ba737b8018131612140257c65f2a8c2761"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-sandvika-detail.osm",
+      "bytes": 750345,
+      "sha256": "978b0deab93e4b70cec3ab5f2fa7f7031d0c16709ada9ce2d3c7e4b5a99b1d2a"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/osm-sentrum.osm",
+      "bytes": 7579995,
+      "sha256": "4c0205457bbf4ee3587b47913d919fdbfeef9cd3579ae5375a6845bbccb89a4d"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/overpass-query.txt",
+      "bytes": 242,
+      "sha256": "98ad34ecb2a33df7741e29314930522a310d8008bbbc799750db9f1323487e23"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/rydningen-brreg.json",
+      "bytes": 1294,
+      "sha256": "14792a307914e0935f35fed65cf1c75c1df8a18252808c9fb92ad2e2a687a231"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/rydningen-stedsnavn.json",
+      "bytes": 155,
+      "sha256": "2bc45fbc7b65b2a867b603551a279f3c1ddf695b563bbf9afeb8e3d9560489c2"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/thorrud-address.json",
+      "bytes": 1148,
+      "sha256": "db85ffddc4efff54ce1245f5cb677b64b3e109ff8aa7f4c67cc35ba4f59274ac"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/thorrud.html",
+      "bytes": 59616,
+      "sha256": "9cbeeadd728d3dfdb5daa9481d68d35bbff2a3bc175c32b9647b8a9df472b2a9"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/raw/topo-capabilities.xml",
+      "bytes": 305489,
+      "sha256": "de8f6cdc72ea8c5f3878816bb8e507a9f2a868d7fbbb56c66083632cce5a3a97"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/requirements.txt",
+      "bytes": 56,
+      "sha256": "273bf0aaf2f6ab95ebfc422aa6fa830160663fb1d79f341cafaab424b49ee62e"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/scan-maps.json",
+      "bytes": 9688,
+      "sha256": "8a48f13f00211bea2c2829167f68d183f698c18950754f9fb17a0ed999f11fbc"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/viewer-check.json",
+      "bytes": 1045,
+      "sha256": "2e94c91b16045f4a0f0a04832cb97f8f34b1a36fa432004699ab3de196ded2de"
+    },
+    {
+      "path": "archive/original/holmestrand-pilot/viewer-template.html",
+      "bytes": 12347,
+      "sha256": "31ea4c4ed40eea66141b31c31d2620146b05daddf4e75d98a90f9c842422f246"
+    },
+    {
+      "path": "archive/original/horten-pilot/REPRODUKSJON.txt",
+      "bytes": 415,
+      "sha256": "ba6a73da6cfd4bbf54812bf719873b872afe6d37cbcd121f9ccf1eb858907319"
+    },
+    {
+      "path": "archive/original/horten-pilot/additional-maps.json",
+      "bytes": 416,
+      "sha256": "0736eae9cd49ce0e38cf3f948b7277ebc29eaa4c2f795688f7adf5c724a05d0f"
+    },
+    {
+      "path": "archive/original/horten-pilot/bank-maps.json",
+      "bytes": 148,
+      "sha256": "7420f3d7fdf926c0664bc4b6f45d9508da0170c78c7c2307e4bb273ef008aded"
+    },
+    {
+      "path": "archive/original/horten-pilot/bathavner-alle-forslag.geojson",
+      "bytes": 37042,
+      "sha256": "18a9dd1b99412c4b51680700dce400ede3627e7e509a8c6bb0d65c537fa7936a"
+    },
+    {
+      "path": "archive/original/horten-pilot/bathavner-kart-og-kilde.geojson",
+      "bytes": 32633,
+      "sha256": "1d1a1644cd84c38e54333afe8132529cbcf701f61d97c676d13aa031a5a3d088"
+    },
+    {
+      "path": "archive/original/horten-pilot/bathavner-ma-avklares.geojson",
+      "bytes": 4463,
+      "sha256": "14393d105922dddc3a08e88a1e8282b523e4db7525014be3fba33e2091ece37e"
+    },
+    {
+      "path": "archive/original/horten-pilot/bildemanifest.json",
+      "bytes": 18391,
+      "sha256": "c73e5f0488ca3aba0385a9e728a47134e6cf5c24a32597730ee34c136b7d8cc3"
+    },
+    {
+      "path": "archive/original/horten-pilot/build_dataset.py",
+      "bytes": 6868,
+      "sha256": "73fdfb20d54c122555cae25877d2eb3f3c413c7ac148d9b8d7f8e28e1ed29378"
+    },
+    {
+      "path": "archive/original/horten-pilot/build_viewer.py",
+      "bytes": 2443,
+      "sha256": "8a4fc6f75c1ea1210184b2b35f0f59420ed1c7b60377827295b0669698f0921a"
+    },
+    {
+      "path": "archive/original/horten-pilot/dekningsruter.geojson",
+      "bytes": 215283,
+      "sha256": "83e19145a384bd60fd296edd8207f4dbd8e64c5532c81627570efa875a6ab6e9"
+    },
+    {
+      "path": "archive/original/horten-pilot/detail-maps.json",
+      "bytes": 845,
+      "sha256": "ad2c6518de669906868427f26924418da8c6e978c5166e80cc6187d9da3d33a4"
+    },
+    {
+      "path": "archive/original/horten-pilot/digitization.json",
+      "bytes": 11150,
+      "sha256": "23cc12f11441597ffa2da7449e36bb4f8a9b0ec66c0dfdff3991912aaec5d607"
+    },
+    {
+      "path": "archive/original/horten-pilot/ekskluderte-kandidater.json",
+      "bytes": 567,
+      "sha256": "4c02121f9d94555a75d6a211bc92fbcb17c0284d49462183829d717672c81313"
+    },
+    {
+      "path": "archive/original/horten-pilot/fetch_maps.py",
+      "bytes": 2199,
+      "sha256": "6065adfcd23ca61cd90bf844b839300aaf006bae43d4876cfc8b7ed4a7110027"
+    },
+    {
+      "path": "archive/original/horten-pilot/fyllinga-maps.json",
+      "bytes": 137,
+      "sha256": "d5a77ff8ac12fcb55617cd71fd08057abbddadbe7e8f70a5cb7d34a070fa7b67"
+    },
+    {
+      "path": "archive/original/horten-pilot/havneoversikt.csv",
+      "bytes": 1388,
+      "sha256": "725503ef2427a80b9601f01e8d8ebfe9ea5f8a777cf1bf5c77734d194f3a3f9b"
+    },
+    {
+      "path": "archive/original/horten-pilot/horten-kart.html",
+      "bytes": 8330047,
+      "sha256": "42728937323db39bb5d6155cfaf39325b9045fdee60c38a73caea127e92fdbf5"
+    },
+    {
+      "path": "archive/original/horten-pilot/hortenhavn-poi.json",
+      "bytes": 10627,
+      "sha256": "21305ed374a015c9d9f762ba4d339b48fba79f76c118bf3cb296ea6cf4f284f1"
+    },
+    {
+      "path": "archive/original/horten-pilot/initial-maps.json",
+      "bytes": 102,
+      "sha256": "ae8bddd9362ded59964dd1a95f84de00e886c9a6a66fff51d1cab258ae367928"
+    },
+    {
+      "path": "archive/original/horten-pilot/kartoversikt.png",
+      "bytes": 613819,
+      "sha256": "42a267c8824394b160beba3952a5834b973ffac9c829aea5ee8f00e90814670b"
+    },
+    {
+      "path": "archive/original/horten-pilot/kommunegrense.geojson",
+      "bytes": 123538,
+      "sha256": "73dcc0ff8db938376b5c24975643099c432e1b77d6135c2e0c56530a5dee9b3a"
+    },
+    {
+      "path": "archive/original/horten-pilot/kvalitetskontroll.json",
+      "bytes": 3322,
+      "sha256": "5df99c528082382a598567c5a87f713a3bcbd5eb64cba7dc684e5800a565dfce"
+    },
+    {
+      "path": "archive/original/horten-pilot/make_digitization.py",
+      "bytes": 4499,
+      "sha256": "f68a5add62ab664c9759bc43c1b2332beaccf8d266aefb1c18a750aa9e6bcbcf"
+    },
+    {
+      "path": "archive/original/horten-pilot/noatun-maps.json",
+      "bytes": 142,
+      "sha256": "15465d3e4e30fd38877038c1a7367f245f1f32becd414b162a17d33f1f4bcafe"
+    },
+    {
+      "path": "archive/original/horten-pilot/oppfolgingspunkter.geojson",
+      "bytes": 2285,
+      "sha256": "4f96b865f5feeec3d37dabfaa74e1973fa88a6729abaea6b028e94c6fd93b8b3"
+    },
+    {
+      "path": "archive/original/horten-pilot/osm-candidates.json",
+      "bytes": 7631,
+      "sha256": "b4a70e6e86ee4d911ab5aaff3f2416ec98246a800f56ca1cc1dd314259bc69fd"
+    },
+    {
+      "path": "archive/original/horten-pilot/rapport.txt",
+      "bytes": 5725,
+      "sha256": "89db32acb8ddfbed7b42d0408be6f4328b0fc157d99453a0021179fc66839eb6"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/banklokka.html",
+      "bytes": 42989,
+      "sha256": "a458bd45ea821d8420585a1b469730ea4811aca3bd6329f94e73aa909f8e0459"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/havneoversikt.html",
+      "bytes": 35058,
+      "sha256": "0b8ced57c3804161695787bbe94214e8c86474654db249ba639fbc02e989012a"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/kart.html",
+      "bytes": 43598,
+      "sha256": "9c602b9f59f7a9fa6b36dd06c0252a4bbf58c7a5209d14ad0d6066e8334ea9bb"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/kommune.json",
+      "bytes": 716,
+      "sha256": "c4311696fcbdfa691a401cbbe006070379b945843aa4a7f9ea8bd6af6a5a32f6"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/kommunegrense-response.json",
+      "bytes": 117463,
+      "sha256": "745eddc7960a8b74122ae223cad21c5dc59ab38427e656fb4f0cc6c7a0331151"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/osm-asgardstrand.osm",
+      "bytes": 5112973,
+      "sha256": "5e46eec7264c1fa4b86ca9778ac96e3f3bdefdb85b787df90ca2fb2c6c90ad8e"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/osm-borre.osm",
+      "bytes": 6232691,
+      "sha256": "566e1968fdd928e5eb3f5caab367063c461151816714bfce21fd1e22bfa871d8"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/osm-horten-ost.osm",
+      "bytes": 1008828,
+      "sha256": "d94295f98d21637ca25a654216635500a4899caa09a0f1e9f4d4d7bcf3243d61"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/osm-horten-vest-nord.osm",
+      "bytes": 1147546,
+      "sha256": "908cdf7a408fb31c932fc84c82b02f9d7ca26bab7d031782d8e9df17f2a7e899"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/osm-nord.osm",
+      "bytes": 9692140,
+      "sha256": "f9011b045c9ab6bc9f9d5051293b2c64b32ba28a91d49c47282b1847f33a46a5"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/sykehus.html",
+      "bytes": 45433,
+      "sha256": "fd775bc44b84c8843f89d0cc6bfeef539e1e66d195ac678e55d0e861a676c230"
+    },
+    {
+      "path": "archive/original/horten-pilot/raw/vale-kommunesjekk.json",
+      "bytes": 97,
+      "sha256": "0f8a4fa4dcbf4cc94abe7b695a1a691293706ac4b3f2c32b4448722690625105"
+    },
+    {
+      "path": "archive/original/horten-pilot/requirements.txt",
+      "bytes": 56,
+      "sha256": "273bf0aaf2f6ab95ebfc422aa6fa830160663fb1d79f341cafaab424b49ee62e"
+    },
+    {
+      "path": "archive/original/horten-pilot/scan-maps.json",
+      "bytes": 3324,
+      "sha256": "f1b99b0d180c88fdc00e76c5199f29f30fe07f1ed8030c8bf8eca565e853aec1"
+    },
+    {
+      "path": "archive/original/horten-pilot/suppleringsfunn-holmestrand.geojson",
+      "bytes": 1159,
+      "sha256": "cbbfb38eb0a95ce767754ceaecf1dae6d90b498242c236ac9656bcf0bc55e6a1"
+    },
+    {
+      "path": "archive/original/horten-pilot/tidsestimat.txt",
+      "bytes": 1223,
+      "sha256": "d702815f37f393df7d7a863bf2d33314efb56a7a3f15848c04767fb28c6b449a"
+    },
+    {
+      "path": "archive/original/horten-pilot/tidtaking.json",
+      "bytes": 1960,
+      "sha256": "372ddc3a8b70cb072870114a2de893285fc27bd91ad61c0e3302218eb087ded5"
+    },
+    {
+      "path": "archive/original/horten-pilot/viewer-check.json",
+      "bytes": 1166,
+      "sha256": "801b31eb5aff10fe338420e32dbb1864ecc502f2c6120047a798f60f63eaa80c"
+    },
+    {
+      "path": "archive/original/horten-pilot/viewer-template.html",
+      "bytes": 12409,
+      "sha256": "eb37fd3015a58e1bd7bba0a52ef3c5c386abfcfb1fbc5943a1dc2b4c18ececc0"
+    },
+    {
+      "path": "archive/original/horten-pilot/west-maps.json",
+      "bytes": 141,
+      "sha256": "b2651c4e2a9b771790da407437410e3113833cf322f645b80efb75f7fcbffe63"
+    },
+    {
+      "path": "archive/original/larvik-pilot/build_dataset.py",
+      "bytes": 5484,
+      "sha256": "d137bcb552f5d635b6afe81afd3e4143164a7cddade8d065e69212446c9fa0dd"
+    },
+    {
+      "path": "archive/original/larvik-pilot/candidate-ledger.csv",
+      "bytes": 17131,
+      "sha256": "1c3835820eb0b7516ca2f1d3dff4eb965fe347e9f16e8d67882b28887944ab39"
+    },
+    {
+      "path": "archive/original/larvik-pilot/candidate-ledger.json",
+      "bytes": 23845,
+      "sha256": "419f8b04a4ecd1c9bda4c8cc6679bfbd555a0f43e086af7ad7385fb6f11207c0"
+    },
+    {
+      "path": "archive/original/larvik-pilot/coast-esri.json",
+      "bytes": 3152,
+      "sha256": "3b712dcdc7a38ede6c8a309dcc6df9c27c3b15409f605f0662775b90e01d2944"
+    },
+    {
+      "path": "archive/original/larvik-pilot/contact.py",
+      "bytes": 890,
+      "sha256": "c08fad7b2dd6ad74701b0e9e6e60089410f449777379661b34d0978090af59e3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/coverage.json",
+      "bytes": 117001,
+      "sha256": "a19218a881ee1fd1be47e67b3c495e3b04557d7caad635855a69b31ad4314aef"
+    },
+    {
+      "path": "archive/original/larvik-pilot/detail.json",
+      "bytes": 3522,
+      "sha256": "0af3cbd764056f5675763e09a826ad938075113f6a4fb1cbeab07c17affa6ab5"
+    },
+    {
+      "path": "archive/original/larvik-pilot/digitize.py",
+      "bytes": 17361,
+      "sha256": "1beea00ea4a6dcac14173739c4b1b2d4e0b803bb814d3cd28425c5d50ed04c52"
+    },
+    {
+      "path": "archive/original/larvik-pilot/extra_contact.py",
+      "bytes": 783,
+      "sha256": "abe2f4de837054f1182f7ef2aeef907c507011fa54fe56634468cbb6c5b9d439"
+    },
+    {
+      "path": "archive/original/larvik-pilot/extras.json",
+      "bytes": 1335,
+      "sha256": "79ee3c3d48ea5784f72195d0fa9f17981be7ea06b8a038f83844439368981660"
+    },
+    {
+      "path": "archive/original/larvik-pilot/fetch_images.py",
+      "bytes": 2788,
+      "sha256": "61520fa76093b632ffd2384a484a552408a2ad28fdf0d249ca5d892d2f7a3c1d"
+    },
+    {
+      "path": "archive/original/larvik-pilot/finalize.py",
+      "bytes": 11404,
+      "sha256": "babdd3c82700ac1ddaea5da3311b71dddad263694e174cc59012a5bc650e5c95"
+    },
+    {
+      "path": "archive/original/larvik-pilot/kommunegrense.geojson",
+      "bytes": 161226,
+      "sha256": "de226faee803559fb3301eedb0cebd73c146057eb1c3915cbfeeac82162be975"
+    },
+    {
+      "path": "archive/original/larvik-pilot/lake-overview.json",
+      "bytes": 102,
+      "sha256": "8909ec390bfaa6e9ac1a5e60c310d217d5a9c7db7ac9248774e92a8dc4fa02d2"
+    },
+    {
+      "path": "archive/original/larvik-pilot/larvik-bathavner.geojson",
+      "bytes": 122255,
+      "sha256": "bfcab21223c1249666acfb247b23419a6b138f727d7ec2133e6381dccef6df42"
+    },
+    {
+      "path": "archive/original/larvik-pilot/larvik-metadata.csv",
+      "bytes": 38303,
+      "sha256": "a3ef9b2e7ef94e49b29627bef553ec631fee35bf834fe17763fa9f661756fe05"
+    },
+    {
+      "path": "archive/original/larvik-pilot/last-extras.json",
+      "bytes": 775,
+      "sha256": "de5567ceb4955be957f1034ae4b7bcdfca6bb6e432f98edbd9478b560ebf8b64"
+    },
+    {
+      "path": "archive/original/larvik-pilot/manual-digitization.json",
+      "bytes": 43287,
+      "sha256": "214b762c06fb9c7bbe8bd3daee9d1b7ae5a0eb090edac03e79aef132127d496d"
+    },
+    {
+      "path": "archive/original/larvik-pilot/more-extras.json",
+      "bytes": 1719,
+      "sha256": "0cf633fac2edef493a150dd528b7176f22d03d71dd2d0452365a7643a7cd562f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/more_seeds.py",
+      "bytes": 1409,
+      "sha256": "5c3530a39a34ae74e71070c7bac15c8933d0e142d78384eac9d291898742b8ca"
+    },
+    {
+      "path": "archive/original/larvik-pilot/osm-candidates.json",
+      "bytes": 7375,
+      "sha256": "69584e189af0f537295b580acf514d5357230a5024ca8be2caeaeb29dd2ce4fb"
+    },
+    {
+      "path": "archive/original/larvik-pilot/overlap-issues.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "archive/original/larvik-pilot/overview.json",
+      "bytes": 95,
+      "sha256": "f08dffd9489599c5e0164bc2025154df8e90393be5ade18006d166de2439d747"
+    },
+    {
+      "path": "archive/original/larvik-pilot/prepare.py",
+      "bytes": 1912,
+      "sha256": "c5ecbf8589e15f8c2ae0c1c8ce00dd6e00182a307b38e42925d78232e8273cdc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/qa.py",
+      "bytes": 1233,
+      "sha256": "21d588b4cf56612064238447bf4cfe792faa937b835d9645f5ae8c6d3ab95ad2"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-0-0-export.json",
+      "bytes": 440,
+      "sha256": "5de49838f4ddf68b4ad3da5f765359f2820c51108ff9d01fce13fa8a34fa3a9c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-0-1-export.json",
+      "bytes": 440,
+      "sha256": "992e86c1a865fd334fa717140403e10eaac6e214ec30b94b29cc8cb41f8bee34"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-0-2-export.json",
+      "bytes": 440,
+      "sha256": "7642286e0c53fab376906fffbfd4ebadceefbae285bbfea3db2715aac29df68a"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-1-0-export.json",
+      "bytes": 440,
+      "sha256": "4a0290acd88d3eb9ebad2936cf8fb2d9cbceb53f817bdbf5989e08876c9c0521"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-1-1-export.json",
+      "bytes": 440,
+      "sha256": "99ccc001d7d37ef70e6126a18aed258bd55cbda670b69a756b035e2b087dbd04"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-1-2-export.json",
+      "bytes": 440,
+      "sha256": "318c522efb3c3d7cf9ac8ccd929a652a25ba44b517fc8aa01d1f58b059686c07"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-2-0-export.json",
+      "bytes": 440,
+      "sha256": "59b9f9e58c6d0b4dec09a9985c6c53347e9d0eb2dec4b139c386a53a3275c9c3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-2-2-export.json",
+      "bytes": 440,
+      "sha256": "9372902c5d412f0228895df3a1d28eac1113e21ec06fdd2bc54eecfb50c36e8f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-2-3-export.json",
+      "bytes": 440,
+      "sha256": "32350606a1434293fe0113eb702c0cd215f616fcaaf19defcf8d8acdd7d8b61b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-3-0-export.json",
+      "bytes": 440,
+      "sha256": "ca6fbf6dcffc305ffe96f19ddc9a15bad78982a989e27a877ea0fe32695f2f03"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-3-1-export.json",
+      "bytes": 440,
+      "sha256": "ea5320d72081d216fdc5d3a80ed7cdbfa8eec1e7a0a848143c949d76bde76c8c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-3-2-export.json",
+      "bytes": 440,
+      "sha256": "9a0d68194532447fd546fadb028d27e06c38bbe138f6811022cdd7d669421557"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-3-3-export.json",
+      "bytes": 440,
+      "sha256": "bc4455529b704c36a246d91e8eda9b2c41c848249b83a121519c7890b2f3919c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-4-1-export.json",
+      "bytes": 440,
+      "sha256": "95a0cc2694014548a058cbc4b632f00e850465ec887112cd40b02366e5077a48"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-4-2-export.json",
+      "bytes": 440,
+      "sha256": "9f455c833c3eb048e0aebfdc1804f30b7de1c66ed9640dacf2341c7587396a42"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-4-3-export.json",
+      "bytes": 440,
+      "sha256": "43283cd746ac03659f3f0a020ae8c603831807b6a40cb19e40ea71495648b89e"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-5-0-export.json",
+      "bytes": 440,
+      "sha256": "029e27a031a2948e93752980821a69215fb6f7e9f70cfd848dc8550cc710ecaa"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-5-1-export.json",
+      "bytes": 440,
+      "sha256": "92a1d9c49927f0f5496804ced8620a7a298b44af02228c4de3c7e6471eb8d1fc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-5-2-export.json",
+      "bytes": 440,
+      "sha256": "24e03e6448c6b479144d655726cbe20f30fd4acd61bfb685468fcb9a19458c4b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-6-1-export.json",
+      "bytes": 440,
+      "sha256": "8198dfcb4ddf1266403e9d16c36d907e7f2e3dc69b46a4989b40a54216113dc9"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/a-coast-6-2-export.json",
+      "bytes": 440,
+      "sha256": "558b6c705043c265bc654be37d3173556e22f7ef4371dfe95fa78f49a721711d"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/address-gopledal.json",
+      "bytes": 941,
+      "sha256": "20565c107ad0a2a1c792bc33646d75ef74e1106dde66e0d1724dcf4b8aff2d5c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/address-knoln.json",
+      "bytes": 944,
+      "sha256": "1cafaef11435c31ab8c3fc5681c04ae3105a21ec22234491366d6b3e27b94188"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/address-ovrelaagen.json",
+      "bytes": 3809,
+      "sha256": "58ac29d9e8a3fd519a702be97b79a3becb04fb9ea0937e29a23e4e54254fcd92"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/address-seilforening.json",
+      "bytes": 978,
+      "sha256": "c0a03a6b364e91d89bd702ba9b4cc4f0d5c301454557e45b1f4873238574f384"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/address-storehamn.json",
+      "bytes": 942,
+      "sha256": "4cc3c8384a14c30cb53cc847c84b6f5d3b2d5a49f44195ead646184bd2e284ed"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/agnes-export.json",
+      "bytes": 445,
+      "sha256": "f699287d3be8064bd16ace2151d491009e6a90dd54b58c8efb9c6e53d2d87831"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/agnes-havn-export.json",
+      "bytes": 441,
+      "sha256": "3629bce8fbb2582df708a8ee382ad03bf7827bbf45b8eb67b08be660573b003c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/agnes-sor-export.json",
+      "bytes": 443,
+      "sha256": "4d06129588bf4f976d92e1c173b440ed74cf04d66c25932a92bcf478526c7fbd"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/arcgis-search.json",
+      "bytes": 58,
+      "sha256": "b8de9b56529e927c85936ada5477e3fb2b6074f9ed709ef423d16e5b19b11d55"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/auen-barkevik-export.json",
+      "bytes": 443,
+      "sha256": "5c52ca26e9cf0d366638db3b64f621772ebeccd1ebb66585756f5d11c28c3645"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/barkvik-export.json",
+      "bytes": 441,
+      "sha256": "36106194b748631e7d4b12a63abc235a22cfe81b379b3c8cfccfafcade899277"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/bjonnes-export.json",
+      "bytes": 443,
+      "sha256": "0746bcfbb8de3d796cd5be46007ebc37acadcad65a00b8b0801b905cf78a1552"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/candidate-links.json",
+      "bytes": 2073,
+      "sha256": "27ad9de43f7cc654dfcd63b49cf1c7ea435453fc928526e0e58ca0529d3a416d"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/farris-bf-export.json",
+      "bytes": 443,
+      "sha256": "3bbc17071b80e8725440ebfd84b374e335898da347340659047170374fb20ce7"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/farris-east-export.json",
+      "bytes": 443,
+      "sha256": "96db9573e6e44c5c128a6590607f799cd7ba2f33d6fb807bd4b996e9af000b8c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/farris-gopledal-export.json",
+      "bytes": 441,
+      "sha256": "960ad6acb960c100cb9e56e6bfef9dfb185638a743c962cb640e539ecd2ceda3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/farris-kilen-export.json",
+      "bytes": 443,
+      "sha256": "11df6c425ad18574a8175e2ed80fde6817fc965aa9fa802355a22eef2c8e7937"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/farris-sor-export.json",
+      "bytes": 441,
+      "sha256": "1b5935e7e18c1048fcb445b73163e1636435045e9b8546cdbc77324a6576aeed"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/fritzoe-export.json",
+      "bytes": 445,
+      "sha256": "d4e3bd390c4199af4cdf1241f609b9c1744a965c91fa03696fbb97c5edf0a977"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/gopledal-export.json",
+      "bytes": 439,
+      "sha256": "6e7b16c487acb1aa8708e23179f2469afede54134b335a21f39d7c1e04e19303"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/gusland-export.json",
+      "bytes": 443,
+      "sha256": "a10d1cc6e57d653825f367a27e9b9063e44c1f3cab6bd20bd8ac0672c4cc85a3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/kaupang-export.json",
+      "bytes": 443,
+      "sha256": "3326166eb0a79da9124adfed3c57243f5d3483806ee22c6a7b3f2bab536f5b35"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/knoln-export.json",
+      "bytes": 443,
+      "sha256": "add1f8d8dafff142dfd68664af375ba81e96416114d5445e465f330857fafef6"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/kommune.json",
+      "bytes": 715,
+      "sha256": "7e3b0ae0375cd69f46f4561ddc2b5d73e74019b9ad519aba5771f51d2e234568"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/kommunegrense-response.json",
+      "bytes": 153210,
+      "sha256": "501505004e0d5bdf4c1f932e3ad3c03ea5873446f4e662e2f9e94ba856ced70f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/name-Fiskerneset.json",
+      "bytes": 582,
+      "sha256": "a03cea506d148458161b067785da6b092683ab423cc3b81a7c4af045d178840b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/name-Gopledalsbukta.json",
+      "bytes": 183,
+      "sha256": "547d4ff8c2603ae9cafdaf85c0164ffc3f197c626a1f26aa271a87d4438a6ed8"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/name-Lille-Ranvika.json",
+      "bytes": 182,
+      "sha256": "136be732e12c810e12cfe8f096a20ee146462def6038605fa4d646dd273742dc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/name-Storehamn.json",
+      "bytes": 988,
+      "sha256": "ae41e76c07608ece8859d650f4561f04cd39232fe5abcd1e082f053d3f7edd41"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/name-Svenner.json",
+      "bytes": 1396,
+      "sha256": "2c64b2dd8115646c256fbdc4cf2e4fe50d11fb7a5103f04d916914e7ad46d83e"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/naver-export.json",
+      "bytes": 443,
+      "sha256": "b67a798e4f3115e87e0437c2eb8c385c74d051f32ba687e5a146acc18e5eece3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/naver-ost-export.json",
+      "bytes": 443,
+      "sha256": "3734c19dce9d4ea09fe6d56013e116ef416b629551ad6dbde684300fb2ecc0ba"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/naver-vest-export.json",
+      "bytes": 443,
+      "sha256": "3cac5c1cb977839a90a903d5d8ee600370bba4586efa335299da7c2142b00136"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-1477952461.osm",
+      "bytes": 501,
+      "sha256": "924aac3d0e28dc8000f3ca67b8d3cbf92739b182c997caaa28091a76d9842f1f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-1477952462.osm",
+      "bytes": 600,
+      "sha256": "59c3b897e3322cb9cefd11c343a7ab412159faa4b6584d6f80b37778e8dd64eb"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-498319681.osm",
+      "bytes": 623,
+      "sha256": "06961948102daac815daba0c6350511d39a5299bbbf075b09a3398702585dfb4"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-498322540.osm",
+      "bytes": 623,
+      "sha256": "1a2e4f9128b2700bb478f59b7dbb678dee41d6d6eec03a43f44c3c4d819eda29"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107367928.osm",
+      "bytes": 627,
+      "sha256": "90a70933924564d191d44bd8706ea51f20d691ef4afe53d3f21b7708b055b87f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107367929.osm",
+      "bytes": 624,
+      "sha256": "3267b672aa4573e8df2b259dfa5c6908ccd53a98804a5ce4207cff8491653de9"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107367930.osm",
+      "bytes": 741,
+      "sha256": "632f0a8df31fcfacffd3eb1995093ac67d388e88f6a62e11400b828dfb9560b7"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107430963.osm",
+      "bytes": 624,
+      "sha256": "4673c37217e5bfa564e10f9834cc140386f9d849e068fdecec521b274d03693d"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107430964.osm",
+      "bytes": 624,
+      "sha256": "67d3e2f45ade5868e1d6a91548eb23112beaca0cd74b68a02364bd7ead880bf0"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107482984.osm",
+      "bytes": 700,
+      "sha256": "206e3345f3a6742484d0c8ed7287273b8855c7c3da469c2d7ada8db1698cae49"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107482985.osm",
+      "bytes": 681,
+      "sha256": "a47ae026835dd1a5f2ba915f2aae44ec562e5ed6505115c9cc39ac8ea582baaf"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107482986.osm",
+      "bytes": 829,
+      "sha256": "9bd4fdc783ce18d59d7b24f1cf9c505e8af5b6e316b974a4ac7f0d22b664bbc6"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107482987.osm",
+      "bytes": 624,
+      "sha256": "3c754be201619aa62d25b5b3d9094570e521ef370fe878a7be84b5b1afb3d886"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-node-5107482988.osm",
+      "bytes": 537,
+      "sha256": "9265233bde1a380fb5cc62d55255e3855368efc46d61657232ed50868d415c87"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-way-108246714.osm",
+      "bytes": 2423,
+      "sha256": "e6f6ab98dc159f9406a34d03c5fc3e32530cb2ae2e69f617c2cf939d1355cede"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-way-108257655.osm",
+      "bytes": 9492,
+      "sha256": "cd5e7fa63763ecdebbe6d42c431978f51083fb418fa5dc8f7be8e460c8a0d088"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-way-135450559.osm",
+      "bytes": 6663,
+      "sha256": "58cb47f329d43bd6a9229717a282393c247568a65f6f1bde9900cfa82a06da50"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-way-163116818.osm",
+      "bytes": 2981,
+      "sha256": "d4154eea6dc8bec4269ff4fc45af00e8968c196a80709fc2580f296c65a3b469"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/osm-way-272287098.osm",
+      "bytes": 3992,
+      "sha256": "204f2ed3df001cf5f1d0c52bdb194cc7d284d7173a326c9ee123376546fdb9cc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p00-export.json",
+      "bytes": 443,
+      "sha256": "f9eeb8cd87d5c0e7c2812bc5bd15ae631b8332f5c0fba4e815116690ac2aa63e"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p01-export.json",
+      "bytes": 443,
+      "sha256": "f9259843298d0959cd6b151a2dba1c8af6f876e8420a65b86d26c11086fd3db8"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p02-export.json",
+      "bytes": 443,
+      "sha256": "5f78bed60e487a42b4e86c1a86f9b5ec928419e575711178f54ed0e6ec921b9c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p03-export.json",
+      "bytes": 443,
+      "sha256": "a54ccc3f512914cfdb95959811f5b3241feb34e614eb7c4f1e757b5eaf6253d8"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p04-export.json",
+      "bytes": 443,
+      "sha256": "49fd272eeb448cd2dffaa733ba32311674208b6d65f4d2dba48c493f9b37a72f"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p05-export.json",
+      "bytes": 443,
+      "sha256": "61c0ac52d05149e74dda0b34f5453a74256d3bdbae478fc64952f8b408e46463"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p06-export.json",
+      "bytes": 441,
+      "sha256": "38ad10e857affefadd3e8067f669d28ec7b32882caeb41da6096b4f215dedd8b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p07-export.json",
+      "bytes": 441,
+      "sha256": "08937d2b09346a64c8514217f51ac74eb9d4548a032ab1a56ce3e824b41c6b3b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p08-export.json",
+      "bytes": 443,
+      "sha256": "05445163e7cc57e5acbff972dfa6495ccb4ab695c8242960f82b3dca961cc75c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p09-export.json",
+      "bytes": 441,
+      "sha256": "61c726444756afd111008172d2e88c032122eb10a7c158f915334722ee42464b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p10-export.json",
+      "bytes": 441,
+      "sha256": "8e66a296400d0c60f33f0cabd2e2fe0a36ce392b7798057cfd538f00b6be9940"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p11-export.json",
+      "bytes": 443,
+      "sha256": "1868ccb7f7f1cb154e4a74c0b94ff5177aed6046ff867f148e149be95e57b5e2"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p12-export.json",
+      "bytes": 443,
+      "sha256": "9c00d158b9d7c0faa1d504e3449f6f8920788903a3ad82c27faf7a99e68ee9c4"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p13-export.json",
+      "bytes": 441,
+      "sha256": "68e2302f6d4b08b7acae8ed89e2d7bf46e5fec4eb5f8a3435704d4123456ef57"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p14-export.json",
+      "bytes": 443,
+      "sha256": "58748f2ee5074c3b96ed3056643b670fd3b1d0676172249e087135b63040de05"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p15-export.json",
+      "bytes": 441,
+      "sha256": "4b313e152e36f05f527cd62f98bef39003f034380baea19f743b06d2d840cd87"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p16-export.json",
+      "bytes": 443,
+      "sha256": "1d28bf48ade71fb40c0ceb945ca81b5befb48d37c35f787cafe86884bdcae02b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p17-export.json",
+      "bytes": 443,
+      "sha256": "3852ca87a9d667a4885f00b4a9746c3d2ae5a0837f7d60c464fe93ff826e068c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/p18-export.json",
+      "bytes": 441,
+      "sha256": "6fcb778d612becd728dd399b7d681d69df458e3fdaafbfd9dfc6e1ff5a39d2bc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/planbeskrivelse.pdf",
+      "bytes": 3525303,
+      "sha256": "c68d2ae29763013ea88b2789b9de5035b2f422ddc7f1385fc03dfeb027a10ad9"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/planbeskrivelse.txt",
+      "bytes": 178934,
+      "sha256": "9bc7fb77f229fbfe4fec3020187592bb1d6e59dadb88fe0da1cf7cc77d2eabcc"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/ranvika-export.json",
+      "bytes": 443,
+      "sha256": "474a2023a57dfa13bb94afc5148c76e36738182fe73dc8479ad8ab8eef4944f9"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/seilforening-export.json",
+      "bytes": 441,
+      "sha256": "b29f5a401b1762d39d28d8f13115c5dee1d1f93f6da3318411dc62223bbbf114"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/sjosett.html",
+      "bytes": 56690,
+      "sha256": "e55ad59b00c0dc74284d752009359887df01c3de08b967672ee47a4be820a56b"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/stavern-nord-export.json",
+      "bytes": 443,
+      "sha256": "fa552097f38eaad4e424c286fa12eecd51c05d28a2541e9d67f28b7246037538"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/storehamn-export.json",
+      "bytes": 443,
+      "sha256": "65c8eb0fd50652d82ac69803296e61310b23a3a17238d96389f21404d8da38f3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/svenner-export.json",
+      "bytes": 445,
+      "sha256": "2ce5c1b3f996ab9f347c2c523b511f3e962333e2ee30504b3c4e632a1b6d5475"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/svenner-havn-export.json",
+      "bytes": 443,
+      "sha256": "d2d801725d53b235b789dd627f98c108a929e56c3ef6fb31cd32d5050677c455"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/tvedalen-export.json",
+      "bytes": 443,
+      "sha256": "452125542fce2f04035c06968052fcdea1a44346c7718fca33abb19cf2083fde"
+    },
+    {
+      "path": "archive/original/larvik-pilot/raw/vikeroy-export.json",
+      "bytes": 441,
+      "sha256": "69ec21c87d5a072df232f1a4d6b67ca136624382566f43f67d262058c32ab5d3"
+    },
+    {
+      "path": "archive/original/larvik-pilot/scan-order-esri.json",
+      "bytes": 3152,
+      "sha256": "99777cc5042d6101151e2edc4ddfd4b1639feaf067e5a8cba36b6c738bc9c684"
+    },
+    {
+      "path": "archive/original/larvik-pilot/scan-order-topo.json",
+      "bytes": 4590,
+      "sha256": "ec00a409dda4b1afd9428c034eea7e679430f7e51d535847873457821d1db8f9"
+    },
+    {
+      "path": "archive/original/larvik-pilot/scan.json",
+      "bytes": 4590,
+      "sha256": "474b37e059ef3ebec9e0e006af0df7f6b6aaa1f6702aa73442cf5db947bef975"
+    },
+    {
+      "path": "archive/original/larvik-pilot/scan_contact.py",
+      "bytes": 753,
+      "sha256": "7e27daf7e9a864c7798d0be7f600571f0142fb2b22c01079d682e5325e7a9259"
+    },
+    {
+      "path": "archive/original/larvik-pilot/second-extras.json",
+      "bytes": 1332,
+      "sha256": "98a193c2e3166fe968839bc1fde0dbb0c4dfe60604197ef1367bc596dc438e8a"
+    },
+    {
+      "path": "archive/original/larvik-pilot/sector-review.json",
+      "bytes": 9895,
+      "sha256": "d111b9e82dd5d5d6723232150f086d95958a5adbd6bf2f493b271eb67107516c"
+    },
+    {
+      "path": "archive/original/larvik-pilot/setup.py",
+      "bytes": 643,
+      "sha256": "223faa02d585d1a7ac16ff5f87cd0574de15c067076cee629807b9a400d20360"
+    },
+    {
+      "path": "archive/original/larvik-pilot/source-notes.json",
+      "bytes": 1418,
+      "sha256": "0e448267c58f5a60089f6bed28a65614c5711772b4bbd8bdd859a46ffc1462d8"
+    },
+    {
+      "path": "archive/original/larvik-pilot/summary.json",
+      "bytes": 136,
+      "sha256": "a2826bf0ae50da99e749d6237804d1af8cf383a3130fd28257c11b530f87c5ed"
+    },
+    {
+      "path": "archive/original/larvik-pilot/timing.json",
+      "bytes": 440,
+      "sha256": "d1ffa62b8705a25aca8d769910deb4113dff2981330ecaa225f4e15aeb0afda4"
+    },
+    {
+      "path": "archive/original/larvik-pilot/zoom-final.py",
+      "bytes": 993,
+      "sha256": "1a81a00473a359a6ccaab44f9a89b54efccbad36b18090c0468a783343a31f0e"
+    },
+    {
+      "path": "archive/original/larvik-pilot/zoom.py",
+      "bytes": 1047,
+      "sha256": "40e42e1893b4fd1e125a6777a8f6156f23566a6a8d99415f9207158b0e33b64e"
+    },
+    {
+      "path": "archive/original/moss-pilot/build_dataset.py",
+      "bytes": 5301,
+      "sha256": "8d68fdb8908105a5e201a759d57270f71c4d64872c9c34e73de941eeb041694c"
+    },
+    {
+      "path": "archive/original/moss-pilot/candidate-ledger.csv",
+      "bytes": 15108,
+      "sha256": "4b08dfaf5de449f566ce4de4f25709a4789c4ca8e9020f9f1430ea77bfd79d6a"
+    },
+    {
+      "path": "archive/original/moss-pilot/candidate-ledger.json",
+      "bytes": 25106,
+      "sha256": "6ed7003d6ec2d75325d764be72bc2b0dddaf92755fa90995ec162dcb65485e54"
+    },
+    {
+      "path": "archive/original/moss-pilot/coast-esri.json",
+      "bytes": 5102,
+      "sha256": "6534a7c270924d84d4e7cb81ba23a0fb66d6389dae4f19fa9d3bc97dc79a67ae"
+    },
+    {
+      "path": "archive/original/moss-pilot/coverage.json",
+      "bytes": 137359,
+      "sha256": "ad2b4d4540a5a90e04fca425c13d92390f38054b8686662e523ad874773d8a72"
+    },
+    {
+      "path": "archive/original/moss-pilot/detail-topo.json",
+      "bytes": 2130,
+      "sha256": "76efdd411b8c7053035e98d8c19cc88626cabf4c9c9bed353f72917885b5eac2"
+    },
+    {
+      "path": "archive/original/moss-pilot/detail.json",
+      "bytes": 2964,
+      "sha256": "13f876013a83a00958b6f4627c9c3a67cd05eff6a7ffa1358b0dfb05bfd8bd48"
+    },
+    {
+      "path": "archive/original/moss-pilot/digitize.py",
+      "bytes": 16676,
+      "sha256": "f5ae7b44ca91f4eb6be92012cf1a8b03aa48cef766b435641a4266cef37b2af4"
+    },
+    {
+      "path": "archive/original/moss-pilot/extra_contact.py",
+      "bytes": 783,
+      "sha256": "abe2f4de837054f1182f7ef2aeef907c507011fa54fe56634468cbb6c5b9d439"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras.json",
+      "bytes": 2109,
+      "sha256": "88999ab84624922b8214171bdccd4afcde09e49bf09b477d230ee58e423aa8a1"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras2.json",
+      "bytes": 430,
+      "sha256": "0f84b9a7f00aa1b88fe6934ac550f98c80d496b2fa8095b6fb72fda6ea6d257d"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras3.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras4.json",
+      "bytes": 597,
+      "sha256": "b2e64dfe8282ea33261dedc9ec0944a0c78fb30619ca2c3b63cc7d0601d6e54c"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras4.py",
+      "bytes": 1078,
+      "sha256": "221034b732bf1bcda118096ab96076a9d1e558d0d73616d358a1916c856c9e7d"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras5.json",
+      "bytes": 144,
+      "sha256": "42da96908aa523b23df00903fe01cc2c9047f868c6c01d3835e14980a8810bab"
+    },
+    {
+      "path": "archive/original/moss-pilot/extras_setup.py",
+      "bytes": 2197,
+      "sha256": "242696a93ffeff43ac0956dc8ed07972447921897513ad868f68630125b262bb"
+    },
+    {
+      "path": "archive/original/moss-pilot/fetch_images.py",
+      "bytes": 2788,
+      "sha256": "61520fa76093b632ffd2384a484a552408a2ad28fdf0d249ca5d892d2f7a3c1d"
+    },
+    {
+      "path": "archive/original/moss-pilot/finalize.py",
+      "bytes": 14647,
+      "sha256": "0b576b89834f0757be1dbb77180736e3e035476c41af70446780ec94ec1ae21c"
+    },
+    {
+      "path": "archive/original/moss-pilot/kommunegrense.geojson",
+      "bytes": 50654,
+      "sha256": "fcec864eaac1418e00eb322478c04aafd3ad053858937ea9c81e8d6d483484eb"
+    },
+    {
+      "path": "archive/original/moss-pilot/manual-digitization.json",
+      "bytes": 47310,
+      "sha256": "e6246c3a2f0a55449f400a0453e3abcc2b2d8298cc7eda194d0eb8f6371ff036"
+    },
+    {
+      "path": "archive/original/moss-pilot/moss-bathavner.geojson",
+      "bytes": 114774,
+      "sha256": "d39db18531f596f2cec40a5390f4e54c1e29ce923c20f6f2d744cdc952fec711"
+    },
+    {
+      "path": "archive/original/moss-pilot/moss-metadata.csv",
+      "bytes": 42645,
+      "sha256": "c1db8b88a4e4e699582c4716115cb9efa571e451133c84fc31152dc712df6a9f"
+    },
+    {
+      "path": "archive/original/moss-pilot/osm-candidates.json",
+      "bytes": 6606,
+      "sha256": "881f447cd82d773a61bee1b90b145cd867efd20875acb90648f072abeaa5b53b"
+    },
+    {
+      "path": "archive/original/moss-pilot/overlap-issues.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "archive/original/moss-pilot/places.json",
+      "bytes": 1633,
+      "sha256": "b0bb582decd6358b4488d7ba09cebe766837272c75e3e00bafd5d989bad210d4"
+    },
+    {
+      "path": "archive/original/moss-pilot/places.py",
+      "bytes": 1211,
+      "sha256": "2ac6c518489fa9b6999e85bc968129cc6df7fac3cc4e616bf00897e459b201a6"
+    },
+    {
+      "path": "archive/original/moss-pilot/prepare.py",
+      "bytes": 1910,
+      "sha256": "76d986ee074bb934dc6ee4e1c92733049d998e51079871245997c78810fbd140"
+    },
+    {
+      "path": "archive/original/moss-pilot/qa.py",
+      "bytes": 1231,
+      "sha256": "50a56ae724f9672e3d184a106b29f680e3b4d9ed39c6f243a4ce81b2dec1f87d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-0-export.json",
+      "bytes": 442,
+      "sha256": "ceab45a7a72bdd88c78fb90ee7c7e37912c2b61c1440604b6af2c55f09d0754c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-1-export.json",
+      "bytes": 442,
+      "sha256": "c712c8c76d66844fbde3a3a2c4231171f9037c657301d9e531b77d7558436423"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-2-export.json",
+      "bytes": 442,
+      "sha256": "b9fbf03fa07f507ab140409fb693f2f0eae6cb33a09965ddc82fd70773a2c782"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-3-export.json",
+      "bytes": 442,
+      "sha256": "0d633cd05b0aa8d3e0094ea6784dcc757f07b775283edcb9665ca2fc61e19693"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-4-export.json",
+      "bytes": 442,
+      "sha256": "17ac3f84cd5ff1bfec45df3fb65bce18fc29d266a47870cade950b4d43f60cdf"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-5-export.json",
+      "bytes": 442,
+      "sha256": "9e8c287fad536c3236203fc05871cca4c5aa4f1c43c9b56d39a42816af0fac26"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-0-6-export.json",
+      "bytes": 442,
+      "sha256": "5dad3ea29982b1428b81217d0f1f12d8dcac9bfc01780b9d03e6c318ac74f4e6"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-0-export.json",
+      "bytes": 442,
+      "sha256": "03a423d5a83125e767fc03380068c787b09f467d1fd34a2250d62abade20fe7c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-1-export.json",
+      "bytes": 442,
+      "sha256": "d2d0a602d80ad27a535a2610d58339d7e9c114b04cc4be8d89a649596337e36b"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-2-export.json",
+      "bytes": 442,
+      "sha256": "778b2590f9f22af3e88ad77abe60117666f5b88a0526749e6102954346cecdd5"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-3-export.json",
+      "bytes": 442,
+      "sha256": "033606abfc9622d663fd54fa4ebbe91ea42cd3e192bee01c0122f9b4ce263324"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-4-export.json",
+      "bytes": 442,
+      "sha256": "5fa239e799a1fba733b3a0f5096cbcea0140e93a53fe8a87388974cde76954f4"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-5-export.json",
+      "bytes": 442,
+      "sha256": "09cbf0c3efc9742a004342943113e8bfcdb453e0c572a73e6c68129effa16d72"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-6-export.json",
+      "bytes": 442,
+      "sha256": "5fe3b48040b769dda4fd60064d16ae7a811e762ec428b5b3e3f112322da56f97"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-1-7-export.json",
+      "bytes": 442,
+      "sha256": "932f48f354e986e734c600793600cf4cc662d00ecfc43187c9842f83d38379e7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-0-export.json",
+      "bytes": 442,
+      "sha256": "3c8f2cd3996599980a14584633c017cfc1ada636ab6d72b6c89f632c765c3578"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-1-export.json",
+      "bytes": 442,
+      "sha256": "f465cb9b5551123562eeee72292dd3c88cb562e4218cb27d59d91f6bb73ff6b9"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-2-export.json",
+      "bytes": 442,
+      "sha256": "bc9e8c472243a5c39516a47831c3286e20b02dcb9b031dcab7884b0bf25be1f9"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-3-export.json",
+      "bytes": 442,
+      "sha256": "8977c08121d49d073406f6b87149fbd3442a860fbe935286399063a365cd76dd"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-4-export.json",
+      "bytes": 442,
+      "sha256": "d3c81fc9b1c7497fe20c12f935dbce3c0244fa56ae841d4ccc8c1817aecd0335"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-5-export.json",
+      "bytes": 442,
+      "sha256": "4dbf767e1f68a4115105514a8ec790ad7869dc844a2edccf52530adf5c3a7725"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-6-export.json",
+      "bytes": 442,
+      "sha256": "0380107b6f7905ff40f1f8b6c4fcee1fa4d372f2b268609c506c1215b087586c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-2-7-export.json",
+      "bytes": 442,
+      "sha256": "b11ce4e7ac2ed107f5e746061e25efae975e5e96f0cf1e89a29ff6d3fb0be6b4"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-1-export.json",
+      "bytes": 442,
+      "sha256": "92e57889dbcd0ac2ac38704e0f23cda102cc54b9be598b993d0f946e73640286"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-2-export.json",
+      "bytes": 442,
+      "sha256": "1554f1d56d05dbc2eea1e6281a7eea8d89e4b20a48af769e21c37a8ab5c6e462"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-3-export.json",
+      "bytes": 442,
+      "sha256": "75cac854966bd85e98a60ee3642647cdcecc107748604f20e54ddb21243dc1c9"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-4-export.json",
+      "bytes": 442,
+      "sha256": "7422d080b85847511ad47cf5384c764dbba09c6b9ae361208be46d31a91c0ff7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-5-export.json",
+      "bytes": 442,
+      "sha256": "9f848a459648b13df2e7440e21b1b0196f79a511a3f503489b9cecdd5a9527ab"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-3-6-export.json",
+      "bytes": 442,
+      "sha256": "cede9bb6434c413cd06e6074a1972a4c70ab1e39c13ddd9cf9a63e79cb8b1056"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-4-2-export.json",
+      "bytes": 430,
+      "sha256": "2fa5f7a3224dbc30ae88d2cfa85b5cfd8cb7d60613323d1bff8672bc6c72f3dc"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-4-3-export.json",
+      "bytes": 430,
+      "sha256": "96729631adde7ba0364628a12eecf7de4678422a8f88d68cf78edc9b4d8369df"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-4-4-export.json",
+      "bytes": 430,
+      "sha256": "a1abd62ba695327d1b2f876ccca7a69be922830415680b96b73e15c1ff4d4086"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-4-5-export.json",
+      "bytes": 430,
+      "sha256": "1a37a829b4f03166b597c3bd92eaf6c3be5af1752eebf27aaeee86dae6a7bfd5"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/a-coast-4-6-export.json",
+      "bytes": 430,
+      "sha256": "8588023a1a1b7193e9a34684f27fa2539d5bb0daf9236c61b213da43616a85eb"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/abf-havn.data",
+      "bytes": 110926,
+      "sha256": "f52530b5653aa048489d82632cd6f1fca8b9160a7680429c83a1e60a14b8010d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/abf-havn.txt",
+      "bytes": 2011,
+      "sha256": "1ee2de1c9cb748c228a03bfb5456d4a3e2e735c898519094e0b697b4ed5d3864"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/abf.html",
+      "bytes": 112835,
+      "sha256": "8ce2f8eb604cc7e4a119224e2afc5fc1d719d3e7ab577a836dd1f612507142fd"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/abf.txt",
+      "bytes": 87303,
+      "sha256": "439f6f401ebde05315c301a529a727726360c982d03ecce428c0eafd3ec85df4"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/address-Billmann.json",
+      "bytes": 187,
+      "sha256": "31974de4752a44a9b16626d01acff113e3b6c12e808082eda94e8f8a2ef85e09"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/address-Billmanns.json",
+      "bytes": 188,
+      "sha256": "7c35d96be89fd4fcbc7f4a29777bc3846099b2fbe79dbd083d802da72dd92057"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/address-Rødsstranda.json",
+      "bytes": 195,
+      "sha256": "45a68f061b709d132e37b007996b890a69028504e507ebfa7e78f5c92bb37573"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/avfallsplan-candidates.json",
+      "bytes": 2853,
+      "sha256": "b5795091f1cba73faff250f30a9808e6092689874437fa7d2e0b6c89282f3464"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/avfallsplan.html",
+      "bytes": 144899,
+      "sha256": "3598eb0f6dea8a01536a75cb48328cd097bb18d03ab3d4e2dc0b5b800e71ec52"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/betongen.html",
+      "bytes": 732203,
+      "sha256": "d4460079540a52777cf8dc0dc75d25080e228c6e2ae7ea1dbe250e0807871c11"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/betongen.txt",
+      "bytes": 677533,
+      "sha256": "827f078720b4d37ac248e98e682471b41463f3e7be44a658f9a695b2bf914e60"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/candidate-links.json",
+      "bytes": 2375,
+      "sha256": "4f014f7d04f984f23b4c92d1305e496329f9696efa2ab1ad7ba85746bef51fb0"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/evjesund-export.json",
+      "bytes": 443,
+      "sha256": "35c73abd588e64197aa05ba872e8e37a36a1f5131534d510853056b14dd2d932"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fiske.html",
+      "bytes": 30503,
+      "sha256": "83e4413db6dc396904daf4ca23ff0c0dacc949e65b4f821e179b61be1c707cc7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fiske.txt",
+      "bytes": 10101,
+      "sha256": "f04d5f86bea9b05e8c1a77fe59136e84453aba4d4669a1da031373444741c68f"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fleischer-export.json",
+      "bytes": 443,
+      "sha256": "e05c50ee84418c1ed2b99e86a58bb6c7ba607229c7599b7988b11bff08934ed0"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fuglevik-jeloy-export.json",
+      "bytes": 441,
+      "sha256": "844e5674eb96dabf69a0c56602d1497e1ae99943d4210d91eb77455a4d9b680b"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fuglevik-nord-export.json",
+      "bytes": 439,
+      "sha256": "218308551caa80c4ba952715f13f51e65c4397acbb4589d71f63608f25948992"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/fuglevik-west-export.json",
+      "bytes": 443,
+      "sha256": "bb967067675108f76eeee91259864631ad157d6b7862380e3fb0b1a9565ac459"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/havn.data",
+      "bytes": 52036,
+      "sha256": "ea834de504b2e44330ca729df7777b9fad4dfc812a4b22a4bad79cca2c674bd2"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/havn.txt",
+      "bytes": 4353,
+      "sha256": "51bdfef011e647842c693ee9374b2bc5edf699311999b196b753f626d9ffa211"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/kippenes-export.json",
+      "bytes": 443,
+      "sha256": "628cebccf4b969ee407d2ad85cb82b123a1b989db018b0d78bb45d67242e1ed6"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/kjellandsvik-export.json",
+      "bytes": 441,
+      "sha256": "56958c0190177d136ee27f9783c8a7d67300fef199f10f1ce8ab8450c1cc1235"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/knutvika-export.json",
+      "bytes": 443,
+      "sha256": "6cc3250d7cb4af29aab8531a914e51049d15fbc21ff05058b1a9de50183f360a"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/knutvika-havn-export.json",
+      "bytes": 441,
+      "sha256": "4964e93aaadf315f32ea2b1249a07f815ec3ba98fe018e67de0cb6bcabcc38d1"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/knutvika.html",
+      "bytes": 19404,
+      "sha256": "caf8bb2234a27bbe09eab8758e1d7b67c0fb68078f8f86e2dfc7d1a74dd5ddfe"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/kommune.json",
+      "bytes": 716,
+      "sha256": "b96e0247513800a73a379f0e6a4f39fa47678776c153e5808ac811175630216e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/kommunegrense-response.json",
+      "bytes": 48106,
+      "sha256": "a8950d2c64a9011c33fc2d191cafeeaaa243738d4fce2b24a73ec0b7c3639557"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/lersbauen-export.json",
+      "bytes": 443,
+      "sha256": "1a13535c6cf6c850e70b843c3f2a7d0465280c9e0c412e7fd2b6f70d51784afb"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Billmannsbakken.json",
+      "bytes": 585,
+      "sha256": "2ef26a770952044f347fa65b3cb448941295f77a7cdfa8d50e2af7ede6041384"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Djupeklo.json",
+      "bytes": 161,
+      "sha256": "f6ad1cb329462ce1d3e9b5c781add857c80b105b4663eebbb195c3cce79af340"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Evjesund.json",
+      "bytes": 552,
+      "sha256": "edf5dbb4dfa6a6ae22a60a119ae6f1ff99d23181ea1ea226fc856d4f7bec3689"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Fuglevik.json",
+      "bytes": 5264,
+      "sha256": "e5cb6144765227811e332d639b6378fc16630fee9e54c68327e7af1cf3572c4a"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Kippenes.json",
+      "bytes": 549,
+      "sha256": "c5d0fde0ae85829542e57435fab8067b4b11e7eeed9e2a52d09a22257007c580"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Kjellandsvik.json",
+      "bytes": 551,
+      "sha256": "c6f715bad119c280505b5c4a2f1f71b8724d0bf187c64b88efad97aadad148e0"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Knutvika.json",
+      "bytes": 1720,
+      "sha256": "1e6a3bb2bcfb05e647a4bf9dd883fe06a59fefec0bb1f8cbc160e0e40f38d98d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Lersbauen.json",
+      "bytes": 553,
+      "sha256": "4aa88b390739224c33e9892ae340c48278dd97240260a9f736cb2175c66fb3a5"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Nasle.json",
+      "bytes": 536,
+      "sha256": "4a579a98e40ccb7e7330836a9c7132eefaf00cccf5cf4166883c242ea690a1bf"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Neset.json",
+      "bytes": 39272,
+      "sha256": "d9e9f09b48350531daf0675ea0b261b9fdd7d903a661591ee12a248ce800218e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Refsnes.json",
+      "bytes": 11001,
+      "sha256": "2fc8bf0248f256abb1b8294d452ff6aaa589d16900c9a8f134327a69f001394b"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Rødsstranda.json",
+      "bytes": 169,
+      "sha256": "83b5df7d7154fd1665cf6c90c48f1cdcaab801e69db838746377b504cc4dbbe7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Rødstranda.json",
+      "bytes": 1438,
+      "sha256": "a17307ff0289c804600b102e9a7d43342ac240c6b02590318afd7430f0845a9e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Røedsstranda.json",
+      "bytes": 170,
+      "sha256": "097e2bf0ea251a6ff0ed3570f523931a96b22f2c11c54c73253aeaa08761557d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Rørvik.json",
+      "bytes": 15319,
+      "sha256": "c4d3a13ddff53b882e7657ecd26706e064368eb7585f5453fde749d699d75cea"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Sildebaugen.json",
+      "bytes": 557,
+      "sha256": "d773daa50df6c0e7330e0a3d656fdfff1728360342a6bde116913c56d7ffc122"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Støtvig.json",
+      "bytes": 165,
+      "sha256": "dfaa016dafea03b8774e93c311eaded252c446dfa92ee488fd10357499074035"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Teibern.json",
+      "bytes": 160,
+      "sha256": "c8a97dcbaf785c9aec66b88f3c1fd86f511e1242419dd8c09ba561ccf3ea8e38"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/name-Tollstranda.json",
+      "bytes": 582,
+      "sha256": "d902cf8997df64d7fd01bf09c4273b88fd6e9a7c7081e953931fed0db1301c7c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/nasle-export.json",
+      "bytes": 443,
+      "sha256": "80d7296ce2a7746621f01d4aa312eb0037e1826bd9dd8089b51ac27a8c2e9aea"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-node-212913243.osm",
+      "bytes": 541,
+      "sha256": "2082280f27bdaae57f10582a0dc9108605ec0959e89808fceb347842b40f990f"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-node-5106902846.osm",
+      "bytes": 624,
+      "sha256": "1e212d09474e73f233970b5b6f1130365aaaf20b41ec03db1da2be2bc244f01c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-node-5106902880.osm",
+      "bytes": 624,
+      "sha256": "c2b4271f523486460a83d2068e44b93a6a1392982f8c8d82e2af2abdc9382c62"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-node-6802559307.osm",
+      "bytes": 624,
+      "sha256": "58b5c8bf5ec72e4c0afb6c066d03f03553614fbe1bff710371eb81e6cc12fccd"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1361970105.osm",
+      "bytes": 2691,
+      "sha256": "68c1eff3757df42c9059c30d27caac0f39da056fd6bbefccd2336e36456d168f"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1361970107.osm",
+      "bytes": 6256,
+      "sha256": "7d7a077fb094fe597a65cfbdf62e93b21064b7dbfd26717f92974a99ad752841"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1361970108.osm",
+      "bytes": 3483,
+      "sha256": "8641a4f86a0d2ac75397d85adc52c18ccb35e5a233917def4cdd37afbcea5a68"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1378441564.osm",
+      "bytes": 3465,
+      "sha256": "ec3b9066cfbe2de3e0a33224c1a55bc948fc0559b93a7bef6decee68dde04dc1"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1394937685.osm",
+      "bytes": 8627,
+      "sha256": "b3d0eab0ed5520203c104ea77ef88279e12148cdf223a43939d8b30bca2fa3d3"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1430843512.osm",
+      "bytes": 25955,
+      "sha256": "7ff13d75e6b5a18281e702e46e9e5b7a92f0026634c75d44f41f7cd08c0f9736"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1448562959.osm",
+      "bytes": 21834,
+      "sha256": "d02089fc587352ef78b3d5ef1e90b0d33262c964c7a72cb4b6e5cfc30c86a87e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1450881540.osm",
+      "bytes": 12743,
+      "sha256": "89ded9fce11b6848ae4b91be24d3672a42aaaa0fc572d642f294b7fc2ecf2ed2"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-1513385299.osm",
+      "bytes": 5681,
+      "sha256": "af8dc0f1ec3875095b809a3b3eff2c2a16a36511c48897171d7017861e939934"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-29593396.osm",
+      "bytes": 4763,
+      "sha256": "cdad6e82087fda51f1e396c791463ecf2a0b3293fee17fde4bd711783684343c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-368366977.osm",
+      "bytes": 13816,
+      "sha256": "11c975ae5c6c133aad60793bbb44b0d906072f5d9b8d761cab71c3ceb48e86b7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/osm-way-505121328.osm",
+      "bytes": 16429,
+      "sha256": "d449bb035aeac29c21b966f1d623c726bf6b34fa4b8e70d17fac21b3b8309f67"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p00-export.json",
+      "bytes": 441,
+      "sha256": "1a0d6b94373b2b29e072c996e82b3d9f7400d92f982a61ece6b56b4d0d3dddc3"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p01-export.json",
+      "bytes": 443,
+      "sha256": "a620bcd1224f5a8ddfca7cd48786b80ba170283e1abbad3cfa0e66e9d65ae9a6"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p02-export.json",
+      "bytes": 441,
+      "sha256": "97ad922bfea3ca2ccf0af703dc84759f8efa67cae1549741b7b998a99941556a"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p03-export.json",
+      "bytes": 443,
+      "sha256": "119242bb3b90e0ae62bfd878ee26b0441bc275ede1f899cca8a0918bc0a11d8a"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p04-export.json",
+      "bytes": 441,
+      "sha256": "3e51c72bc0b046c6c1a822f5234f21338f09cd03fa2b2e39ef135e80c2ead879"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p05-export.json",
+      "bytes": 441,
+      "sha256": "85d9711be3eb8590717a4a5c7b5709d06ad8a8aba377c879bc5c2dacba5bf486"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p06-export.json",
+      "bytes": 443,
+      "sha256": "509ca550baf26fb9aeca9abc1552e17e209e2a065f856686063a3a3c9c69ace7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p07-export.json",
+      "bytes": 443,
+      "sha256": "cc2adcaa89d5bd26e46e7874565e17ee4c36f57a6ccf5ffe779567be31a6f8c1"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p08-export.json",
+      "bytes": 441,
+      "sha256": "01f29261c8d59e9c740eef99f0afeacbe2a230c56bb1f0dc7dc35639029e7056"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p09-export.json",
+      "bytes": 443,
+      "sha256": "64092ff8936991158c308bb1204f2315554d51851a16a00b771a3a677d4d958f"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p10-export.json",
+      "bytes": 443,
+      "sha256": "f6fe9ac0c9a618e6a4db4313b5e6e67ea2e2d0637b3a98cbbc73853e9cd8021e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p12-export.json",
+      "bytes": 443,
+      "sha256": "df17fe3ceb2773be6acfcf72e02f98d3feac59d5f6427f5407cadd88be7b002b"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p13-export.json",
+      "bytes": 441,
+      "sha256": "db2d9d23bf704bb8c00d46cd46f69063ab63a6bf1116f4889e0652f8a4968352"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p14-export.json",
+      "bytes": 441,
+      "sha256": "f57c3cb071b301bf8164c96115b6af89e4ccde67126970bcfae3de558231c22d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p15-export.json",
+      "bytes": 443,
+      "sha256": "fc05b11d4bf0fdf6b35a0ba27b0cc2217c1f2cac12a37dcbe1e14ffdcb0d3d08"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/p16-export.json",
+      "bytes": 443,
+      "sha256": "1f3435bf4eefe9522b865923c646600afb73726185ca2ea3626b6589051923d2"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/place-Billmannsbakken-export.json",
+      "bytes": 443,
+      "sha256": "f5cd026104858435d208c8040721bfca9e4f7fba56920dde86b542923b5dcc59"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/place-Rødstranda-export.json",
+      "bytes": 443,
+      "sha256": "2d703155166679e47046be514d0c1d02439b23990bb2d7c64fd70122c806386a"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/place-Tollstranda-export.json",
+      "bytes": 443,
+      "sha256": "3e6efe1faf3040e4715096667d32a7d17339bb7e9c622b8803a49ad0dafddb60"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/refsnes-gods-export.json",
+      "bytes": 443,
+      "sha256": "e209deac689aece7458f39abcf0ff19f82b15079d5b7ee5551f322e92ff0e839"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/roeds-adresse.json",
+      "bytes": 216,
+      "sha256": "cc0c2e12ecf768946e193f95fa02522ba5029e81be0544f4a4296925cdb9961b"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/roedsstrand-export.json",
+      "bytes": 441,
+      "sha256": "317f8782d5f2454bd08a7714b2766fea4fa2aa20bdc31bde82dcf4a3f77962d7"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/roedstrand-havn-export.json",
+      "bytes": 443,
+      "sha256": "0b6bf06086f9c3908811af5c9401181930f1b07cf30fedbd6399e80083a8411d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/rygge.html",
+      "bytes": 5606,
+      "sha256": "dc74bf7fa0a2570914884b68323f9325498fc93dad0ed4595f9063ba2e5a7c66"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/rygge.txt",
+      "bytes": 874,
+      "sha256": "3b3bb9520e57f6a25ad6a1723dc95c842b8e22e26d9c8308111a63d27db550d2"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/sildebaugen-export.json",
+      "bytes": 443,
+      "sha256": "4a2d27d35c2924ec217c93bf229d5198b14aa906a14bc8e6a590cd661bb7692c"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/sjosett.html",
+      "bytes": 56566,
+      "sha256": "b924892e0e30fb6199779355cfe1e99234ff0bf4e7d9846669be4c58ff9911d4"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/soly-havn.data",
+      "bytes": 237580,
+      "sha256": "8e15bc916b42a818405e46f690f63a1db59d99839736bf67f5808a29a7c74a16"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/soly-havn.txt",
+      "bytes": 2563,
+      "sha256": "3b3e5d3fe232ea73d054a9339da59a5853ec661337337f6a5d0d1a80d9687682"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/soly.html",
+      "bytes": 239021,
+      "sha256": "aba51e35678d6adeeb8a0609a956a6e30aec35d4e9e8f59a6d421579bdb3295d"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/soly.txt",
+      "bytes": 77493,
+      "sha256": "4f2e79481deba05a4467e90d299b27291783c94b57dff918a6cee372c333c81e"
+    },
+    {
+      "path": "archive/original/moss-pilot/raw/teibern-export.json",
+      "bytes": 441,
+      "sha256": "3e07c257c765b34095ac02ee1dbd58216f5bf9635e1a683066c1964fb9859340"
+    },
+    {
+      "path": "archive/original/moss-pilot/scan-order-esri.json",
+      "bytes": 5102,
+      "sha256": "fb3e03637b3bc7571e0d22cd6049869ebd22b6ef062381bc3234dd683563db29"
+    },
+    {
+      "path": "archive/original/moss-pilot/scan-order-topo.json",
+      "bytes": 5034,
+      "sha256": "17d7d56eef219c340a9223a8d7de9ada2141b29720bd8cb723614e9991382e58"
+    },
+    {
+      "path": "archive/original/moss-pilot/scan.json",
+      "bytes": 5034,
+      "sha256": "8d7d66f22daac67dab3c95970c1a3541f86c8cee265f7c632af667a6a479e1c7"
+    },
+    {
+      "path": "archive/original/moss-pilot/scan_contact.py",
+      "bytes": 753,
+      "sha256": "7e27daf7e9a864c7798d0be7f600571f0142fb2b22c01079d682e5325e7a9259"
+    },
+    {
+      "path": "archive/original/moss-pilot/sector-review.json",
+      "bytes": 13773,
+      "sha256": "4c138687e0845122b34b41828732b8ea97f2a7a3969c09e7341ce644cb4f4926"
+    },
+    {
+      "path": "archive/original/moss-pilot/seed-overview.json",
+      "bytes": 392,
+      "sha256": "4d84a9d285a202b0885e929199cedae6ef8dbed0022cf8f2fd358a2d463a027a"
+    },
+    {
+      "path": "archive/original/moss-pilot/setup.py",
+      "bytes": 1134,
+      "sha256": "bbbafee296a46afd410abdbf6075aa16958dbe0879664e276effdfbd8f2d906c"
+    },
+    {
+      "path": "archive/original/moss-pilot/source-notes.json",
+      "bytes": 1972,
+      "sha256": "6b66de7ce27408bcbf33b1bb650b52d12ab7930b95b49c3491b05941959e4f12"
+    },
+    {
+      "path": "archive/original/moss-pilot/sources.py",
+      "bytes": 1127,
+      "sha256": "888a0d74cc9c797329e9e10c0928f2f0cd85129a4a5e4b68baf04bebabd3b7c8"
+    },
+    {
+      "path": "archive/original/moss-pilot/summary.json",
+      "bytes": 136,
+      "sha256": "a4feb168502d059b958ad75f20d7f0819b0829d06818351b5f687e464fd717fd"
+    },
+    {
+      "path": "archive/original/moss-pilot/timing.json",
+      "bytes": 401,
+      "sha256": "4ac7b91d6276bdc3f2a42ae6c6ba1e627ee9b90968792533adaaab9b0b705b76"
+    },
+    {
+      "path": "archive/original/moss-pilot/validation.json",
+      "bytes": 273,
+      "sha256": "c2892f9b2273cb5d2d85842eb851496b18accce031651e85fd68be40867cca6a"
+    },
+    {
+      "path": "archive/original/moss-pilot/zoom.py",
+      "bytes": 1016,
+      "sha256": "37f5ee885ae72b47e797867e3dcc017fc8204980c0c16a1cbe18ffbf8f9af529"
+    },
+    {
+      "path": "archive/original/moss-pilot/zoom2.py",
+      "bytes": 1005,
+      "sha256": "35ca4bbaf308502f22ae9b7bd6331e1aef202869aeaf26e9dce8134839388502"
+    },
+    {
+      "path": "archive/original/moss-pilot/zoom3.py",
+      "bytes": 972,
+      "sha256": "f034b2379484cf993c6f78dbfb1ba8e2b0df258cde575e30a6955775a968c599"
+    },
+    {
+      "path": "archive/original/oslofjord-kartlegging/METODIKK.md",
+      "bytes": 60982,
+      "sha256": "306f7a4e4b5416a186b4360fb50b65b9a6b108a6e17b174a8c961cfff4d5451f"
+    },
+    {
+      "path": "archive/original/oslofjord-kartlegging/oslofjorden-bathavner-samlet.geojson",
+      "bytes": 764945,
+      "sha256": "95df0390836b533938b21a935c7d8970f43f215f0fd34fd3524ce2352c70e1fa"
+    },
+    {
+      "path": "archive/original/oslofjord-kartlegging/samlet-manifest.json",
+      "bytes": 2543,
+      "sha256": "6296c82b937519f25bd1bf33e3ec5d080bf2be23de0653326fb903540e4543a1"
+    },
+    {
+      "path": "archive/original/oslofjord-kartlegging/status.json",
+      "bytes": 3672,
+      "sha256": "05b5b6909a1355b32f3e0184dd4880d170c58213178887e204c576f54c296e67"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/build_dataset.py",
+      "bytes": 6830,
+      "sha256": "af3173695a560a156de2761d0cdded3fb1845b0683a3260da70f21126f3872c5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/candidate-ledger.csv",
+      "bytes": 38423,
+      "sha256": "d66930dca83d231113c74b143b0f0d728bbf3e9e7cd054ed38b251610a2a31d9"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/candidate-ledger.json",
+      "bytes": 62503,
+      "sha256": "f83d48fd3a1c40e7f3bd4dc07963b20fc96bb73071cd6f458c027d5950303564"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/centers.py",
+      "bytes": 1244,
+      "sha256": "2330c524e1d239241abdf255995446181130edf82d9b168efe3055390e204c5c"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/coast-esri.json",
+      "bytes": 3302,
+      "sha256": "adbf61fd72575d648fb51b5804463648fdb44b2822a6d3c1efd9c7c53600c40f"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/contact.py",
+      "bytes": 782,
+      "sha256": "5bc4ab6fe758391a2440e7995ca8951b005e8a8e089a1ab1195610c1b1cef1eb"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/corrections.py",
+      "bytes": 1350,
+      "sha256": "9c23db6489a14bfcd848fe645cee6acde4792733af1f2b9a94b65720c40e3419"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/coverage.json",
+      "bytes": 2404,
+      "sha256": "f607ec5721015e9de9953ca8d6a34fe1e6abe348d4cbe8d67c739535ed18c105"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/detail.json",
+      "bytes": 12226,
+      "sha256": "addd9c3208e3d0427fb28ed45ef6bfac7205424673a1c83a65187675049c9b68"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/digitize.py",
+      "bytes": 19701,
+      "sha256": "a120043c5190ef8e7c4b151f1699b78ec983d94272af4ec957baa44d283babbd"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/excluded-geometries.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/extra.json",
+      "bytes": 767,
+      "sha256": "2104de843dabd7ea6e4da3d9cfaff4ae4411ce6da70389eee06e3402ef510e12"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/fetch_images.py",
+      "bytes": 2788,
+      "sha256": "61520fa76093b632ffd2384a484a552408a2ad28fdf0d249ca5d892d2f7a3c1d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/finish.py",
+      "bytes": 13414,
+      "sha256": "582358cadc92427a1e93a64341f57ea9de593abb3c179b9bc2be20c8ee17b70d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/kommunegrense.geojson",
+      "bytes": 203084,
+      "sha256": "80cf130187886a04815a702f7afb4f82e55d3de1f220db5e7374201c867be9b4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/manual-digitization.json",
+      "bytes": 74152,
+      "sha256": "581f75f1ec549125ba77948d5f38eb91158d7cd889658c3349165eb9c97dabc0"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/osm-candidates.json",
+      "bytes": 9241,
+      "sha256": "ef82e1ce0eb1583790d3985e76ba4d58b3ea9a6bcdf31d7c0689d975dde39fdf"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/overlap-issues.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/overview.json",
+      "bytes": 95,
+      "sha256": "545f88eeb56cb5490c77ee63fa9b56022b9438e7624d4031a392ca7616844dd9"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/qa.py",
+      "bytes": 1237,
+      "sha256": "22715456e1b2e46159e53c5e5d1c0a03e35fa11845916a74ffe1fed285d8ba93"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-0-0-export.json",
+      "bytes": 440,
+      "sha256": "344bab87ffa62912deda36af8374bf3b045b8f9a1cf244e92a38a320250b59cf"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-0-1-export.json",
+      "bytes": 440,
+      "sha256": "2e1ec838f1e2b0d603502c051ffc2e289d0fe8eb4b676ab1b3f5b0737cadb5e9"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-0-2-export.json",
+      "bytes": 440,
+      "sha256": "900c652f6dc96bbe81031689cc65471067b040064c535ffb0f2c5b0dcaa5fb01"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-0-3-export.json",
+      "bytes": 440,
+      "sha256": "3f73677471cbe5b4cd784669be6d1d9d68b648896ce880ab59f346506268e86d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-1-0-export.json",
+      "bytes": 440,
+      "sha256": "edd50cdfb239fc3088cc933a698dde06cef0ad4791a8576b0636e681edd58af3"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-1-1-export.json",
+      "bytes": 440,
+      "sha256": "c291611bd19acec0d336798427ce854f8df2f8306f761026a07c8558b6cb1ae5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-1-2-export.json",
+      "bytes": 440,
+      "sha256": "cd91ddbc996ffe57484ef938c428633d90cffa7643e08d36f52497e02eb672df"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-1-3-export.json",
+      "bytes": 440,
+      "sha256": "5de1b8b5c3a32df28e579fb58f08bdc90520b2366cc4ddb3bab5947ab7a49774"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-0-export.json",
+      "bytes": 440,
+      "sha256": "4df6266ae3e46cb376c442698f49910466df0dffb2038ee41ca787704ddc41a5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-1-export.json",
+      "bytes": 440,
+      "sha256": "ddf7286ffcb812b8036af2cd6c12637ff102b641be7d55ce3f070b7a64ff7af6"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-2-export.json",
+      "bytes": 440,
+      "sha256": "a39c97b77b93d223fcd8336d8c7d4ff72fbb5468f64b708c28a6e616999b6a14"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-3-export.json",
+      "bytes": 440,
+      "sha256": "ff9df4341fb84eccc3fd157810d55bbb18bc264d43b748f0afdcb0a7cf180fe3"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-4-export.json",
+      "bytes": 440,
+      "sha256": "2cca2340afac74fc7af4cdde2efe1af0a0476aaab8da58f0a35924dc4f306d89"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-5-export.json",
+      "bytes": 440,
+      "sha256": "5a2bd35cedf8ff6a69ace1822cf2ddc89a08c3b8ebb3d1b62558b0777cde98dc"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-2-6-export.json",
+      "bytes": 440,
+      "sha256": "97bda4d3c67bf6cb742cb909d183a1d8e60ea55e5084a87e8bbfbfaa2f110c33"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-0-export.json",
+      "bytes": 440,
+      "sha256": "7d83930152251ebc71aa74ddf50c7e3a8e3f0d1b9b6752215af1bb53d398073f"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-1-export.json",
+      "bytes": 440,
+      "sha256": "cf40168e593b4d96a79ae0dc661f2be77a17e0bd8eeb5c2481ca5541b0171c5a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-2-export.json",
+      "bytes": 440,
+      "sha256": "3c58bd3da88c10d613c0a2c4902f440c80ad7d53fe2c7a7673329c9b07b01c16"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-3-export.json",
+      "bytes": 281,
+      "sha256": "626aa94745d48e0eacfdb0a9a5ec086b6e012d38ab8d09b5f1647931aac4b541"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-4-export.json",
+      "bytes": 440,
+      "sha256": "673886efe4d9e3e2456bc7a774b6bff645cdae3a01e3080b29b14a42dde6256c"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-5-export.json",
+      "bytes": 440,
+      "sha256": "2d2ad1d2c90dca884758f8fe8127a060082a08f486f16b11b71aa162748e90b4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/a-coast-3-6-export.json",
+      "bytes": 440,
+      "sha256": "f0027a57456b227603c2f3c5e983c241cb8f7add5c0b228bde3cfac6316d5cc8"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/candidate-links.json",
+      "bytes": 3204,
+      "sha256": "a3524bda161c841f7fcaabce97e6a8e7bf088066862ab01b58e670be8a76a1ef"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/folehavna-export.json",
+      "bytes": 443,
+      "sha256": "2961f113c4efa410abb55ad7959f14b31ffab12cdf79f84967f524acb3fb40ad"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/framnes-nord-export.json",
+      "bytes": 441,
+      "sha256": "b78cafb33e043ed5a9f2d910ced6753b6f648ac2c452f41fecf2080474d105ba"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/kommune.json",
+      "bytes": 728,
+      "sha256": "897570e082b250e7cd9bec6a967dd32f5e9bd2344bec02ba9ddd4422398589d5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/kommunegrense-response.json",
+      "bytes": 193100,
+      "sha256": "f587690409c756236c4f383a71050924214a6e68a175d2a3672a00bd80069081"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/municipal-harbour-points.geojson",
+      "bytes": 25594,
+      "sha256": "d349f5c8b584d7e38394f953958b590be8f31c2ab327e889d84f63ee7d3179d1"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-13431173001.osm",
+      "bytes": 695,
+      "sha256": "97ba0c1b3dbc6951c4b0be9e3a6b4aedbc3c9d9dff165ec3caeb79f831d77ead"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-13431173101.osm",
+      "bytes": 580,
+      "sha256": "a892cd5c53b1b20a5dcff87376ec3de520902895e05ce657c218a65f835d472d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-13432037501.osm",
+      "bytes": 648,
+      "sha256": "92ee110aa6f809358563e5004cf0e4b04a3c7310d9ce86595bfe6feebf782bd8"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-2088640421.osm",
+      "bytes": 539,
+      "sha256": "3fcd68f3867e848a53ea5a7079dabc07c572f304cacab6da3eff47d807e5fb58"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107367932.osm",
+      "bytes": 624,
+      "sha256": "7f12b3a7390233a13d3fd4993343571aa89863518b007e200f3f9f293cfb5d39"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107367934.osm",
+      "bytes": 682,
+      "sha256": "d6a76b48077bdb517096302bd0d78e4cb7f8f41a5ff9f2cfa2292d903877d928"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107367935.osm",
+      "bytes": 624,
+      "sha256": "a1e13fac1a2a6b4050a50ca1f94390b19f066871db2919e31c39b7e512bc90f0"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482197.osm",
+      "bytes": 624,
+      "sha256": "cbdfd587cc12e74ba89f9d729938c584dd576a4ec043d8cc2ecebb3eeea5a983"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482938.osm",
+      "bytes": 690,
+      "sha256": "cf388805826e1a935b7e29ad2822dc24cd3919ef4fccd10c807f4031f602597c"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482943.osm",
+      "bytes": 624,
+      "sha256": "ebff8985af781aecd6b3c97a1a1cbfe6f7dd22efa8b355b5be49ade544862aa3"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482944.osm",
+      "bytes": 624,
+      "sha256": "f4bfa487a6451e87c3ab9b0e7011dd01da84fe782d8bdc333ed4c629dd5f8c2e"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482945.osm",
+      "bytes": 624,
+      "sha256": "74d830a3081c88b432e78f7138ed77a4f988bb18275fa950e8834d2c6df62904"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-node-5107482946.osm",
+      "bytes": 624,
+      "sha256": "d4291926d221fcde5dda1e0783bb8b7632354dc14e8260f77f4e1837be98991b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1079317893.osm",
+      "bytes": 17555,
+      "sha256": "2f3896853312f3f336f7259a6292b350b31da5f74fdc9901d95c0744d8b613a5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1079317965.osm",
+      "bytes": 8338,
+      "sha256": "2198d0ee8d363e65dc8c6473d5c8ec1e51ffb6ac2ccb3b36bb97af9562080c4a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1218065128.osm",
+      "bytes": 1968,
+      "sha256": "c7100029d988e64d2ca9d1ee9b18a6ec2d009531a538671a201809fb0b2c010d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1218298959.osm",
+      "bytes": 2011,
+      "sha256": "2bac5f4484d02eaa33d9358ab1563aa8ef15ab76db17c0faf048110d8c24939a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1218301840.osm",
+      "bytes": 2117,
+      "sha256": "cfc291772ba64f08fd3b8321d2cdd9a64fe7b1ed70395f39ed9cdc88f6fc8325"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1218322415.osm",
+      "bytes": 2053,
+      "sha256": "b529861a452f12961cd1dca43ac1062bf11916c6e8747f07d8e6dc2836f5cc51"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1218866789.osm",
+      "bytes": 3012,
+      "sha256": "0ecf0e56e22a8f88f73188be657718ba4ceefce1f65ed0bfc49310d544a5ec90"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-1219097028.osm",
+      "bytes": 2742,
+      "sha256": "ae1e6a52d3553a6baaca762a0b64d01117279d8bc4e480fc226ec79435c9ac44"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/osm-way-563127798.osm",
+      "bytes": 9416,
+      "sha256": "c28cbff3317c22b0c5d2ea3056f043a6a501cba1feb1521bb657200026a64bc0"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p01-export.json",
+      "bytes": 443,
+      "sha256": "43f3f0f7eb0566ff9a904c0fcc6f1c8506e10d3c3e390e133eb33a0540a21698"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p02-export.json",
+      "bytes": 441,
+      "sha256": "d58f4f611d19a0220d3a636c1fbef5200ec37fb55a17e7caba728da7d5bf565d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p03-export.json",
+      "bytes": 443,
+      "sha256": "c12b5918eba42fee64207b140b190582c0f9f1e6fb5d8ad5f7d681c7027c3fb8"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p04-export.json",
+      "bytes": 445,
+      "sha256": "a5c57ee7ef56eed32284729894e3828fa5e85aa577df4969c503989db7f7a25b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p05-export.json",
+      "bytes": 443,
+      "sha256": "6674527bee0d6116007b1cbaf8d5d8510a15e7e576f27f7acf8b1a18c670a1ef"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p06-export.json",
+      "bytes": 443,
+      "sha256": "ec5db075f3e438826ea7a14158ebe973aa349bd9b22a4e65f981603e31405b53"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p07-export.json",
+      "bytes": 443,
+      "sha256": "05eb09295cc4f591300af3e59345dd9b3911b29916aa448efbe837782f309b2d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p08-export.json",
+      "bytes": 443,
+      "sha256": "2094fc2c86a05bbd1b4bab18cf77d8ccfb2db1126565c2e2fa257d3fb49649bd"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p09-export.json",
+      "bytes": 441,
+      "sha256": "3aea18ad17909dd1c8955db82b561b8270cb8460be9782d472b8f20c8b44eba3"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p10-export.json",
+      "bytes": 441,
+      "sha256": "7b33105cc0e301e1d3c4b20fd7b7aacab727346ab576aa2a3b2469aa5ab60d0b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p11-export.json",
+      "bytes": 441,
+      "sha256": "d3c016fee47b85cd8d9a5dd0fa90f63d99decab1c5454e7d98e057438e91b011"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p12-export.json",
+      "bytes": 441,
+      "sha256": "0f2b7b03288c0c0e74c291a0bccfeac63cdba733cf429af3a2104037daa637bb"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p13-export.json",
+      "bytes": 441,
+      "sha256": "a29584cd3568c0f674bc4f038946401280ed9494d89f452cf4c76832fbc41082"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p14-export.json",
+      "bytes": 443,
+      "sha256": "fd0a5d9607f566b70b1b7a4af6d1577a4d3109a63cb18a033b3aaa909dd0ccce"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p15-export.json",
+      "bytes": 443,
+      "sha256": "44a7ebc91347ba8e0c110bb210552907349f0b06b6d1e930ae9cd3c175e41cd4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p16-export.json",
+      "bytes": 441,
+      "sha256": "7f2d227be9cfab7a28bb20ed1004acde94e640a805c67f5b24d442c852f9dd5b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p17-export.json",
+      "bytes": 441,
+      "sha256": "9e2f30f1154eef917b0a0bb1105621902933d1d07b15abb113fa11cc2862e33a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p18-export.json",
+      "bytes": 443,
+      "sha256": "8fa19274019d4ff484e379613b9289097cb99f0b524a3257bd03b7c2b0e54fe4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p19-export.json",
+      "bytes": 443,
+      "sha256": "cef24eb0950cf7c8828445d900f317f0983a090ebd931a0c96593a471206af63"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p20-export.json",
+      "bytes": 439,
+      "sha256": "a85715fb30d14980d841d46c40faad61190d82d2203735d431d4c7446ad426ef"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p21-export.json",
+      "bytes": 443,
+      "sha256": "9a994f5dc34dbaa3e9c20b2d037ec33cc1aa1651d8557e54fa7756157e3a7b6a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p22-export.json",
+      "bytes": 443,
+      "sha256": "35270d7a6703607ee5624d7d7d3d234bb4b547b6cd968f3e92d357f7dd4a958f"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p23-export.json",
+      "bytes": 443,
+      "sha256": "ef6ec02b2d541765f0b26e16ed485c1855c93580e407a84c2a54facebabce39c"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p24-export.json",
+      "bytes": 443,
+      "sha256": "3c677daaec979e3ab78662f51e84eb6f517170b5455e6916075da47793bcbc61"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p25-export.json",
+      "bytes": 443,
+      "sha256": "5aeba8a703ba954826255b26dd7c97f5306c757a99fb2dd7a9bcb756293b0979"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p26-export.json",
+      "bytes": 443,
+      "sha256": "3e72be1ea8cbd0e1b45ffe8ab6b9718e38425cb083ccdf8ecc4c8c3783316a30"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p27-export.json",
+      "bytes": 441,
+      "sha256": "2e91e7cea7f13a3fca1849dec27fbba2b04de6e792c8d4017245c1ba2d365522"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p28-export.json",
+      "bytes": 437,
+      "sha256": "2e119c775be0895da4d0f5d81a02d3a16c79628cd365a60aa3d152ffd6ccd3d5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p29-export.json",
+      "bytes": 443,
+      "sha256": "7375b375a20c7ddda200058a6e87e9fd70d1e66039fd8a9263308e32a48e02a7"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p30-export.json",
+      "bytes": 443,
+      "sha256": "ba3f02d56afa336df1d33913901e0f8cfa51a6d5e75413f6c8dc79dec3079368"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p31-export.json",
+      "bytes": 443,
+      "sha256": "46c4d433cce29a8b49f91dcf883d44be5f186fc56aeee0920d091ee6e664a8b7"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p32-export.json",
+      "bytes": 443,
+      "sha256": "6d611172f18f81dca946a29111204ad8a908f4d3ef8a345cac8525129fd53cfa"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p33-export.json",
+      "bytes": 443,
+      "sha256": "b2643aaf52c369cf4721e021c6239e81d5b793f82e20acd17069765b6b17da4a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p34-export.json",
+      "bytes": 443,
+      "sha256": "faa3a3e8efa3fef271bdeb83f3ab02a02694a9cbacd884f370edbd3e621c7a96"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p35-export.json",
+      "bytes": 441,
+      "sha256": "0cd5386c3a68e4b68a021e374fd588e677d8cc7eedc0b3e7c7b501562055121f"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p36-export.json",
+      "bytes": 441,
+      "sha256": "5e7a445609cb17769707cdeb0b6ee1b772f39d4a59cbf861c034df3b97b72a79"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p37-export.json",
+      "bytes": 443,
+      "sha256": "47fa353a563cf60309f7600e9ec3c7bf3063d241dd2833b121b4c1912c89f0ed"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p38-export.json",
+      "bytes": 443,
+      "sha256": "9a6c1a1756f5da01ec88cc688813238f46ac0dc210360d67a01807fedf2fc2f1"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p39-export.json",
+      "bytes": 441,
+      "sha256": "69e69791bffed163f91907bce126d9d28be81a046c7aef8d639160e6e26f09e3"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p40-export.json",
+      "bytes": 441,
+      "sha256": "fbbb80c286b65968de968c56304a378e5f4fa70f1c952294c7383b35bf082459"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p41-export.json",
+      "bytes": 441,
+      "sha256": "fc0ad154f05691283ab80ab52472e440d70edeea35fc1b197fe1e6d1b799b73d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p42-export.json",
+      "bytes": 443,
+      "sha256": "786b5dce16b400ba1de41686587c02eb5c9bc30d17083b14da41b5f78e6ee689"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p43-export.json",
+      "bytes": 443,
+      "sha256": "5d394d86c9305c0201f7681f15dbe1d04e854608fa359ad3e9a637e47c374fa4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p44-export.json",
+      "bytes": 441,
+      "sha256": "d5b2616ebec47117a2361a418810e0a33c9e14692d540017931beb8a9d9492bb"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p45-export.json",
+      "bytes": 441,
+      "sha256": "eb6a23ae3e89e7a861e2182be761956f089d31a24363f8655fa09b3714407583"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p46-export.json",
+      "bytes": 443,
+      "sha256": "419eff65517e34619e16c8a7df661ae90bd0c6fd0a12dd98f42be96b982b092b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p47-export.json",
+      "bytes": 443,
+      "sha256": "529871899cd1c841c6a742e18731fc346759278138c13c5ddff3f17585625214"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p48-export.json",
+      "bytes": 443,
+      "sha256": "6cbaddce199c2a7067f99e487e6deaa14861a358811e0371ad1436af27faf51a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p49-export.json",
+      "bytes": 443,
+      "sha256": "84e85f4c58fe4dea9dc335b600a1d400c9671450b620f84357205bfa2ba7613d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p50-export.json",
+      "bytes": 441,
+      "sha256": "3ded6521c321c6f5b3bbdd33f28f8fa088ffc6bcc868ecdcc1d1100abcec8729"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p51-export.json",
+      "bytes": 441,
+      "sha256": "80451cf777a0e2afd1672f3e1f47505034fbfef3937d9aec03969ea401699afe"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p52-export.json",
+      "bytes": 441,
+      "sha256": "5fa0f331f8387a3ce378dd53ed07605996b8dfff082070f94088403e5d4e63f5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p53-export.json",
+      "bytes": 441,
+      "sha256": "a96c0bf6dc8abcd01b7b156645f6ac115f78f5197eb16985db35b149b6b51e45"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p54-export.json",
+      "bytes": 441,
+      "sha256": "3d4a55feda649520dba5c425e12d31c42364e7de20c1744a701c243509018412"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p55-export.json",
+      "bytes": 443,
+      "sha256": "6f2492a64f7b1c5d28c9b41d3a11b21cd8d0e14af3468fcd1f623e43aeff921d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p56-export.json",
+      "bytes": 441,
+      "sha256": "741c5e23b1eaba358aacfde5607216722274c8507e22c350a76e212c566680f6"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p57-export.json",
+      "bytes": 443,
+      "sha256": "9f5ce922d12327f6a59f2090a062a37f341f53ab47eba30deb21327bf1d4c933"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p58-export.json",
+      "bytes": 443,
+      "sha256": "ead4eb8ee989588d27cd40ae6b1bbdcee2d2a5ad0e9077f00c27b935bcc6d6e5"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p59-export.json",
+      "bytes": 443,
+      "sha256": "910262a05aebc8efd8e4b7324cfaa734cdc9d67720edd965faeee4479ec7e4de"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p60-export.json",
+      "bytes": 443,
+      "sha256": "c2fcd77fe6042310590053f4109da892c4a134a0dd993979017bf8ef7b8c570a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p61-export.json",
+      "bytes": 443,
+      "sha256": "1c7ec5b8a3c7d4aa2738499e29c0c08b2e583ca68a9eccbfe8645e90c48427ee"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p62-export.json",
+      "bytes": 441,
+      "sha256": "a6bc94618b8ec350de4c871bb27e90706c73cc331603f8204bdff0cf7b145c96"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p63-export.json",
+      "bytes": 443,
+      "sha256": "cfaf53d6449af955a4d303a00a110cc0c930227d410c038d0cdd2af848e88275"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p64-export.json",
+      "bytes": 443,
+      "sha256": "2aa1c1ba9bdb2ae061b59a3aa4e659caa99e5436a2018aa6df5ab667f7a7739d"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p65-export.json",
+      "bytes": 441,
+      "sha256": "6d8dcc44e82edff4151a8e2317062813fcd76d9396ea02c9a7d65f0e78b5aade"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/p66-export.json",
+      "bytes": 443,
+      "sha256": "def4ff17984c69842335b54a9cba8eab8b1bd969f0221e5f8f8554afc1fd6d5a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/report.txt",
+      "bytes": 136344,
+      "sha256": "2a581b294ea88f54ed12b9d24a5e3a5035d2222181570f69f51c966d842bbf1b"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/sjosett.html",
+      "bytes": 61663,
+      "sha256": "95a686d3b4e8a9bd213e3c7232dbf8cfebb8701cfef0036468e48de44717c1e6"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/smabathavnutredning-2022.pdf",
+      "bytes": 8015889,
+      "sha256": "15526e7630942dc0ca74891ec229d5662f2d674d3838306908805e65d249a1ae"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/varnes-export.json",
+      "bytes": 445,
+      "sha256": "20fbb12f5383f4916cb4a05eb4f3ac3f5b9c4a46da765f1dacff0eaf09c3b6bd"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/vora-export.json",
+      "bytes": 443,
+      "sha256": "b95b44cff91c27cc4cd1c7f95130b840dbeac45c86b0cdec44e061385a534cf4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/raw/webmap.json",
+      "bytes": 6544,
+      "sha256": "6e758072f4b7486e58340b9f5eb8472a75eeb90d098566a294bf70bb7043227c"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/sandefjord-bathavner.geojson",
+      "bytes": 255642,
+      "sha256": "68a3e6146dfaaeb2225260e979602d56b882aab3af0621d34d83af24d88ff65a"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/sandefjord-metadata.csv",
+      "bytes": 98561,
+      "sha256": "29d4ff87ebe66c19212ca31c80ef967f1ca1bd4b1ae9023b838ae135b4f60219"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/scan-order.json",
+      "bytes": 3551,
+      "sha256": "ae636cd192cc651138aa0633f55ce044052b75b25beb8735855cea282a109a03"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/scan.json",
+      "bytes": 3551,
+      "sha256": "2c3da25444ef235c069f4b085235bc9482211c2a88814d384aabe2d462e62207"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/sector-review.json",
+      "bytes": 11874,
+      "sha256": "71660c612616f7a443b1a8b2694938cee41442b7c06bc1e52edd759b033d0773"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/setup.py",
+      "bytes": 757,
+      "sha256": "b72ef2e2f7eceb27f7d565ef6a3160690f334afa50f897008fe938838096e453"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/source-notes.json",
+      "bytes": 1143,
+      "sha256": "fb6e0c4430aeb5aaa53fcfb205e8de075633a967e9f2fcfdba93a2760a274fa4"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/summary.json",
+      "bytes": 195,
+      "sha256": "8a8986da102629663ea01fd2cf16c67d4e8d80292db0ac30f938a85248365584"
+    },
+    {
+      "path": "archive/original/sandefjord-pilot/timing.json",
+      "bytes": 762,
+      "sha256": "4b899891c8f857c51bf9f1bd676df1af94cd1a11091fcb8178752582626f85b7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/build_dataset.py",
+      "bytes": 8221,
+      "sha256": "0b2ceef5a5957c78822ad2d6760e28805b1b3884f4c47094f43baaaf7ed53c9f"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/detail-maps.json",
+      "bytes": 1244,
+      "sha256": "200610dc53b3f7d15085e5f008e608f45f589baad65a877665e1f0004ce3a10c"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/fetch_maps.py",
+      "bytes": 2199,
+      "sha256": "6065adfcd23ca61cd90bf844b839300aaf006bae43d4876cfc8b7ed4a7110027"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/fetch_revision_imagery.py",
+      "bytes": 2204,
+      "sha256": "27ecf87be480adc5808e9ca862ad8a366d9b08f4067cb995948123fa11355a2c"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/initial-maps.json",
+      "bytes": 102,
+      "sha256": "f155a83b3f6ae167a206f7f4e81db170fd0fb39b6c8b3797745cf3b8afa4eb92"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/kommunegrense.geojson",
+      "bytes": 301040,
+      "sha256": "cb3c49cea3c8aed1ce88a9b160617e914b16b03bc9a8dcff29ca34e88615bc3b"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/manual-digitization.json",
+      "bytes": 12988,
+      "sha256": "c3e14d16a64a71e65859939d7845794ac4f7138e6495b4679680c83114a438e7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/osm-candidates.json",
+      "bytes": 8731,
+      "sha256": "2175f63294aa776f0bdd98a1639541a901e0bab95b2d7c456b7049b58db8becf"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/candidate-links.json",
+      "bytes": 1504,
+      "sha256": "13a109dbf20cdef7a21ef4c882e2dcd55e74ec275101d7b794ef7e1613f25278"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/esri-world-imagery-service.json",
+      "bytes": 1409,
+      "sha256": "ec887f762221cd18aaa28c3ec01e686dbd06f8fafe88b15085033f4cc9a510d1"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/havneoversikt.html",
+      "bytes": 60301,
+      "sha256": "2cd1b45d6550bb075557b985e8a610f073a596bf19deb4e1903cb69808d9584f"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/kommune.json",
+      "bytes": 739,
+      "sha256": "629fccfa49ec8ba4ba868bbb2c7f3e4bbd5b5c7956a66bf2f1446751311ac42e"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/kommunegrense-response.json",
+      "bytes": 286311,
+      "sha256": "94e75d36ba8a0f2b56a944e76d35258ac2cdabf2b4e51efbb2fef88a77aa527d"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-1891818749.osm",
+      "bytes": 588,
+      "sha256": "0394656ea24f8ef68dca1f89f6c9f3586ef0744a29955fe1e2d2004bd0045fc1"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-3051926714.osm",
+      "bytes": 576,
+      "sha256": "9c642773a0c30a6aa6dac4674658a14cfeea0b92bb992a9256be9cfbec11e2aa"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-5107343361.osm",
+      "bytes": 594,
+      "sha256": "1d1f235fc76682cbc64dee70839da0ad53a23620edb66cb3f1b072e9fc3002f1"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-5107520723.osm",
+      "bytes": 507,
+      "sha256": "5d05b41ed1a1f3bb4d128ea39a1f1425b3023929480952993427855b3c6312c2"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-5107521775.osm",
+      "bytes": 594,
+      "sha256": "9c562890ae850124ba388e93878ea32cbcb45426b3fcc173bbf09eab86227b7b"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-node-5107521786.osm",
+      "bytes": 594,
+      "sha256": "ddfc510f663f69b9a10b43b997cafa0f55fe7fe43af816422a660c93cd03ff1c"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-relation-11898442.osm",
+      "bytes": 5133,
+      "sha256": "7ef84022558a49d568122243c8f02a1b70e085d5555d3313b6b00c8b8adbb352"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-1217522237.osm",
+      "bytes": 3952,
+      "sha256": "0ae826876d13d38f9a24e035a2cb0f2953eb9e1bca2e074b936caf633afb9e7b"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-38848945.osm",
+      "bytes": 1480,
+      "sha256": "0b8f0fa031d5e8c5830ef60670f0fbaae7addfb8acc8a184e6e60674bf5b03a7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-38901313.osm",
+      "bytes": 5663,
+      "sha256": "3c143fdd317d479aba72f77e16b030ea3b2db1fa2e132376e867cff44cbda7ee"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-53878403.osm",
+      "bytes": 1948,
+      "sha256": "751bc221caf794f92b0bcb4adc2457fcb324a7453006437cb43db5e610655db7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-546250542.osm",
+      "bytes": 2482,
+      "sha256": "571f7595835dbaf6d4ff20333c4e579acc3031d8feaddcccb546691e086b7ad3"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/osm-way-546762948.osm",
+      "bytes": 2269,
+      "sha256": "1e58a338f4d55e89aaf8e68a0fabcc0f63091fe93ee9c4d279f6128fed9f13ee"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/raw/sjosett.html",
+      "bytes": 37198,
+      "sha256": "aba5d70948d4d3e1ed05a2127b5ceaf09f1db8f1f720c45a4caa3dfdf0bfe56c"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revise_dataset.py",
+      "bytes": 14515,
+      "sha256": "9de8b19e0cd638b69313247932ac2f3c9a1d88fe1a22b2b233f9b0e31975cc39"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revision-2-changes.json",
+      "bytes": 4791,
+      "sha256": "b96ae9bf97c147e65bca0c291ef6ce1068c816680becbe167bb15484b53bd334"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revision-2-digitization.json",
+      "bytes": 6001,
+      "sha256": "0faa4f8f8f9e8c90a95b97b3fc0cb5a3ddf3d10e9b661f3f57e7427244cb6b10"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revision-2-review-coverage.json",
+      "bytes": 9141,
+      "sha256": "ac4b4e304d65fcc3c34d57449e8db5947a5e138af044092e09a7f295c54c5b82"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revision-2-summary.json",
+      "bytes": 256,
+      "sha256": "98cf3582e74490965a523127880d27da46e5d6c4a04a82e8d3508f2f639af3ee"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revision-imagery-specs.json",
+      "bytes": 2688,
+      "sha256": "512717eae1f889edfa372992eb21d2c5ad20eda31f302ed5f25e3b4a8fff509b"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-1/build_dataset.py",
+      "bytes": 8221,
+      "sha256": "0b2ceef5a5957c78822ad2d6760e28805b1b3884f4c47094f43baaaf7ed53c9f"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-1/manual-digitization.json",
+      "bytes": 12988,
+      "sha256": "c3e14d16a64a71e65859939d7845794ac4f7138e6495b4679680c83114a438e7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-1/tidtaking.json",
+      "bytes": 335,
+      "sha256": "169da464ce0026188c5c9d30be157c0b8e1f962e3f58cfd2a476c3729a407aa8"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-1/tonsberg-bathavner.geojson",
+      "bytes": 45264,
+      "sha256": "49df3bab4f22d525cc241d6f9aea2bbb3274d0bf8ee5d8d308fe2190207f7899"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-1/tonsberg-metadata.csv",
+      "bytes": 13443,
+      "sha256": "f6159b412401e7338744ac4e9c1f986223fd17bfd29e2cecebb4bb14f3c8b7d1"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/revisjon-2-tid.json",
+      "bytes": 344,
+      "sha256": "8c6828e5233b691cb52da000810d796b2b2f7bf21b20b50164b328bce21b4bd7"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/scan-maps.json",
+      "bytes": 8237,
+      "sha256": "eb24e6ed867570831ff63fd156d3260d9af1f0a94c408de3ab8efafce4a3a10e"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tidtaking.json",
+      "bytes": 335,
+      "sha256": "169da464ce0026188c5c9d30be157c0b8e1f962e3f58cfd2a476c3729a407aa8"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tonsberg-bathavner-rev2.geojson",
+      "bytes": 71941,
+      "sha256": "5913ecfec9feebf31528f004480bea4ae24da1a1a8bec70c40aaa9855ae94475"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tonsberg-bathavner.geojson",
+      "bytes": 71941,
+      "sha256": "5913ecfec9feebf31528f004480bea4ae24da1a1a8bec70c40aaa9855ae94475"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tonsberg-endringer-rev2.csv",
+      "bytes": 3100,
+      "sha256": "e0daa8cf0723aabb02815dec6825c768f7d4a1b3a9c375a5da86a10d295b6865"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tonsberg-metadata-rev2.csv",
+      "bytes": 25787,
+      "sha256": "b17112fee5eec900a6a7ec160d8834697ada4f97daa32a2d3ac4916b8573a1b4"
+    },
+    {
+      "path": "archive/original/tonsberg-pilot/tonsberg-metadata.csv",
+      "bytes": 25787,
+      "sha256": "b17112fee5eec900a6a7ec160d8834697ada4f97daa32a2d3ac4916b8573a1b4"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/bathavner.geojson",
+      "bytes": 114404,
+      "sha256": "e9d51d4d1bfa42a6125df9307bf8327b69afa16499a5ce25f7ac71105fe45f40"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/candidate-ledger.csv",
+      "bytes": 15108,
+      "sha256": "4b08dfaf5de449f566ce4de4f25709a4789c4ca8e9020f9f1430ea77bfd79d6a"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/candidate-ledger.json",
+      "bytes": 25106,
+      "sha256": "6ed7003d6ec2d75325d764be72bc2b0dddaf92755fa90995ec162dcb65485e54"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/coverage.json",
+      "bytes": 137359,
+      "sha256": "ad2b4d4540a5a90e04fca425c13d92390f38054b8686662e523ad874773d8a72"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/metadata.csv",
+      "bytes": 42645,
+      "sha256": "c1db8b88a4e4e699582c4716115cb9efa571e451133c84fc31152dc712df6a9f"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/sector-review.json",
+      "bytes": 13773,
+      "sha256": "4c138687e0845122b34b41828732b8ea97f2a7a3969c09e7341ce644cb4f4926"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/source-notes.json",
+      "bytes": 1972,
+      "sha256": "6b66de7ce27408bcbf33b1bb650b52d12ab7930b95b49c3491b05941959e4f12"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/summary.json",
+      "bytes": 136,
+      "sha256": "a4feb168502d059b958ad75f20d7f0819b0829d06818351b5f687e464fd717fd"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/timing.json",
+      "bytes": 401,
+      "sha256": "4ac7b91d6276bdc3f2a42ae6c6ba1e627ee9b90968792533adaaab9b0b705b76"
+    },
+    {
+      "path": "data/kommuner/3103-moss/rev-01/validation.json",
+      "bytes": 273,
+      "sha256": "c2892f9b2273cb5d2d85842eb851496b18accce031651e85fd68be40867cca6a"
+    },
+    {
+      "path": "data/kommuner/3901-horten/rev-01/bathavner.geojson",
+      "bytes": 43128,
+      "sha256": "342ddd3153a85f9238d4f8bf99007592f5255f2f19fb2f9f921f4909faf11211"
+    },
+    {
+      "path": "data/kommuner/3901-horten/rev-01/metadata.csv",
+      "bytes": 17201,
+      "sha256": "bfb37a5a862605201b96231c2b4350e0e0643b5ba375a89ecc7821e0738467e4"
+    },
+    {
+      "path": "data/kommuner/3903-holmestrand/rev-01/bathavner.geojson",
+      "bytes": 40626,
+      "sha256": "070912b671259e3aaa3c17e491fd528b368b1ae2a0504aa8d1f3770e7aea172a"
+    },
+    {
+      "path": "data/kommuner/3903-holmestrand/rev-01/metadata.csv",
+      "bytes": 15386,
+      "sha256": "432183034dbb390a948f524a01049ee3035d2f791eafe8af79bfed43ade0c354"
+    },
+    {
+      "path": "data/kommuner/3905-tonsberg/rev-02/bathavner.geojson",
+      "bytes": 73580,
+      "sha256": "9e66be38d71bb2266b6ff04529b613cdde7d20b870b964aa86d5564ecb81dab1"
+    },
+    {
+      "path": "data/kommuner/3905-tonsberg/rev-02/metadata.csv",
+      "bytes": 27077,
+      "sha256": "8f542625d75d65196f9673877bca3e69feefddf8e54cd58f3ecd4dbfbbbc028e"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/bathavner.geojson",
+      "bytes": 255236,
+      "sha256": "0de07948d85bcef19898126a1884936e16dabb7d5f338d9efbac756ec025866a"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/candidate-ledger.csv",
+      "bytes": 38423,
+      "sha256": "d66930dca83d231113c74b143b0f0d728bbf3e9e7cd054ed38b251610a2a31d9"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/candidate-ledger.json",
+      "bytes": 62503,
+      "sha256": "f83d48fd3a1c40e7f3bd4dc07963b20fc96bb73071cd6f458c027d5950303564"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/coverage.json",
+      "bytes": 2404,
+      "sha256": "f607ec5721015e9de9953ca8d6a34fe1e6abe348d4cbe8d67c739535ed18c105"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/metadata.csv",
+      "bytes": 98561,
+      "sha256": "29d4ff87ebe66c19212ca31c80ef967f1ca1bd4b1ae9023b838ae135b4f60219"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/sector-review.json",
+      "bytes": 11874,
+      "sha256": "71660c612616f7a443b1a8b2694938cee41442b7c06bc1e52edd759b033d0773"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/source-notes.json",
+      "bytes": 1143,
+      "sha256": "fb6e0c4430aeb5aaa53fcfb205e8de075633a967e9f2fcfdba93a2760a274fa4"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/summary.json",
+      "bytes": 195,
+      "sha256": "8a8986da102629663ea01fd2cf16c67d4e8d80292db0ac30f938a85248365584"
+    },
+    {
+      "path": "data/kommuner/3907-sandefjord/rev-01/timing.json",
+      "bytes": 762,
+      "sha256": "4b899891c8f857c51bf9f1bd676df1af94cd1a11091fcb8178752582626f85b7"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/bathavner.geojson",
+      "bytes": 121881,
+      "sha256": "2786f02c9a3d2a8a61cf391831506c3a4a4d0506c12b7bdebd7e138481c744dc"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/candidate-ledger.csv",
+      "bytes": 17131,
+      "sha256": "1c3835820eb0b7516ca2f1d3dff4eb965fe347e9f16e8d67882b28887944ab39"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/candidate-ledger.json",
+      "bytes": 23845,
+      "sha256": "419f8b04a4ecd1c9bda4c8cc6679bfbd555a0f43e086af7ad7385fb6f11207c0"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/coverage.json",
+      "bytes": 117001,
+      "sha256": "a19218a881ee1fd1be47e67b3c495e3b04557d7caad635855a69b31ad4314aef"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/metadata.csv",
+      "bytes": 38303,
+      "sha256": "a3ef9b2e7ef94e49b29627bef553ec631fee35bf834fe17763fa9f661756fe05"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/sector-review.json",
+      "bytes": 9895,
+      "sha256": "d111b9e82dd5d5d6723232150f086d95958a5adbd6bf2f493b271eb67107516c"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/source-notes.json",
+      "bytes": 1418,
+      "sha256": "0e448267c58f5a60089f6bed28a65614c5711772b4bbd8bdd859a46ffc1462d8"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/summary.json",
+      "bytes": 136,
+      "sha256": "a2826bf0ae50da99e749d6237804d1af8cf383a3130fd28257c11b530f87c5ed"
+    },
+    {
+      "path": "data/kommuner/3909-larvik/rev-01/timing.json",
+      "bytes": 440,
+      "sha256": "d1ffa62b8705a25aca8d769910deb4113dff2981330ecaa225f4e15aeb0afda4"
+    },
+    {
+      "path": "data/kommuner/3911-faerder/rev-02/bathavner.geojson",
+      "bytes": 116729,
+      "sha256": "18ade2a2b57a3c07bdb7b0c307c285bfe1d3278bf8ad1f94288d4aa6c289cf0b"
+    },
+    {
+      "path": "data/kommuner/3911-faerder/rev-02/coverage.json",
+      "bytes": 1205,
+      "sha256": "b1c2c746c40a12e619afeab764ea30fcd7087e31b7f82b0e99c3b439b8f8586c"
+    },
+    {
+      "path": "data/kommuner/3911-faerder/rev-02/metadata.csv",
+      "bytes": 38219,
+      "sha256": "6ce6bf6adc15b66aa1b08757f2d960cb06ade9deb794bbde6ec066406d502ab4"
+    },
+    {
+      "path": "data/kommuner/3911-faerder/rev-02/summary.json",
+      "bytes": 189,
+      "sha256": "039aaaca888cf4d8b07bbc178f144d35d2b33dc8d37b9c5d2adba20259730588"
+    },
+    {
+      "path": "data/kommuner/3911-faerder/rev-02/timing.json",
+      "bytes": 1119,
+      "sha256": "f93128af24193c95583d9f902ca1d77ad673e1ed8b0c03b5693440700b006a0e"
+    },
+    {
+      "path": "data/samlet/oslofjorden-bathavner-samlet.geojson",
+      "bytes": 764945,
+      "sha256": "95df0390836b533938b21a935c7d8970f43f215f0fd34fd3524ce2352c70e1fa"
+    },
+    {
+      "path": "data/samlet/samlet-manifest.json",
+      "bytes": 2543,
+      "sha256": "6296c82b937519f25bd1bf33e3ec5d080bf2be23de0653326fb903540e4543a1"
+    },
+    {
+      "path": "docs/METODIKK.md",
+      "bytes": 60982,
+      "sha256": "306f7a4e4b5416a186b4360fb50b65b9a6b108a6e17b174a8c961cfff4d5451f"
+    },
+    {
+      "path": "docs/OVERLEVERING.md",
+      "bytes": 3474,
+      "sha256": "0bd4ffe4a447e7589fd327f307691d96a9d00686bc015253d54ecd2963b6b64d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 75,
+      "sha256": "24771d33269a0dbe4a752d821ce34d2324b4a2ca16d333b694bcef76b7494ad4"
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "bytes": 1979,
+      "sha256": "d19ed9195b71096e782db36f1cf8080f19df01283d64166635eaadb9d7715be9"
+    },
+    {
+      "path": "status.json",
+      "bytes": 3988,
+      "sha256": "c6748c4cf158de93d624542f72061c340b7de78a673f82780573f1f2fedd631f"
+    }
+  ],
+  "images_in_separate_archive": true
+}

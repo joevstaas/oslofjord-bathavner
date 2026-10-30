@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mapping Oslofjord Marinas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a nautical-chart reading column; each step is a chart "sheet" with a schematic figure beside the text. */
+:root {
+  --paper: #f3f6f7;      /* chart paper, faintly sea-tinted */
+  --sheet: #ffffff;
+  --ink: #142433;        /* chart navy */
+  --muted: #4c5e6d;
+  --rule: #c9d6de;
+  --water: #d6e8f1;      /* shallow-water tint */
+  --water-deep: #b5d3e3;
+  --land: #ece3cf;       /* land buff on charts */
+  --land-edge: #b9a77f;
+  --accent: #b0206b;     /* chart magenta, used for lights and our polygons */
+  --accent-soft: #f6dbe8;
+  --ok: #2c7a4b;
+  --warn: #a5640c;
+  --pier: #5a4a2c;
+  --display: "Barlow Condensed", "Arial Narrow", Arial, sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0d161e; --sheet: #13202b; --ink: #e3ecf2; --muted: #9db0bf; --rule: #2a3c4b;
+    --water: #173246; --water-deep: #1f4762; --land: #3a3426; --land-edge: #7d6c49;
+    --accent: #f06aa8; --accent-soft: #3d1a2c; --ok: #6cc690; --warn: #e3a54d; --pier: #d9c49a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0d161e; --sheet: #13202b; --ink: #e3ecf2; --muted: #9db0bf; --rule: #2a3c4b;
+  --water: #173246; --water-deep: #1f4762; --land: #3a3426; --land-edge: #7d6c49;
+  --accent: #f06aa8; --accent-soft: #3d1a2c; --ok: #6cc690; --warn: #e3a54d; --pier: #d9c49a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font: 17px/1.6 var(--body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 64px;
+}
+.wrap { max-width: 1060px; margin: 0 auto; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; line-height: 1.1; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); letter-spacing: 0.01em; }
+h2 { font-size: 1.9rem; }
+h3 { font-size: 1.3rem; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--accent); }
+code, .mono { font-family: var(--mono); font-size: 0.86em; }
+.label { font-family: var(--display); text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.85rem; color: var(--muted); font-weight: 600; }
+
+header.top { padding-block: 48px 28px; display: grid; gap: 16px; border-bottom: 2px solid var(--ink); }
+header.top .lede { font-size: 1.15rem; color: var(--muted); }
+.coord { font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+
+.note {
+  border-left: 3px solid var(--warn); background: var(--sheet); padding: 12px 16px; max-width: 72ch;
+  font-size: 0.95rem;
+}
+section { padding-block: 40px 8px; display: grid; gap: 18px; }
+.intro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+.rulebox { background: var(--sheet); border: 1px solid var(--rule); padding: 16px; display: grid; gap: 8px; min-width: 0; }
+.rulebox .tag { font-family: var(--mono); font-size: 0.8rem; padding: 2px 8px; border-radius: 3px; justify-self: start; }
+.t-yes { background: var(--accent-soft); color: var(--accent); }
+.t-maybe { background: var(--water); color: var(--ink); }
+.t-no { background: var(--land); color: var(--ink); }
+
+.flow { overflow-x: auto; background: var(--sheet); border: 1px solid var(--rule); padding: 12px; }
+.flow svg { display: block; min-width: 760px; width: 100%; height: auto; }
+
+.step {
+  display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 0 20px;
+  border-top: 1px solid var(--rule); padding-block: 32px;
+}
+.step .num {
+  font-family: var(--display); font-size: 2.6rem; font-weight: 700; color: var(--accent); line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.step .body { display: grid; gap: 14px; min-width: 0; }
+.step .cols { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.step ul { margin: 0; padding-left: 1.1em; display: grid; gap: 6px; max-width: 64ch; }
+.example {
+  background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; display: grid; gap: 6px; font-size: 0.95rem;
+}
+.example .label { color: var(--accent); }
+figure { margin: 0; display: grid; gap: 8px; min-width: 0; }
+figure svg { width: 100%; height: auto; display: block; background: var(--water); border: 1px solid var(--rule); }
+figcaption { font-size: 0.85rem; color: var(--muted); }
+.panels { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.panels figure svg { aspect-ratio: 1 / 1; }
+
+pre {
+  margin: 0; background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; overflow-x: auto;
+  font-family: var(--mono); font-size: 0.82rem; line-height: 1.5;
+}
+.tbl { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; background: var(--sheet); }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+th { font-family: var(--display); font-weight: 600; letter-spacing: 0.04em; font-size: 0.95rem; }
+td.mono, td code { font-variant-numeric: tabular-nums; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-family: var(--mono); font-size: 0.78rem; border: 1px solid var(--rule); padding: 3px 9px; border-radius: 999px; background: var(--sheet); }
+.chip.inc { border-color: var(--accent); color: var(--accent); }
+.chip.exc { color: var(--muted); }
+
+.checks { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.check { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; display: grid; gap: 4px; font-size: 0.93rem; min-width: 0; }
+.check b { font-family: var(--display); font-size: 1.05rem; font-weight: 600; }
+
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+.stat { background: var(--sheet); border: 1px solid var(--rule); padding: 12px 14px; }
+.stat .v { font-family: var(--display); font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.stat .k { font-size: 0.85rem; color: var(--muted); }
+
+.tips { display: grid; gap: 14px; }
+.tip { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 16px; background: var(--sheet); border: 1px solid var(--rule); padding: 14px 16px; }
+.tip .gain { font-family: var(--display); font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.9rem; }
+.tip h3 { margin-bottom: 4px; }
+
+footer { border-top: 2px solid var(--ink); margin-top: 40px; padding-top: 16px; font-size: 0.85rem; color: var(--muted); display: grid; gap: 6px; }
+
+/* svg tokens */
+.s-land { fill: var(--land); stroke: var(--land-edge); stroke-width: 1.5; }
+.s-water { fill: var(--water); }
+.s-deep { fill: var(--water-deep); }
+.s-pier { stroke: var(--pier); stroke-width: 3; stroke-linecap: square; fill: none; }
+.s-buf { stroke: var(--accent); stroke-opacity: 0.28; fill: none; stroke-linecap: square; stroke-linejoin: miter; }
+.s-poly { fill: var(--accent); fill-opacity: 0.18; stroke: var(--accent); stroke-width: 2.5; }
+.s-text { fill: var(--ink); font-family: var(--mono); font-size: 11px; }
+.s-muted { fill: var(--muted); font-family: var(--mono); font-size: 10px; }
+.s-boat { fill: var(--sheet); stroke: var(--ink); stroke-width: 0.8; }
+.s-grid { stroke: var(--muted); stroke-opacity: 0.35; stroke-width: 0.6; }
+.s-bnd { stroke: var(--warn); stroke-width: 2; stroke-dasharray: 6 4; fill: none; }
+.f-box { fill: var(--sheet); stroke: var(--ink); stroke-width: 1.2; }
+.f-src { fill: var(--water); stroke: var(--ink); stroke-width: 1.2; }
+.f-out { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.4; }
+.f-h { fill: var(--ink); font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 600; font-size: 15px; }
+.f-t { fill: var(--muted); font-family: "Source Sans 3", system-ui, sans-serif; font-size: 12px; }
+.f-arrow { stroke: var(--ink); stroke-width: 1.3; fill: none; marker-end: url(#arr); }
+
+@media (max-width: 760px) {
+  .step { grid-template-columns: 1fr; }
+  .step .num { font-size: 2rem; margin-bottom: 4px; }
+  .step .cols { grid-template-columns: 1fr; }
+  .panels { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tip { grid-template-columns: 1fr; gap: 4px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .s-poly { transition: fill-opacity .2s; }
+  figure:hover .s-poly { fill-opacity: 0.3; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <span class="label">Oslofjord small-boat harbour survey · method 1.2</span>
+  <h1>How we find and outline marinas, step by step</h1>
+  <p class="lede">A walk-through of the method used to map small-boat harbours (<em>småbåthavner</em>) municipality by municipality around the Oslofjord. The worked example is Oslo, around the Bygdøy peninsula: Frognerkilen on the east side and Bestumkilen on the west.</p>
+  <span class="coord">Working CRS EPSG:25833 (ETRS89 / UTM 33N) · Delivery RFC 7946 GeoJSON, WGS84 · Bygdøy ≈ 59.905° N, 10.68° E</span>
+  <p class="note"><strong>About the example.</strong> Oslo is queued but has not been analysed yet. The Bygdøy figures on this page are schematic and show how each step works. They are not results. All counts and timings quoted come from municipalities that are finished, mainly Fredrikstad and Råde.</p>
+</header>
+
+<section>
+  <span class="label">What counts as a harbour</span>
+  <h2>One rule, three outcomes</h2>
+  <p>The survey maps <strong>communal berthing facilities</strong>, not every private jetty. The threshold is a project rule agreed with the user, not a legal definition.</p>
+  <div class="intro-grid">
+    <div class="rulebox"><span class="tag t-yes">smabathavn</span><b>Included</b><p>A shared facility with at least 10 berths, or a documented marina or boat club with fixed berths.</p></div>
+    <div class="rulebox"><span class="tag t-maybe">mulig_smabathavn</span><b>Included, flagged uncertain</b><p>Several connected jetties, but the berth count or shared operation is unclear.</p></div>
+    <div class="rulebox"><span class="tag t-no">excluded</span><b>Logged, not delivered</b><p>Scattered private jetties, slipways, ferry quays, bathing piers, and plans that were never built.</p></div>
+  </div>
+  <p>The polygon represents <strong>the jetties, their berths and the water between them</strong>. It does not cover the whole sheltered bay, the club's land, car parks or winter storage.</p>
+</section>
+
+<section>
+  <span class="label">The pipeline at a glance</span>
+  <h2>From municipal boundary to approved dataset</h2>
+  <div class="flow" role="img" aria-label="Pipeline: boundary and tiles, imagery and sources, draft polygons, visual review, systematic sweep, metadata, checks, user approval, merge.">
+    <svg viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
+      <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" style="fill: var(--ink)"/></marker></defs>
+      <rect class="f-src" x="10" y="20" width="160" height="70" rx="4"/><text class="f-h" x="22" y="45">1 · Boundary &amp; tiles</text><text class="f-t" x="22" y="66">Kartverket boundary,</text><text class="f-t" x="22" y="81">4 km + 1 km grid</text>
+      <rect class="f-src" x="10" y="140" width="160" height="80" rx="4"/><text class="f-h" x="22" y="165">2 · Imagery &amp; sources</text><text class="f-t" x="22" y="186">Esri, topo map, OSM,</text><text class="f-t" x="22" y="201">registers, operators</text>
+      <rect class="f-box" x="215" y="80" width="160" height="80" rx="4"/><text class="f-h" x="227" y="105">3 · Draft polygons</text><text class="f-t" x="227" y="126">cluster piers, buffer,</text><text class="f-t" x="227" y="141">clip to water</text>
+      <rect class="f-box" x="420" y="20" width="160" height="80" rx="4"/><text class="f-h" x="432" y="45">4 · Visual review</text><text class="f-t" x="432" y="66">include / clip / split</text><text class="f-t" x="432" y="81">/ add / exclude</text>
+      <rect class="f-box" x="420" y="140" width="160" height="80" rx="4"/><text class="f-h" x="432" y="165">5 · Systematic sweep</text><text class="f-t" x="432" y="186">every detail tile, for</text><text class="f-t" x="432" y="201">sites missing in OSM</text>
+      <rect class="f-box" x="625" y="80" width="160" height="80" rx="4"/><text class="f-h" x="637" y="105">6 · Metadata &amp; QA</text><text class="f-t" x="637" y="126">sources, capacity, flags;</text><text class="f-t" x="637" y="141">overlays + validation</text>
+      <rect class="f-out" x="830" y="80" width="160" height="80" rx="4"/><text class="f-h" x="842" y="105">7 · Approval &amp; merge</text><text class="f-t" x="842" y="126">user reviews GeoJSON,</text><text class="f-t" x="842" y="141">then combined file</text>
+      <path class="f-arrow" d="M170 55 C 195 55, 195 110, 213 115"/>
+      <path class="f-arrow" d="M170 180 C 195 180, 195 130, 213 125"/>
+      <path class="f-arrow" d="M375 110 C 400 100, 400 65, 418 60"/>
+      <path class="f-arrow" d="M375 130 C 400 140, 400 175, 418 180"/>
+      <path class="f-arrow" d="M580 60 C 605 65, 605 105, 623 112"/>
+      <path class="f-arrow" d="M580 180 C 605 175, 605 135, 623 128"/>
+      <path class="f-arrow" d="M785 120 L 828 120"/>
+      <text class="f-t" x="700" y="200">One municipality at a time; nothing enters the</text>
+      <text class="f-t" x="700" y="216">combined file before the user approves it.</text>
+    </svg>
+  </div>
+</section>
+
+<section>
+  <span class="label">The method, step by step</span>
+  <h2>Worked through for Bygdøy</h2>
+
+  <article class="step">
+    <div class="num">1</div>
+    <div class="body">
+      <h3>Fix the area: official boundary and a tile grid</h3>
+      <div class="cols">
+        <div style="display:grid;gap:12px">
+          <p>The municipal boundary comes from Kartverket's Kommuneinfo API and is the only authority on what belongs to the municipality. Search results that merely say "Oslo" do not count. The boundary is reprojected to UTM 33N, so all distances and areas are in metres.</p>
+          <ul>
+            <li><strong>Overview tiles:</strong> 4 × 4 km with 400 m overlap, both topographic map and aerial image.</li>
+            <li><strong>Detail tiles:</strong> 1 km cells where the topographic map shows 2–99 % water, which means the cell contains shoreline. Each is exported 1.1 km wide at 1320 px.</li>
+            <li>The water mask only sets priorities. It never proves there is no harbour.</li>
+          </ul>
+          <div class="example"><span class="label">Bygdøy</span><p>Bygdøy is almost entirely shoreline cells, so the peninsula is covered by a ring of roughly a dozen detail tiles. Inland Oslo (Marka, the city centre away from the fjord) produces no detail tiles. Fredrikstad, with its long coast, produced 282.</p></div>
+        </div>
+        <figure>
+          <svg viewBox="0 0 300 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic Bygdøy peninsula with a 1 km grid; shoreline cells highlighted.">
+            <rect class="s-water" width="300" height="260"/>
+            <path class="s-land" d="M0 0 H300 V40 C 260 50, 240 40, 215 60 C 200 72, 205 95, 190 110 C 175 125, 150 120, 140 140 C 128 165, 150 190, 135 215 C 122 238, 95 246, 80 230 C 66 214, 85 190, 70 170 C 55 150, 30 160, 20 140 C 10 120, 40 105, 50 85 C 60 62, 35 50, 0 52 Z"/>
+            <g class="s-grid">
+              <path d="M0 0 V260 M60 0 V260 M120 0 V260 M180 0 V260 M240 0 V260 M300 0 V260 M0 0 H300 M0 52 H300 M0 104 H300 M0 156 H300 M0 208 H300 M0 260 H300"/>
+            </g>
+            <g fill="var(--accent)" fill-opacity="0.13">
+              <rect x="0" y="0" width="60" height="52"/><rect x="180" y="0" width="60" height="52"/><rect x="240" y="0" width="60" height="52"/>
+              <rect x="0" y="52" width="60" height="52"/><rect x="60" y="52" width="60" height="52"/><rect x="180" y="52" width="60" height="52"/>
+              <rect x="0" y="104" width="60" height="52"/><rect x="120" y="104" width="60" height="52"/><rect x="180" y="104" width="60" height="52"/>
+              <rect x="0" y="156" width="60" height="52"/><rect x="60" y="156" width="60" height="52"/><rect x="120" y="156" width="60" height="52"/>
+              <rect x="60" y="208" width="60" height="52"/><rect x="120" y="208" width="60" height="52"/>
+            </g>
+            <text class="s-text" x="88" y="110">Bygdøy</text>
+            <text class="s-muted" x="210" y="160">Frognerkilen</text>
+            <text class="s-muted" x="6" y="250">Bestumkilen</text>
+            <text class="s-muted" x="200" y="252">1 km</text>
+          </svg>
+          <figcaption>Schematic. Shaded cells contain both land and water and get a detail image. Land-only and open-water cells are skipped.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">2</div>
+    <div class="body">
+      <h3>Collect imagery and candidate sources</h3>
+      <p>Two independent searches feed the candidate list: what the <em>images</em> show, and what <em>sources</em> say exists. Neither is trusted alone.</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Source</th><th>Used for</th><th>Main weakness</th></tr></thead>
+          <tbody>
+            <tr><td>Esri World Imagery (export API)</td><td>Seeing jetties, berths and boats; drawing outlines</td><td>Unknown capture date; mosaic seams; grey haze in places (south-east Fredrikstad)</td></tr>
+            <tr><td>Kartverket topographic WMS</td><td>Shoreline, place names, water mask</td><td>Generalised; piers may be missing</td></tr>
+            <tr><td>OpenStreetMap via Overpass</td><td>Pier lines (<code>man_made=pier</code>), marinas, moorings</td><td>Incomplete and uneven; one big query times out, so it is split into 3 × 3 sub-areas</td></tr>
+            <tr><td>Enhetsregisteret (Brønnøysund)</td><td>Boat clubs, jetty associations, marina companies</td><td>An office address is not the harbour's location</td></tr>
+            <tr><td>Operators, municipality, local-history wiki</td><td>Names, fixed berths, published capacity</td><td>Often old; capacity may cover the whole site</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="example"><span class="label">Every image is stored with its georeference</span><p>Each export is requested as JSON first, so the server returns the <em>actual</em> extent and size. The image is saved together with that extent, the request URL, the date and a SHA-256 hash. A failed download is logged as "not checked". It is never treated as "no harbour".</p></div>
+<pre>GET .../World_Imagery/MapServer/export?bbox=595950,6640950,597050,6642050
+    &amp;bboxSR=25833&amp;imageSR=25833&amp;size=1320,1320&amp;format=jpg&amp;f=pjson
+→ {"href": ".../_ags_map….jpg", "extent": {...}, "width": 1320, "height": 1320}</pre>
+      <p style="font-size:0.9rem;color:var(--muted)">The bbox above is an illustrative example. In practice 0.5 m/px exports sometimes returned an empty <code>href</code> or HTTP 500, while about 0.67–0.83 m/px worked reliably.</p>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">3</div>
+    <div class="body">
+      <h3>Draft polygons from the pier geometry</h3>
+      <p>Drawing every harbour by hand does not scale: Fredrikstad alone has 735 OSM piers and moles. Since method version 1.2, draft outlines are computed from the pier lines and then judged by eye. Four geometric operations, all in metres:</p>
+      <div class="panels">
+        <figure>
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pier lines">
+            <rect class="s-water" width="160" height="160"/>
+            <path class="s-land" d="M0 0 H160 V34 C 120 40, 80 30, 40 42 C 20 48, 10 40, 0 44 Z"/>
+            <path class="s-pier" d="M40 42 V120 M80 34 V128 M120 37 V112 M40 120 H62 M80 128 H104"/>
+            <path class="s-pier" d="M140 60 V80"/>
+          </svg>
+          <figcaption><b>a. Cluster.</b> OSM piers within 60 m of each other form one cluster. A lone short pier far away stays separate.</figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Buffered piers">
+            <rect class="s-water" width="160" height="160"/>
+            <path class="s-land" d="M0 0 H160 V34 C 120 40, 80 30, 40 42 C 20 48, 10 40, 0 44 Z"/>
+            <path class="s-buf" stroke-width="24" d="M40 42 V120 M80 34 V128 M120 37 V112 M40 120 H62 M80 128 H104"/>
+            <path class="s-pier" d="M40 42 V120 M80 34 V128 M120 37 V112 M40 120 H62 M80 128 H104"/>
+          </svg>
+          <figcaption><b>b. Buffer 12 m.</b> Each pier becomes a band wide enough to hold the berths and boats on both sides.</figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Closed shape">
+            <rect class="s-water" width="160" height="160"/>
+            <path class="s-land" d="M0 0 H160 V34 C 120 40, 80 30, 40 42 C 20 48, 10 40, 0 44 Z"/>
+            <path class="s-poly" d="M28 30 H132 V124 L116 124 L116 140 L68 140 L68 132 L28 132 Z"/>
+            <path class="s-pier" d="M40 42 V120 M80 34 V128 M120 37 V112 M40 120 H62 M80 128 H104"/>
+          </svg>
+          <figcaption><b>c. Close 20 m.</b> Dilate then erode, so the water between neighbouring piers is filled in.</figcaption>
+        </figure>
+        <figure>
+          <svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Clipped to water">
+            <defs><clipPath id="wclip"><path d="M0 44 C 10 40, 20 48, 40 42 C 80 30, 120 40, 160 34 V160 H0 Z"/></clipPath></defs>
+            <rect class="s-water" width="160" height="160"/>
+            <path class="s-land" d="M0 0 H160 V34 C 120 40, 80 30, 40 42 C 20 48, 10 40, 0 44 Z"/>
+            <path class="s-poly" clip-path="url(#wclip)" d="M28 30 H132 V124 L116 124 L116 140 L68 140 L68 132 L28 132 Z"/>
+            <path class="s-pier" d="M40 42 V120 M80 34 V128 M120 37 V112 M40 120 H62 M80 128 H104"/>
+            <g><ellipse class="s-boat" cx="48" cy="70" rx="5" ry="2.2"/><ellipse class="s-boat" cx="72" cy="90" rx="5" ry="2.2"/><ellipse class="s-boat" cx="88" cy="60" rx="5" ry="2.2"/><ellipse class="s-boat" cx="112" cy="80" rx="5" ry="2.2"/><ellipse class="s-boat" cx="32" cy="100" rx="5" ry="2.2"/></g>
+          </svg>
+          <figcaption><b>d. Clip.</b> Cut to the topographic water area (+4 m tolerance) and the municipal boundary. Land and car parks drop out.</figcaption>
+        </figure>
+      </div>
+<pre>poly = union(buffer(pier, 12 m) for pier in cluster).buffer(+20).buffer(-20)
+poly = poly ∩ water_from_topo_map.buffer(4 m) ∩ municipal_boundary</pre>
+      <div class="example"><span class="label">Bygdøy</span><p>In Frognerkilen the long parallel pontoons would form one or a few large clusters. Small single jetties along the Bygdøy shore would each become a cluster of one, and most of those are later excluded. A pier cluster with no jetty geometry in OSM yields no draft at all, which is why step 5 exists.</p></div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">4</div>
+    <div class="body">
+      <h3>Judge every candidate by eye</h3>
+      <div class="cols">
+        <div style="display:grid;gap:12px">
+          <p>Each draft is drawn in red on the best available image, with the OSM piers in yellow and the boundary dashed. Review sheets show nine candidates at a time. Every candidate gets exactly one decision, written to a decisions file with a reason:</p>
+          <div class="chips">
+            <span class="chip inc">inc · keep draft</span><span class="chip inc">clip · cut with a box</span><span class="chip inc">split · two operators</span><span class="chip inc">add · extend by hand</span><span class="chip exc">exc · exclude + reason</span>
+          </div>
+          <ul>
+            <li>Count berths from finger piers, mooring patterns and boats. Ten map strokes are not ten berths.</li>
+            <li>Never add up scattered private jetties to pass the threshold.</li>
+            <li>Group parts of one harbour under one <code>harbour_id</code>. Being close together is not proof of a shared operator.</li>
+            <li>A winter image with empty berths does not show an absence of harbour.</li>
+          </ul>
+        </div>
+        <figure>
+          <svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Review panel with draft polygon missing an outer pier, then corrected.">
+            <rect class="s-deep" width="300" height="220"/>
+            <path class="s-land" d="M0 170 C 60 160, 120 175, 180 165 C 230 158, 270 170, 300 162 V220 H0 Z"/>
+            <path class="s-pier" d="M50 168 V60 M95 166 V50 M140 168 V70 M200 162 V40 L240 40"/>
+            <path class="s-poly" d="M36 172 V48 H152 V172 Z"/>
+            <path d="M190 166 V30 H252 V52 H212 V166 Z" fill="var(--accent)" fill-opacity="0.08" stroke="var(--accent)" stroke-width="2" stroke-dasharray="5 4"/>
+            <text class="s-text" x="40" y="22">draft covers 3 piers</text>
+            <text class="s-text" x="180" y="22">+ add: outer L-pier</text>
+            <g><ellipse class="s-boat" cx="60" cy="90" rx="6" ry="2.5"/><ellipse class="s-boat" cx="85" cy="120" rx="6" ry="2.5"/><ellipse class="s-boat" cx="106" cy="80" rx="6" ry="2.5"/><ellipse class="s-boat" cx="210" cy="70" rx="6" ry="2.5"/><ellipse class="s-boat" cx="230" cy="50" rx="6" ry="2.5"/></g>
+          </svg>
+          <figcaption>Schematic of a real correction in Fredrikstad (Hankø): the outer L-shaped pier was not in OSM, so it was added by hand in metres after the overlay check.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">5</div>
+    <div class="body">
+      <h3>Sweep every shoreline tile for what OSM missed</h3>
+      <p>All detail tiles are shown as contact sheets with the accepted (red) and rejected (orange) candidates drawn on. Anything that looks like a jetty with boats but has no outline gets zoomed (0.67 m/px) and, if it qualifies, outlined by hand. The outline is set in UTM metres read off a 50 m grid drawn on the zoom image.</p>
+<pre>x = xmin + (u / W) · (xmax − xmin)        # pixel column u → easting
+y = ymax − (v / H) · (ymax − ymin)        # pixel row v    → northing
+(use u + 0.5, v + 0.5 for pixel centres; rescale if the image was shown smaller)</pre>
+      <div class="example"><span class="label">Why this matters</span><p>In Fredrikstad the sweep found a 15-boat jetty in Ødegårdskilen that had no OSM pier. In Råde the user spotted a harbour I had missed. That led to a fixed rule: before delivery, every OSM pier cluster that is not covered by a polygon must have a logged decision.</p></div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">6</div>
+    <div class="body">
+      <h3>Attach metadata that says what is known and what is not</h3>
+      <p>Every polygon row carries schema 1.1 fields. The key principle is that unknown stays <code>null</code>. It never becomes 0 or a guess.</p>
+      <div class="tbl">
+        <table>
+          <thead><tr><th>Field</th><th>Example</th><th>Rule</th></tr></thead>
+          <tbody>
+            <tr><td><code>id</code> / <code>harbour_id</code></td><td class="mono">0301-H07-B02 / 0301-H07</td><td>Polygon ID and harbour ID; part polygons share the harbour ID</td></tr>
+            <tr><td><code>classification</code> + <code>classification_basis</code></td><td class="mono">smabathavn · operator_dokumenterer_faste_batplasser</td><td>Always state <em>why</em> the rule is met</td></tr>
+            <tr><td><code>name</code>, <code>name_is_descriptive</code></td><td class="mono">"Bestumkilen – inner jetties", true</td><td>Invented names are flagged as such</td></tr>
+            <tr><td><code>berth_count_published</code>, <code>_scope</code>, <code>_reference_period</code></td><td class="mono">285 · hele_havneanlegget · unknown</td><td>Only a number a source states; never an image count; never repeated on every part</td></tr>
+            <tr><td><code>sources</code>, <code>osm_ids</code></td><td class="mono">[operator URL, brreg URL, OSM ways, image request]</td><td>Traceable URLs; the image request is always included</td></tr>
+            <tr><td><code>source_observation_date</code>, <code>estimated_accuracy_m</code></td><td class="mono">null, null</td><td>Unknown capture date and accuracy are not invented</td></tr>
+            <tr><td><code>needs_orthophoto_review</code>, <code>geometry_status</code></td><td class="mono">true · usikker_avgrensning</td><td>Outline uncertainty is kept separate from class uncertainty</td></tr>
+            <tr><td><code>municipality_clipped</code>, <code>cross_municipality_group_id</code></td><td class="mono">true · X-SALTHOLMEN-3112-3107</td><td>A harbour crossing a boundary is split and linked</td></tr>
+            <tr><td><code>area_m2</code>, <code>longitude/latitude</code></td><td class="mono">4978.2 · representative point</td><td>Area in EPSG:25833; the point always lies inside the polygon</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="example"><span class="label">Bygdøy</span><p>A club in Frognerkilen that publishes its berth total gets that number on <em>one</em> row, with scope "whole harbour". A club's postal address in the city is never used to place it on the map.</p></div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">7</div>
+    <div class="body">
+      <h3>Check that it is right before anyone sees it</h3>
+      <p>A polygon can be geometrically valid and still cover an apartment block. So there are two kinds of checks, and both must pass after the last edit.</p>
+      <div class="checks">
+        <div class="check"><b>Visual overlay</b><span>The exported GeoJSON is projected back onto the source image, and every polygon is inspected for land, buildings, car parks, missing piers or the fairway. In Fredrikstad this caught 3 errors.</span></div>
+        <div class="check"><b>Geometry</b><span>Valid, closed, non-empty single polygons in [lon, lat] order, with the representative point inside.</span></div>
+        <div class="check"><b>Boundary</b><span>0 m² outside the official boundary. Clipping is flagged.</span></div>
+        <div class="check"><b>Overlap</b><span>No overlap ≥ 1 m² within the delivery, and none at all with already approved municipalities.</span></div>
+        <div class="check"><b>IDs &amp; CSV</b><span>Unique IDs, no collision with the combined file, and the CSV has identical rows in the same order.</span></div>
+        <div class="check"><b>Ledger</b><span>Every candidate (included, merged, excluded or unlocated) has a decision and a reason.</span></div>
+      </div>
+    </div>
+  </article>
+
+  <article class="step">
+    <div class="num">8</div>
+    <div class="body">
+      <h3>User approval, then merge as a set</h3>
+      <p>The user reviews the municipality's GeoJSON and approves it. Only then are <code>approval_status</code> and <code>approved_utc</code> set, the municipal extract is written to <code>data/kommuner/…/rev-NN/</code>, and the polygons are appended to the combined file and manifest. A later revision replaces the municipality's set as a whole, so withdrawn IDs cannot linger. Approval does not remove uncertainty: possible harbours stay possible.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <span class="label">What it has produced so far</span>
+  <h2>Measured on finished municipalities</h2>
+  <div class="stats">
+    <div class="stat"><div class="v">290</div><div class="k">approved polygons, 9 municipalities</div></div>
+    <div class="stat"><div class="v">735</div><div class="k">OSM piers and moles screened in Fredrikstad</div></div>
+    <div class="stat"><div class="v">181</div><div class="k">candidates judged → 61 harbours, 69 polygons</div></div>
+    <div class="stat"><div class="v">77.8 min</div><div class="k">Fredrikstad wall clock, about 75 of it image download</div></div>
+  </div>
+  <p style="font-size:0.9rem;color:var(--muted)">Token use and cost are not measured and are not estimated here.</p>
+</section>
+
+<section>
+  <span class="label">Making it faster</span>
+  <h2>How the process can be streamlined and automated further</h2>
+  <p>Ordered roughly by expected gain. Download time and human review dominate today. The geometry is cheap.</p>
+  <div class="tips">
+    <div class="tip"><span class="gain">Download time</span><div><h3>Use cached map tiles and a local OSM extract</h3><p>Esri's tile cache (<code>/tile/{z}/{y}/{x}</code>) serves pre-rendered tiles far faster than the export endpoint, which renders every request. A Geofabrik <code>norway-latest.osm.pbf</code> filtered locally with <code>osmium</code> removes the Overpass timeouts entirely. Prefetch the next municipality while the current one is reviewed, as done for the Bærum–Oslo batch.</p></div></div>
+    <div class="tip"><span class="gain">Fewer misses</span><div><h3>Add authoritative vector sources</h3><p>The FKB dataset (where licensed) contains quays, jetties and floating piers. Kartverket's N50 coastline is cleaner than a colour mask. Municipal zoning plans mark existing <em>småbåthavn</em> areas (land-use code 6230) and are available through Geonorge WMS/WFS. These give independent candidates and better clipping than a water mask.</p></div></div>
+    <div class="tip"><span class="gain">Review time</span><div><h3>Detect pontoons and boats automatically</h3><p>The approved polygons (290 so far) are labelled training data. A segmentation or detection model run on the detail tiles can propose jetties without OSM geometry, count visible boats for the 10-berth test, and rank candidates by confidence. The human then reviews only the uncertain ones.</p></div></div>
+    <div class="tip"><span class="gain">Review time</span><div><h3>Replace the decisions file with a review UI</h3><p>A small web page showing one candidate at a time, with keyboard shortcuts for include, exclude, split and draw, would write the same decision records with less friction. It could also let the user approve or reject individual polygons instead of whole municipalities.</p></div></div>
+    <div class="tip"><span class="gain">Quality</span><div><h3>Automate the checks that are still visual</h3><p>Flag polygons whose share of land exceeds a threshold (using FKB or N50 land), polygons far larger than their pier length suggests, and OSM pier clusters left uncovered. These flags would steer the human overlay review instead of replacing it.</p></div></div>
+    <div class="tip"><span class="gain">Trust</span><div><h3>Use dated orthophotos where access allows</h3><p>Norge i bilder offers dated, higher-resolution orthophotos. With access, capture date and accuracy could move from <code>null</code> to real values, and seasonal ambiguity (empty winter berths) would shrink.</p></div></div>
+    <div class="tip"><span class="gain">Metadata</span><div><h3>Ask the clubs once, centrally</h3><p>Fixed berths and capacity are the weakest fields. The boating federations (KNBF, OBU) and municipal harbour offices hold member lists. A single structured request would beat scraping dozens of club websites with out-of-date figures.</p></div></div>
+    <div class="tip"><span class="gain">Reproducibility</span><div><h3>Turn the scripts into one parameterised pipeline</h3><p>The per-municipality scripts are copied and adjusted today. A single tool run as <code>pipeline --kommune 0301</code>, with stages that cache their results and a test run on Råde, would make reruns and revisions trivial. It would also allow measured runtimes and token use per stage.</p></div></div>
+  </div>
+</section>
+
+<section>
+  <span class="label">Limits to keep in mind</span>
+  <h2>What the dataset is not</h2>
+  <ul style="margin:0;padding-left:1.1em;display:grid;gap:6px;max-width:70ch">
+    <li>Not legal harbour or property boundaries, and not a register of every private berth.</li>
+    <li>Image capture dates and positional accuracy are unknown. Coordinates have many decimals, but that is not precision.</li>
+    <li>Completeness is not claimed. The ledger records what was checked and what was left open.</li>
+    <li>Older municipalities (Holmestrand, Horten) were mapped before the current rule and have not been redone.</li>
+  </ul>
+</section>
+
+<footer>
+  <span>Imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community. Maps and boundaries: © Kartverket. OSM data © OpenStreetMap contributors (ODbL).</span>
+  <span>Full method: <code>docs/METODIKK.md</code> (Norwegian). Figures on this page are schematic.</span>
+</footer>
+
+</div>
+</body>
+</html>

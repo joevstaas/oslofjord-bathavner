@@ -1,0 +1,781 @@
+[
+  {
+    "candidate_id": "AVP-1",
+    "source_name": "Moss Marina AS (privat)",
+    "source_number": 1,
+    "source_capacity": 125,
+    "source_guest_capacity": 9,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H17-B01"
+    ],
+    "harbour_ids": [
+      "3103-H17"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling. Foreløpig geografisk kobling; individuelle delområder er ikke fastslått."
+  },
+  {
+    "candidate_id": "AVP-2",
+    "source_name": "Refsnes Gods brygge (Privat)",
+    "source_number": 2,
+    "source_capacity": 18,
+    "source_guest_capacity": 4,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H15-B01"
+    ],
+    "harbour_ids": [
+      "3103-H15"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-3",
+    "source_name": "Fiske Båtforening (Privat)",
+    "source_number": 3,
+    "source_capacity": 384,
+    "source_guest_capacity": 2,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H01-B01"
+    ],
+    "harbour_ids": [
+      "3103-H01"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-4",
+    "source_name": "Sjekta AS (Privat)",
+    "source_number": 4,
+    "source_capacity": 169,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "harbour_ids": [],
+    "note": "Bilde viser land-/opptrekksanlegg eller ingen sikkert identifisert fast båtplassflate i sjø ved kildeomrisset. Landanlegget er ikke tegnet som sjøpolygon. Dette er ikke en påstand om at foreningen ikke finnes."
+  },
+  {
+    "candidate_id": "AVP-5",
+    "source_name": "Refsnes småbåtfore ning (Privat)",
+    "source_number": 5,
+    "source_capacity": 80,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "harbour_ids": [],
+    "note": "Bilde viser land-/opptrekksanlegg eller ingen sikkert identifisert fast båtplassflate i sjø ved kildeomrisset. Landanlegget er ikke tegnet som sjøpolygon. Dette er ikke en påstand om at foreningen ikke finnes."
+  },
+  {
+    "candidate_id": "AVP-6",
+    "source_name": "Søly båthavn (Moss Seilforening) (Privat)",
+    "source_number": 6,
+    "source_capacity": 380,
+    "source_guest_capacity": 2,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H10-B01"
+    ],
+    "harbour_ids": [
+      "3103-H10"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-7",
+    "source_name": "Moss Motorbåtfor ening (Betongen) (Privat)",
+    "source_number": 7,
+    "source_capacity": 360,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H05-B01"
+    ],
+    "harbour_ids": [
+      "3103-H05"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-8",
+    "source_name": "Kambo Marina AS (Privat)",
+    "source_number": 8,
+    "source_capacity": 300,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H04-B01"
+    ],
+    "harbour_ids": [
+      "3103-H04"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-9",
+    "source_name": "Kambo båtforening (Privat)",
+    "source_number": 9,
+    "source_capacity": 97,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H03-B01"
+    ],
+    "harbour_ids": [
+      "3103-H03"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-10",
+    "source_name": "Vansjø båtforening (Privat)",
+    "source_number": 10,
+    "source_capacity": 185,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H11-B01"
+    ],
+    "harbour_ids": [
+      "3103-H11"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-11",
+    "source_name": "AL Fuglevikbryggen (Privat)",
+    "source_number": 11,
+    "source_capacity": 54,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H22-B01"
+    ],
+    "harbour_ids": [
+      "3103-H22"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-12",
+    "source_name": "Fleischer Brygge Båtforening (Privat)",
+    "source_number": 12,
+    "source_capacity": 34,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H18-B01"
+    ],
+    "harbour_ids": [
+      "3103-H18"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling. Foreløpig geografisk kobling; individuelle delområder er ikke fastslått."
+  },
+  {
+    "candidate_id": "AVP-13",
+    "source_name": "Kippenes hyttegrend (Privat)",
+    "source_number": 13,
+    "source_capacity": 33,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H13-B01"
+    ],
+    "harbour_ids": [
+      "3103-H13"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-14",
+    "source_name": "Fuglevik Båthavn v/Rygge Båtforening (Privat)",
+    "source_number": 14,
+    "source_capacity": 412,
+    "source_guest_capacity": 10,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H02-B01"
+    ],
+    "harbour_ids": [
+      "3103-H02"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-15",
+    "source_name": "Knutvika – Vindsteg AS (Privat)",
+    "source_number": 15,
+    "source_capacity": 83,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H16-B01"
+    ],
+    "harbour_ids": [
+      "3103-H16"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-16",
+    "source_name": "Fische AS – Støtvig (Privat)",
+    "source_number": 16,
+    "source_capacity": 70,
+    "source_guest_capacity": 5,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H08-B01"
+    ],
+    "harbour_ids": [
+      "3103-H08"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-17",
+    "source_name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+    "source_number": 17,
+    "source_capacity": 38,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H14-B01",
+      "3103-H14-B02"
+    ],
+    "harbour_ids": [
+      "3103-H14"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-18",
+    "source_name": "Arbeidernes båtforening Moss-Teibern (Privat)",
+    "source_number": 18,
+    "source_capacity": 100,
+    "source_guest_capacity": 4,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H16-B01"
+    ],
+    "harbour_ids": [
+      "3103-H16"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-19",
+    "source_name": "Rørvik brygge (Privat)",
+    "source_number": 19,
+    "source_capacity": 29,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H06-B01",
+      "3103-H06-B02"
+    ],
+    "harbour_ids": [
+      "3103-H06"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling. Foreløpig geografisk kobling; individuelle delområder er ikke fastslått."
+  },
+  {
+    "candidate_id": "AVP-20",
+    "source_name": "Rørvik Bryggeforenig (Privat)",
+    "source_number": 20,
+    "source_capacity": 29,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H06-B01",
+      "3103-H06-B02"
+    ],
+    "harbour_ids": [
+      "3103-H06"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling. Foreløpig geografisk kobling; individuelle delområder er ikke fastslått."
+  },
+  {
+    "candidate_id": "AVP-21",
+    "source_name": "Fiskermoloen (Statlig)",
+    "source_number": 21,
+    "source_capacity": null,
+    "source_guest_capacity": null,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H06-B01",
+      "3103-H06-B02"
+    ],
+    "harbour_ids": [
+      "3103-H06"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling. Foreløpig geografisk kobling; individuelle delområder er ikke fastslått."
+  },
+  {
+    "candidate_id": "AVP-22",
+    "source_name": "Lersbauen (Privat)",
+    "source_number": 22,
+    "source_capacity": 39,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "mulig_stedfesting",
+    "feature_ids": [
+      "3103-H09-B01"
+    ],
+    "harbour_ids": [
+      "3103-H09"
+    ],
+    "note": "Mulig kobling til Støtvig østre brygge. Navn, driftsgrense og kapasitet er ikke bekreftet."
+  },
+  {
+    "candidate_id": "AVP-23",
+    "source_name": "Sameiet Røedsstranda Molo og Bryggeanlegg (Privat)",
+    "source_number": 23,
+    "source_capacity": 16,
+    "source_guest_capacity": 0,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H21-B01"
+    ],
+    "harbour_ids": [
+      "3103-H21"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "AVP-24",
+    "source_name": "Nasle Bryggesameie (Privat)",
+    "source_number": 24,
+    "source_capacity": 123,
+    "source_guest_capacity": 2,
+    "source_reference_period": "ca_2020_ikke_bekreftet",
+    "sources": [
+      "https://www.kambomarina.no/kambo_marina/avfallsplan"
+    ],
+    "decision": "inkludert_med_kildekobling",
+    "feature_ids": [
+      "3103-H07-B01"
+    ],
+    "harbour_ids": [
+      "3103-H07"
+    ],
+    "note": "Kildekobling er ikke en juridisk operatørgrense. Eldre kapasitet er ikke en aktuell telling."
+  },
+  {
+    "candidate_id": "OSM-way/29593396",
+    "source_name": "Båtforeningen Sjekta",
+    "decision": "utelatt_eller_uavklart",
+    "sources": [
+      "https://www.openstreetmap.org/way/29593396",
+      "https://www.sjosett.com/gjestehavner/batforeningen-sjekta-osm-way-29593396/"
+    ],
+    "feature_ids": [],
+    "harbour_ids": [],
+    "note": "Ingen sikker sjøflate til faste båtplasser identifisert ved kandidatens omriss; land-/opptrekksfunksjon holdes utenfor sjøpolygonleveransen."
+  },
+  {
+    "candidate_id": "OSM-way/368366977",
+    "source_name": "Fiske båthavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/368366977",
+      "https://www.sjosett.com/gjestehavner/fiske-bathavn-osm-way-368366977/"
+    ],
+    "feature_ids": [
+      "3103-H01-B01"
+    ],
+    "harbour_ids": [
+      "3103-H01"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-node/212913243",
+    "source_name": "Fuglevik marina",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/node/212913243",
+      "https://www.sjosett.com/gjestehavner/fuglevik-marina-osm-node-212913243/"
+    ],
+    "feature_ids": [
+      "3103-H02-B01"
+    ],
+    "harbour_ids": [
+      "3103-H02"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1450881540",
+    "source_name": "Kambo båtforening",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1450881540",
+      "https://www.sjosett.com/gjestehavner/kambo-batforening-osm-way-1450881540/"
+    ],
+    "feature_ids": [
+      "3103-H03-B01"
+    ],
+    "harbour_ids": [
+      "3103-H03"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1448562959",
+    "source_name": "Kambo marina",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1448562959",
+      "https://www.sjosett.com/gjestehavner/kambo-marina-osm-way-1448562959/"
+    ],
+    "feature_ids": [
+      "3103-H04-B01"
+    ],
+    "harbour_ids": [
+      "3103-H04"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-node/6802559307",
+    "source_name": "Moss gjestehavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/node/6802559307",
+      "https://www.sjosett.com/gjestehavner/moss-gjestehavn-osm-node-6802559307/"
+    ],
+    "feature_ids": [
+      "3103-H19-B01"
+    ],
+    "harbour_ids": [
+      "3103-H19"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1430843512",
+    "source_name": "Moss motorbåtforening",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1430843512",
+      "https://www.sjosett.com/gjestehavner/moss-motorbatforening-osm-way-1430843512/"
+    ],
+    "feature_ids": [
+      "3103-H05-B01"
+    ],
+    "harbour_ids": [
+      "3103-H05"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1513385299",
+    "source_name": "Refsnes småbåtforening",
+    "decision": "utelatt_eller_uavklart",
+    "sources": [
+      "https://www.openstreetmap.org/way/1513385299",
+      "https://www.sjosett.com/gjestehavner/refsnes-smabatforening-osm-way-1513385299/"
+    ],
+    "feature_ids": [],
+    "harbour_ids": [],
+    "note": "Ingen sikker sjøflate til faste båtplasser identifisert ved kandidatens omriss; land-/opptrekksfunksjon holdes utenfor sjøpolygonleveransen."
+  },
+  {
+    "candidate_id": "OSM-way/1378441564",
+    "source_name": "",
+    "decision": "utelatt_eller_uavklart",
+    "sources": [
+      "https://www.openstreetmap.org/way/1378441564",
+      "https://www.sjosett.com/gjestehavner/smabathavn-ved-sondre-elvegate-osm-way-1378441564/"
+    ],
+    "feature_ids": [],
+    "harbour_ids": [],
+    "note": "Liten brygge med få båter ved Søndre Elvegate/Krapfoss. Ikke dokumentert minst ti plasser eller felles fast båthavndrift. Foreløpig feilplassert delomriss forkastet ved bildeoverlegg."
+  },
+  {
+    "candidate_id": "OSM-node/5106902846",
+    "source_name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/node/5106902846",
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larkollen-15-osm-node-5106902846/"
+    ],
+    "feature_ids": [
+      "3103-H06-B01"
+    ],
+    "harbour_ids": [
+      "3103-H06"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-node/5106902880",
+    "source_name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/node/5106902880",
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larkollen-16-osm-node-5106902880/"
+    ],
+    "feature_ids": [
+      "3103-H08-B01"
+    ],
+    "harbour_ids": [
+      "3103-H08"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-node/5107343411",
+    "source_name": "Småbåtshavn – Moss 24",
+    "decision": "uavklart_slettet_kildeobjekt",
+    "feature_ids": [],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-moss-24-osm-node-5107343411/"
+    ],
+    "note": "Gjeldende OSM-API svarte HTTP 410 Gone. Kandidaten er bevart; ikke antatt eksisterende havn ut fra sekundærkilden alene."
+  },
+  {
+    "candidate_id": "OSM-way/1394937685",
+    "source_name": "Søly båthavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1394937685",
+      "https://www.sjosett.com/gjestehavner/soly-bathavn-osm-way-1394937685/"
+    ],
+    "feature_ids": [
+      "3103-H10-B01"
+    ],
+    "harbour_ids": [
+      "3103-H10"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/505121328",
+    "source_name": "Vansjø båtforening",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/505121328",
+      "https://www.sjosett.com/gjestehavner/vansjo-batforening-osm-way-505121328/"
+    ],
+    "feature_ids": [
+      "3103-H11-B01"
+    ],
+    "harbour_ids": [
+      "3103-H11"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1361970107",
+    "source_name": "Verket gjestehavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1361970107",
+      "https://www.sjosett.com/gjestehavner/verket-gjestehavn-moss-osm-way-1361970107/"
+    ],
+    "feature_ids": [
+      "3103-H12-B01"
+    ],
+    "harbour_ids": [
+      "3103-H12"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1361970105",
+    "source_name": "Verket gjestehavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1361970105",
+      "https://www.sjosett.com/gjestehavner/verket-gjestehavn-osm-way-1361970105/"
+    ],
+    "feature_ids": [
+      "3103-H12-B01"
+    ],
+    "harbour_ids": [
+      "3103-H12"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "OSM-way/1361970108",
+    "source_name": "Verket småbåthavn",
+    "decision": "inkludert_samordnet",
+    "sources": [
+      "https://www.openstreetmap.org/way/1361970108",
+      "https://www.sjosett.com/gjestehavner/verket-smabathavn-osm-way-1361970108/"
+    ],
+    "feature_ids": [
+      "3103-H12-B01"
+    ],
+    "harbour_ids": [
+      "3103-H12"
+    ],
+    "note": "Kandidatpunkt/-flate kontrollert mot bilder; navn og operatørgrenser kan være foreløpige."
+  },
+  {
+    "candidate_id": "EXTRA-Kjellandsvik",
+    "source_name": "Kjellandsvik",
+    "image_ids": [
+      "kjellandsvik"
+    ],
+    "decision": "utelatt_etter_bildekontroll",
+    "note": "Naturbukt og enkelte små landfester; ikke sikker kvalifiserende felles båtplassgruppe.",
+    "feature_ids": []
+  },
+  {
+    "candidate_id": "EXTRA-Evjesundet",
+    "source_name": "Evjesundet",
+    "image_ids": [
+      "evjesund"
+    ],
+    "decision": "utelatt_etter_bildekontroll",
+    "note": "Naturhavn, spredte enkeltbrygger og ankrings-/bøyeplasser. Ingen kvalifiserende samlet bryggegruppe sikkert identifisert.",
+    "feature_ids": []
+  },
+  {
+    "candidate_id": "EXTRA-Rørvika nordre skråbrygge",
+    "source_name": "Rørvika nordre skråbrygge",
+    "image_ids": [
+      "p09"
+    ],
+    "decision": "inkludert",
+    "note": "Samlet synlig båtplassrekke uten sikker operatørkobling.",
+    "feature_ids": [
+      "3103-H20-B01"
+    ]
+  },
+  {
+    "candidate_id": "EXTRA-Teibern/Knutvika feilplasserte søkeutsnitt",
+    "source_name": "Teibern/Knutvika feilplasserte søkeutsnitt",
+    "image_ids": [
+      "teibern",
+      "knutvika"
+    ],
+    "decision": "feilsentrert",
+    "note": "Tidlige søkeutsnitt traff strender/sjø. Teller ikke som detaljkontroll av havnen. Anlegget er senere kontrollert i knutvika-havn.",
+    "feature_ids": []
+  },
+  {
+    "candidate_id": "EXTRA-Fuglevik – feilplasserte farm-/østutsnitt",
+    "source_name": "Fuglevik – feilplasserte farm-/østutsnitt",
+    "image_ids": [
+      "fuglevik-nord",
+      "fuglevik-jeloy"
+    ],
+    "decision": "feilsentrert",
+    "note": "Fuglevik er tvetydig; gårds-/kontaktpunkt er ikke bryggepunkt. Actual havneflate ble stedfestet i fuglevik-west.",
+    "feature_ids": []
+  },
+  {
+    "candidate_id": "EXTRA-Røedsstranda – tidlige søkeutsnitt",
+    "source_name": "Røedsstranda – tidlige søkeutsnitt",
+    "image_ids": [
+      "roedsstrand",
+      "roedstrand-havn"
+    ],
+    "decision": "feilsentrert",
+    "note": "Disse viste andre steder. Riktig strand er kontrollert i place-Rødstranda og place-Billmannsbakken.",
+    "feature_ids": []
+  },
+  {
+    "candidate_id": "EXTRA-Øvrige små private enkeltbrygger og servicekaier",
+    "source_name": "Øvrige små private enkeltbrygger og servicekaier",
+    "image_ids": [],
+    "decision": "utelatt_pa_sektorniva",
+    "note": "Ikke uttømmende individuell bryggetelling. Ferje-/industrikaier, rene badebrygger og enkeltlandfester er ikke havnepolygoner.",
+    "feature_ids": []
+  }
+]

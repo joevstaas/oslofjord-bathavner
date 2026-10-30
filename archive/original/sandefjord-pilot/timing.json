@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-29T14:54:46Z",
+  "finished_utc": "2026-10-29T15:57:22Z",
+  "elapsed_wall_seconds": 3756,
+  "elapsed_wall_minutes": 62.6,
+  "measurement": "Veggklokketid inkludert søk, nedlasting, feilsøking, kildekontroll, bildeanalyse, geometriarbeid og dokumentasjon. Aktiv beregningstid ikke isolert.",
+  "actual_input_tokens": null,
+  "actual_output_tokens": null,
+  "actual_billed_cost": null,
+  "cost_note": "Sesjonen eksponerer ikke tokenregnskap eller fakturering. Faktisk kostnad per kommune kan ikke beregnes forsvarlig fra antall bilder eller minutter alene. Ingen betalte datasett kjøpt.",
+  "workload": {
+    "source_images": 117,
+    "source_image_bytes": 108416336,
+    "municipal_candidates": 66,
+    "exported_polygons": 67
+  }
+}

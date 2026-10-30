@@ -1,0 +1,3178 @@
+[
+  {
+    "candidate_id": "MUN-01",
+    "name": "Flautangen",
+    "image": "p01",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        270,
+        273
+      ],
+      [
+        308,
+        271
+      ],
+      [
+        314,
+        330
+      ],
+      [
+        293,
+        337
+      ],
+      [
+        282,
+        353
+      ],
+      [
+        269,
+        350
+      ]
+    ],
+    "group": "mun-1",
+    "capacity": 52,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Avgrenser synlige brygger ved Flautangen. Rapportens 52 plasser omfatter også 12 private plasser ved nordre brygge. Yttergrense for alle fortøyninger er uklar.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 1,
+    "municipal_source_number": "K1",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-02",
+    "name": "Granholmen",
+    "image": "p02",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        293,
+        275
+      ],
+      [
+        307,
+        275
+      ],
+      [
+        309,
+        322
+      ],
+      [
+        288,
+        323
+      ],
+      [
+        287,
+        314
+      ],
+      [
+        296,
+        310
+      ]
+    ],
+    "group": "mun-2",
+    "capacity": 20,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kommunal brygge ved Granholmen. Privat anlegg i Berganbukta nord for holmen er separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 2,
+    "municipal_source_number": "K2",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-03",
+    "name": "Hesteskoen",
+    "image": "p03",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        238,
+        286
+      ],
+      [
+        266,
+        264
+      ],
+      [
+        302,
+        251
+      ],
+      [
+        329,
+        255
+      ],
+      [
+        389,
+        305
+      ],
+      [
+        244,
+        374
+      ],
+      [
+        229,
+        337
+      ]
+    ],
+    "group": "mun-3",
+    "capacity": 107,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Hesteskoen/MiljøMarina: samme fysiske basseng. Gjestehavnfunksjon er ikke talt som et ekstra anlegg. Intern fordeling av kommunale/andre plasser er ikke kartlagt.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 3,
+    "municipal_source_number": "K3",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-04",
+    "name": "Huvik båthavn",
+    "image": "p04",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        252,
+        263
+      ],
+      [
+        268,
+        271
+      ],
+      [
+        292,
+        277
+      ],
+      [
+        300,
+        281
+      ],
+      [
+        285,
+        311
+      ],
+      [
+        274,
+        315
+      ],
+      [
+        242,
+        294
+      ]
+    ],
+    "group": "mun-4",
+    "capacity": 10,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Ti dokumenterte plasser langs Huvik-kaien; foreløpig smalt belte.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 4,
+    "municipal_source_number": "K4",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-05",
+    "name": "Sandefjord gjestehavn / La Scala",
+    "image": "p05",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        256.23094155985166,
+        328.8383153658361
+      ],
+      [
+        269.7668236140045,
+        353.5949890768156
+      ],
+      [
+        284.44887776321264,
+        380.1097285760566
+      ],
+      [
+        338.587564995687,
+        349.56576653905216
+      ],
+      [
+        398.427080970048,
+        327.1788889082149
+      ],
+      [
+        411.93278084720953,
+        319.28891380447897
+      ],
+      [
+        406.0425390719902,
+        315.6828409083187
+      ],
+      [
+        400.34585308106614,
+        312.64706450589
+      ],
+      [
+        392.44521355266914,
+        309.587630115822
+      ],
+      [
+        390.77452074594333,
+        308.4691127607599
+      ],
+      [
+        351.98153662855043,
+        320.1805984066799
+      ],
+      [
+        337.2563349697273,
+        272.65170789230615
+      ],
+      [
+        302.9398348635295,
+        281.337326621823
+      ],
+      [
+        296.8862565067364,
+        282.8548146151006
+      ],
+      [
+        292.3501905955374,
+        283.97142629250885
+      ],
+      [
+        292.68606510405664,
+        285.53748882897196
+      ],
+      [
+        292.73497079140503,
+        285.76894034352154
+      ],
+      [
+        292.20711345956664,
+        285.8250009778887
+      ],
+      [
+        281.50605622931613,
+        288.61868530511856
+      ],
+      [
+        280.93609728338197,
+        288.68513706475494
+      ],
+      [
+        274.4635248323204,
+        290.0854052133858
+      ],
+      [
+        272.70806224483533,
+        290.53625721316786
+      ],
+      [
+        269.13077884039376,
+        291.3058211507276
+      ],
+      [
+        268.62446060751097,
+        289.1844900213182
+      ],
+      [
+        268.44020322407596,
+        288.5813061129302
+      ],
+      [
+        268.1315006729448,
+        288.22397623825816
+      ],
+      [
+        267.6608605098445,
+        287.96231829151515
+      ],
+      [
+        266.918338611396,
+        287.93595441486684
+      ],
+      [
+        266.25687246521704,
+        288.3176596719772
+      ],
+      [
+        266.01601840507936,
+        288.6490376366302
+      ],
+      [
+        265.88592452716546,
+        289.02187059000136
+      ],
+      [
+        265.4598878564313,
+        289.05169597249477
+      ],
+      [
+        265.59453958533703,
+        289.57757888082415
+      ],
+      [
+        262.76112568003595,
+        290.3065497798845
+      ],
+      [
+        262.6259967589751,
+        289.7873368715867
+      ],
+      [
+        255.04948579401244,
+        291.73199168723073
+      ],
+      [
+        253.38410564070801,
+        307.4283865515143
+      ],
+      [
+        263.14385394772984,
+        324.94877195153384
+      ],
+      [
+        262.34634983054127,
+        325.4011864308268
+      ],
+      [
+        256.23094155985166,
+        328.8383153658361
+      ]
+    ],
+    "group": "mun-5",
+    "capacity": null,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/gjeste-og-fiskerihavner/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Dokumentert gjestehavn ved samme kai som La Scala. Kildenes plasser kan ikke fordeles sikkert til delgrenser; ingen summering. Den kommunale La Scala er dokumentert selv om den har færre enn ti plasser. Kildetallene beholdes separat.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 5,
+    "municipal_source_number": "K5",
+    "part": null,
+    "osm_ids": [
+      "way/1079317965"
+    ],
+    "capacity_components": [
+      {
+        "name": "La Scala",
+        "berths_in_register": 6,
+        "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+      },
+      {
+        "name": "Sandefjord gjestehavn",
+        "published_guest_berths": 60,
+        "source": "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/gjeste-og-fiskerihavner/"
+      }
+    ],
+    "source_register_members": [
+      5
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert"
+  },
+  {
+    "candidate_id": "MUN-06",
+    "name": "Kamfjordkilen",
+    "image": "p06",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        240,
+        306
+      ],
+      [
+        295,
+        296
+      ],
+      [
+        339,
+        278
+      ],
+      [
+        343,
+        286
+      ],
+      [
+        299,
+        307
+      ],
+      [
+        242,
+        319
+      ]
+    ],
+    "group": "mun-6",
+    "capacity": 18,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Smalt belte langs nordkaien i Kamfjordkilen. Naboforeningens flytebrygger er eget anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 6,
+    "municipal_source_number": "K6",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-07",
+    "name": "Langeby båthavn",
+    "image": "p07",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        269,
+        309
+      ],
+      [
+        299,
+        309
+      ],
+      [
+        306,
+        342
+      ],
+      [
+        277,
+        345
+      ],
+      [
+        263,
+        337
+      ]
+    ],
+    "group": "mun-7",
+    "capacity": 84,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kommunens nordre brygger ved Langeby. Søndre bryggelag kartlagt separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 7,
+    "municipal_source_number": "K7",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-08",
+    "name": "Roabukta – Roa, Roabrygga, Vindal og Asnespynten",
+    "image": "p08",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        224,
+        310
+      ],
+      [
+        253,
+        246
+      ],
+      [
+        281,
+        257
+      ],
+      [
+        289,
+        204
+      ],
+      [
+        372,
+        217
+      ],
+      [
+        374,
+        242
+      ],
+      [
+        348,
+        256
+      ],
+      [
+        348,
+        272
+      ],
+      [
+        312,
+        284
+      ],
+      [
+        315,
+        316
+      ],
+      [
+        309,
+        343
+      ],
+      [
+        281,
+        346
+      ],
+      [
+        222,
+        326
+      ]
+    ],
+    "group": "mun-8",
+    "capacity": null,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Ett sammenhengende fysisk båthavnområde i Roabukta, med fire kommunalt registrerte navn/forvaltere. Interne brygge-/operatørgrenser er ikke pålitelig identifisert i kildebildet. Ingen summering av kapasitet; de fire kildetallene beholdes separat. Dette er ikke en påstand om felles juridisk drift.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 8,
+    "municipal_source_number": "K8",
+    "part": null,
+    "source_register_members": [
+      8,
+      24,
+      35,
+      39
+    ],
+    "capacity_components": [
+      {
+        "objectid": 8,
+        "name": "Roa båthavn",
+        "berths_in_register": 142
+      },
+      {
+        "objectid": 24,
+        "name": "Roabrygga",
+        "berths_in_register": 58
+      },
+      {
+        "objectid": 35,
+        "name": "Vindal motorbåtforening",
+        "berths_in_register": 52
+      },
+      {
+        "objectid": 39,
+        "name": "Asnespynten båtforening",
+        "berths_in_register": 40
+      }
+    ]
+  },
+  {
+    "candidate_id": "MUN-09",
+    "name": "Skjellvika båthavn",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        290,
+        284
+      ],
+      [
+        326,
+        275
+      ],
+      [
+        332,
+        287
+      ],
+      [
+        321,
+        320
+      ],
+      [
+        306,
+        317
+      ]
+    ],
+    "group": "mun-9",
+    "capacity": 65,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Synlige brygger ved Skjellvika. Ikke alle historisk oppgitte plasser kan identifiseres tydelig i vinterbildet.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 9,
+    "municipal_source_number": "K9",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-10",
+    "name": "Stub båthavn",
+    "image": "p10",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        299,
+        293
+      ],
+      [
+        340,
+        267
+      ],
+      [
+        349,
+        279
+      ],
+      [
+        312,
+        301
+      ],
+      [
+        317,
+        309
+      ],
+      [
+        309,
+        315
+      ]
+    ],
+    "group": "mun-10",
+    "capacity": 30,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kommunal brygge ved Stub. Hjertnes og Stub brygger AS holdes adskilt.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 10,
+    "municipal_source_number": "K10",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-11",
+    "name": "Tangen båthavn",
+    "image": "p11",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        278,
+        256
+      ],
+      [
+        320,
+        270
+      ],
+      [
+        325,
+        341
+      ],
+      [
+        283,
+        341
+      ]
+    ],
+    "group": "mun-11",
+    "capacity": 109,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kommunalt bryggeanlegg på vestre side av Tangenbukta. Private enkeltbrygger på motsatt side er ikke innlemmet.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 11,
+    "municipal_source_number": "K11",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-12",
+    "name": "Enge",
+    "image": "p12",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        282,
+        291
+      ],
+      [
+        332,
+        238
+      ],
+      [
+        344,
+        243
+      ],
+      [
+        298,
+        303
+      ]
+    ],
+    "group": "mun-12",
+    "capacity": 66,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kommunens midtre brygge ved Enge. Fergeanløpet er del av samme fysiske brygge; tilstøtende forening og Engø er egne anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 12,
+    "municipal_source_number": "K12",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-13",
+    "name": "Fjellvik båtforening",
+    "image": "p13",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        248,
+        291
+      ],
+      [
+        351,
+        238
+      ],
+      [
+        364,
+        257
+      ],
+      [
+        261,
+        315
+      ]
+    ],
+    "group": "mun-13",
+    "capacity": 157,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Lang brygge langs Fjellvik-kaien. Gokstad kystlags U-anlegg sørvest er separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 13,
+    "municipal_source_number": "S1",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-14",
+    "name": "Havnebakken",
+    "image": "p14",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        271,
+        273
+      ],
+      [
+        343,
+        266
+      ],
+      [
+        356,
+        332
+      ],
+      [
+        276,
+        342
+      ]
+    ],
+    "group": "mun-14",
+    "capacity": 180,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 14,
+    "municipal_source_number": "S2",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-15",
+    "name": "Hjertnes båtforening",
+    "image": "p15",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        302,
+        266
+      ],
+      [
+        351,
+        277
+      ],
+      [
+        350,
+        313
+      ],
+      [
+        372,
+        332
+      ],
+      [
+        364,
+        355
+      ],
+      [
+        294,
+        340
+      ]
+    ],
+    "group": "mun-15",
+    "capacity": 195,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre vifteformede anlegg innenfor Hjertnes båtforenings lokalitet. Kommunale Stub og Ulabrand holdes adskilt.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 15,
+    "municipal_source_number": "S3",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-16",
+    "name": "Kilen Brygge båtforening",
+    "image": "p16",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        214,
+        297
+      ],
+      [
+        350,
+        254
+      ],
+      [
+        358,
+        269
+      ],
+      [
+        228,
+        319
+      ]
+    ],
+    "group": "mun-16",
+    "capacity": 103,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Langstrakt flytebrygge langs Kilen Brygge; kommunal nordkai og motorbåtforening øst for dette er separate. Felles kaigrense tilpasset nabopolygon; 32.6 m² teknisk overlapp fjernet.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 16,
+    "municipal_source_number": "S4",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-17",
+    "name": "Sandefjord motorbåtforening",
+    "image": "p17",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        267.64517167526645,
+        240.8602527765557
+      ],
+      [
+        242.24829342776795,
+        263.00621848572047
+      ],
+      [
+        250.4489635806007,
+        273.3471368154511
+      ],
+      [
+        204.80881318136235,
+        295.1855154907331
+      ],
+      [
+        213.1532420940406,
+        311.22880793698135
+      ],
+      [
+        273.71190973151823,
+        284.1476844895631
+      ],
+      [
+        294.67282358088414,
+        305.4634179191664
+      ],
+      [
+        305.9303297548613,
+        322.37147647440435
+      ],
+      [
+        311.08162355619135,
+        318.09345404896885
+      ],
+      [
+        320.086612888315,
+        311.4425520351156
+      ],
+      [
+        307.0209164488537,
+        294.5662765212357
+      ],
+      [
+        286.54695053898615,
+        263.5910462709144
+      ],
+      [
+        267.64517167526645,
+        240.8602527765557
+      ]
+    ],
+    "group": "mun-17",
+    "capacity": 120,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_og_bildekontrollert_osm_omriss",
+    "note": "OSM-omriss kontrollert mot Esri-bildet; bevarer sjøområdet innenfor bryggene. Naboforeninger er separate. En kontrollert rest på 4,6 m² ved nordkaien er utelatt som avgrensningsartefakt. Felles kaigrense tilpasset nabopolygon; 633.7 m² teknisk overlapp fjernet.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 17,
+    "municipal_source_number": "S5",
+    "part": null,
+    "osm_ids": [
+      "way/1218866789"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert"
+  },
+  {
+    "candidate_id": "MUN-18",
+    "name": "Thorøya båthavn",
+    "image": "p18",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        269,
+        264
+      ],
+      [
+        360,
+        225
+      ],
+      [
+        378,
+        225
+      ],
+      [
+        376,
+        325
+      ],
+      [
+        268,
+        322
+      ]
+    ],
+    "group": "mun-18",
+    "capacity": 275,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Hovedanlegget ved Thorøya. Ikke hele industri-/opplagsområdet på land.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 18,
+    "municipal_source_number": "S6",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-19",
+    "name": "Ulabrand båtforening",
+    "image": "p19",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        278,
+        277
+      ],
+      [
+        344,
+        245
+      ],
+      [
+        398,
+        326
+      ],
+      [
+        328,
+        358
+      ],
+      [
+        300,
+        314
+      ]
+    ],
+    "group": "mun-19",
+    "capacity": 115,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Avgrenser bryggene ved det historiske Strømbadet. Intern avgrensning mot tilgrensende Hesteskoen/Hjertnes trenger kontroll; ikke en offisiell operatørgrense. Felles kaigrense tilpasset nabopolygon; 398.2 m² teknisk overlapp fjernet.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 19,
+    "municipal_source_number": "S7",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-20",
+    "name": "Bogen båthavn",
+    "image": "p20",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        286,
+        288
+      ],
+      [
+        373,
+        253
+      ],
+      [
+        385,
+        296
+      ],
+      [
+        299,
+        320
+      ]
+    ],
+    "group": "mun-20",
+    "capacity": 128,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 20,
+    "municipal_source_number": "S8",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-21",
+    "name": "Solnes båthavn",
+    "image": "p21",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        297,
+        224
+      ],
+      [
+        394,
+        246
+      ],
+      [
+        399,
+        260
+      ],
+      [
+        385,
+        284
+      ],
+      [
+        375,
+        281
+      ],
+      [
+        352,
+        380
+      ],
+      [
+        282,
+        355
+      ],
+      [
+        286,
+        289
+      ],
+      [
+        303,
+        271
+      ]
+    ],
+    "group": "mun-21",
+    "capacity": 208,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 21,
+    "municipal_source_number": "S9",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-22",
+    "name": "Melsomvik båtforening",
+    "image": "p22",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        270,
+        280
+      ],
+      [
+        347,
+        278
+      ],
+      [
+        378,
+        402
+      ],
+      [
+        304,
+        414
+      ]
+    ],
+    "group": "mun-22",
+    "capacity": 270,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Samlet synlig bryggekompleks i Melsomvik; planformål og fremtidige utvidelser er ikke brukt som havnegrense.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 22,
+    "municipal_source_number": "S10",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-23",
+    "name": "Storevahr båthavn",
+    "image": "p23",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        274,
+        283
+      ],
+      [
+        324,
+        285
+      ],
+      [
+        324,
+        264
+      ],
+      [
+        363,
+        268
+      ],
+      [
+        363,
+        331
+      ],
+      [
+        274,
+        327
+      ]
+    ],
+    "group": "mun-23",
+    "capacity": 130,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 23,
+    "municipal_source_number": "S11",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-25",
+    "name": "Berganodden båthavn",
+    "image": "p25",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        287,
+        253
+      ],
+      [
+        296,
+        253
+      ],
+      [
+        297,
+        295
+      ],
+      [
+        288,
+        296
+      ]
+    ],
+    "group": "mun-25",
+    "capacity": 63,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Synlig bryggegruppe ved Berganodden. Fortøyningsutstrekning i rapporten er ikke fullstendig identifiserbar i bildet.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 25,
+    "municipal_source_number": "M2",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-26",
+    "name": "Berganbukta båtforening",
+    "image": "p26",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        258,
+        281
+      ],
+      [
+        303,
+        285
+      ],
+      [
+        344,
+        367
+      ],
+      [
+        331,
+        377
+      ],
+      [
+        289,
+        301
+      ],
+      [
+        257,
+        298
+      ]
+    ],
+    "group": "mun-26",
+    "capacity": 111,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 26,
+    "municipal_source_number": "M3",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-27",
+    "name": "Enge båtforening",
+    "image": "p27",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        279,
+        296
+      ],
+      [
+        351,
+        240
+      ],
+      [
+        370,
+        250
+      ],
+      [
+        291,
+        315
+      ]
+    ],
+    "group": "mun-27",
+    "capacity": 80,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Sørøstre brygge ved Enge. Kommunens midtbrygge og nordre Engø er ikke tatt inn i dette polygonet. Felles kaigrense tilpasset nabopolygon; 7.0 m² teknisk overlapp fjernet.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 27,
+    "municipal_source_number": "M4",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-28",
+    "name": "Engø båthavn",
+    "image": "p28",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        276,
+        309
+      ],
+      [
+        322,
+        253
+      ],
+      [
+        336,
+        264
+      ],
+      [
+        290,
+        320
+      ]
+    ],
+    "group": "mun-28",
+    "capacity": 83,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Nordre brygge ved Engø. Kildene omtaler tre ulike anlegg ved samme landadkomst.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 28,
+    "municipal_source_number": "M5",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-29",
+    "name": "Framnæs båthavn AS",
+    "image": "p29",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        242,
+        270
+      ],
+      [
+        296,
+        276
+      ],
+      [
+        328,
+        311
+      ],
+      [
+        330,
+        326
+      ],
+      [
+        250,
+        329
+      ]
+    ],
+    "group": "mun-29",
+    "capacity": 50,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre båthavn ved Framnæs. Nordre separate brygger kontrolleres mot egen operatørkilde.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 29,
+    "municipal_source_number": "M6",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-30",
+    "name": "Gokstad kystlag",
+    "image": "p30",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        272,
+        258
+      ],
+      [
+        317,
+        279
+      ],
+      [
+        286,
+        321
+      ],
+      [
+        241,
+        313
+      ]
+    ],
+    "group": "mun-30",
+    "capacity": 50,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Gokstad kystlags langstrakte midtre anlegg. Den kommunale Huvik-bryggen i sør og Huvik Eiendom AS i nord er separate dokumenterte kandidater.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 30,
+    "municipal_source_number": "M7",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-31",
+    "name": "Lahellefjorden båtforening",
+    "image": "p31",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        280,
+        291
+      ],
+      [
+        340,
+        252
+      ],
+      [
+        351,
+        271
+      ],
+      [
+        364,
+        278
+      ],
+      [
+        364,
+        295
+      ],
+      [
+        297,
+        301
+      ]
+    ],
+    "group": "mun-31",
+    "capacity": 91,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 31,
+    "municipal_source_number": "M8",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-32",
+    "name": "Langeby bryggelag",
+    "image": "p07",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        256,
+        258
+      ],
+      [
+        291,
+        256
+      ],
+      [
+        302,
+        308
+      ],
+      [
+        262,
+        307
+      ]
+    ],
+    "group": "mun-32",
+    "capacity": 55,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Midtre brygge tilhører Langeby bryggelag. Nordre private brygge inngår i rapportens 55 plasser. De to søndre kommunale bryggene er eget polygon.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 32,
+    "municipal_source_number": "M9",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-33",
+    "name": "Ormestad motorbåtforening",
+    "image": "p33",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        295,
+        291
+      ],
+      [
+        335,
+        313
+      ],
+      [
+        345,
+        303
+      ],
+      [
+        363,
+        311
+      ],
+      [
+        338,
+        341
+      ],
+      [
+        291,
+        307
+      ]
+    ],
+    "group": "mun-33",
+    "capacity": 92,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Avgrenser Ormestad motorbåtforenings felles brygger. Nabobrygger ved Nordre Holtan holdes utenfor.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 33,
+    "municipal_source_number": "M10",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-34",
+    "name": "Hellanodden",
+    "image": "p34",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        277,
+        277
+      ],
+      [
+        334,
+        318
+      ],
+      [
+        323,
+        330
+      ],
+      [
+        274,
+        285
+      ]
+    ],
+    "group": "mun-34",
+    "capacity": 60,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Hellanoddens diagonale brygge; andre navngitte brygger i bukta er separate.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 34,
+    "municipal_source_number": "M11",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-36",
+    "name": "York båtforening",
+    "image": "p36",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        267,
+        297
+      ],
+      [
+        300,
+        283
+      ],
+      [
+        314,
+        294
+      ],
+      [
+        287,
+        316
+      ],
+      [
+        279,
+        324
+      ],
+      [
+        267,
+        318
+      ]
+    ],
+    "group": "mun-36",
+    "capacity": 82,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 36,
+    "municipal_source_number": "M13",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-37",
+    "name": "Brunstad båtforening",
+    "image": "p37",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        264,
+        274
+      ],
+      [
+        305,
+        276
+      ],
+      [
+        306,
+        300
+      ],
+      [
+        331,
+        312
+      ],
+      [
+        328,
+        323
+      ],
+      [
+        263,
+        310
+      ]
+    ],
+    "group": "mun-37",
+    "capacity": 63,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Brunstad båtforenings søndre anlegg. OCCs nordre brygge er separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 37,
+    "municipal_source_number": "M14",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-38",
+    "name": "OCC",
+    "image": "p38",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        267,
+        289
+      ],
+      [
+        279,
+        285
+      ],
+      [
+        283,
+        276
+      ],
+      [
+        295,
+        278
+      ],
+      [
+        290,
+        292
+      ],
+      [
+        331,
+        304
+      ],
+      [
+        329,
+        322
+      ],
+      [
+        264,
+        304
+      ]
+    ],
+    "group": "mun-38",
+    "capacity": 55,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Nordre brygge ved Oslofjorden Convention Center. Båtforeningens søndre brygger er separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 38,
+    "municipal_source_number": "M15",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-40",
+    "name": "Fellesbryggen Bentsrød",
+    "image": "p40",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        244,
+        272
+      ],
+      [
+        319,
+        276
+      ],
+      [
+        333,
+        295
+      ],
+      [
+        319,
+        317
+      ],
+      [
+        261,
+        323
+      ],
+      [
+        249,
+        304
+      ]
+    ],
+    "group": "mun-40",
+    "capacity": 45,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Brygge og fortøyningsområde innerst i Bentsrødbukta. Alle historiske plasser er ikke tydelige i bildet.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 40,
+    "municipal_source_number": "M18",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-41",
+    "name": "Eianbukta båthavn",
+    "image": "p41",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        288,
+        286
+      ],
+      [
+        309,
+        289
+      ],
+      [
+        304,
+        316
+      ],
+      [
+        285,
+        317
+      ]
+    ],
+    "group": "mun-41",
+    "capacity": 16,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Lite dokumentert fellesanlegg ved Eianbukta. Bildet viser få detaljer; foreløpig snever avgrensning.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 41,
+    "municipal_source_number": "M19",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-42",
+    "name": "Briskebakken Nordre Bryggelag",
+    "image": "p42",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        260,
+        242
+      ],
+      [
+        286,
+        229
+      ],
+      [
+        293,
+        239
+      ],
+      [
+        264,
+        252
+      ]
+    ],
+    "group": "mun-42",
+    "capacity": 30,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 42,
+    "municipal_source_number": "M20",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-43",
+    "name": "Briskebakken Båtforening",
+    "image": "p43",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        266,
+        293
+      ],
+      [
+        313,
+        287
+      ],
+      [
+        319,
+        303
+      ],
+      [
+        268,
+        309
+      ]
+    ],
+    "group": "mun-43",
+    "capacity": 31,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 43,
+    "municipal_source_number": "M21",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-44",
+    "name": "Nordre Holtan bryggelag",
+    "image": "p44",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        281,
+        295
+      ],
+      [
+        308,
+        279
+      ],
+      [
+        317,
+        288
+      ],
+      [
+        294,
+        310
+      ],
+      [
+        310,
+        317
+      ],
+      [
+        319,
+        311
+      ],
+      [
+        326,
+        320
+      ],
+      [
+        310,
+        334
+      ],
+      [
+        286,
+        313
+      ]
+    ],
+    "group": "mun-44",
+    "capacity": 24,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre fellesbrygge i Ormestadvika. Motorbåtforeningens nordre anlegg er eget polygon/anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 44,
+    "municipal_source_number": "M22",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-45",
+    "name": "Lofterødveien vel-lag",
+    "image": "p45",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        278,
+        285
+      ],
+      [
+        309,
+        293
+      ],
+      [
+        328,
+        303
+      ],
+      [
+        322,
+        314
+      ],
+      [
+        297,
+        305
+      ],
+      [
+        278,
+        298
+      ]
+    ],
+    "group": "mun-45",
+    "capacity": 38,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Fellesbrygge ved Lofterødveien. Spredte private nabobrygger utelatt.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 45,
+    "municipal_source_number": "M23",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-46",
+    "name": "Lystad fellesbrygge",
+    "image": "p46",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        271,
+        286
+      ],
+      [
+        321,
+        288
+      ],
+      [
+        320,
+        298
+      ],
+      [
+        274,
+        299
+      ]
+    ],
+    "group": "mun-46",
+    "capacity": 14,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Lystad fellesbrygge; nabokandidaten Hystadveien 189 kontrolleres separat.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 46,
+    "municipal_source_number": "M24",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-47",
+    "name": "Hystadveien 189",
+    "image": "p47",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        295,
+        289
+      ],
+      [
+        339,
+        295
+      ],
+      [
+        340,
+        305
+      ],
+      [
+        294,
+        302
+      ]
+    ],
+    "group": "mun-47",
+    "capacity": 14,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Dokumentert mindre bryggeanlegg ved Hystadveien 189. Intern fordeling ved tettliggende nabobrygger er foreløpig.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 47,
+    "municipal_source_number": "M25",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-48",
+    "name": "Natholmen brygge AS",
+    "image": "p56",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        302,
+        309
+      ],
+      [
+        358,
+        294
+      ],
+      [
+        367,
+        311
+      ],
+      [
+        310,
+        327
+      ]
+    ],
+    "group": "mun-48",
+    "capacity": 42,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre lange brygge ved Natholmen. Den midtre og den korte nordre bryggen er andre navngitte anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 48,
+    "municipal_source_number": "U10",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-49",
+    "name": "Verven brygge",
+    "image": "p49",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        276,
+        290
+      ],
+      [
+        315,
+        266
+      ],
+      [
+        327,
+        280
+      ],
+      [
+        286,
+        306
+      ]
+    ],
+    "group": "mun-49",
+    "capacity": 35,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 49,
+    "municipal_source_number": "U11",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-50",
+    "name": "Solløkkasvingen vel-lag",
+    "image": "p50",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        291,
+        291
+      ],
+      [
+        302,
+        290
+      ],
+      [
+        311,
+        326
+      ],
+      [
+        333,
+        321
+      ],
+      [
+        338,
+        337
+      ],
+      [
+        301,
+        344
+      ]
+    ],
+    "group": "mun-50",
+    "capacity": 40,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 50,
+    "municipal_source_number": "U12",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-51",
+    "name": "Solløkka båtforening",
+    "image": "p51",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        279,
+        261
+      ],
+      [
+        290,
+        256
+      ],
+      [
+        310,
+        291
+      ],
+      [
+        320,
+        289
+      ],
+      [
+        323,
+        300
+      ],
+      [
+        273,
+        317
+      ],
+      [
+        268,
+        308
+      ],
+      [
+        299,
+        295
+      ]
+    ],
+    "group": "mun-51",
+    "capacity": 47,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 51,
+    "municipal_source_number": "U13",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-52",
+    "name": "Stub brygger AS",
+    "image": "p52",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        280,
+        267
+      ],
+      [
+        296,
+        264
+      ],
+      [
+        305,
+        288
+      ],
+      [
+        289,
+        292
+      ]
+    ],
+    "group": "mun-52",
+    "capacity": 22,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Småbåtplasser ved Stub brygger AS. Kommunale Stub nord for dette er eget anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 52,
+    "municipal_source_number": "U14",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-53",
+    "name": "Thorsholmen",
+    "image": "p53",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        294,
+        285
+      ],
+      [
+        314,
+        293
+      ],
+      [
+        312,
+        329
+      ],
+      [
+        302,
+        331
+      ]
+    ],
+    "group": "mun-53",
+    "capacity": 29,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Felles flytebrygge sør for Thorsholmen.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 53,
+    "municipal_source_number": "U15",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-54",
+    "name": "Årøtangen 26",
+    "image": "p54",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        290,
+        290
+      ],
+      [
+        328,
+        266
+      ],
+      [
+        339,
+        279
+      ],
+      [
+        297,
+        305
+      ]
+    ],
+    "group": "mun-54",
+    "capacity": 27,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Rapportens overskrift er Årøtangen 46, mens kartlaget sier Årøtangen 26. Stedet identifisert ved kartgeometri; adressen er ikke avklart.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 54,
+    "municipal_source_number": "U16",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-55",
+    "name": "Natholmsundet flytebrygge",
+    "image": "p55",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        291,
+        291
+      ],
+      [
+        329,
+        291
+      ],
+      [
+        330,
+        305
+      ],
+      [
+        292,
+        304
+      ]
+    ],
+    "group": "mun-55",
+    "capacity": 34,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 55,
+    "municipal_source_number": "U18",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-56",
+    "name": "Natholmen 5 bryggeanlegg",
+    "image": "p56",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        288,
+        295
+      ],
+      [
+        334,
+        281
+      ],
+      [
+        341,
+        296
+      ],
+      [
+        294,
+        308
+      ]
+    ],
+    "group": "mun-56",
+    "capacity": 30,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 56,
+    "municipal_source_number": "U19",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-57",
+    "name": "Nedre Solnes brygge",
+    "image": "p57",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        291,
+        246
+      ],
+      [
+        304,
+        240
+      ],
+      [
+        311,
+        253
+      ],
+      [
+        305,
+        263
+      ],
+      [
+        311,
+        266
+      ],
+      [
+        312,
+        279
+      ],
+      [
+        295,
+        285
+      ]
+    ],
+    "group": "mun-57",
+    "capacity": 30,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": true,
+    "basis": "eksisterende_smabrygger_men_planlagt_hovedanlegg_ikke_verifisert",
+    "note": "Rapport side 82 omtaler et planlagt større anlegg. Bare eksisterende småbrygger i bildet er avgrenset; planarealet er ikke inkludert. Kommunalt punktlag oppgir 30 plasser, men dagens felles drift/kapasitet er uklar.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 57,
+    "municipal_source_number": "U25",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-58",
+    "name": "Hagaløkka",
+    "image": "p58",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        279,
+        286
+      ],
+      [
+        303,
+        278
+      ],
+      [
+        321,
+        307
+      ],
+      [
+        313,
+        318
+      ],
+      [
+        292,
+        305
+      ]
+    ],
+    "group": "mun-58",
+    "capacity": 38,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Dokumentert anlegg langs Hagaløkka. Full utstrekning av historiske bøye-/wireplasser er uklar.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 58,
+    "municipal_source_number": "U17",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-59",
+    "name": "Søndre Lofterød bryggelag",
+    "image": "p59",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        280,
+        311
+      ],
+      [
+        306,
+        289
+      ],
+      [
+        315,
+        298
+      ],
+      [
+        286,
+        323
+      ]
+    ],
+    "group": "mun-59",
+    "capacity": 16,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 59,
+    "municipal_source_number": "U26",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-60",
+    "name": "Østre Nes",
+    "image": "p60",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        244,
+        268
+      ],
+      [
+        259,
+        257
+      ],
+      [
+        300,
+        285
+      ],
+      [
+        308,
+        288
+      ],
+      [
+        299,
+        304
+      ],
+      [
+        281,
+        307
+      ],
+      [
+        241,
+        280
+      ]
+    ],
+    "group": "mun-60",
+    "capacity": 102,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Østre Nes: søndre vinkelformede brygger. Ikke hele bukten mellom andre navngitte anlegg.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 60,
+    "municipal_source_number": "S12",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-61",
+    "name": "Mefjorden båtforening",
+    "image": "p61",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        299,
+        290
+      ],
+      [
+        341,
+        296
+      ],
+      [
+        338,
+        331
+      ],
+      [
+        298,
+        327
+      ]
+    ],
+    "group": "mun-61",
+    "capacity": 57,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kartgeometrien viser bryggene innerst i Mefjorden. Lagrede x/y-attributter peker feil og er ikke brukt.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 61,
+    "municipal_source_number": "M17",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-62",
+    "name": "Hummelvika",
+    "image": "p62",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        290,
+        292
+      ],
+      [
+        336,
+        301
+      ],
+      [
+        335,
+        313
+      ],
+      [
+        290,
+        304
+      ]
+    ],
+    "group": "mun-62",
+    "capacity": 28,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 62,
+    "municipal_source_number": "U20",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-63",
+    "name": "Mefjordveien båthavn",
+    "image": "p63",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        291,
+        288
+      ],
+      [
+        324,
+        284
+      ],
+      [
+        326,
+        300
+      ],
+      [
+        292,
+        306
+      ]
+    ],
+    "group": "mun-63",
+    "capacity": 22,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Kartgeometri brukt: x/y-attributtene i kilden peker til et annet anlegg. Mindre brygge og fortøyningsområde er foreløpig avgrenset.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 63,
+    "municipal_source_number": "U21",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-64",
+    "name": "Namløs",
+    "image": "p64",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        274,
+        292
+      ],
+      [
+        306,
+        290
+      ],
+      [
+        309,
+        302
+      ],
+      [
+        277,
+        304
+      ]
+    ],
+    "group": "mun-64",
+    "capacity": 41,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Riktig plassering på Østerøya fra kartgeometrien. Kildens y-attributt peker ca. 2,7 km nordover og er ikke brukt. Full fortøyningsutstrekning usikker.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 64,
+    "municipal_source_number": "U22",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-65",
+    "name": "Djupsund",
+    "image": "p65",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        308,
+        291
+      ],
+      [
+        322,
+        293
+      ],
+      [
+        322,
+        306
+      ],
+      [
+        315,
+        326
+      ],
+      [
+        304,
+        323
+      ],
+      [
+        310,
+        302
+      ]
+    ],
+    "group": "mun-65",
+    "capacity": 31,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "municipal_objectid": 65,
+    "municipal_source_number": "U23",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-66",
+    "name": "Herreportveien",
+    "image": "p66",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        293,
+        290
+      ],
+      [
+        344,
+        292
+      ],
+      [
+        347,
+        307
+      ],
+      [
+        298,
+        312
+      ]
+    ],
+    "group": "mun-66",
+    "capacity": 48,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Dokumentert småbåtanlegg ved Herreportveien. Yttergrense for alle historiske plasser er uklar.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 66,
+    "municipal_source_number": "U24",
+    "part": null
+  },
+  {
+    "candidate_id": "MUN-25",
+    "name": "Berganodden båthavn",
+    "image": "p25",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        297,
+        319
+      ],
+      [
+        353,
+        323
+      ],
+      [
+        353,
+        334
+      ],
+      [
+        300,
+        335
+      ]
+    ],
+    "group": "mun-25",
+    "capacity": 63,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre brygge i samme dokumenterte anlegg ved Berganodden.",
+    "geometry_uncertain": true,
+    "municipal_objectid": 25,
+    "municipal_source_number": "M2",
+    "part": "sor"
+  },
+  {
+    "candidate_id": "MUN-52",
+    "name": "Stub brygger AS",
+    "image": "p52",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        298,
+        310
+      ],
+      [
+        313,
+        298
+      ],
+      [
+        321,
+        325
+      ],
+      [
+        304,
+        330
+      ],
+      [
+        293,
+        322
+      ]
+    ],
+    "group": "mun-52",
+    "capacity": 22,
+    "sources": [
+      "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_batplasser",
+    "note": "Søndre brygge ved Stub brygger AS; tilhører samme havne-ID som nordre brygge.",
+    "geometry_uncertain": false,
+    "municipal_objectid": 52,
+    "municipal_source_number": "U14",
+    "part": "sor"
+  },
+  {
+    "candidate_id": "EXT-HUVIK",
+    "name": "Huvik Eiendom AS – båthavn",
+    "image": "p13",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        212.3878954005777,
+        386.9479849498719
+      ],
+      [
+        198.74290510198333,
+        377.9797403588891
+      ],
+      [
+        201.65066340698397,
+        373.8568504158407
+      ],
+      [
+        160.4177925191587,
+        345.2005566274747
+      ],
+      [
+        189.28449275849854,
+        305.95479004047814
+      ],
+      [
+        233.11980833663839,
+        336.47964649870994
+      ],
+      [
+        234.81264803895027,
+        355.1115257933736
+      ],
+      [
+        212.3878954005777,
+        386.9479849498719
+      ]
+    ],
+    "group": "huvik-eiendom",
+    "capacity": 32,
+    "sources": [
+      "https://www.huvik.no/b%C3%A5tplasser"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_32_faste_batplasser",
+    "note": "Operatøren oppgir 32 plasser i Framnæsveien 3 B, nær Gokstad kystlag. OSM-navnet Huvik er ikke brukt til å slå dette sammen med kommunens separate Huvik-kandidat. OSM-omriss kontrollert mot bilde. Felles kaigrense tilpasset nabopolygon; 103.4 m² teknisk overlapp fjernet.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/1218301840"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert"
+  },
+  {
+    "candidate_id": "EXT-FRAMNES-NORD",
+    "name": "Framnæs Maritime – nordre bryggeanlegg",
+    "image": "framnes-nord",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        479,
+        389
+      ],
+      [
+        532,
+        390
+      ],
+      [
+        536,
+        520
+      ],
+      [
+        471,
+        520
+      ]
+    ],
+    "group": "framnes-nord",
+    "capacity": null,
+    "sources": [
+      "https://www.framnes-maritime.no/"
+    ],
+    "name_is_descriptive": true,
+    "possible": true,
+    "basis": "flere_fingerbrygger_men_fast_batplassbruk_versus_service_uklar",
+    "note": "To tydelige fingerbrygger innenfor molo nord for Framnæs Båthavn AS. Operatøren beskriver service, opptak og samarbeid med båthavnen i sør. Fast utleie versus serviceplasser er ikke avklart; beholdt som mulig småbåthavn. Rene servicekaier nord for bassenget er ikke inkludert.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/2088640421"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+ "polygons": 19,
+ "harbours": 17,
+ "possible_harbours": 2,
+ "uncertain_geometries": 7,
+ "candidates_total": 44,
+ "candidates_included": 17,
+ "overlap_issues": []
+}

@@ -1,0 +1,2053 @@
+[
+  {
+    "candidate_id": "OSM-way/163116818",
+    "name": "Helgeroa – gjestehavn",
+    "image": "p00",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        270.9575375897577,
+        309.839059603773
+      ],
+      [
+        270.3815564633114,
+        311.6057884326205
+      ],
+      [
+        297.21947154592493,
+        370.25917545687406
+      ],
+      [
+        348.39756440233907,
+        324.36657037530097
+      ],
+      [
+        353.47220675458664,
+        296.85926479306073
+      ],
+      [
+        332.62699658815984,
+        282.8883425742388
+      ],
+      [
+        309.36250346718583,
+        269.99166006557647
+      ],
+      [
+        301.9505813140073,
+        271.7474735727534
+      ],
+      [
+        286.93379646706165,
+        275.156939952448
+      ],
+      [
+        282.825967552315,
+        278.14703061003235
+      ],
+      [
+        272.9531585759134,
+        302.90934545025226
+      ],
+      [
+        272.9186737454496,
+        306.2271761862561
+      ],
+      [
+        270.9575375897577,
+        309.839059603773
+      ]
+    ],
+    "group": "helgeroa",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+    "note": "Delområde i samme fysiske havn som Helgeroa småbåthavn; gjeste- og faste plasser er ikke talt som to havneområder.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/163116818"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/135450559",
+    "name": "Helgeroa – småbåthavn",
+    "image": "p01",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        302.14641737300553,
+        345.22438375800846
+      ],
+      [
+        303.9488007050066,
+        342.99547973927116
+      ],
+      [
+        319.8535405321454,
+        357.69204827807846
+      ],
+      [
+        325.3694214413117,
+        361.71299927271906
+      ],
+      [
+        325.8164987764146,
+        361.975555210188
+      ],
+      [
+        329.59589444118905,
+        355.74684312790635
+      ],
+      [
+        335.04672744861455,
+        359.0852414913476
+      ],
+      [
+        351.1749260463577,
+        333.6311188979074
+      ],
+      [
+        347.6781975747028,
+        331.6173628415913
+      ],
+      [
+        347.67652162653974,
+        329.34991917070005
+      ],
+      [
+        351.748731285258,
+        329.42247956860814
+      ],
+      [
+        352.4477691253123,
+        291.2272007379681
+      ],
+      [
+        335.82649525019224,
+        246.51075697559864
+      ],
+      [
+        308.6334766110464,
+        231.8289029309526
+      ],
+      [
+        294.9523144939856,
+        234.8519579200074
+      ],
+      [
+        291.90839732596066,
+        242.8546099131927
+      ],
+      [
+        287.0794120963023,
+        241.10690142754464
+      ],
+      [
+        284.6564381228818,
+        237.6061858093366
+      ],
+      [
+        284.29883226322124,
+        227.57017916478216
+      ],
+      [
+        271.8107625742152,
+        233.97209718637168
+      ],
+      [
+        270.11203106277975,
+        237.10114138294014
+      ],
+      [
+        274.65209965390966,
+        270.1398007141426
+      ],
+      [
+        249.54093503045732,
+        274.54802549108865
+      ],
+      [
+        248.43353411014542,
+        279.29908472299576
+      ],
+      [
+        252.96786954086858,
+        286.12225820459423
+      ],
+      [
+        255.50661061261198,
+        292.2950385292992
+      ],
+      [
+        262.4091848844022,
+        328.0047035615891
+      ],
+      [
+        267.77636639961855,
+        336.64289463255557
+      ],
+      [
+        286.0806119287095,
+        331.67573868501927
+      ],
+      [
+        288.9539714577666,
+        332.48101025037465
+      ],
+      [
+        291.90762253751166,
+        335.7006612304598
+      ],
+      [
+        302.14641737300553,
+        345.22438375800846
+      ]
+    ],
+    "group": "helgeroa",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/135450559"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107482985",
+    "name": "Kjerringvik – Nordhavna",
+    "image": "p09",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        257,
+        280
+      ],
+      [
+        266,
+        280
+      ],
+      [
+        288,
+        288
+      ],
+      [
+        294,
+        284
+      ],
+      [
+        296,
+        291
+      ],
+      [
+        289,
+        298
+      ],
+      [
+        258,
+        287
+      ]
+    ],
+    "group": "p09",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "Nordre bukt og synlig brygge. OSM-punktene er upresise; full utstrekning av morings-/bøyeplasser er uklar. Ikke dobbelttelt for de to OSM-navnene.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5107482985",
+      "node/5107482984"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107482986",
+    "name": "Kjerringvik – Sydhavna",
+    "image": "p03",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        300,
+        274
+      ],
+      [
+        337,
+        270
+      ],
+      [
+        348,
+        280
+      ],
+      [
+        344,
+        291
+      ],
+      [
+        309,
+        304
+      ],
+      [
+        300,
+        300
+      ]
+    ],
+    "group": "p03",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5107482986"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/1477952462",
+    "name": "Laberget småbåthavn",
+    "image": "p04",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        258,
+        255
+      ],
+      [
+        301,
+        255
+      ],
+      [
+        305,
+        316
+      ],
+      [
+        291,
+        336
+      ],
+      [
+        257,
+        333
+      ]
+    ],
+    "group": "p04",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/1477952462"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/108257655",
+    "name": "Larvik båtforening – Karistranda/Vadskjæret",
+    "image": "p05",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        314.66236419837804,
+        258.4422342153266
+      ],
+      [
+        309.8185449363605,
+        273.09681417904795
+      ],
+      [
+        304.8853189898597,
+        280.2270470643416
+      ],
+      [
+        299.8968861964939,
+        286.4277012962848
+      ],
+      [
+        298.7760064864007,
+        285.8882123328745
+      ],
+      [
+        298.2488940488838,
+        286.8414836604148
+      ],
+      [
+        297.3142348315276,
+        287.2815582957119
+      ],
+      [
+        293.0277034798928,
+        286.14419794064014
+      ],
+      [
+        292.35045760090577,
+        286.9789884729311
+      ],
+      [
+        291.3234542744758,
+        289.77277875412256
+      ],
+      [
+        289.4359303701378,
+        291.26854046434164
+      ],
+      [
+        287.65392568117824,
+        292.2289536902681
+      ],
+      [
+        286.65682873792827,
+        292.76496830396354
+      ],
+      [
+        283.94827878014763,
+        294.42759683579203
+      ],
+      [
+        283.6929210191534,
+        295.07249765787276
+      ],
+      [
+        282.4448790171824,
+        295.68370998948814
+      ],
+      [
+        279.34217523362605,
+        297.8132423322648
+      ],
+      [
+        274.73988197749134,
+        292.749302553758
+      ],
+      [
+        272.4062132270134,
+        291.79087269511075
+      ],
+      [
+        270.8073838662298,
+        291.54438000675293
+      ],
+      [
+        269.7367075390939,
+        292.00113913379613
+      ],
+      [
+        266.1818811726349,
+        294.63348131496457
+      ],
+      [
+        265.02870658417817,
+        293.9708580158651
+      ],
+      [
+        263.8646346457943,
+        295.12481411620973
+      ],
+      [
+        263.36530225108726,
+        294.591362323612
+      ],
+      [
+        262.62900438020586,
+        295.56928463727235
+      ],
+      [
+        260.7550296861038,
+        296.69719101637605
+      ],
+      [
+        271.17777205156744,
+        312.4149586189538
+      ],
+      [
+        274.53737940122954,
+        310.7337665084749
+      ],
+      [
+        285.41763792212004,
+        312.3286631975323
+      ],
+      [
+        287.485048856138,
+        314.07870391644536
+      ],
+      [
+        289.13883257955894,
+        315.5363977348432
+      ],
+      [
+        296.0825232886767,
+        321.2709123384207
+      ],
+      [
+        311.18429983254174,
+        333.74233515355735
+      ],
+      [
+        321.9381479083153,
+        341.63148449119177
+      ],
+      [
+        326.4605174463533,
+        342.1090087411925
+      ],
+      [
+        330.10198421052775,
+        342.7221292247996
+      ],
+      [
+        339.7644276888866,
+        335.8902573158964
+      ],
+      [
+        346.8991935423401,
+        324.48432236909866
+      ],
+      [
+        355.41767944999157,
+        307.3939106376842
+      ],
+      [
+        359.02479882599437,
+        300.15816323999314
+      ],
+      [
+        358.10814247446257,
+        299.61378834117204
+      ],
+      [
+        358.95547968377946,
+        297.8863028822467
+      ],
+      [
+        364.91976267981227,
+        285.7225813647732
+      ],
+      [
+        360.3947372388735,
+        283.23976601120086
+      ],
+      [
+        314.66236419837804,
+        258.4422342153266
+      ]
+    ],
+    "group": "p05",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://lokalhistoriewiki.no/wiki/Karistranda_(Larvik)"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "Karistranda, Vadskjæret og Larvik båtforening er navn på samme fysiske anlegg; ikke tre havner.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/108257655"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/272287098",
+    "name": "Nedre Lågen båtforening",
+    "image": "p06",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        303.67536002858543,
+        327.2407362487167
+      ],
+      [
+        319.4600378198898,
+        316.89052665699273
+      ],
+      [
+        318.1635493586305,
+        315.2653951926157
+      ],
+      [
+        319.2169623458642,
+        312.33922312706704
+      ],
+      [
+        315.1526701882132,
+        308.42323221713303
+      ],
+      [
+        314.30514881077687,
+        305.6377238072455
+      ],
+      [
+        313.46605072355595,
+        290.9496345916763
+      ],
+      [
+        303.5753777749138,
+        275.65721500609067
+      ],
+      [
+        291.83819699344457,
+        276.03389532901343
+      ],
+      [
+        287.89122054517503,
+        279.48307227641345
+      ],
+      [
+        283.5723169116187,
+        280.6313049389049
+      ],
+      [
+        280.3654566470068,
+        277.69086998552086
+      ],
+      [
+        272.31939655205935,
+        286.0331098526716
+      ],
+      [
+        271.49867984054146,
+        287.21954585909845
+      ],
+      [
+        300.0517009510542,
+        313.1441124245524
+      ],
+      [
+        303.24193968119795,
+        320.5964394846931
+      ],
+      [
+        302.2073617174756,
+        326.76301767267285
+      ],
+      [
+        303.67536002858543,
+        327.2407362487167
+      ]
+    ],
+    "group": "p06",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/272287098"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "elveutlop",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-way/108246714",
+    "name": "Skotta/Skottebrygga – småbåthavn",
+    "image": "p07",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        295.0145127817348,
+        285.19573662802577
+      ],
+      [
+        291.87969372716617,
+        311.4451872451231
+      ],
+      [
+        290.78544712694713,
+        311.430687170662
+      ],
+      [
+        290.1261166361568,
+        315.68697587549684
+      ],
+      [
+        292.1812586981279,
+        317.64415184576063
+      ],
+      [
+        316.12661659742594,
+        321.16577412039044
+      ],
+      [
+        318.1356840439781,
+        285.07478789817543
+      ],
+      [
+        305.4726778668409,
+        273.8033392969519
+      ],
+      [
+        300.2778667943843,
+        278.5531582016498
+      ],
+      [
+        295.0145127817348,
+        285.19573662802577
+      ]
+    ],
+    "group": "p07",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "dokumentert_smabathavn_og_synlige_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "way/108246714"
+    ],
+    "tracing_method": "osm_polygon_bildekontrollert",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/1477952461",
+    "name": "Nevlunghavn – indre båthavn",
+    "image": "p08",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        217,
+        232
+      ],
+      [
+        238,
+        230
+      ],
+      [
+        245,
+        250
+      ],
+      [
+        240,
+        280
+      ],
+      [
+        246,
+        300
+      ],
+      [
+        245,
+        315
+      ],
+      [
+        232,
+        307
+      ],
+      [
+        222,
+        288
+      ],
+      [
+        218,
+        267
+      ]
+    ],
+    "group": "nevlunghavn",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/1477952461"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p08",
+    "name": "Nevlunghavn – ytre kai-/båtplasser",
+    "image": "p08",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        299,
+        317
+      ],
+      [
+        309,
+        311
+      ],
+      [
+        317,
+        324
+      ],
+      [
+        321,
+        343
+      ],
+      [
+        312,
+        363
+      ],
+      [
+        301,
+        364
+      ],
+      [
+        306,
+        344
+      ]
+    ],
+    "group": "nevlunghavn",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+    "note": "Blandet gjeste-/fiskerihavn. Foreløpig smalt sjøbelte ved ytre kai; driftsgrense og fordeling mellom båtbruk er ikke verifisert.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107430963",
+    "name": "Lågen – østre bryggeanlegg",
+    "image": "p10",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        299,
+        287
+      ],
+      [
+        354,
+        282
+      ],
+      [
+        356,
+        400
+      ],
+      [
+        300,
+        401
+      ]
+    ],
+    "group": "p10",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Tett felles bryggeanlegg nær Elveveien. Koblingen til navnet Øvre Lågen båtforening er foreløpig; registrert adresse alene beviser ikke havneplassering.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5107430963"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "elveutlop",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107430964",
+    "name": "Langestrand – søndre småbåtanlegg",
+    "image": "p11",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        289,
+        285
+      ],
+      [
+        310,
+        286
+      ],
+      [
+        318,
+        320
+      ],
+      [
+        297,
+        331
+      ],
+      [
+        279,
+        309
+      ]
+    ],
+    "group": "p11",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Tydelig liten felles bryggegruppe. Navnet er beskrivende; operatør ikke bekreftet.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5107430964"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107482988",
+    "name": "Bjønnesstranda båthavn",
+    "image": "p12",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        269,
+        255
+      ],
+      [
+        294,
+        251
+      ],
+      [
+        299,
+        321
+      ],
+      [
+        268,
+        322
+      ]
+    ],
+    "group": "p12",
+    "capacity": 143,
+    "sources": [
+      "https://www.havneweb.no/bjonnesstranda-bh/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Operatøren oppgir 143 faste plasser. Refleks og sjøpreg gjør full fortøyningsutstrekning uklar; synlige brygger avgrenset.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5107482988"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/498322540",
+    "name": "Ødegården / Larvik Seilforening – vestre havneanlegg",
+    "image": "p13",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        245,
+        250
+      ],
+      [
+        296,
+        265
+      ],
+      [
+        295,
+        285
+      ],
+      [
+        264,
+        284
+      ],
+      [
+        267,
+        302
+      ],
+      [
+        297,
+        309
+      ],
+      [
+        301,
+        361
+      ],
+      [
+        287,
+        393
+      ],
+      [
+        254,
+        399
+      ],
+      [
+        239,
+        378
+      ],
+      [
+        250,
+        356
+      ],
+      [
+        248,
+        325
+      ],
+      [
+        239,
+        300
+      ]
+    ],
+    "group": "p13",
+    "capacity": null,
+    "sources": [
+      "https://larvikseilforening.no/gjesteplasser/",
+      "https://larvikseilforening.no/havneinormasjon/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_og_gjeste_batplasser",
+    "note": "Seilforeningens adresse Ødegårdsveien 20 peker til dette området. Flere tilstøtende brygger; interne grenser mot andre aktører er ikke kartlagt. Østre anlegg er separat.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/498322540"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/498319681",
+    "name": "Hølen – nordvestre småbåtbasseng",
+    "image": "p14",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        321,
+        195
+      ],
+      [
+        367,
+        205
+      ],
+      [
+        390,
+        217
+      ],
+      [
+        372,
+        240
+      ],
+      [
+        354,
+        257
+      ],
+      [
+        337,
+        244
+      ],
+      [
+        318,
+        231
+      ]
+    ],
+    "group": "holen",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Sammenhengende småbåtområde ved Hølen. Interne operatørgrenser og kobling til Hølen Vestre er ikke endelig avklart; navnet er beskrivende. Industrikaier utenfor bassenget er utelatt.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/498319681"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "elveutlop",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107367929",
+    "name": "Eftang – småbåtanlegg",
+    "image": "p15",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        228,
+        267
+      ],
+      [
+        249,
+        269
+      ],
+      [
+        260,
+        263
+      ],
+      [
+        281,
+        277
+      ],
+      [
+        271,
+        289
+      ],
+      [
+        214,
+        308
+      ],
+      [
+        204,
+        296
+      ]
+    ],
+    "group": "p15",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Synlige felles båtplasser innenfor molo; beskrivende områdenavn.",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5107367929"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107482987",
+    "name": "Vikerøysundet – småbåtanlegg",
+    "image": "p16",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        253,
+        302
+      ],
+      [
+        382,
+        240
+      ],
+      [
+        392,
+        251
+      ],
+      [
+        267,
+        318
+      ]
+    ],
+    "group": "p16",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Felles båtplasser ved Vikerøybrua. Foreløpig navnekobling til Viksfjord båtforening; ikke en verifisert operatørgrense.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5107482987"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107367928",
+    "name": "Stavern – nordre havnebrygger",
+    "image": "p17",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        251,
+        235
+      ],
+      [
+        311,
+        172
+      ],
+      [
+        365,
+        123
+      ],
+      [
+        396,
+        119
+      ],
+      [
+        404,
+        210
+      ],
+      [
+        388,
+        236
+      ],
+      [
+        370,
+        235
+      ],
+      [
+        360,
+        218
+      ],
+      [
+        317,
+        237
+      ]
+    ],
+    "group": "stavern",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://www.havneweb.no/stavern-bf/index.php"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "kommunalt_og_operator_dokumentert_smabathavn",
+    "note": "Del av det fysiske indre havneområdet i Stavern, med foreningsplasser/gjesteplasser/Floskjær. Interne driftsgrenser er ikke kartlagt. Foreningens oppgitte 757 plasser gjelder ikke automatisk dette delpolygonet.",
+    "geometry_uncertain": true,
+    "osm_ids": [
+      "node/5107367928"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p17",
+    "name": "Stavern – søndre havnebrygger",
+    "image": "p17",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        282,
+        257
+      ],
+      [
+        398,
+        232
+      ],
+      [
+        441,
+        236
+      ],
+      [
+        481,
+        270
+      ],
+      [
+        479,
+        308
+      ],
+      [
+        438,
+        345
+      ],
+      [
+        305,
+        346
+      ],
+      [
+        281,
+        328
+      ]
+    ],
+    "group": "stavern",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://www.havneweb.no/stavern-bf/index.php"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "kommunalt_og_operator_dokumentert_smabathavn",
+    "note": " Felles ytterkant mot nordre del er teknisk samordnet ved å fjerne 20,79 m² dobbel avgrensning i samme fysiske havnegruppe.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p17",
+    "name": "Stavern – vestre nordre brygger",
+    "image": "p17",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        195,
+        244
+      ],
+      [
+        278,
+        236
+      ],
+      [
+        285,
+        255
+      ],
+      [
+        221,
+        277
+      ],
+      [
+        197,
+        271
+      ]
+    ],
+    "group": "stavern",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+    "note": "",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107367930",
+    "name": "Ula småbåthavn",
+    "image": "p18",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        268,
+        247
+      ],
+      [
+        304,
+        242
+      ],
+      [
+        317,
+        261
+      ],
+      [
+        319,
+        289
+      ],
+      [
+        329,
+        325
+      ],
+      [
+        324,
+        362
+      ],
+      [
+        291,
+        378
+      ],
+      [
+        261,
+        345
+      ],
+      [
+        255,
+        309
+      ]
+    ],
+    "group": "p18",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5107367930"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p14",
+    "name": "Hølen – midtre brygger",
+    "image": "p14",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        305,
+        250
+      ],
+      [
+        327,
+        252
+      ],
+      [
+        355,
+        267
+      ],
+      [
+        373,
+        268
+      ],
+      [
+        371,
+        293
+      ],
+      [
+        343,
+        285
+      ],
+      [
+        305,
+        271
+      ]
+    ],
+    "group": "holen",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Del av samme fysiske havneområde. Bryggeområdene skilles fra opplag og parkering på land.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "elveutlop",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p14",
+    "name": "Hølen – østre småbåtbasseng",
+    "image": "p14",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        385,
+        226
+      ],
+      [
+        413,
+        245
+      ],
+      [
+        435,
+        254
+      ],
+      [
+        437,
+        279
+      ],
+      [
+        424,
+        305
+      ],
+      [
+        409,
+        303
+      ],
+      [
+        384,
+        287
+      ],
+      [
+        383,
+        266
+      ],
+      [
+        371,
+        258
+      ],
+      [
+        376,
+        245
+      ]
+    ],
+    "group": "holen",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "elveutlop",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "OSM-node/5107482986",
+    "name": "Kjerringvik – Sydhavna, østre brygger",
+    "image": "p03",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        354,
+        247
+      ],
+      [
+        371,
+        240
+      ],
+      [
+        376,
+        247
+      ],
+      [
+        364,
+        269
+      ],
+      [
+        354,
+        280
+      ],
+      [
+        345,
+        276
+      ]
+    ],
+    "group": "p03",
+    "capacity": null,
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [
+      "node/5107482986"
+    ],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-agnes-havn",
+    "name": "Agnes båtforening – nordre basseng",
+    "image": "agnes-havn",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        191,
+        246
+      ],
+      [
+        249,
+        246
+      ],
+      [
+        258,
+        265
+      ],
+      [
+        263,
+        312
+      ],
+      [
+        250,
+        313
+      ],
+      [
+        242,
+        294
+      ],
+      [
+        223,
+        279
+      ],
+      [
+        214,
+        271
+      ],
+      [
+        202,
+        287
+      ],
+      [
+        191,
+        278
+      ]
+    ],
+    "group": "agnes",
+    "capacity": 100,
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Operatøren oppgir rundt 100 plasser. Bare det eksisterende havnebassenget er avgrenset; Sjøparkens søndre brygger er en separat kandidat.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": [],
+    "capacity_approximate": true
+  },
+  {
+    "candidate_id": "VIS-agnes-sor",
+    "name": "Agnes/Sjøparken – søndre bryggeanlegg",
+    "image": "agnes-sor",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        207,
+        310
+      ],
+      [
+        219,
+        312
+      ],
+      [
+        239,
+        349
+      ],
+      [
+        235,
+        362
+      ],
+      [
+        224,
+        350
+      ],
+      [
+        215,
+        329
+      ]
+    ],
+    "group": "agnes-sor",
+    "capacity": null,
+    "sources": [
+      "https://sjoparken.no/wp-content/uploads/240530-Sjoparken-BL3DE-prospekt-web-.pdf"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Synlig mindre bryggeanlegg sør for Agnes båtforening. Utbyggers prospekt omtaler eksisterende og planlagte båtplasser; bare synlige brygger er avgrenset. Bildedato og dagens ombygging er ikke avklart. Mer enn ti båtplasser er synlige; usikkerheten gjelder geometri og aktualitet, ikke antall synlige plasser.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-farris-bf",
+    "name": "Farris båtforening – Kilen",
+    "image": "farris-bf",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        290,
+        200
+      ],
+      [
+        316,
+        199
+      ],
+      [
+        318,
+        223
+      ],
+      [
+        304,
+        276
+      ],
+      [
+        304,
+        297
+      ],
+      [
+        294,
+        300
+      ],
+      [
+        286,
+        284
+      ]
+    ],
+    "group": "farris-bf",
+    "capacity": null,
+    "sources": [
+      "https://www.xn--farrisbtforening-job.no/start/informasjon",
+      "https://www.xn--farrisbtforening-job.no/start/kontakt-oss"
+    ],
+    "name_is_descriptive": false,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Stedfestet ved operatørens kartlenke til Kilen. Bare brygge-/båtplassrekken inngår; strand-/gressplasser på land er ikke havnepolygon.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "ferskvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-farris-east",
+    "name": "Gopledal/Farris – felles bryggeanlegg",
+    "image": "farris-east",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        373,
+        491
+      ],
+      [
+        407,
+        480
+      ],
+      [
+        413,
+        493
+      ],
+      [
+        377,
+        506
+      ]
+    ],
+    "group": "farris-east",
+    "capacity": null,
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/926416189"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Felles brygge med tydelig rekke av småbåtplasser. Gopledal båtforening er registrert, men entydig kobling mellom foreningen og denne bryggen er ikke bekreftet; navnet er beskrivende.",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "ferskvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-knoln",
+    "name": "Rekkevik Brygge – felles småbåtanlegg",
+    "image": "knoln",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        255,
+        298
+      ],
+      [
+        272,
+        300
+      ],
+      [
+        272,
+        337
+      ],
+      [
+        258,
+        344
+      ],
+      [
+        248,
+        338
+      ],
+      [
+        250,
+        315
+      ]
+    ],
+    "group": "knoln",
+    "capacity": null,
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/991594345"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Felles brygger ved boligområdet Rekkevik Brygge. Knøln båtforening er registrert i samme område, men koblingen til de enkelte bryggene er ikke endelig bekreftet. Private enkeltbrygger videre sørover er utelatt. Avgrensningen følger den større felles bryggen, ikke boligbebyggelsen.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-p13",
+    "name": "Viksfjord – østre bryggeanlegg ved Ødegården",
+    "image": "p13",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        451,
+        57
+      ],
+      [
+        467,
+        53
+      ],
+      [
+        489,
+        62
+      ],
+      [
+        489,
+        76
+      ],
+      [
+        466,
+        70
+      ],
+      [
+        473,
+        78
+      ],
+      [
+        489,
+        84
+      ],
+      [
+        482,
+        96
+      ],
+      [
+        469,
+        90
+      ],
+      [
+        463,
+        96
+      ],
+      [
+        480,
+        103
+      ],
+      [
+        474,
+        111
+      ],
+      [
+        453,
+        91
+      ]
+    ],
+    "group": "viksfjord-east",
+    "capacity": null,
+    "sources": [],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+    "note": "Separat fellesanlegg på østsiden av sundet, med flere tydelige fingerbrygger. Beskrivende navn; operatør er ikke bekreftet.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-agnes-havn",
+    "name": "Agnes båtforening – midtre bryggesund",
+    "image": "agnes-havn",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        190,
+        304
+      ],
+      [
+        202,
+        294
+      ],
+      [
+        202,
+        315
+      ],
+      [
+        199,
+        334
+      ],
+      [
+        192,
+        335
+      ],
+      [
+        184,
+        329
+      ]
+    ],
+    "group": "agnes",
+    "capacity": null,
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "Del av Agnes båtforenings fysiske havneområde; kapasiteten ligger bare på første delrad og skal ikke summeres på nytt.",
+    "geometry_uncertain": true,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  },
+  {
+    "candidate_id": "VIS-agnes-havn",
+    "name": "Agnes båtforening – søndre basseng",
+    "image": "agnes-havn",
+    "display_width": 600,
+    "display_height": 600,
+    "pixels": [
+      [
+        166,
+        353
+      ],
+      [
+        184,
+        359
+      ],
+      [
+        206,
+        363
+      ],
+      [
+        235,
+        362
+      ],
+      [
+        244,
+        345
+      ],
+      [
+        244,
+        372
+      ],
+      [
+        230,
+        379
+      ],
+      [
+        195,
+        375
+      ],
+      [
+        174,
+        369
+      ]
+    ],
+    "group": "agnes",
+    "capacity": null,
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna"
+    ],
+    "name_is_descriptive": true,
+    "possible": false,
+    "basis": "operator_dokumenterer_faste_batplasser",
+    "note": "",
+    "geometry_uncertain": false,
+    "osm_ids": [],
+    "tracing_method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+    "water_body": "saltvann",
+    "source_register_members": [],
+    "capacity_components": []
+  }
+]

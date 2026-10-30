@@ -1,0 +1,639 @@
+[
+  {
+    "candidate_id": "OSM-way/163116818",
+    "name": "Helgeroa Gjestehavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H01-B01"
+    ],
+    "harbour_ids": [
+      "3909-H01"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/helgeroa-gjestehavn-osm-way-163116818/",
+      "https://www.openstreetmap.org/way/163116818"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-way/135450559",
+    "name": "Helgeroa Småbåthavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H01-B02"
+    ],
+    "harbour_ids": [
+      "3909-H01"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/helgeroa-smabathavn-osm-way-135450559/",
+      "https://www.openstreetmap.org/way/135450559"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107482985",
+    "name": "Kjerringvik Nordhavna",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H02-B01"
+    ],
+    "harbour_ids": [
+      "3909-H02"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/kjerringvik-nordhavna-smabathavn-osm-node-5107482985/",
+      "https://www.openstreetmap.org/node/5107482985"
+    ],
+    "note": "Kildepunkt er kandidat, ikke nøyaktig havnegrense. To OSM-punkter i Kjerringvik Nordhavna gjelder samme anlegg."
+  },
+  {
+    "candidate_id": "OSM-node/5107482986",
+    "name": "Kjerringvik Sydhavna",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H03-B01",
+      "3909-H03-B02"
+    ],
+    "harbour_ids": [
+      "3909-H03"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/kjerringvik-sydhavna-smabathavn-osm-node-5107482986/",
+      "https://www.openstreetmap.org/node/5107482986"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/1477952462",
+    "name": "Laberget småbåthavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H04-B01"
+    ],
+    "harbour_ids": [
+      "3909-H04"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/laberget-smabathavn-osm-node-1477952462/",
+      "https://www.openstreetmap.org/node/1477952462"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-way/108257655",
+    "name": "Larvik båtforening",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H05-B01"
+    ],
+    "harbour_ids": [
+      "3909-H05"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/larvik-batforening-osm-way-108257655/",
+      "https://www.openstreetmap.org/way/108257655"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-way/272287098",
+    "name": "Nedre Lågen båtforening",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H06-B01"
+    ],
+    "harbour_ids": [
+      "3909-H06"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/nedre-lagen-batforening-osm-way-272287098/",
+      "https://www.openstreetmap.org/way/272287098"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-way/108246714",
+    "name": "Skotta",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H07-B01"
+    ],
+    "harbour_ids": [
+      "3909-H07"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/skotta-smabathavn-osm-way-108246714/",
+      "https://www.openstreetmap.org/way/108246714"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/1477952461",
+    "name": "",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H08-B01"
+    ],
+    "harbour_ids": [
+      "3909-H08"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabathavn-ved-brunlanesveien-osm-node-1477952461/",
+      "https://www.openstreetmap.org/node/1477952461"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107482984",
+    "name": "",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H02-B01"
+    ],
+    "harbour_ids": [
+      "3909-H02"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabathavn-ved-kjerringvikveien-osm-node-5107482984/",
+      "https://www.openstreetmap.org/node/5107482984"
+    ],
+    "note": "Kildepunkt er kandidat, ikke nøyaktig havnegrense. To OSM-punkter i Kjerringvik Nordhavna gjelder samme anlegg."
+  },
+  {
+    "candidate_id": "OSM-node/5107430963",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H09-B01"
+    ],
+    "harbour_ids": [
+      "3909-H09"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-31-osm-node-5107430963/",
+      "https://www.openstreetmap.org/node/5107430963"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107430964",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H10-B01"
+    ],
+    "harbour_ids": [
+      "3909-H10"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-32-osm-node-5107430964/",
+      "https://www.openstreetmap.org/node/5107430964"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107482988",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H11-B01"
+    ],
+    "harbour_ids": [
+      "3909-H11"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-41-osm-node-5107482988/",
+      "https://www.openstreetmap.org/node/5107482988"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/498322540",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H12-B01"
+    ],
+    "harbour_ids": [
+      "3909-H12"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-osm-node-498322540/",
+      "https://www.openstreetmap.org/node/498322540"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/498319681",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H13-B01"
+    ],
+    "harbour_ids": [
+      "3909-H13"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-osm-node-498319681/",
+      "https://www.openstreetmap.org/node/498319681"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107367929",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H14-B01"
+    ],
+    "harbour_ids": [
+      "3909-H14"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjodalyng-27-osm-node-5107367929/",
+      "https://www.openstreetmap.org/node/5107367929"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107482987",
+    "name": "Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H15-B01"
+    ],
+    "harbour_ids": [
+      "3909-H15"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjodalyng-40-osm-node-5107482987/",
+      "https://www.openstreetmap.org/node/5107482987"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107367928",
+    "name": "Stavern gjestehavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H16-B01"
+    ],
+    "harbour_ids": [
+      "3909-H16"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/stavern-gjestehavn-osm-node-5107367928/",
+      "https://www.openstreetmap.org/node/5107367928"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "OSM-node/5107367930",
+    "name": "Ula Småbåtshavn",
+    "decision": "inkludert_samordnet",
+    "feature_ids": [
+      "3909-H17-B01"
+    ],
+    "harbour_ids": [
+      "3909-H17"
+    ],
+    "sources": [
+      "https://www.sjosett.com/gjestehavner/ula-smabatshavn-smabathavn-osm-node-5107367930/",
+      "https://www.openstreetmap.org/node/5107367930"
+    ],
+    "note": "Bildekontrollert. Navn på sammensatte fysiske havner er ikke separate operatørgrenser."
+  },
+  {
+    "candidate_id": "VIS-p08-3909-H08-B02",
+    "name": "Nevlunghavn – ytre kai-/båtplasser",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H08-B02"
+    ],
+    "harbour_ids": [
+      "3909-H08"
+    ],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204623.74655734422%2C6547368.746858252%2C205623.74655734422%2C6548368.746858252&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Blandet gjeste-/fiskerihavn. Foreløpig smalt sjøbelte ved ytre kai; driftsgrense og fordeling mellom båtbruk er ikke verifisert."
+  },
+  {
+    "candidate_id": "VIS-p17-3909-H16-B02",
+    "name": "Stavern – søndre havnebrygger",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H16-B02"
+    ],
+    "harbour_ids": [
+      "3909-H16"
+    ],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://www.havneweb.no/stavern-bf/index.php",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214843.0848553615%2C6550049.763088261%2C215843.0848553615%2C6551049.763088261&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": " Felles ytterkant mot nordre del er teknisk samordnet ved å fjerne 20,79 m² dobbel avgrensning i samme fysiske havnegruppe."
+  },
+  {
+    "candidate_id": "VIS-p17-3909-H16-B03",
+    "name": "Stavern – vestre nordre brygger",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H16-B03"
+    ],
+    "harbour_ids": [
+      "3909-H16"
+    ],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214843.0848553615%2C6550049.763088261%2C215843.0848553615%2C6551049.763088261&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": ""
+  },
+  {
+    "candidate_id": "VIS-p14-3909-H13-B02",
+    "name": "Hølen – midtre brygger",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H13-B02"
+    ],
+    "harbour_ids": [
+      "3909-H13"
+    ],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216373.47986857267%2C6553763.846698002%2C217373.47986857267%2C6554763.846698002&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Del av samme fysiske havneområde. Bryggeområdene skilles fra opplag og parkering på land. Vannmiljø: elveutlop."
+  },
+  {
+    "candidate_id": "VIS-p14-3909-H13-B03",
+    "name": "Hølen – østre småbåtbasseng",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H13-B03"
+    ],
+    "harbour_ids": [
+      "3909-H13"
+    ],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216373.47986857267%2C6553763.846698002%2C217373.47986857267%2C6554763.846698002&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": " Vannmiljø: elveutlop."
+  },
+  {
+    "candidate_id": "VIS-agnes-havn-3909-H18-B01",
+    "name": "Agnes båtforening – nordre basseng",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H18-B01"
+    ],
+    "harbour_ids": [
+      "3909-H18"
+    ],
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Operatøren oppgir rundt 100 plasser. Bare det eksisterende havnebassenget er avgrenset; Sjøparkens søndre brygger er en separat kandidat."
+  },
+  {
+    "candidate_id": "VIS-agnes-sor-3909-H19-B01",
+    "name": "Agnes/Sjøparken – søndre bryggeanlegg",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H19-B01"
+    ],
+    "harbour_ids": [
+      "3909-H19"
+    ],
+    "sources": [
+      "https://sjoparken.no/wp-content/uploads/240530-Sjoparken-BL3DE-prospekt-web-.pdf",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214731.55004689045%2C6551121.275076317%2C215731.55004689045%2C6552121.275076317&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Synlig mindre bryggeanlegg sør for Agnes båtforening. Utbyggers prospekt omtaler eksisterende og planlagte båtplasser; bare synlige brygger er avgrenset. Bildedato og dagens ombygging er ikke avklart. Mer enn ti båtplasser er synlige; usikkerheten gjelder geometri og aktualitet, ikke antall synlige plasser."
+  },
+  {
+    "candidate_id": "VIS-farris-bf-3909-H20-B01",
+    "name": "Farris båtforening – Kilen",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H20-B01"
+    ],
+    "harbour_ids": [
+      "3909-H20"
+    ],
+    "sources": [
+      "https://www.xn--farrisbtforening-job.no/start/informasjon",
+      "https://www.xn--farrisbtforening-job.no/start/kontakt-oss",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214001.11811201152%2C6557228.533342183%2C215001.11811201152%2C6558228.533342183&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Stedfestet ved operatørens kartlenke til Kilen. Bare brygge-/båtplassrekken inngår; strand-/gressplasser på land er ikke havnepolygon. Vannmiljø: ferskvann."
+  },
+  {
+    "candidate_id": "VIS-farris-east-3909-H21-B01",
+    "name": "Gopledal/Farris – felles bryggeanlegg",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H21-B01"
+    ],
+    "harbour_ids": [
+      "3909-H21"
+    ],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/926416189",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=213900.0000000001%2C6558633.333333336%2C214900.0000000001%2C6559633.333333336&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Felles brygge med tydelig rekke av småbåtplasser. Gopledal båtforening er registrert, men entydig kobling mellom foreningen og denne bryggen er ikke bekreftet; navnet er beskrivende. Vannmiljø: ferskvann."
+  },
+  {
+    "candidate_id": "VIS-knoln-3909-H22-B01",
+    "name": "Rekkevik Brygge – felles småbåtanlegg",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H22-B01"
+    ],
+    "harbour_ids": [
+      "3909-H22"
+    ],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/991594345",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216585.10028742952%2C6553596.377392983%2C217585.10028742952%2C6554596.377392983&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Felles brygger ved boligområdet Rekkevik Brygge. Knøln båtforening er registrert i samme område, men koblingen til de enkelte bryggene er ikke endelig bekreftet. Private enkeltbrygger videre sørover er utelatt. Avgrensningen følger den større felles bryggen, ikke boligbebyggelsen."
+  },
+  {
+    "candidate_id": "VIS-p13-3909-H23-B01",
+    "name": "Viksfjord – østre bryggeanlegg ved Ødegården",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H23-B01"
+    ],
+    "harbour_ids": [
+      "3909-H23"
+    ],
+    "sources": [
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=218135.8906293268%2C6552597.003643237%2C219135.8906293268%2C6553597.003643237&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Separat fellesanlegg på østsiden av sundet, med flere tydelige fingerbrygger. Beskrivende navn; operatør er ikke bekreftet."
+  },
+  {
+    "candidate_id": "VIS-agnes-havn-3909-H18-B02",
+    "name": "Agnes båtforening – midtre bryggesund",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H18-B02"
+    ],
+    "harbour_ids": [
+      "3909-H18"
+    ],
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": "Del av Agnes båtforenings fysiske havneområde; kapasiteten ligger bare på første delrad og skal ikke summeres på nytt."
+  },
+  {
+    "candidate_id": "VIS-agnes-havn-3909-H18-B03",
+    "name": "Agnes båtforening – søndre basseng",
+    "decision": "inkludert",
+    "feature_ids": [
+      "3909-H18-B03"
+    ],
+    "harbour_ids": [
+      "3909-H18"
+    ],
+    "sources": [
+      "https://www.agnesbaat.no/b%C3%A5thavna",
+      "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+    ],
+    "note": ""
+  },
+  {
+    "candidate_id": "VIS-fritzoe",
+    "name": "Fritzøe Brygge – gjestehavnområde",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://farrisbad.no/faq/",
+      "https://daniel.media/BM18/PDF17/NG2017.pdf"
+    ],
+    "image_id": "fritzoe",
+    "note": "Foreløpig avgrensning forkastet ved eksportkontroll. Hotellet bekrefter gjestehavn i nærheten; nautisk oversikt fra 2017 stedfester Fritzøe Brygge. Sterk refleks skjuler detaljer i bildet. Smalt foreløpig sjøbelte ved kai, ikke en nøyaktig grense eller dokumentasjon av dagens kapasitet."
+  },
+  {
+    "candidate_id": "VIS-naver",
+    "name": "Naverfjorden – vestre bryggegruppe",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [],
+    "image_id": "naver",
+    "note": "Foreløpig avgrensning forkastet ved eksportkontroll. Flere brygger langs camping-/hyttekyst. Felles drift og minst ti faste båtplasser er ikke bekreftet. Bare synlig bryggegruppe, ikke strand eller ankringsbukt."
+  },
+  {
+    "candidate_id": "VIS-naver",
+    "name": "Naverfjorden – vestre søndre brygge",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [],
+    "image_id": "naver",
+    "note": "Foreløpig avgrensning forkastet ved eksportkontroll. Mulig delområde til samme vestre bryggegruppe. Gruppingen er foreløpig; individuell privat brygge eller badebruk kan ikke utelukkes."
+  },
+  {
+    "candidate_id": "VIS-naver-ost",
+    "name": "Naverfjorden – østre bryggeanlegg",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [],
+    "image_id": "naver-ost",
+    "note": "Foreløpig avgrensning forkastet ved eksportkontroll. Sammenhengende Y-/grenbrygge ved østre innløp/bukt. Minst ti plasser og felles drift er ikke sikkert dokumentert; mulig privat-/badebruk."
+  },
+  {
+    "candidate_id": "VIS-ranvika",
+    "name": "Tjøllingkysten nord for Kjerringvik – bryggegruppe",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://vibbo.no/ranvika-og-satas-vel/om"
+    ],
+    "image_id": "ranvika",
+    "note": "Foreløpig avgrensning forkastet ved eksportkontroll. Vellet beskriver felles båthavn i Lille Ranvika, men dette er bare en foreløpig geografisk kandidat. Bryggebruk/kapasitet og navnekobling må bekreftes. Ikke klassifisert som sikker havn."
+  },
+  {
+    "candidate_id": "NAME-Tvedalen båtforening",
+    "name": "Tvedalen båtforening",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/996971767"
+    ],
+    "note": "Forening omtalt i mottakerliste fra 2020. Kontoradresse utenfor kommunen er ikke havneplassering. Kystbilder ga ikke sikker identifikasjon."
+  },
+  {
+    "candidate_id": "NAME-Storehamn båtforening",
+    "name": "Storehamn båtforening",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/996200779"
+    ],
+    "note": "Registrert kontaktadresse Brunvall 120 ga ikke sikker identifikasjon av havneanlegget."
+  },
+  {
+    "candidate_id": "NAME-Hovet båtforening",
+    "name": "Hovet båtforening",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/"
+    ],
+    "note": "Kontaktadresse Vatadalen er ikke tilstrekkelig til å stedfeste havn."
+  },
+  {
+    "candidate_id": "NAME-Kaupang båtforening",
+    "name": "Kaupang båtforening",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://detskjerilarvik.no/foreninger"
+    ],
+    "note": "Foreningsnavn og støtte til badebrygge beviser ikke plassering eller kapasitet av en småbåthavn."
+  },
+  {
+    "candidate_id": "NAME-Svenner",
+    "name": "Svenner",
+    "decision": "uavklart_ingen_polygon",
+    "feature_ids": [],
+    "sources": [
+      "https://ws.geonorge.no/stedsnavn/v1/navn?sok=Svenner&treffPerSide=50"
+    ],
+    "note": "Ingen sikker avgrensning av kvalifiserende fellesanlegg. Naturhavn alene oppfyller ikke regelen. Gjennomgåtte utsnitt er ikke bevis for at alle brygger mangler."
+  },
+  {
+    "candidate_id": "VIS-barkvik",
+    "name": "Barkvik industri-/steinkai",
+    "decision": "utelatt",
+    "feature_ids": [],
+    "image_id": "barkvik",
+    "note": "Industri-/lastekai uten dokumentert småbåthavn."
+  },
+  {
+    "candidate_id": "VIS-gusland",
+    "name": "Gusland og øvrige spredte enkeltbrygger",
+    "decision": "utelatt_pa_sektorniva",
+    "feature_ids": [],
+    "image_id": "gusland",
+    "note": "Ingen sikker sammenhengende gruppe med minst ti plasser eller dokumentert fast småbåthavn. Sektorscreening er ikke individuell telling av alle private brygger."
+  },
+  {
+    "candidate_id": "STAVERN-west-south",
+    "name": "Stavern vestre søndre brygge",
+    "decision": "uavklart_delomriss",
+    "feature_ids": [],
+    "note": "Delomriss trukket ved eksportkontroll; havnegruppen Stavern er fortsatt inkludert."
+  }
+]

@@ -1,0 +1,3 @@
+[{"kommune": "Nordre Follo (3207)", "sted": "Hvervenbukta/Fiskevollen – hoveddelen av småbåthavna", "note": "Kommunegrensen krysser anlegget; Oslo-delen levert med cross_municipality_group_id X-HVERVEN-0301-3207."},
+ {"kommune": "Bærum (3201)", "sted": "Lysakerelvas munning", "note": "Sollerudstranda båtforening levert i Oslo (0301); Lysaker båtforening levert i Bærum. Ingen overlapp."},
+ {"kommune": "Oslo (0301) – åpne kandidater", "sted": "Sjursøya, Sørenga flytebrygger, Ulvøya/Ormøya bryggerekke", "note": "Utelatt etter overleggskontroll fordi OSM-baserte omriss dekket land/tomt vann; bør vurderes på nytt med manuell digitalisering."}]

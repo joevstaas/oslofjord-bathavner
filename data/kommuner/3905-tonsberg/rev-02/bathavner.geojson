@@ -1,0 +1,1964 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tønsberg – godkjent uttrekk fra samlefil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H01-B01",
+        "harbour_id": "3905-H01",
+        "name": "Ollebukta marina",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 56666.2,
+        "longitude": 10.4119108,
+        "latitude": 59.2629182,
+        "sources": [
+          "https://www.ollebukta.no/",
+          "https://www.openstreetmap.org/way/38901313",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [
+          "way/38901313"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.407822911284763,
+              59.2641485314361
+            ],
+            [
+              10.407597329151141,
+              59.26421801134521
+            ],
+            [
+              10.407471186954888,
+              59.26419142280004
+            ],
+            [
+              10.407311676594176,
+              59.263931293684124
+            ],
+            [
+              10.40734807700852,
+              59.26350105311495
+            ],
+            [
+              10.414780566067536,
+              59.26145104823511
+            ],
+            [
+              10.41522721691441,
+              59.261345099513555
+            ],
+            [
+              10.415547774496273,
+              59.26153344781263
+            ],
+            [
+              10.415998973679445,
+              59.26203621768988
+            ],
+            [
+              10.415664351212593,
+              59.26211292819052
+            ],
+            [
+              10.415942649195898,
+              59.262454690431454
+            ],
+            [
+              10.415281569976532,
+              59.26270798137587
+            ],
+            [
+              10.412761044923146,
+              59.2632828941098
+            ],
+            [
+              10.41245755501828,
+              59.2631283359482
+            ],
+            [
+              10.411272578820698,
+              59.26341843080839
+            ],
+            [
+              10.407822911284763,
+              59.2641485314361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H02-B01",
+        "harbour_id": "3905-H02",
+        "name": "Kaldnes Båtforening",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 1601.2,
+        "longitude": 10.4060773,
+        "latitude": 59.2631683,
+        "sources": [
+          "https://kaldnesbatforening.wordpress.com/kontakt/",
+          "https://www.openstreetmap.org/way/38848945",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [
+          "way/38848945"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Navn og lokalisering kontrollert mot foreningens oppgitte besøkskoordinater; tidligere navn Kaldnes marina.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.406479235901894,
+              59.26304987347895
+            ],
+            [
+              10.405688921920223,
+              59.26361942762244
+            ],
+            [
+              10.405484138835083,
+              59.2635347319542
+            ],
+            [
+              10.405668935805473,
+              59.26328677636473
+            ],
+            [
+              10.406169835518012,
+              59.262939350179614
+            ],
+            [
+              10.406479235901894,
+              59.26304987347895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H03-B01",
+        "harbour_id": "3905-H03",
+        "name": "Tønsberg gjestehavn – Brygga",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 8672.2,
+        "longitude": 10.4047359,
+        "latitude": 59.2666508,
+        "sources": [
+          "https://www.tonsberg.kommune.no/tjenester/kultur-idrett-og-fritid/turist-i-tonsberg/gjestehavna/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Søndre del ved Brygga. Nordre flytebrygger har samme harbour_id, eget polygon B02. Gjestehavnen er sesongstengt vinteren 2026/27 ifølge kommunen.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_gjestehavn",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.403779670378745,
+              59.26751310500052
+            ],
+            [
+              10.40317624016835,
+              59.26797860965853
+            ],
+            [
+              10.402852719916527,
+              59.26781225553102
+            ],
+            [
+              10.403460611102725,
+              59.267313715668834
+            ],
+            [
+              10.404199092163523,
+              59.266808727891146
+            ],
+            [
+              10.404983563121762,
+              59.26628323328498
+            ],
+            [
+              10.405806591882314,
+              59.26579229235878
+            ],
+            [
+              10.406152435302525,
+              59.26547257686642
+            ],
+            [
+              10.406432188603931,
+              59.26548246818089
+            ],
+            [
+              10.406541994627245,
+              59.26563019296486
+            ],
+            [
+              10.406088554259018,
+              59.265946105020035
+            ],
+            [
+              10.405279616113303,
+              59.266492870115755
+            ],
+            [
+              10.404473624254463,
+              59.267017605312645
+            ],
+            [
+              10.403779670378745,
+              59.26751310500052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H03-B02",
+        "harbour_id": "3905-H03",
+        "name": "Tønsberg gjestehavn – nordre flytebrygger",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 10520.6,
+        "longitude": 10.4012925,
+        "latitude": 59.2689324,
+        "sources": [
+          "https://www.tonsberg.kommune.no/tjenester/kultur-idrett-og-fritid/turist-i-tonsberg/gjestehavna/",
+          "https://www-bib.hive.no/tekster/tunsberg/tbghavn/kap08.html",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Nordre del ved Strandpromenaden. Samme havne-ID som Brygga. Manglet i revisjon 1; historisk lokalisering støtter navnet, nåværende brygger er synlige i flybildet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_gjestehavn",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.401304402269984,
+              59.26975799989958
+            ],
+            [
+              10.400470326436167,
+              59.2697932346364
+            ],
+            [
+              10.40062875021235,
+              59.26924480347593
+            ],
+            [
+              10.400808821845873,
+              59.26884824008212
+            ],
+            [
+              10.40145922344908,
+              59.2684035657991
+            ],
+            [
+              10.402079630841842,
+              59.26818088172682
+            ],
+            [
+              10.402931521959037,
+              59.26811748670639
+            ],
+            [
+              10.40296717340366,
+              59.2682698494655
+            ],
+            [
+              10.4021209490143,
+              59.26870760130075
+            ],
+            [
+              10.401699728653877,
+              59.26901648364564
+            ],
+            [
+              10.401304402269984,
+              59.26975799989958
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H04-B01",
+        "harbour_id": "3905-H04",
+        "name": "Kaldnes Brygge",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 13216.6,
+        "longitude": 10.4019561,
+        "latitude": 59.2657205,
+        "sources": [
+          "https://www.selvaagbolig.no/vestfold/kaldnes-brygge/batplass/dokumenter-batplass/oversikt-batplasser-kaldnes-brygge/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Tidligere indre og ytre kandidater (H04 og H05) er samlet som ett anlegg. Boligblokkene er utelatt.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_felles_batplassanlegg_og_synlige_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.400591105920796,
+              59.266609985759494
+            ],
+            [
+              10.40066649865008,
+              59.266511039217356
+            ],
+            [
+              10.400633590760325,
+              59.266503560015714
+            ],
+            [
+              10.401109844026273,
+              59.26599516082222
+            ],
+            [
+              10.401515627103088,
+              59.26559219564302
+            ],
+            [
+              10.401873768939824,
+              59.26481338721453
+            ],
+            [
+              10.402082160724953,
+              59.26472722341018
+            ],
+            [
+              10.402302089855588,
+              59.26476378781697
+            ],
+            [
+              10.402132759743868,
+              59.264872920284624
+            ],
+            [
+              10.401636680662518,
+              59.26563245672318
+            ],
+            [
+              10.40082564449936,
+              59.266493029078134
+            ],
+            [
+              10.40088827596946,
+              59.266490989761955
+            ],
+            [
+              10.401282981294719,
+              59.266066047052014
+            ],
+            [
+              10.401528579109163,
+              59.26580851339706
+            ],
+            [
+              10.401848429197472,
+              59.26562556037995
+            ],
+            [
+              10.402623488952614,
+              59.26581848062962
+            ],
+            [
+              10.403347439655603,
+              59.2659736113245
+            ],
+            [
+              10.403219103497312,
+              59.26609139091071
+            ],
+            [
+              10.402668167370097,
+              59.26642446723127
+            ],
+            [
+              10.402152932168043,
+              59.26670124239703
+            ],
+            [
+              10.401592891359467,
+              59.2667893518608
+            ],
+            [
+              10.401005391139249,
+              59.266768557294114
+            ],
+            [
+              10.400812012607675,
+              59.26663939173767
+            ],
+            [
+              10.400591105920796,
+              59.266609985759494
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H06-B01",
+        "harbour_id": "3905-H06",
+        "name": "Vallø Småbåthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 69933.1,
+        "longitude": 10.4884203,
+        "latitude": 59.2642321,
+        "sources": [
+          "https://www.vallobaatforening.no/index.php/vallo-batforening/vallo-sin-historie",
+          "https://www.openstreetmap.org/relation/11898442",
+          "https://www.openstreetmap.org/node/1891818749",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [
+          "relation/11898442",
+          "node/1891818749"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.7,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.486546730162527,
+              59.26481074719538
+            ],
+            [
+              10.485607271412592,
+              59.26333497687217
+            ],
+            [
+              10.485706872760739,
+              59.263154413939965
+            ],
+            [
+              10.488025927421925,
+              59.26249887534484
+            ],
+            [
+              10.488489016553029,
+              59.26257306906383
+            ],
+            [
+              10.490153409453663,
+              59.262718021347375
+            ],
+            [
+              10.49012372901227,
+              59.26308503725834
+            ],
+            [
+              10.490736209893369,
+              59.26374553334905
+            ],
+            [
+              10.490588450455695,
+              59.26471863271066
+            ],
+            [
+              10.489514100416255,
+              59.265117185831855
+            ],
+            [
+              10.487757951825323,
+              59.26552111150124
+            ],
+            [
+              10.487293547106393,
+              59.265456555802096
+            ],
+            [
+              10.486546730162527,
+              59.26481074719538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H07-B01",
+        "harbour_id": "3905-H07",
+        "name": "Sjøsenteret Vallø",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 21244.5,
+        "longitude": 10.4894947,
+        "latitude": 59.2601689,
+        "sources": [
+          "https://www.xn--btplassvall-x8a1x.no/",
+          "https://www.openstreetmap.org/way/546762948",
+          "https://www.openstreetmap.org/node/5107343361",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [
+          "way/546762948",
+          "node/5107343361"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_marina_med_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.7,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.490443498164574,
+              59.26095565775689
+            ],
+            [
+              10.48800496892899,
+              59.26065791403682
+            ],
+            [
+              10.48804648935513,
+              59.26005885872422
+            ],
+            [
+              10.489310255557832,
+              59.25965721196973
+            ],
+            [
+              10.490680265344118,
+              59.259452949706045
+            ],
+            [
+              10.491661274086269,
+              59.25975818750591
+            ],
+            [
+              10.490760068086614,
+              59.26027898048479
+            ],
+            [
+              10.490443498164574,
+              59.26095565775689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H08-B01",
+        "harbour_id": "3905-H08",
+        "name": "Bliksekilen Båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 11625.5,
+        "longitude": 10.5028284,
+        "latitude": 59.3254774,
+        "sources": [
+          "https://www.openstreetmap.org/way/1217522237",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243751.91386620203%2C6584432.460022036%2C244651.91386620203%2C6585332.460022036&width=1800&height=1800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=243751.91386620203%2C6584432.460022036%2C244651.91386620203%2C6585332.460022036&bboxSR=25833&imageSR=25833&size=1200%2C1200&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1217522237"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_felles_anlegg",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.75,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.502168179032102,
+              59.326198854151016
+            ],
+            [
+              10.502043211686779,
+              59.326046140393466
+            ],
+            [
+              10.501913786313066,
+              59.32502989583662
+            ],
+            [
+              10.503548437939674,
+              59.32494476223746
+            ],
+            [
+              10.503801490155944,
+              59.32592480640862
+            ],
+            [
+              10.502293537346441,
+              59.326149227472264
+            ],
+            [
+              10.502168179032102,
+              59.326198854151016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H09-B01",
+        "harbour_id": "3905-H09",
+        "name": "Husvik/Nes – båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 9735.7,
+        "longitude": 10.4494241,
+        "latitude": 59.2519019,
+        "sources": [
+          "https://www.openstreetmap.org/way/546250542",
+          "https://www.openstreetmap.org/node/5107520723",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&bboxSR=25833&imageSR=25833&size=2000%2C2462&format=jpg"
+        ],
+        "osm_ids": [
+          "way/546250542",
+          "node/5107520723"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn; OSM-punkt og område er slått sammen som samme havn.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_felles_anlegg",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.450409379472363,
+              59.25261416257889
+            ],
+            [
+              10.448815718089635,
+              59.252347279030644
+            ],
+            [
+              10.44831547445634,
+              59.252166662112984
+            ],
+            [
+              10.44909571496207,
+              59.25151286548146
+            ],
+            [
+              10.44990311937435,
+              59.25163708542513
+            ],
+            [
+              10.45074460115949,
+              59.25234769350171
+            ],
+            [
+              10.450409379472363,
+              59.25261416257889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H10-B01",
+        "harbour_id": "3905-H10",
+        "name": "Nordre Nes – felles bryggeanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 1827.6,
+        "longitude": 10.447192,
+        "latitude": 59.2479698,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107521786",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&bboxSR=25833&imageSR=25833&size=2000%2C2462&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107521786"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "To sammenhengende bryggearmer ved boligrekken. Minst ti båtplasser/fortøyde båter kan skilles i flybildet; operatør er ukjent.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_felles_anlegg",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.447314792658734,
+              59.24822841764579
+            ],
+            [
+              10.446705545790179,
+              59.248090162594266
+            ],
+            [
+              10.447101525808218,
+              59.2476890542209
+            ],
+            [
+              10.447299782884352,
+              59.24774276308586
+            ],
+            [
+              10.44767357940609,
+              59.24784938363115
+            ],
+            [
+              10.447314792658734,
+              59.24822841764579
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H11-B01",
+        "harbour_id": "3905-H11",
+        "name": "Søndre Nes – båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 11066.0,
+        "longitude": 10.4541046,
+        "latitude": 59.2470095,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107521775",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&bboxSR=25833&imageSR=25833&size=2000%2C2462&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107521775"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Bryggegruppen er synlig, men deler kan være separate private brygger. Beholdt som mulig småbåthavn etter ny regel.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "flere_brygger_men_felles_drift_og_antall_plasser_ukjent",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.454410676681055,
+              59.24746827258832
+            ],
+            [
+              10.453283491632341,
+              59.247495973141575
+            ],
+            [
+              10.45269822404719,
+              59.247110933580814
+            ],
+            [
+              10.452135429715783,
+              59.24669789768386
+            ],
+            [
+              10.452349359795127,
+              59.24663823434271
+            ],
+            [
+              10.452834257000271,
+              59.24693342098898
+            ],
+            [
+              10.453996619773589,
+              59.24678224152981
+            ],
+            [
+              10.454999686118596,
+              59.246702224989846
+            ],
+            [
+              10.455809898311543,
+              59.24708553062278
+            ],
+            [
+              10.454410676681055,
+              59.24746827258832
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H12-B01",
+        "harbour_id": "3905-H12",
+        "name": "Soria Moria Båtforening",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 2616.1,
+        "longitude": 10.452289,
+        "latitude": 59.2418434,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/987379383",
+          "https://www.openstreetmap.org/node/3051926714",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&width=2600&height=2600&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [
+          "node/3051926714"
+        ],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Registrert båtforening med drift av fellesanlegg; T-formet fellesbrygge med båter synlig i flybildet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_og_synlig_felles_brygge",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.45290250893803,
+              59.242089429136065
+            ],
+            [
+              10.451740119154618,
+              59.24207795560779
+            ],
+            [
+              10.45177816354732,
+              59.24179283390311
+            ],
+            [
+              10.451906004661994,
+              59.24160439299068
+            ],
+            [
+              10.452997047665693,
+              59.24189397525864
+            ],
+            [
+              10.45290250893803,
+              59.242089429136065
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H14-B01",
+        "harbour_id": "3905-H14",
+        "name": "Jarlsø Vest",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 29235.9,
+        "longitude": 10.4710793,
+        "latitude": 59.2447905,
+        "sources": [
+          "https://www.havneweb.no/jarlso-brygge/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "170 er oppgitt kapasitet for Bryggesameiet Jarlsø Vest, ikke opptelling fra bildet. Nordre gjestebrygger leveres som eget delpolygon under samme havnegruppe; eierskap til gjestebryggene er ikke bekreftet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_bryggesameie_med_faste_plasser",
+        "berth_count_published": 170,
+        "berth_count_source": "https://www.havneweb.no/jarlso-brygge/",
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.7,
+        "name_is_descriptive": false,
+        "berth_count_approximate": false,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.471935381114276,
+              59.24659482913684
+            ],
+            [
+              10.471329851272781,
+              59.24671222089437
+            ],
+            [
+              10.470654134591953,
+              59.24624796593598
+            ],
+            [
+              10.470720184557427,
+              59.245658481598355
+            ],
+            [
+              10.470475040326333,
+              59.244636338621405
+            ],
+            [
+              10.471051210875556,
+              59.24390725340835
+            ],
+            [
+              10.470807216254576,
+              59.24306142817674
+            ],
+            [
+              10.47096809850977,
+              59.24268300618641
+            ],
+            [
+              10.472845446270007,
+              59.242704391137
+            ],
+            [
+              10.472917754980367,
+              59.242807641339205
+            ],
+            [
+              10.472535299802972,
+              59.24309649852194
+            ],
+            [
+              10.472418042796129,
+              59.243331643950285
+            ],
+            [
+              10.472245194696821,
+              59.24361521616048
+            ],
+            [
+              10.472105711516544,
+              59.2439251338366
+            ],
+            [
+              10.471999016133426,
+              59.24417323843008
+            ],
+            [
+              10.471794456901147,
+              59.24441793098287
+            ],
+            [
+              10.47176115473767,
+              59.24466859428003
+            ],
+            [
+              10.471532124780673,
+              59.24491243334554
+            ],
+            [
+              10.471315324517182,
+              59.2451566985051
+            ],
+            [
+              10.471363743179637,
+              59.2453472550949
+            ],
+            [
+              10.471478900225392,
+              59.24559050349782
+            ],
+            [
+              10.47161961412214,
+              59.24573391305574
+            ],
+            [
+              10.471654136601327,
+              59.2459365761969
+            ],
+            [
+              10.471801834725035,
+              59.24621243679387
+            ],
+            [
+              10.471935381114276,
+              59.24659482913684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H15-B01",
+        "harbour_id": "3905-H14",
+        "name": "Jarlsø – nordre gjestebrygger",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 2449.4,
+        "longitude": 10.4744876,
+        "latitude": 59.2472617,
+        "sources": [
+          "https://jarlsoe.no/servicetilbud/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "To dokumenterte gjestebrygger ved broen; delpolygon i Jarlsø-gruppen, ikke telt som en ekstra selvstendig havn. Eier/operatør er ikke bekreftet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumenterte_gjestebrygger_del_av_Jarlso_havnegruppe",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.7,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.475057852102912,
+              59.24739374236859
+            ],
+            [
+              10.473771598101624,
+              59.24739735341702
+            ],
+            [
+              10.473869035114017,
+              59.24709081162014
+            ],
+            [
+              10.475263084885162,
+              59.2471296972442
+            ],
+            [
+              10.475057852102912,
+              59.24739374236859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H16-B01",
+        "harbour_id": "3905-H16",
+        "name": "Rakkevik båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 18136.9,
+        "longitude": 10.3748491,
+        "latitude": 59.2569004,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/899098242",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=234694.5967970207%2C6575304.865653729%2C236894.5967970207%2C6579304.865653729&width=2200&height=4000&format=image%2Fpng&transparent=false",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=234694.5967970207%2C6575304.865653729%2C236894.5967970207%2C6579304.865653729&bboxSR=25833&imageSR=25833&size=1200%2C2182&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Fellesanlegg dokumentert i Enhetsregisteret og tydelig brygge-/båtplassmønster i flybildet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_felles_smabathavn",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 1.833,
+        "name_is_descriptive": false,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.37526065197163,
+              59.25800217992524
+            ],
+            [
+              10.37389265955263,
+              59.25807339321597
+            ],
+            [
+              10.373916919658452,
+              59.256515243343465
+            ],
+            [
+              10.375481015489983,
+              59.25637905856466
+            ],
+            [
+              10.376013687585797,
+              59.25728545887158
+            ],
+            [
+              10.37526065197163,
+              59.25800217992524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H20-B01",
+        "harbour_id": "3905-H20",
+        "name": "Klopp båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 13589.4,
+        "longitude": 10.476549,
+        "latitude": 59.2594141,
+        "sources": [
+          "https://www.kloppbat.com/",
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/997688848",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=241800%2C6577100%2C243400%2C6578500&bboxSR=25833&imageSR=25833&size=2000%2C1750&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Operatøren oppgir ca. 160 plasser. Manglet i revisjon 1.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "berth_count_published": 160,
+        "berth_count_source": "https://www.kloppbat.com/",
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.8,
+        "name_is_descriptive": false,
+        "berth_count_approximate": true,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.475720004192475,
+              59.25999691750163
+            ],
+            [
+              10.475330560592923,
+              59.25986104051738
+            ],
+            [
+              10.475300764149896,
+              59.259133311911754
+            ],
+            [
+              10.475450140970448,
+              59.259066564751144
+            ],
+            [
+              10.477299754031561,
+              59.25889353461038
+            ],
+            [
+              10.47784982640367,
+              59.25930121014903
+            ],
+            [
+              10.477721495075711,
+              59.25952698141471
+            ],
+            [
+              10.476778523601757,
+              59.25996182582725
+            ],
+            [
+              10.475720004192475,
+              59.25999691750163
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H21-B01",
+        "harbour_id": "3905-H21",
+        "name": "Husøy Småbåthavn SA",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 6201.7,
+        "longitude": 10.4608273,
+        "latitude": 59.23535,
+        "sources": [
+          "https://www.hsbhavn.com/om-oss/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Operatøren oppgir 75 plasser. Avgrenser sjøanlegget på Husøys side av Myrasundet, ikke opplagsplassen på land. Manglet i revisjon 1.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "berth_count_published": 75,
+        "berth_count_source": "https://www.hsbhavn.com/om-oss/",
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": false,
+        "berth_count_approximate": false,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.460747521027434,
+              59.23621975285728
+            ],
+            [
+              10.459622253035041,
+              59.23601672599889
+            ],
+            [
+              10.459765258310371,
+              59.23579957909734
+            ],
+            [
+              10.460096905452763,
+              59.23579363637743
+            ],
+            [
+              10.460024387150535,
+              59.235738487288046
+            ],
+            [
+              10.4600187212807,
+              59.23560967782262
+            ],
+            [
+              10.461165714182425,
+              59.234878106075
+            ],
+            [
+              10.461548184277241,
+              59.23509023702316
+            ],
+            [
+              10.460575915071743,
+              59.23588053385642
+            ],
+            [
+              10.460878125215915,
+              59.23609570687237
+            ],
+            [
+              10.460747521027434,
+              59.23621975285728
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H22-B01",
+        "harbour_id": "3905-H22",
+        "name": "Husøy Havn – vestre båtanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 2412.1,
+        "longitude": 10.459817,
+        "latitude": 59.243158,
+        "sources": [
+          "https://spir.no/prosjekter/husoy-havn",
+          "https://husoyhavn.no/wp-content/uploads/2019/08/HusoyHavn_Prospekt_HUS_3_oppslag.pdf",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Vestre av to boligtilknyttede småbåtanlegg. Samme harbour_id som østre del.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_boligtilknyttet_anlegg_og_synlige_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.459576257119393,
+              59.243386888451674
+            ],
+            [
+              10.459334897703721,
+              59.24331414457836
+            ],
+            [
+              10.459326165910284,
+              59.24295138904495
+            ],
+            [
+              10.460004832928808,
+              59.242910809399945
+            ],
+            [
+              10.46024979934246,
+              59.24304213782671
+            ],
+            [
+              10.460355875280948,
+              59.24327383842865
+            ],
+            [
+              10.459576257119393,
+              59.243386888451674
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H22-B02",
+        "harbour_id": "3905-H22",
+        "name": "Husøy Havn – østre båtanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "bilde_og_kildeunderbygget",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 2271.4,
+        "longitude": 10.4638933,
+        "latitude": 59.2424553,
+        "sources": [
+          "https://spir.no/prosjekter/husoy-havn",
+          "https://husoyhavn.no/wp-content/uploads/2019/08/HusoyHavn_Prospekt_HUS_3_oppslag.pdf",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Østre av to boligtilknyttede småbåtanlegg. Samme harbour_id som vestre del.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_boligtilknyttet_anlegg_og_synlige_faste_plasser",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.65,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.46421284775322,
+              59.24275969731005
+            ],
+            [
+              10.463467070533973,
+              59.24270441932391
+            ],
+            [
+              10.463712047975223,
+              59.24257851931394
+            ],
+            [
+              10.463516634400273,
+              59.24233200943703
+            ],
+            [
+              10.463523346126427,
+              59.2421100975583
+            ],
+            [
+              10.464132812860226,
+              59.24216061484446
+            ],
+            [
+              10.46421284775322,
+              59.24275969731005
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H23-B01",
+        "harbour_id": "3905-H23",
+        "name": "Jarlsøsundet – nordre bryggeanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "godkjent_av_bruker",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "area_m2": 6979.3,
+        "longitude": 10.4699382,
+        "latitude": 59.2478852,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=image&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&bboxSR=25833&imageSR=25833&size=2000%2C2000&format=jpg"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_kontrollert_mot_flybilde_og_topografisk_kart",
+        "retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "municipality_clipped": false,
+        "note": "Langt sammenhengende bryggeanlegg nord for Jarlsøsundet; båter synlige, men antall faste plasser og operatør er ikke bekreftet.",
+        "map_attribution": "© Kartverket; imagery © Esri and its imagery suppliers (see source service metadata); OSM © OpenStreetMap contributors, ODbL",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "sammenhengende_bryggeanlegg_men_drift_og_antall_faste_plasser_ukjent",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "reviewed_date": "2026-10-29",
+        "revision": 2,
+        "current_operation_verified": false,
+        "needs_dated_imagery_review": true,
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "image_resolution_m_per_pixel": 0.7,
+        "name_is_descriptive": true,
+        "berth_count_approximate": null,
+        "approved_utc": "2026-10-29T13:33:37Z",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "kommunenummer": "3905",
+        "source_delivery": "/workspace/tonsberg-pilot/tonsberg-bathavner-rev2.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.469363236926204,
+              59.2479153507926
+            ],
+            [
+              10.468050602685075,
+              59.247989174368485
+            ],
+            [
+              10.467994699333246,
+              59.247855015697915
+            ],
+            [
+              10.468785435527458,
+              59.24773150880491
+            ],
+            [
+              10.47004188689815,
+              59.24761794491661
+            ],
+            [
+              10.471800817271921,
+              59.24779259904108
+            ],
+            [
+              10.471915407836086,
+              59.247947688509306
+            ],
+            [
+              10.47172888700589,
+              59.24814894101622
+            ],
+            [
+              10.470797688602225,
+              59.248034630313796
+            ],
+            [
+              10.469363236926204,
+              59.2479153507926
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

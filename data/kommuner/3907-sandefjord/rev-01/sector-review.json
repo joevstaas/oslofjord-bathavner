@@ -1,0 +1,437 @@
+[
+  {
+    "tile": "coast-2-6",
+    "bbox_25833": [
+      230200,
+      6575600,
+      234200,
+      6579600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-6",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-6",
+    "bbox_25833": [
+      233800,
+      6575600,
+      237800,
+      6579600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-6",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-5",
+    "bbox_25833": [
+      230200,
+      6572000,
+      234200,
+      6576000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-5",
+    "registered_candidates": [
+      "MUN-21",
+      "MUN-22",
+      "MUN-57"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-5",
+    "bbox_25833": [
+      233800,
+      6572000,
+      237800,
+      6576000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-5",
+    "registered_candidates": [
+      "MUN-21",
+      "MUN-22",
+      "MUN-37",
+      "MUN-38",
+      "MUN-57"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-1-4",
+    "bbox_25833": [
+      226600,
+      6568400,
+      230600,
+      6572400
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": null,
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-4",
+    "bbox_25833": [
+      230200,
+      6568400,
+      234200,
+      6572400
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-4",
+    "registered_candidates": [
+      "MUN-20",
+      "MUN-23"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-4",
+    "bbox_25833": [
+      233800,
+      6568400,
+      237800,
+      6572400
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-4",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "goksjo",
+    "bbox_25833": [
+      218000,
+      6565000,
+      224000,
+      6571000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": null,
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-0-3",
+    "bbox_25833": [
+      223000,
+      6564800,
+      227000,
+      6568800
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-0-3",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-1-3",
+    "bbox_25833": [
+      226600,
+      6564800,
+      230600,
+      6568800
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-1-3",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-3",
+    "bbox_25833": [
+      230200,
+      6564800,
+      234200,
+      6568800
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-3",
+    "registered_candidates": [
+      "MUN-12",
+      "MUN-14",
+      "MUN-27",
+      "MUN-28",
+      "MUN-34",
+      "MUN-50",
+      "MUN-51",
+      "MUN-54"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-3",
+    "bbox_25833": [
+      233800,
+      6564800,
+      237800,
+      6568800
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-3",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-0-2",
+    "bbox_25833": [
+      223000,
+      6561200,
+      227000,
+      6565200
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-0-2",
+    "registered_candidates": [
+      "MUN-03",
+      "MUN-10",
+      "MUN-15",
+      "MUN-18",
+      "MUN-19",
+      "MUN-46",
+      "MUN-47",
+      "MUN-52"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-1-2",
+    "bbox_25833": [
+      226600,
+      6561200,
+      230600,
+      6565200
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-1-2",
+    "registered_candidates": [
+      "MUN-03",
+      "MUN-04",
+      "MUN-05",
+      "MUN-06",
+      "MUN-13",
+      "MUN-16",
+      "MUN-17",
+      "MUN-18",
+      "MUN-19",
+      "MUN-24",
+      "MUN-29",
+      "MUN-30",
+      "MUN-31",
+      "MUN-33",
+      "MUN-44",
+      "MUN-46",
+      "MUN-47",
+      "MUN-49",
+      "MUN-52",
+      "MUN-58",
+      "MUN-61",
+      "MUN-65"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-2",
+    "bbox_25833": [
+      230200,
+      6561200,
+      234200,
+      6565200
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-2",
+    "registered_candidates": [
+      "MUN-09",
+      "MUN-14",
+      "MUN-31",
+      "MUN-34",
+      "MUN-36",
+      "MUN-48",
+      "MUN-50",
+      "MUN-51",
+      "MUN-55",
+      "MUN-56",
+      "MUN-58",
+      "MUN-60"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-2",
+    "bbox_25833": [
+      233800,
+      6561200,
+      237800,
+      6565200
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-2",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-0-1",
+    "bbox_25833": [
+      223000,
+      6557600,
+      227000,
+      6561600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-0-1",
+    "registered_candidates": [
+      "MUN-02",
+      "MUN-18",
+      "MUN-26",
+      "MUN-45",
+      "MUN-53",
+      "MUN-59"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-1-1",
+    "bbox_25833": [
+      226600,
+      6557600,
+      230600,
+      6561600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-1-1",
+    "registered_candidates": [
+      "MUN-07",
+      "MUN-08",
+      "MUN-11",
+      "MUN-18",
+      "MUN-24",
+      "MUN-25",
+      "MUN-32",
+      "MUN-35",
+      "MUN-39",
+      "MUN-41",
+      "MUN-42",
+      "MUN-43",
+      "MUN-53",
+      "MUN-62",
+      "MUN-63",
+      "MUN-64",
+      "MUN-66"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-1",
+    "bbox_25833": [
+      230200,
+      6557600,
+      234200,
+      6561600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-1",
+    "registered_candidates": [
+      "MUN-01",
+      "MUN-25",
+      "MUN-41",
+      "MUN-64"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-1",
+    "bbox_25833": [
+      233800,
+      6557600,
+      237800,
+      6561600
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-1",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-0-0",
+    "bbox_25833": [
+      223000,
+      6554000,
+      227000,
+      6558000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-0-0",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-1-0",
+    "bbox_25833": [
+      226600,
+      6554000,
+      230600,
+      6558000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-1-0",
+    "registered_candidates": [
+      "MUN-40"
+    ],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-2-0",
+    "bbox_25833": [
+      230200,
+      6554000,
+      234200,
+      6558000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-2-0",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  },
+  {
+    "tile": "coast-3-0",
+    "bbox_25833": [
+      233800,
+      6554000,
+      237800,
+      6558000
+    ],
+    "topographic_review": "gjennomgått",
+    "imagery_tile": "a-coast-3-0",
+    "registered_candidates": [],
+    "private_piers": "Spredte enkeltbrygger langs bolig-/hyttekyst er ikke slått sammen til havn bare på grunn av nærhet. Mindre udokumenterte anlegg kan være oversett.",
+    "review_date": "2026-10-29"
+  }
+]

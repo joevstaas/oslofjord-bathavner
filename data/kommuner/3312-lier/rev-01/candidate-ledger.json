@@ -1,0 +1,74 @@
+[
+ {
+  "candidate_id": "A002",
+  "x_25833": 233553,
+  "y_25833": 6632521,
+  "osm_ids": [
+   "way/1150430704"
+  ],
+  "decision": "utelatt",
+  "reason": "Tømmerterminalens kai med lekter; næringskai, ikke småbåthavn.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A003",
+  "x_25833": 235149,
+  "y_25833": 6631830,
+  "osm_ids": [
+   "way/1452334063"
+  ],
+  "decision": "utelatt",
+  "reason": "Molo/fylling ved Gullaugodden uten synlige båtplasser.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A005",
+  "x_25833": 236832,
+  "y_25833": 6649539,
+  "osm_ids": [
+   "way/893322011",
+   "way/893322012"
+  ],
+  "decision": "utelatt",
+  "reason": "Lang brygge i Holsfjorden/Tyrifjorden (innsjø) uten synlige båter; ikke del av Oslofjorden og ikke dokumentert båtplassanlegg.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A001",
+  "x_25833": 233153,
+  "y_25833": 6632646,
+  "osm_ids": [
+   "way/1293352439",
+   "way/1293352440",
+   "way/1293352441",
+   "way/1293352442",
+   "way/1293352443"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "3312-H01-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "A004",
+  "x_25833": 235887,
+  "y_25833": 6630782,
+  "osm_ids": [
+   "way/500266760",
+   "way/500266764",
+   "way/500266766",
+   "way/500266768"
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "feature_ids": [
+   "3312-H02-B01"
+  ],
+  "reviewed_date": "2026-10-29"
+ }
+]

@@ -1,0 +1,8 @@
+{
+  "polygons": 35,
+  "harbours": 31,
+  "possible_harbours": 2,
+  "uncertain_geometries": 2,
+  "clipped": [],
+  "validation": "valid polygons; no overlaps >1 m2; within official boundary"
+}

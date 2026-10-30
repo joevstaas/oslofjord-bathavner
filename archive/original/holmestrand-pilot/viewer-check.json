@@ -1,0 +1,63 @@
+{
+  "tested_polygons": [
+    {
+      "id": "H01-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H01-B02",
+      "image_loaded": true
+    },
+    {
+      "id": "H02-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H03-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H04-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H05-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H06-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "H07-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K01-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K02-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K03-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K04-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K05-B01",
+      "image_loaded": true
+    },
+    {
+      "id": "K05-B02",
+      "image_loaded": true
+    }
+  ],
+  "javascript_errors": [],
+  "geojson_download": "holmestrand-bathavner-alle-forslag.geojson",
+  "mobile_horizontal_overflow": false
+}

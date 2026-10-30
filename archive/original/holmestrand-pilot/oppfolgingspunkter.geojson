@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U01",
+        "name": "Eidsfoss / Kølabånn",
+        "status": "batplasser_kildebekreftet_geometri_uavklart",
+        "point_role": "omtrentlig_lokaliseringspunkt_ikke_havnegrense",
+        "reason": "Lokal kilde bekrefter småbåtplasser. Kartet viser kai og få brygger, men gir ikke sikker bassenggrense.",
+        "sources": [
+          "https://visiteidsfoss.no/om-eidsfoss/aktorer/foreningen-eikern-dampskipselskap/"
+        ],
+        "source_image": "images/kolabann-detail.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0372,
+          59.5956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U02",
+        "name": "Rydningen Småbåtforening",
+        "status": "forening_bekreftet_havn_ikke_lokalisert",
+        "point_role": null,
+        "reason": "Enhetsregisteret oppgir drift og vedlikehold av båtbrygge. Forretningsadressen er ikke brukt som havnelokasjon. Kan overlappe annet anlegg; telles ikke som egen etablert havn.",
+        "sources": [
+          "https://data.brreg.no/enhetsregisteret/api/enheter/920720714"
+        ]
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U03",
+        "name": "Eikernveien Camping",
+        "status": "undersokelsespunkt_ikke_bekreftet_bathavn",
+        "point_role": "omtrentlig_campinglokasjon_ikke_havnelokasjon",
+        "reason": "Camping ved innsjøen er dokumentert. Ikke tilstrekkelig grunnlag til å klassifisere egen småbåthavn.",
+        "sources": [
+          "https://visiteidsfoss.no/spisesteder/thorrud-camping/",
+          "https://www.norcamp.de/nb/norge/eikernveien-camping.969.1.html"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0045537,
+          59.6227444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "P01",
+        "name": "Langøya – planlagt gjestebåthavn",
+        "status": "planforslag_ikke_telt_som_eksisterende",
+        "point_role": null,
+        "reason": "Planinitiativ datert 12.01.2026 beskriver planlagt anlegg. Ikke behandlet som eksisterende småbåthavn.",
+        "sources": [
+          "https://holmestrand.kommune.no/_f/p1/i999d3687-7c6b-4435-84ca-126fb527b16a/planinitiativ_langoya_v2-12012026.pdf"
+        ],
+        "source_image": "images/langoya.png"
+      },
+      "geometry": null
+    }
+  ]
+}

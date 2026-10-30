@@ -1,0 +1,23 @@
+{
+ "polygons": 11,
+ "harbours": 11,
+ "possible_harbours": 4,
+ "uncertain_geometries": 7,
+ "clipped": [
+  "3112-H02-B01"
+ ],
+ "overlap_issues": [],
+ "harbour_ids": {
+  "makrellrod": "3112-H01",
+  "saltholmen": "3112-H02",
+  "aven-vest": "3112-H03",
+  "aven-indre": "3112-H04",
+  "fuglevik-sor": "3112-H05",
+  "fuglevik-kanal": "3112-H06",
+  "fuglevik-vest": "3112-H07",
+  "krokstad-ost": "3112-H08",
+  "krokstad-vest": "3112-H09",
+  "tasken": "3112-H10",
+  "grimstad": "3112-H11"
+ }
+}

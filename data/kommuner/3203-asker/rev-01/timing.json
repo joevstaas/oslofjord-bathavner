@@ -1,0 +1,14 @@
+{
+ "run_id": "3203-asker-rev01",
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "started_utc": "2026-10-29T21:19:02Z",
+ "finished_utc": "2026-10-29T22:25:08Z",
+ "elapsed_wall_seconds": 3966,
+ "elapsed_wall_minutes": 66.1,
+ "image_count": 471,
+ "actual_input_tokens": null,
+ "actual_output_tokens": null,
+ "actual_cost": null,
+ "note": "Batchkjøring (Bærum–Asker–Lier–Drammen–Oslo): starttid er når analysen av denne kommunen begynte; bildenedlasting skjedde delvis parallelt i bakgrunnen for flere kommuner. Tokens og kostnad ikke målt."
+}

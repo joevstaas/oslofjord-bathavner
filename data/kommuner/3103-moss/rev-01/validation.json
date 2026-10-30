@@ -1,0 +1,11 @@
+{
+  "valid_geometries": true,
+  "unique_ids": true,
+  "inside_municipality": true,
+  "no_overlaps_over_1_m2": true,
+  "csv_rows": 26,
+  "plan_rows_reconciled": 24,
+  "osm_rows_reconciled": 17,
+  "approved_combined_unchanged": 184,
+  "checked_utc": "2026-10-29T17:35:20Z"
+}

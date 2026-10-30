@@ -1,0 +1,9 @@
+{
+ "boundary_source": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3201/omrade?utkoordsys=4326",
+ "working_crs": "EPSG:25833",
+ "overview_tiles": 28,
+ "detail_tiles": 167,
+ "images_total": 223,
+ "candidate_generation": "Metode 1.2: OSM-pirer klynget, bufret, lukket og klippet mot kartvann; hver kandidat vurdert visuelt.",
+ "sweep": "Sjøkysten (alle detaljfliser sør for 6651 km N) gjennomgått i kontaktark med kandidater påtegnet; ingen nye anlegg utenfor OSM. Innsjøer i nord (Østernvann m.fl.) bare grovt kontrollert. Marina vest for Lysakerelva ved kommunegrensen ligger i Oslo og behandles der."
+}

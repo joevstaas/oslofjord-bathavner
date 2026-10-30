@@ -1,0 +1,14 @@
+{
+ "run_id": "3107-fredrikstad-rev01",
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "started_utc": "2026-10-29T19:11:40Z",
+ "finished_utc": "2026-10-29T20:29:29Z",
+ "elapsed_wall_seconds": 4669,
+ "elapsed_wall_minutes": 77.8,
+ "image_count": 432,
+ "actual_input_tokens": null,
+ "actual_output_tokens": null,
+ "actual_cost": null,
+ "note": "Veggklokketid inkludert kildesøk, nedlasting (detaljfliser ca. 75 min i bakgrunnen pga. treg Esri-respons), gjennomgang, digitalisering og kontroll. Ingen venting på bruker. Tokens og kostnad er ikke målt."
+}

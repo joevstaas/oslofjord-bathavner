@@ -1,0 +1,26 @@
+{
+  "retrieved_date": "2026-10-29",
+  "sources": [
+    {
+      "url": "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+      "type": "kommunal PDF",
+      "reference": "22.12.2022, vedtatt 28.02.2023",
+      "finding": "66 navngitte anlegg; rapporten tar selv forbehold om utelatte private anlegg. Planarealer er ikke fysiske havnegrenser."
+    },
+    {
+      "url": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "type": "kommunalt ArcGIS-punktlag",
+      "finding": "66 objekter. Bruk geometry, ikke x/y-feltene: noen koordinatattributter og Nr-etiketter er feil/duplisert."
+    },
+    {
+      "url": "https://www.huvik.no/b%C3%A5tplasser",
+      "type": "operatør",
+      "finding": "32 utleieplasser oppgitt ved Framnæsveien 3 B. Separat fra kommunens Huvik-kandidat."
+    },
+    {
+      "url": "https://www.framnes-maritime.no/",
+      "type": "operatør",
+      "finding": "Service-/løfteanlegg, samt samarbeid om båtplasser med Framnæs Båthavn AS i sør. Fast bruk av nordre fingerbrygger er ikke avklart."
+    }
+  ]
+}

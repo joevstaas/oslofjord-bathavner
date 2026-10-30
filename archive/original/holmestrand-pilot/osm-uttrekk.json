@@ -1,0 +1,74 @@
+[
+  {
+    "file": "raw/osm-bekkestranda-detail.osm",
+    "bounds": {
+      "minlat": "59.5446003",
+      "minlon": "10.2783072",
+      "maxlat": "59.5547480",
+      "maxlon": "10.2962266"
+    }
+  },
+  {
+    "file": "raw/osm-bjerkoya-vest-detail.osm",
+    "bounds": {
+      "minlat": "59.5197940",
+      "minlon": "10.3267746",
+      "maxlat": "59.5313734",
+      "maxlon": "10.3471535"
+    }
+  },
+  {
+    "file": "raw/osm-bjerkoya.osm",
+    "bounds": {
+      "minlat": "59.5200000",
+      "minlon": "10.3200000",
+      "maxlat": "59.5400000",
+      "maxlon": "10.3500000"
+    }
+  },
+  {
+    "file": "raw/osm-eidsfoss.osm",
+    "bounds": {
+      "minlat": "59.5900000",
+      "minlon": "10.0100000",
+      "maxlat": "59.6200000",
+      "maxlon": "10.0500000"
+    }
+  },
+  {
+    "file": "raw/osm-holm-detail.osm",
+    "bounds": {
+      "minlat": "59.5546664",
+      "minlon": "10.2297867",
+      "maxlat": "59.5643397",
+      "maxlon": "10.2468797"
+    }
+  },
+  {
+    "file": "raw/osm-njb.osm",
+    "bounds": {
+      "minlat": "59.5500000",
+      "minlon": "10.2500000",
+      "maxlat": "59.5700000",
+      "maxlon": "10.2800000"
+    }
+  },
+  {
+    "file": "raw/osm-sandvika-detail.osm",
+    "bounds": {
+      "minlat": "59.5267325",
+      "minlon": "10.3637318",
+      "maxlat": "59.5349564",
+      "maxlon": "10.3783861"
+    }
+  },
+  {
+    "file": "raw/osm-sentrum.osm",
+    "bounds": {
+      "minlat": "59.4750000",
+      "minlon": "10.3000000",
+      "maxlat": "59.5000000",
+      "maxlon": "10.3400000"
+    }
+  }
+]

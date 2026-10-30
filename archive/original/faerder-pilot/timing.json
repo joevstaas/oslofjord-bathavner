@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-10-29T13:52:15Z",
+  "finished_utc": "2026-10-29T14:40:22Z",
+  "elapsed_wall_seconds": 2887,
+  "elapsed_wall_minutes": 48.1,
+  "measurement": "Veggklokketid for denne runden, inkludert datanedlasting, feilsøking, bildeanalyse, polygonisering og dokumentasjon. Aktiv beregningstid er ikke isolert.",
+  "actual_input_tokens": null,
+  "actual_output_tokens": null,
+  "actual_billed_cost": null,
+  "token_usage_unavailable_reason": "Denne sesjonen eksponerer ikke modellens tokenregnskap eller faktureringsdata.",
+  "illustrative_budget_only": {
+    "not_measured_usage": true,
+    "not_a_verified_estimate_for_this_run": true,
+    "assumed_input_tokens": 1000000,
+    "assumed_output_tokens": 50000,
+    "assumed_usd_per_million_input": 2,
+    "assumed_usd_per_million_output": 10,
+    "calculated_usd": 2.5,
+    "formula": "1.0 × 2 + 0.05 × 10 = 2.50 USD",
+    "exclusions": "Verktøy-/plattformkostnader, annen modellprising, bildeprising som ikke inngår i inputtokens, cache og eventuell datalisens. Prisene er regneforutsetninger, ikke en oppgitt pris for modellen i denne samtalen."
+  }
+}

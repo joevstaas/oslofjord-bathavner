@@ -1,0 +1,15 @@
+{
+  "started_utc": "2026-10-28T22:25:48Z",
+  "approval_wait_included": false,
+  "finished_utc": "2026-10-28T22:52:22Z",
+  "elapsed_wall_seconds": 1594,
+  "scan_tiles": 35,
+  "detail_tiles": 9,
+  "features": 19,
+  "supported": 11,
+  "uncertain": 8,
+  "deliverables": [
+    "tonsberg-bathavner.geojson",
+    "tonsberg-metadata.csv"
+  ]
+}

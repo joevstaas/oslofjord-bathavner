@@ -1,0 +1,17 @@
+{
+ "polygons": 49,
+ "harbours": 42,
+ "unique_ids": true,
+ "all_polygon": true,
+ "all_valid": true,
+ "closed_rings": true,
+ "lonlat_order": true,
+ "outside_boundary_m2": 0.0,
+ "rep_point_inside": true,
+ "internal_overlap_ge_1m2": [],
+ "overlap_with_approved_m2": [],
+ "id_collision_with_approved": [],
+ "csv_rows": 49,
+ "csv_ids_match": true,
+ "all_til_godkjenning": true
+}

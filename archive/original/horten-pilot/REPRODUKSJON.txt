@@ -1,0 +1,5 @@
+Installer krav: pip install --target deps -r requirements.txt
+Kjør fetch_maps.py for hver *-maps.json, deretter build_dataset.py og build_viewer.py.
+Manuelle bildekoordinater ligger i digitization.json. make_digitization.py gjenskaper filen.
+Nett nødvendig for ny WMS-innhenting. Kartvisningen virker uten nett.
+Deps-lenken i arbeidsmiljøet peker til gjenbrukte biblioteker; installer deps lokalt ved utpakking.

@@ -1,0 +1,3265 @@
+{
+  "type": "FeatureCollection",
+  "name": "Færder – godkjent uttrekk fra samlefil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H01-B01",
+        "harbour_id": "3911-H01",
+        "name": "Ferjeodden – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6861.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3920287,
+        "latitude": 59.1685067,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107343355",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236185.35003084858%2C6567447.489765496%2C237185.35003084858%2C6568447.489765496&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107343355"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c00",
+        "image_sha256": "8310abdcdc8319e3224b9dad152f1448d7a173b4943b93ed6766858afcd6755c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.391527215007663,
+              59.168898476711526
+            ],
+            [
+              10.391221963708634,
+              59.16856383577748
+            ],
+            [
+              10.391381544826412,
+              59.168029852127695
+            ],
+            [
+              10.392471471643052,
+              59.16813154134566
+            ],
+            [
+              10.392814013910527,
+              59.16844951550871
+            ],
+            [
+              10.392839115545389,
+              59.16878319416614
+            ],
+            [
+              10.391527215007663,
+              59.168898476711526
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H02-B01",
+        "harbour_id": "3911-H02",
+        "name": "Vrengen – østre bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4750.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3986514,
+        "latitude": 59.167158,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236185.35003084858%2C6567447.489765496%2C237185.35003084858%2C6568447.489765496&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "To nærliggende T-brygger ved felles adkomst. Operatør er ikke dokumentert.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c00",
+        "image_sha256": "8310abdcdc8319e3224b9dad152f1448d7a173b4943b93ed6766858afcd6755c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.398532289876083,
+              59.167744126414156
+            ],
+            [
+              10.397995436237498,
+              59.16769809343414
+            ],
+            [
+              10.398909536000504,
+              59.16663323622061
+            ],
+            [
+              10.399685631868827,
+              59.166723729879095
+            ],
+            [
+              10.399616972049325,
+              59.16723396355672
+            ],
+            [
+              10.398884166609898,
+              59.16708204630621
+            ],
+            [
+              10.398532289876083,
+              59.167744126414156
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H03-B01",
+        "harbour_id": "3911-H03",
+        "name": "Arås Båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 19166.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4545516,
+        "latitude": 59.1988118,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://araas.no/",
+          "https://www.openstreetmap.org/node/5107343357",
+          "https://www.openstreetmap.org/way/760070485",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=240050.3410809191%2C6570627.835296118%2C241050.3410809191%2C6571627.835296118&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107343357",
+          "way/760070485"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "OSM-punktet nord for området og OSM-området er samme synlige havn; slått sammen.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c01",
+        "image_sha256": "105ba2786b5a6ba2fa089578334a0159fd991c083c27bde9a2c3ff7408a768f4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.45365270220377,
+              59.19927210680367
+            ],
+            [
+              10.453080796460291,
+              59.19909017910311
+            ],
+            [
+              10.453059963661456,
+              59.198324970732266
+            ],
+            [
+              10.453468497787341,
+              59.198285322169205
+            ],
+            [
+              10.454386696373197,
+              59.19823654548073
+            ],
+            [
+              10.454612796410544,
+              59.198118551676885
+            ],
+            [
+              10.45521406121578,
+              59.19821156257442
+            ],
+            [
+              10.456188122612401,
+              59.198533477392346
+            ],
+            [
+              10.455707264819543,
+              59.19938004805262
+            ],
+            [
+              10.45365270220377,
+              59.19927210680367
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H04-B01",
+        "harbour_id": "3911-H04",
+        "name": "Tønsberg Seilforening – Fjærholmen",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 23111.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4626087,
+        "latitude": 59.2213996,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107343358",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=240556.63305004832%2C6572976.572438664%2C241556.63305004832%2C6573976.572438664&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107343358"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c02",
+        "image_sha256": "f5c34327ecff4ae7ae0e320cebf975a9569552fb68f4030803677a352b04f68c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.463308751826633,
+              59.222173117671936
+            ],
+            [
+              10.462900735388722,
+              59.222338734583914
+            ],
+            [
+              10.462157332416274,
+              59.22212388193966
+            ],
+            [
+              10.461117459923756,
+              59.2217637527907
+            ],
+            [
+              10.461145659545545,
+              59.221288067146865
+            ],
+            [
+              10.461897388876555,
+              59.22064880631304
+            ],
+            [
+              10.462921354577338,
+              59.22046874629896
+            ],
+            [
+              10.46312257639162,
+              59.220538735290255
+            ],
+            [
+              10.464127526083104,
+              59.2212933551278
+            ],
+            [
+              10.464029105410615,
+              59.22150576717561
+            ],
+            [
+              10.463457582691818,
+              59.22184554833595
+            ],
+            [
+              10.463308751826633,
+              59.222173117671936
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H05-B01",
+        "harbour_id": "3911-H05",
+        "name": "Nesbrygga – småbåthavn",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 23338.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4437647,
+        "latitude": 59.2266761,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107343359",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=239703.8651777299%2C6573667.702157883%2C240703.8651777299%2C6574667.702157883&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107343359"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c03",
+        "image_sha256": "a9255f49a26de07422b413a0c5afe4d7e1929a52f7d75bba24df077edf2c3605"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.443371843802998,
+              59.22776278106421
+            ],
+            [
+              10.442066671940577,
+              59.226367881158694
+            ],
+            [
+              10.442807873720406,
+              59.22620502820693
+            ],
+            [
+              10.443620598364575,
+              59.22590077880949
+            ],
+            [
+              10.445792143239753,
+              59.22698428724133
+            ],
+            [
+              10.444769350903421,
+              59.22741608871177
+            ],
+            [
+              10.443907788503079,
+              59.22769165036683
+            ],
+            [
+              10.443371843802998,
+              59.22776278106421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H06-B01",
+        "harbour_id": "3911-H06",
+        "name": "Tenvik båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5868.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3649327,
+        "latitude": 59.1736343,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://www.havneweb.no/tenvikbrygge/?mod=kontaktinfo",
+          "https://www.openstreetmap.org/node/5107482195",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=234609.7142919895%2C6568100.8736384995%2C235609.7142919895%2C6569100.8736384995&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482195"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Søndre bryggegruppe, ved foreningens oppgitte lokalisering. Fergekaien er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c04",
+        "image_sha256": "817e7699758537e8861bb76786033e5169d6016dc21b94dec840dcb242ec8550"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.365531769441057,
+              59.1738398666955
+            ],
+            [
+              10.364327858565233,
+              59.17393175598143
+            ],
+            [
+              10.364251835719475,
+              59.17320049136756
+            ],
+            [
+              10.36535110251768,
+              59.17310486380746
+            ],
+            [
+              10.365605040136309,
+              59.17342874247114
+            ],
+            [
+              10.365531769441057,
+              59.1738398666955
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H07-B01",
+        "harbour_id": "3911-H07",
+        "name": "Tenvik – nordre småbåtbasseng",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4563.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3640255,
+        "latitude": 59.1751403,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=234609.7142919895%2C6568100.8736384995%2C235609.7142919895%2C6569100.8736384995&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tydelig båtplassmønster i separat basseng nord for fergekaien. Operatør er ikke bekreftet; ikke automatisk slått sammen med båtforeningen.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c04",
+        "image_sha256": "817e7699758537e8861bb76786033e5169d6016dc21b94dec840dcb242ec8550"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.363849391890597,
+              59.17565057443029
+            ],
+            [
+              10.363520505357299,
+              59.17562082868337
+            ],
+            [
+              10.363505403504899,
+              59.17521554017524
+            ],
+            [
+              10.363757154271969,
+              59.17490973540533
+            ],
+            [
+              10.364217370405177,
+              59.174746297997345
+            ],
+            [
+              10.36491728727683,
+              59.17475332520303
+            ],
+            [
+              10.364927881623519,
+              59.17493359194463
+            ],
+            [
+              10.364577147011824,
+              59.17506496726134
+            ],
+            [
+              10.363849391890597,
+              59.17565057443029
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H08-B01",
+        "harbour_id": "3911-H08",
+        "name": "Albykilen / Veierland Båtforening – nordre brygge",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_og_synlig_felles_brygge",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2459.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3571944,
+        "latitude": 59.1657852,
+        "sources": [
+          "https://www.veierland.org/veierland",
+          "https://www.openstreetmap.org/node/5107482196",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=234227.23726655502%2C6567285.7503660135%2C235227.23726655502%2C6568285.7503660135&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482196"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Velforeningens havneoversikt stedfester Albykilen. Bildedato er ukjent, og utvidelse omtalt i 2023 er ikke verifisert.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c05",
+        "image_sha256": "d6062083d3cb912f7b5e405fe11cc77fd97e7a71c9896448c86dd2e23938492f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.357856542946172,
+              59.166044897107255
+            ],
+            [
+              10.356698284911008,
+              59.16593147140263
+            ],
+            [
+              10.356838937999045,
+              59.165540751671465
+            ],
+            [
+              10.357533801166625,
+              59.165583620026666
+            ],
+            [
+              10.35733638202242,
+              59.165747446524456
+            ],
+            [
+              10.357939226063882,
+              59.165822995765495
+            ],
+            [
+              10.357856542946172,
+              59.166044897107255
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H09-B01",
+        "harbour_id": "3911-H09",
+        "name": "Dalsveien – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 7385.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.418516,
+        "latitude": 59.1155028,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107500227",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237342.0998882017%2C6561396.01854713%2C238342.0998882017%2C6562396.01854713&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107500227"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Avgrenser den tette bryggegruppen; spredte nabobrygger er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c06",
+        "image_sha256": "2d58546e941d49a66e26eec8d19c4ceacc6b9682bb5b17408f3f5bfa3a773d5f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.418344617966014,
+              59.11606872242058
+            ],
+            [
+              10.417795921133889,
+              59.115986358227865
+            ],
+            [
+              10.418015868582913,
+              59.11499579041685
+            ],
+            [
+              10.419206260990647,
+              59.115118833005546
+            ],
+            [
+              10.41905109128033,
+              59.11588683980978
+            ],
+            [
+              10.418344617966014,
+              59.11606872242058
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H10-B01",
+        "harbour_id": "3911-H10",
+        "name": "Engøbrygga – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 11001.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4241752,
+        "latitude": 59.1216287,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107500242",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237707.50503806095%2C6561996.714557486%2C238707.50503806095%2C6562996.714557486&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107500242"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c07",
+        "image_sha256": "df85bf20b9d1e54784fb92f53848dbbce7702360edcb19f02224a4427403e242"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.424774447717482,
+              59.122328236313436
+            ],
+            [
+              10.422992843629057,
+              59.1219145460376
+            ],
+            [
+              10.423133735412572,
+              59.12151478917403
+            ],
+            [
+              10.423694495291212,
+              59.12150761367056
+            ],
+            [
+              10.423845082499684,
+              59.12129707431773
+            ],
+            [
+              10.425020550271594,
+              59.12114071461598
+            ],
+            [
+              10.425259675606501,
+              59.12144596196819
+            ],
+            [
+              10.425255040309125,
+              59.121742602593876
+            ],
+            [
+              10.424774447717482,
+              59.122328236313436
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H11-B01",
+        "harbour_id": "3911-H11",
+        "name": "Krukehavn/Sandøsund – indre basseng",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 13051.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4536571,
+        "latitude": 59.0812445,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+          "https://www.openstreetmap.org/node/5107512191",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=239070.33751138498%2C6557553.698461945%2C240070.33751138498%2C6558553.698461945&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107512191"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Blandet havnebruk. Kommunen oppgir ca. 25 gjesteplasser for Sandøsund; dette er ikke total kapasitet for alle båter i begge delpolygonene.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c08",
+        "image_sha256": "e99336888caeb96a8e9524169ac1fb12f321805c416b454c27039203af18ab14"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.451469360503387,
+              59.08173398600791
+            ],
+            [
+              10.451106500103982,
+              59.08170325030242
+            ],
+            [
+              10.451462342119177,
+              59.080996236840484
+            ],
+            [
+              10.45201933444806,
+              59.08048516118296
+            ],
+            [
+              10.453937150534296,
+              59.0805165376615
+            ],
+            [
+              10.454003113380645,
+              59.08133730038814
+            ],
+            [
+              10.453700305039549,
+              59.08177636426338
+            ],
+            [
+              10.453185252283433,
+              59.08183922361949
+            ],
+            [
+              10.453088018482457,
+              59.08178184550411
+            ],
+            [
+              10.45331214975914,
+              59.08167279524049
+            ],
+            [
+              10.453320891429174,
+              59.081079503275305
+            ],
+            [
+              10.453101916810082,
+              59.081017849990786
+            ],
+            [
+              10.451791187177045,
+              59.081151691876315
+            ],
+            [
+              10.451750832273104,
+              59.08145606799199
+            ],
+            [
+              10.451469360503387,
+              59.08173398600791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H11-B02",
+        "harbour_id": "3911-H11",
+        "name": "Krukehavn/Sandøsund – nordre kai",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4159.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4520522,
+        "latitude": 59.0819296,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+          "https://www.openstreetmap.org/node/5107512191",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=239070.33751138498%2C6557553.698461945%2C240070.33751138498%2C6558553.698461945&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107512191"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Del av samme havnegruppe som indre basseng. Smalt belte ved kai, ikke hele sundet.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c08",
+        "image_sha256": "e99336888caeb96a8e9524169ac1fb12f321805c416b454c27039203af18ab14"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.453512116695082,
+              59.08227341593337
+            ],
+            [
+              10.451204089273174,
+              59.08202146660301
+            ],
+            [
+              10.451293065117236,
+              59.08174578048322
+            ],
+            [
+              10.45211958047042,
+              59.08183777202532
+            ],
+            [
+              10.453667084750442,
+              59.08202702758947
+            ],
+            [
+              10.453512116695082,
+              59.08227341593337
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H12-B01",
+        "harbour_id": "3911-H12",
+        "name": "Havna Tjøme gjestehavn",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 15471.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4194239,
+        "latitude": 59.0860734,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107512192",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237127.8942250964%2C6558138.701463434%2C238127.8942250964%2C6559138.701463434&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107512192"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c09",
+        "image_sha256": "1235e686d9d4f7fd7b0ba0ef0b17dab1aac09ae433c7b8129dee2df71dabb5e7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.41886330844286,
+              59.085738058569795
+            ],
+            [
+              10.417601966709434,
+              59.085630466751866
+            ],
+            [
+              10.417703728256662,
+              59.08513039663565
+            ],
+            [
+              10.419132891235927,
+              59.0850280662757
+            ],
+            [
+              10.420230506740408,
+              59.08518381735198
+            ],
+            [
+              10.419956403386221,
+              59.086451286914496
+            ],
+            [
+              10.418756236073964,
+              59.08640882973127
+            ],
+            [
+              10.41886330844286,
+              59.085738058569795
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H13-B01",
+        "harbour_id": "3911-H13",
+        "name": "Havna – nordre bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2266.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4174335,
+        "latitude": 59.0866808,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237127.8942250964%2C6558138.701463434%2C238127.8942250964%2C6559138.701463434&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Separat brygge ved campingområdet. Om denne drives sammen med Havna Tjøme gjestehavn er ikke bekreftet.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c09",
+        "image_sha256": "1235e686d9d4f7fd7b0ba0ef0b17dab1aac09ae433c7b8129dee2df71dabb5e7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.417926435890118,
+              59.08712598097719
+            ],
+            [
+              10.41703804678015,
+              59.08684270495845
+            ],
+            [
+              10.417291030888006,
+              59.0865188757882
+            ],
+            [
+              10.418270622430477,
+              59.08690431279256
+            ],
+            [
+              10.417926435890118,
+              59.08712598097719
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H14-B01",
+        "harbour_id": "3911-H14",
+        "name": "Østre Bolæren gjestehavn – nordre brygger",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5999.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.5680363,
+        "latitude": 59.2013739,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+          "https://www.bolaerne.no/",
+          "https://www.openstreetmap.org/node/5783278365",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=246491.32293959337%2C6570300.886918505%2C247491.32293959337%2C6571300.886918505&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5783278365"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 100,
+        "berth_count_source": "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+        "berth_count_approximate": true,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Kommunen oppgir ca. 100 gjesteplasser for hele Østre Bolæren gjestehavn, ikke for dette delpolygonet alene.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c10",
+        "image_sha256": "0200ce4dc41795c41342cae2b481c8f33e6cd41fa8830e0104729fd77fb13959"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.567318920802714,
+              59.20168491977233
+            ],
+            [
+              10.566987259918303,
+              59.20167359171612
+            ],
+            [
+              10.566997702278812,
+              59.20145811180505
+            ],
+            [
+              10.567335151887471,
+              59.201289773803865
+            ],
+            [
+              10.568347555458782,
+              59.201189450094304
+            ],
+            [
+              10.568632603227726,
+              59.20088442182623
+            ],
+            [
+              10.569185369398076,
+              59.20094826051962
+            ],
+            [
+              10.569214499664186,
+              59.201129118604264
+            ],
+            [
+              10.56843261005293,
+              59.201749931732984
+            ],
+            [
+              10.568137021947896,
+              59.201730845177956
+            ],
+            [
+              10.56818120653823,
+              59.20152551074271
+            ],
+            [
+              10.567318920802714,
+              59.20168491977233
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H14-B02",
+        "harbour_id": "3911-H14",
+        "name": "Østre Bolæren gjestehavn – søndre basseng",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 8632.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.5687082,
+        "latitude": 59.2002114,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+          "https://www.bolaerne.no/",
+          "https://www.openstreetmap.org/node/5783278365",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=246491.32293959337%2C6570300.886918505%2C247491.32293959337%2C6571300.886918505&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5783278365"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c10",
+        "image_sha256": "0200ce4dc41795c41342cae2b481c8f33e6cd41fa8830e0104729fd77fb13959"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.568213647862713,
+              59.20073521831013
+            ],
+            [
+              10.567817985160664,
+              59.20067674069962
+            ],
+            [
+              10.568106398739383,
+              59.19967036003683
+            ],
+            [
+              10.569047826881834,
+              59.19984639675179
+            ],
+            [
+              10.569460966770208,
+              59.200040365096065
+            ],
+            [
+              10.569469187107051,
+              59.200382386476555
+            ],
+            [
+              10.569297044547223,
+              59.20076321635043
+            ],
+            [
+              10.569004977482946,
+              59.2008521699619
+            ],
+            [
+              10.568619743581129,
+              59.2005782145419
+            ],
+            [
+              10.568213647862713,
+              59.20073521831013
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H15-B01",
+        "harbour_id": "3911-H15",
+        "name": "Verdens Ende gjestehavn",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 31326.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4094287,
+        "latitude": 59.0581055,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+          "https://www.openstreetmap.org/node/5821970309",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236318.49491828447%2C6555025.044294777%2C237318.49491828447%2C6556025.044294777&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5821970309"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 100,
+        "berth_count_source": "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+        "berth_count_approximate": true,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Ca. 100 gjesteplasser oppgitt av kommunen. Tomme plasser i bildet er ikke tolket som nedlagt havn.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c11",
+        "image_sha256": "fa08c8f771c68fe1b0a2d52bd6838daf3cbc6b1d8b4a87e4aeb0e2774e4f7ead"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.410588186377197,
+              59.05923905303235
+            ],
+            [
+              10.408828045378128,
+              59.05921259936556
+            ],
+            [
+              10.408431861490714,
+              59.058910729350835
+            ],
+            [
+              10.408483294811706,
+              59.058264971645976
+            ],
+            [
+              10.40799474349072,
+              59.057348216859076
+            ],
+            [
+              10.409634281028852,
+              59.057100580364526
+            ],
+            [
+              10.411314663943413,
+              59.05733106373496
+            ],
+            [
+              10.411029549357314,
+              59.05789658183595
+            ],
+            [
+              10.410394329606147,
+              59.05794600913121
+            ],
+            [
+              10.410709725824876,
+              59.05872170012528
+            ],
+            [
+              10.410588186377197,
+              59.05923905303235
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H16-B01",
+        "harbour_id": "3911-H16",
+        "name": "Teie båthavn (Rosanes)",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 59109.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4300912,
+        "latitude": 59.2510539,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://www.havneweb.no/teiebat/?mod=startsiden",
+          "https://www.openstreetmap.org/way/38867268",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=238870.50273018386%2C6576419.460370983%2C239870.50273018386%2C6577419.460370983&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/38867268"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "OSM kaller området Rosanes marina. Kommunen og operatøren omtaler Teie båthavn ved Parkveien; ikke dobbelttelt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c12",
+        "image_sha256": "9defa24e70bc8038833f98500922358ac63e09b6f6466582f85b947a5d78819e"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.431172082894205,
+              59.252236179387474
+            ],
+            [
+              10.428776883488714,
+              59.252025993040974
+            ],
+            [
+              10.428909652919337,
+              59.25116724331901
+            ],
+            [
+              10.42681526858466,
+              59.250940622740565
+            ],
+            [
+              10.426618529939436,
+              59.250313110088406
+            ],
+            [
+              10.426580292374602,
+              59.24968218404166
+            ],
+            [
+              10.429860508338749,
+              59.249707702429625
+            ],
+            [
+              10.431961974787868,
+              59.250797944640965
+            ],
+            [
+              10.43245562850541,
+              59.25091423841158
+            ],
+            [
+              10.431172082894205,
+              59.252236179387474
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H17-B01",
+        "harbour_id": "3911-H17",
+        "name": "Mågerø Marina",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 23926.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4321489,
+        "latitude": 59.154949,
+        "sources": [
+          "https://www.openstreetmap.org/way/200180554",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=238433.677806229%2C6565644.325954064%2C239433.677806229%2C6566644.325954064&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/200180554"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c13",
+        "image_sha256": "df2458f846fde1b8cd1ae97f8b1ad0e600c4c3198ff79150eec3d4bedff01627"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.433061071638782,
+              59.155840962408234
+            ],
+            [
+              10.431833345452857,
+              59.15598658583134
+            ],
+            [
+              10.431944031240109,
+              59.155288952662715
+            ],
+            [
+              10.43224510572214,
+              59.15526358392352
+            ],
+            [
+              10.43212002029063,
+              59.15515124892896
+            ],
+            [
+              10.431288905486218,
+              59.15521190507989
+            ],
+            [
+              10.431080086497024,
+              59.15480880983291
+            ],
+            [
+              10.430998562830077,
+              59.154239313806045
+            ],
+            [
+              10.431001282607664,
+              59.15382568481389
+            ],
+            [
+              10.432667722633173,
+              59.15380345485178
+            ],
+            [
+              10.433050729643622,
+              59.15486924555106
+            ],
+            [
+              10.433239556477556,
+              59.15502879479225
+            ],
+            [
+              10.433928051285234,
+              59.15551173766776
+            ],
+            [
+              10.433061071638782,
+              59.155840962408234
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H18-B01",
+        "harbour_id": "3911-H18",
+        "name": "Knarberg Båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 25288.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4556634,
+        "latitude": 59.2081093,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://app.havneweb.no/havner/knarberg-bf",
+          "https://www.openstreetmap.org/way/300991039",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=240103.51602181254%2C6571599.2018551845%2C241103.51602181254%2C6572599.2018551845&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/300991039"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c14",
+        "image_sha256": "98cddc606f6dc70ab28be266b53ef0dc727524a5a7ce1353e876e67e1c277fdb"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.453883677927381,
+              59.2083582962225
+            ],
+            [
+              10.453714311403179,
+              59.208181480392355
+            ],
+            [
+              10.454794817790429,
+              59.20731094614103
+            ],
+            [
+              10.455653317790409,
+              59.20744893504125
+            ],
+            [
+              10.456221028078492,
+              59.20753176870244
+            ],
+            [
+              10.456896636595426,
+              59.20772630283112
+            ],
+            [
+              10.457556765244224,
+              59.208037211290744
+            ],
+            [
+              10.457287300742111,
+              59.20861237910402
+            ],
+            [
+              10.458562836255652,
+              59.20864802395622
+            ],
+            [
+              10.458489025167074,
+              59.20880733006967
+            ],
+            [
+              10.456956756222212,
+              59.208987544199736
+            ],
+            [
+              10.45617722103543,
+              59.208519557408586
+            ],
+            [
+              10.456026841595119,
+              59.20859523715767
+            ],
+            [
+              10.454978248476916,
+              59.20856751471456
+            ],
+            [
+              10.453883677927381,
+              59.2083582962225
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H19-B01",
+        "harbour_id": "3911-H19",
+        "name": "Tønsberg Marina AS – Kalvetangen",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 24316.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.44829,
+        "latitude": 59.2436007,
+        "sources": [
+          "https://www.openstreetmap.org/way/344059239",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=239902.5987654361%2C6575533.445986521%2C240902.5987654361%2C6576533.445986521&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/344059239"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c15",
+        "image_sha256": "84b7875fffe0a626cccabbf44d7a7e9cfa20f9afc97707a3dea083317c7e6fe6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.449732693926256,
+              59.24423547155634
+            ],
+            [
+              10.446822057221059,
+              59.243944591133314
+            ],
+            [
+              10.446961969615408,
+              59.242897212604746
+            ],
+            [
+              10.447273376448162,
+              59.242800203030725
+            ],
+            [
+              10.448099894181302,
+              59.24265829097462
+            ],
+            [
+              10.44948272634925,
+              59.24268876322302
+            ],
+            [
+              10.449561277983738,
+              59.24288938049127
+            ],
+            [
+              10.449374874243908,
+              59.243233609788476
+            ],
+            [
+              10.449719126942586,
+              59.24341655498252
+            ],
+            [
+              10.449705076648444,
+              59.243784810972215
+            ],
+            [
+              10.450107735575248,
+              59.24392483198694
+            ],
+            [
+              10.449732693926256,
+              59.24423547155634
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H20-B01",
+        "harbour_id": "3911-H20",
+        "name": "Østveien/Bustangbukta – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6759.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4075154,
+        "latitude": 59.1654729,
+        "sources": [
+          "https://www.openstreetmap.org/way/561277276",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237040.84919566876%2C6566938.849411297%2C238040.84919566876%2C6567938.849411297&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/561277276"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c16",
+        "image_sha256": "02e786acdb9ca64327c9e592a9c6db441b6a39c886b14b3d043fdd48f3f02b7e"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.407269968792873,
+              59.16588051930766
+            ],
+            [
+              10.406606911344262,
+              59.16520945488845
+            ],
+            [
+              10.407509245347772,
+              59.164881648307905
+            ],
+            [
+              10.408493336775239,
+              59.16577094063047
+            ],
+            [
+              10.408032245318436,
+              59.165943490955925
+            ],
+            [
+              10.407517049282276,
+              59.16573636924185
+            ],
+            [
+              10.407687176642424,
+              59.16590428890161
+            ],
+            [
+              10.407269968792873,
+              59.16588051930766
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H21-B01",
+        "harbour_id": "3911-H21",
+        "name": "Langvikveien – mulig småbåthavn",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5015.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3823322,
+        "latitude": 59.1210247,
+        "sources": [
+          "https://www.openstreetmap.org/way/925843335",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=235261.01383947226%2C6562147.887458524%2C236261.01383947226%2C6563147.887458524&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/925843335"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Flere små brygger og serviceaktivitet synlig. Faste plasser, felles drift og yttergrense er ikke tilstrekkelig dokumentert.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c18",
+        "image_sha256": "dd895d0adace02177cdb9ce9acc26f46e8f0f13b7de84308b90c1e5bee6aa072"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.382490355022432,
+              59.12148636890703
+            ],
+            [
+              10.382006479768359,
+              59.121442140436145
+            ],
+            [
+              10.381960465015096,
+              59.12113469317091
+            ],
+            [
+              10.381615367104807,
+              59.120969488815554
+            ],
+            [
+              10.38191686492484,
+              59.12080934327278
+            ],
+            [
+              10.382032370018939,
+              59.12047167571252
+            ],
+            [
+              10.382481411471334,
+              59.12051466295888
+            ],
+            [
+              10.382867879192357,
+              59.12076228819756
+            ],
+            [
+              10.382947515815559,
+              59.12107992742091
+            ],
+            [
+              10.382562588427465,
+              59.12121011908789
+            ],
+            [
+              10.382490355022432,
+              59.12148636890703
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H22-B01",
+        "harbour_id": "3911-H22",
+        "name": "Kjøpmannskjær/Vrengensundet – flytebryggeanlegg",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumenterte_batforeninger_og_sammenhengende_bryggekompleks",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 30473.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3882148,
+        "latitude": 59.1763087,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://www.havneweb.no/kjopmannskjar-bf/",
+          "https://www.vsmarina.no/kontakt/",
+          "https://www.openstreetmap.org/way/984083824",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236046.87436490558%2C6568335.895229963%2C237046.87436490558%2C6569335.895229963&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/984083824"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Avgrenser det sammenhengende flytebryggeanlegget. Spredte landfester rundt resten av bukten er ikke automatisk slått inn i dette polygonet. Kommunens forening og marinakildene peker til samme fysiske bryggekompleks. Interne operatør-/rettighetsgrenser er ikke kartlagt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c19",
+        "image_sha256": "9c992219e53bd1f98ad43aa7e30ce9843537a7a8460bfda97d2c8e0110580726"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.389447915009729,
+              59.17749868036402
+            ],
+            [
+              10.388748081542591,
+              59.17723095653114
+            ],
+            [
+              10.38769774796711,
+              59.176833839601734
+            ],
+            [
+              10.38741280446271,
+              59.175699422836615
+            ],
+            [
+              10.387235282352105,
+              59.174937590630364
+            ],
+            [
+              10.38987686179082,
+              59.17496855350176
+            ],
+            [
+              10.389727802066947,
+              59.175943628870044
+            ],
+            [
+              10.388755402600562,
+              59.176007997378036
+            ],
+            [
+              10.38897214263061,
+              59.176609324129814
+            ],
+            [
+              10.389992578224492,
+              59.17670855754137
+            ],
+            [
+              10.390441020765287,
+              59.17702130610422
+            ],
+            [
+              10.389447915009729,
+              59.17749868036402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H23-B01",
+        "harbour_id": "3911-H23",
+        "name": "Hella båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2778.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3850056,
+        "latitude": 59.2320069,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://www.havneweb.no/hellahavn/?mod=startsiden",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236180%2C6574280%2C237380%2C6575480&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Foreløpig avgrensning ved den synlige piren. Vinterpreg, skygger og lysrefleks gjør detaljene uklare. Operatøren oppgir oppgradering i 2020; utstrekningen trenger kontroll mot datert ortofoto.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "hella",
+        "image_sha256": "a08e22e7d555715bee30e976389641dc29a23468197fd3755a127f6f3935790a"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.385482958417182,
+              59.23226861561165
+            ],
+            [
+              10.384218911144215,
+              59.23211575326532
+            ],
+            [
+              10.384271860354792,
+              59.23188018715707
+            ],
+            [
+              10.385354524602565,
+              59.23197263711582
+            ],
+            [
+              10.385484038189686,
+              59.231793757439895
+            ],
+            [
+              10.385774573979525,
+              59.231825669227824
+            ],
+            [
+              10.385766463095992,
+              59.23204124300473
+            ],
+            [
+              10.385482958417182,
+              59.23226861561165
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H24-B01",
+        "harbour_id": "3911-H24",
+        "name": "Holtane Vel- og Båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 11564.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4177045,
+        "latitude": 59.1448203,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/911822636",
+          "https://www.batmagasinet.no/batforeninger-bathavn/bitter-nabostrid-i-idyllisk-batforening-pa-tjome/830954",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237313.05507766182%2C6564620.252505412%2C238513.05507766182%2C6565820.252505412&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Felles brygge-/moloområde ved Flekkenveien. Vinterbilde med mange tomme plasser.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "holtane",
+        "image_sha256": "0d6ca47257d075591e5b7f34ffbdda7a200bbb087a48162897adcf994b8d1963"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.417621161667416,
+              59.14513399153594
+            ],
+            [
+              10.416725754008468,
+              59.14523185057557
+            ],
+            [
+              10.416748597197095,
+              59.144433981437494
+            ],
+            [
+              10.417976298486641,
+              59.14420756113092
+            ],
+            [
+              10.418718905113042,
+              59.14430935924444
+            ],
+            [
+              10.418888487285724,
+              59.14476865499352
+            ],
+            [
+              10.418454506884855,
+              59.14487203913755
+            ],
+            [
+              10.41825713982013,
+              59.145404709165774
+            ],
+            [
+              10.417735870467903,
+              59.1453754907795
+            ],
+            [
+              10.417621161667416,
+              59.14513399153594
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H25-B01",
+        "harbour_id": "3911-H25",
+        "name": "Grimestad Vel og Båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 12797.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4156158,
+        "latitude": 59.1368254,
+        "sources": [
+          "https://grimestad.net/havnereglement/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236924.84396225918%2C6563412.173080343%2C238524.84396225918%2C6565012.173080343&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 1.0,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Avgrenser synlige fellesbrygger ved Grimestadstranda. Eventuelle bøye-/wireplasser uten tydelig yttergrense er ikke tatt med; mulig ufullstendig sjøutstrekning.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "grimestad",
+        "image_sha256": "be41c59b99b81a752fe2e1c67d18a76f79e40c3e306e6d990241f90d0c324860"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.414597430920685,
+              59.13757202256561
+            ],
+            [
+              10.414065958208006,
+              59.13756760917372
+            ],
+            [
+              10.4144934291571,
+              59.13667612579673
+            ],
+            [
+              10.41492865298617,
+              59.13614468069303
+            ],
+            [
+              10.416726789893268,
+              59.13630901532381
+            ],
+            [
+              10.416833663990229,
+              59.136974761323174
+            ],
+            [
+              10.414897148263416,
+              59.13700700199432
+            ],
+            [
+              10.414597430920685,
+              59.13757202256561
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H26-B01",
+        "harbour_id": "3911-H26",
+        "name": "Buerstad båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5833.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4226198,
+        "latitude": 59.1682359,
+        "sources": [
+          "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=238119.3691300835%2C6567016.488063365%2C239719.3691300835%2C6568616.488063365&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 1.0,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Avgrenser den lange fellespiren ved Buerstad. Private nabobrygger er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "buerstad",
+        "image_sha256": "5afa3ec8ffcf9a844a2265e3761a9ca12404150460e7bbdba80e3a7dc284d1d7"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.423377443059394,
+              59.16899025417216
+            ],
+            [
+              10.422841644031713,
+              59.16901451626841
+            ],
+            [
+              10.421813659811942,
+              59.16748161792436
+            ],
+            [
+              10.422459101024828,
+              59.16747562130473
+            ],
+            [
+              10.423377443059394,
+              59.16899025417216
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H27-B01",
+        "harbour_id": "3911-H27",
+        "name": "Hagakilen – mulig småbåthavn",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 10663.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.4144884,
+        "latitude": 59.1311576,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=237021.82048025093%2C6562858.695284325%2C238321.82048025093%2C6564158.695284325&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.8125,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Flere parallelle brygger. Felles drift og hvilke brygger som hører til samme anlegg er ikke tilstrekkelig dokumentert.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "hagakilen",
+        "image_sha256": "ac78c5aa5efb6052d702fb78baf90304f23bcb610f6887a9de9ece600fbb8300"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.41504197697349,
+              59.13182001758421
+            ],
+            [
+              10.414063711910426,
+              59.131820480684574
+            ],
+            [
+              10.413941000205703,
+              59.13120813493758
+            ],
+            [
+              10.413727059930725,
+              59.13110702481312
+            ],
+            [
+              10.413628555832815,
+              59.13048384288826
+            ],
+            [
+              10.415231373029744,
+              59.13057563545647
+            ],
+            [
+              10.41504197697349,
+              59.13182001758421
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H08-B02",
+        "harbour_id": "3911-H08",
+        "name": "Albykilen / Veierland Båtforening – søndre brygger",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_batforening_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2355.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3569645,
+        "latitude": 59.1651132,
+        "sources": [
+          "https://www.veierland.org/veierland",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=234227.23726655502%2C6567285.7503660135%2C235227.23726655502%2C6568285.7503660135&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Delområde i samme bukt. Intern plassfordeling er ikke bekreftet; foreløpig yttergrense.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "c05",
+        "image_sha256": "d6062083d3cb912f7b5e405fe11cc77fd97e7a71c9896448c86dd2e23938492f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.357160815255797,
+              59.16536339328628
+            ],
+            [
+              10.356514606522076,
+              59.16534924853221
+            ],
+            [
+              10.356881462386651,
+              59.16484070653419
+            ],
+            [
+              10.357796850831853,
+              59.16493644237051
+            ],
+            [
+              10.357665519040252,
+              59.165129618560314
+            ],
+            [
+              10.35724957874457,
+              59.16509673773437
+            ],
+            [
+              10.357160815255797,
+              59.16536339328628
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H28-B01",
+        "harbour_id": "3911-H28",
+        "name": "Jensesund gjestehavn – Vestre Bolæren",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6971.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.5360036,
+        "latitude": 59.214007,
+        "sources": [
+          "https://www.bolaerne.no/gjestehavn/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=244653.73876539458%2C6571834.266787984%2C245853.73876539458%2C6573034.266787984&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Nordre bryggerekke; smalt sjøbelte langs bryggene, ikke hele sundet.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "jensesund-havn",
+        "image_sha256": "7edd52228fd07dd5c538c904fbfd9adacb7bd82d8d00a2ca4e58523da4f1bf03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.536284508913104,
+              59.21472444334608
+            ],
+            [
+              10.535467299214385,
+              59.21469634032379
+            ],
+            [
+              10.535781351161285,
+              59.21326100755834
+            ],
+            [
+              10.536489545284349,
+              59.213317736992884
+            ],
+            [
+              10.536284508913104,
+              59.21472444334608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H28-B02",
+        "harbour_id": "3911-H28",
+        "name": "Jensesund gjestehavn – søndre brygge",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1582.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.5366719,
+        "latitude": 59.2124547,
+        "sources": [
+          "https://www.bolaerne.no/gjestehavn/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=244653.73876539458%2C6571834.266787984%2C245853.73876539458%2C6573034.266787984&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "jensesund-havn",
+        "image_sha256": "7edd52228fd07dd5c538c904fbfd9adacb7bd82d8d00a2ca4e58523da4f1bf03"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.53702510172215,
+              59.21260229292858
+            ],
+            [
+              10.536126941161474,
+              59.212549825628734
+            ],
+            [
+              10.536441480678565,
+              59.2122368806957
+            ],
+            [
+              10.537183131011126,
+              59.21235950940567
+            ],
+            [
+              10.53702510172215,
+              59.21260229292858
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H29-B01",
+        "harbour_id": "3911-H29",
+        "name": "Tangen bryggesameie (Veierland)",
+        "name_is_descriptive": false,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_gjestehavn_med_felles_brygger",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6142.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3370181,
+        "latitude": 59.1537721,
+        "sources": [
+          "https://www.veierland.org/veierland",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=232840.0%2C6565860.0%2C234040.0%2C6567060.0&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Stedfestet mot velforeningens oppgitte koordinat for Tangen. Midlertidig arbeidsnavn Vestgården er korrigert; ikke registrert som to anlegg.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "vestgarden",
+        "image_sha256": "195871d2eecf486c70405c763f7ccae7f60cc312cb8b22e6e517584263b83779"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.33719256074845,
+              59.15422620185155
+            ],
+            [
+              10.336363431765484,
+              59.15414241003827
+            ],
+            [
+              10.336470342290895,
+              59.153358329978445
+            ],
+            [
+              10.337916115830595,
+              59.15338874450499
+            ],
+            [
+              10.337930120837932,
+              59.15359432458744
+            ],
+            [
+              10.337314277103765,
+              59.153949948600754
+            ],
+            [
+              10.33719256074845,
+              59.15422620185155
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H30-B01",
+        "harbour_id": "3911-H30",
+        "name": "Vestskogen/Håbekkbukta – felles småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 7826.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3853976,
+        "latitude": 59.2525385,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=236380.00000000003%2C6576700.000000003%2C237580.00000000003%2C6577900.000000003&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.75,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "To sammenhengende flytebrygger med tydelig rekke av båtplasser. Navn er beskrivende; operatør ikke bekreftet. Båtopplag på land lenger nord er ikke registrert som egen havn.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "vestskogen-sor",
+        "image_sha256": "7cd3bca3b7ade6ab065f53df0182c772f8cb402889478f2fc135d946fa9ae0c0"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.38654126661282,
+              59.25272315166396
+            ],
+            [
+              10.38484365553989,
+              59.25296505040735
+            ],
+            [
+              10.3847780768812,
+              59.252671306683645
+            ],
+            [
+              10.384302119128494,
+              59.252762324945806
+            ],
+            [
+              10.384287222420022,
+              59.25240562328269
+            ],
+            [
+              10.38641299074134,
+              59.25211418269268
+            ],
+            [
+              10.38654126661282,
+              59.25272315166396
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3911-H31-B01",
+        "harbour_id": "3911-H31",
+        "name": "Sundene/Søndre Strandvei – småbåthavn",
+        "name_is_descriptive": true,
+        "municipality": "Færder",
+        "municipality_code": "3911",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T14:53:43Z",
+        "revision": 2,
+        "method_version": "1.0",
+        "schema_version": "1.0",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5641.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.3854987,
+        "latitude": 59.1595583,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=235955.96182855533%2C6566691.564503568%2C237355.96182855533%2C6568091.564503568&bboxSR=25833&imageSR=25833&size=1600%2C1600&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.875,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "© Kartverket; imagery: Esri, Vantor, Earthstar Geographics, and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tilføyd etter brukerpåpekt utelatelse. Mer enn ti synlige båtplasser innenfor sammenhengende molo-/bryggeanlegg. Beskrivende navn; operatør ikke bekreftet. Kildebildet var tilgjengelig ved første analyse, men anlegget ble oversett.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "sundene",
+        "image_sha256": "9906507a38326c764afc0485795e0e73686e8dc3eb9b9de1ca2536188adc83f6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.38502861030403,
+              59.16022600695489
+            ],
+            [
+              10.384862630589147,
+              59.15927569846669
+            ],
+            [
+              10.385663780074703,
+              59.15915310859072
+            ],
+            [
+              10.386112195708385,
+              59.15928239426462
+            ],
+            [
+              10.38604867346462,
+              59.15993491778467
+            ],
+            [
+              10.385694476374411,
+              59.15983416916283
+            ],
+            [
+              10.385147480951627,
+              59.159890253649216
+            ],
+            [
+              10.385211266049335,
+              59.16014436400183
+            ],
+            [
+              10.385565464821159,
+              59.160245113962375
+            ],
+            [
+              10.385525842442856,
+              59.1603570318832
+            ],
+            [
+              10.38502861030403,
+              59.16022600695489
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

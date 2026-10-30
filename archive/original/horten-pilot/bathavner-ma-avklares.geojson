@@ -1,0 +1,134 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K01-B01",
+        "harbour_id": "K01",
+        "name": "Drasund / Løvøya – bryggegruppe",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 2866,
+        "source_image": "images/lovoya.png",
+        "image_metadata": "images/lovoya.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=241064.80531888176%2C6598048.560033688%2C241964.80531888176%2C6599048.560033688&width=1800&height=2000&format=image%2Fpng&transparent=false",
+          "https://lovoyaoslofjord.no/",
+          "https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart. Løvøya har dokumentert båthavn, men koblingen til akkurat disse bryggene er ikke bekreftet. Ikke likestilt med båtfølget kommunen fjernet i august 2026."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4372282,
+              59.4473533
+            ],
+            [
+              10.4380339,
+              59.4471417
+            ],
+            [
+              10.4383107,
+              59.4470974
+            ],
+            [
+              10.4386151,
+              59.4473719
+            ],
+            [
+              10.4380956,
+              59.4477314
+            ],
+            [
+              10.4372282,
+              59.4473533
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K02-B01",
+        "harbour_id": "K02",
+        "name": "Steinbrygga – nordre moloområde",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 10961,
+        "source_image": "images/steinbrygga.png",
+        "image_metadata": "images/steinbrygga.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242285.09632044332%2C6590398.933954482%2C243285.09632044332%2C6591398.933954482&width=2000&height=2000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Nordre moloområde er synlig i kart; faste småbåtplasser og avgrensning mot hovedanlegget må avklares."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4712604,
+              59.3789727
+            ],
+            [
+              10.4719843,
+              59.3782655
+            ],
+            [
+              10.4730071,
+              59.3785259
+            ],
+            [
+              10.4738328,
+              59.3787537
+            ],
+            [
+              10.4725631,
+              59.3794933
+            ],
+            [
+              10.4721296,
+              59.3794397
+            ],
+            [
+              10.4712604,
+              59.3789727
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

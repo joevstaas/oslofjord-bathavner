@@ -1,0 +1,10 @@
+{
+  "polygons": 20,
+  "harbours": 17,
+  "confirmed_harbours": 15,
+  "possible_harbours": 2,
+  "new_polygons": 6,
+  "removed_polygons": 4,
+  "merged_polygons": 1,
+  "validation": "Valid Polygon geometries, within official boundary, pairwise overlap <1 m2"
+}

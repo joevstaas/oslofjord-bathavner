@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Våle båthavn / Frebergsvik",
+        "kommunenummer": "3903",
+        "status": "nytt_suppleringsfunn_ikke_godkjent",
+        "note": "Oppdaget under Horten. Ikke lagt til tidligere Holmestrand-leveranse.",
+        "source": "https://www.openstreetmap.org/node/9963302233",
+        "municipality_check": "raw/vale-kommunesjekk.json"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.357220890828028,
+              59.460717853521835
+            ],
+            [
+              10.357484752921392,
+              59.460946965647956
+            ],
+            [
+              10.357898735516999,
+              59.46115829287478
+            ],
+            [
+              10.358963445078661,
+              59.46027106078823
+            ],
+            [
+              10.358479509853577,
+              59.4601555419231
+            ],
+            [
+              10.357220890828028,
+              59.460717853521835
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "retrieved_date": "2026-10-29",
+  "sources": [
+    {
+      "url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+      "use": "24 navngitte kildehavner i Moss og tidligere Rygge; eldre kapasitet, ikke fullstendighetsbevis.",
+      "reference_period": "Rundt kommunesammenslåingen 2020. Publikasjon på nettsiden er ikke dokumentasjon av oppdatert referanseår."
+    },
+    {
+      "url": "https://www.havneweb.no/ryggebf/",
+      "use": "409 plasser og 7 faste gjesteplasser; avvik fra eldre plan 412/10."
+    },
+    {
+      "url": "https://moss-seilforening.no/havn-og-klubbhus",
+      "use": "Litt over 300 faste plasser; eldre avfallsplan oppgir 380. Presist aktuelt tall ikke satt."
+    },
+    {
+      "url": "https://www.betongen.no/",
+      "use": "Ca. 360 båter på vann, 200 opplagsplasser på land; landplasser er ikke med."
+    },
+    {
+      "url": "https://knutvika.no/",
+      "use": "Tre utleiere i samme bukt, Vindsteg har tre brygger. Ikke antatt interne grenser eller summert kildekapasitet."
+    },
+    {
+      "url": "https://www.moss-havn.no/",
+      "use": "Kommunal gjestehavn på begge sider av kanal og ved Tollbodbrygga; ferjekaier er ikke gjestehavnområde."
+    },
+    {
+      "url": "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+      "use": "Salgs-/sameiebeskrivelse stedfester 16 plasser ved Røedsstrandas steinmolo/trebrygge. Geografisk hjelp, ikke juridisk geometri."
+    }
+  ],
+  "limitations": [
+    "Planens liste er eldre og kan mangle nyere/private anlegg.",
+    "Sjekta og Refsnes småbåtforening er reelle kildeoppføringer, men sjøpolygon kunne ikke begrunnes sikkert; se kandidatloggen.",
+    "Ingen fullstendig offentlig punktdatabase for eksisterende havner funnet via kommunens kartinngang.",
+    "OSM kan omfatte land/opplag, duplisere samme anlegg eller ha slettede objekter.",
+    "Rørvika og Knutvika har flere aktører. Fysiske havnegrupper er ikke juridiske operatørgrenser."
+  ]
+}

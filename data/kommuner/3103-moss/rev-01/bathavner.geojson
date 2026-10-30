@@ -1,0 +1,3121 @@
+{
+  "type": "FeatureCollection",
+  "name": "Moss – godkjent uttrekk fra samlefil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/368366977",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 3,
+            "name": "Fiske Båtforening (Privat)",
+            "berth_count": 384,
+            "guest_count": 2,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H01-B01",
+        "harbour_id": "3103-H01",
+        "name": "Fiske båthavn",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operator_og_avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 26783.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6481576,
+        "latitude": 59.430013,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.fiske-baatforening.no/",
+          "https://www.openstreetmap.org/way/368366977",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252647.3272355881%2C6595519.445482299%2C253647.3272355881%2C6596519.445482299&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/368366977"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 384,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p01",
+        "image_sha256": "be8e96c402eea0ef3d3c4436f5d384a6d3438d61c8cb1dfc7448990df19d9e23"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.6456697,
+              59.42954330000001
+            ],
+            [
+              10.645884799999997,
+              59.42950499999999
+            ],
+            [
+              10.645927500000003,
+              59.429477699999985
+            ],
+            [
+              10.646208999999999,
+              59.429302500000006
+            ],
+            [
+              10.6462865,
+              59.42925489999999
+            ],
+            [
+              10.6463811,
+              59.429196100000006
+            ],
+            [
+              10.6465533,
+              59.4290851
+            ],
+            [
+              10.646747600000001,
+              59.42922409999999
+            ],
+            [
+              10.647044,
+              59.42935349999999
+            ],
+            [
+              10.647092700000002,
+              59.4293714
+            ],
+            [
+              10.6471594,
+              59.429392899999996
+            ],
+            [
+              10.647245000000002,
+              59.4294201
+            ],
+            [
+              10.6475676,
+              59.4295219
+            ],
+            [
+              10.647964800000002,
+              59.42960200000001
+            ],
+            [
+              10.648402100000002,
+              59.4296753
+            ],
+            [
+              10.648980599999998,
+              59.42973280000001
+            ],
+            [
+              10.649575999999998,
+              59.42975809999999
+            ],
+            [
+              10.650192100000002,
+              59.42970329999999
+            ],
+            [
+              10.650479599999999,
+              59.429925600000004
+            ],
+            [
+              10.6497176,
+              59.43018510000001
+            ],
+            [
+              10.6490417,
+              59.43088790000001
+            ],
+            [
+              10.648997100000003,
+              59.4309256
+            ],
+            [
+              10.6489688,
+              59.4309267
+            ],
+            [
+              10.648959100000003,
+              59.43092710000002
+            ],
+            [
+              10.648464399999998,
+              59.43080910000001
+            ],
+            [
+              10.648432100000003,
+              59.43080079999999
+            ],
+            [
+              10.6481778,
+              59.430735199999994
+            ],
+            [
+              10.648106700000001,
+              59.43071689999999
+            ],
+            [
+              10.647954800000003,
+              59.43067939999998
+            ],
+            [
+              10.647710800000004,
+              59.43061929999999
+            ],
+            [
+              10.647682700000004,
+              59.43061119999999
+            ],
+            [
+              10.647568700000003,
+              59.430582
+            ],
+            [
+              10.647382600000004,
+              59.430526499999985
+            ],
+            [
+              10.6472392,
+              59.430478
+            ],
+            [
+              10.647212000000001,
+              59.430469499999994
+            ],
+            [
+              10.6471418,
+              59.43044760000001
+            ],
+            [
+              10.647137500000003,
+              59.43043709999999
+            ],
+            [
+              10.64712,
+              59.430431000000006
+            ],
+            [
+              10.646982,
+              59.430382
+            ],
+            [
+              10.646970499999998,
+              59.43037640000001
+            ],
+            [
+              10.646925,
+              59.4303436
+            ],
+            [
+              10.646836700000001,
+              59.430305399999995
+            ],
+            [
+              10.6468135,
+              59.43029670000001
+            ],
+            [
+              10.6465399,
+              59.4301986
+            ],
+            [
+              10.6463845,
+              59.430133
+            ],
+            [
+              10.6463777,
+              59.430130199999994
+            ],
+            [
+              10.6463583,
+              59.4301222
+            ],
+            [
+              10.6458439,
+              59.4299111
+            ],
+            [
+              10.645838100000002,
+              59.4299087
+            ],
+            [
+              10.6458224,
+              59.42992060000001
+            ],
+            [
+              10.645768600000002,
+              59.429958000000006
+            ],
+            [
+              10.6457019,
+              59.4300043
+            ],
+            [
+              10.6456807,
+              59.43002179999999
+            ],
+            [
+              10.645655200000002,
+              59.43003600000001
+            ],
+            [
+              10.645582300000001,
+              59.430083799999984
+            ],
+            [
+              10.645569500000002,
+              59.430094499999996
+            ],
+            [
+              10.645503700000003,
+              59.430139800000006
+            ],
+            [
+              10.6454273,
+              59.4301381
+            ],
+            [
+              10.6453773,
+              59.4300235
+            ],
+            [
+              10.6453346,
+              59.42992560000001
+            ],
+            [
+              10.645334500000002,
+              59.42991029999999
+            ],
+            [
+              10.645332699999999,
+              59.429870400000006
+            ],
+            [
+              10.645344800000004,
+              59.4298049
+            ],
+            [
+              10.645353200000002,
+              59.42978279999999
+            ],
+            [
+              10.645384800000002,
+              59.4297351
+            ],
+            [
+              10.645445700000002,
+              59.42968379999999
+            ],
+            [
+              10.6454906,
+              59.429653200000004
+            ],
+            [
+              10.6456697,
+              59.42954330000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/212913243",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 14,
+            "name": "Fuglevik Båthavn v/Rygge Båtforening (Privat)",
+            "berth_count": 412,
+            "guest_count": 10,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H02-B01",
+        "harbour_id": "3103-H02",
+        "name": "Fuglevik båthavn / Rygge båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 27936.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.652285,
+        "latitude": 59.3867824,
+        "sources": [
+          "https://www.havneweb.no/ryggebf/",
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.openstreetmap.org/node/212913243",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252599.54790336362%2C6590684.357949221%2C253599.54790336362%2C6591684.357949221&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "node/212913243"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 409,
+        "berth_count_source": "https://www.havneweb.no/ryggebf/",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir 409 båtplasser og 7 faste gjesteplasser. Avfallsplanens eldre tall er 412 og 10; gjesteplasser er ikke lagt til kapasitetstallet. Båtplassbassenget følger alle synlige rekker; opplag og parkering nordøst er utelatt.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p02",
+        "image_sha256": "9ed88b561d354dfdcd9aa2da0b8ec3d797b90696b13a6e03e8866504ef5d3dc8"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.650948537986249,
+              59.38752479463989
+            ],
+            [
+              10.650334175017838,
+              59.38750428053685
+            ],
+            [
+              10.650550246025082,
+              59.386507322010885
+            ],
+            [
+              10.650925659135963,
+              59.38610020275731
+            ],
+            [
+              10.651508291483253,
+              59.38590982807432
+            ],
+            [
+              10.654197757394975,
+              59.38601457612207
+            ],
+            [
+              10.654023086279055,
+              59.3871478083541
+            ],
+            [
+              10.652213096488197,
+              59.387057430038155
+            ],
+            [
+              10.6522059807905,
+              59.38734195787988
+            ],
+            [
+              10.651732152950645,
+              59.387371104122245
+            ],
+            [
+              10.651665446635713,
+              59.38720401306869
+            ],
+            [
+              10.651400235738624,
+              59.38721014687734
+            ],
+            [
+              10.650889494672738,
+              59.38729800831785
+            ],
+            [
+              10.650948537986249,
+              59.38752479463989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/1450881540",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 9,
+            "name": "Kambo båtforening (Privat)",
+            "berth_count": 97,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H03-B01",
+        "harbour_id": "3103-H03",
+        "name": "Kambo båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6520.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.688534,
+        "latitude": 59.4770462,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://kambobf.no/",
+          "https://www.openstreetmap.org/way/1450881540",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255377.00652293212%2C6600649.698645934%2C256377.00652293212%2C6601649.698645934&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1450881540"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 97,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Båt-/fortøyningsrekke langs buet strand i nordre havnebasseng. Indre siv-/landområde er utelatt. OSM-omriss er ikke brukt som sjøfasit. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p03",
+        "image_sha256": "c342f0a320c07c7c789e322d70ce324b9a4c7cf6c0f3bd97903d71ddd93ed94c"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.687217533169193,
+              59.47661908921707
+            ],
+            [
+              10.686560009765033,
+              59.4764624700305
+            ],
+            [
+              10.686422871520488,
+              59.47638300039934
+            ],
+            [
+              10.686438119261577,
+              59.47626360660096
+            ],
+            [
+              10.686790120890338,
+              59.47627524265813
+            ],
+            [
+              10.687414497082107,
+              59.476460739657924
+            ],
+            [
+              10.688089926877273,
+              59.47670786947033
+            ],
+            [
+              10.68873222247989,
+              59.47698387523264
+            ],
+            [
+              10.689009181235317,
+              59.477352718645186
+            ],
+            [
+              10.689172616304539,
+              59.47768783657615
+            ],
+            [
+              10.69049839702693,
+              59.47768666702458
+            ],
+            [
+              10.690391349238014,
+              59.4778330035487
+            ],
+            [
+              10.68890936329453,
+              59.477903947531736
+            ],
+            [
+              10.68864764203083,
+              59.47741570976614
+            ],
+            [
+              10.688421734615053,
+              59.47710850123416
+            ],
+            [
+              10.687838107300452,
+              59.47683443276774
+            ],
+            [
+              10.687217533169193,
+              59.47661908921707
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/1448562959",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 8,
+            "name": "Kambo Marina AS (Privat)",
+            "berth_count": 300,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H04-B01",
+        "harbour_id": "3103-H04",
+        "name": "Kambo Marina",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operator_og_avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 32900.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6853113,
+        "latitude": 59.4753189,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.kambomarina.no/",
+          "https://www.openstreetmap.org/way/1448562959",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255316.17276311538%2C6600447.779046604%2C256316.17276311538%2C6601447.779046604&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1448562959"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 300,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "300 båtplasser i eldre avfallsplan; andre kilder kan oppgi nyere kapasitet. Ingen nåtelling fra bildet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p04",
+        "image_sha256": "c1e4f72d0c445aee96952d4a22d1e7b6717ef15348c43634596fe53d2be0f74a"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.683664221109261,
+              59.4754951757373
+            ],
+            [
+              10.682767541554245,
+              59.47513579054599
+            ],
+            [
+              10.68279734094445,
+              59.47467217118228
+            ],
+            [
+              10.683516565026688,
+              59.474576068210816
+            ],
+            [
+              10.684800716422751,
+              59.474438696816904
+            ],
+            [
+              10.686133570677113,
+              59.474842463750825
+            ],
+            [
+              10.687096566882957,
+              59.475144068312424
+            ],
+            [
+              10.68769996552204,
+              59.475493730422315
+            ],
+            [
+              10.688203946227285,
+              59.47593002754278
+            ],
+            [
+              10.687590605922193,
+              59.476119579480894
+            ],
+            [
+              10.686569656602938,
+              59.47604087199126
+            ],
+            [
+              10.685063394709674,
+              59.47584119780247
+            ],
+            [
+              10.683664221109261,
+              59.4754951757373
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/1430843512",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 7,
+            "name": "Moss Motorbåtfor ening (Betongen) (Privat)",
+            "berth_count": 360,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H05-B01",
+        "harbour_id": "3103-H05",
+        "name": "Moss motorbåtforening / Betongen",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 25984.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6506644,
+        "latitude": 59.442615,
+        "sources": [
+          "https://www.betongen.no/",
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.openstreetmap.org/way/1430843512",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252929.3780213175%2C6597016.307081824%2C253929.3780213175%2C6598016.307081824&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1430843512"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 360,
+        "berth_count_source": "https://www.betongen.no/",
+        "berth_count_approximate": true,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir ca. 360 båter på vann; 200 opplagsplasser på land inngår ikke i havnepolygon eller kapasitet. OSM-omrissets land-/opplagsdel er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p06",
+        "image_sha256": "81e7230af3cc4f25991fca15110ec3059008fc3bacdedd63a1f57bfe06676bc9"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.650672970880592,
+              59.44321219352884
+            ],
+            [
+              10.64929045745433,
+              59.443435850040416
+            ],
+            [
+              10.648689438653324,
+              59.44284626563737
+            ],
+            [
+              10.648748959249815,
+              59.44238363534614
+            ],
+            [
+              10.651738191557142,
+              59.441793922062566
+            ],
+            [
+              10.653024395238395,
+              59.44300583908983
+            ],
+            [
+              10.652242797514182,
+              59.442904842844065
+            ],
+            [
+              10.650672970880592,
+              59.44321219352884
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5106902846",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 19,
+            "name": "Rørvik brygge (Privat)",
+            "berth_count": 29,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          },
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 20,
+            "name": "Rørvik Bryggeforenig (Privat)",
+            "berth_count": 29,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          },
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 21,
+            "name": "Fiskermoloen (Statlig)",
+            "berth_count": null,
+            "guest_count": null,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H06-B01",
+        "harbour_id": "3103-H06",
+        "name": "Rørvika – vestre nordre båtbrygger",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_og_synlige_felles_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3505.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6768357,
+        "latitude": 59.323518,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.openstreetmap.org/node/5106902846",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253919.28491692457%2C6583679.745606056%2C254919.28491692457%2C6584679.745606056&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5106902846"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "To navngitte bryggeaktører og fiskermolo i Rørvika omtales i avfallsplanen. Interne grenser er uavklart. Fysiske småbåtdeler, ikke hele bukta.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p09",
+        "image_sha256": "2bcbb5e4a1a62364c1dbce526375e5f5ac95bbc877b2806e03a54377900e207f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.676630809579684,
+              59.323862261865386
+            ],
+            [
+              10.676253086914906,
+              59.32383472165224
+            ],
+            [
+              10.676451542236197,
+              59.32319685525574
+            ],
+            [
+              10.676889558868693,
+              59.32321141112343
+            ],
+            [
+              10.676870573014432,
+              59.32336065501383
+            ],
+            [
+              10.677814504957182,
+              59.323317080766714
+            ],
+            [
+              10.67779172667824,
+              59.32349617365001
+            ],
+            [
+              10.676847789730882,
+              59.3235397476728
+            ],
+            [
+              10.676834499351951,
+              59.323644218385745
+            ],
+            [
+              10.677165208326581,
+              59.32358026996844
+            ],
+            [
+              10.677171627998302,
+              59.32376033297868
+            ],
+            [
+              10.676630809579684,
+              59.323862261865386
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p09",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 19,
+            "name": "Rørvik brygge (Privat)",
+            "berth_count": 29,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          },
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 20,
+            "name": "Rørvik Bryggeforenig (Privat)",
+            "berth_count": 29,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          },
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 21,
+            "name": "Fiskermoloen (Statlig)",
+            "berth_count": null,
+            "guest_count": null,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H06-B02",
+        "harbour_id": "3103-H06",
+        "name": "Rørvika – vestre søndre båtbrygger",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_og_synlige_felles_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2580.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6776844,
+        "latitude": 59.3227123,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253919.28491692457%2C6583679.745606056%2C254919.28491692457%2C6584679.745606056&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p09",
+        "image_sha256": "2bcbb5e4a1a62364c1dbce526375e5f5ac95bbc877b2806e03a54377900e207f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.67721574195527,
+              59.3229524750948
+            ],
+            [
+              10.676773931253313,
+              59.32296776913715
+            ],
+            [
+              10.676917314516079,
+              59.32276270908097
+            ],
+            [
+              10.67773041145608,
+              59.32259488836143
+            ],
+            [
+              10.678631102110897,
+              59.32242997232792
+            ],
+            [
+              10.67866293477343,
+              59.322640854169464
+            ],
+            [
+              10.678396332786363,
+              59.322661973292426
+            ],
+            [
+              10.677546443469094,
+              59.32288852561719
+            ],
+            [
+              10.67721574195527,
+              59.3229524750948
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p09",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 24,
+            "name": "Nasle Bryggesameie (Privat)",
+            "berth_count": 123,
+            "guest_count": 2,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H07-B01",
+        "harbour_id": "3103-H07",
+        "name": "Nasle bryggesameie – Rørvika øst",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 9684.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6842816,
+        "latitude": 59.3244466,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://naslebrygge.wordpress.com/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253919.28491692457%2C6583679.745606056%2C254919.28491692457%2C6584679.745606056&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 123,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Navnekobling basert på stedsnavn Nasle og fellesanlegget øst i Rørvika. Eldre kapasitet fra avfallsplan; interne operatørgrenser ikke landmålt. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p09",
+        "image_sha256": "2bcbb5e4a1a62364c1dbce526375e5f5ac95bbc877b2806e03a54377900e207f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.683298718605222,
+              59.32469815655617
+            ],
+            [
+              10.682953975083334,
+              59.32464175551725
+            ],
+            [
+              10.682991132626828,
+              59.32411842880033
+            ],
+            [
+              10.68564285069751,
+              59.32425135299354
+            ],
+            [
+              10.685520020223274,
+              59.324756851132335
+            ],
+            [
+              10.68473533633944,
+              59.32470085222339
+            ],
+            [
+              10.684601467767077,
+              59.324831298614285
+            ],
+            [
+              10.684013620812586,
+              59.32484177374977
+            ],
+            [
+              10.683577474854129,
+              59.32481231706313
+            ],
+            [
+              10.683298718605222,
+              59.32469815655617
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5106902880",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 16,
+            "name": "Fische AS – Støtvig (Privat)",
+            "berth_count": 70,
+            "guest_count": 5,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H08-B01",
+        "harbour_id": "3103-H08",
+        "name": "Støtvig – indre båthavn",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 7315.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6663124,
+        "latitude": 59.3280549,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://stotvighotel.com/",
+          "https://www.openstreetmap.org/node/5106902880",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253057.88228923886%2C6584071.950605665%2C254057.88228923886%2C6585071.950605665&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5106902880"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 70,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Fische AS – Støtvig i avfallsplanen. Geografisk navnekobling til havnebassenget; kapasitet fra eldre plan. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p10",
+        "image_sha256": "e943729e92b481e42a57a6f2df14a2e36bdedeeee1d9d4f8fc59d9bdbc8ab934"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.66587697084956,
+              59.328200405241894
+            ],
+            [
+              10.665460485501237,
+              59.3282464811883
+            ],
+            [
+              10.665652203627856,
+              59.3278931661236
+            ],
+            [
+              10.665239529869213,
+              59.3279093930954
+            ],
+            [
+              10.665019221230212,
+              59.32779713988566
+            ],
+            [
+              10.665336019129466,
+              59.32761285606733
+            ],
+            [
+              10.667150505352492,
+              59.327643319534964
+            ],
+            [
+              10.66701025662428,
+              59.32828311431562
+            ],
+            [
+              10.666617266351533,
+              59.32837493911507
+            ],
+            [
+              10.666148080428103,
+              59.328374299329525
+            ],
+            [
+              10.66587697084956,
+              59.328200405241894
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p10",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 22,
+            "name": "Lersbauen (Privat)",
+            "berth_count": 39,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H09-B01",
+        "harbour_id": "3103-H09",
+        "name": "Støtvig – østre felles brygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "mulig_smabathavn",
+        "classification_basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2122.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6683407,
+        "latitude": 59.3275922,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253057.88228923886%2C6584071.950605665%2C254057.88228923886%2C6585071.950605665&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tydelig brygge med båter. Kan være knyttet til Lersbauen, men navnekobling og minst ti faste plasser er ikke bekreftet.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p10",
+        "image_sha256": "e943729e92b481e42a57a6f2df14a2e36bdedeeee1d9d4f8fc59d9bdbc8ab934"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.668924376880595,
+              59.32776233091344
+            ],
+            [
+              10.667588573812226,
+              59.32765790731938
+            ],
+            [
+              10.667615215461456,
+              59.32744896857223
+            ],
+            [
+              10.66904242876206,
+              59.327526459812894
+            ],
+            [
+              10.669140223863565,
+              59.32767959059899
+            ],
+            [
+              10.668924376880595,
+              59.32776233091344
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/1394937685",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 6,
+            "name": "Søly båthavn (Moss Seilforening) (Privat)",
+            "berth_count": 380,
+            "guest_count": 2,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H10-B01",
+        "harbour_id": "3103-H10",
+        "name": "Søly båthavn / Moss Seilforening",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 31437.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6411834,
+        "latitude": 59.4270341,
+        "sources": [
+          "https://moss-seilforening.no/havn-og-klubbhus",
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.openstreetmap.org/way/1394937685",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252256.49051715783%2C6595226.380877059%2C253256.49051715783%2C6596226.380877059&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1394937685"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir litt over 300 faste plasser; den eldre avfallsplanen oppgir 380. Ingen presis oppdatert kapasitet er satt. OSM-omrissets parkering og klubbhus er utelatt.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p12",
+        "image_sha256": "e2820c6209e7ee5bc4b3c6113f756b9c68e4f775f41977b27cc51058c619ea6e"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.64146863675955,
+              59.42791781611289
+            ],
+            [
+              10.638842330103195,
+              59.42684078691305
+            ],
+            [
+              10.63872044695809,
+              59.42641705232845
+            ],
+            [
+              10.639926146356764,
+              59.42596279141646
+            ],
+            [
+              10.640303047280394,
+              59.42600537312901
+            ],
+            [
+              10.641588804937397,
+              59.42652797661776
+            ],
+            [
+              10.642723846498804,
+              59.426850688594065
+            ],
+            [
+              10.643382596279789,
+              59.427217423610706
+            ],
+            [
+              10.643269752092618,
+              59.42740849223498
+            ],
+            [
+              10.641964643078085,
+              59.427949387068786
+            ],
+            [
+              10.64146863675955,
+              59.42791781611289
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/505121328",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 10,
+            "name": "Vansjø båtforening (Privat)",
+            "berth_count": 185,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H11-B01",
+        "harbour_id": "3103-H11",
+        "name": "Vansjø båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde",
+        "area_m2": 12873.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6859953,
+        "latitude": 59.4271073,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.openstreetmap.org/way/505121328",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254806.4741480479%2C6595025.672560233%2C255806.4741480479%2C6596025.672560233&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/505121328"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 185,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Parkering/opplag på land utelatt fra OSM-kandidaten. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling. Vannmiljø: ferskvann.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p13",
+        "image_sha256": "80ad73b72cb22cdecaefdd24696f6be97bcdcd09dec9502d7d8b23ca3118a976"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.685901957056304,
+              59.4275610231311
+            ],
+            [
+              10.685011053985644,
+              59.42739665128419
+            ],
+            [
+              10.685119515093128,
+              59.42654596553347
+            ],
+            [
+              10.68554670390755,
+              59.42642521923979
+            ],
+            [
+              10.686790972245225,
+              59.426586293031036
+            ],
+            [
+              10.686996766929857,
+              59.426817911219885
+            ],
+            [
+              10.686812649904502,
+              59.42780097985925
+            ],
+            [
+              10.68657641547175,
+              59.4278081507872
+            ],
+            [
+              10.685901957056304,
+              59.4275610231311
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/1361970107",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3103-H12-B01",
+        "harbour_id": "3103-H12",
+        "name": "Verket – småbåt- og gjestehavn",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "sammenhengende_anlegg_med_minst_10_synlige_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 10977.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6637866,
+        "latitude": 59.4410236,
+        "sources": [
+          "https://www.verketmoss.no/",
+          "https://www.openstreetmap.org/way/1361970107",
+          "https://www.openstreetmap.org/way/1361970105",
+          "https://www.openstreetmap.org/way/1361970108",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253662.2951561284%2C6596597.162119556%2C254662.2951561284%2C6597597.162119556&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "way/1361970107",
+          "way/1361970105",
+          "way/1361970108"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tre nærliggende OSM-flater beskriver samme fysiske bryggegruppe i bildene. Ikke tre selvstendige havner. Fordeling mellom fast-/gjestebruk og intern operatørgrense er ikke bekreftet.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p15",
+        "image_sha256": "0fee837c0eed75d82a5f73e60b189688a54de4c43be44db3d4297401c45bf3e0"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.663258033609155,
+              59.44163071857938
+            ],
+            [
+              10.662535168609587,
+              59.440842312550146
+            ],
+            [
+              10.663368415203644,
+              59.44054030296443
+            ],
+            [
+              10.66407930745886,
+              59.44050399442412
+            ],
+            [
+              10.664871062731986,
+              59.44075513256264
+            ],
+            [
+              10.664872283453601,
+              59.4412047974014
+            ],
+            [
+              10.663258033609155,
+              59.44163071857938
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-kippenes",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 13,
+            "name": "Kippenes hyttegrend (Privat)",
+            "berth_count": 33,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H13-B01",
+        "harbour_id": "3103-H13",
+        "name": "Kippenes hyttegrend – felles båtbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1451.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6725449,
+        "latitude": 59.4844705,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254630.3685632129%2C6601667.670595126%2C255630.3685632129%2C6602667.670595126&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 33,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "kippenes",
+        "image_sha256": "ffde2aadfd57dc16ab87010039fc80991de1f9950cfc1f1a5143a2aaa589fbcb"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.672924782725094,
+              59.48471541702935
+            ],
+            [
+              10.671938047600513,
+              59.48436796175781
+            ],
+            [
+              10.672078362212966,
+              59.4841927667979
+            ],
+            [
+              10.673149289244332,
+              59.484572987212125
+            ],
+            [
+              10.672924782725094,
+              59.48471541702935
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-sildebaugen",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 17,
+            "name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+            "berth_count": 38,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H14-B01",
+        "harbour_id": "3103-H14",
+        "name": "Sildebaugen – nordre båtbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2005.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7164701,
+        "latitude": 59.3288474,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255665.31362330358%2C6583789.874824459%2C256665.31362330358%2C6584789.874824459&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 38,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Sameiet Sildebaugen Båtbrygge i avfallsplanen; navnekoblingen er geografisk. To hovedbrygger, men interne rettigheter er ikke kartlagt. Kapasiteten gjelder begge delpolygoner samlet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "sildebaugen",
+        "image_sha256": "ed90211c3cb8394c28635c635ce0d6a4a0ac3c06382f0de8bd0e1b7f52f0a6d2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.71746304693182,
+              59.32879579330141
+            ],
+            [
+              10.715910387105662,
+              59.329014449054746
+            ],
+            [
+              10.715779404819836,
+              59.32889023957794
+            ],
+            [
+              10.715907526161992,
+              59.328804535417476
+            ],
+            [
+              10.717485621283537,
+              59.32861669123122
+            ],
+            [
+              10.71746304693182,
+              59.32879579330141
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-refsnes-gods",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 2,
+            "name": "Refsnes Gods brygge (Privat)",
+            "berth_count": 18,
+            "guest_count": 4,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H15-B01",
+        "harbour_id": "3103-H15",
+        "name": "Refsnes Gods / Refsnes bryggeforening – båtbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_og_mudringsvedtak_dokumenterer_felles_batanlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2126.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6110582,
+        "latitude": 59.4441381,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/refsnes-bryggeforening/vedtak-om-tillatelse-etter-forurensningsloven-til-mudring-ved-felles-batanlegg---1_2864---moss-kommune.pdf",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=250726.66666666663%2C6597099.999999999%2C251726.66666666663%2C6598099.999999999&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 18,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "18 plasser i avfallsplan. Mudringsvedtak 05.06.2024 beskriver eksisterende fellesanlegg og adkomst til hotellet. Ikke samme kandidat som Refsnes småbåtforening. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "refsnes-gods",
+        "image_sha256": "a8b87c3a6b72c9c19dd37e1d359f033be9f9a67d96fcc2cc0e0ff4b7a1f80e98"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.611267185907305,
+              59.44442803531177
+            ],
+            [
+              10.610753290991576,
+              59.44430582201389
+            ],
+            [
+              10.610790091152976,
+              59.44402228884187
+            ],
+            [
+              10.611208074281707,
+              59.44397640602783
+            ],
+            [
+              10.611436939678041,
+              59.44425389278764
+            ],
+            [
+              10.612134399190841,
+              59.444322328620935
+            ],
+            [
+              10.612087669723383,
+              59.44445564797532
+            ],
+            [
+              10.611267185907305,
+              59.44442803531177
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-knutvika-havn",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 15,
+            "name": "Knutvika – Vindsteg AS (Privat)",
+            "berth_count": 83,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          },
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 18,
+            "name": "Arbeidernes båtforening Moss-Teibern (Privat)",
+            "berth_count": 100,
+            "guest_count": 4,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H16-B01",
+        "harbour_id": "3103-H16",
+        "name": "Knutvika / Teibern – felles havneområde",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "operatorer_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 18550.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6930716,
+        "latitude": 59.3099135,
+        "sources": [
+          "https://knutvika.no/",
+          "https://abf-teibern.no/baat/",
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254453.3333333333%2C6582026.666666666%2C255453.3333333333%2C6583026.666666666&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Knutvika har tre utleiere ifølge Vindstegs operatørside. ABF-Teibern og Vindsteg omtaler samme bukt. Fysisk havnegruppe; ingen konstruerte interne operatørgrenser og ingen summerte kildekapasiteter.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "knutvika-havn",
+        "image_sha256": "6970efed2501cef6513cdd4abad44b89f6a01bcf18b2885e20d35860a59e9db3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.693052119070037,
+              59.31054592527552
+            ],
+            [
+              10.691953147374452,
+              59.31065940388976
+            ],
+            [
+              10.691762291040183,
+              59.310083563022346
+            ],
+            [
+              10.691546856147088,
+              59.30970174313369
+            ],
+            [
+              10.692480111278151,
+              59.30950784377301
+            ],
+            [
+              10.693289035276985,
+              59.30936977050118
+            ],
+            [
+              10.694351211832174,
+              59.309315012824364
+            ],
+            [
+              10.694793684265623,
+              59.309524494734454
+            ],
+            [
+              10.6946193872233,
+              59.30974353521508
+            ],
+            [
+              10.694032430413488,
+              59.31044349660049
+            ],
+            [
+              10.693508885990433,
+              59.31041117603333
+            ],
+            [
+              10.693052119070037,
+              59.31054592527552
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-fleischer",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 1,
+            "name": "Moss Marina AS (privat)",
+            "berth_count": 125,
+            "guest_count": 9,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H17-B01",
+        "harbour_id": "3103-H17",
+        "name": "Mossesundet vest – Moss Marina / Værftsgata brygger",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 11779.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.649302,
+        "latitude": 59.4364616,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/982743354",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252899.99999999997%2C6596366.666666666%2C253899.99999999997%2C6597366.666666666&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tydelig felles båtplassanlegg. Foreløpig kobling til Moss Marina; registrert adresse alene fastslår ikke operatørgrensen. Kapasiteten 125 fra avfallsplanen er derfor ikke satt på dette omrisset.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "fleischer",
+        "image_sha256": "7c497d4ba7986a693367b104ab8687a917ecaf4e74bcd1710b2ccb90befb77fe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.648689301307313,
+              59.43721414504989
+            ],
+            [
+              10.64798998514085,
+              59.437160829008036
+            ],
+            [
+              10.647932310948054,
+              59.43669428696214
+            ],
+            [
+              10.648603232182703,
+              59.4362820391321
+            ],
+            [
+              10.64915553683594,
+              59.43610563197849
+            ],
+            [
+              10.649672781409471,
+              59.43597301563686
+            ],
+            [
+              10.65017134741442,
+              59.43621446468978
+            ],
+            [
+              10.650381297472732,
+              59.43664112243686
+            ],
+            [
+              10.648689301307313,
+              59.43721414504989
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-fleischer",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 12,
+            "name": "Fleischer Brygge Båtforening (Privat)",
+            "berth_count": 34,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H18-B01",
+        "harbour_id": "3103-H18",
+        "name": "Mossesundet øst – Fleischer Brygge-området",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6341.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6544951,
+        "latitude": 59.4357368,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252899.99999999997%2C6596366.666666666%2C253899.99999999997%2C6597366.666666666&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Felles brygger på østsiden av Mossesundet ved Fleischer Brygge. Navnekoblingen og intern avgrensning er foreløpig; planens 34 plasser er ikke automatisk kapasitet for hele dette polygonet. Den separate gjestepontongen ved Tollbodbrygga er utelatt.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "fleischer",
+        "image_sha256": "7c497d4ba7986a693367b104ab8687a917ecaf4e74bcd1710b2ccb90befb77fe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.654432365880607,
+              59.43602682853684
+            ],
+            [
+              10.653857383386864,
+              59.43569292355619
+            ],
+            [
+              10.653632056241207,
+              59.43538566029721
+            ],
+            [
+              10.653949947483566,
+              59.43520141882162
+            ],
+            [
+              10.654258791712266,
+              59.43531662674569
+            ],
+            [
+              10.655140706710005,
+              59.435780659551114
+            ],
+            [
+              10.655893405052856,
+              59.43610549244153
+            ],
+            [
+              10.655245574679608,
+              59.43633869443198
+            ],
+            [
+              10.654432365880607,
+              59.43602682853684
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/6802559307",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3103-H19-B01",
+        "harbour_id": "3103-H19",
+        "name": "Moss gjestehavn – søndre kanal øst",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "havneoperator_dokumenterer_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4994.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6531403,
+        "latitude": 59.4318822,
+        "sources": [
+          "https://www.moss-havn.no/",
+          "https://www.openstreetmap.org/node/6802559307",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253001.69889949623%2C6595829.72141196%2C254001.69889949623%2C6596829.72141196&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [
+          "node/6802559307"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Foreløpig sjøbelte langs gjestekai; ferjekaier og seilingsleden er utelatt. Sesong-/anleggsrestriksjoner må kontrolleres hos operatøren.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p05",
+        "image_sha256": "32b0ea1e0783eebe816c258e794c136708cdb5f5c2b5d8508c2de28d89003c1b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.652927475511555,
+              59.43354616538976
+            ],
+            [
+              10.652693114088605,
+              59.43353835072831
+            ],
+            [
+              10.653026962420594,
+              59.43185588410129
+            ],
+            [
+              10.653241687658115,
+              59.43018443284392
+            ],
+            [
+              10.653472192110423,
+              59.43022209361612
+            ],
+            [
+              10.653255560712806,
+              59.4319084690475
+            ],
+            [
+              10.652927475511555,
+              59.43354616538976
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p05",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3103-H19-B02",
+        "harbour_id": "3103-H19",
+        "name": "Moss gjestehavn – nordre kanal vest",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "havneoperator_dokumenterer_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1066.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6523418,
+        "latitude": 59.4344409,
+        "sources": [
+          "https://www.moss-havn.no/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253001.69889949623%2C6595829.72141196%2C254001.69889949623%2C6596829.72141196&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p05",
+        "image_sha256": "32b0ea1e0783eebe816c258e794c136708cdb5f5c2b5d8508c2de28d89003c1b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.652412927934837,
+              59.4348029536622
+            ],
+            [
+              10.65217855798255,
+              59.43479513797783
+            ],
+            [
+              10.652270614827144,
+              59.434078802966894
+            ],
+            [
+              10.652504979855246,
+              59.434086618429255
+            ],
+            [
+              10.652412927934837,
+              59.4348029536622
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p05",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3103-H19-B03",
+        "harbour_id": "3103-H19",
+        "name": "Moss gjestehavn – nordre kanal øst / Tollbodbrygga",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "havneoperator_dokumenterer_gjestehavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3227.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6526455,
+        "latitude": 59.4344998,
+        "sources": [
+          "https://www.moss-havn.no/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253001.69889949623%2C6595829.72141196%2C254001.69889949623%2C6596829.72141196&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tollbodbryggas sjø-/bryggefelt og østre kanalkai. Fast-/gjestefordeling er ikke landmålt.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p05",
+        "image_sha256": "32b0ea1e0783eebe816c258e794c136708cdb5f5c2b5d8508c2de28d89003c1b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.653415825542286,
+              59.435241058102946
+            ],
+            [
+              10.652419739921529,
+              59.43520784604422
+            ],
+            [
+              10.652587113777791,
+              59.43413432008153
+            ],
+            [
+              10.6528214792882,
+              59.43414213498043
+            ],
+            [
+              10.65270013754166,
+              59.43485749364108
+            ],
+            [
+              10.653458007594852,
+              59.43491273739367
+            ],
+            [
+              10.653415825542286,
+              59.435241058102946
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p09",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3103-H20-B01",
+        "harbour_id": "3103-H20",
+        "name": "Rørvika – nordre skråbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1333.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6816402,
+        "latitude": 59.3243374,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=253919.28491692457%2C6583679.745606056%2C254919.28491692457%2C6584679.745606056&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Samlet rekke av småbåter langs en felles brygge. Operatør-/navnekobling til avfallsplanens aktører er ikke avklart.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p09",
+        "image_sha256": "2bcbb5e4a1a62364c1dbce526375e5f5ac95bbc877b2806e03a54377900e207f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.681382728531473,
+              59.324544646691905
+            ],
+            [
+              10.681125597104078,
+              59.324491148879176
+            ],
+            [
+              10.681757058588,
+              59.324137423634426
+            ],
+            [
+              10.682124551144197,
+              59.32401473388198
+            ],
+            [
+              10.682249702065228,
+              59.32418374911088
+            ],
+            [
+              10.681382728531473,
+              59.324544646691905
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-sildebaugen",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 17,
+            "name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+            "berth_count": 38,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H14-B02",
+        "harbour_id": "3103-H14",
+        "name": "Sildebaugen – søndre båtbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2501.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.7161313,
+        "latitude": 59.3284297,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255665.31362330358%2C6583789.874824459%2C256665.31362330358%2C6584789.874824459&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Andre del av samme fysiske anlegg. Kapasitet er bare oppgitt på nordre delrad.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "sildebaugen",
+        "image_sha256": "ed90211c3cb8394c28635c635ce0d6a4a0ac3c06382f0de8bd0e1b7f52f0a6d2"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.717068206744212,
+              59.32843809417962
+            ],
+            [
+              10.715225370531227,
+              59.328632202515585
+            ],
+            [
+              10.715193306682732,
+              59.32842132709487
+            ],
+            [
+              10.717065338540584,
+              59.32822818047242
+            ],
+            [
+              10.717068206744212,
+              59.32843809417962
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-place-Rødstranda",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 23,
+            "name": "Sameiet Røedsstranda Molo og Bryggeanlegg (Privat)",
+            "berth_count": 16,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "bilde_og_kildekontrollert"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H21-B01",
+        "harbour_id": "3103-H21",
+        "name": "Sameiet Røedsstranda – molo og båtbrygge",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_og_sameiebeskrivelse_dokumenterer_16_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2254.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6584101,
+        "latitude": 59.3369393,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=252767.85863342034%2C6584961.658162301%2C253767.85863342034%2C6585961.658162301&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 16,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Stedfestet ved Rødstranda/Billmannsbakken. Sameiebeskrivelse angir steinmolo med trebrygge ytterst og 16 plasser. Kildekapasitet fra avfallsplan; nøyaktig fortøyningsutstrekning er usikker. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "place-Rødstranda",
+        "image_sha256": "2c2c5a4ebf9dbbb5e1217b853fd1f64a44b0b9364cd6abfe07015e3a782d63c3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.658485915498954,
+              59.3373785860008
+            ],
+            [
+              10.65819378990948,
+              59.33736883961544
+            ],
+            [
+              10.658273917594588,
+              59.336742032069715
+            ],
+            [
+              10.658566037834245,
+              59.336751778213284
+            ],
+            [
+              10.6585767710946,
+              59.337126827281196
+            ],
+            [
+              10.659595390339728,
+              59.337190781714995
+            ],
+            [
+              10.65951789293791,
+              59.33733807313405
+            ],
+            [
+              10.658528481943176,
+              59.337275092643615
+            ],
+            [
+              10.658485915498954,
+              59.3373785860008
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-fuglevik-west",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": "ca_2020_ikke_bekreftet",
+        "source_register_members": [
+          {
+            "source": "avfallsplan_ca_2020",
+            "number": 11,
+            "name": "AL Fuglevikbryggen (Privat)",
+            "berth_count": 54,
+            "guest_count": 0,
+            "reference_period": "ca_2020_ikke_bekreftet",
+            "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+            "link_status": "forelopig_geografisk"
+          }
+        ],
+        "capacity_components": [],
+        "id": "3103-H22-B01",
+        "harbour_id": "3103-H22",
+        "name": "Fuglevikbryggen – Jeløya",
+        "name_is_descriptive": true,
+        "municipality": "Moss",
+        "municipality_code": "3103",
+        "classification": "smabathavn",
+        "classification_basis": "avfallsplan_dokumenterer_faste_plasser_og_synlig_felles_batplassrekke",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T17:49:50Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3861.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.6294032,
+        "latitude": 59.4662797,
+        "sources": [
+          "https://www.kambomarina.no/kambo_marina/avfallsplan",
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/920520111",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=251699.99999999997%2C6599966.666666666%2C252699.99999999997%2C6600966.666666666&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.6667,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 54,
+        "berth_count_source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Moss Havn, kildeangitte operatører og felles avfallsplan; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Geografisk kobling til Fuglevik gård/Jeløya og synlig båt-/molorekke i sørvestre Fuglevika. Ikke samme anlegg som Fuglevik båthavn i tidligere Rygge. Sjø-/bryggebelte, ikke hele det grunne strandbassenget. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "fuglevik-west",
+        "image_sha256": "99260f286faa59ddfaacca50ab5afb58f5bb77a359b52aa04c1f43d928b1c7bd"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.629203234835991,
+              59.46664288690795
+            ],
+            [
+              10.628874891293572,
+              59.46667684880865
+            ],
+            [
+              10.628849065954268,
+              59.46642119090506
+            ],
+            [
+              10.629265008546842,
+              59.46616534719952
+            ],
+            [
+              10.630034742343938,
+              59.46590636659205
+            ],
+            [
+              10.631089967304334,
+              59.46571689446861
+            ],
+            [
+              10.631092275650722,
+              59.46592680065271
+            ],
+            [
+              10.630121151490025,
+              59.46614906574737
+            ],
+            [
+              10.629382665784181,
+              59.46639410610038
+            ],
+            [
+              10.629203234835991,
+              59.46664288690795
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "started_utc": "2026-10-28T21:59:20Z",
+  "stages": [
+    {
+      "milestone": "kartgjennomgang_og_kildelokalisering",
+      "utc": "2026-10-28T22:13:17.603354+00:00"
+    }
+  ],
+  "approval_wait_included": false,
+  "finished_utc": "2026-10-28T22:19:51Z",
+  "elapsed_wall_seconds": 1231,
+  "elapsed_wall_minutes": 20.52,
+  "scope": "Kun Horten; ingen neste kommune startet",
+  "includes": [
+    "sok",
+    "nedlasting",
+    "kartgjennomgang",
+    "digitalisering",
+    "feilretting",
+    "kartvisning",
+    "validering",
+    "pakking"
+  ],
+  "excludes": [
+    "venting_pa_brukergodkjenning",
+    "flyfotoverifikasjon",
+    "uavhengig_fagkontroll"
+  ],
+  "milestones": [
+    {
+      "milestone": "forste_kart_og_grunnlagsuttrekk",
+      "utc": "2026-10-28T22:01:27Z"
+    },
+    {
+      "milestone": "screeningskart_og_forste_detaljkart_hentet",
+      "utc": "2026-10-28T22:06:35Z"
+    },
+    {
+      "milestone": "geometri_validert_etter_grensekontroll",
+      "utc": "2026-10-28T22:15:14Z"
+    },
+    {
+      "milestone": "kartvisning_testet",
+      "utc": "2026-10-28T22:18:03Z"
+    },
+    {
+      "milestone": "leveranse_pakket_og_kontrollert",
+      "utc": "2026-10-28T22:19:51Z"
+    }
+  ],
+  "stage_note": "Innhenting og analyse overlapper. Milepæler er observerte kontrolltidspunkt, ikke summerbare eksklusive arbeidstider.",
+  "forecast": {
+    "planning_municipalities": 26,
+    "scope_count_is_planning_assumption": true,
+    "already_processed": 2,
+    "remaining_if_26": 24,
+    "linear_total_hours": 8.89,
+    "planning_total_hours": [
+      9,
+      18
+    ],
+    "linear_remaining_hours": 8.21,
+    "planning_remaining_hours": [
+      9,
+      17
+    ],
+    "uncertainty": "Lav sikkerhet: bare ett tidsmålt eksempel; større skjærgårdskommuner kan kreve mer. Dobling er en planleggingsmargin, ikke et statistisk konfidensintervall.",
+    "source_for_26": "https://www.regjeringen.no/no/aktuelt/statusrapport-om-oslofjorden2/id3013122/"
+  }
+}

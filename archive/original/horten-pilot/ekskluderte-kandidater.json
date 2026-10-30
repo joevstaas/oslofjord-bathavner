@@ -1,0 +1,40 @@
+[
+  {
+    "id": "H01-B01",
+    "harbour_id": "H01",
+    "name": "Våle båthavn / Frebergsvik",
+    "image": "frebergsvik",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        628,
+        744
+      ],
+      [
+        654,
+        706
+      ],
+      [
+        693,
+        672
+      ],
+      [
+        776,
+        832
+      ],
+      [
+        732,
+        849
+      ]
+    ],
+    "osm_id": "node/9963302233",
+    "sources": [
+      "https://www.openstreetmap.org/node/9963302233"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  }
+]

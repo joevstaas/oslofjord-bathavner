@@ -1,0 +1,76 @@
+{
+  "municipalities": [
+    {
+      "name": "Holmestrand",
+      "kommunenummer": "3903",
+      "features": 14,
+      "delivery_status": "godkjent_som_pilot"
+    },
+    {
+      "name": "Horten",
+      "kommunenummer": "3901",
+      "features": 16,
+      "delivery_status": "godkjent_av_bruker"
+    },
+    {
+      "name": "Tønsberg",
+      "kommunenummer": "3905",
+      "features": 20,
+      "delivery_status": "godkjent_av_bruker"
+    },
+    {
+      "name": "Færder",
+      "kommunenummer": "3911",
+      "features": 35,
+      "harbours": 31,
+      "revision": 2,
+      "delivery_status": "godkjent_av_bruker"
+    },
+    {
+      "name": "Sandefjord",
+      "kommunenummer": "3907",
+      "features": 67,
+      "harbours": 65,
+      "revision": 1,
+      "delivery_status": "godkjent_av_bruker",
+      "method_version": "1.1",
+      "schema_version": "1.1"
+    },
+    {
+      "name": "Larvik",
+      "kommunenummer": "3909",
+      "features": 32,
+      "harbours": 23,
+      "revision": 1,
+      "delivery_status": "godkjent_av_bruker",
+      "method_version": "1.1",
+      "schema_version": "1.1"
+    },
+    {
+      "name": "Moss",
+      "kommunenummer": "3103",
+      "features": 26,
+      "harbours": 22,
+      "revision": 1,
+      "delivery_status": "godkjent_av_bruker",
+      "method_version": "1.1",
+      "schema_version": "1.1"
+    }
+  ],
+  "features": 210,
+  "classification_counts": {
+    "kart_og_kilde": 22,
+    "ma_avklares": 8,
+    "smabathavn": 173,
+    "mulig_smabathavn": 7
+  },
+  "all_geometries_valid": true,
+  "unique_ids": true,
+  "crs": "WGS84 / EPSG:4326; longitude, latitude",
+  "scope": "Kun godkjente kommuneleveranser. Ikke alle Oslofjordkommuner er kartlagt. Godkjenning fjerner ikke klassifiserings- og geometriusikkerhet.",
+  "method_note": "Holmestrand/Horten: eldre kartbaserte piloter. Tønsberg: godkjent revisjon 2 med Esri-kontroll. Klassifiseringsfelt er ikke fullt harmonisert. Færder: godkjent revisjon 2, 31 anlegg / 35 polygoner; kjente usikkerheter beholdt. Sandefjord: godkjent revisjon 1, 65 anlegg / 67 polygoner, metode/skjema 1.1; kjente usikkerheter beholdt. Larvik: godkjent revisjon 1, 23 anlegg / 32 polygoner; 15 usikre avgrensninger og uavklarte kandidater beholdt. Moss: godkjent revisjon 1, 22 anlegg / 26 polygoner; én mulig havn, 15 usikre avgrensninger og åpne kildekandidater beholdt.",
+  "excluded": "Ikke godkjent suppleringsfunn Våle båthavn i Holmestrand er ikke inkludert.",
+  "methodology": "METODIKK.md",
+  "methodology_version": "1.1",
+  "updated_date": "2026-10-29"
+}

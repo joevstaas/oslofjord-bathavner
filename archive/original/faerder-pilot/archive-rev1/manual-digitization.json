@@ -1,0 +1,1699 @@
+[
+  {
+    "name": "Ferjeodden – småbåtanlegg",
+    "image": "c00",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        460,
+        523
+      ],
+      [
+        480,
+        487
+      ],
+      [
+        554,
+        505
+      ],
+      [
+        550,
+        542
+      ],
+      [
+        528,
+        576
+      ],
+      [
+        465,
+        583
+      ]
+    ],
+    "osm_ids": [
+      "node/5107343355"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Vrengen – østre bryggeanlegg",
+    "image": "c00",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        840,
+        646
+      ],
+      [
+        871,
+        643
+      ],
+      [
+        886,
+        718
+      ],
+      [
+        929,
+        704
+      ],
+      [
+        929,
+        761
+      ],
+      [
+        884,
+        768
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "possible": false,
+    "note": "To nærliggende T-brygger ved felles adkomst. Operatør er ikke dokumentert.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Arås Båtforening",
+    "image": "c01",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        358,
+        552
+      ],
+      [
+        392,
+        534
+      ],
+      [
+        510,
+        530
+      ],
+      [
+        531,
+        626
+      ],
+      [
+        473,
+        658
+      ],
+      [
+        438,
+        666
+      ],
+      [
+        426,
+        652
+      ],
+      [
+        374,
+        643
+      ],
+      [
+        351,
+        637
+      ]
+    ],
+    "osm_ids": [
+      "node/5107343357",
+      "way/760070485"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://araas.no/"
+    ],
+    "possible": false,
+    "note": "OSM-punktet nord for området og OSM-området er samme synlige havn; slått sammen.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Tønsberg Seilforening – Fjærholmen",
+    "image": "c02",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        588,
+        354
+      ],
+      [
+        610,
+        374
+      ],
+      [
+        616,
+        411
+      ],
+      [
+        646,
+        451
+      ],
+      [
+        650,
+        475
+      ],
+      [
+        587,
+        555
+      ],
+      [
+        575,
+        562
+      ],
+      [
+        518,
+        538
+      ],
+      [
+        480,
+        464
+      ],
+      [
+        482,
+        411
+      ],
+      [
+        544,
+        375
+      ]
+    ],
+    "osm_ids": [
+      "node/5107343358"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Nesbrygga – småbåthavn",
+    "image": "c03",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        284,
+        516
+      ],
+      [
+        369,
+        366
+      ],
+      [
+        399,
+        376
+      ],
+      [
+        446,
+        410
+      ],
+      [
+        501,
+        462
+      ],
+      [
+        369,
+        574
+      ],
+      [
+        325,
+        537
+      ]
+    ],
+    "osm_ids": [
+      "node/5107343359"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Tenvik båtforening",
+    "image": "c04",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        542,
+        473
+      ],
+      [
+        610,
+        488
+      ],
+      [
+        611,
+        534
+      ],
+      [
+        594,
+        569
+      ],
+      [
+        532,
+        554
+      ]
+    ],
+    "osm_ids": [
+      "node/5107482195"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://www.havneweb.no/tenvikbrygge/?mod=kontaktinfo"
+    ],
+    "possible": false,
+    "note": "Søndre bryggegruppe, ved foreningens oppgitte lokalisering. Fergekaien er utelatt.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Tenvik – nordre småbåtbasseng",
+    "image": "c04",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        509,
+        282
+      ],
+      [
+        528,
+        280
+      ],
+      [
+        565,
+        348
+      ],
+      [
+        584,
+        364
+      ],
+      [
+        582,
+        384
+      ],
+      [
+        542,
+        382
+      ],
+      [
+        517,
+        362
+      ],
+      [
+        505,
+        327
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "possible": false,
+    "note": "Tydelig båtplassmønster i separat basseng nord for fergekaien. Operatør er ikke bekreftet; ikke automatisk slått sammen med båtforeningen.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Albykilen / Veierland Båtforening – nordre brygge",
+    "image": "c05",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        427,
+        517
+      ],
+      [
+        494,
+        509
+      ],
+      [
+        497,
+        534
+      ],
+      [
+        462,
+        540
+      ],
+      [
+        472,
+        559
+      ],
+      [
+        432,
+        561
+      ]
+    ],
+    "osm_ids": [
+      "node/5107482196"
+    ],
+    "sources": [
+      "https://www.veierland.org/veierland"
+    ],
+    "possible": false,
+    "note": "Velforeningens havneoversikt stedfester Albykilen. Bildedato er ukjent, og utvidelse omtalt i 2023 er ikke verifisert.",
+    "group": "alby",
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "dokumentert_batforening_og_synlig_felles_brygge"
+  },
+  {
+    "name": "Dalsveien – småbåtanlegg",
+    "image": "c06",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        418,
+        422
+      ],
+      [
+        450,
+        415
+      ],
+      [
+        489,
+        438
+      ],
+      [
+        492,
+        524
+      ],
+      [
+        423,
+        533
+      ]
+    ],
+    "osm_ids": [
+      "node/5107500227"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "Avgrenser den tette bryggegruppen; spredte nabobrygger er utelatt.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Engøbrygga – småbåtanlegg",
+    "image": "c07",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        395,
+        384
+      ],
+      [
+        500,
+        345
+      ],
+      [
+        523,
+        412
+      ],
+      [
+        521,
+        445
+      ],
+      [
+        505,
+        478
+      ],
+      [
+        439,
+        456
+      ],
+      [
+        432,
+        432
+      ],
+      [
+        400,
+        429
+      ]
+    ],
+    "osm_ids": [
+      "node/5107500242"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Krukehavn/Sandøsund – indre basseng",
+    "image": "c08",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        334,
+        522
+      ],
+      [
+        355,
+        520
+      ],
+      [
+        369,
+        552
+      ],
+      [
+        369,
+        586
+      ],
+      [
+        443,
+        606
+      ],
+      [
+        456,
+        600
+      ],
+      [
+        460,
+        534
+      ],
+      [
+        448,
+        521
+      ],
+      [
+        454,
+        515
+      ],
+      [
+        483,
+        524
+      ],
+      [
+        497,
+        574
+      ],
+      [
+        487,
+        665
+      ],
+      [
+        377,
+        661
+      ],
+      [
+        349,
+        602
+      ]
+    ],
+    "osm_ids": [
+      "node/5107512191"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/"
+    ],
+    "possible": false,
+    "note": "Blandet havnebruk. Kommunen oppgir ca. 25 gjesteplasser for Sandøsund; dette er ikke total kapasitet for alle båter i begge delpolygonene.",
+    "group": "kruke",
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_gjestehavn"
+  },
+  {
+    "name": "Krukehavn/Sandøsund – nordre kai",
+    "image": "c08",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        342,
+        487
+      ],
+      [
+        476,
+        468
+      ],
+      [
+        483,
+        496
+      ],
+      [
+        393,
+        511
+      ],
+      [
+        345,
+        518
+      ]
+    ],
+    "osm_ids": [
+      "node/5107512191"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/"
+    ],
+    "possible": false,
+    "note": "Del av samme havnegruppe som indre basseng. Smalt belte ved kai, ikke hele sundet.",
+    "group": "kruke",
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_gjestehavn"
+  },
+  {
+    "name": "Havna Tjøme gjestehavn",
+    "image": "c09",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        389,
+        539
+      ],
+      [
+        462,
+        532
+      ],
+      [
+        461,
+        457
+      ],
+      [
+        530,
+        457
+      ],
+      [
+        536,
+        599
+      ],
+      [
+        472,
+        612
+      ],
+      [
+        391,
+        595
+      ]
+    ],
+    "osm_ids": [
+      "node/5107512192"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Havna – nordre bryggeanlegg",
+    "image": "c09",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        366,
+        402
+      ],
+      [
+        419,
+        374
+      ],
+      [
+        437,
+        400
+      ],
+      [
+        378,
+        439
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "possible": false,
+    "note": "Separat brygge ved campingområdet. Om denne drives sammen med Havna Tjøme gjestehavn er ikke bekreftet.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Østre Bolæren gjestehavn – nordre brygger",
+    "image": "c10",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        433,
+        376
+      ],
+      [
+        452,
+        376
+      ],
+      [
+        500,
+        397
+      ],
+      [
+        499,
+        374
+      ],
+      [
+        516,
+        373
+      ],
+      [
+        556,
+        445
+      ],
+      [
+        553,
+        465
+      ],
+      [
+        521,
+        470
+      ],
+      [
+        507,
+        435
+      ],
+      [
+        450,
+        420
+      ],
+      [
+        432,
+        400
+      ]
+    ],
+    "osm_ids": [
+      "node/5783278365"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+      "https://www.bolaerne.no/"
+    ],
+    "possible": false,
+    "note": "Kommunen oppgir ca. 100 gjesteplasser for hele Østre Bolæren gjestehavn, ikke for dette delpolygonet alene.",
+    "group": "bolaeren",
+    "capacity": 100,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_gjestehavn"
+  },
+  {
+    "name": "Østre Bolæren gjestehavn – søndre basseng",
+    "image": "c10",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        473,
+        490
+      ],
+      [
+        496,
+        485
+      ],
+      [
+        518,
+        504
+      ],
+      [
+        542,
+        475
+      ],
+      [
+        558,
+        486
+      ],
+      [
+        565,
+        529
+      ],
+      [
+        562,
+        567
+      ],
+      [
+        537,
+        587
+      ],
+      [
+        482,
+        603
+      ]
+    ],
+    "osm_ids": [
+      "node/5783278365"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+      "https://www.bolaerne.no/"
+    ],
+    "possible": false,
+    "note": "",
+    "group": "bolaeren",
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_gjestehavn"
+  },
+  {
+    "name": "Verdens Ende gjestehavn",
+    "image": "c11",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        494,
+        328
+      ],
+      [
+        595,
+        332
+      ],
+      [
+        598,
+        390
+      ],
+      [
+        574,
+        475
+      ],
+      [
+        610,
+        483
+      ],
+      [
+        622,
+        547
+      ],
+      [
+        524,
+        566
+      ],
+      [
+        432,
+        532
+      ],
+      [
+        467,
+        432
+      ],
+      [
+        469,
+        360
+      ]
+    ],
+    "osm_ids": [
+      "node/5821970309"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/"
+    ],
+    "possible": false,
+    "note": "Ca. 100 gjesteplasser oppgitt av kommunen. Tomme plasser i bildet er ikke tolket som nedlagt havn.",
+    "group": null,
+    "capacity": 100,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_gjestehavn"
+  },
+  {
+    "name": "Teie båthavn (Rosanes)",
+    "image": "c12",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        556,
+        363
+      ],
+      [
+        694,
+        349
+      ],
+      [
+        757,
+        501
+      ],
+      [
+        728,
+        512
+      ],
+      [
+        600,
+        625
+      ],
+      [
+        413,
+        615
+      ],
+      [
+        420,
+        545
+      ],
+      [
+        436,
+        476
+      ],
+      [
+        557,
+        459
+      ]
+    ],
+    "osm_ids": [
+      "way/38867268"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://www.havneweb.no/teiebat/?mod=startsiden"
+    ],
+    "possible": false,
+    "note": "OSM kaller området Rosanes marina. Kommunen og operatøren omtaler Teie båthavn ved Parkveien; ikke dobbelttelt.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Mågerø Marina",
+    "image": "c13",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        434,
+        278
+      ],
+      [
+        503,
+        299
+      ],
+      [
+        550,
+        339
+      ],
+      [
+        507,
+        390
+      ],
+      [
+        495,
+        407
+      ],
+      [
+        465,
+        524
+      ],
+      [
+        370,
+        515
+      ],
+      [
+        373,
+        469
+      ],
+      [
+        382,
+        406
+      ],
+      [
+        397,
+        362
+      ],
+      [
+        444,
+        372
+      ],
+      [
+        452,
+        360
+      ],
+      [
+        435,
+        356
+      ]
+    ],
+    "osm_ids": [
+      "way/200180554"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Knarberg Båtforening",
+    "image": "c14",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        410,
+        515
+      ],
+      [
+        421,
+        496
+      ],
+      [
+        485,
+        477
+      ],
+      [
+        545,
+        478
+      ],
+      [
+        553,
+        487
+      ],
+      [
+        601,
+        438
+      ],
+      [
+        687,
+        464
+      ],
+      [
+        690,
+        482
+      ],
+      [
+        617,
+        481
+      ],
+      [
+        628,
+        546
+      ],
+      [
+        588,
+        578
+      ],
+      [
+        548,
+        597
+      ],
+      [
+        515,
+        604
+      ],
+      [
+        465,
+        616
+      ]
+    ],
+    "osm_ids": [
+      "way/300991039"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://app.havneweb.no/havner/knarberg-bf"
+    ],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Tønsberg Marina AS – Kalvetangen",
+    "image": "c15",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        490,
+        446
+      ],
+      [
+        658,
+        425
+      ],
+      [
+        677,
+        461
+      ],
+      [
+        653,
+        475
+      ],
+      [
+        651,
+        516
+      ],
+      [
+        630,
+        535
+      ],
+      [
+        638,
+        574
+      ],
+      [
+        632,
+        596
+      ],
+      [
+        553,
+        594
+      ],
+      [
+        507,
+        575
+      ],
+      [
+        490,
+        563
+      ]
+    ],
+    "osm_ids": [
+      "way/344059239"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Østveien/Bustangbukta – småbåtanlegg",
+    "image": "c16",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        457,
+        448
+      ],
+      [
+        500,
+        376
+      ],
+      [
+        524,
+        375
+      ],
+      [
+        513,
+        393
+      ],
+      [
+        544,
+        372
+      ],
+      [
+        569,
+        393
+      ],
+      [
+        506,
+        488
+      ]
+    ],
+    "osm_ids": [
+      "way/561277276"
+    ],
+    "sources": [],
+    "possible": false,
+    "note": "",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  },
+  {
+    "name": "Langvikveien – mulig småbåthavn",
+    "image": "c18",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        495,
+        426
+      ],
+      [
+        523,
+        423
+      ],
+      [
+        525,
+        454
+      ],
+      [
+        546,
+        470
+      ],
+      [
+        539,
+        505
+      ],
+      [
+        515,
+        531
+      ],
+      [
+        489,
+        534
+      ],
+      [
+        485,
+        496
+      ],
+      [
+        469,
+        477
+      ],
+      [
+        490,
+        460
+      ]
+    ],
+    "osm_ids": [
+      "way/925843335"
+    ],
+    "sources": [],
+    "possible": true,
+    "note": "Flere små brygger og serviceaktivitet synlig. Faste plasser, felles drift og yttergrense er ikke tilstrekkelig dokumentert.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar"
+  },
+  {
+    "name": "Kjøpmannskjær/Vrengensundet – flytebryggeanlegg",
+    "image": "c19",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        524,
+        438
+      ],
+      [
+        566,
+        411
+      ],
+      [
+        619,
+        468
+      ],
+      [
+        591,
+        501
+      ],
+      [
+        532,
+        508
+      ],
+      [
+        515,
+        574
+      ],
+      [
+        570,
+        585
+      ],
+      [
+        571,
+        694
+      ],
+      [
+        420,
+        687
+      ],
+      [
+        436,
+        603
+      ],
+      [
+        461,
+        478
+      ]
+    ],
+    "osm_ids": [
+      "way/984083824"
+    ],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://www.havneweb.no/kjopmannskjar-bf/",
+      "https://www.vsmarina.no/kontakt/"
+    ],
+    "possible": false,
+    "note": "Avgrenser det sammenhengende flytebryggeanlegget. Spredte landfester rundt resten av bukten er ikke automatisk slått inn i dette polygonet. Kommunens forening og marinakildene peker til samme fysiske bryggekompleks. Interne operatør-/rettighetsgrenser er ikke kartlagt.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumenterte_batforeninger_og_sammenhengende_bryggekompleks"
+  },
+  {
+    "name": "Hella båtforening",
+    "image": "hella",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        463,
+        385
+      ],
+      [
+        524,
+        375
+      ],
+      [
+        536,
+        397
+      ],
+      [
+        535,
+        417
+      ],
+      [
+        521,
+        419
+      ],
+      [
+        516,
+        402
+      ],
+      [
+        464,
+        407
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+      "https://www.havneweb.no/hellahavn/?mod=startsiden"
+    ],
+    "possible": false,
+    "note": "Foreløpig avgrensning ved den synlige piren. Vinterpreg, skygger og lysrefleks gjør detaljene uklare. Operatøren oppgir oppgradering i 2020; utstrekningen trenger kontroll mot datert ortofoto.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser",
+    "geometry_uncertain": true
+  },
+  {
+    "name": "Holtane Vel- og Båtforening",
+    "image": "holtane",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        508,
+        492
+      ],
+      [
+        550,
+        504
+      ],
+      [
+        557,
+        482
+      ],
+      [
+        582,
+        481
+      ],
+      [
+        588,
+        531
+      ],
+      [
+        608,
+        542
+      ],
+      [
+        597,
+        584
+      ],
+      [
+        561,
+        591
+      ],
+      [
+        504,
+        566
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://virksomhet.brreg.no/nb/oppslag/enheter/911822636",
+      "https://www.batmagasinet.no/batforeninger-bathavn/bitter-nabostrid-i-idyllisk-batforening-pa-tjome/830954"
+    ],
+    "possible": false,
+    "note": "Felles brygge-/moloområde ved Flekkenveien. Vinterbilde med mange tomme plasser.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Grimestad Vel og Båtforening",
+    "image": "grimestad",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        492,
+        390
+      ],
+      [
+        511,
+        391
+      ],
+      [
+        519,
+        431
+      ],
+      [
+        588,
+        438
+      ],
+      [
+        581,
+        484
+      ],
+      [
+        516,
+        491
+      ],
+      [
+        503,
+        453
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://grimestad.net/havnereglement/"
+    ],
+    "possible": false,
+    "note": "Avgrenser synlige fellesbrygger ved Grimestadstranda. Eventuelle bøye-/wireplasser uten tydelig yttergrense er ikke tatt med; mulig ufullstendig sjøutstrekning.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumentert_batforening_med_faste_plasser",
+    "geometry_uncertain": true
+  },
+  {
+    "name": "Buerstad båtforening",
+    "image": "buerstad",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        209,
+        479
+      ],
+      [
+        228,
+        482
+      ],
+      [
+        188,
+        585
+      ],
+      [
+        165,
+        583
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/"
+    ],
+    "possible": false,
+    "note": "Avgrenser den lange fellespiren ved Buerstad. Private nabobrygger er utelatt.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "kommunalt_dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Hagakilen – mulig småbåthavn",
+    "image": "hagakilen",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        497,
+        315
+      ],
+      [
+        540,
+        318
+      ],
+      [
+        541,
+        425
+      ],
+      [
+        470,
+        428
+      ],
+      [
+        478,
+        375
+      ],
+      [
+        488,
+        367
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "possible": true,
+    "note": "Flere parallelle brygger. Felles drift og hvilke brygger som hører til samme anlegg er ikke tilstrekkelig dokumentert.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "flere_brygger_men_felles_drift_eller_kapasitet_uklar"
+  },
+  {
+    "name": "Albykilen / Veierland Båtforening – søndre brygger",
+    "image": "c05",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        412,
+        581
+      ],
+      [
+        449,
+        582
+      ],
+      [
+        452,
+        612
+      ],
+      [
+        476,
+        610
+      ],
+      [
+        482,
+        632
+      ],
+      [
+        429,
+        639
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.veierland.org/veierland"
+    ],
+    "possible": false,
+    "note": "Delområde i samme bukt. Intern plassfordeling er ikke bekreftet; foreløpig yttergrense.",
+    "group": "alby",
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "name": "Jensesund gjestehavn – Vestre Bolæren",
+    "image": "jensesund-havn",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        475,
+        451
+      ],
+      [
+        514,
+        451
+      ],
+      [
+        515,
+        582
+      ],
+      [
+        481,
+        585
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.bolaerne.no/gjestehavn/"
+    ],
+    "possible": false,
+    "note": "Nordre bryggerekke; smalt sjøbelte langs bryggene, ikke hele sundet.",
+    "group": "jensesund",
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumentert_gjestehavn"
+  },
+  {
+    "name": "Jensesund gjestehavn – søndre brygge",
+    "image": "jensesund-havn",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        493,
+        652
+      ],
+      [
+        536,
+        650
+      ],
+      [
+        542,
+        673
+      ],
+      [
+        506,
+        682
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.bolaerne.no/gjestehavn/"
+    ],
+    "possible": false,
+    "note": "",
+    "group": "jensesund",
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumentert_gjestehavn"
+  },
+  {
+    "name": "Tangen bryggesameie (Veierland)",
+    "image": "vestgarden",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        468,
+        434
+      ],
+      [
+        508,
+        429
+      ],
+      [
+        512,
+        455
+      ],
+      [
+        539,
+        490
+      ],
+      [
+        537,
+        509
+      ],
+      [
+        468,
+        507
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [
+      "https://www.veierland.org/veierland"
+    ],
+    "possible": false,
+    "note": "Stedfestet mot velforeningens oppgitte koordinat for Tangen. Midlertidig arbeidsnavn Vestgården er korrigert; ikke registrert som to anlegg.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": false,
+    "basis": "dokumentert_gjestehavn_med_felles_brygger"
+  },
+  {
+    "name": "Vestskogen/Håbekkbukta – felles småbåtanlegg",
+    "image": "vestskogen-sor",
+    "display_width": 1000,
+    "display_height": 1000,
+    "pixels": [
+      [
+        460,
+        472
+      ],
+      [
+        539,
+        500
+      ],
+      [
+        529,
+        556
+      ],
+      [
+        430,
+        522
+      ],
+      [
+        433,
+        489
+      ],
+      [
+        455,
+        499
+      ]
+    ],
+    "osm_ids": [],
+    "sources": [],
+    "possible": false,
+    "note": "To sammenhengende flytebrygger med tydelig rekke av båtplasser. Navn er beskrivende; operatør ikke bekreftet. Båtopplag på land lenger nord er ikke registrert som egen havn.",
+    "group": null,
+    "capacity": null,
+    "name_is_descriptive": true,
+    "basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg"
+  }
+]

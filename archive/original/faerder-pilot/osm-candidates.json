@@ -1,0 +1,1031 @@
+[
+  {
+    "osm_id": "node/5107343355",
+    "name": null,
+    "center": [
+      10.3918916,
+      59.1687945
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabathavn-ved-ferjeodden-osm-node-5107343355/"
+  },
+  {
+    "osm_id": "node/5107343357",
+    "name": "Småbåtshavn",
+    "center": [
+      10.455497,
+      59.1996425
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-skallestad-21-osm-node-5107343357/"
+  },
+  {
+    "osm_id": "node/5107343358",
+    "name": "Tønsberg Seilforening",
+    "center": [
+      10.4615378,
+      59.220978
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Tønsberg Seilforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/tonsberg-seilforening-osm-node-5107343358/"
+  },
+  {
+    "osm_id": "node/5107343359",
+    "name": "Småbåtshavn",
+    "center": [
+      10.4458201,
+      59.2266435
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-husoysund-22-osm-node-5107343359/"
+  },
+  {
+    "osm_id": "node/5107482195",
+    "name": "Småbåtshavn",
+    "center": [
+      10.3636283,
+      59.1736639
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-notteroy-33-osm-node-5107482195/"
+  },
+  {
+    "osm_id": "node/5107482196",
+    "name": "Småbåtshavn",
+    "center": [
+      10.3579502,
+      59.1661292
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-veierland-34-osm-node-5107482196/"
+  },
+  {
+    "osm_id": "node/5107500227",
+    "name": "Småbåtshavn",
+    "center": [
+      10.4193168,
+      59.1153386
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjome-42-osm-node-5107500227/"
+  },
+  {
+    "osm_id": "node/5107500242",
+    "name": "Småbåtshavn",
+    "center": [
+      10.4249598,
+      59.1209407
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjome-43-osm-node-5107500242/"
+  },
+  {
+    "osm_id": "node/5107512191",
+    "name": "Krukehavn",
+    "center": [
+      10.4539675,
+      59.0820016
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Krukehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/krukehavn-smabathavn-osm-node-5107512191/"
+  },
+  {
+    "osm_id": "node/5107512192",
+    "name": "Havna Tjøme gjestehavn",
+    "center": [
+      10.419486,
+      59.0860479
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Havna Tjøme gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/havna-tjome-gjestehavn-osm-node-5107512192/"
+  },
+  {
+    "osm_id": "node/5783278365",
+    "name": "Østre Bolæren gjestehavn",
+    "center": [
+      10.5683009,
+      59.2006033
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Østre Bolæren gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/ostre-bolaeren-gjestehavn-osm-node-5783278365/"
+  },
+  {
+    "osm_id": "node/5821970309",
+    "name": "Gjestehavn",
+    "center": [
+      10.4091382,
+      59.0576766
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [],
+    "source": "https://www.sjosett.com/gjestehavner/smabathavn-ved-helgerodveien-osm-node-5821970309/"
+  },
+  {
+    "osm_id": "way/38867268",
+    "name": "Rosanes marina",
+    "center": [
+      10.427962666666668,
+      59.25076516
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Rosanes marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [
+      [
+        10.4286444,
+        59.2518636
+      ],
+      [
+        10.4286212,
+        59.2516814
+      ],
+      [
+        10.4263347,
+        59.251657
+      ],
+      [
+        10.4262748,
+        59.2512652
+      ],
+      [
+        10.4262989,
+        59.2511048
+      ],
+      [
+        10.4264089,
+        59.251039
+      ],
+      [
+        10.426012,
+        59.250897
+      ],
+      [
+        10.425938,
+        59.2506367
+      ],
+      [
+        10.4260334,
+        59.2501462
+      ],
+      [
+        10.4260458,
+        59.2500008
+      ],
+      [
+        10.4259396,
+        59.2498678
+      ],
+      [
+        10.4256955,
+        59.2497348
+      ],
+      [
+        10.4256338,
+        59.249621
+      ],
+      [
+        10.4256429,
+        59.2495769
+      ],
+      [
+        10.4262658,
+        59.2495553
+      ],
+      [
+        10.4264384,
+        59.2494783
+      ],
+      [
+        10.426697,
+        59.2494789
+      ],
+      [
+        10.4270383,
+        59.2494849
+      ],
+      [
+        10.4270473,
+        59.2496799
+      ],
+      [
+        10.4298019,
+        59.249658
+      ],
+      [
+        10.4320449,
+        59.2508252
+      ],
+      [
+        10.4324037,
+        59.2508368
+      ],
+      [
+        10.4324826,
+        59.2508609
+      ],
+      [
+        10.4319247,
+        59.2514816
+      ],
+      [
+        10.431202,
+        59.2522567
+      ],
+      [
+        10.4301319,
+        59.2522138
+      ],
+      [
+        10.4295015,
+        59.2521429
+      ],
+      [
+        10.429,
+        59.2520592
+      ],
+      [
+        10.4287317,
+        59.2519866
+      ],
+      [
+        10.4286444,
+        59.2518636
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/rosanes-marina-osm-way-38867268/"
+  },
+  {
+    "osm_id": "way/200180554",
+    "name": "Mågerø Marina",
+    "center": [
+      10.433249027272728,
+      59.15403978787879
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Mågerø Marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [
+      [
+        10.4339221,
+        59.1556004
+      ],
+      [
+        10.4322083,
+        59.1560806
+      ],
+      [
+        10.4318192,
+        59.1553778
+      ],
+      [
+        10.4312781,
+        59.1552095
+      ],
+      [
+        10.4309932,
+        59.1547562
+      ],
+      [
+        10.4306738,
+        59.1537705
+      ],
+      [
+        10.4319539,
+        59.1536595
+      ],
+      [
+        10.4323564,
+        59.1532651
+      ],
+      [
+        10.4321622,
+        59.1531754
+      ],
+      [
+        10.4321123,
+        59.1531008
+      ],
+      [
+        10.432476,
+        59.1525939
+      ],
+      [
+        10.433156,
+        59.1526469
+      ],
+      [
+        10.4332449,
+        59.1527216
+      ],
+      [
+        10.4333511,
+        59.1527076
+      ],
+      [
+        10.4333529,
+        59.1526887
+      ],
+      [
+        10.4336219,
+        59.1526912
+      ],
+      [
+        10.4337749,
+        59.1529075
+      ],
+      [
+        10.4339464,
+        59.1531838
+      ],
+      [
+        10.4338631,
+        59.1531694
+      ],
+      [
+        10.4338625,
+        59.1533821
+      ],
+      [
+        10.4338822,
+        59.1535005
+      ],
+      [
+        10.4336488,
+        59.1536406
+      ],
+      [
+        10.4336239,
+        59.1537895
+      ],
+      [
+        10.4337196,
+        59.1540159
+      ],
+      [
+        10.4337692,
+        59.1541451
+      ],
+      [
+        10.4341916,
+        59.1543634
+      ],
+      [
+        10.4344971,
+        59.1547127
+      ],
+      [
+        10.4346329,
+        59.155067
+      ],
+      [
+        10.4344322,
+        59.1552249
+      ],
+      [
+        10.4342804,
+        59.1553486
+      ],
+      [
+        10.4343148,
+        59.1556057
+      ],
+      [
+        10.4341739,
+        59.1556102
+      ],
+      [
+        10.4339221,
+        59.1556004
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/magero-marina-osm-way-200180554/"
+  },
+  {
+    "osm_id": "way/300991039",
+    "name": "Knarberg Båtforening",
+    "center": [
+      10.455267514285714,
+      59.20837078571429
+    ],
+    "inside": true,
+    "tags": {
+      "check_date": "2026-06-27",
+      "leisure": "marina",
+      "name": "Knarberg Båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [
+      [
+        10.4532306,
+        59.2083053
+      ],
+      [
+        10.4535634,
+        59.2084017
+      ],
+      [
+        10.4549327,
+        59.2087984
+      ],
+      [
+        10.4553929,
+        59.2089371
+      ],
+      [
+        10.4560438,
+        59.2089207
+      ],
+      [
+        10.4565911,
+        59.208907
+      ],
+      [
+        10.4568839,
+        59.2090282
+      ],
+      [
+        10.4584052,
+        59.208828
+      ],
+      [
+        10.4575963,
+        59.2079664
+      ],
+      [
+        10.4563134,
+        59.2075078
+      ],
+      [
+        10.4545082,
+        59.2072517
+      ],
+      [
+        10.4536477,
+        59.2079994
+      ],
+      [
+        10.4534054,
+        59.208034
+      ],
+      [
+        10.4532306,
+        59.2083053
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/knarberg-batforening-osm-way-300991039/"
+  },
+  {
+    "osm_id": "way/344059239",
+    "name": "Tønsberg Marina AS",
+    "center": [
+      10.447061376470588,
+      59.24346731176471
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Tønsberg Marina AS",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [
+      [
+        10.4469753,
+        59.2439366
+      ],
+      [
+        10.4500636,
+        59.2443436
+      ],
+      [
+        10.4502996,
+        59.2435974
+      ],
+      [
+        10.4494842,
+        59.2425549
+      ],
+      [
+        10.4483953,
+        59.2426702
+      ],
+      [
+        10.4467324,
+        59.2430346
+      ],
+      [
+        10.4469443,
+        59.2432161
+      ],
+      [
+        10.446859,
+        59.2433309
+      ],
+      [
+        10.4464579,
+        59.2434622
+      ],
+      [
+        10.4460716,
+        59.2433134
+      ],
+      [
+        10.4455103,
+        59.2433422
+      ],
+      [
+        10.4454332,
+        59.2433892
+      ],
+      [
+        10.4457734,
+        59.2435402
+      ],
+      [
+        10.4459841,
+        59.2436683
+      ],
+      [
+        10.4460311,
+        59.2437413
+      ],
+      [
+        10.4460528,
+        59.2438666
+      ],
+      [
+        10.4469753,
+        59.2439366
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/tonsberg-marina-as-osm-way-344059239/"
+  },
+  {
+    "osm_id": "way/561277276",
+    "name": null,
+    "center": [
+      10.407419075,
+      59.164770525
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina"
+    },
+    "coordinates": [
+      [
+        10.4070608,
+        59.1647838
+      ],
+      [
+        10.4072365,
+        59.1646105
+      ],
+      [
+        10.4073491,
+        59.1644299
+      ],
+      [
+        10.4077185,
+        59.1644865
+      ],
+      [
+        10.4077269,
+        59.1645407
+      ],
+      [
+        10.4077986,
+        59.164836
+      ],
+      [
+        10.4075547,
+        59.1649098
+      ],
+      [
+        10.4076089,
+        59.164973
+      ],
+      [
+        10.407403,
+        59.1650183
+      ],
+      [
+        10.4073686,
+        59.1650259
+      ],
+      [
+        10.4071425,
+        59.1648481
+      ],
+      [
+        10.4070608,
+        59.1647838
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/smabathavn-ved-ostveien-osm-way-561277276/"
+  },
+  {
+    "osm_id": "way/760070485",
+    "name": "Arås Båtforening",
+    "center": [
+      10.453725186363636,
+      59.198097240909085
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina",
+      "name": "Arås Båtforening"
+    },
+    "coordinates": [
+      [
+        10.4525635,
+        59.1977563
+      ],
+      [
+        10.4524625,
+        59.1979481
+      ],
+      [
+        10.4524449,
+        59.1981347
+      ],
+      [
+        10.452551,
+        59.1982109
+      ],
+      [
+        10.4528377,
+        59.1982308
+      ],
+      [
+        10.4530217,
+        59.1982308
+      ],
+      [
+        10.4531366,
+        59.1983423
+      ],
+      [
+        10.4531987,
+        59.1984084
+      ],
+      [
+        10.4531881,
+        59.1991605
+      ],
+      [
+        10.455938,
+        59.1993798
+      ],
+      [
+        10.4562566,
+        59.198441
+      ],
+      [
+        10.4553045,
+        59.1982435
+      ],
+      [
+        10.4553301,
+        59.1980641
+      ],
+      [
+        10.4550873,
+        59.1978512
+      ],
+      [
+        10.4548124,
+        59.1977695
+      ],
+      [
+        10.4544892,
+        59.197718
+      ],
+      [
+        10.4538227,
+        59.1976919
+      ],
+      [
+        10.4535612,
+        59.1976871
+      ],
+      [
+        10.4533828,
+        59.1976706
+      ],
+      [
+        10.4531427,
+        59.1976864
+      ],
+      [
+        10.4528584,
+        59.1977571
+      ],
+      [
+        10.4525635,
+        59.1977563
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/aras-batforening-osm-way-760070485/"
+  },
+  {
+    "osm_id": "way/925843335",
+    "name": null,
+    "center": [
+      10.382182846153846,
+      59.120782846153844
+    ],
+    "inside": true,
+    "tags": {
+      "leisure": "marina"
+    },
+    "coordinates": [
+      [
+        10.3829365,
+        59.1211483
+      ],
+      [
+        10.3829322,
+        59.1217828
+      ],
+      [
+        10.3820803,
+        59.1217902
+      ],
+      [
+        10.3820869,
+        59.1217433
+      ],
+      [
+        10.3820547,
+        59.1215781
+      ],
+      [
+        10.3822721,
+        59.1215538
+      ],
+      [
+        10.3822668,
+        59.1214544
+      ],
+      [
+        10.3822022,
+        59.1213054
+      ],
+      [
+        10.3821377,
+        59.1211656
+      ],
+      [
+        10.3818796,
+        59.1212143
+      ],
+      [
+        10.381747,
+        59.1210957
+      ],
+      [
+        10.3820786,
+        59.1209779
+      ],
+      [
+        10.3820373,
+        59.120816
+      ],
+      [
+        10.3819567,
+        59.1205198
+      ],
+      [
+        10.3819764,
+        59.1202751
+      ],
+      [
+        10.3819316,
+        59.1200029
+      ],
+      [
+        10.3819101,
+        59.1197784
+      ],
+      [
+        10.3818778,
+        59.1195457
+      ],
+      [
+        10.3821158,
+        59.1195329
+      ],
+      [
+        10.382121,
+        59.1195883
+      ],
+      [
+        10.382152,
+        59.1197894
+      ],
+      [
+        10.3822074,
+        59.1200983
+      ],
+      [
+        10.3822205,
+        59.1203313
+      ],
+      [
+        10.3822576,
+        59.1209899
+      ],
+      [
+        10.3823787,
+        59.1211279
+      ],
+      [
+        10.3829365,
+        59.1211483
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/smabathavn-ved-langvikveien-osm-way-925843335/"
+  },
+  {
+    "osm_id": "way/984083824",
+    "name": "Vrengensundet Marina",
+    "center": [
+      10.38840443888889,
+      59.17666109444445
+    ],
+    "inside": true,
+    "tags": {
+      "area": "yes",
+      "leisure": "marina",
+      "name": "Vrengensundet Marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": [
+      [
+        10.3886397,
+        59.1775011
+      ],
+      [
+        10.3885029,
+        59.1774984
+      ],
+      [
+        10.3883393,
+        59.1774682
+      ],
+      [
+        10.3882519,
+        59.1774381
+      ],
+      [
+        10.3880973,
+        59.1769591
+      ],
+      [
+        10.3878109,
+        59.176942
+      ],
+      [
+        10.3874124,
+        59.176068
+      ],
+      [
+        10.3872068,
+        59.1749641
+      ],
+      [
+        10.3899489,
+        59.1748851
+      ],
+      [
+        10.3900044,
+        59.1755892
+      ],
+      [
+        10.3880017,
+        59.1757503
+      ],
+      [
+        10.3880633,
+        59.1760345
+      ],
+      [
+        10.3883415,
+        59.1768668
+      ],
+      [
+        10.3884181,
+        59.1768944
+      ],
+      [
+        10.3884273,
+        59.1769134
+      ],
+      [
+        10.3885404,
+        59.1771472
+      ],
+      [
+        10.3886334,
+        59.1774787
+      ],
+      [
+        10.3886397,
+        59.1775011
+      ]
+    ],
+    "source": "https://www.sjosett.com/gjestehavner/vrengensundet-marina-osm-way-984083824/"
+  }
+]

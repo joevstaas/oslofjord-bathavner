@@ -1,0 +1,15 @@
+id,harbour_id,name,status,area_m2,inside_municipality,source_image
+H01-B01,H01,Holmestrand byhavn – nordre basseng,kart_og_kilde,77230,True,images/sentrum-detail.png
+H01-B02,H01,Holmestrand byhavn – søndre basseng,kart_og_kilde,18017,True,images/sentrum-detail.png
+H02-B01,H02,Hagemann – småbåthavn,kart_og_kilde,18744,True,images/original-sentrum.png
+H03-B01,H03,Nordre Jarlsberg Brygge,kart_og_kilde,77356,True,images/nordre-jarlsberg.png
+H04-B01,H04,Sande & Havna Båtforening,kart_og_kilde,12976,True,images/nordre-jarlsberg.png
+H05-B01,H05,Bjerkøya Båtforening,kart_og_kilde,17524,True,images/bjerkoya-detail.png
+H06-B01,H06,Gyltesø Båtforening,kart_og_kilde,8871,True,images/bjerkoya-detail.png
+H07-B01,H07,Holm Brygge – hovedanlegg,kart_og_kilde,5323,True,images/holm-detail.png
+K01-B01,K01,Bekkebrygga – mulig småbåtanlegg,ma_avklares,3288,True,images/bekkestranda-detail.png
+K02-B01,K02,Sandvika – mulig småbåtanlegg,ma_avklares,2541,True,images/sandvika-detail.png
+K03-B01,K03,Mathisodden – mulig fellesbrygge,ma_avklares,1166,True,images/bjerkoya-vest-detail.png
+K04-B01,K04,Holmsåsen – søndre bryggegruppe,ma_avklares,1788,True,images/holm-detail.png
+K05-B01,K05,Torrud – nordre bryggegruppe,ma_avklares,4241,True,images/thorrud-detail.png
+K05-B02,K05,Torrud – søndre bryggegruppe,ma_avklares,5462,True,images/thorrud-detail.png

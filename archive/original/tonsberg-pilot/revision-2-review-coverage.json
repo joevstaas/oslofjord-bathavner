@@ -1,0 +1,447 @@
+{
+  "reviewed_date": "2026-10-29",
+  "screening_maps": [
+    {
+      "id": "scan-4-0",
+      "bbox": [
+        232000,
+        6574000,
+        236000,
+        6578000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-5-0",
+      "bbox": [
+        236000,
+        6574000,
+        240000,
+        6578000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-6-0",
+      "bbox": [
+        240000,
+        6574000,
+        244000,
+        6578000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-7-0",
+      "bbox": [
+        244000,
+        6574000,
+        248000,
+        6578000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-4-1",
+      "bbox": [
+        232000,
+        6578000,
+        236000,
+        6582000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-5-1",
+      "bbox": [
+        236000,
+        6578000,
+        240000,
+        6582000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-6-1",
+      "bbox": [
+        240000,
+        6578000,
+        244000,
+        6582000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-7-1",
+      "bbox": [
+        244000,
+        6578000,
+        248000,
+        6582000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-8-1",
+      "bbox": [
+        248000,
+        6578000,
+        252000,
+        6582000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-3-2",
+      "bbox": [
+        228000,
+        6582000,
+        232000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-4-2",
+      "bbox": [
+        232000,
+        6582000,
+        236000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-5-2",
+      "bbox": [
+        236000,
+        6582000,
+        240000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-6-2",
+      "bbox": [
+        240000,
+        6582000,
+        244000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-7-2",
+      "bbox": [
+        244000,
+        6582000,
+        248000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-8-2",
+      "bbox": [
+        248000,
+        6582000,
+        252000,
+        6586000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-2-3",
+      "bbox": [
+        224000,
+        6586000,
+        228000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-4-3",
+      "bbox": [
+        232000,
+        6586000,
+        236000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-5-3",
+      "bbox": [
+        236000,
+        6586000,
+        240000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-6-3",
+      "bbox": [
+        240000,
+        6586000,
+        244000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-7-3",
+      "bbox": [
+        244000,
+        6586000,
+        248000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-8-3",
+      "bbox": [
+        248000,
+        6586000,
+        252000,
+        6590000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-0-4",
+      "bbox": [
+        216000,
+        6590000,
+        220000,
+        6594000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-1-4",
+      "bbox": [
+        220000,
+        6590000,
+        224000,
+        6594000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-2-4",
+      "bbox": [
+        224000,
+        6590000,
+        228000,
+        6594000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-3-4",
+      "bbox": [
+        228000,
+        6590000,
+        232000,
+        6594000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-4-4",
+      "bbox": [
+        232000,
+        6590000,
+        236000,
+        6594000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-0-5",
+      "bbox": [
+        216000,
+        6594000,
+        220000,
+        6598000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-1-5",
+      "bbox": [
+        220000,
+        6594000,
+        224000,
+        6598000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-2-5",
+      "bbox": [
+        224000,
+        6594000,
+        228000,
+        6598000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-1-6",
+      "bbox": [
+        220000,
+        6598000,
+        224000,
+        6602000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-2-6",
+      "bbox": [
+        224000,
+        6598000,
+        228000,
+        6602000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-3-6",
+      "bbox": [
+        228000,
+        6598000,
+        232000,
+        6602000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-5-6",
+      "bbox": [
+        236000,
+        6598000,
+        240000,
+        6602000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-2-7",
+      "bbox": [
+        224000,
+        6602000,
+        228000,
+        6606000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    },
+    {
+      "id": "scan-3-7",
+      "bbox": [
+        228000,
+        6602000,
+        232000,
+        6606000
+      ],
+      "review": "rechecked",
+      "method": "visual_topographic_screening"
+    }
+  ],
+  "imagery_maps": [
+    "husoy-sor-ortho",
+    "jarlso-ortho",
+    "vestfjord-ortho",
+    "husvik-ortho",
+    "vallo-ortho",
+    "vestkyst-ortho",
+    "sentrum-ortho",
+    "traeleborg-ortho",
+    "klopp-ortho",
+    "ringshaug-ortho",
+    "karlsvika-ortho",
+    "skallevold-ortho",
+    "nordkyst-ortho",
+    "husoy-ortho",
+    "bliksekilen-ortho"
+  ],
+  "excluded_shore_groups": [
+    {
+      "name": "Bogen/Helodden og Frydenlund",
+      "reason": "Spredte brygger med separate landfester; ingen tydelig felles struktur eller dokumentert drift."
+    },
+    {
+      "name": "Husvik øst og Jarlsøsundet vest",
+      "reason": "Spredte private brygger; større sammenhengende nordre anlegg beholdt som usikkert."
+    },
+    {
+      "name": "Husøy sør/Fiskeriet",
+      "reason": "Spredte separate brygger ved eiendommer; ingen tydelig felles havnestruktur."
+    },
+    {
+      "name": "Smørberg/Hogsnes og Byfjorden nord",
+      "reason": "Enkeltbrygger og service-/aktivitetsbrygger uten kvalifiserende felles havneanlegg observert."
+    },
+    {
+      "name": "Vear Sandodden/Sjuestokk",
+      "reason": "Spredte separate brygger; Rakkkevik fellesanlegg beholdt."
+    },
+    {
+      "name": "Stang/Markebu/Saltkopp",
+      "reason": "Spredte brygger uten påvist felles havneanlegg."
+    },
+    {
+      "name": "Karlsvika/Skallevold/Ringshaug/Furustrand",
+      "reason": "Moloer og enkelte brygger uten dokumentert kapasitet eller felles drift."
+    },
+    {
+      "name": "Jarlsø Marina servicekai",
+      "reason": "Serviceanlegg identifisert, men ikke dokumentert selvstendig anlegg med faste fritidsbåtplasser."
+    }
+  ],
+  "limitations": [
+    "Opptaksdato og posisjonsnøyaktighet for flybildet er ukjent.",
+    "Delvis skydekke langs Slagen-kysten; topografisk kart brukt i tillegg.",
+    "Innsjøer kontrollert i topografisk kart; flybildekontrollen omfatter kystanlegg.",
+    "Systematisk screening dokumenterer ikke fullstendighet eller dagens drift."
+  ]
+}

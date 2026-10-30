@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "bekkestranda-detail",
+    "file": "images/bekkestranda-detail.png",
+    "metadata": "images/bekkestranda-detail.json",
+    "bytes": 1900152,
+    "sha256": "b077e1cff73362fe4da8e234364ece66f6a105045d76dcfd90a854c1acece435",
+    "crs": "EPSG:25833",
+    "bbox": [
+      233291.66666666663,
+      6610285.0,
+      234141.66666666663,
+      6611135.0
+    ],
+    "width": 2125,
+    "height": 2125,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=233291.66666666663%2C6610285.0%2C234141.66666666663%2C6611135.0&width=2125&height=2125&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "bjerkoya-detail",
+    "file": "images/bjerkoya-detail.png",
+    "metadata": "images/bjerkoya-detail.json",
+    "bytes": 483290,
+    "sha256": "236bd7d1590ae439521c40e51b47e0997ad8f895db6613c44f0dff1bb7e21903",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236082.89764787653,
+      6607916.225275673,
+      236882.89764787653,
+      6608716.225275673
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236082.89764787653%2C6607916.225275673%2C236882.89764787653%2C6608716.225275673&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "bjerkoya-vest-detail",
+    "file": "images/bjerkoya-vest-detail.png",
+    "metadata": "images/bjerkoya-vest-detail.json",
+    "bytes": 2582296,
+    "sha256": "a5570882b2bb6969bb00ed11c08a617cdfe434ae805899ce90ad59de91996833",
+    "crs": "EPSG:25833",
+    "bbox": [
+      235833.33333333337,
+      6607333.333333332,
+      236833.33333333337,
+      6608333.333333332
+    ],
+    "width": 2500,
+    "height": 2500,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=235833.33333333337%2C6607333.333333332%2C236833.33333333337%2C6608333.333333332&width=2500&height=2500&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "bjerkoya",
+    "file": "images/bjerkoya.png",
+    "metadata": "images/bjerkoya.json",
+    "bytes": 924483,
+    "sha256": "e37721720b4d88668c0f94131291492ac3ff2dda90a0db649be14bf5ff9a178a",
+    "crs": "EPSG:25833",
+    "bbox": [
+      234580.07219533384,
+      6606264.8293188745,
+      236180.07219533384,
+      6608064.8293188745
+    ],
+    "width": 2133,
+    "height": 2400,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=234580.07219533384%2C6606264.8293188745%2C236180.07219533384%2C6608064.8293188745&width=2133&height=2400&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "eidsfoss",
+    "file": "images/eidsfoss.png",
+    "metadata": "images/eidsfoss.json",
+    "bytes": 5260166,
+    "sha256": "f0ae86a12536f67632cbdd1f790487a7d78f0767b1d491f0a20d255134d4b8f7",
+    "crs": "EPSG:25833",
+    "bbox": [
+      219052.8879786759,
+      6616206.824718563,
+      220452.8879786759,
+      6617606.824718563
+    ],
+    "width": 2800,
+    "height": 2800,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=219052.8879786759%2C6616206.824718563%2C220452.8879786759%2C6617606.824718563&width=2800&height=2800&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "eikeren-sor",
+    "file": "images/eikeren-sor.png",
+    "metadata": "images/eikeren-sor.json",
+    "bytes": 5546249,
+    "sha256": "e0b5f9205856c1c81a979de0895ac17b294ccb8e15588e22655d7163618ded99",
+    "crs": "EPSG:25833",
+    "bbox": [
+      218120.82229862938,
+      6617429.534237081,
+      220320.82229862938,
+      6621829.534237081
+    ],
+    "width": 2000,
+    "height": 4000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=218120.82229862938%2C6617429.534237081%2C220320.82229862938%2C6621829.534237081&width=2000&height=4000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "holm-detail",
+    "file": "images/holm-detail.png",
+    "metadata": "images/holm-detail.json",
+    "bytes": 1499494,
+    "sha256": "0b5a7bb3ed66ce99f6af5a01725bb72c41d23116ac41c45f8e5395f961f0f2ea",
+    "crs": "EPSG:25833",
+    "bbox": [
+      230633.33333333337,
+      6611600.0,
+      231433.33333333337,
+      6612400.0
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=230633.33333333337%2C6611600.0%2C231433.33333333337%2C6612400.0&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "kolabann-detail",
+    "file": "images/kolabann-detail.png",
+    "metadata": "images/kolabann-detail.json",
+    "bytes": 1743232,
+    "sha256": "1828a4bb31728061a83595dcc77128677615042f6acc56eced6d5143553a7606",
+    "crs": "EPSG:25833",
+    "bbox": [
+      219736.23940003093,
+      6616594.628741881,
+      220236.23940003093,
+      6617094.628741881
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=219736.23940003093%2C6616594.628741881%2C220236.23940003093%2C6617094.628741881&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "kommuneoversikt",
+    "file": "images/kommuneoversikt.png",
+    "metadata": "images/kommuneoversikt.json",
+    "bytes": 19024028,
+    "sha256": "d34e104f04ef026d40bb0ef6ee8ac9813d4a43e24c6c9439c3bd6d882f8f2f30",
+    "crs": "EPSG:25833",
+    "bbox": [
+      212000,
+      6598000,
+      244000,
+      6626000
+    ],
+    "width": 4000,
+    "height": 3500,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=212000%2C6598000%2C244000%2C6626000&width=4000&height=3500&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "langoya",
+    "file": "images/langoya.png",
+    "metadata": "images/langoya.json",
+    "bytes": 961991,
+    "sha256": "aeef211d9d7be368aeeb6b43170643602f0c78dfd23085a83e93221901d89123",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236676.76226632178,
+      6601279.209148093,
+      239076.76226632178,
+      6604879.209148093
+    ],
+    "width": 2000,
+    "height": 3000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236676.76226632178%2C6601279.209148093%2C239076.76226632178%2C6604879.209148093&width=2000&height=3000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "nordre-jarlsberg",
+    "file": "images/nordre-jarlsberg.png",
+    "metadata": "images/nordre-jarlsberg.json",
+    "bytes": 3376729,
+    "sha256": "56b274566f4848674b147c69ed534df676fd74983ee2ecfb298816c935d56bc5",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232062.71763023263,
+      6611450.592338349,
+      233262.71763023263,
+      6612650.592338349
+    ],
+    "width": 2400,
+    "height": 2400,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232062.71763023263%2C6611450.592338349%2C233262.71763023263%2C6612650.592338349&width=2400&height=2400&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "original-sentrum",
+    "file": "images/original-sentrum.png",
+    "metadata": "images/original-sentrum.json",
+    "bytes": 6996896,
+    "sha256": "012e42d4be6f526de28171253f18afab791e4bc893654e49b399a4828eaeb323",
+    "crs": "EPSG:3857",
+    "bbox": [
+      1146583.1865142034,
+      8284737.665785735,
+      1150383.1865142034,
+      8288937.665785735
+    ],
+    "width": 3800,
+    "height": 4200,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A3857&bbox=1146583.1865142034%2C8284737.665785735%2C1150383.1865142034%2C8288937.665785735&width=3800&height=4200&format=image%2Fpng",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "sandvika-detail",
+    "file": "images/sandvika-detail.png",
+    "metadata": "images/sandvika-detail.json",
+    "bytes": 1355006,
+    "sha256": "c6211390f1614c647d8df26965a29be755ba6452c7fbe03282f59fe18a886bf8",
+    "crs": "EPSG:25833",
+    "bbox": [
+      237974.99999999997,
+      6607958.333333332,
+      238624.99999999997,
+      6608608.333333332
+    ],
+    "width": 1625,
+    "height": 1625,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237974.99999999997%2C6607958.333333332%2C238624.99999999997%2C6608608.333333332&width=1625&height=1625&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-0-3",
+    "file": "images/scan-0-3.png",
+    "metadata": "images/scan-0-3.json",
+    "bytes": 3698288,
+    "sha256": "bd18efe2ad472faef16f1931fc18ca5efc311d9625211165461a2f16b1147426",
+    "crs": "EPSG:25833",
+    "bbox": [
+      212000,
+      6610000,
+      216000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=212000%2C6610000%2C216000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-0-4",
+    "file": "images/scan-0-4.png",
+    "metadata": "images/scan-0-4.json",
+    "bytes": 3400050,
+    "sha256": "feddd3682575f2a977574102b03a0a78f98a6602d345cb4a4e7adf12107c7d0b",
+    "crs": "EPSG:25833",
+    "bbox": [
+      212000,
+      6614000,
+      216000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=212000%2C6614000%2C216000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-0-5",
+    "file": "images/scan-0-5.png",
+    "metadata": "images/scan-0-5.json",
+    "bytes": 3994832,
+    "sha256": "e8cf5e6f5dfbaef1d287a39b5ee7538bfc9947d075974a14f22ceb811b8836e9",
+    "crs": "EPSG:25833",
+    "bbox": [
+      212000,
+      6618000,
+      216000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=212000%2C6618000%2C216000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-1-2",
+    "file": "images/scan-1-2.png",
+    "metadata": "images/scan-1-2.json",
+    "bytes": 4748567,
+    "sha256": "2a28264e3e7715ce357c00ff372491d192d66e7ad764ac22192208b3cd895342",
+    "crs": "EPSG:25833",
+    "bbox": [
+      216000,
+      6606000,
+      220000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=216000%2C6606000%2C220000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-1-3",
+    "file": "images/scan-1-3.png",
+    "metadata": "images/scan-1-3.json",
+    "bytes": 4283615,
+    "sha256": "a94c8b52694fe9b28dd6aa1d558a82ac1a651b067c1f0333ff2cbdb82bd6e21d",
+    "crs": "EPSG:25833",
+    "bbox": [
+      216000,
+      6610000,
+      220000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=216000%2C6610000%2C220000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-1-4",
+    "file": "images/scan-1-4.png",
+    "metadata": "images/scan-1-4.json",
+    "bytes": 4215629,
+    "sha256": "496798557e3febad260363bde3cd7cbd99b321cd831b27ff5c37e1d80fa669cc",
+    "crs": "EPSG:25833",
+    "bbox": [
+      216000,
+      6614000,
+      220000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=216000%2C6614000%2C220000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-1-5",
+    "file": "images/scan-1-5.png",
+    "metadata": "images/scan-1-5.json",
+    "bytes": 2720855,
+    "sha256": "6a949bcf533761484e57317e26c745ff360a1ab20826f80120cbdce9750b86ca",
+    "crs": "EPSG:25833",
+    "bbox": [
+      216000,
+      6618000,
+      220000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=216000%2C6618000%2C220000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-1-6",
+    "file": "images/scan-1-6.png",
+    "metadata": "images/scan-1-6.json",
+    "bytes": 4296792,
+    "sha256": "bd8de0598545ac28f88705483b7dbc01a0bdf48586db0fa51b5bfc0bb4a234b7",
+    "crs": "EPSG:25833",
+    "bbox": [
+      216000,
+      6622000,
+      220000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=216000%2C6622000%2C220000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-0",
+    "file": "images/scan-2-0.png",
+    "metadata": "images/scan-2-0.json",
+    "bytes": 4173247,
+    "sha256": "b07b951b0560de3579b74c74fe1acdc1386b3a9e474def69c3b96f6958e64d8d",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6598000,
+      224000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6598000%2C224000%2C6602000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-1",
+    "file": "images/scan-2-1.png",
+    "metadata": "images/scan-2-1.json",
+    "bytes": 4211398,
+    "sha256": "9b2b144f84da3807f82f5c9d1b7033d714517c91f20c6cad8541b9a7109e4148",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6602000,
+      224000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6602000%2C224000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-2",
+    "file": "images/scan-2-2.png",
+    "metadata": "images/scan-2-2.json",
+    "bytes": 3979069,
+    "sha256": "659eb6b437f83b59693e3982c0eadb902eb1989fbc7441de35a6386d2994a5b6",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6606000,
+      224000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6606000%2C224000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-3",
+    "file": "images/scan-2-3.png",
+    "metadata": "images/scan-2-3.json",
+    "bytes": 4143422,
+    "sha256": "bb511ded2ee54d5c631ea51600bdd03be9281efaf5a4f15ede6ecd585208d41b",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6610000,
+      224000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6610000%2C224000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-4",
+    "file": "images/scan-2-4.png",
+    "metadata": "images/scan-2-4.json",
+    "bytes": 3712060,
+    "sha256": "bd0cd6c1171b3ad7008e9c566c1928439e6a97fdf420493e7cea1ca38d57c869",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6614000,
+      224000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6614000%2C224000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-5",
+    "file": "images/scan-2-5.png",
+    "metadata": "images/scan-2-5.json",
+    "bytes": 4412202,
+    "sha256": "028468c951a71a22ec03c8ce1b6de91fa36a633c3ef3df7154500493b4ee09c9",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6618000,
+      224000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6618000%2C224000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-2-6",
+    "file": "images/scan-2-6.png",
+    "metadata": "images/scan-2-6.json",
+    "bytes": 3700830,
+    "sha256": "5fb8d064a4253a306fb8ec70bbc06695777807f78343e3b865da6907952b2d16",
+    "crs": "EPSG:25833",
+    "bbox": [
+      220000,
+      6622000,
+      224000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=220000%2C6622000%2C224000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-0",
+    "file": "images/scan-3-0.png",
+    "metadata": "images/scan-3-0.json",
+    "bytes": 3899086,
+    "sha256": "bdf87516fa5987a79cef9bae65069b77b3da1c3b5f00258d999512cd764f2016",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6598000,
+      228000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6598000%2C228000%2C6602000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-1",
+    "file": "images/scan-3-1.png",
+    "metadata": "images/scan-3-1.json",
+    "bytes": 4133178,
+    "sha256": "0c022408b5b9ee684df79318041f2461b488be1fd64828ebb4d59d96e0d144c7",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6602000,
+      228000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6602000%2C228000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-2",
+    "file": "images/scan-3-2.png",
+    "metadata": "images/scan-3-2.json",
+    "bytes": 3889024,
+    "sha256": "b427bc23dd845b41de926448ff6171d688d8cdf6c79b838971b5b65a74900be7",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6606000,
+      228000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6606000%2C228000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-3",
+    "file": "images/scan-3-3.png",
+    "metadata": "images/scan-3-3.json",
+    "bytes": 4546815,
+    "sha256": "e29ef7d781a4b43cb06ec8f2a295283cff69d53ff60b33533d171b7bbe40ce89",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6610000,
+      228000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6610000%2C228000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-4",
+    "file": "images/scan-3-4.png",
+    "metadata": "images/scan-3-4.json",
+    "bytes": 4233173,
+    "sha256": "67282e3a0c17839bad14a62be44585f03597dfc965a5eda65592b34cdc0f8de5",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6614000,
+      228000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6614000%2C228000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-5",
+    "file": "images/scan-3-5.png",
+    "metadata": "images/scan-3-5.json",
+    "bytes": 4256693,
+    "sha256": "846851c1aca64b41b483de3d5371f828f293a0a2731ebc45c2f5c59136b59d9c",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6618000,
+      228000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6618000%2C228000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-3-6",
+    "file": "images/scan-3-6.png",
+    "metadata": "images/scan-3-6.json",
+    "bytes": 4025636,
+    "sha256": "2c5a5cec8bee72d8a444d4f9f1f9fc155f2704619659df22f9a3c6eb4ede1e4c",
+    "crs": "EPSG:25833",
+    "bbox": [
+      224000,
+      6622000,
+      228000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=224000%2C6622000%2C228000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-1",
+    "file": "images/scan-4-1.png",
+    "metadata": "images/scan-4-1.json",
+    "bytes": 4218958,
+    "sha256": "0d193d76dc22853b8bf1250c143ef3f6923134ecd91874a312f9dd99af25f4b9",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6602000,
+      232000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6602000%2C232000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-2",
+    "file": "images/scan-4-2.png",
+    "metadata": "images/scan-4-2.json",
+    "bytes": 4821649,
+    "sha256": "619ad6c02112279f2ee78026e5a263ce26f300e2d23c4e9d017a77637f111a6d",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6606000,
+      232000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6606000%2C232000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-3",
+    "file": "images/scan-4-3.png",
+    "metadata": "images/scan-4-3.json",
+    "bytes": 3777548,
+    "sha256": "881c55097360676eafdd75a8de56484790bdd2a5444605bf0488ecfffb879ecc",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6610000,
+      232000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6610000%2C232000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-4",
+    "file": "images/scan-4-4.png",
+    "metadata": "images/scan-4-4.json",
+    "bytes": 3425313,
+    "sha256": "cb28482c04029f2901ebcd0d88f425340eb8ff7cad3db8b6e1c5a574a0e6b250",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6614000,
+      232000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6614000%2C232000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-5",
+    "file": "images/scan-4-5.png",
+    "metadata": "images/scan-4-5.json",
+    "bytes": 4499660,
+    "sha256": "fa0438bc22db2c495684e77a8f6d022a2c03fb1abcc38b2305f5a92cbcc426ea",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6618000,
+      232000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6618000%2C232000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-4-6",
+    "file": "images/scan-4-6.png",
+    "metadata": "images/scan-4-6.json",
+    "bytes": 4213903,
+    "sha256": "8b4424e846db866ca187a4a2aff6130609811b6187273ca021a9fa9cb22e7bde",
+    "crs": "EPSG:25833",
+    "bbox": [
+      228000,
+      6622000,
+      232000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=228000%2C6622000%2C232000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-0",
+    "file": "images/scan-5-0.png",
+    "metadata": "images/scan-5-0.json",
+    "bytes": 3459630,
+    "sha256": "a6944d06df6c479e3ec8077fd2773938f8d64d2a35abcd1fe99caecb766c3c7d",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6598000,
+      236000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6598000%2C236000%2C6602000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-1",
+    "file": "images/scan-5-1.png",
+    "metadata": "images/scan-5-1.json",
+    "bytes": 3140960,
+    "sha256": "b3f2b3ebb55fc13b0e2863774de0b7e695ec266efc6ebb6c8d53f2c83ca137aa",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6602000,
+      236000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6602000%2C236000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-2",
+    "file": "images/scan-5-2.png",
+    "metadata": "images/scan-5-2.json",
+    "bytes": 2315157,
+    "sha256": "daae7a71bdab346fa138ce78b909c9d3f0490ce75364cb025f628fda215553e0",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6606000,
+      236000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6606000%2C236000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-3",
+    "file": "images/scan-5-3.png",
+    "metadata": "images/scan-5-3.json",
+    "bytes": 4079281,
+    "sha256": "d67423402725f5e4b68862a96eafc8071c41a3bc39c9b1fc6ce65d969d230c46",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6610000,
+      236000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6610000%2C236000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-4",
+    "file": "images/scan-5-4.png",
+    "metadata": "images/scan-5-4.json",
+    "bytes": 4598510,
+    "sha256": "2846563be798adb6e9a989cea7a13fb7990d1a92492fa058387e500aa9545aef",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6614000,
+      236000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6614000%2C236000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-5",
+    "file": "images/scan-5-5.png",
+    "metadata": "images/scan-5-5.json",
+    "bytes": 4831221,
+    "sha256": "528f10036850a6c154eb516b96b07ce6249fc572f862de47063fae66e8810e90",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6618000,
+      236000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6618000%2C236000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-5-6",
+    "file": "images/scan-5-6.png",
+    "metadata": "images/scan-5-6.json",
+    "bytes": 4226391,
+    "sha256": "df2a16e32e54a75449c3174b9d3fc8c12ecd9d0ec392d3db085df1b305f58d8f",
+    "crs": "EPSG:25833",
+    "bbox": [
+      232000,
+      6622000,
+      236000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=232000%2C6622000%2C236000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-0",
+    "file": "images/scan-6-0.png",
+    "metadata": "images/scan-6-0.json",
+    "bytes": 2409543,
+    "sha256": "a8013e1a7cfb94675a43690ac3bbb49ad1f457db7f62e058cd6a3f8977f0036f",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6598000,
+      240000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6598000%2C240000%2C6602000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-1",
+    "file": "images/scan-6-1.png",
+    "metadata": "images/scan-6-1.json",
+    "bytes": 789478,
+    "sha256": "9ff479d28e11d4f63e276add55ea5505b919feada3e0b8239b5dde8fa8664c80",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6602000,
+      240000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6602000%2C240000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-2",
+    "file": "images/scan-6-2.png",
+    "metadata": "images/scan-6-2.json",
+    "bytes": 2436826,
+    "sha256": "280e2e33944a47650ec4ccdf3845d32e4aba4abab0f1f782c6e2cefbe98443cb",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6606000,
+      240000,
+      6610000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6606000%2C240000%2C6610000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-3",
+    "file": "images/scan-6-3.png",
+    "metadata": "images/scan-6-3.json",
+    "bytes": 4913579,
+    "sha256": "30910013f8e22842af028b6c0e01f68cfadf1711a8bc29321b4409bd79b1066e",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6610000,
+      240000,
+      6614000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6610000%2C240000%2C6614000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-4",
+    "file": "images/scan-6-4.png",
+    "metadata": "images/scan-6-4.json",
+    "bytes": 5113216,
+    "sha256": "533238d0c92a95ecf90d0c2aaca0a7b9c14a4dfcc13c64d0c2911ff60d2e4df1",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6614000,
+      240000,
+      6618000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6614000%2C240000%2C6618000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-5",
+    "file": "images/scan-6-5.png",
+    "metadata": "images/scan-6-5.json",
+    "bytes": 4912262,
+    "sha256": "1155bc169b13ab477d013b5d4f25b75dcd405e48ec01292ab92178fdaa465d62",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6618000,
+      240000,
+      6622000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6618000%2C240000%2C6622000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-6-6",
+    "file": "images/scan-6-6.png",
+    "metadata": "images/scan-6-6.json",
+    "bytes": 4604743,
+    "sha256": "109302e7fa5e883efe4801ec90e6f427154fe999eca779ad88ae7d35524bcd15",
+    "crs": "EPSG:25833",
+    "bbox": [
+      236000,
+      6622000,
+      240000,
+      6626000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=236000%2C6622000%2C240000%2C6626000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-7-0",
+    "file": "images/scan-7-0.png",
+    "metadata": "images/scan-7-0.json",
+    "bytes": 988178,
+    "sha256": "a67607952e818e74a0f9ecb8c749264995a34056e73948d1c038f9023e157966",
+    "crs": "EPSG:25833",
+    "bbox": [
+      240000,
+      6598000,
+      244000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240000%2C6598000%2C244000%2C6602000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "scan-7-1",
+    "file": "images/scan-7-1.png",
+    "metadata": "images/scan-7-1.json",
+    "bytes": 144126,
+    "sha256": "1ff886c089a892deb89ebef25254e602da4ce95f60b1d205dfc363604354a219",
+    "crs": "EPSG:25833",
+    "bbox": [
+      240000,
+      6602000,
+      244000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240000%2C6602000%2C244000%2C6606000&width=2000&height=2000&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "sentrum-detail",
+    "file": "images/sentrum-detail.png",
+    "metadata": "images/sentrum-detail.json",
+    "bytes": 2780006,
+    "sha256": "3b5d8b981db416949743e072af3cfa30477609bdca321a51675fa2f389344f41",
+    "crs": "EPSG:25833",
+    "bbox": [
+      234729.2140642776,
+      6603589.068995639,
+      235379.2140642776,
+      6604239.068995639
+    ],
+    "width": 2600,
+    "height": 2600,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=234729.2140642776%2C6603589.068995639%2C235379.2140642776%2C6604239.068995639&width=2600&height=2600&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  },
+  {
+    "id": "thorrud-detail",
+    "file": "images/thorrud-detail.png",
+    "metadata": "images/thorrud-detail.json",
+    "bytes": 1899692,
+    "sha256": "a02d0a9e2eeda505906c13e94c5cc69d6abf717d405ceddd42e5036292a264c8",
+    "crs": "EPSG:25833",
+    "bbox": [
+      217232.4187306172,
+      6620479.280489464,
+      218232.4187306172,
+      6621879.280489464
+    ],
+    "width": 2000,
+    "height": 2800,
+    "url": "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=217232.4187306172%2C6620479.280489464%2C218232.4187306172%2C6621879.280489464&width=2000&height=2800&format=image%2Fpng&transparent=false",
+    "retrieved": "2026-10-28",
+    "source_observation_date": null
+  }
+]

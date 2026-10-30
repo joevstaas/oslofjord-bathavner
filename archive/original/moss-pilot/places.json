@@ -1,0 +1,100 @@
+{
+  "Kippenes": [
+    {
+      "name": "Kippenes",
+      "type": "Nes i sjø",
+      "lon": 10.67476,
+      "lat": 59.48626
+    }
+  ],
+  "Refsnes": [
+    {
+      "name": "Refsnes",
+      "type": "Bydel",
+      "lon": 10.61361,
+      "lat": 59.44707
+    }
+  ],
+  "Rødsstranda": [],
+  "Røedsstranda": [],
+  "Støtvig": [],
+  "Rørvik": [
+    {
+      "name": "Rørvik",
+      "type": "Bruk",
+      "lon": 10.68027,
+      "lat": 59.32689
+    }
+  ],
+  "Lersbauen": [
+    {
+      "name": "Lersbauen",
+      "type": "Adressenavn",
+      "lon": 10.67007,
+      "lat": 59.32683
+    }
+  ],
+  "Teibern": [],
+  "Nasle": [
+    {
+      "name": "Nasle",
+      "type": "Bruk",
+      "lon": 10.68614,
+      "lat": 59.3263
+    }
+  ],
+  "Knutvika": [],
+  "Fuglevik": [
+    {
+      "name": "Fuglevik",
+      "type": "Boligfelt",
+      "lon": 10.65666,
+      "lat": 59.38611
+    },
+    {
+      "name": "Fuglevik",
+      "type": "Bruk",
+      "lon": 10.64169,
+      "lat": 59.46681
+    },
+    {
+      "name": "Fuglevik",
+      "type": "Bruk",
+      "lon": 10.64253,
+      "lat": 59.46656
+    }
+  ],
+  "Evjesund": [
+    {
+      "name": "Evjesundet",
+      "type": "Sund i sjø",
+      "lon": 10.66616,
+      "lat": 59.35728
+    }
+  ],
+  "Djupeklo": [],
+  "Kjellandsvik": [
+    {
+      "name": "Kjellandsvik",
+      "type": "Bruk",
+      "lon": 10.65093,
+      "lat": 59.46225
+    }
+  ],
+  "Sildebaugen": [
+    {
+      "name": "Sildebaugen",
+      "type": "Adressenavn",
+      "lon": 10.71329,
+      "lat": 59.32677
+    }
+  ],
+  "Neset": [
+    {
+      "name": "Signneset",
+      "type": "Nes i sjø",
+      "lon": 10.68223,
+      "lat": 59.3075
+    }
+  ]
+}

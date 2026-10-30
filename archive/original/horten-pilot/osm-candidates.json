@@ -1,0 +1,423 @@
+[
+  {
+    "osm_id": "node/679140414",
+    "name": "Fyllinga båthavn",
+    "center": [
+      10.4986541,
+      59.4168772
+    ],
+    "source_file": "osm-horten-ost.osm",
+    "tags": {
+      "leisure": "marina",
+      "name": "Fyllinga båthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": []
+  },
+  {
+    "osm_id": "way/1216306785",
+    "name": "Horten Gjestehavn",
+    "center": [
+      10.488894,
+      59.413212
+    ],
+    "source_file": "osm-horten-ost.osm",
+    "tags": {
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Horten Gjestehavn",
+      "power_supply": "yes",
+      "sanitary_dump_station": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.hortenhavn.no/fritidsbaat/horten-gjestehavn/"
+    },
+    "coordinates": [
+      [
+        10.4907094,
+        59.4135783
+      ],
+      [
+        10.488671,
+        59.4142419
+      ],
+      [
+        10.4873364,
+        59.4132907
+      ],
+      [
+        10.4873729,
+        59.4132016
+      ],
+      [
+        10.4874516,
+        59.4130795
+      ],
+      [
+        10.487602,
+        59.4129415
+      ],
+      [
+        10.4898654,
+        59.4124248
+      ],
+      [
+        10.4903286,
+        59.412569
+      ],
+      [
+        10.4907094,
+        59.4135783
+      ]
+    ]
+  },
+  {
+    "osm_id": "node/5107343404",
+    "name": "Horten Seilforening",
+    "center": [
+      10.4845672,
+      59.3971469
+    ],
+    "source_file": "osm-borre.osm",
+    "tags": {
+      "leisure": "marina",
+      "name": "Horten Seilforening",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.havneweb.no/horten-sf/"
+    },
+    "coordinates": []
+  },
+  {
+    "osm_id": "way/1216709953",
+    "name": "Steinbrygga båthavn",
+    "center": [
+      10.470779,
+      59.378271
+    ],
+    "source_file": "osm-borre.osm",
+    "tags": {
+      "leisure": "marina",
+      "name": "Steinbrygga båthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://steinbrygga.no/"
+    },
+    "coordinates": [
+      [
+        10.4724388,
+        59.3779753
+      ],
+      [
+        10.4713669,
+        59.3790553
+      ],
+      [
+        10.4706934,
+        59.3796521
+      ],
+      [
+        10.4703076,
+        59.3795076
+      ],
+      [
+        10.4678366,
+        59.3781644
+      ],
+      [
+        10.4686659,
+        59.377766
+      ],
+      [
+        10.4704697,
+        59.3769434
+      ],
+      [
+        10.472789,
+        59.3773959
+      ],
+      [
+        10.4724388,
+        59.3779753
+      ]
+    ]
+  },
+  {
+    "osm_id": "way/1216198612",
+    "name": "Åsgårdstrand Seilforening",
+    "center": [
+      10.469265,
+      59.351587
+    ],
+    "source_file": "osm-asgardstrand.osm",
+    "tags": {
+      "email": "havnekomiteen@aasgaardstrand-seil.no",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Åsgårdstrand Seilforening",
+      "operator": "Åsgårdstrand Seilforening",
+      "power_supply": "yes",
+      "sanitary_dump_station": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.seilforeningen.no/"
+    },
+    "coordinates": [
+      [
+        10.4680236,
+        59.3518438
+      ],
+      [
+        10.4685104,
+        59.3519854
+      ],
+      [
+        10.4686267,
+        59.3518681
+      ],
+      [
+        10.470737,
+        59.3524375
+      ],
+      [
+        10.4717906,
+        59.3512295
+      ],
+      [
+        10.4697613,
+        59.3508386
+      ],
+      [
+        10.4695447,
+        59.3511467
+      ],
+      [
+        10.4694468,
+        59.3512586
+      ],
+      [
+        10.4693251,
+        59.3513705
+      ],
+      [
+        10.4689468,
+        59.351682
+      ],
+      [
+        10.4684416,
+        59.351535
+      ],
+      [
+        10.4680236,
+        59.3518438
+      ]
+    ]
+  },
+  {
+    "osm_id": "way/1217376960",
+    "name": "Åsgårdstrand gjestehavn",
+    "center": [
+      10.471208,
+      59.350401
+    ],
+    "source_file": "osm-asgardstrand.osm",
+    "tags": {
+      "capacity": "310",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Åsgårdstrand gjestehavn",
+      "operator": "Horten havnevesen",
+      "power_supply": "yes",
+      "sanitary_dump_station": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.hortenhavn.no/fritidsbaat/%C3%A5sgaardstrand-gjestehavn/"
+    },
+    "coordinates": [
+      [
+        10.4717906,
+        59.3512295
+      ],
+      [
+        10.4724236,
+        59.3514384
+      ],
+      [
+        10.4732336,
+        59.3510996
+      ],
+      [
+        10.474857,
+        59.3495934
+      ],
+      [
+        10.4712843,
+        59.3489865
+      ],
+      [
+        10.4711108,
+        59.3492219
+      ],
+      [
+        10.4706769,
+        59.3497186
+      ],
+      [
+        10.470341,
+        59.3500306
+      ],
+      [
+        10.4701357,
+        59.3502556
+      ],
+      [
+        10.4699907,
+        59.3504272
+      ],
+      [
+        10.4697977,
+        59.3507116
+      ],
+      [
+        10.4697236,
+        59.3508286
+      ],
+      [
+        10.4697613,
+        59.3508386
+      ],
+      [
+        10.4717906,
+        59.3512295
+      ]
+    ]
+  },
+  {
+    "osm_id": "way/1216417052",
+    "name": "Båtforeningen Pluggen",
+    "center": [
+      10.46928,
+      59.426288
+    ],
+    "source_file": "osm-horten-vest-nord.osm",
+    "tags": {
+      "leisure": "marina",
+      "name": "Båtforeningen Pluggen",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "http://pluggenhavn.no/"
+    },
+    "coordinates": [
+      [
+        10.4709924,
+        59.4267375
+      ],
+      [
+        10.4717971,
+        59.4264456
+      ],
+      [
+        10.4701771,
+        59.4252204
+      ],
+      [
+        10.4680206,
+        59.4254414
+      ],
+      [
+        10.4675598,
+        59.4263109
+      ],
+      [
+        10.4673844,
+        59.4266418
+      ],
+      [
+        10.4673178,
+        59.4267675
+      ],
+      [
+        10.4709924,
+        59.4267375
+      ]
+    ]
+  },
+  {
+    "osm_id": "way/1216920501",
+    "name": "Solviken småbåtshavn",
+    "center": [
+      10.46103,
+      59.429504
+    ],
+    "source_file": "osm-nord.osm",
+    "tags": {
+      "capacity": "412",
+      "leisure": "marina",
+      "name": "Solviken småbåtshavn",
+      "operator": "Solviken Båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://solviken.no/"
+    },
+    "coordinates": [
+      [
+        10.459468,
+        59.430668
+      ],
+      [
+        10.4587103,
+        59.4305968
+      ],
+      [
+        10.4577413,
+        59.4295321
+      ],
+      [
+        10.4593422,
+        59.4288086
+      ],
+      [
+        10.4624001,
+        59.4283991
+      ],
+      [
+        10.4625661,
+        59.4285093
+      ],
+      [
+        10.4628308,
+        59.4285564
+      ],
+      [
+        10.4648935,
+        59.429145
+      ],
+      [
+        10.4628816,
+        59.4301564
+      ],
+      [
+        10.459468,
+        59.430668
+      ]
+    ]
+  },
+  {
+    "osm_id": "node/9963302233",
+    "name": "Våle Båthavn",
+    "center": [
+      10.3579862,
+      59.4606871
+    ],
+    "source_file": "osm-nord.osm",
+    "tags": {
+      "leisure": "marina",
+      "name": "Våle Båthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "coordinates": []
+  }
+]

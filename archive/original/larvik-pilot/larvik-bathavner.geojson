@@ -1,0 +1,3420 @@
+{
+  "type": "FeatureCollection",
+  "name": "Larvik – småbåthavner, revisjon 1",
+  "description": "Godkjent kommuneleveranse med bilde-/kildekontroll og kandidatlogg. Opptaksdato, posisjonsnøyaktighet, fullstendighet og dagens drift er ikke generelt verifisert. Fysiske båthavnområder, ikke juridiske grenser. Godkjent av brukeren 2026-10-29; kjente usikkerheter og uavklarte kandidater er beholdt.",
+  "method_version": "1.1",
+  "schema_version": "1.1",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/163116818",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H01-B01",
+        "harbour_id": "3909-H01",
+        "name": "Helgeroa – gjestehavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 14208.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 9.8563882,
+        "latitude": 58.9933737,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/way/163116818",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204099.89069231303%2C6550220.130365083%2C205099.89069231303%2C6551220.130365083&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/163116818"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Delområde i samme fysiske havn som Helgeroa småbåthavn; gjeste- og faste plasser er ikke talt som to havneområder.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p00",
+        "image_sha256": "76931dc34cec2a5deb6eb8943c0c15759343036136d20c2af17027f5ca37b6e9"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.8552763,
+              58.993506999999994
+            ],
+            [
+              9.8552277,
+              58.993450900000006
+            ],
+            [
+              9.855215000000001,
+              58.993423899999996
+            ],
+            [
+              9.856121000000002,
+              58.99258039999999
+            ],
+            [
+              9.8574971,
+              58.99332340000001
+            ],
+            [
+              9.857582400000002,
+              58.99373929999999
+            ],
+            [
+              9.856949100000001,
+              58.993923599999995
+            ],
+            [
+              9.856248299999999,
+              58.994089100000004
+            ],
+            [
+              9.8560381,
+              58.99405439999999
+            ],
+            [
+              9.855611900000001,
+              58.993986299999996
+            ],
+            [
+              9.855499900000005,
+              58.99393699999999
+            ],
+            [
+              9.8552699,
+              58.9935565
+            ],
+            [
+              9.8552763,
+              58.993506999999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/135450559",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H01-B02",
+        "harbour_id": "3909-H01",
+        "name": "Helgeroa – småbåthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 25298.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 9.8571818,
+        "latitude": 58.994868,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/way/135450559",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204170.22567103093%2C6550340.908090786%2C205170.22567103093%2C6551340.908090786&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/135450559"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p01",
+        "image_sha256": "682ba1acc2e92ad3ed8bc5ae79bb726a487bbf7965971196b94ff79f2db593da"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.8569481,
+              58.994218300000014
+            ],
+            [
+              9.857265099999998,
+              58.9940881
+            ],
+            [
+              9.857312200000003,
+              58.99412339999999
+            ],
+            [
+              9.857804400000001,
+              58.993922600000005
+            ],
+            [
+              9.857972700000001,
+              58.99386899999999
+            ],
+            [
+              9.857986200000001,
+              58.993865599999985
+            ],
+            [
+              9.858081500000003,
+              58.993962799999984
+            ],
+            [
+              9.858246400000002,
+              58.99391929999999
+            ],
+            [
+              9.858655599999999,
+              58.9943173
+            ],
+            [
+              9.858550100000002,
+              58.99434329999998
+            ],
+            [
+              9.858545,
+              58.994377099999994
+            ],
+            [
+              9.858662800000001,
+              58.994380699999994
+            ],
+            [
+              9.8585979,
+              58.994950900000006
+            ],
+            [
+              9.858018100000002,
+              58.9955984
+            ],
+            [
+              9.857199799999998,
+              58.995785999999995
+            ],
+            [
+              9.856811299999999,
+              58.99572520000002
+            ],
+            [
+              9.8567412,
+              58.9956024
+            ],
+            [
+              9.856597800000003,
+              58.995622899999994
+            ],
+            [
+              9.856520000000002,
+              58.99567229999999
+            ],
+            [
+              9.8564873,
+              58.9958215
+            ],
+            [
+              9.8561408,
+              58.9957117
+            ],
+            [
+              9.856098699999999,
+              58.99566310000001
+            ],
+            [
+              9.8563035,
+              58.995175800000005
+            ],
+            [
+              9.8555879,
+              58.99508120000001
+            ],
+            [
+              9.8555665,
+              58.995009100000004
+            ],
+            [
+              9.8557127,
+              58.9949126
+            ],
+            [
+              9.855799800000003,
+              58.994823499999995
+            ],
+            [
+              9.8560788,
+              58.99429909999999
+            ],
+            [
+              9.856253100000002,
+              58.994176499999995
+            ],
+            [
+              9.856770800000001,
+              58.99427159999999
+            ],
+            [
+              9.856855600000001,
+              58.99426290000001
+            ],
+            [
+              9.8569481,
+              58.994218300000014
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107482985",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H02-B01",
+        "harbour_id": "3909-H02",
+        "name": "Kjerringvik – Nordhavna",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 981.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.2268633,
+        "latitude": 59.0421364,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/5107482985",
+          "https://www.openstreetmap.org/node/5107482984",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=225793.27860605973%2C6554012.456386682%2C226793.27860605973%2C6555012.456386682&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482985",
+          "node/5107482984"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Nordre bukt og synlig brygge. OSM-punktene er upresise; full utstrekning av morings-/bøyeplasser er uklar. Ikke dobbelttelt for de to OSM-navnene.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p09",
+        "image_sha256": "b588d392ae078c53e2fa81a0d39fcc7736e40ed5751020a1f8b5fac375c902e6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.226496144201995,
+              59.04225890182412
+            ],
+            [
+              10.226235644929282,
+              59.042249288391304
+            ],
+            [
+              10.226279099101427,
+              59.04214594668154
+            ],
+            [
+              10.22719916914573,
+              59.04201498416789
+            ],
+            [
+              10.227387272240495,
+              59.04212686987135
+            ],
+            [
+              10.22731487702532,
+              59.042229144053884
+            ],
+            [
+              10.227149500575825,
+              59.042163073382326
+            ],
+            [
+              10.226496144201995,
+              59.04225890182412
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107482986",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H03-B01",
+        "harbour_id": "3909-H03",
+        "name": "Kjerringvik – Sydhavna",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3287.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.2284385,
+        "latitude": 59.0405182,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/5107482986",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=225795.70220765227%2C6553817.399155111%2C226795.70220765227%2C6554817.399155111&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482986"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p03",
+        "image_sha256": "b2be7a588dd79e682d110fef2466d12c0275a44fd5e65479eea9322a8ed7fcc5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.228815035565372,
+              59.04073977753608
+            ],
+            [
+              10.227752427102415,
+              59.04064060913836
+            ],
+            [
+              10.227806300000001,
+              59.04025280000002
+            ],
+            [
+              10.228075072327613,
+              59.04020274710745
+            ],
+            [
+              10.229061139485406,
+              59.04043401952226
+            ],
+            [
+              10.22915412545089,
+              59.040602363047114
+            ],
+            [
+              10.228815035565372,
+              59.04073977753608
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/1477952462",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H04-B01",
+        "harbour_id": "3909-H04",
+        "name": "Laberget småbåthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 9822.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 9.8654855,
+        "latitude": 58.9717905,
+        "sources": [
+          "https://www.openstreetmap.org/node/1477952462",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204487.15043110837%2C6547726.729948418%2C205487.15043110837%2C6548726.729948418&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/1477952462"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p04",
+        "image_sha256": "c382b18b0fe4e5849d129d0ecd605bbda1c38e4c2ebd58eb0f953e6191c863ec"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.866013449649177,
+              58.97226759568442
+            ],
+            [
+              9.864772045194613,
+              58.97221823630173
+            ],
+            [
+              9.86491658239258,
+              58.97105428733943
+            ],
+            [
+              9.865904792757776,
+              58.97104859191415
+            ],
+            [
+              9.866264507500858,
+              58.971362814769805
+            ],
+            [
+              9.866013449649177,
+              58.97226759568442
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/108257655",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H05-B01",
+        "harbour_id": "3909-H05",
+        "name": "Larvik båtforening – Karistranda/Vadskjæret",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 11994.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0380395,
+        "latitude": 59.0456758,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://lokalhistoriewiki.no/wiki/Karistranda_(Larvik)",
+          "https://www.openstreetmap.org/way/108257655",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214938.02789168246%2C6555214.420183767%2C215938.02789168246%2C6556214.420183767&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/108257655"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Karistranda, Vadskjæret og Larvik båtforening er navn på samme fysiske anlegg; ikke tre havner.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p05",
+        "image_sha256": "5cc005198b956e6051e1331911a8cd7e18667c38d3cdbeb5ae1091198e147f9b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.039207500000002,
+              59.04597559999999
+            ],
+            [
+              10.037830600000001,
+              59.0462946
+            ],
+            [
+              10.037722000000002,
+              59.046070699999994
+            ],
+            [
+              10.037594599999998,
+              59.04595890000002
+            ],
+            [
+              10.037463600000004,
+              59.04586089999997
+            ],
+            [
+              10.037430000000002,
+              59.04586770000001
+            ],
+            [
+              10.0374168,
+              59.04585289999999
+            ],
+            [
+              10.037390700000001,
+              59.0458453
+            ],
+            [
+              10.0372642,
+              59.0458575
+            ],
+            [
+              10.037246400000003,
+              59.0458443
+            ],
+            [
+              10.037222700000001,
+              59.0458015
+            ],
+            [
+              10.037171300000002,
+              59.04577710000001
+            ],
+            [
+              10.0371218,
+              59.045760800000004
+            ],
+            [
+              10.037094100000001,
+              59.04575169999998
+            ],
+            [
+              10.037019300000003,
+              59.04572389999999
+            ],
+            [
+              10.037013300000002,
+              59.04571399999999
+            ],
+            [
+              10.036978500000002,
+              59.0457035
+            ],
+            [
+              10.036893300000001,
+              59.0456683
+            ],
+            [
+              10.0367492,
+              59.04573870000001
+            ],
+            [
+              10.0366796,
+              59.04575040000001
+            ],
+            [
+              10.036632800000001,
+              59.04575229999998
+            ],
+            [
+              10.0366028,
+              59.0457443
+            ],
+            [
+              10.036505600000002,
+              59.0457011
+            ],
+            [
+              10.036470800000002,
+              59.045709699999996
+            ],
+            [
+              10.036439600000001,
+              59.04569119999999
+            ],
+            [
+              10.036424,
+              59.0456986
+            ],
+            [
+              10.0364048,
+              59.045683200000006
+            ],
+            [
+              10.036353000000002,
+              59.045664300000006
+            ],
+            [
+              10.036688500000002,
+              59.04544150000001
+            ],
+            [
+              10.036782100000002,
+              59.0454703
+            ],
+            [
+              10.037100400000002,
+              59.04545860000001
+            ],
+            [
+              10.037164000000002,
+              59.04543479999999
+            ],
+            [
+              10.037215000000002,
+              59.04541489999998
+            ],
+            [
+              10.0374283,
+              59.0453371
+            ],
+            [
+              10.037892200000002,
+              59.04516790000001
+            ],
+            [
+              10.0382204,
+              59.045062200000004
+            ],
+            [
+              10.0383523,
+              59.0450601
+            ],
+            [
+              10.038459,
+              59.045055000000005
+            ],
+            [
+              10.038723900000003,
+              59.04516759999999
+            ],
+            [
+              10.0389058,
+              59.0453456
+            ],
+            [
+              10.0391155,
+              59.0456099
+            ],
+            [
+              10.0392043,
+              59.0457218
+            ],
+            [
+              10.0391766,
+              59.0457289
+            ],
+            [
+              10.039197400000003,
+              59.0457556
+            ],
+            [
+              10.0393438,
+              59.04594360000001
+            ],
+            [
+              10.039207500000002,
+              59.04597559999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/272287098",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H06-B01",
+        "harbour_id": "3909-H06",
+        "name": "Nedre Lågen båtforening",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 3377.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0560916,
+        "latitude": 59.0388058,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/way/272287098",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=215950.84728252242%2C6554368.648496559%2C216950.84728252242%2C6555368.648496559&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/272287098"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Vannmiljø: elveutlop.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p06",
+        "image_sha256": "caf7b2182d1937b649539e8b68726d3556829880e4e17d7cfa1a489f12b0dc84"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.056293,
+              59.03836830000001
+            ],
+            [
+              10.056336500000002,
+              59.0383628
+            ],
+            [
+              10.056771000000001,
+              59.038534599999984
+            ],
+            [
+              10.05673,
+              59.0385574
+            ],
+            [
+              10.056754200000002,
+              59.03860220000001
+            ],
+            [
+              10.056628200000002,
+              59.03865609999998
+            ],
+            [
+              10.0565977,
+              59.038696699999996
+            ],
+            [
+              10.056541900000001,
+              59.03891480000001
+            ],
+            [
+              10.056222900000002,
+              59.039131899999994
+            ],
+            [
+              10.0558841,
+              59.039113300000004
+            ],
+            [
+              10.0557773,
+              59.039057500000006
+            ],
+            [
+              10.0556548,
+              59.039035600000005
+            ],
+            [
+              10.055555700000001,
+              59.03907590000001
+            ],
+            [
+              10.055340800000005,
+              59.03894259999997
+            ],
+            [
+              10.055319600000002,
+              59.03892399999999
+            ],
+            [
+              10.056201400000003,
+              59.038568999999995
+            ],
+            [
+              10.0563097,
+              59.0384614
+            ],
+            [
+              10.056293,
+              59.03836830000001
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-way/108246714",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H07-B01",
+        "harbour_id": "3909-H07",
+        "name": "Skotta/Skottebrygga – småbåthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "dokumentert_smabathavn_og_synlige_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "osm_polygon_bildekontrollert",
+        "area_m2": 2690.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0330484,
+        "latitude": 59.0485136,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/way/108246714",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214698.00154910976%2C6555549.424846702%2C215698.00154910976%2C6556549.424846702&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "way/108246714"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p07",
+        "image_sha256": "775f733d6ca5ce6091b74adec99312a8b0c4d2e65a70724acfb0449001ade5d0"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.0328564,
+              59.048816000000016
+            ],
+            [
+              10.0327184,
+              59.04871109999999
+            ],
+            [
+              10.032684300000001,
+              59.048316199999995
+            ],
+            [
+              10.032652600000004,
+              59.04831519999999
+            ],
+            [
+              10.0326427,
+              59.04825099999999
+            ],
+            [
+              10.032706400000004,
+              59.04822409999999
+            ],
+            [
+              10.033407000000004,
+              59.0481982
+            ],
+            [
+              10.033387300000001,
+              59.0487386
+            ],
+            [
+              10.032996500000003,
+              59.048892599999974
+            ],
+            [
+              10.0328564,
+              59.048816000000016
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/1477952461",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H08-B01",
+        "harbour_id": "3909-H08",
+        "name": "Nevlunghavn – indre båthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4830.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 9.8668487,
+        "latitude": 58.9688012,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/1477952461",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204623.74655734422%2C6547368.746858252%2C205623.74655734422%2C6548368.746858252&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/1477952461"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p08",
+        "image_sha256": "de75ba3e401e7475a348e7903f22b907730449559a24cae55f0cbb86f000c63b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.86698251937347,
+              58.969460013327286
+            ],
+            [
+              9.866380744539965,
+              58.969406098812215
+            ],
+            [
+              9.866487390825721,
+              58.96888547527345
+            ],
+            [
+              9.866649524171175,
+              58.968577002845
+            ],
+            [
+              9.86698041030396,
+              58.9683052307462
+            ],
+            [
+              9.867373451168179,
+              58.968200885427684
+            ],
+            [
+              9.86736899116842,
+              58.968425649402654
+            ],
+            [
+              9.867151352875448,
+              58.96871692016954
+            ],
+            [
+              9.86722903149242,
+              58.9691698904025
+            ],
+            [
+              9.86698251937347,
+              58.969460013327286
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p08",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H08-B02",
+        "harbour_id": "3909-H08",
+        "name": "Nevlunghavn – ytre kai-/båtplasser",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1958.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 9.8693178,
+        "latitude": 58.96801,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=204623.74655734422%2C6547368.746858252%2C205623.74655734422%2C6548368.746858252&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Blandet gjeste-/fiskerihavn. Foreløpig smalt sjøbelte ved ytre kai; driftsgrense og fordeling mellom båtbruk er ikke verifisert.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p08",
+        "image_sha256": "de75ba3e401e7475a348e7903f22b907730449559a24cae55f0cbb86f000c63b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.869212033091038,
+              58.968333937326456
+            ],
+            [
+              9.868936692059858,
+              58.96823302021129
+            ],
+            [
+              9.869198725283425,
+              58.96783853846016
+            ],
+            [
+              9.869098813244703,
+              58.96753464716767
+            ],
+            [
+              9.869414119680018,
+              58.96756217171489
+            ],
+            [
+              9.869629500190815,
+              58.96787065043947
+            ],
+            [
+              9.869471838703474,
+              58.96814931141497
+            ],
+            [
+              9.869212033091038,
+              58.968333937326456
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107430963",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H09-B01",
+        "harbour_id": "3909-H09",
+        "name": "Lågen – østre bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 17895.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0650403,
+        "latitude": 59.0408608,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/5107430963",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216430.690567501%2C6554636.435616153%2C217430.690567501%2C6555636.435616153&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107430963"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tett felles bryggeanlegg nær Elveveien. Koblingen til navnet Øvre Lågen båtforening er foreløpig; registrert adresse alene beviser ikke havneplassering. Vannmiljø: elveutlop.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p10",
+        "image_sha256": "c818068b8cdb2ae938ff74104ef1f097051bb100d8f02f760506ec08d7adf80a"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.065681825583239,
+              59.04180714463398
+            ],
+            [
+              10.0641010040137,
+              59.0416718531201
+            ],
+            [
+              10.064374230975796,
+              59.03997297594843
+            ],
+            [
+              10.06599247998643,
+              59.040049718395125
+            ],
+            [
+              10.065681825583239,
+              59.04180714463398
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107430964",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H10-B01",
+        "harbour_id": "3909-H10",
+        "name": "Langestrand – søndre småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3350.0,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0188817,
+        "latitude": 59.0418951,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107430964",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=213843.06776174682%2C6554872.441660768%2C214843.06776174682%2C6555872.441660768&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107430964"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Tydelig liten felles bryggegruppe. Navnet er beskrivende; operatør ikke bekreftet.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p11",
+        "image_sha256": "042a28a3e5d27b8bf59e3a0054663dc8e13965e43e1c58fa7f008752036ec437"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.019186875994837,
+              59.042088099628096
+            ],
+            [
+              10.018577072598765,
+              59.04207960685114
+            ],
+            [
+              10.018339629285087,
+              59.04171059526555
+            ],
+            [
+              10.018908035827502,
+              59.041402612752535
+            ],
+            [
+              10.019491879399427,
+              59.04159003708329
+            ],
+            [
+              10.019186875994837,
+              59.042088099628096
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107482988",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H11-B01",
+        "harbour_id": "3909-H11",
+        "name": "Bjønnesstranda båthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5341.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.1157608,
+        "latitude": 59.0304032,
+        "sources": [
+          "https://www.havneweb.no/bjonnesstranda-bh/",
+          "https://www.openstreetmap.org/node/5107482988",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=219325.4574132173%2C6553167.297587849%2C220325.4574132173%2C6554167.297587849&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482988"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 143,
+        "berth_count_source": "https://www.havneweb.no/bjonnesstranda-bh/",
+        "berth_count_approximate": false,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir 143 faste plasser. Refleks og sjøpreg gjør full fortøyningsutstrekning uklar; synlige brygger avgrenset.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p12",
+        "image_sha256": "017a36119be5cd6cbffce6cdf32c6c4e2ab5c5fdf2afcc7ac4482d6092a3bf2a"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.11601186224754,
+              59.030965896078676
+            ],
+            [
+              10.115297088561954,
+              59.030878924281915
+            ],
+            [
+              10.115410191418208,
+              59.02987864130461
+            ],
+            [
+              10.11630487911513,
+              59.029927427943605
+            ],
+            [
+              10.11601186224754,
+              59.030965896078676
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/498322540",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H12-B01",
+        "harbour_id": "3909-H12",
+        "name": "Ødegården / Larvik Seilforening – vestre havneanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_og_gjeste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 18216.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0955689,
+        "latitude": 59.0240737,
+        "sources": [
+          "https://larvikseilforening.no/gjesteplasser/",
+          "https://larvikseilforening.no/havneinormasjon/",
+          "https://www.openstreetmap.org/node/498322540",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=218135.8906293268%2C6552597.003643237%2C219135.8906293268%2C6553597.003643237&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/498322540"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Seilforeningens adresse Ødegårdsveien 20 peker til dette området. Flere tilstøtende brygger; interne grenser mot andre aktører er ikke kartlagt. Østre anlegg er separat.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p13",
+        "image_sha256": "4d73d4e987b82e92b40449ce95ef67675ca41ea5307afeb186840a27c6fa0ac3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.096179635843166,
+              59.02487496259597
+            ],
+            [
+              10.09467257904112,
+              59.02504269860614
+            ],
+            [
+              10.09460545410862,
+              59.02429047254924
+            ],
+            [
+              10.094918972420821,
+              59.0239275274904
+            ],
+            [
+              10.095042791269643,
+              59.0234674237796
+            ],
+            [
+              10.09477145947422,
+              59.02312727097384
+            ],
+            [
+              10.095249987310158,
+              59.022830560069956
+            ],
+            [
+              10.096191663668485,
+              59.02295624166571
+            ],
+            [
+              10.096528502611093,
+              59.023448811296234
+            ],
+            [
+              10.096302177355295,
+              59.024219893169544
+            ],
+            [
+              10.09541957280906,
+              59.02429137061139
+            ],
+            [
+              10.095294496660985,
+              59.02455651037852
+            ],
+            [
+              10.096193265992598,
+              59.024575608139465
+            ],
+            [
+              10.096179635843166,
+              59.02487496259597
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/498319681",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H13-B01",
+        "harbour_id": "3909-H13",
+        "name": "Hølen – nordvestre småbåtbasseng",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 7402.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0655935,
+        "latitude": 59.0348268,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/498319681",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216373.47986857267%2C6553763.846698002%2C217373.47986857267%2C6554763.846698002&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/498319681"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Sammenhengende småbåtområde ved Hølen. Interne operatørgrenser og kobling til Hølen Vestre er ikke endelig avklart; navnet er beskrivende. Industrikaier utenfor bassenget er utelatt. Vannmiljø: elveutlop.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p14",
+        "image_sha256": "258de223dd40226d914bfdac19f0439671b491240f17583473b474a8ec53cd82"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.066021279351505,
+              59.03512452631461
+            ],
+            [
+              10.06466901073982,
+              59.03522286289528
+            ],
+            [
+              10.064659336787553,
+              59.03468271328381
+            ],
+            [
+              10.06523687268193,
+              59.034509833313734
+            ],
+            [
+              10.065756541216349,
+              59.034334742856224
+            ],
+            [
+              10.066240890958053,
+              59.0346081194085
+            ],
+            [
+              10.06671240041788,
+              59.03497096737274
+            ],
+            [
+              10.066021279351505,
+              59.03512452631461
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107367929",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H14-B01",
+        "harbour_id": "3909-H14",
+        "name": "Eftang – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 5234.7,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.1689328,
+        "latitude": 59.0116973,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107367929",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=222280.94117118412%2C6550854.183457045%2C223280.94117118412%2C6551854.183457045&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107367929"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Synlige felles båtplasser innenfor molo; beskrivende områdenavn.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p15",
+        "image_sha256": "5b66b6a8eb11a940159619264ee95c1b2220f8300d43ac6b0d5b10cb7374d49f"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.168962431029211,
+              59.01187694701881
+            ],
+            [
+              10.168350995902772,
+              59.01188408127047
+            ],
+            [
+              10.167717777639922,
+              59.01142562075101
+            ],
+            [
+              10.16803208373401,
+              59.01125745555337
+            ],
+            [
+              10.169640489775047,
+              59.01160242882253
+            ],
+            [
+              10.169904515425195,
+              59.011792207748265
+            ],
+            [
+              10.169267941662186,
+              59.01197832074605
+            ],
+            [
+              10.168962431029211,
+              59.01187694701881
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107482987",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H15-B01",
+        "harbour_id": "3909-H15",
+        "name": "Vikerøysundet – småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6912.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.1452827,
+        "latitude": 59.0426542,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107482987",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=221045.70766636223%2C6554386.884960138%2C222045.70766636223%2C6555386.884960138&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482987"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Felles båtplasser ved Vikerøybrua. Foreløpig navnekobling til Viksfjord båtforening; ikke en verifisert operatørgrense.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p16",
+        "image_sha256": "9f80d8a1483a29ff198c9976d7fec3a5b28b3ec4d606cdd84f56064f4cdba7cb"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.146854725973368,
+              59.04326320142953
+            ],
+            [
+              10.143251997455806,
+              59.042198403832245
+            ],
+            [
+              10.143690906206418,
+              59.04197499497205
+            ],
+            [
+              10.147167323406771,
+              59.0431100067254
+            ],
+            [
+              10.146854725973368,
+              59.04326320142953
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107367928",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H16-B01",
+        "harbour_id": "3909-H16",
+        "name": "Stavern – nordre havnebrygger",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_og_operator_dokumentert_smabathavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 28301.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0437233,
+        "latitude": 59.0010765,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.havneweb.no/stavern-bf/index.php",
+          "https://www.openstreetmap.org/node/5107367928",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214843.0848553615%2C6550049.763088261%2C215843.0848553615%2C6551049.763088261&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107367928"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Del av det fysiske indre havneområdet i Stavern, med foreningsplasser/gjesteplasser/Floskjær. Interne driftsgrenser er ikke kartlagt. Foreningens oppgitte 757 plasser gjelder ikke automatisk dette delpolygonet.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p17",
+        "image_sha256": "20bdb253968ade0d8aa19aaa7f0ea221818f00daa025a9ec122d317d0143939b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.042559359939894,
+              59.00130829639939
+            ],
+            [
+              10.040960663641478,
+              59.00030232553218
+            ],
+            [
+              10.042872443728609,
+              59.00034568627716
+            ],
+            [
+              10.044074385779949,
+              59.00067667515963
+            ],
+            [
+              10.044399919581696,
+              59.00043425858138
+            ],
+            [
+              10.044922293713325,
+              59.00043929513004
+            ],
+            [
+              10.045328878116022,
+              59.0008447316521
+            ],
+            [
+              10.044902205092924,
+              59.002192838298704
+            ],
+            [
+              10.044014808608813,
+              59.00209883380244
+            ],
+            [
+              10.042559359939894,
+              59.00130829639939
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p17",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H16-B02",
+        "harbour_id": "3909-H16",
+        "name": "Stavern – søndre havnebrygger",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_og_operator_dokumentert_smabathavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 53222.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0448155,
+        "latitude": 58.9997376,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.havneweb.no/stavern-bf/index.php",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214843.0848553615%2C6550049.763088261%2C215843.0848553615%2C6551049.763088261&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Felles ytterkant mot nordre del er teknisk samordnet ved å fjerne 20,79 m² dobbel avgrensning i samme fysiske havnegruppe.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p17",
+        "image_sha256": "20bdb253968ade0d8aa19aaa7f0ea221818f00daa025a9ec122d317d0143939b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.046454074599549,
+              59.00049801972411
+            ],
+            [
+              10.045202717630426,
+              59.000510023758
+            ],
+            [
+              10.04495555370524,
+              59.00047246161702
+            ],
+            [
+              10.044922293713325,
+              59.00043929513004
+            ],
+            [
+              10.04472478826882,
+              59.00043739109981
+            ],
+            [
+              10.041903882144318,
+              59.00000864583198
+            ],
+            [
+              10.042027563077298,
+              58.998948805434175
+            ],
+            [
+              10.042759841547609,
+              58.998707003870095
+            ],
+            [
+              10.046601403566894,
+              58.99886930847218
+            ],
+            [
+              10.047706893767955,
+              58.99946646062552
+            ],
+            [
+              10.047683125727756,
+              59.000035325691364
+            ],
+            [
+              10.046454074599549,
+              59.00049801972411
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p17",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H16-B03",
+        "harbour_id": "3909-H16",
+        "name": "Stavern – vestre nordre brygger",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_gjeste_og_smabathavn",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6879.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0403279,
+        "latitude": 58.9998737,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214843.0848553615%2C6550049.763088261%2C215843.0848553615%2C6551049.763088261&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p17",
+        "image_sha256": "20bdb253968ade0d8aa19aaa7f0ea221818f00daa025a9ec122d317d0143939b"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.041743145500732,
+              59.00031735620835
+            ],
+            [
+              10.039361553026199,
+              59.000106002996944
+            ],
+            [
+              10.0394774092276,
+              58.99970560715352
+            ],
+            [
+              10.040183923569979,
+              58.99964276058464
+            ],
+            [
+              10.041986286936462,
+              59.00004179577646
+            ],
+            [
+              10.041743145500732,
+              59.00031735620835
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107367930",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H17-B01",
+        "harbour_id": "3909-H17",
+        "name": "Ula småbåthavn",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 20636.1,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.1842879,
+        "latitude": 59.0243058,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/5107367930",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=223191.0861795587%2C6552222.642773592%2C224191.0861795587%2C6553222.642773592&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107367930"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p18",
+        "image_sha256": "fe1580b5eb61185eecbebc63ba719f946be7afeefb7c1c4f6f4daaf9eea8eda5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.184572823287741,
+              59.02517426924572
+            ],
+            [
+              10.183541857584787,
+              59.02506090827419
+            ],
+            [
+              10.183295373752667,
+              59.02412218228709
+            ],
+            [
+              10.183544171945499,
+              59.02359171454054
+            ],
+            [
+              10.184480929076294,
+              59.02313184761364
+            ],
+            [
+              10.185402082062902,
+              59.023406032515076
+            ],
+            [
+              10.185469424476688,
+              59.02396326741955
+            ],
+            [
+              10.185104942039809,
+              59.024489430569695
+            ],
+            [
+              10.184988587464185,
+              59.0249048916924
+            ],
+            [
+              10.184572823287741,
+              59.02517426924572
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p14",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H13-B02",
+        "harbour_id": "3909-H13",
+        "name": "Hølen – midtre brygger",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 4483.3,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0653449,
+        "latitude": 59.0341293,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216373.47986857267%2C6553763.846698002%2C217373.47986857267%2C6554763.846698002&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Del av samme fysiske havneområde. Bryggeområdene skilles fra opplag og parkering på land. Vannmiljø: elveutlop.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p14",
+        "image_sha256": "258de223dd40226d914bfdac19f0439671b491240f17583473b474a8ec53cd82"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.064964699776692,
+              59.03437949541654
+            ],
+            [
+              10.064323937631475,
+              59.03438502798849
+            ],
+            [
+              10.06436892584927,
+              59.03407187312893
+            ],
+            [
+              10.065498272780044,
+              59.033905058819755
+            ],
+            [
+              10.066325457397852,
+              59.03381667008078
+            ],
+            [
+              10.066329783043566,
+              59.034191682189096
+            ],
+            [
+              10.065806888746065,
+              59.03418672508613
+            ],
+            [
+              10.064964699776692,
+              59.03437949541654
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p14",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H13-B03",
+        "harbour_id": "3909-H13",
+        "name": "Hølen – østre småbåtbasseng",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 8773.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0672906,
+        "latitude": 59.0342856,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216373.47986857267%2C6553763.846698002%2C217373.47986857267%2C6554763.846698002&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": " Vannmiljø: elveutlop.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p14",
+        "image_sha256": "258de223dd40226d914bfdac19f0439671b491240f17583473b474a8ec53cd82"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.06743777153975,
+              59.034578809385444
+            ],
+            [
+              10.06658701596093,
+              59.03483123905955
+            ],
+            [
+              10.066367322510397,
+              59.03453797371368
+            ],
+            [
+              10.066250506903813,
+              59.03433859638663
+            ],
+            [
+              10.06661480774713,
+              59.034232544145915
+            ],
+            [
+              10.066688705373124,
+              59.03392049190793
+            ],
+            [
+              10.067446223640264,
+              59.03370948727356
+            ],
+            [
+              10.067884460811321,
+              59.033696215152005
+            ],
+            [
+              10.06820490061434,
+              59.034098277130646
+            ],
+            [
+              10.06809352250154,
+              59.0344688758977
+            ],
+            [
+              10.06743777153975,
+              59.034578809385444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "OSM-node/5107482986",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H03-B02",
+        "harbour_id": "3909-H03",
+        "name": "Kjerringvik – Sydhavna, østre brygger",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "kommunalt_dokumentert_smabathavn_med_faste_plasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1756.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.2294612,
+        "latitude": 59.0409423,
+        "sources": [
+          "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+          "https://www.openstreetmap.org/node/5107482986",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=225795.70220765227%2C6553817.399155111%2C226795.70220765227%2C6554817.399155111&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [
+          "node/5107482986"
+        ],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "p03",
+        "image_sha256": "b2be7a588dd79e682d110fef2466d12c0275a44fd5e65479eea9322a8ed7fcc5"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.229736968836159,
+              59.04122354540554
+            ],
+            [
+              10.229259427450362,
+              59.04110098838853
+            ],
+            [
+              10.22905901020871,
+              59.04065882351675
+            ],
+            [
+              10.229327784045834,
+              59.04060876804237
+            ],
+            [
+              10.229594431300875,
+              59.04078351604572
+            ],
+            [
+              10.229896185323348,
+              59.04112447183952
+            ],
+            [
+              10.229736968836159,
+              59.04122354540554
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-agnes-havn",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H18-B01",
+        "harbour_id": "3909-H18",
+        "name": "Agnes båtforening – nordre basseng",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 7929.2,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0366843,
+        "latitude": 59.0120823,
+        "sources": [
+          "https://www.agnesbaat.no/b%C3%A5thavna",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": 100,
+        "berth_count_source": "https://www.agnesbaat.no/b%C3%A5thavna",
+        "berth_count_approximate": true,
+        "berth_count_scope": "hele_havnegruppen",
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Operatøren oppgir rundt 100 plasser. Bare det eksisterende havnebassenget er avgrenset; Sjøparkens søndre brygger er en separat kandidat.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "agnes-havn",
+        "image_sha256": "faf9f70caafcc4eb75ce3f8de05d2f76a68e70a0d89e2b30280e7092d261514d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.036909333901969,
+              59.012548619425296
+            ],
+            [
+              10.035232483986247,
+              59.01248422232377
+            ],
+            [
+              10.035301380502956,
+              59.01200705332409
+            ],
+            [
+              10.035638774336272,
+              59.011885064141374
+            ],
+            [
+              10.035951259285659,
+              59.01213697304836
+            ],
+            [
+              10.036228678035362,
+              59.012027673217126
+            ],
+            [
+              10.036810268617902,
+              59.01182509338471
+            ],
+            [
+              10.037082445612253,
+              59.01155065426523
+            ],
+            [
+              10.03745612950415,
+              59.01157999605884
+            ],
+            [
+              10.037210427191804,
+              59.01227529022567
+            ],
+            [
+              10.036909333901969,
+              59.012548619425296
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-agnes-sor",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H19-B01",
+        "harbour_id": "3909-H19",
+        "name": "Agnes/Sjøparken – søndre bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1687.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0371577,
+        "latitude": 59.0082374,
+        "sources": [
+          "https://sjoparken.no/wp-content/uploads/240530-Sjoparken-BL3DE-prospekt-web-.pdf",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214731.55004689045%2C6551121.275076317%2C215731.55004689045%2C6552121.275076317&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Synlig mindre bryggeanlegg sør for Agnes båtforening. Utbyggers prospekt omtaler eksisterende og planlagte båtplasser; bare synlige brygger er avgrenset. Bildedato og dagens ombygging er ikke avklart. Mer enn ti båtplasser er synlige; usikkerheten gjelder geometri og aktualitet, ikke antall synlige plasser.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "agnes-sor",
+        "image_sha256": "b7cb9acb471907b5c83b3e9c2a3f668e57ddce281c36c52c23c89b02bd27d957"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.036884258382496,
+              59.008631165998644
+            ],
+            [
+              10.036533058424766,
+              59.00864766784563
+            ],
+            [
+              10.036805211153329,
+              59.00837322890891
+            ],
+            [
+              10.037110570734926,
+              59.00807007618364
+            ],
+            [
+              10.03745437418332,
+              59.007903346842234
+            ],
+            [
+              10.037542032139216,
+              59.008101637230645
+            ],
+            [
+              10.036884258382496,
+              59.008631165998644
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-farris-bf",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H20-B01",
+        "harbour_id": "3909-H20",
+        "name": "Farris båtforening – Kilen",
+        "name_is_descriptive": false,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 6213.9,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0184844,
+        "latitude": 59.0638183,
+        "sources": [
+          "https://www.xn--farrisbtforening-job.no/start/informasjon",
+          "https://www.xn--farrisbtforening-job.no/start/kontakt-oss",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214001.11811201152%2C6557228.533342183%2C215001.11811201152%2C6558228.533342183&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Stedfestet ved operatørens kartlenke til Kilen. Bare brygge-/båtplassrekken inngår; strand-/gressplasser på land er ikke havnepolygon. Vannmiljø: ferskvann.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "farris-bf",
+        "image_sha256": "2a0c84bbd0ebf5004c0a0c012772c6903a92c8a57a16a35f2e164c6c262a8f96"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.018858634855045,
+              59.06457685080973
+            ],
+            [
+              10.018107991567303,
+              59.0645329545351
+            ],
+            [
+              10.018174023620483,
+              59.063275969003016
+            ],
+            [
+              10.018440282658972,
+              59.063046311259846
+            ],
+            [
+              10.018723318062943,
+              59.063102192147696
+            ],
+            [
+              10.018677862710858,
+              59.063415323942735
+            ],
+            [
+              10.018968492040694,
+              59.06422121528698
+            ],
+            [
+              10.018858634855045,
+              59.06457685080973
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-farris-east",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H21-B01",
+        "harbour_id": "3909-H21",
+        "name": "Gopledal/Farris – felles bryggeanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1527.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0179084,
+        "latitude": 59.0726773,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/926416189",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=213900.0000000001%2C6558633.333333336%2C214900.0000000001%2C6559633.333333336&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Felles brygge med tydelig rekke av småbåtplasser. Gopledal båtforening er registrert, men entydig kobling mellom foreningen og denne bryggen er ikke bekreftet; navnet er beskrivende. Vannmiljø: ferskvann.",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "farris-east",
+        "image_sha256": "257e8b5c92d17e847dd0811a4882813d3407785d7455485910db4ffc582e86fb"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.018520417134976,
+              59.07298886887578
+            ],
+            [
+              10.017559560148833,
+              59.07278693746835
+            ],
+            [
+              10.017707891112444,
+              59.072567732990684
+            ],
+            [
+              10.018722334430384,
+              59.0728017149892
+            ],
+            [
+              10.018520417134976,
+              59.07298886887578
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-knoln",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H22-B01",
+        "harbour_id": "3909-H22",
+        "name": "Rekkevik Brygge – felles småbåtanlegg",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 2523.6,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0670895,
+        "latitude": 59.0318449,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/991594345",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=216585.10028742952%2C6553596.377392983%2C217585.10028742952%2C6554596.377392983&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Felles brygger ved boligområdet Rekkevik Brygge. Knøln båtforening er registrert i samme område, men koblingen til de enkelte bryggene er ikke endelig bekreftet. Private enkeltbrygger videre sørover er utelatt. Avgrensningen følger den større felles bryggen, ikke boligbebyggelsen.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "knoln",
+        "image_sha256": "1e28fb7bcaf7de821eaeb49c53d4ed6da2036ac25c6aee01d3b77df2e911bf9d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.067364818373862,
+              59.03224475566075
+            ],
+            [
+              10.066868741382068,
+              59.0322558189907
+            ],
+            [
+              10.066760494184514,
+              59.03199679335619
+            ],
+            [
+              10.06675188081581,
+              59.031651605513666
+            ],
+            [
+              10.067054012427292,
+              59.031573168647185
+            ],
+            [
+              10.067444027268847,
+              59.031693003885565
+            ],
+            [
+              10.067364818373862,
+              59.03224475566075
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-p13",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H23-B01",
+        "harbour_id": "3909-H23",
+        "name": "Viksfjord – østre bryggeanlegg ved Ødegården",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3712.5,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.100722,
+        "latitude": 59.0278218,
+        "sources": [
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=218135.8906293268%2C6552597.003643237%2C219135.8906293268%2C6553597.003643237&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Separat fellesanlegg på østsiden av sundet, med flere tydelige fingerbrygger. Beskrivende navn; operatør er ikke bekreftet.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "p13",
+        "image_sha256": "4d73d4e987b82e92b40449ce95ef67675ca41ea5307afeb186840a27c6fa0ac3"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.100675028766215,
+              59.028224009563615
+            ],
+            [
+              10.100220698834054,
+              59.02814681999854
+            ],
+            [
+              10.10035084354736,
+              59.02764197177501
+            ],
+            [
+              10.101000822130294,
+              59.02736672950133
+            ],
+            [
+              10.10115737488399,
+              59.02749260905183
+            ],
+            [
+              10.100650740769767,
+              59.02757836786506
+            ],
+            [
+              10.10081154506206,
+              59.02767442189585
+            ],
+            [
+              10.101200347684728,
+              59.027599191764715
+            ],
+            [
+              10.101377326142766,
+              59.0277858189152
+            ],
+            [
+              10.100901741025497,
+              59.02785776157322
+            ],
+            [
+              10.100682244516388,
+              59.027969393114205
+            ],
+            [
+              10.101360320303765,
+              59.027905122757836
+            ],
+            [
+              10.101330559750947,
+              59.02811390446982
+            ],
+            [
+              10.100675028766215,
+              59.028224009563615
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-agnes-havn",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H18-B02",
+        "harbour_id": "3909-H18",
+        "name": "Agnes båtforening – midtre bryggesund",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 1344.4,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0354964,
+        "latitude": 59.0115429,
+        "sources": [
+          "https://www.agnesbaat.no/b%C3%A5thavna",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "Del av Agnes båtforenings fysiske havneområde; kapasiteten ligger bare på første delrad og skal ikke summeres på nytt.",
+        "geometry_status": "usikker_avgrensning",
+        "image_id": "agnes-havn",
+        "image_sha256": "faf9f70caafcc4eb75ce3f8de05d2f76a68e70a0d89e2b30280e7092d261514d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.035653844054888,
+              59.01178068335592
+            ],
+            [
+              10.035328446843922,
+              59.01161824300212
+            ],
+            [
+              10.035208808945253,
+              59.011238791904574
+            ],
+            [
+              10.03545300688342,
+              59.01115820625269
+            ],
+            [
+              10.03565322445463,
+              59.01118089055744
+            ],
+            [
+              10.03569905256424,
+              59.01146754097517
+            ],
+            [
+              10.035653844054888,
+              59.01178068335592
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "candidate_id": "VIS-agnes-havn",
+        "source_register_objectid": null,
+        "source_register_number": null,
+        "berth_count_reference_period": null,
+        "source_register_members": [],
+        "capacity_components": [],
+        "id": "3909-H18-B03",
+        "harbour_id": "3909-H18",
+        "name": "Agnes båtforening – søndre basseng",
+        "name_is_descriptive": true,
+        "municipality": "Larvik",
+        "municipality_code": "3909",
+        "classification": "smabathavn",
+        "classification_basis": "operator_dokumenterer_faste_batplasser",
+        "approval_status": "godkjent_av_bruker",
+        "approved_utc": "2026-10-29T16:53:23Z",
+        "revision": 1,
+        "method_version": "1.1",
+        "schema_version": "1.1",
+        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+        "method": "manuell_digitalisering_georeferert_flybilde_med_topografisk_og_kildebasert_kontroll",
+        "area_m2": 3077.8,
+        "area_crs": "EPSG:25833",
+        "longitude": 10.0368952,
+        "latitude": 59.0108321,
+        "sources": [
+          "https://www.agnesbaat.no/b%C3%A5thavna",
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=214715.4039817594%2C6551446.608668901%2C215715.4039817594%2C6552446.608668901&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg"
+        ],
+        "osm_ids": [],
+        "imagery_source": "Esri World Imagery",
+        "imagery_retrieved_date": "2026-10-29",
+        "source_observation_date": null,
+        "image_resolution_m_per_pixel": 0.7143,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": false,
+        "needs_dated_imagery_review": true,
+        "current_operation_verified": false,
+        "reviewed_date": "2026-10-29",
+        "berth_count_published": null,
+        "berth_count_source": null,
+        "berth_count_approximate": null,
+        "berth_count_scope": null,
+        "municipality_clipped": false,
+        "cross_municipality_group_id": null,
+        "attribution": "Larvik Havn og kildeangitte operatører; © Kartverket; imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; OSM © OpenStreetMap contributors (ODbL)",
+        "note": "",
+        "geometry_status": "forelopig_avgrensning",
+        "image_id": "agnes-havn",
+        "image_sha256": "faf9f70caafcc4eb75ce3f8de05d2f76a68e70a0d89e2b30280e7092d261514d"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.035273396626213,
+              59.01079144589944
+            ],
+            [
+              10.03474010323581,
+              59.010860925839125
+            ],
+            [
+              10.035005829526376,
+              59.01063122576093
+            ],
+            [
+              10.035625847490774,
+              59.010565075811755
+            ],
+            [
+              10.036646292184242,
+              59.01054428861635
+            ],
+            [
+              10.037035961712283,
+              59.01066421102603
+            ],
+            [
+              10.03697785376562,
+              59.01106682351822
+            ],
+            [
+              10.036754252160053,
+              59.010803335926916
+            ],
+            [
+              10.035918021531124,
+              59.010756228110836
+            ],
+            [
+              10.035273396626213,
+              59.01079144589944
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

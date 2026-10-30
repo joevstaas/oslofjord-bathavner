@@ -1,0 +1,1500 @@
+[
+  {
+    "candidate_id": "MUN-01",
+    "name": "Flautangen",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 1,
+    "source_label": "K1",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3036484780001,
+    "latitude": 59.0845042670001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H01-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Avgrenser synlige brygger ved Flautangen. Rapportens 52 plasser omfatter også 12 private plasser ved nordre brygge. Yttergrense for alle fortøyninger er uklar.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-02",
+    "name": "Granholmen",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 2,
+    "source_label": "K2",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2242094330001,
+    "latitude": 59.0890697070001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H02-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kommunal brygge ved Granholmen. Privat anlegg i Berganbukta nord for holmen er separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-03",
+    "name": "Hesteskoen",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 3,
+    "source_label": "K3",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2238377690001,
+    "latitude": 59.126284341,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H03-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Hesteskoen/MiljøMarina: samme fysiske basseng. Gjestehavnfunksjon er ikke talt som et ekstra anlegg. Intern fordeling av kommunale/andre plasser er ikke kartlagt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-04",
+    "name": "Huvik båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 4,
+    "source_label": "K4",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.231924796,
+    "latitude": 59.1218811910001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H04-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Ti dokumenterte plasser langs Huvik-kaien; foreløpig smalt belte.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-05",
+    "name": "La Scala",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 5,
+    "source_label": "K5",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2309219740001,
+    "latitude": 59.1272052950001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H05-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Dokumentert gjestehavn ved samme kai som La Scala. Kildenes plasser kan ikke fordeles sikkert til delgrenser; ingen summering. Den kommunale La Scala er dokumentert selv om den har færre enn ti plasser. Kildetallene beholdes separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-06",
+    "name": "Kamfjordkilen",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 6,
+    "source_label": "K6",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.239733383,
+    "latitude": 59.1271128500001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H06-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Smalt belte langs nordkaien i Kamfjordkilen. Naboforeningens flytebrygger er eget anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-07",
+    "name": "Langeby båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 7,
+    "source_label": "K7",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.262122397,
+    "latitude": 59.080754519,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H07-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kommunens nordre brygger ved Langeby. Søndre bryggelag kartlagt separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-08",
+    "name": "Roa båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 8,
+    "source_label": "K8",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.239132797,
+    "latitude": 59.1019051710001,
+    "decision": "inkludert_i_felles_fysisk_havneomrade",
+    "feature_ids": [
+      "3907-H08-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Fire kildenavn i samme fysiske område; operatørgrenser ikke kartlagt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-09",
+    "name": "Skjellvika båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 9,
+    "source_label": "K9",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2936442500001,
+    "latitude": 59.115445198,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H09-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Synlige brygger ved Skjellvika. Ikke alle historisk oppgitte plasser kan identifiseres tydelig i vinterbildet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-10",
+    "name": "Stub båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 10,
+    "source_label": "K10",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2212270840001,
+    "latitude": 59.121530411,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H10-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kommunal brygge ved Stub. Hjertnes og Stub brygger AS holdes adskilt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-11",
+    "name": "Tangen båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 11,
+    "source_label": "K11",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2502998480001,
+    "latitude": 59.0975609910001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H11-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kommunalt bryggeanlegg på vestre side av Tangenbukta. Private enkeltbrygger på motsatt side er ikke innlemmet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-12",
+    "name": "Enge",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 12,
+    "source_label": "K12",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3173227080001,
+    "latitude": 59.146755688,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H12-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kommunens midtre brygge ved Enge. Fergeanløpet er del av samme fysiske brygge; tilstøtende forening og Engø er egne anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-13",
+    "name": "Fjellvik båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 13,
+    "source_label": "S1",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2354530010001,
+    "latitude": 59.124208896,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H13-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Lang brygge langs Fjellvik-kaien. Gokstad kystlags U-anlegg sørvest er separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-14",
+    "name": "Havnebakken",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 14,
+    "source_label": "S2",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3255102210001,
+    "latitude": 59.1415698100001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H14-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-15",
+    "name": "Hjertnes båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 15,
+    "source_label": "S3",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2203306220001,
+    "latitude": 59.123739196,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H15-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Søndre vifteformede anlegg innenfor Hjertnes båtforenings lokalitet. Kommunale Stub og Ulabrand holdes adskilt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-16",
+    "name": "Kilen Brygge båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 16,
+    "source_label": "S4",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2339067570001,
+    "latitude": 59.126342568,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H16-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Langstrakt flytebrygge langs Kilen Brygge; kommunal nordkai og motorbåtforening øst for dette er separate. Felles kaigrense tilpasset nabopolygon; 32.6 m² teknisk overlapp fjernet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-17",
+    "name": "Sandefjord motorbåtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 17,
+    "source_label": "S5",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.241229746,
+    "latitude": 59.1264862690001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H17-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. OSM-omriss kontrollert mot Esri-bildet; bevarer sjøområdet innenfor bryggene. Naboforeninger er separate. En kontrollert rest på 4,6 m² ved nordkaien er utelatt som avgrensningsartefakt. Felles kaigrense tilpasset nabopolygon; 633.7 m² teknisk overlapp fjernet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-18",
+    "name": "Thorøya båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 18,
+    "source_label": "S6",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.227369197,
+    "latitude": 59.1037893770001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H18-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Hovedanlegget ved Thorøya. Ikke hele industri-/opplagsområdet på land.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-19",
+    "name": "Ulabrand båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 19,
+    "source_label": "S7",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.222772161,
+    "latitude": 59.124752861,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H19-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Avgrenser bryggene ved det historiske Strømbadet. Intern avgrensning mot tilgrensende Hesteskoen/Hjertnes trenger kontroll; ikke en offisiell operatørgrense. Felles kaigrense tilpasset nabopolygon; 398.2 m² teknisk overlapp fjernet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-20",
+    "name": "Bogen båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 20,
+    "source_label": "S8",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3302316520001,
+    "latitude": 59.180180061,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H20-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-21",
+    "name": "Solnes båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 21,
+    "source_label": "S9",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3413711210001,
+    "latitude": 59.2099609690001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H21-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-22",
+    "name": "Melsomvik båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 22,
+    "source_label": "S10",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3395372950001,
+    "latitude": 59.2201973460001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H22-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Samlet synlig bryggekompleks i Melsomvik; planformål og fremtidige utvidelser er ikke brukt som havnegrense.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-23",
+    "name": "Storevahr båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 23,
+    "source_label": "S11",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.332626277,
+    "latitude": 59.198575087,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H23-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-24",
+    "name": "Roabrygga",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 24,
+    "source_label": "M1",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2404597990001,
+    "latitude": 59.102918097,
+    "decision": "inkludert_i_felles_fysisk_havneomrade",
+    "feature_ids": [
+      "3907-H08-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Fire kildenavn i samme fysiske område; operatørgrenser ikke kartlagt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-25",
+    "name": "Berganodden båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 25,
+    "source_label": "M2",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.29090906,
+    "latitude": 59.0899406760001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H24-B01",
+      "3907-H24-B02"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Synlig bryggegruppe ved Berganodden. Fortøyningsutstrekning i rapporten er ikke fullstendig identifiserbar i bildet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-26",
+    "name": "Berganbukta båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 26,
+    "source_label": "M3",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2222672130001,
+    "latitude": 59.092220661,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H25-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-27",
+    "name": "Enge båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 27,
+    "source_label": "M4",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3179664260001,
+    "latitude": 59.1467614200001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H26-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Sørøstre brygge ved Enge. Kommunens midtbrygge og nordre Engø er ikke tatt inn i dette polygonet. Felles kaigrense tilpasset nabopolygon; 7.0 m² teknisk overlapp fjernet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-28",
+    "name": "Engø båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 28,
+    "source_label": "M5",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.317238128,
+    "latitude": 59.1474617270001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H27-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Nordre brygge ved Engø. Kildene omtaler tre ulike anlegg ved samme landadkomst.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-29",
+    "name": "Framnæs båthavn AS",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 29,
+    "source_label": "M6",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.230003427,
+    "latitude": 59.1142191690001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H28-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Søndre båthavn ved Framnæs. Nordre separate brygger kontrolleres mot egen operatørkilde.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-30",
+    "name": "Gokstad kystlag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 30,
+    "source_label": "M7",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.23240022,
+    "latitude": 59.122695251,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H29-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Gokstad kystlags langstrakte midtre anlegg. Den kommunale Huvik-bryggen i sør og Huvik Eiendom AS i nord er separate dokumenterte kandidater.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-31",
+    "name": "Lahellefjorden båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 31,
+    "source_label": "M8",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.284572725,
+    "latitude": 59.134678986,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H30-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-32",
+    "name": "Langeby bryggelag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 32,
+    "source_label": "M9",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.261450177,
+    "latitude": 59.080150943,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H31-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Midtre brygge tilhører Langeby bryggelag. Nordre private brygge inngår i rapportens 55 plasser. De to søndre kommunale bryggene er eget polygon.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-33",
+    "name": "Ormestad motorbåtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 33,
+    "source_label": "M10",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2610165240001,
+    "latitude": 59.1098568130001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H32-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Avgrenser Ormestad motorbåtforenings felles brygger. Nabobrygger ved Nordre Holtan holdes utenfor.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-34",
+    "name": "Hellanodden",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 34,
+    "source_label": "M11",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.296789744,
+    "latitude": 59.1377702670001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H33-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Hellanoddens diagonale brygge; andre navngitte brygger i bukta er separate.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-35",
+    "name": "Vindal motorbåtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 35,
+    "source_label": "M12",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.239842299,
+    "latitude": 59.102503966,
+    "decision": "inkludert_i_felles_fysisk_havneomrade",
+    "feature_ids": [
+      "3907-H08-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Fire kildenavn i samme fysiske område; operatørgrenser ikke kartlagt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-36",
+    "name": "York båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 36,
+    "source_label": "M13",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.313880539,
+    "latitude": 59.136291801,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H34-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-37",
+    "name": "Brunstad båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 37,
+    "source_label": "M14",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.366046171,
+    "latitude": 59.223747997,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H35-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Brunstad båtforenings søndre anlegg. OCCs nordre brygge er separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-38",
+    "name": "OCC",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 38,
+    "source_label": "M15",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.365924696,
+    "latitude": 59.2244882260001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H36-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Nordre brygge ved Oslofjorden Convention Center. Båtforeningens søndre brygger er separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-39",
+    "name": "Asnespynten båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 39,
+    "source_label": "M17",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.238573156,
+    "latitude": 59.1012764500001,
+    "decision": "inkludert_i_felles_fysisk_havneomrade",
+    "feature_ids": [
+      "3907-H08-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Fire kildenavn i samme fysiske område; operatørgrenser ikke kartlagt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-40",
+    "name": "Fellesbryggen Bentsrød",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 40,
+    "source_label": "M18",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2714114080001,
+    "latitude": 59.0653818470001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H37-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Brygge og fortøyningsområde innerst i Bentsrødbukta. Alle historiske plasser er ikke tydelige i bildet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-41",
+    "name": "Eianbukta båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 41,
+    "source_label": "M19",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.292881832,
+    "latitude": 59.083441447,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H38-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Lite dokumentert fellesanlegg ved Eianbukta. Bildet viser få detaljer; foreløpig snever avgrensning.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-42",
+    "name": "Briskebakken Nordre Bryggelag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 42,
+    "source_label": "M20",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.259933125,
+    "latitude": 59.0849288370001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H39-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-43",
+    "name": "Briskebakken Båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 43,
+    "source_label": "M21",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2603574890001,
+    "latitude": 59.0843891340001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H40-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-44",
+    "name": "Nordre Holtan bryggelag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 44,
+    "source_label": "M22",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.262214042,
+    "latitude": 59.1084107580001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H41-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Søndre fellesbrygge i Ormestadvika. Motorbåtforeningens nordre anlegg er eget polygon/anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-45",
+    "name": "Lofterødveien vel-lag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 45,
+    "source_label": "M23",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.224741938,
+    "latitude": 59.099138063,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H42-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Fellesbrygge ved Lofterødveien. Spredte private nabobrygger utelatt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-46",
+    "name": "Lystad fellesbrygge",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 46,
+    "source_label": "M24",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2254826870001,
+    "latitude": 59.1083305920001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H43-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Lystad fellesbrygge; nabokandidaten Hystadveien 189 kontrolleres separat.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-47",
+    "name": "Hystadveien 189",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 47,
+    "source_label": "M25",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.224878753,
+    "latitude": 59.108007779,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H44-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Dokumentert mindre bryggeanlegg ved Hystadveien 189. Intern fordeling ved tettliggende nabobrygger er foreløpig.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-48",
+    "name": "Natholmen brygge AS",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 48,
+    "source_label": "U10",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.321706098,
+    "latitude": 59.1279353910001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H45-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Søndre lange brygge ved Natholmen. Den midtre og den korte nordre bryggen er andre navngitte anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-49",
+    "name": "Verven brygge",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 49,
+    "source_label": "U11",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2379245760001,
+    "latitude": 59.1253828050001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H46-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-50",
+    "name": "Solløkkasvingen vel-lag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 50,
+    "source_label": "U12",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2904891310001,
+    "latitude": 59.138848781,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H47-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-51",
+    "name": "Solløkka båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 51,
+    "source_label": "U13",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2922881220001,
+    "latitude": 59.1388356910001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H48-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-52",
+    "name": "Stub brygger AS",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 52,
+    "source_label": "U14",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.223631106,
+    "latitude": 59.120250749,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H49-B01",
+      "3907-H49-B02"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Småbåtplasser ved Stub brygger AS. Kommunale Stub nord for dette er eget anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-53",
+    "name": "Thorsholmen",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 53,
+    "source_label": "U15",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2276026050001,
+    "latitude": 59.098804408,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H50-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Felles flytebrygge sør for Thorsholmen.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-54",
+    "name": "Årøtangen 26",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 54,
+    "source_label": "U16",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3224745420001,
+    "latitude": 59.144221353,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H51-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Rapportens overskrift er Årøtangen 46, mens kartlaget sier Årøtangen 26. Stedet identifisert ved kartgeometri; adressen er ikke avklart.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-55",
+    "name": "Natholmsundet flytebrygge",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 55,
+    "source_label": "U18",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.321309452,
+    "latitude": 59.1286080160001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H52-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-56",
+    "name": "Natholmen 5 bryggeanlegg",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 56,
+    "source_label": "U19",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.3216029120001,
+    "latitude": 59.128184999,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H53-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-57",
+    "name": "Nedre Solnes brygge",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 57,
+    "source_label": "U25",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.338680734,
+    "latitude": 59.218583354,
+    "decision": "inkludert_usikker_kandidat",
+    "feature_ids": [
+      "3907-H54-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Rapport side 82 omtaler et planlagt større anlegg. Bare eksisterende småbrygger i bildet er avgrenset; planarealet er ikke inkludert. Kommunalt punktlag oppgir 30 plasser, men dagens felles drift/kapasitet er uklar.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-58",
+    "name": "Hagaløkka",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 58,
+    "source_label": "U17",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.29136441,
+    "latitude": 59.1222112290001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H55-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Dokumentert anlegg langs Hagaløkka. Full utstrekning av historiske bøye-/wireplasser er uklar.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-59",
+    "name": "Søndre Lofterød bryggelag",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 59,
+    "source_label": "U26",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2230390940001,
+    "latitude": 59.0928102490001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H56-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-60",
+    "name": "Østre Nes",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 60,
+    "source_label": "S12",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.298327806,
+    "latitude": 59.135232769,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H57-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Østre Nes: søndre vinkelformede brygger. Ikke hele bukten mellom andre navngitte anlegg.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-61",
+    "name": "Mefjorden båtforening",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 61,
+    "source_label": "M17",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.261911055,
+    "latitude": 59.1147781650001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H58-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kartgeometrien viser bryggene innerst i Mefjorden. Lagrede x/y-attributter peker feil og er ikke brukt.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-62",
+    "name": "Hummelvika",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 62,
+    "source_label": "U20",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.271797291,
+    "latitude": 59.09205798,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H59-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-63",
+    "name": "Mefjordveien båthavn",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 63,
+    "source_label": "U21",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.272657754,
+    "latitude": 59.0898706610001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H60-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Kartgeometri brukt: x/y-attributtene i kilden peker til et annet anlegg. Mindre brygge og fortøyningsområde er foreløpig avgrenset.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-64",
+    "name": "Namløs",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 64,
+    "source_label": "U22",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.2914496920001,
+    "latitude": 59.0928339340001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H61-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Riktig plassering på Østerøya fra kartgeometrien. Kildens y-attributt peker ca. 2,7 km nordover og er ikke brukt. Full fortøyningsutstrekning usikker.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-65",
+    "name": "Djupsund",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 65,
+    "source_label": "U23",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.263439523,
+    "latitude": 59.117395376,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H62-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. ",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "MUN-66",
+    "name": "Herreportveien",
+    "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "source_objectid": 66,
+    "source_label": "U24",
+    "coordinate_source": "GeoJSON geometry; x/y attributes not trusted",
+    "longitude": 10.278539531,
+    "latitude": 59.0793931760001,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H63-B01"
+    ],
+    "reason": "Kommunalt kartfestet og dokumentert anlegg; bilde kontrollert. Dokumentert småbåtanlegg ved Herreportveien. Yttergrense for alle historiske plasser er uklar.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/13432037501",
+    "name": "Bogen Båthavn",
+    "source": "https://www.openstreetmap.org/node/13432037501",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3306204,
+    "latitude": 59.1801972,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H20-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/563127798",
+    "name": "Brygga",
+    "source": "https://www.openstreetmap.org/way/563127798",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.366196402173912,
+    "latitude": 59.22457939565217,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H36-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1218298959",
+    "name": "Fjellvik Båtforening",
+    "source": "https://www.openstreetmap.org/way/1218298959",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.235473533333334,
+    "latitude": 59.12437233333333,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H13-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1218065128",
+    "name": "Framnæs Båthavn",
+    "source": "https://www.openstreetmap.org/way/1218065128",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.230188285714286,
+    "latitude": 59.11436257142857,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H28-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/2088640421",
+    "name": "Framnes Maritime",
+    "source": "https://www.openstreetmap.org/node/2088640421",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.227596,
+    "latitude": 59.1162713,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H65-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1218322415",
+    "name": "Gokstad Kystlag",
+    "source": "https://www.openstreetmap.org/way/1218322415",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.232208057142856,
+    "latitude": 59.122570014285714,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H29-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482938",
+    "name": "Havnebakken Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482938",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3272567,
+    "latitude": 59.1413995,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H14-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1218301840",
+    "name": "Huvik båthavnen",
+    "source": "https://www.openstreetmap.org/way/1218301840",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.232790885714286,
+    "latitude": 59.12329382857143,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H64-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/13431173101",
+    "name": "Melsom båthavn",
+    "source": "https://www.openstreetmap.org/node/13431173101",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.339345,
+    "latitude": 59.2204441,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H22-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1079317965",
+    "name": "Sandefjord gjestehavn",
+    "source": "https://www.openstreetmap.org/way/1079317965",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.230862443589743,
+    "latitude": 59.12717678974359,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H05-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1218866789",
+    "name": "Sandefjord Motorbåtforening",
+    "source": "https://www.openstreetmap.org/way/1218866789",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.240429425,
+    "latitude": 59.12660265833333,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H17-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107367932",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107367932",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.2381313,
+    "latitude": 59.1026287,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H08-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107367934",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107367934",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.2306224,
+    "latitude": 59.1223595,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H04-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107367935",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107367935",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.2366722,
+    "latitude": 59.1258039,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H46-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482197",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482197",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3183697,
+    "latitude": 59.148353,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H27-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482943",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482943",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3123645,
+    "latitude": 59.1358156,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H34-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482944",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482944",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.2975569,
+    "latitude": 59.1370649,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H33-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482945",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482945",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.2920863,
+    "latitude": 59.1383378,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H48-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/5107482946",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/node/5107482946",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3036054,
+    "latitude": 59.0840226,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H01-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1079317893",
+    "name": "Småbåtshavn",
+    "source": "https://www.openstreetmap.org/way/1079317893",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.223166931034482,
+    "latitude": 59.12580730344827,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H03-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-node/13431173001",
+    "name": "Solnes Båthavn",
+    "source": "https://www.openstreetmap.org/node/13431173001",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.3409573,
+    "latitude": 59.2100583,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H21-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "OSM-way/1219097028",
+    "name": "Thorøya båthavn",
+    "source": "https://www.openstreetmap.org/way/1219097028",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "OSM node or mean way vertex position; approximate",
+    "longitude": 10.22777226,
+    "latitude": 59.10397246,
+    "decision": "knyttet_til_allerede_registrert_anlegg",
+    "feature_ids": [
+      "3907-H18-B01"
+    ],
+    "reason": "Kandidat kontrollert mot kommunal kilde og/eller bilde; ikke talt som ekstra anlegg. Generiske OSM-punkter kan være upresise og er ikke brukt som havnegrenser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EXT-HUVIK",
+    "name": "Huvik Eiendom AS – båthavn",
+    "source": "https://www.huvik.no/b%C3%A5tplasser",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery / verified operator site",
+    "longitude": 10.2326229,
+    "latitude": 59.1234895,
+    "decision": "inkludert",
+    "feature_ids": [
+      "3907-H64-B01"
+    ],
+    "reason": "Operatøren oppgir 32 plasser i Framnæsveien 3 B, nær Gokstad kystlag. OSM-navnet Huvik er ikke brukt til å slå dette sammen med kommunens separate Huvik-kandidat. OSM-omriss kontrollert mot bilde. Felles kaigrense tilpasset nabopolygon; 103.4 m² teknisk overlapp fjernet.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EXT-FRAMNES-NORD",
+    "name": "Framnæs Maritime – nordre bryggeanlegg",
+    "source": "https://www.framnes-maritime.no/",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery / verified operator site",
+    "longitude": 10.2276189,
+    "latitude": 59.1166833,
+    "decision": "inkludert_usikker_kandidat",
+    "feature_ids": [
+      "3907-H65-B01"
+    ],
+    "reason": "To tydelige fingerbrygger innenfor molo nord for Framnæs Båthavn AS. Operatøren beskriver service, opptak og samarbeid med båthavnen i sør. Fast utleie versus serviceplasser er ikke avklart; beholdt som mulig småbåthavn. Rene servicekaier nord for bassenget er ikke inkludert.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EX-NATHOLMEN-8",
+    "name": "Natholmen – lite nordre åtteplassers anlegg",
+    "source": "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery; indicative candidate position",
+    "longitude": 10.321621149678075,
+    "latitude": 59.12890523282111,
+    "decision": "utelatt",
+    "feature_ids": [],
+    "reason": "Rapport side 75 omtaler et separat anlegg med åtte plasser. Ikke dokumentert som egen felles småbåthavn etter unntaket; under terskelen og ikke lagt inn som ekstra havn.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EX-FOLEHAVNA",
+    "name": "Folehavna – spredte private pirer",
+    "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=228876.90096506453%2C6554888.237600873%2C229876.90096506453%2C6555888.237600873&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery; indicative candidate position",
+    "longitude": 10.277830535983659,
+    "latitude": 59.05360978679887,
+    "decision": "utelatt",
+    "feature_ids": [],
+    "reason": "Detaljbildet viser enkeltpirer og naturvik; ikke sammenhengende fellesanlegg med minst ti tydelige båtplasser.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EX-VORA",
+    "name": "Vøra-området – strand og private brygger",
+    "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=228307.61008554127%2C6557409.056386377%2C229307.61008554127%2C6558409.056386377&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery; indicative candidate position",
+    "longitude": 10.259104259265241,
+    "latitude": 59.07613971456675,
+    "decision": "utelatt",
+    "feature_ids": [],
+    "reason": "Utsnittets strand og spredte private landfester gir ikke grunnlag for en ny felles småbåthavn. Båter på opplagsplass på land er ikke havn.",
+    "reviewed_date": "2026-10-29"
+  },
+  {
+    "candidate_id": "EX-FRAMNES-SERVICE",
+    "name": "Framnæs – nordre rene service-/industrikaier",
+    "source": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=226388.92136444763%2C6562269.1807054635%2C227388.92136444763%2C6563269.1807054635&bboxSR=25833&imageSR=25833&size=1400%2C1400&format=jpg",
+    "source_objectid": null,
+    "source_label": null,
+    "coordinate_source": "Georeferenced imagery; indicative candidate position",
+    "longitude": 10.229442286515086,
+    "latitude": 59.11909186072407,
+    "decision": "utelatt",
+    "feature_ids": [],
+    "reason": "Rene kai- og serviceområder er utelatt; fingerbryggene lenger sør er en egen usikker kandidat.",
+    "reviewed_date": "2026-10-29"
+  }
+]

@@ -1,0 +1,16 @@
+{
+ "osm_overpass": {
+  "endpoint": "https://overpass.private.coffee/api/interpreter",
+  "file": "raw/overpass-rade.json",
+  "note": "11 kandidater/slipper og 91 pirer innen 300 m av kommunen"
+ },
+ "nominatim": "raw/nominatim-*.json",
+ "brreg": "raw/brreg-*.json",
+ "operators": {
+  "Råde båtforening": "https://www.rbf.no/index.php/batplasser (402 plasser, 4 gjesteplasser)",
+  "Saltnes båtforening": "https://saltnesbf.no/?page_id=19 (220 bryggeplasser; 325 medlemmer pr 1.1.2021)"
+ },
+ "kommune": "Kommunedelplan for Saltnesområdet 2007–2019 (vedtaksdato angitt i filnavn som 210607): to småbåthavner, Saltholmen (190) og Makrellrød (280); historiske tall. Lokal kopi raw/kommunedelplan-saltnes-2007.pdf",
+ "property_listing": "https://www.finn.no/385649027 (Nordre Tasken: felles bryggeanlegg ved Kurefjorden)",
+ "not_found": "Ingen kommunal temakartdatabase eller fullstendig havneliste for Råde ble funnet."
+}

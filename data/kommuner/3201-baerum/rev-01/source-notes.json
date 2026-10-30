@@ -1,0 +1,6 @@
+{
+ "osm": "raw/overpass-??.json",
+ "brreg": "raw/brreg-*.json; utvalg raw/brreg-utvalg.json",
+ "stedsnavn": "raw/nearnames.json",
+ "kildelister": "raw/lokalhistoriewiki-bathavner.json"
+}

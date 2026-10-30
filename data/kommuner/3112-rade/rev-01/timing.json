@@ -1,0 +1,14 @@
+{
+ "run_id": "3112-rade-rev01",
+ "method_version": "1.1",
+ "schema_version": "1.1",
+ "started_utc": "2026-10-29T18:23:09Z",
+ "finished_utc": "2026-10-29T18:55:33Z",
+ "elapsed_wall_seconds": 1944,
+ "elapsed_wall_minutes": 32.4,
+ "image_count": 169,
+ "actual_input_tokens": null,
+ "actual_output_tokens": null,
+ "actual_cost": null,
+ "note": "Veggklokketid fra start til leveranse, inkludert kildesøk, nedlasting (detaljfliser ca. 10 min i bakgrunnen), gjennomgang, digitalisering og kontroll. Ingen venting på bruker. Faktiske tokens og kostnad er ikke målt."
+}

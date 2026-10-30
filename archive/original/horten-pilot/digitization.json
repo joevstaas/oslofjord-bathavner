@@ -1,0 +1,754 @@
+[
+  {
+    "id": "H02-B01",
+    "harbour_id": "H02",
+    "name": "Solviken småbåthavn",
+    "image": "indre-vest",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        529,
+        438
+      ],
+      [
+        706,
+        484
+      ],
+      [
+        794,
+        585
+      ],
+      [
+        683,
+        635
+      ],
+      [
+        490,
+        504
+      ]
+    ],
+    "osm_id": "way/1216920501",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H03-B01",
+    "harbour_id": "H03",
+    "name": "Båtforeningen Pluggen",
+    "image": "indre-vest",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        935,
+        858
+      ],
+      [
+        1107,
+        872
+      ],
+      [
+        1141,
+        897
+      ],
+      [
+        1111,
+        925
+      ],
+      [
+        1075,
+        988
+      ],
+      [
+        958,
+        1004
+      ],
+      [
+        941,
+        968
+      ]
+    ],
+    "osm_id": "way/1216417052",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H04-B01",
+    "harbour_id": "H04",
+    "name": "Bankløkka båthavn",
+    "image": "sykehus-banklokka",
+    "frame": [
+      1400,
+      884
+    ],
+    "vertices": [
+      [
+        316,
+        356
+      ],
+      [
+        476,
+        361
+      ],
+      [
+        479,
+        514
+      ],
+      [
+        455,
+        555
+      ],
+      [
+        419,
+        555
+      ],
+      [
+        419,
+        535
+      ],
+      [
+        300,
+        540
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/bankloekka-baathavn/",
+      "https://www.hortenhavn.no/hvor-er-hva/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H05-B01",
+    "harbour_id": "H05",
+    "name": "Sykehusbrygga gjestehavn",
+    "image": "sykehus-banklokka",
+    "frame": [
+      1400,
+      884
+    ],
+    "vertices": [
+      [
+        901,
+        352
+      ],
+      [
+        1036,
+        357
+      ],
+      [
+        1011,
+        410
+      ],
+      [
+        1000,
+        419
+      ],
+      [
+        904,
+        410
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/sykehusbrygga-gjestehavn/",
+      "https://www.hortenhavn.no/hvor-er-hva/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H06-B01",
+    "harbour_id": "H06",
+    "name": "Fyllinga båthavn",
+    "image": "fyllinga",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        399,
+        451
+      ],
+      [
+        611,
+        597
+      ],
+      [
+        683,
+        687
+      ],
+      [
+        647,
+        754
+      ],
+      [
+        739,
+        755
+      ],
+      [
+        626,
+        878
+      ],
+      [
+        483,
+        866
+      ],
+      [
+        371,
+        542
+      ],
+      [
+        380,
+        505
+      ]
+    ],
+    "osm_id": "node/679140414",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H07-B01",
+    "harbour_id": "H07",
+    "name": "Horten gjestehavn",
+    "image": "sentrum-ost",
+    "frame": [
+      900,
+      1500
+    ],
+    "vertices": [
+      [
+        441,
+        747
+      ],
+      [
+        477,
+        743
+      ],
+      [
+        513,
+        785
+      ],
+      [
+        539,
+        803
+      ],
+      [
+        511,
+        848
+      ],
+      [
+        464,
+        855
+      ],
+      [
+        431,
+        840
+      ],
+      [
+        421,
+        809
+      ],
+      [
+        429,
+        778
+      ]
+    ],
+    "osm_id": "way/1216306785",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/horten-gjestehavn/",
+      "https://www.hortenhavn.no/hvor-er-hva/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H08-B01",
+    "harbour_id": "H08",
+    "name": "Strandparken båtforening",
+    "image": "sentrum-ost",
+    "frame": [
+      900,
+      1500
+    ],
+    "vertices": [
+      [
+        268,
+        1391
+      ],
+      [
+        330,
+        1392
+      ],
+      [
+        357,
+        1413
+      ],
+      [
+        333,
+        1416
+      ],
+      [
+        327,
+        1448
+      ],
+      [
+        311,
+        1470
+      ],
+      [
+        286,
+        1469
+      ],
+      [
+        267,
+        1458
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H09-B01",
+    "harbour_id": "H09",
+    "name": "Steinsneshavn",
+    "image": "steinsnes",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        857,
+        507
+      ],
+      [
+        981,
+        517
+      ],
+      [
+        1039,
+        557
+      ],
+      [
+        1033,
+        585
+      ],
+      [
+        990,
+        640
+      ],
+      [
+        851,
+        591
+      ],
+      [
+        860,
+        542
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H10-B01",
+    "harbour_id": "H10",
+    "name": "Horten Seilforening / Rørestrand",
+    "image": "steinsnes",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        688,
+        896
+      ],
+      [
+        749,
+        906
+      ],
+      [
+        838,
+        927
+      ],
+      [
+        846,
+        994
+      ],
+      [
+        870,
+        1010
+      ],
+      [
+        850,
+        1040
+      ],
+      [
+        838,
+        1052
+      ],
+      [
+        793,
+        1045
+      ],
+      [
+        736,
+        1022
+      ],
+      [
+        689,
+        993
+      ]
+    ],
+    "osm_id": "node/5107343404",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H11-B01",
+    "harbour_id": "H11",
+    "name": "Steinbrygga båthavn – hovedbasseng",
+    "image": "steinbrygga",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        516,
+        699
+      ],
+      [
+        642,
+        582
+      ],
+      [
+        663,
+        565
+      ],
+      [
+        682,
+        580
+      ],
+      [
+        776,
+        711
+      ],
+      [
+        746,
+        742
+      ],
+      [
+        724,
+        762
+      ],
+      [
+        643,
+        802
+      ],
+      [
+        616,
+        786
+      ]
+    ],
+    "osm_id": "way/1216709953",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H12-B01",
+    "harbour_id": "H12",
+    "name": "Åsgårdstrand – nordre basseng / seilforeningen",
+    "image": "asgardstrand",
+    "frame": [
+      1250,
+      1500
+    ],
+    "vertices": [
+      [
+        425,
+        626
+      ],
+      [
+        505,
+        592
+      ],
+      [
+        537,
+        558
+      ],
+      [
+        578,
+        684
+      ],
+      [
+        578,
+        724
+      ],
+      [
+        483,
+        750
+      ],
+      [
+        442,
+        641
+      ]
+    ],
+    "osm_id": "way/1216198612",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H12-B02",
+    "harbour_id": "H12",
+    "name": "Åsgårdstrand – midtre basseng",
+    "image": "asgardstrand",
+    "frame": [
+      1250,
+      1500
+    ],
+    "vertices": [
+      [
+        482,
+        758
+      ],
+      [
+        578,
+        733
+      ],
+      [
+        603,
+        751
+      ],
+      [
+        626,
+        780
+      ],
+      [
+        619,
+        875
+      ],
+      [
+        544,
+        904
+      ],
+      [
+        507,
+        831
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/"
+    ],
+    "status": "kart_og_kilde",
+    "note": "Bassengavgrensning. Gjesteplasser kan ligge i samme basseng som faste plasser; dette er ikke operatør- eller leiegrenser."
+  },
+  {
+    "id": "H12-B03",
+    "harbour_id": "H12",
+    "name": "Åsgårdstrand – søndre basseng",
+    "image": "asgardstrand",
+    "frame": [
+      1250,
+      1500
+    ],
+    "vertices": [
+      [
+        549,
+        914
+      ],
+      [
+        618,
+        888
+      ],
+      [
+        625,
+        803
+      ],
+      [
+        657,
+        819
+      ],
+      [
+        699,
+        972
+      ],
+      [
+        571,
+        1001
+      ]
+    ],
+    "osm_id": "way/1217376960",
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-gjestehavn/"
+    ],
+    "status": "kart_og_kilde",
+    "note": null
+  },
+  {
+    "id": "H13-B01",
+    "harbour_id": "H13",
+    "name": "RS Noatun – marina",
+    "image": "noatun-full",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        522,
+        547
+      ],
+      [
+        642,
+        546
+      ],
+      [
+        742,
+        629
+      ],
+      [
+        700,
+        666
+      ],
+      [
+        675,
+        708
+      ],
+      [
+        432,
+        645
+      ],
+      [
+        485,
+        613
+      ],
+      [
+        520,
+        601
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.rs-noatun.no/nb"
+    ],
+    "status": "kart_og_kilde",
+    "note": "Tilbyder opplyser om egen marina. Kurs-/konferanseanlegg; ikke automatisk klassifisert som ordinær offentlig gjestehavn."
+  },
+  {
+    "id": "K01-B01",
+    "harbour_id": "K01",
+    "name": "Drasund / Løvøya – bryggegruppe",
+    "image": "lovoya",
+    "frame": [
+      1350,
+      1500
+    ],
+    "vertices": [
+      [
+        501,
+        461
+      ],
+      [
+        579,
+        403
+      ],
+      [
+        619,
+        466
+      ],
+      [
+        590,
+        510
+      ],
+      [
+        567,
+        501
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://lovoyaoslofjord.no/",
+      "https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn"
+    ],
+    "status": "ma_avklares",
+    "note": "Bryggegruppe synlig i kart. Løvøya har dokumentert båthavn, men koblingen til akkurat disse bryggene er ikke bekreftet. Ikke likestilt med båtfølget kommunen fjernet i august 2026."
+  },
+  {
+    "id": "K02-B01",
+    "harbour_id": "K02",
+    "name": "Steinbrygga – nordre moloområde",
+    "image": "steinbrygga",
+    "frame": [
+      1400,
+      1400
+    ],
+    "vertices": [
+      [
+        731,
+        550
+      ],
+      [
+        805,
+        482
+      ],
+      [
+        840,
+        476
+      ],
+      [
+        933,
+        598
+      ],
+      [
+        865,
+        629
+      ],
+      [
+        781,
+        664
+      ]
+    ],
+    "osm_id": null,
+    "sources": [
+      "https://www.hortenhavn.no/fritidsbaat/"
+    ],
+    "status": "ma_avklares",
+    "note": "Nordre moloområde er synlig i kart; faste småbåtplasser og avgrensning mot hovedanlegget må avklares."
+  }
+]

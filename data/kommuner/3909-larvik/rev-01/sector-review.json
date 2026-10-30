@@ -1,0 +1,374 @@
+[
+  {
+    "sector": "coast-4-3",
+    "bbox": [
+      216400,
+      6557800,
+      220400,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-4-3",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-5-1",
+    "bbox": [
+      220000,
+      6550600,
+      224000,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-5-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-0-0",
+    "bbox": [
+      202000,
+      6547000,
+      206000,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-0-0",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-5-3",
+    "bbox": [
+      220000,
+      6557800,
+      224000,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-6-1",
+    "bbox": [
+      223600,
+      6550600,
+      227600,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-6-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-6-0",
+    "bbox": [
+      223600,
+      6547000,
+      227600,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-1-3",
+    "bbox": [
+      205600,
+      6557800,
+      209600,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-5-2",
+    "bbox": [
+      220000,
+      6554200,
+      224000,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-5-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-2-0",
+    "bbox": [
+      209200,
+      6547000,
+      213200,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-2-0",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-1-1",
+    "bbox": [
+      205600,
+      6550600,
+      209600,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-1-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-4-0",
+    "bbox": [
+      216400,
+      6547000,
+      220400,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-0-2",
+    "bbox": [
+      202000,
+      6554200,
+      206000,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-0-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-2-3",
+    "bbox": [
+      209200,
+      6557800,
+      213200,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-2-3",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-3-1",
+    "bbox": [
+      212800,
+      6550600,
+      216800,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-3-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-7-2",
+    "bbox": [
+      227200,
+      6554200,
+      231200,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-1-0",
+    "bbox": [
+      205600,
+      6547000,
+      209600,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-1-0",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-0-3",
+    "bbox": [
+      202000,
+      6557800,
+      206000,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-6-3",
+    "bbox": [
+      223600,
+      6557800,
+      227600,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-2-2",
+    "bbox": [
+      209200,
+      6554200,
+      213200,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-2-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-7-1",
+    "bbox": [
+      227200,
+      6550600,
+      231200,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-5-0",
+    "bbox": [
+      220000,
+      6547000,
+      224000,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-5-0",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-4-1",
+    "bbox": [
+      216400,
+      6550600,
+      220400,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-4-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-7-0",
+    "bbox": [
+      227200,
+      6547000,
+      231200,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-2-1",
+    "bbox": [
+      209200,
+      6550600,
+      213200,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": null,
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-4-2",
+    "bbox": [
+      216400,
+      6554200,
+      220400,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-4-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-3-2",
+    "bbox": [
+      212800,
+      6554200,
+      216800,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-3-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-3-0",
+    "bbox": [
+      212800,
+      6547000,
+      216800,
+      6551000
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-3-0",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-3-3",
+    "bbox": [
+      212800,
+      6557800,
+      216800,
+      6561800
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-3-3",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-6-2",
+    "bbox": [
+      223600,
+      6554200,
+      227600,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-6-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-0-1",
+    "bbox": [
+      202000,
+      6550600,
+      206000,
+      6554600
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-0-1",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  },
+  {
+    "sector": "coast-1-2",
+    "bbox": [
+      205600,
+      6554200,
+      209600,
+      6558200
+    ],
+    "topographic_reviewed": true,
+    "aerial_image": "a-coast-1-2",
+    "review": "Bred manuell screening av kyst/bryggegrupper. Spredte enkeltbrygger utelatt etter regelen; ikke uttømmende bryggetelling."
+  }
+]

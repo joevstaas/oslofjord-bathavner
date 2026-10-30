@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-29T16:08:16Z",
+  "finished_utc": "2026-10-29T16:48:12Z",
+  "elapsed_wall_seconds": 2397,
+  "elapsed_wall_minutes": 40.0,
+  "image_count": 100,
+  "actual_input_tokens": null,
+  "actual_output_tokens": null,
+  "actual_cost_currency": null,
+  "actual_cost": null,
+  "note": "Veggklokketid inkluderer kildeinnhenting, bilder, tegning, rettinger og kontroll. Ingen tilgang til faktisk token-/faktureringsregnskap."
+}

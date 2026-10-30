@@ -1,0 +1,9 @@
+{
+ "boundary_source": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3312/omrade?utkoordsys=4326",
+ "working_crs": "EPSG:25833",
+ "overview_tiles": 40,
+ "detail_tiles": 234,
+ "images_total": 282,
+ "candidate_generation": "Metode 1.2: OSM-pirer klynget, bufret, lukket og klippet mot kartvann; hver kandidat vurdert visuelt.",
+ "sweep": "Alle 38 detaljfliser langs Drammensfjorden/Lierelva gjennomgått i kontaktark; ingen nye anlegg utenfor OSM. Gilhusbukta-anlegget omtalt i kommunal plan ble ikke identifisert. Holsfjorden/Tyrifjorden og innsjøer er utenfor Oslofjordomfanget og bare grovt sett."
+}

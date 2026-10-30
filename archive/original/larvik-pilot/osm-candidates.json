@@ -1,0 +1,254 @@
+[
+  {
+    "osm_id": "way/163116818",
+    "name": "Helgeroa Gjestehavn",
+    "lon": 9.856044725,
+    "lat": 58.99363098333333,
+    "tags": {
+      "leisure": "marina",
+      "name": "Helgeroa Gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/helgeroa-gjestehavn-osm-way-163116818/"
+  },
+  {
+    "osm_id": "way/135450559",
+    "name": "Helgeroa Småbåthavn",
+    "lon": 9.857102312903226,
+    "lat": 58.99475981290322,
+    "tags": {
+      "leisure": "marina",
+      "name": "Helgeroa Småbåthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/helgeroa-smabathavn-osm-way-135450559/"
+  },
+  {
+    "osm_id": "node/5107482985",
+    "name": "Kjerringvik Nordhavna",
+    "lon": 10.2308316,
+    "lat": 59.0428104,
+    "tags": {
+      "leisure": "marina",
+      "name": "Kjerringvik Nordhavna",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://kjerringvik.com/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/kjerringvik-nordhavna-smabathavn-osm-node-5107482985/"
+  },
+  {
+    "osm_id": "node/5107482986",
+    "name": "Kjerringvik Sydhavna",
+    "lon": 10.2278063,
+    "lat": 59.0402528,
+    "tags": {
+      "email": "havnaKVB@kjerringvik.com",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Kjerringvik Sydhavna",
+      "power_supply": "yes",
+      "sanitary_dump_station": "no",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://kjerringvik.com/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/kjerringvik-sydhavna-smabathavn-osm-node-5107482986/"
+  },
+  {
+    "osm_id": "node/1477952462",
+    "name": "Laberget småbåthavn",
+    "lon": 9.8660846,
+    "lat": 58.9715956,
+    "tags": {
+      "leisure": "marina",
+      "name": "Laberget småbåthavn",
+      "website": "http://labergetsmabathavn.no"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/laberget-smabathavn-osm-node-1477952462/"
+  },
+  {
+    "osm_id": "way/108257655",
+    "name": "Larvik båtforening",
+    "lon": 10.03749583111111,
+    "lat": 59.04565863111111,
+    "tags": {
+      "contact:website": "http://www.larvikbaatforening.com/",
+      "leisure": "marina",
+      "name": "Larvik båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/larvik-batforening-osm-way-108257655/"
+  },
+  {
+    "osm_id": "way/272287098",
+    "name": "Nedre Lågen båtforening",
+    "lon": 10.056171694117648,
+    "lat": 59.03876494705882,
+    "tags": {
+      "leisure": "marina",
+      "name": "Nedre Lågen båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.nedrelagenbatforening.net/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/nedre-lagen-batforening-osm-way-272287098/"
+  },
+  {
+    "osm_id": "way/108246714",
+    "name": "Skotta",
+    "lon": 10.032894622222223,
+    "lat": 59.04849588888889,
+    "tags": {
+      "leisure": "marina",
+      "name": "Skotta"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/skotta-smabathavn-osm-way-108246714/"
+  },
+  {
+    "osm_id": "node/1477952461",
+    "name": "",
+    "lon": 9.8689278,
+    "lat": 58.9684876,
+    "tags": {
+      "leisure": "marina"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabathavn-ved-brunlanesveien-osm-node-1477952461/"
+  },
+  {
+    "osm_id": "node/5107482984",
+    "name": "",
+    "lon": 10.2275217,
+    "lat": 59.0419969,
+    "tags": {
+      "harbour": "yes",
+      "leisure": "marina",
+      "seamark:harbour:category": "fishing",
+      "seamark:name": "Kjerringvik",
+      "seamark:type": "harbour",
+      "source": "Kystverket"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabathavn-ved-kjerringvikveien-osm-node-5107482984/"
+  },
+  {
+    "osm_id": "node/5107430963",
+    "name": "Småbåtshavn",
+    "lon": 10.0641578,
+    "lat": 59.0414791,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-31-osm-node-5107430963/"
+  },
+  {
+    "osm_id": "node/5107430964",
+    "name": "Småbåtshavn",
+    "lon": 10.0189278,
+    "lat": 59.0418682,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-32-osm-node-5107430964/"
+  },
+  {
+    "osm_id": "node/5107482988",
+    "name": "Småbåtshavn",
+    "lon": 10.1162893,
+    "lat": 59.0302417,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-41-osm-node-5107482988/"
+  },
+  {
+    "osm_id": "node/498322540",
+    "name": "Småbåtshavn",
+    "lon": 10.0963698,
+    "lat": 59.0243574,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larvik-osm-node-498322540/"
+  },
+  {
+    "osm_id": "node/498319681",
+    "name": "Småbåtshavn",
+    "lon": 10.0642864,
+    "lat": 59.0336339,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-osm-node-498319681/"
+  },
+  {
+    "osm_id": "node/5107367929",
+    "name": "Småbåtshavn",
+    "lon": 10.1705021,
+    "lat": 59.0114697,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjodalyng-27-osm-node-5107367929/"
+  },
+  {
+    "osm_id": "node/5107482987",
+    "name": "Småbåtshavn",
+    "lon": 10.144608,
+    "lat": 59.0422793,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-tjodalyng-40-osm-node-5107482987/"
+  },
+  {
+    "osm_id": "node/5107367928",
+    "name": "Stavern gjestehavn",
+    "lon": 10.0425165,
+    "lat": 58.9993874,
+    "tags": {
+      "leisure": "marina",
+      "name": "Stavern gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/stavern-gjestehavn-osm-node-5107367928/"
+  },
+  {
+    "osm_id": "node/5107367930",
+    "name": "Ula Småbåtshavn",
+    "lon": 10.1845783,
+    "lat": 59.0243049,
+    "tags": {
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Ula Småbåtshavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://ula.no/for-besokende/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/ula-smabatshavn-smabathavn-osm-node-5107367930/"
+  }
+]

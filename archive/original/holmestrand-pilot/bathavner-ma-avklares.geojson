@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K01-B01",
+        "harbour_id": "K01",
+        "name": "Bekkebrygga – mulig småbåtanlegg",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 3288,
+        "source_image": "images/bekkestranda-detail.png",
+        "image_metadata": "images/bekkestranda-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=233291.66666666663%2C6610285.0%2C234141.66666666663%2C6611135.0&width=2125&height=2125&format=image%2Fpng&transparent=false"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart; klassifisering, navn/operatør og avgrensning må avklares."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.2864962,
+              59.5495647
+            ],
+            [
+              10.2870542,
+              59.5494974
+            ],
+            [
+              10.2865647,
+              59.5492285
+            ],
+            [
+              10.286794,
+              59.5491276
+            ],
+            [
+              10.2877943,
+              59.5495897
+            ],
+            [
+              10.2883075,
+              59.5499194
+            ],
+            [
+              10.2880782,
+              59.5499439
+            ],
+            [
+              10.2876774,
+              59.5496564
+            ],
+            [
+              10.287137,
+              59.5499045
+            ],
+            [
+              10.2864962,
+              59.5495647
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K02-B01",
+        "harbour_id": "K02",
+        "name": "Sandvika – mulig småbåtanlegg",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 2541,
+        "source_image": "images/sandvika-detail.png",
+        "image_metadata": "images/sandvika-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237974.99999999997%2C6607958.333333332%2C238624.99999999997%2C6608608.333333332&width=1625&height=1625&format=image%2Fpng&transparent=false"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart; klassifisering, navn/operatør og avgrensning må avklares."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3705996,
+              59.5309535
+            ],
+            [
+              10.3705998,
+              59.5306529
+            ],
+            [
+              10.371647,
+              59.53069
+            ],
+            [
+              10.3716401,
+              59.531099
+            ],
+            [
+              10.3714725,
+              59.5311223
+            ],
+            [
+              10.3708855,
+              59.5310263
+            ],
+            [
+              10.3705996,
+              59.5309535
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K03-B01",
+        "harbour_id": "K03",
+        "name": "Mathisodden – mulig fellesbrygge",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 1166,
+        "source_image": "images/bjerkoya-vest-detail.png",
+        "image_metadata": "images/bjerkoya-vest-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=235833.33333333337%2C6607333.333333332%2C236833.33333333337%2C6608333.333333332&width=2500&height=2500&format=image%2Fpng&transparent=false"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart; klassifisering, navn/operatør og avgrensning må avklares."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3355214,
+              59.5264961
+            ],
+            [
+              10.3354338,
+              59.5263067
+            ],
+            [
+              10.335678,
+              59.5261869
+            ],
+            [
+              10.3362798,
+              59.5264076
+            ],
+            [
+              10.33598,
+              59.5265639
+            ],
+            [
+              10.3355214,
+              59.5264961
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K04-B01",
+        "harbour_id": "K04",
+        "name": "Holmsåsen – søndre bryggegruppe",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 1788,
+        "source_image": "images/holm-detail.png",
+        "image_metadata": "images/holm-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=230633.33333333337%2C6611600.0%2C231433.33333333337%2C6612400.0&width=2000&height=2000&format=image%2Fpng&transparent=false"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart; klassifisering, navn/operatør og avgrensning må avklares."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.238859,
+              59.5589313
+            ],
+            [
+              10.2389534,
+              59.5587651
+            ],
+            [
+              10.2395271,
+              59.5586473
+            ],
+            [
+              10.240174,
+              59.5587993
+            ],
+            [
+              10.2399572,
+              59.5589713
+            ],
+            [
+              10.238859,
+              59.5589313
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K05-B01",
+        "harbour_id": "K05",
+        "name": "Torrud – nordre bryggegruppe",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 4241,
+        "source_image": "images/thorrud-detail.png",
+        "image_metadata": "images/thorrud-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=217232.4187306172%2C6620479.280489464%2C218232.4187306172%2C6621879.280489464&width=2000&height=2800&format=image%2Fpng&transparent=false",
+          "https://thorrudcamping.no/fasiliteter/",
+          "https://thorrudcamping.no/informasjon/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Båtplasser ved Thorrud er dokumentert av tilbyder. Kobling av den enkelte bryggegruppe til operatør og faktisk havneavgrensning er ikke bekreftet."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.9918856,
+              59.6321603
+            ],
+            [
+              9.9917471,
+              59.6319424
+            ],
+            [
+              9.9923685,
+              59.6318403
+            ],
+            [
+              9.9928351,
+              59.6316298
+            ],
+            [
+              9.9933731,
+              59.6314615
+            ],
+            [
+              9.9937344,
+              59.631436
+            ],
+            [
+              9.9940631,
+              59.6312124
+            ],
+            [
+              9.9944209,
+              59.6312103
+            ],
+            [
+              9.9943891,
+              59.6313193
+            ],
+            [
+              9.9940222,
+              59.6314863
+            ],
+            [
+              9.9936994,
+              59.6316708
+            ],
+            [
+              9.9931541,
+              59.6317837
+            ],
+            [
+              9.9927575,
+              59.6319417
+            ],
+            [
+              9.9923469,
+              59.6321937
+            ],
+            [
+              9.9918856,
+              59.6321603
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "K05-B02",
+        "harbour_id": "K05",
+        "name": "Torrud – søndre bryggegruppe",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3903",
+        "municipality": "Holmestrand",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 5462,
+        "source_image": "images/thorrud-detail.png",
+        "image_metadata": "images/thorrud-detail.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=217232.4187306172%2C6620479.280489464%2C218232.4187306172%2C6621879.280489464&width=2000&height=2800&format=image%2Fpng&transparent=false",
+          "https://thorrudcamping.no/fasiliteter/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Båtplasser ved Thorrud er dokumentert av tilbyder. Kobling av den enkelte bryggegruppe til operatør og faktisk havneavgrensning er ikke bekreftet."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              9.994118,
+              59.6294905
+            ],
+            [
+              9.9941292,
+              59.6287903
+            ],
+            [
+              9.9944692,
+              59.6288033
+            ],
+            [
+              9.9946283,
+              59.6291952
+            ],
+            [
+              9.9952965,
+              59.6292995
+            ],
+            [
+              9.995768,
+              59.6291601
+            ],
+            [
+              9.9964057,
+              59.6289483
+            ],
+            [
+              9.9965833,
+              59.6291125
+            ],
+            [
+              9.9958887,
+              59.629393
+            ],
+            [
+              9.9953554,
+              59.62953
+            ],
+            [
+              9.9947221,
+              59.6296081
+            ],
+            [
+              9.994118,
+              59.6294905
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

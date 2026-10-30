@@ -1,0 +1,17 @@
+id,harbour_id,name,status,area_m2,source_image
+H02-B01,H02,Solviken småbåthavn,kart_og_kilde,35153,images/indre-vest.png
+H03-B01,H03,Båtforeningen Pluggen,kart_og_kilde,24892,images/indre-vest.png
+H04-B01,H04,Bankløkka båthavn,kart_og_kilde,14245,images/sykehus-banklokka.png
+H05-B01,H05,Sykehusbrygga gjestehavn,kart_og_kilde,3328,images/sykehus-banklokka.png
+H06-B01,H06,Fyllinga båthavn,kart_og_kilde,26523,images/fyllinga.png
+H07-B01,H07,Horten gjestehavn,kart_og_kilde,15788,images/sentrum-ost.png
+H08-B01,H08,Strandparken båtforening,kart_og_kilde,8645,images/sentrum-ost.png
+H09-B01,H09,Steinsneshavn,kart_og_kilde,17160,images/steinsnes.png
+H10-B01,H10,Horten Seilforening / Rørestrand,kart_og_kilde,19180,images/steinsnes.png
+H11-B01,H11,Steinbrygga båthavn – hovedbasseng,kart_og_kilde,16871,images/steinbrygga.png
+H12-B01,H12,Åsgårdstrand – nordre basseng / seilforeningen,kart_og_kilde,10700,images/asgardstrand.png
+H12-B02,H12,Åsgårdstrand – midtre basseng,kart_og_kilde,10714,images/asgardstrand.png
+H12-B03,H12,Åsgårdstrand – søndre basseng,kart_og_kilde,10039,images/asgardstrand.png
+H13-B01,H13,RS Noatun – marina,kart_og_kilde,11860,images/noatun-full.png
+K01-B01,K01,Drasund / Løvøya – bryggegruppe,ma_avklares,2866,images/lovoya.png
+K02-B01,K02,Steinbrygga – nordre moloområde,ma_avklares,10961,images/steinbrygga.png

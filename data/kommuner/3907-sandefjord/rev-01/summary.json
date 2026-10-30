@@ -1,0 +1,9 @@
+{
+  "polygons": 67,
+  "harbours": 65,
+  "possible_harbours": 2,
+  "uncertain_geometries": 19,
+  "clipped": [],
+  "validation": "valid polygons; within official boundary",
+  "overlap_issues": []
+}

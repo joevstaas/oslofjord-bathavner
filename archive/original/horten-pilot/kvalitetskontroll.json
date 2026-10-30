@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-28",
+  "polygons": 16,
+  "harbour_groups": 14,
+  "source_supported_polygons": 14,
+  "source_supported_groups": 12,
+  "uncertain_polygons": 2,
+  "uncertain_groups": 2,
+  "scan_tiles": 14,
+  "cached_scan_tiles": 3,
+  "checks": [
+    {
+      "id": "H02-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 35153
+    },
+    {
+      "id": "H03-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 24892
+    },
+    {
+      "id": "H04-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 14245
+    },
+    {
+      "id": "H05-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 3328
+    },
+    {
+      "id": "H06-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 26523
+    },
+    {
+      "id": "H07-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 15788
+    },
+    {
+      "id": "H08-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 8645
+    },
+    {
+      "id": "H09-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 17160
+    },
+    {
+      "id": "H10-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 19180
+    },
+    {
+      "id": "H11-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 16871
+    },
+    {
+      "id": "H12-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 10700
+    },
+    {
+      "id": "H12-B02",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 10714
+    },
+    {
+      "id": "H12-B03",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 10039
+    },
+    {
+      "id": "H13-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 11860
+    },
+    {
+      "id": "K01-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 2866
+    },
+    {
+      "id": "K02-B01",
+      "valid": true,
+      "closed": true,
+      "counterclockwise": true,
+      "inside_municipality": true,
+      "area_m2": 10961
+    }
+  ],
+  "overlaps": [],
+  "all_polygons_inside_scan_coverage": true,
+  "complete_inventory": false,
+  "completeness_and_recall_measured": false,
+  "orthophoto_access": "Ikke tilgjengelig i forrige pilot. Ingen nye autentiseringsforsøk; ingen flyfotoverifikasjon.",
+  "imagery_acquisition_dates_known": false,
+  "osm_local_extracts": 5,
+  "independent_human_review": false
+}

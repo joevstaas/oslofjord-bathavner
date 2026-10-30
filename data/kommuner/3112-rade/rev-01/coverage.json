@@ -1,0 +1,30 @@
+{
+ "boundary_source": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3112/omrade?utkoordsys=4326",
+ "boundary_crs": "EPSG:4326",
+ "working_crs": "EPSG:25833",
+ "overview_tiles": {
+  "topo": 26,
+  "esri": 26,
+  "size_m": 4000,
+  "step_m": 3600,
+  "px": 1600
+ },
+ "shore_cells_1km": 223,
+ "detail_tiles": 105,
+ "detail_tile_px": 1320,
+ "detail_tile_m": 1100,
+ "detail_selection": "1 km-ruter med 2–99 % vann i topografisk kart, pluss ruter med OSM-objekter. Vannmasken er bare prioritering; resultatet er kontrollert mot oversiktsmosaikk.",
+ "review_levels": {
+  "sjo_kyst": "detaljkontroll av 39 kystfliser (ca. 2,2 m/px i kontaktark) og 10 zoomutsnitt på 0,67 m/px ved alle anlegg",
+  "vansjo_og_elv": "oversiktskontroll av 66 fliser (ca. 2,75 m/px i kontaktark); zoom ved to OSM-slipper og Grimstadstøa. Vårbilder uten båter; små fellesbrygger kan være oversett",
+  "sosteroyene": "kontrollert i kystfliser; ingen bryggeanlegg sett",
+  "smaa_vann_under_2_prosent": "bare oversiktsmosaikk"
+ },
+ "gaps": [
+  "Vansjø-strendene er ikke detaljkontrollert fortløpende i høy oppløsning.",
+  "Esri-eksport med 0,5 m/px ga HTTP 500/tom href; 0,67 m/px ble brukt.",
+  "Overpass-hovedtjenesten svarte 406/502; speilet overpass.private.coffee ble brukt."
+ ],
+ "osm_pier_crosscheck": "Etter brukerinnspill: 99 OSM-pirer/-moloer innen 50 m av Råde hentet med geometri (maps.mail.ru-speil) og sjekket mot polygonene. 58 lå over 30 m fra et polygon; alle klynger er vurdert i zoom eller tidligere detaljbilde. Ingen nye kvalifiserende anlegg i Råde. Se osm-uncovered-piers.json.",
+ "images_downloaded": 174
+}

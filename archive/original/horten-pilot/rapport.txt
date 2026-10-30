@@ -1,0 +1,101 @@
+HORTEN – KARTBASERT KARTLEGGING AV SMÅBÅTHAVNER
+28. oktober 2026 · Status: til brukerens godkjenning
+
+RESULTAT
+16 polygonforslag ved 14 anleggsgrupper.
+14 polygoner ved 12 lokaliteter støttes av kart og tilleggskilde.
+To usikre forslag: Drasund/Løvøya og Steinbrygga nordre moloområde.
+Åsgårdstrand er delt i tre fysiske basseng, ikke i juridiske eller operatørmessige grenser.
+RS Noatun har egen marina ifølge tilbyderen; den er ikke automatisk en offentlig gjestehavn.
+
+LOKALITETER MED KART OG TILLEGGSKILDE
+Solviken, Pluggen, Bankløkka, Sykehusbrygga, Fyllinga, Horten gjestehavn,
+Strandparken, Steinsneshavn, Horten Seilforening/Rørestrand, Steinbrygga,
+Åsgårdstrand og RS Noatun.
+
+METODE
+Offisiell kommunegrense: kommunenummer 3901 fra Kartverket.
+Kommuneoversikt: 6,25 m/kartpiksel. Vannfargemaske velger 4 x 4 km ruter
+med minst 20 vannpiksler innen grensen (ca. 781 m²).
+14 valgte ruter er gjennomgått visuelt i oversikt, 2 m/kartpiksel.
+3 av rutene gjenbruker identiske WMS-utsnitt fra Holmestrand-piloten.
+Detaljutsnitt er kontrollert rundt kandidatene. 28 originale kartbilder lagret.
+Polygonene er manuelt digitalisert fra georefererte originalkart.
+Ingen generativ bilderedigering er brukt som kilde for koordinater.
+5 vellykkede lokale OSM API-uttrekk ga 9 unike marinaobjekter, hvorav
+Våle båthavn ligger utenfor Horten. Uttrekk dekker ikke hele kommunen.
+To større/dense uttrekk feilet; kartgjennomgang og Horten havns liste
+ble brukt som supplerende kandidatkilder.
+Horten havns offentlige POI-data er lagret og brukt til lokalisering av
+blant annet Bankløkka og Sykehusbrygga, ikke som juridisk havnegrense.
+
+KVALITET OG GJENSTÅENDE ARBEID
+Alle 16 polygoner er gyldige, lukkede og orientert mot klokken.
+Alle ligger helt innen kommunegrensen og screeningsrutene.
+Ingen innbyrdes arealoverlapp over 1 m².
+Arealer er beregnet i EPSG:25833. GeoJSON har WGS84, lengdegrad først.
+Grensene er omtrentlige forslag, ikke offisielle havnegrenser eller oppmåling.
+Kartets underliggende observasjonsdato er ukjent. Pikselstørrelse er ikke
+målt stedfestingsnøyaktighet. Ingen flyfotoverifikasjon eller uavhengig
+fagkontroll. Fullstendighet og treffrate er ikke målt.
+Tidligere fastslått manglende tilgang til Norge i bilder er gjenbrukt;
+ingen nye autentiseringsforsøk ble gjort for Horten.
+
+OPPFØLGING UTEN EGET POLYGON
+Løvøya båthavn: dokumentert tilbud, men sikker kobling til K01-bryggene mangler.
+Falkensten vel, Julaften og Keisemarken båt og badehus: oppført av Horten havn,
+men brygger/avgrensning eller overlapp med andre havner er ikke avklart.
+Forretningsadresser er ikke brukt som bevis for havnelokasjon.
+Roklubb, badebrygger, industri- og fergekaier er ikke automatisk småbåthavner.
+Bastøy og øyene er gjennomgått i oversiktsrutene; fergekai er ikke telt som marina.
+Båtfølget kommunen fjernet ved Løvøya 07.08.2026 må ikke forveksles med
+båthavnens fortsatte tilbud eller brukes som et nytt havnefunn.
+
+SUPPLERINGSFUNN TIL HOLMESTRAND
+Våle båthavn / Frebergsvik: OSM-punkt og digitalisert kartutsnitt ligger
+helt utenfor Horten. Kartverkets punkt-API bekrefter kommunenummer 3903.
+Lagret separat som suppleringsfunn, ikke telt i Horten. Dette var ikke med
+i den tidligere Holmestrand-leveransen; den er ikke endret eller regodkjent.
+
+TID OG ESTIMAT
+Start: 2026-10-28 21:59:20 UTC, før innhenting og kildearbeid.
+Sluttid og faktisk veggklokketid finnes i tidtaking.json og tidsestimat.txt.
+Tiden inkluderer søk, nedlasting, manuell kartgjennomgang, digitalisering,
+feilretting, eksport, kartvisning, kontroll og pakking.
+Parallell innhenting overlapper andre aktiviteter; delsteg summeres derfor
+ikke til en kunstig total. Godkjenningsventing er utelatt.
+Estimater gjelder samme kartbaserte metode, ikke flyfoto-/feltkontroll.
+En kommune gir et grovt planleggingsanslag, ikke en kalibrert produktivitetsmodell.
+Ingen annen kommune blir startet før Horten er godkjent.
+
+LEVERANSE
+horten-kart.html: selvstendig kartvisning uten nett, med GeoJSON-nedlasting.
+bathavner-alle-forslag.geojson: alle 16 forslag med status og kilder.
+bathavner-kart-og-kilde.geojson: 14 forslag ved 12 kildeunderbygde lokaliteter.
+bathavner-ma-avklares.geojson: 2 usikre forslag.
+oppfolgingspunkter.geojson: uavklarte oppføringer, punkt eller null geometri.
+suppleringsfunn-holmestrand.geojson: separat grensekontrollfunn.
+kommunegrense.geojson, dekningsruter.geojson, kvalitetskontroll.json,
+havneoversikt.csv, bildemanifest.json, digitization.json og reproduksjonsskript.
+images/: uendrede PNG-kart, georeferering og WMS-bestillinger.
+raw/: grensedata, lokale OSM-uttrekk og offentlige nettsider/POI-data.
+
+KILDER
+Kart og kommunegrense © Kartverket:
+https://wms.geonorge.no/skwms1/wms.topo
+https://ws.geonorge.no/kommuneinfo/v1/kommuner/3901/omrade?utkoordsys=4326
+Supplerende kandidater/navn © OpenStreetMap-bidragsytere, ODbL:
+https://www.openstreetmap.org/copyright
+Horten havns oversikt og kart (navn/lokalisering):
+https://www.hortenhavn.no/fritidsbaat/
+https://www.hortenhavn.no/hvor-er-hva/
+https://www.hortenhavn.no/fritidsbaat/bankloekka-baathavn/
+https://www.hortenhavn.no/fritidsbaat/sykehusbrygga-gjestehavn/
+https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/
+RS Noatun (egen marina): https://www.rs-noatun.no/nb
+Løvøya: https://lovoyaoslofjord.no/
+https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn
+Fjerning av båtfølge, ikke nedleggelse av marina:
+https://www.horten.kommune.no/siste-nytt-fra-horten-kommune/horten-kommune-har-fjernet-batfolget-ved-lovoya.62376.aspx
+Planleggingsgrunnlag for 26 kystkommuner; kø/avgrensning må fortsatt verifiseres:
+https://www.regjeringen.no/no/aktuelt/statusrapport-om-oslofjorden2/id3013122/

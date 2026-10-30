@@ -1,0 +1,23 @@
+[
+ {
+  "kommune": "Fredrikstad (3107)",
+  "sted": "Saltholmen båthavn, søndre del",
+  "x_25833": 257700,
+  "y_25833": 6579550,
+  "note": "Søndre del av Saltnes båtforenings bryggeanlegg ligger utenfor Råde. Cross-group X-SALTHOLMEN-3112-3107."
+ },
+ {
+  "kommune": "Fredrikstad (3107)",
+  "sted": "Sør for Saltholmen – brygge med mange båter",
+  "x_25833": 257807,
+  "y_25833": 6579302,
+  "note": "Sett i Råde-utsnitt, ikke vurdert."
+ },
+ {
+  "kommune": "Moss (3103, godkjent)",
+  "sted": "Larkollen/Kurefjorden vest – brygge med båter",
+  "x_25833": 255300,
+  "y_25833": 6583600,
+  "note": "Nærmeste godkjente Moss-polygon er 886 m unna. Ikke behandlet; godkjent Moss-leveranse er ikke endret."
+ }
+]

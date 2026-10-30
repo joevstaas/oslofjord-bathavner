@@ -1,0 +1,125 @@
+HOLMESTRAND KOMMUNE – PILOT FOR KARTLEGGING AV SMÅBÅTHAVNER
+Gjennomført 28. oktober 2026
+
+RESULTAT
+14 polygonforslag fordelt på 12 foreløpige havne-/anleggsgrupper.
+8 polygoner ved 7 lokaliteter har støtte i både topografisk kart og tilleggskilder.
+6 polygoner ved 5 lokaliteter krever avklaring av klassifisering og/eller operatør.
+Alle avgrensninger er manuelle forslag. Ingen er offisielle havnegrenser.
+Ikke en bekreftet komplett oversikt over alle småbåthavner i kommunen.
+
+LOKALITETER MED KART OG TILLEGGSKILDE
+Holmestrand byhavn (nordre og søndre basseng), Hagemann,
+Nordre Jarlsberg Brygge, Sande & Havna Båtforening,
+Bjerkøya Båtforening, Gyltesø Båtforening og Holm Brygge.
+
+USIKRE POLYGONFORSLAG
+Bekkebrygga, Sandvika, Mathisodden, Holmsåsen søndre bryggegruppe
+og to bryggegrupper ved Torrud. Navnene er delvis beskrivende.
+Thorrud Camping dokumenterer båtplasser. Tilknytningen mellom den
+enkelte kartlagte bryggegruppen og en bestemt operatør er ikke bekreftet.
+Disse kandidatene kan vise seg å være private brygger, andre typer
+fortøyningsanlegg eller deler av en annen havn.
+
+OPPFØLGING UTEN POLYGON
+Eidsfoss/Kølabånn: lokal tilbyder beskriver småbåtplasser, men kartet
+gir ikke sikker avgrensning. Lagret som omtrentlig lokaliseringspunkt.
+Rydningen Småbåtforening: Enhetsregisteret beskriver drift av båtbrygge.
+Havnelokasjonen er ikke avklart. Geometri er null; forretningsadressen
+er ikke brukt som havnelokasjon. Kan være samme anlegg som et annet funn.
+Eikernveien Camping: undersøkt som innsjøkandidat, men ikke bekreftet
+som egen småbåthavn. Punktet representerer campinglokasjonen.
+Langøya: planinitiativ 12.01.2026 beskriver planlagt gjestebåthavn;
+ikke telt som eksisterende havn. Geometri er null.
+
+METODE OG DEKNING
+1. Hentet offisiell grense for kommunenummer 3903 fra Kartverket.
+2. Hentet kommuneoversikt som WMS-kart i EPSG:25833, 8 m/kartpiksel.
+3. Lagde vannfargemaske innen kommunegrensen. Masken er et hjelpemiddel,
+   ikke en autoritativ kystlinje. Et 4 x 4 km rutenett ble valgt dersom
+   ruten inneholdt minst 20 vannpiksler i oversikten (omtrent 1 280 m²).
+4. Hentet 44 valgte ruter, 2 000 x 2 000 piksler (2 m/kartpiksel).
+   Rutene er visuelt gjennomgått i oversikt. Kandidater er undersøkt
+   med større kartutsnitt. Screening er ikke en detaljkontroll av hver
+   enkelt meter strandlinje. Små vann, smale elver og nye anlegg kan mangle.
+5. Hentet åtte lokale OpenStreetMap API-kartuttrekk rundt kystkandidater
+   og Eidsfoss. Disse inneholder seks unike leisure=marina-objekter.
+   Overpass-kall for hele kommunen feilet; OSM-dekningen i testen er
+   derfor lokal, ikke et dokumentert komplett uttrekk for kommunen.
+6. Kryssjekket med operatører, kommune, lokale organisasjoner og
+   Enhetsregisteret. Treff i feil kommune eller planforslag ble ikke
+   behandlet som eksisterende småbåthavner i Holmestrand.
+7. Digitaliserte vannområder rundt synlige bryggeanlegg direkte i
+   georefererte originalkart. Transformerte til GeoJSON/WGS84.
+   Det tidligere generativt annoterte kartet ble ikke brukt som datakilde.
+
+DATATILGANG
+Kartverket Topografisk norgeskart WMS fungerte.
+Norge i bilder WMS returnerte autentiseringsfeil. Geonorge opplyser
+at tjenestene krever GeoID/token og avtalt tilgang. Ingen flyfoto
+er hentet fra denne tjenesten, og ingen flyfotoverifikasjon er utført.
+Detaljkartenes pikselstørrelse er ikke en målt stedfestingsnøyaktighet.
+Kartets underliggende observasjonsdato er ukjent. Hentedato er lagret
+separat og må ikke tolkes som dato for oppdatert havnegeometri.
+
+KVALITETSKONTROLL
+14 av 14 polygoner er gyldige, lukkede og mot klokken orienterte.
+14 av 14 ligger helt innen den offisielle kommunegrensen og innen de
+utvalgte screeningsrutene. Ingen arealoverlapp over 1 m² mellom forslagene.
+Arealer er beregnet i EPSG:25833 og avrundet til hele m²; tallene er ikke
+oppmåling. Treffrate, falske positive og fullstendighet er ikke målt mot
+uavhengig fasit. Grenser og klassifisering er gjennomgått av AI-assistent,
+ikke av en uavhengig kartfaglig kontrollør.
+
+HVA PILOTEN TESTET
+Fungerte: kommuneavgrensning, georeferert bildeinnhenting, screening,
+kombinasjon av flere kilder, forslag til polygoner, eksport og geometrikontroll.
+Ga tilleggsfunn: Holm Brygge og flere små bryggeanlegg utover de seks
+marinaobjektene i de lokale OSM-uttrekkene. Innlandskilder avdekket også
+båtplasser som ikke kunne avgrenses sikkert i topografisk kart.
+Ikke testet: trent deteksjonsmodell, automatisk segmentering av flyfoto,
+nasjonal produksjonskostnad eller dokumentert komplett havneregister.
+Hovedlæring: kartbasert screening fungerer for kandidatjakt, men kan ikke
+erstatte flyfoto og lokal kontroll når målet er alle anlegg og presise grenser.
+
+NESTE KONKRETE PRODUKSJONSTRINN
+Sikre avtalt tilgang til nyere georefererte flyfoto. Kontroller de 14
+polygonforslagene og de uavklarte lokalitetene, deretter gjør en ny,
+systematisk gjennomgang av strandlinjene for å finne manglende anlegg.
+Bruk en uavhengig kontrollør på et utvalg positive og negative funn før
+fullstendighet, nøyaktighet eller tidsbesparelse rapporteres.
+
+FILER
+bathavner-alle-forslag.geojson: alle 14 polygonforslag med status og kilder.
+bathavner-kart-og-kilde.geojson: 8 polygoner, 7 kildeunderbygde lokaliteter.
+bathavner-ma-avklares.geojson: 6 usikre polygoner, 5 grupper.
+oppfolgingspunkter.geojson: punkt/null-geometrier, ikke havnepolygoner.
+kommunegrense.geojson: offisiell kommunegrense.
+dekningsruter.geojson: 44 kommuneavklippede screeningsruter.
+havneoversikt.csv: tabell over polygoner.
+kvalitetskontroll.json: maskinelle kontroller.
+digitization.json: opprinnelige manuelt valgte bildekoordinater.
+fetch_maps.py, *-maps.json: WMS-innhenting og nøyaktige bestillinger.
+build_dataset.py: koordinattransformasjon, eksport og validering.
+images/: originale kartbilder med sidefiler for georeferering og metadata.
+raw/: kommune- og OSM-kildedata, tjenestebeskrivelser og utvalgte nettsider.
+
+KILDER OG KREDITERING
+Kartgrunnlag og kommunegrense: © Kartverket.
+WMS: https://wms.geonorge.no/skwms1/wms.topo
+Kommunegrense: https://ws.geonorge.no/kommuneinfo/v1/kommuner/3903/omrade?utkoordsys=4326
+Supplerende kandidater/navn: © OpenStreetMap-bidragsytere, ODbL.
+https://www.openstreetmap.org/copyright
+Holmestrand Småbåthavn: https://holmestrandsmabathavn.no/
+Holmestrand Seilforening: https://www.holmestrandseil.no/havna/
+Nordre Jarlsberg Brygge: https://njb.no/bathavna/
+Sande & Havna: https://www.havneweb.no/sandehavnabf/
+Holm Brygge: https://www.holmbrygge.no/
+Gyltesø: https://virksomhet.brreg.no/nb/oppslag/enheter/912086275
+Bjerkøya: https://virksomhet.brreg.no/nb/oppslag/enheter/896548972
+Thorrud båtplasser: https://thorrudcamping.no/fasiliteter/
+Kølabånn: https://visiteidsfoss.no/om-eidsfoss/aktorer/foreningen-eikern-dampskipselskap/
+Rydningen: https://data.brreg.no/enhetsregisteret/api/enheter/920720714
+Innsjøkandidater: https://visiteidsfoss.no/spisesteder/thorrud-camping/
+Langøya: https://holmestrand.kommune.no/_f/p1/i999d3687-7c6b-4435-84ca-126fb527b16a/planinitiativ_langoya_v2-12012026.pdf
+Ortofoto-tilgang: https://www.geonorge.no/nib

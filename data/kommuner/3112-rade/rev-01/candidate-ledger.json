@@ -1,0 +1,579 @@
+[
+ {
+  "candidate_id": "SRC-RBF",
+  "name": "Makrellrød båthavn / Råde båtforening",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "operator_dokumenterer_faste_batplasser",
+  "sources": [
+   "https://www.rbf.no/index.php/batplasser",
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/993953253",
+   "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf",
+   "https://www.openstreetmap.org/node/5106918395"
+  ],
+  "feature_ids": [
+   "3112-H01-B01"
+  ],
+  "harbour_ids": [
+   "3112-H01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-SBF",
+  "name": "Saltholmen båthavn / Saltnes båtforening – Råde-del",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "operator_dokumenterer_faste_batplasser",
+  "sources": [
+   "https://saltnesbf.no/?page_id=19",
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/993955779",
+   "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf"
+  ],
+  "feature_ids": [
+   "3112-H02-B01"
+  ],
+  "harbour_ids": [
+   "3112-H02"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/5106950299",
+  "name": "Åven – vestre båthavn",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "sources": [
+   "https://www.openstreetmap.org/node/5106950299"
+  ],
+  "feature_ids": [
+   "3112-H03-B01"
+  ],
+  "harbour_ids": [
+   "3112-H03"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-aven-indre",
+  "name": "Åven – indre båtbasseng",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "sources": [],
+  "feature_ids": [
+   "3112-H04-B01"
+  ],
+  "harbour_ids": [
+   "3112-H04"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/5106953733",
+  "name": "Fuglevik (Råde) – søndre bryggeanlegg",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "sources": [
+   "https://www.openstreetmap.org/node/5106953733"
+  ],
+  "feature_ids": [
+   "3112-H05-B01"
+  ],
+  "harbour_ids": [
+   "3112-H05"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-fuglevik-kanal",
+  "name": "Fuglevik (Råde) – båtplasser langs kanalen",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "sources": [],
+  "feature_ids": [
+   "3112-H06-B01"
+  ],
+  "harbour_ids": [
+   "3112-H06"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-fuglevik-vest",
+  "name": "Fuglevik (Råde) – vestre felles brygge",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "en_lang_brygge_med_rundt_10_synlige_batplasser",
+  "sources": [],
+  "feature_ids": [
+   "3112-H07-B01"
+  ],
+  "harbour_ids": [
+   "3112-H07"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-KROGSTAD-BF",
+  "name": "Krokstadfjorden – østre bryggeanlegg (Krogstad båtforening)",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_smabathavn",
+  "reason": "minst_10_synlige_plasser_i_sammenhengende_anlegg",
+  "sources": [
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/992113030"
+  ],
+  "feature_ids": [
+   "3112-H08-B01"
+  ],
+  "harbour_ids": [
+   "3112-H08"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-KROGSTAD-MARINA",
+  "name": "Krokstadfjorden – kai og bryggerekke ved båtverkstedet",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "flere_brygger_men_felles_drift_eller_kapasitet_uklar",
+  "sources": [
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/937345348"
+  ],
+  "feature_ids": [
+   "3112-H09-B01"
+  ],
+  "harbour_ids": [
+   "3112-H09"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-TASKEN",
+  "name": "Nordre Tasken – felles brygge i Kurefjorden",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "eiendomsannonse_omtaler_felles_bryggeanlegg_rundt_10_synlige_plasser",
+  "sources": [
+   "https://www.finn.no/385649027"
+  ],
+  "feature_ids": [
+   "3112-H10-B01"
+  ],
+  "harbour_ids": [
+   "3112-H10"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-GRIMSTADBUKTA",
+  "name": "Grimstadstøa – felles brygge i Vansjø",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "forening_registrert_og_brygge_med_utriggere_men_faste_plasser_ikke_dokumentert",
+  "sources": [
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/916901321"
+  ],
+  "feature_ids": [
+   "3112-H11-B01"
+  ],
+  "harbour_ids": [
+   "3112-H11"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/5106918395",
+  "name": "OSM Småbåtshavn, Båthavnveien Makrellrød",
+  "x_25833": 259643,
+  "y_25833": 6582301,
+  "decision": "samordnet_med_kildeanlegg",
+  "reason": "Samme fysiske havn som Råde båtforening.",
+  "sources": [
+   "https://www.openstreetmap.org/node/5106918395"
+  ],
+  "feature_ids": [
+   "3112-H01-B01"
+  ],
+  "harbour_ids": [
+   "3112-H01"
+  ],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/1298738114",
+  "name": "OSM slipp (Makrellrød)",
+  "x_25833": 259802,
+  "y_25833": 6582104,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/1298738114"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/6560408479",
+  "name": "OSM slipp (Makrellrød)",
+  "x_25833": 259817,
+  "y_25833": 6582142,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/6560408479"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/5822268071",
+  "name": "OSM slipp (Fuglevik kanal)",
+  "x_25833": 258323,
+  "y_25833": 6582890,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/5822268071"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/5843563715",
+  "name": "OSM slipp (Fuglevik sør)",
+  "x_25833": 258392,
+  "y_25833": 6582620,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/5843563715"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/9083591817",
+  "name": "OSM slipp (Saltholmen)",
+  "x_25833": 257803,
+  "y_25833": 6579732,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/9083591817"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/7636246450",
+  "name": "OSM slipp (Vansjø)",
+  "x_25833": 264465,
+  "y_25833": 6587665,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/7636246450"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/1326819932",
+  "name": "OSM slipp (Vansjø)",
+  "x_25833": 265771,
+  "y_25833": 6588594,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Utsettingsrampe kvalifiserer ikke alene. Nærliggende anlegg er vurdert separat; ved Vansjø ble ingen bryggeanlegg funnet i detaljbildet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/1326819932"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSM-node/6255853844",
+  "name": "OSM Båtslipp (øst)",
+  "x_25833": 270136,
+  "y_25833": 6583771,
+  "decision": "utenfor_kommunen",
+  "reason": "Ligger utenfor Råde i 300 m-beltet; ikke behandlet.",
+  "sources": [
+   "https://www.openstreetmap.org/node/6255853844"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-aven-midt",
+  "name": "Åven – T-brygge mellom vestre og indre anlegg",
+  "x_25833": 256893,
+  "y_25833": 6582700,
+  "decision": "utelatt_under_terskel",
+  "reason": "Én T-brygge med om lag fem–seks båter; ingen dokumentasjon av felles drift.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-aven-nord",
+  "name": "Åven nord – enkeltbrygge",
+  "x_25833": 256764,
+  "y_25833": 6583247,
+  "decision": "utelatt_under_terskel",
+  "reason": "Enkelt brygge med få båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-makrellrod-nord",
+  "name": "Makrellrød – nordre separat brygge",
+  "x_25833": 259790,
+  "y_25833": 6582280,
+  "decision": "utelatt_separat_brygge",
+  "reason": "Kort separat brygge nord for bassenget, få båter; mulig servicebrygge. Ikke tegnet som del av havnepolygonet.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-saltholmen-vest",
+  "name": "Saltholmen – vestre L-brygge",
+  "x_25833": 257630,
+  "y_25833": 6579730,
+  "decision": "utelatt_under_terskel",
+  "reason": "Liten brygge vest for bassenget med få båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-kure-n1",
+  "name": "Kurefjorden øst – brygge nord",
+  "x_25833": 258060,
+  "y_25833": 6585230,
+  "decision": "utelatt_under_terskel",
+  "reason": "Én brygge med fire synlige båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-kure-n2",
+  "name": "Kurefjorden øst – brygge sør",
+  "x_25833": 258120,
+  "y_25833": 6585020,
+  "decision": "utelatt_under_terskel",
+  "reason": "Én brygge med utriggere, om lag 5–8 plasser; ikke dokumentert felles anlegg.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-fuglevik-sma",
+  "name": "Fuglevik – små brygger vest i bukta",
+  "x_25833": 258120,
+  "y_25833": 6582730,
+  "decision": "utelatt_under_terskel",
+  "reason": "To korte brygger uten synlige båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SEK-krokstad-nord",
+  "name": "Krokstadfjorden nordside – spredte brygger",
+  "x_25833": 260600,
+  "y_25833": 6583400,
+  "decision": "utelatt_sektorvurdering",
+  "reason": "Seks–sju korte brygger med 2–5 båter hver langs separate eiendommer. Ikke summert.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "VIS-krokstad-nordbrygge",
+  "name": "Krokstadfjorden indre – liten nordbrygge",
+  "x_25833": 261230,
+  "y_25833": 6583680,
+  "decision": "utelatt_under_terskel",
+  "reason": "Kort brygge med tre båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SEK-saltnes-kyst",
+  "name": "Saltnes vestkyst – spredte private brygger",
+  "x_25833": 258750,
+  "y_25833": 6581250,
+  "decision": "utelatt_sektorvurdering",
+  "reason": "Enkeltbrygger, de fleste uten synlige båter. Kommunedelplanen beskriver Saltnes som preget av mange enkeltbrygger.",
+  "sources": [
+   "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-OKETANGEN",
+  "name": "Øketangen bryggeforening",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "utenfor_kommunen",
+  "reason": "Fellesbryggen ligger ved Bauen i Singlefjorden, Sarpsborg. Råde er bare omtalt som mulig dumpested.",
+  "sources": [
+   "https://www.statsforvalteren.no/ostfold-buskerud-oslo-og-akershus/miljo-og-klima/forurensning/tillatelse-til-mudring-i-sjo-ved-oketangen-bryggeforenings-fellesbrygge-i-sarpsborg-kommune/"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-FUGLEVIK-MARINA",
+  "name": "Fuglevik Marina (enkeltpersonforetak)",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "utenfor_kommunen",
+  "reason": "Forretningsadresse i Moss; gjelder Fuglevik i tidligere Rygge, ikke Fuglevik i Råde.",
+  "sources": [
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/996859886"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-SALTHOLMEN-SAMEIE",
+  "name": "Saltholmen sameie",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "apen_ikke_stedfestet",
+  "reason": "Sameie registrert 1928 med adresse Hvalfangerveien. Ingen dokumentasjon av eget sjøanlegg funnet; ikke påstått kobling til båthavna.",
+  "sources": [
+   "https://virksomhet.brreg.no/nb/oppslag/enheter/899048822"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "SRC-KDP-NAERING",
+  "name": "Agnes Brygge / Skjærgårdsbrygger AS (kommunedelplan 2007)",
+  "x_25833": null,
+  "y_25833": null,
+  "decision": "utelatt_ikke_havn",
+  "reason": "Omtalt som næringsvirksomhet i kommunedelplanen, ikke som småbåthavn.",
+  "sources": [
+   "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf"
+  ],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSMPIR-saltnes-sor",
+  "name": "Saltnes sør (nord for Saltholmen) – OSM-pirer og molo",
+  "x_25833": 257900,
+  "y_25833": 6580300,
+  "decision": "utelatt_under_terskel",
+  "reason": "Kontrollert i zoom etter brukerinnspill: korte enkeltbrygger uten båtplassanlegg.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSMPIR-aven-nord",
+  "name": "Åven nordkyst – OSM-pirer og molo",
+  "x_25833": 256600,
+  "y_25833": 6583250,
+  "decision": "utelatt_under_terskel",
+  "reason": "Kontrollert i zoom etter brukerinnspill: enkeltbrygger med få eller ingen båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSMPIR-aven-sor",
+  "name": "Åven sør – fire OSM-moloer",
+  "x_25833": 256750,
+  "y_25833": 6581870,
+  "decision": "utelatt_ikke_havn_alene",
+  "reason": "Kontrollert i zoom etter brukerinnspill: små steinmoloer uten synlige båtplasser.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSMPIR-vansjo-gard",
+  "name": "Vansjø, gård/leir ved 266270/6588950 – små brygger",
+  "x_25833": 266270,
+  "y_25833": 6588950,
+  "decision": "utelatt_under_terskel",
+  "reason": "To–tre korte brygger; vårbilde uten båter. Bruk og antall plasser ukjent.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "OSMPIR-kure-tasken-s",
+  "name": "Kurefjorden øst – enkeltbrygge sør for Tasken",
+  "x_25833": 258451,
+  "y_25833": 6584262,
+  "decision": "utelatt_under_terskel",
+  "reason": "Kort brygge uten synlige båter.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ },
+ {
+  "candidate_id": "USER-ENGHOLM",
+  "name": "Brukereksempel Engholmveien/Larkollveien",
+  "x_25833": 254500,
+  "y_25833": 6584150,
+  "decision": "utenfor_kommunen_allerede_godkjent_i_moss",
+  "reason": "Ligger i Moss og er dekket av godkjent polygon 3103-H07-B01 (Nasle bryggesameie – Rørvika øst). Ingen endring.",
+  "sources": [],
+  "feature_ids": [],
+  "harbour_ids": [],
+  "reviewed_date": "2026-10-29"
+ }
+]

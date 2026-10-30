@@ -1,0 +1,15 @@
+[
+ {
+  "candidate_id": "SUPP-PERSENBRYGGA",
+  "name": "Persenbrygga / Persen brygga, Krokstadfjorden",
+  "found_utc": "2026-10-29T19:35:00Z",
+  "found_during": "Fredrikstad rev. 1, kildesøk (OBU-havneliste)",
+  "status": "ikke_behandlet_venter_brukerbeslutning",
+  "sources": [
+   "https://obat.no/obu-havner/",
+   "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/klima-og-miljovern/persen-brygga/bruksverdi.pdf",
+   "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/klima-og-miljovern/persen-brygga/sedimentanalyser.pdf"
+  ],
+  "note": "Søkeresultater (dokumentene svarte 404 ved direkte henting) beskriver en fellesbrygge i Krokstadfjorden, Råde, med 12 like plasser fordelt på 12 hytteeiere i et felleskap, og en mudringssøknad med prøvetaking 17.12.2020. Kan oppfylle regelen som dokumentert felles anlegg med faste plasser. Ikke stedfestet; kan være en av bryggene på Krokstadfjordens nordside som i godkjent rev. 1 ble vurdert som spredte private brygger (SEK-krokstad-nord). Godkjent Råde-leveranse er ikke endret."
+ }
+]

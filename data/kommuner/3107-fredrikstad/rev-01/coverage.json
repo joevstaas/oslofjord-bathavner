@@ -1,0 +1,25 @@
+{
+ "boundary_source": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3107/omrade?utkoordsys=4326",
+ "working_crs": "EPSG:25833",
+ "overview_tiles": {
+  "topo": 65,
+  "esri": 65,
+  "size_m": 4000,
+  "step_m": 3600
+ },
+ "detail_tiles": 282,
+ "detail_tile_m": 1100,
+ "detail_tile_px": 1320,
+ "zoom_images": 19,
+ "images_total": 432,
+ "detail_selection": "1 km-ruter med 2–99 % vann i topografisk kart (vannmaske kun prioritering).",
+ "search_A": "Alle 282 detaljfliser gjennomgått i kontaktark (ca. 2,5 m/px visning) med OSM-pirer og kandidatpolygoner påtegnet; ett nytt anlegg (M002) funnet utenfor OSM.",
+ "search_B": "Enhetsregisteret (117 båt-/brygge-/marinaenheter), stedsnavn-API, OSM (735 pirer/moloer, 22 marinaer), operatørsider (havneweb, nokledypet), OBU havneliste.",
+ "candidate_generation": "Halvautomatisk: OSM-pirer klynget (60 m), bufret 12 m, lukket 20 m og klippet mot kartvann; 177 klynger + OSM-merker uten pirer + manuelle tillegg. Hver kandidat vurdert visuelt.",
+ "gaps": [
+  "Esri-mosaikken er gråskjær/uskarp over Torsnes, Ødegårdskilen, Skjærviken og Singlefjorden (sørøst). Kandidater der er merket usikre.",
+  "Bryggeanlegg uten OSM-pir kan være oversett der søk A bare er gjort i kontaktark-oppløsning.",
+  "Glomma-løpet nord for Sarpsborg-grensen og innsjøer er bare grovt kontrollert.",
+  "Én Overpass-delrute (sørvest, mest åpen sjø/Hankø sør) feilet først, men ble hentet ved nytt forsøk."
+ ]
+}

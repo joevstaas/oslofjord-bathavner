@@ -1,0 +1,1446 @@
+{
+  "type": "FeatureCollection",
+  "name": "Tønsberg – foreløpige småbåthavner",
+  "description": "Screening av kommunens kyst og innsjøer i topografisk kart. Ikke dokumentert komplett. Alle avgrensninger trenger ortofotokontroll. Usikre kandidater er inkludert og tydelig merket.",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H01-B01",
+        "harbour_id": "3905-H01",
+        "name": "Ollebukta marina",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 56666.2,
+        "longitude": 10.4119108,
+        "latitude": 59.2629182,
+        "sources": [
+          "https://www.ollebukta.no/",
+          "https://www.openstreetmap.org/way/38901313",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/38901313"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.407822911284763,
+              59.2641485314361
+            ],
+            [
+              10.407597329151141,
+              59.26421801134521
+            ],
+            [
+              10.407471186954888,
+              59.26419142280004
+            ],
+            [
+              10.407311676594176,
+              59.263931293684124
+            ],
+            [
+              10.40734807700852,
+              59.26350105311495
+            ],
+            [
+              10.414780566067536,
+              59.26145104823511
+            ],
+            [
+              10.41522721691441,
+              59.261345099513555
+            ],
+            [
+              10.415547774496273,
+              59.26153344781263
+            ],
+            [
+              10.415998973679445,
+              59.26203621768988
+            ],
+            [
+              10.415664351212593,
+              59.26211292819052
+            ],
+            [
+              10.415942649195898,
+              59.262454690431454
+            ],
+            [
+              10.415281569976532,
+              59.26270798137587
+            ],
+            [
+              10.412761044923146,
+              59.2632828941098
+            ],
+            [
+              10.41245755501828,
+              59.2631283359482
+            ],
+            [
+              10.411272578820698,
+              59.26341843080839
+            ],
+            [
+              10.407822911284763,
+              59.2641485314361
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H02-B01",
+        "harbour_id": "3905-H02",
+        "name": "Kaldnes marina",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 1601.2,
+        "longitude": 10.4060773,
+        "latitude": 59.2631683,
+        "sources": [
+          "https://www.openstreetmap.org/way/38848945",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/38848945"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.406479235901894,
+              59.26304987347895
+            ],
+            [
+              10.405688921920223,
+              59.26361942762244
+            ],
+            [
+              10.405484138835083,
+              59.2635347319542
+            ],
+            [
+              10.405668935805473,
+              59.26328677636473
+            ],
+            [
+              10.406169835518012,
+              59.262939350179614
+            ],
+            [
+              10.406479235901894,
+              59.26304987347895
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H03-B01",
+        "harbour_id": "3905-H03",
+        "name": "Tønsberg gjestehavn – Brygga",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 8672.2,
+        "longitude": 10.4047359,
+        "latitude": 59.2666508,
+        "sources": [
+          "https://www.tonsberg.kommune.no/tjenester/kultur-idrett-og-fritid/turist-i-tonsberg/gjestehavna/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Avgrenser bryggebeltet vest for sentrum; farleden er utelatt. Kommunen oppgir sesongstengt vinteren 2026/27.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.403779670378745,
+              59.26751310500052
+            ],
+            [
+              10.40317624016835,
+              59.26797860965853
+            ],
+            [
+              10.402852719916527,
+              59.26781225553102
+            ],
+            [
+              10.403460611102725,
+              59.267313715668834
+            ],
+            [
+              10.404199092163523,
+              59.266808727891146
+            ],
+            [
+              10.404983563121762,
+              59.26628323328498
+            ],
+            [
+              10.405806591882314,
+              59.26579229235878
+            ],
+            [
+              10.406152435302525,
+              59.26547257686642
+            ],
+            [
+              10.406432188603931,
+              59.26548246818089
+            ],
+            [
+              10.406541994627245,
+              59.26563019296486
+            ],
+            [
+              10.406088554259018,
+              59.265946105020035
+            ],
+            [
+              10.405279616113303,
+              59.266492870115755
+            ],
+            [
+              10.404473624254463,
+              59.267017605312645
+            ],
+            [
+              10.403779670378745,
+              59.26751310500052
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H04-B01",
+        "harbour_id": "3905-H04",
+        "name": "Kaldnes – indre bryggeanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 6427.5,
+        "longitude": 10.4016622,
+        "latitude": 59.2656568,
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Brygger i kanal mellom boligrekker; havnestatus og organisering må bekreftes.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.40123971758171,
+              59.26662655936066
+            ],
+            [
+              10.400847894662538,
+              59.26664588452548
+            ],
+            [
+              10.401375051269842,
+              59.26562444847549
+            ],
+            [
+              10.401898416342258,
+              59.26479097909965
+            ],
+            [
+              10.402198977814596,
+              59.2646467083558
+            ],
+            [
+              10.402426764676685,
+              59.264721158449696
+            ],
+            [
+              10.401950128468668,
+              59.26568906152791
+            ],
+            [
+              10.40123971758171,
+              59.26662655936066
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H05-B01",
+        "harbour_id": "3905-H05",
+        "name": "Kaldnes – ytre bryggeanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 7351.1,
+        "longitude": 10.4028188,
+        "latitude": 59.2659791,
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=237656.79248918465%2C6577872.586811808%2C239256.79248918465%2C6579272.586811808&width=3200&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Brygger ved boligrekker; havnestatus og organisering må bekreftes.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.402246700758196,
+              59.26669539267775
+            ],
+            [
+              10.401274533249047,
+              59.26684908861197
+            ],
+            [
+              10.401564005689927,
+              59.26662697246619
+            ],
+            [
+              10.401765121662667,
+              59.26657876620072
+            ],
+            [
+              10.402321124262366,
+              59.26582390403001
+            ],
+            [
+              10.402851680851661,
+              59.26589800231472
+            ],
+            [
+              10.403542708527796,
+              59.265103654032515
+            ],
+            [
+              10.404004240415684,
+              59.26520850026237
+            ],
+            [
+              10.403370347769654,
+              59.26606019637963
+            ],
+            [
+              10.402800427409966,
+              59.26611748549161
+            ],
+            [
+              10.402246700758196,
+              59.26669539267775
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H06-B01",
+        "harbour_id": "3905-H06",
+        "name": "Vallø Småbåthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 69933.1,
+        "longitude": 10.4884203,
+        "latitude": 59.2642321,
+        "sources": [
+          "https://www.openstreetmap.org/relation/11898442",
+          "https://www.openstreetmap.org/node/1891818749",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&width=2800&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "relation/11898442",
+          "node/1891818749"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.486546730162527,
+              59.26481074719538
+            ],
+            [
+              10.485607271412592,
+              59.26333497687217
+            ],
+            [
+              10.485706872760739,
+              59.263154413939965
+            ],
+            [
+              10.488025927421925,
+              59.26249887534484
+            ],
+            [
+              10.488489016553029,
+              59.26257306906383
+            ],
+            [
+              10.490153409453663,
+              59.262718021347375
+            ],
+            [
+              10.49012372901227,
+              59.26308503725834
+            ],
+            [
+              10.490736209893369,
+              59.26374553334905
+            ],
+            [
+              10.490588450455695,
+              59.26471863271066
+            ],
+            [
+              10.489514100416255,
+              59.265117185831855
+            ],
+            [
+              10.487757951825323,
+              59.26552111150124
+            ],
+            [
+              10.487293547106393,
+              59.265456555802096
+            ],
+            [
+              10.486546730162527,
+              59.26481074719538
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H07-B01",
+        "harbour_id": "3905-H07",
+        "name": "Sjøsenteret Vallø",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 21244.5,
+        "longitude": 10.4894947,
+        "latitude": 59.2601689,
+        "sources": [
+          "https://www.xn--btplassvall-x8a1x.no/",
+          "https://www.openstreetmap.org/way/546762948",
+          "https://www.openstreetmap.org/node/5107343361",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242231.18376837077%2C6577231.377071585%2C243631.18376837077%2C6578631.377071585&width=2800&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/546762948",
+          "node/5107343361"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.490443498164574,
+              59.26095565775689
+            ],
+            [
+              10.48800496892899,
+              59.26065791403682
+            ],
+            [
+              10.48804648935513,
+              59.26005885872422
+            ],
+            [
+              10.489310255557832,
+              59.25965721196973
+            ],
+            [
+              10.490680265344118,
+              59.259452949706045
+            ],
+            [
+              10.491661274086269,
+              59.25975818750591
+            ],
+            [
+              10.490760068086614,
+              59.26027898048479
+            ],
+            [
+              10.490443498164574,
+              59.26095565775689
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H08-B01",
+        "harbour_id": "3905-H08",
+        "name": "Bliksekilen Båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 10466.7,
+        "longitude": 10.5028806,
+        "latitude": 59.3254791,
+        "sources": [
+          "https://www.openstreetmap.org/way/1217522237",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243751.91386620203%2C6584432.460022036%2C244651.91386620203%2C6585332.460022036&width=1800&height=1800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/1217522237"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.502252500551752,
+              59.32604507513802
+            ],
+            [
+              10.502169426907177,
+              59.3259363561797
+            ],
+            [
+              10.50199405910763,
+              59.32505238807927
+            ],
+            [
+              10.503538531642889,
+              59.32498125855617
+            ],
+            [
+              10.503806040530952,
+              59.32590576603599
+            ],
+            [
+              10.502332292656188,
+              59.32617858565537
+            ],
+            [
+              10.502252500551752,
+              59.32604507513802
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H09-B01",
+        "harbour_id": "3905-H09",
+        "name": "Husvik/Nes – båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 9735.7,
+        "longitude": 10.4494241,
+        "latitude": 59.2519019,
+        "sources": [
+          "https://www.openstreetmap.org/way/546250542",
+          "https://www.openstreetmap.org/node/5107520723",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/546250542",
+          "node/5107520723"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn; OSM-punkt og område er slått sammen som samme havn.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.450409379472363,
+              59.25261416257889
+            ],
+            [
+              10.448815718089635,
+              59.252347279030644
+            ],
+            [
+              10.44831547445634,
+              59.252166662112984
+            ],
+            [
+              10.44909571496207,
+              59.25151286548146
+            ],
+            [
+              10.44990311937435,
+              59.25163708542513
+            ],
+            [
+              10.45074460115949,
+              59.25234769350171
+            ],
+            [
+              10.450409379472363,
+              59.25261416257889
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H10-B01",
+        "harbour_id": "3905-H10",
+        "name": "Nordre Nes – bryggeanlegg",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 2831.3,
+        "longitude": 10.4472548,
+        "latitude": 59.24793,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107521786",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "node/5107521786"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Få brygger; avgrensning og om dette er en felles småbåthavn må bekreftes.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.44765144526371,
+              59.2483060078715
+            ],
+            [
+              10.446762420490247,
+              59.2480925694519
+            ],
+            [
+              10.446950295941347,
+              59.24766744952519
+            ],
+            [
+              10.447309515541559,
+              59.247641667579856
+            ],
+            [
+              10.447611050140566,
+              59.24776735820409
+            ],
+            [
+              10.447765044657789,
+              59.24815649400526
+            ],
+            [
+              10.44765144526371,
+              59.2483060078715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H11-B01",
+        "harbour_id": "3905-H11",
+        "name": "Søndre Nes – båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 11066.0,
+        "longitude": 10.4541046,
+        "latitude": 59.2470095,
+        "sources": [
+          "https://www.openstreetmap.org/node/5107521775",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=239969.65790102235%2C6575948.345401544%2C241269.65790102235%2C6577548.345401544&width=2600&height=3200&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "node/5107521775"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn; omfatter den sammenhengende bryggegruppen.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.454410676681055,
+              59.24746827258832
+            ],
+            [
+              10.453283491632341,
+              59.247495973141575
+            ],
+            [
+              10.45269822404719,
+              59.247110933580814
+            ],
+            [
+              10.452135429715783,
+              59.24669789768386
+            ],
+            [
+              10.452349359795127,
+              59.24663823434271
+            ],
+            [
+              10.452834257000271,
+              59.24693342098898
+            ],
+            [
+              10.453996619773589,
+              59.24678224152981
+            ],
+            [
+              10.454999686118596,
+              59.246702224989846
+            ],
+            [
+              10.455809898311543,
+              59.24708553062278
+            ],
+            [
+              10.454410676681055,
+              59.24746827258832
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H12-B01",
+        "harbour_id": "3905-H12",
+        "name": "Soria Moria Båtforening",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 1578.0,
+        "longitude": 10.4523296,
+        "latitude": 59.2419085,
+        "sources": [
+          "https://www.openstreetmap.org/node/3051926714",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&width=2600&height=2600&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "node/3051926714"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "OSM navngir båtforeningen; lite bryggeanlegg med usikker yttergrense.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.452682179549061,
+              59.242023704353926
+            ],
+            [
+              10.45191094830135,
+              59.2420146855783
+            ],
+            [
+              10.451962308987019,
+              59.241629748795326
+            ],
+            [
+              10.452781929911023,
+              59.24180235094719
+            ],
+            [
+              10.452682179549061,
+              59.242023704353926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H13-B01",
+        "harbour_id": "3905-H13",
+        "name": "Husøysund/Kirkegaten – mulig havneområde",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 13316.5,
+        "longitude": 10.4589673,
+        "latitude": 59.2380103,
+        "sources": [
+          "https://www.openstreetmap.org/way/53878403",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240284.79082063626%2C6574848.0397962695%2C241584.79082063626%2C6576148.0397962695&width=2600&height=2600&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [
+          "way/53878403"
+        ],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "OSM har marinaområde, men topografisk kart viser ikke et tydelig sammenhengende marinaanlegg. Må kontrolleres mot ortofoto.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.457458767168655,
+              59.23832352437501
+            ],
+            [
+              10.460082471849121,
+              59.237075198203726
+            ],
+            [
+              10.460673299538094,
+              59.23738365396827
+            ],
+            [
+              10.460435816827735,
+              59.2377171167516
+            ],
+            [
+              10.459199223078054,
+              59.238303449319666
+            ],
+            [
+              10.457934024658629,
+              59.23870889430464
+            ],
+            [
+              10.457382494528035,
+              59.23850073268136
+            ],
+            [
+              10.457458767168655,
+              59.23832352437501
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H14-B01",
+        "harbour_id": "3905-H14",
+        "name": "Jarlsø Vest",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 11742.0,
+        "longitude": 10.4713036,
+        "latitude": 59.2449114,
+        "sources": [
+          "https://www.havneweb.no/jarlso-brygge/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&width=2800&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Bryggesameiets boligtilknyttede båtplasser. Avgrenset til vestre bryggerekke; landanlegg er utelatt.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.471998842060652,
+              59.246793173919926
+            ],
+            [
+              10.471849162037117,
+              59.24692355343134
+            ],
+            [
+              10.471051388825805,
+              59.246808568271746
+            ],
+            [
+              10.470981626699919,
+              59.24662211012694
+            ],
+            [
+              10.471823835248587,
+              59.246544933956784
+            ],
+            [
+              10.471695439036136,
+              59.24623051989223
+            ],
+            [
+              10.47085195683191,
+              59.24631733620577
+            ],
+            [
+              10.470838658401574,
+              59.24613284687212
+            ],
+            [
+              10.471588033315617,
+              59.24604274968297
+            ],
+            [
+              10.471429291490768,
+              59.24581444721979
+            ],
+            [
+              10.470819351533182,
+              59.245851292424966
+            ],
+            [
+              10.4707696939044,
+              59.24565584960036
+            ],
+            [
+              10.471480136893017,
+              59.24557408117392
+            ],
+            [
+              10.471380815213056,
+              59.245183195918926
+            ],
+            [
+              10.470951797279978,
+              59.245139179674275
+            ],
+            [
+              10.471220307457912,
+              59.244683635912914
+            ],
+            [
+              10.470812678022478,
+              59.24462099374186
+            ],
+            [
+              10.471197945629243,
+              59.24414046499032
+            ],
+            [
+              10.471417277370737,
+              59.24377037618309
+            ],
+            [
+              10.471057149018133,
+              59.24377718972219
+            ],
+            [
+              10.471028873689454,
+              59.24356312144435
+            ],
+            [
+              10.471469400022725,
+              59.24352036915962
+            ],
+            [
+              10.471737496639186,
+              59.243210093618956
+            ],
+            [
+              10.47207200489766,
+              59.24339609615834
+            ],
+            [
+              10.47147265042491,
+              59.244634321345686
+            ],
+            [
+              10.471655530368784,
+              59.24567705196851
+            ],
+            [
+              10.471998842060652,
+              59.246793173919926
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H15-B01",
+        "harbour_id": "3905-H15",
+        "name": "Jarlsø – nordre gjestebrygger",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 2449.4,
+        "longitude": 10.4744876,
+        "latitude": 59.2472617,
+        "sources": [
+          "https://jarlsoe.no/servicetilbud/",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=240929.60362943157%2C6575756.000127861%2C242329.60362943157%2C6577156.000127861&width=2800&height=2800&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "To gjestebrygger ved broen; adskilt fra Jarlsø Vest.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.475057852102912,
+              59.24739374236859
+            ],
+            [
+              10.473771598101624,
+              59.24739735341702
+            ],
+            [
+              10.473869035114017,
+              59.24709081162014
+            ],
+            [
+              10.475263084885162,
+              59.2471296972442
+            ],
+            [
+              10.475057852102912,
+              59.24739374236859
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H16-B01",
+        "harbour_id": "3905-H16",
+        "name": "Rakkevik båthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "kart_og_kildeunderbygget",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 18136.9,
+        "longitude": 10.3748491,
+        "latitude": 59.2569004,
+        "sources": [
+          "https://virksomhet.brreg.no/nb/oppslag/enheter/899098242",
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=234694.5967970207%2C6575304.865653729%2C236894.5967970207%2C6579304.865653729&width=2200&height=4000&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.37526065197163,
+              59.25800217992524
+            ],
+            [
+              10.37389265955263,
+              59.25807339321597
+            ],
+            [
+              10.373916919658452,
+              59.256515243343465
+            ],
+            [
+              10.375481015489983,
+              59.25637905856466
+            ],
+            [
+              10.376013687585797,
+              59.25728545887158
+            ],
+            [
+              10.37526065197163,
+              59.25800217992524
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H17-B01",
+        "harbour_id": "3905-H17",
+        "name": "Ringshaugodden – mulig småbåthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 6174.0,
+        "longitude": 10.5003475,
+        "latitude": 59.2763875,
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242637.17760231957%2C6578624.332758976%2C244437.17760231957%2C6581624.332758976&width=1800&height=3000&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Moloområde; småbåtbruk og operativ status er ikke bekreftet.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.50115754331638,
+              59.276873760964605
+            ],
+            [
+              10.49910708511014,
+              59.276964648791584
+            ],
+            [
+              10.500138750570967,
+              59.27660465777893
+            ],
+            [
+              10.499924625436112,
+              59.27636341147797
+            ],
+            [
+              10.49913470404665,
+              59.275958327900796
+            ],
+            [
+              10.499468501175667,
+              59.27582599104258
+            ],
+            [
+              10.500335493325377,
+              59.276179779791825
+            ],
+            [
+              10.500796881599177,
+              59.276411598692064
+            ],
+            [
+              10.50115754331638,
+              59.276873760964605
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H18-B01",
+        "harbour_id": "3905-H18",
+        "name": "Furustrand – mulig småbåthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 4852.0,
+        "longitude": 10.4932944,
+        "latitude": 59.2716547,
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242637.17760231957%2C6578624.332758976%2C244437.17760231957%2C6581624.332758976&width=1800&height=3000&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Lite moloområde ved campingplass; småbåtbruk må bekreftes.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.493755082642776,
+              59.27199460038035
+            ],
+            [
+              10.492889488624918,
+              59.272162440239114
+            ],
+            [
+              10.49270388577129,
+              59.2717063233046
+            ],
+            [
+              10.492900689604845,
+              59.2712814571324
+            ],
+            [
+              10.493327551494835,
+              59.27124230020412
+            ],
+            [
+              10.493877176582082,
+              59.271603116566205
+            ],
+            [
+              10.493755082642776,
+              59.27199460038035
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3905-H19-B01",
+        "harbour_id": "3905-H19",
+        "name": "Karlsvika – mulig småbåthavn",
+        "municipality": "Tønsberg",
+        "municipality_code": "3905",
+        "status": "usikker_kandidat",
+        "approval_status": "til_godkjenning",
+        "geometry_role": "forelopig_havneomrade",
+        "area_m2": 4294.0,
+        "longitude": 10.5155879,
+        "latitude": 59.2934814,
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243265.2189295874%2C6581150.943697228%2C245065.2189295874%2C6584150.943697228&width=1800&height=3000&format=image%2Fpng&transparent=false"
+        ],
+        "osm_ids": [],
+        "method": "manuell_avgrensning_fra_georeferert_topografisk_kart",
+        "retrieved_date": "2026-10-28",
+        "source_observation_date": null,
+        "estimated_accuracy_m": null,
+        "needs_orthophoto_review": true,
+        "municipality_clipped": false,
+        "note": "Beskrivende navn. Brygge-/moloområde kan ha annen bruk; krever bekreftelse.",
+        "map_attribution": "© Kartverket; OSM-bidrag © OpenStreetMap contributors, ODbL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.51548216695774,
+              59.293796362346036
+            ],
+            [
+              10.514817100846852,
+              59.293773419378304
+            ],
+            [
+              10.51463818077456,
+              59.29326361350082
+            ],
+            [
+              10.515359483698138,
+              59.293126615593415
+            ],
+            [
+              10.515531735209255,
+              59.29342034762409
+            ],
+            [
+              10.516453616806055,
+              59.29336220987108
+            ],
+            [
+              10.51646502122627,
+              59.293542471907024
+            ],
+            [
+              10.515858164648684,
+              59.293611476049996
+            ],
+            [
+              10.51548216695774,
+              59.293796362346036
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿id;name;action;reason
+3905-H05-B01;Kaldnes – ytre bryggeanlegg;slatt_sammen;Samlet i Kaldnes Brygge (3905-H04-B01).
+3905-H13-B01;Husøysund/Kirkegaten – mulig havneområde;utgatt_feil_avgrensning;OSM-området ved Kirkegaten følger land/badeområde i dagens bilde, ikke et synlig havneanlegg. Husøy Småbåthavn SA er tatt inn med korrekt sjøavgrensning som H21.
+3905-H17-B01;Ringshaugodden – mulig småbåthavn;utelatt_etter_regel;"Moloområde; ikke dokumentert felles havn eller minst ti faste båtplasser."
+3905-H18-B01;Furustrand – mulig småbåthavn;utelatt_etter_regel;"Lite moloområde ved camping; ikke dokumentert felles havn eller minst ti faste båtplasser."
+3905-H19-B01;Karlsvika – mulig småbåthavn;utelatt_etter_regel;"Moloområde; ikke dokumentert felles havn eller minst ti faste båtplasser. Delvis skydekke i regionalt flybilde."
+3905-H01-B01;Ollebukta marina;revurdert;dokumentert_batforening_med_faste_plasser
+3905-H02-B01;Kaldnes Båtforening;revurdert;dokumentert_batforening_med_faste_plasser
+3905-H03-B01;Tønsberg gjestehavn – Brygga;revurdert;dokumentert_gjestehavn
+3905-H04-B01;Kaldnes Brygge;revurdert;dokumentert_felles_batplassanlegg_og_synlige_plasser
+3905-H06-B01;Vallø Småbåthavn;revurdert;dokumentert_batforening_med_faste_plasser
+3905-H07-B01;Sjøsenteret Vallø;revurdert;dokumentert_marina_med_faste_plasser
+3905-H08-B01;Bliksekilen Båthavn;revurdert;minst_10_synlige_plasser_i_felles_anlegg
+3905-H09-B01;Husvik/Nes – båthavn;revurdert;minst_10_synlige_plasser_i_felles_anlegg
+3905-H10-B01;Nordre Nes – felles bryggeanlegg;revurdert;minst_10_synlige_plasser_i_felles_anlegg
+3905-H11-B01;Søndre Nes – båthavn;revurdert;flere_brygger_men_felles_drift_og_antall_plasser_ukjent
+3905-H12-B01;Soria Moria Båtforening;revurdert;dokumentert_batforening_og_synlig_felles_brygge
+3905-H14-B01;Jarlsø Vest;revurdert;dokumentert_bryggesameie_med_faste_plasser
+3905-H15-B01;Jarlsø – nordre gjestebrygger;revurdert;dokumenterte_gjestebrygger_del_av_Jarlso_havnegruppe
+3905-H16-B01;Rakkevik båthavn;revurdert;dokumentert_felles_smabathavn
+3905-H20-B01;Klopp båthavn;lagt_til;Operatøren oppgir ca. 160 plasser. Manglet i revisjon 1.
+3905-H21-B01;Husøy Småbåthavn SA;lagt_til;Operatøren oppgir 75 plasser. Avgrenser sjøanlegget på Husøys side av Myrasundet, ikke opplagsplassen på land. Manglet i revisjon 1.
+3905-H22-B01;Husøy Havn – vestre båtanlegg;lagt_til;Vestre av to boligtilknyttede småbåtanlegg. Samme harbour_id som østre del.
+3905-H22-B02;Husøy Havn – østre båtanlegg;lagt_til;Østre av to boligtilknyttede småbåtanlegg. Samme harbour_id som vestre del.
+3905-H03-B02;Tønsberg gjestehavn – nordre flytebrygger;lagt_til;"Nordre del ved Strandpromenaden. Samme havne-ID som Brygga. Manglet i revisjon 1; historisk lokalisering støtter navnet, nåværende brygger er synlige i flybildet."
+3905-H23-B01;Jarlsøsundet – nordre bryggeanlegg;lagt_til;"Langt sammenhengende bryggeanlegg nord for Jarlsøsundet; båter synlige, men antall faste plasser og operatør er ikke bekreftet."

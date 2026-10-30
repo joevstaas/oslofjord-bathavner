@@ -1,0 +1,225 @@
+[
+  {
+    "osm_id": "way/29593396",
+    "name": "Båtforeningen Sjekta",
+    "lon": 10.605966252380952,
+    "lat": 59.43942318095238,
+    "tags": {
+      "leisure": "marina",
+      "name": "Båtforeningen Sjekta",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/batforeningen-sjekta-osm-way-29593396/"
+  },
+  {
+    "osm_id": "way/368366977",
+    "name": "Fiske båthavn",
+    "lon": 10.646945652238806,
+    "lat": 59.43004680597014,
+    "tags": {
+      "capacity": "381",
+      "leisure": "marina",
+      "name": "Fiske båthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/fiske-bathavn-osm-way-368366977/"
+  },
+  {
+    "osm_id": "node/212913243",
+    "name": "Fuglevik marina",
+    "lon": 10.6516682,
+    "lat": 59.3867245,
+    "tags": {
+      "leisure": "marina",
+      "name": "Fuglevik marina"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/fuglevik-marina-osm-node-212913243/"
+  },
+  {
+    "osm_id": "way/1450881540",
+    "name": "Kambo båtforening",
+    "lon": 10.68906861147541,
+    "lat": 59.47757949016393,
+    "tags": {
+      "leisure": "marina",
+      "name": "Kambo båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.havneweb.no/kambobf/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/kambo-batforening-osm-way-1450881540/"
+  },
+  {
+    "osm_id": "way/1448562959",
+    "name": "Kambo marina",
+    "lon": 10.688228713084113,
+    "lat": 59.47573601214953,
+    "tags": {
+      "leisure": "marina",
+      "name": "Kambo marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.kambomarina.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/kambo-marina-osm-way-1448562959/"
+  },
+  {
+    "osm_id": "node/6802559307",
+    "name": "Moss gjestehavn",
+    "lon": 10.6528169,
+    "lat": 59.4330329,
+    "tags": {
+      "leisure": "marina",
+      "name": "Moss gjestehavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/moss-gjestehavn-osm-node-6802559307/"
+  },
+  {
+    "osm_id": "way/1430843512",
+    "name": "Moss motorbåtforening",
+    "lon": 10.650179675396824,
+    "lat": 59.44361539206349,
+    "tags": {
+      "alt_name": "Betongen",
+      "contact:website": "www.betongen.no",
+      "leisure": "marina",
+      "name": "Moss motorbåtforening",
+      "operator": "Moss motorbåtforening",
+      "sanitary_dump_station": "no",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.betongen.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/moss-motorbatforening-osm-way-1430843512/"
+  },
+  {
+    "osm_id": "way/1513385299",
+    "name": "Refsnes småbåtforening",
+    "lon": 10.616563903846155,
+    "lat": 59.44974757307693,
+    "tags": {
+      "leisure": "marina",
+      "name": "Refsnes småbåtforening"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/refsnes-smabatforening-osm-way-1513385299/"
+  },
+  {
+    "osm_id": "way/1378441564",
+    "name": "",
+    "lon": 10.68414604,
+    "lat": 59.43024106666667,
+    "tags": {
+      "leisure": "marina"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabathavn-ved-sondre-elvegate-osm-way-1378441564/"
+  },
+  {
+    "osm_id": "node/5106902846",
+    "name": "Småbåtshavn",
+    "lon": 10.6828201,
+    "lat": 59.3247722,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larkollen-15-osm-node-5106902846/"
+  },
+  {
+    "osm_id": "node/5106902880",
+    "name": "Småbåtshavn",
+    "lon": 10.6672794,
+    "lat": 59.3277825,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-larkollen-16-osm-node-5106902880/"
+  },
+  {
+    "error": "HTTP Error 410: Gone",
+    "link": "/gjestehavner/smabatshavn-smabathavn-moss-24-osm-node-5107343411/"
+  },
+  {
+    "osm_id": "way/1394937685",
+    "name": "Søly båthavn",
+    "lon": 10.64041477,
+    "lat": 59.42719314,
+    "tags": {
+      "capacity": "305",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Søly båthavn",
+      "operator": "Moss seilforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/soly-bathavn-osm-way-1394937685/"
+  },
+  {
+    "osm_id": "way/505121328",
+    "name": "Vansjø båtforening",
+    "lon": 10.6854584325,
+    "lat": 59.42688690375,
+    "tags": {
+      "leisure": "marina",
+      "name": "Vansjø båtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.havneweb.no/vansjo/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/vansjo-batforening-osm-way-505121328/"
+  },
+  {
+    "osm_id": "way/1361970107",
+    "name": "Verket gjestehavn",
+    "lon": 10.662085792857143,
+    "lat": 59.439210814285715,
+    "tags": {
+      "leisure": "marina",
+      "name": "Verket gjestehavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://baathavn.verketmoss.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/verket-gjestehavn-moss-osm-way-1361970107/"
+  },
+  {
+    "osm_id": "way/1361970105",
+    "name": "Verket gjestehavn",
+    "lon": 10.66354745,
+    "lat": 59.44029147,
+    "tags": {
+      "leisure": "marina",
+      "name": "Verket gjestehavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://baathavn.verketmoss.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/verket-gjestehavn-osm-way-1361970105/"
+  },
+  {
+    "osm_id": "way/1361970108",
+    "name": "Verket småbåthavn",
+    "lon": 10.664212271428571,
+    "lat": 59.44081966428571,
+    "tags": {
+      "leisure": "marina",
+      "name": "Verket småbåthavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://baathavn.verketmoss.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/verket-smabathavn-osm-way-1361970108/"
+  }
+]

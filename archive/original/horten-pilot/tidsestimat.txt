@@ -1,0 +1,22 @@
+TIDSMÅLING HORTEN
+Start: 28.10.2026 21:59:20 UTC
+Ferdig: 28.10.2026 22:19:51 UTC
+Målt veggklokketid: 20 minutter 31 sekunder.
+Tiden inkluderer nettventing, analyse, feilretting, gjenbruk av skript,
+leveranse og kontroll. Dette er ikke målt menneskelig arbeidstid.
+3 av 14 screeningsruter ble gjenbrukt; tidligere verktøy/maler ble gjenbrukt.
+
+GROVT ESTIMAT MED 26 KOMMUNER SOM PLANLEGGINGSGRUNNLAG
+26 er hentet fra Oslofjordplanens brede kystkommuneavgrensning og brukes
+som budsjettforutsetning; endelig kommuneliste er ikke fastsatt av denne testen.
+Lineært: 26 x Horten = 8.9 timer totalt.
+Planleggingsintervall: 9–18 timer totalt.
+Etter Holmestrand og Horten: 24 x Horten = 8.2 timer lineært.
+Planleggingsintervall for de 24 resterende: 9–17 timer.
+Intervallene bruker 1–2 ganger Horten-tiden, ikke et statistisk konfidensintervall.
+Gjelder samme kartbaserte kvalitet. Flyfoto, feltkontroll, brukerens vurdering,
+venting på godkjenning og større endringer kommer i tillegg.
+Ett eksempel er utilstrekkelig for et robust estimat. Oppdater etter 3 kommuner.
+Formel ved annen avgrensning: N x 20.52 minutter, med usikkerhetsmargin.
+
+Status: Horten avventer brukerens godkjenning. Ingen neste kommune startet.

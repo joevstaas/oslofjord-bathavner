@@ -1,0 +1,460 @@
+[
+ {
+  "n": 8,
+  "len_m": 335,
+  "x": 260864,
+  "y": 6583466,
+  "inside": true,
+  "osm_ids": [
+   "way/677883131",
+   "way/677883132",
+   "way/677883133",
+   "way/1080005544",
+   "way/1080005543",
+   "way/1080005545",
+   "way/1080005546",
+   "way/1080005547"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 2,
+  "len_m": 149,
+  "x": 258064,
+  "y": 6585228,
+  "inside": true,
+  "osm_ids": [
+   "way/1107989007",
+   "way/1107989008"
+  ],
+  "kinds": [
+   "breakwater",
+   "pier"
+  ]
+ },
+ {
+  "n": 3,
+  "len_m": 130,
+  "x": 257638,
+  "y": 6579729,
+  "inside": true,
+  "osm_ids": [
+   "way/766651832",
+   "way/766651833",
+   "way/766651834"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 129,
+  "x": 256986,
+  "y": 6581883,
+  "inside": true,
+  "osm_ids": [
+   "way/785791355"
+  ],
+  "kinds": [
+   "breakwater"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 124,
+  "x": 256633,
+  "y": 6581790,
+  "inside": true,
+  "osm_ids": [
+   "way/619437988"
+  ],
+  "kinds": [
+   "breakwater"
+  ]
+ },
+ {
+  "n": 4,
+  "len_m": 119,
+  "x": 258099,
+  "y": 6582721,
+  "inside": true,
+  "osm_ids": [
+   "way/615750288",
+   "way/617781201",
+   "way/617781202",
+   "way/617781203"
+  ],
+  "kinds": [
+   "breakwater",
+   "pier"
+  ]
+ },
+ {
+  "n": 4,
+  "len_m": 108,
+  "x": 257704,
+  "y": 6579980,
+  "inside": true,
+  "osm_ids": [
+   "way/766651802",
+   "way/766651803",
+   "way/766651805",
+   "way/766651810"
+  ],
+  "kinds": [
+   "breakwater",
+   "pier"
+  ]
+ },
+ {
+  "n": 2,
+  "len_m": 100,
+  "x": 256437,
+  "y": 6583131,
+  "inside": true,
+  "osm_ids": [
+   "way/615233059",
+   "way/615233063"
+  ],
+  "kinds": [
+   "breakwater",
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 97,
+  "x": 260352,
+  "y": 6583272,
+  "inside": true,
+  "osm_ids": [
+   "way/676030276"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 2,
+  "len_m": 91,
+  "x": 259024,
+  "y": 6581543,
+  "inside": true,
+  "osm_ids": [
+   "way/886192178",
+   "way/886192179"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 3,
+  "len_m": 85,
+  "x": 258113,
+  "y": 6580477,
+  "inside": true,
+  "osm_ids": [
+   "way/766644979",
+   "way/766644980",
+   "way/766644981"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 2,
+  "len_m": 82,
+  "x": 257955,
+  "y": 6582652,
+  "inside": true,
+  "osm_ids": [
+   "way/617781204",
+   "way/617781205"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 78,
+  "x": 256526,
+  "y": 6581848,
+  "inside": true,
+  "osm_ids": [
+   "way/619437974"
+  ],
+  "kinds": [
+   "breakwater"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 72,
+  "x": 260451,
+  "y": 6583299,
+  "inside": true,
+  "osm_ids": [
+   "way/71541728"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 4,
+  "len_m": 69,
+  "x": 257901,
+  "y": 6580346,
+  "inside": true,
+  "osm_ids": [
+   "way/766644982",
+   "way/766644983",
+   "way/766644984",
+   "way/766644985"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 62,
+  "x": 256764,
+  "y": 6583233,
+  "inside": true,
+  "osm_ids": [
+   "way/615233065"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 62,
+  "x": 256772,
+  "y": 6581925,
+  "inside": true,
+  "osm_ids": [
+   "way/619437990"
+  ],
+  "kinds": [
+   "breakwater"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 56,
+  "x": 257532,
+  "y": 6579758,
+  "inside": true,
+  "osm_ids": [
+   "way/766651823"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 52,
+  "x": 259797,
+  "y": 6582286,
+  "inside": true,
+  "osm_ids": [
+   "way/698605898"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 42,
+  "x": 256955,
+  "y": 6583349,
+  "inside": true,
+  "osm_ids": [
+   "way/615768521"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 41,
+  "x": 258451,
+  "y": 6584262,
+  "inside": true,
+  "osm_ids": [
+   "way/613716142"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 40,
+  "x": 266272,
+  "y": 6588949,
+  "inside": true,
+  "osm_ids": [
+   "way/228632739"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 2,
+  "len_m": 38,
+  "x": 257727,
+  "y": 6580090,
+  "inside": true,
+  "osm_ids": [
+   "way/766644990",
+   "way/766644991"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 38,
+  "x": 256904,
+  "y": 6582718,
+  "inside": true,
+  "osm_ids": [
+   "way/524854645"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 37,
+  "x": 257813,
+  "y": 6582309,
+  "inside": true,
+  "osm_ids": [
+   "way/615844758"
+  ],
+  "kinds": [
+   "breakwater"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 27,
+  "x": 256822,
+  "y": 6583186,
+  "inside": true,
+  "osm_ids": [
+   "way/615768519"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 21,
+  "x": 265796,
+  "y": 6588529,
+  "inside": true,
+  "osm_ids": [
+   "way/169954406"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 21,
+  "x": 264475,
+  "y": 6587667,
+  "inside": true,
+  "osm_ids": [
+   "way/817657894"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 15,
+  "x": 256505,
+  "y": 6583271,
+  "inside": true,
+  "osm_ids": [
+   "way/615233062"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 10,
+  "x": 266633,
+  "y": 6592787,
+  "inside": true,
+  "osm_ids": [
+   "way/701088875"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 8,
+  "x": 257671,
+  "y": 6583833,
+  "inside": true,
+  "osm_ids": [
+   "way/618256239"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 6,
+  "x": 256658,
+  "y": 6583285,
+  "inside": true,
+  "osm_ids": [
+   "way/615233064"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ },
+ {
+  "n": 1,
+  "len_m": 4,
+  "x": 267832,
+  "y": 6589977,
+  "inside": true,
+  "osm_ids": [
+   "way/832482607"
+  ],
+  "kinds": [
+   "pier"
+  ]
+ }
+]

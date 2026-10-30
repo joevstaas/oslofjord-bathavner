@@ -1,0 +1,14 @@
+{
+ "run_id": "0301-oslo-rev01",
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "started_utc": "2026-10-30T00:01:03Z",
+ "finished_utc": "2026-10-30T00:04:27Z",
+ "elapsed_wall_seconds": 204,
+ "elapsed_wall_minutes": 3.4,
+ "image_count": 501,
+ "actual_input_tokens": null,
+ "actual_output_tokens": null,
+ "actual_cost": null,
+ "note": "Batchkjøring (Bærum–Asker–Lier–Drammen–Oslo): starttid er når analysen av denne kommunen begynte; bildenedlasting skjedde delvis parallelt i bakgrunnen for flere kommuner. Tokens og kostnad ikke målt."
+}

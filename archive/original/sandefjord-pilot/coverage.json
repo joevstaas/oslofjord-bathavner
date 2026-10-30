@@ -1,0 +1,42 @@
+{
+  "municipality": "Sandefjord",
+  "municipality_code": "3907",
+  "method_version": "1.1",
+  "schema_version": "1.1",
+  "municipal_register_candidates": 66,
+  "osm_candidates_reviewed": 22,
+  "additional_candidates_included": 2,
+  "explicit_extra_exclusions": 4,
+  "candidate_ledger_rows": 94,
+  "topographic_scan_tiles_reviewed": 24,
+  "coastal_imagery_tiles_reviewed": 22,
+  "detailed_municipal_images_reviewed": 66,
+  "extra_detail_images_downloaded": 4,
+  "source_images_by_provider": {
+    "Esri World Imagery": 92,
+    "Kartverket Topografisk norgeskart": 25
+  },
+  "downloaded_image_payload_bytes": 108416336,
+  "all_municipal_objectids_reconciled": true,
+  "all_exported_polygons_visually_reviewed": true,
+  "qa_sheets": [
+    "images/qa-0.jpg",
+    "images/qa-1.jpg",
+    "images/qa-2.jpg",
+    "images/qa-3.jpg",
+    "images/qa-4.jpg",
+    "images/qa-5.jpg",
+    "images/qa-6.jpg",
+    "images/qa-7.jpg"
+  ],
+  "validation": "67 valid positive-area polygons, 65 unique harbour IDs; within municipality; unique feature IDs; no overlap >=1 m2",
+  "limitations": [
+    "Lokale opptaksdatoer og oppgitt posisjonsnøyaktighet er ukjente; dagens drift er ikke generelt verifisert.",
+    "Kapasitet kommer normalt fra det kommunale kartlaget; referanseår er ukjent og tallene kan avvike fra rapport 2022 og nettsider 2026. Ingen automatisk summering av overlappende driftsnavn.",
+    "Roabukta er ett fysisk havneområde med fire kildenavn; interne operatørgrenser er ikke kartlagt. Hesteskoen/MiljøMarina og Sandefjord gjestehavn/La Scala er heller ikke dobbelttelt.",
+    "19 polygoner har usikker avgrensning. Historiske bøye-/wireplasser kan strekke seg utenfor synlige brygger.",
+    "24 topografiske sektorer og 22 brede bildeutsnitt gir systematisk screening av den bebodde kystsonen og øyer i disse utsnittene. Grovkontroll av Goksjø er inkludert; øvrig innland og hele det sørlige sjøterritoriet har ikke heldekkende detaljbildekontroll.",
+    "Ikke en uttømmende individuell registrering av hver privat brygge: 66 kommunale kandidater, 22 OSM-kandidater og eksplisitte tillegg har egne vurderinger; spredte private enkeltbrygger er også vurdert på sektornivå. Ingen fullstendighetsgaranti.",
+    "Det ekstra bildet varnes var feilsentrert og teller ikke som detaljkontroll av Vårnes. Kommunens badeplasskilde omtaler badebrygge; en slik brygge alene kvalifiserer ikke."
+  ]
+}

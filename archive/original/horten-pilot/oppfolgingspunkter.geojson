@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U01",
+        "name": "Løvøya båthavn – kobling til kart",
+        "status": "kildebekreftet_eksakt_bryggegruppe_uavklart",
+        "reason": "Båthavn dokumentert av operatør/oversikt. Kandidat K01 ved Drasund er ikke sikkert knyttet til operatøren. Ikke talt som en ekstra havn.",
+        "source_image": "images/lovoya.png",
+        "sources": [
+          "https://lovoyaoslofjord.no/",
+          "https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn"
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.439467,
+          59.4457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U02",
+        "name": "Falkensten vel båthavn",
+        "status": "oppfort_i_havneoversikt_lokasjon_uavklart",
+        "reason": "Nevnt i Horten havns oversikt. Nøyaktig bryggeanlegg og eventuell overlapp med andre funn må avklares. Forretningsadresse er ikke brukt som havnelokasjon.",
+        "source_image": "images/lovoya.png",
+        "sources": [
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ]
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U03",
+        "name": "Seilforeningen Julaften af Indre Havn",
+        "status": "oppfort_i_havneoversikt_avgrensning_uavklart",
+        "reason": "Forening i Horten havns oversikt. Ikke sikkert grunnlag for eget polygon eller for å telle en separat havn.",
+        "source_image": "images/indre-havn.png",
+        "sources": [
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://julaften.wordpress.com/"
+        ]
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "U04",
+        "name": "Keisemarken båt og badehus",
+        "status": "oppfort_i_havneoversikt_avgrensning_uavklart",
+        "reason": "Nevnt i Horten havns oversikt. Må avklare brygger og grense mot Pluggen/andre nærliggende anlegg.",
+        "source_image": "images/indre-vest.png",
+        "sources": [
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ]
+      },
+      "geometry": null
+    }
+  ]
+}

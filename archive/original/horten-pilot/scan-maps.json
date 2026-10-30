@@ -1,0 +1,187 @@
+[
+  {
+    "id": "scan-2-0",
+    "bbox": [
+      240000,
+      6586000,
+      244000,
+      6590000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 82245,
+    "water_area_estimate_m2": 3212695
+  },
+  {
+    "id": "scan-3-0",
+    "bbox": [
+      244000,
+      6586000,
+      248000,
+      6590000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 234744,
+    "water_area_estimate_m2": 9169688
+  },
+  {
+    "id": "scan-4-0",
+    "bbox": [
+      248000,
+      6586000,
+      252000,
+      6590000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 127048,
+    "water_area_estimate_m2": 4962812
+  },
+  {
+    "id": "scan-1-1",
+    "bbox": [
+      236000,
+      6590000,
+      240000,
+      6594000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 190,
+    "water_area_estimate_m2": 7422
+  },
+  {
+    "id": "scan-2-1",
+    "bbox": [
+      240000,
+      6590000,
+      244000,
+      6594000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 77000,
+    "water_area_estimate_m2": 3007812
+  },
+  {
+    "id": "scan-3-1",
+    "bbox": [
+      244000,
+      6590000,
+      248000,
+      6594000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 320360,
+    "water_area_estimate_m2": 12514062
+  },
+  {
+    "id": "scan-4-1",
+    "bbox": [
+      248000,
+      6590000,
+      252000,
+      6594000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 107190,
+    "water_area_estimate_m2": 4187109
+  },
+  {
+    "id": "scan-1-2",
+    "bbox": [
+      236000,
+      6594000,
+      240000,
+      6598000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 811,
+    "water_area_estimate_m2": 31680
+  },
+  {
+    "id": "scan-2-2",
+    "bbox": [
+      240000,
+      6594000,
+      244000,
+      6598000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 83961,
+    "water_area_estimate_m2": 3279727
+  },
+  {
+    "id": "scan-3-2",
+    "bbox": [
+      244000,
+      6594000,
+      248000,
+      6598000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 246430,
+    "water_area_estimate_m2": 9626172
+  },
+  {
+    "id": "scan-1-3",
+    "bbox": [
+      236000,
+      6598000,
+      240000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 83332,
+    "water_area_estimate_m2": 3255156,
+    "cache_source": "/workspace/holmestrand-pilot/images/scan-6-0.png"
+  },
+  {
+    "id": "scan-2-3",
+    "bbox": [
+      240000,
+      6598000,
+      244000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 285292,
+    "water_area_estimate_m2": 11144219,
+    "cache_source": "/workspace/holmestrand-pilot/images/scan-7-0.png"
+  },
+  {
+    "id": "scan-3-3",
+    "bbox": [
+      244000,
+      6598000,
+      248000,
+      6602000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 199751,
+    "water_area_estimate_m2": 7802773
+  },
+  {
+    "id": "scan-2-4",
+    "bbox": [
+      240000,
+      6602000,
+      244000,
+      6606000
+    ],
+    "width": 2000,
+    "height": 2000,
+    "water_pixels_overview": 3526,
+    "water_area_estimate_m2": 137734,
+    "cache_source": "/workspace/holmestrand-pilot/images/scan-7-1.png"
+  }
+]

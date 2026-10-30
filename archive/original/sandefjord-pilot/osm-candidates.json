@@ -1,0 +1,314 @@
+[
+  {
+    "osm_id": "node/13432037501",
+    "name": "Bogen Båthavn",
+    "lon": 10.3306204,
+    "lat": 59.1801972,
+    "tags": {
+      "email": "bogen@bogenbathavn.no",
+      "leisure": "marina",
+      "name": "Bogen Båthavn",
+      "website": "https://www.havneweb.no/bogenbathavn/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/bogen-bathavn-osm-node-13432037501/"
+  },
+  {
+    "osm_id": "way/563127798",
+    "name": "Brygga",
+    "lon": 10.366196402173912,
+    "lat": 59.22457939565217,
+    "tags": {
+      "leisure": "marina",
+      "name": "Brygga",
+      "sanitary_dump_station": "customers"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/brygga-smabathavn-osm-way-563127798/"
+  },
+  {
+    "osm_id": "way/1218298959",
+    "name": "Fjellvik Båtforening",
+    "lon": 10.235473533333334,
+    "lat": 59.12437233333333,
+    "tags": {
+      "capacity": "157",
+      "email": "post@fjellviknett.no",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Fjellvik Båtforening",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "http://fjellviknett.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/fjellvik-batforening-osm-way-1218298959/"
+  },
+  {
+    "osm_id": "way/1218065128",
+    "name": "Framnæs Båthavn",
+    "lon": 10.230188285714286,
+    "lat": 59.11436257142857,
+    "tags": {
+      "leisure": "marina",
+      "name": "Framnæs Båthavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/framnaes-bathavn-osm-way-1218065128/"
+  },
+  {
+    "osm_id": "node/2088640421",
+    "name": "Framnes Maritime",
+    "lon": 10.227596,
+    "lat": 59.1162713,
+    "tags": {
+      "leisure": "marina",
+      "name": "Framnes Maritime"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/framnes-maritime-smabathavn-osm-node-2088640421/"
+  },
+  {
+    "osm_id": "way/1218322415",
+    "name": "Gokstad Kystlag",
+    "lon": 10.232208057142856,
+    "lat": 59.122570014285714,
+    "tags": {
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Gokstad Kystlag",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.gokstadkystlag.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/gokstad-kystlag-smabathavn-osm-way-1218322415/"
+  },
+  {
+    "osm_id": "node/5107482938",
+    "name": "Havnebakken Småbåtshavn",
+    "lon": 10.3272567,
+    "lat": 59.1413995,
+    "tags": {
+      "leisure": "marina",
+      "name": "Havnebakken Småbåtshavn",
+      "name:en": "Havnebakken Marina",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/havnebakken-smabatshavn-smabathavn-osm-node-5107482938/"
+  },
+  {
+    "osm_id": "way/1218301840",
+    "name": "Huvik båthavnen",
+    "lon": 10.232790885714286,
+    "lat": 59.12329382857143,
+    "tags": {
+      "capacity": "32",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Huvik båthavnen",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.huvik.no/b%C3%A5tplasser"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/huvik-bathavnen-osm-way-1218301840/"
+  },
+  {
+    "osm_id": "node/13431173101",
+    "name": "Melsom båthavn",
+    "lon": 10.339345,
+    "lat": 59.2204441,
+    "tags": {
+      "leisure": "marina",
+      "name": "Melsom båthavn",
+      "opening_hours": "24/7"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/melsom-bathavn-osm-node-13431173101/"
+  },
+  {
+    "osm_id": "way/1079317965",
+    "name": "Sandefjord gjestehavn",
+    "lon": 10.230862443589743,
+    "lat": 59.12717678974359,
+    "tags": {
+      "email": "bryggecafeen@kokeriet.no",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Sandefjord gjestehavn",
+      "phone": "+47 941 81 037",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.sandefjordgjestehavn.no/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/sandefjord-gjestehavn-osm-way-1079317965/"
+  },
+  {
+    "osm_id": "way/1218866789",
+    "name": "Sandefjord Motorbåtforening",
+    "lon": 10.240429425,
+    "lat": 59.12660265833333,
+    "tags": {
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Sandefjord Motorbåtforening",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/sandefjord-motorbatforening-osm-way-1218866789/"
+  },
+  {
+    "osm_id": "node/5107367932",
+    "name": "Småbåtshavn",
+    "lon": 10.2381313,
+    "lat": 59.1026287,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-28-osm-node-5107367932/"
+  },
+  {
+    "osm_id": "node/5107367934",
+    "name": "Småbåtshavn",
+    "lon": 10.2306224,
+    "lat": 59.1223595,
+    "tags": {
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-29-osm-node-5107367934/"
+  },
+  {
+    "osm_id": "node/5107367935",
+    "name": "Småbåtshavn",
+    "lon": 10.2366722,
+    "lat": 59.1258039,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-30-osm-node-5107367935/"
+  },
+  {
+    "osm_id": "node/5107482197",
+    "name": "Småbåtshavn",
+    "lon": 10.3183697,
+    "lat": 59.148353,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-35-osm-node-5107482197/"
+  },
+  {
+    "osm_id": "node/5107482943",
+    "name": "Småbåtshavn",
+    "lon": 10.3123645,
+    "lat": 59.1358156,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-36-osm-node-5107482943/"
+  },
+  {
+    "osm_id": "node/5107482944",
+    "name": "Småbåtshavn",
+    "lon": 10.2975569,
+    "lat": 59.1370649,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-37-osm-node-5107482944/"
+  },
+  {
+    "osm_id": "node/5107482945",
+    "name": "Småbåtshavn",
+    "lon": 10.2920863,
+    "lat": 59.1383378,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-38-osm-node-5107482945/"
+  },
+  {
+    "osm_id": "node/5107482946",
+    "name": "Småbåtshavn",
+    "lon": 10.3036054,
+    "lat": 59.0840226,
+    "tags": {
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-39-osm-node-5107482946/"
+  },
+  {
+    "osm_id": "way/1079317893",
+    "name": "Småbåtshavn",
+    "lon": 10.223166931034482,
+    "lat": 59.12580730344827,
+    "tags": {
+      "email": "bryggecafeen@kokeriet.no",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Småbåtshavn",
+      "phone": "+47 941 81 037",
+      "power_supply": "yes",
+      "sanitary_dump_station": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/smabatshavn-smabathavn-sandefjord-71-osm-way-1079317893/"
+  },
+  {
+    "osm_id": "node/13431173001",
+    "name": "Solnes Båthavn",
+    "lon": 10.3409573,
+    "lat": 59.2100583,
+    "tags": {
+      "email": "post@solnes.eu",
+      "leisure": "marina",
+      "name": "Solnes Båthavn",
+      "phone": "+47 48 88 70 99;+47 91 87 28 00",
+      "website": "https://www.havneweb.no/solneshavn/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/solnes-bathavn-osm-node-13431173001/"
+  },
+  {
+    "osm_id": "way/1219097028",
+    "name": "Thorøya båthavn",
+    "lon": 10.22777226,
+    "lat": 59.10397246,
+    "tags": {
+      "email": "post@thoroya.no",
+      "fee": "yes",
+      "leisure": "marina",
+      "name": "Thorøya båthavn",
+      "power_supply": "yes",
+      "seamark:harbour:category": "marina",
+      "seamark:type": "harbour",
+      "website": "https://www.havneweb.no/thoroya/"
+    },
+    "url": "https://www.sjosett.com/gjestehavner/thoroya-bathavn-osm-way-1219097028/"
+  }
+]

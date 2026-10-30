@@ -1,0 +1,33 @@
+{
+  "retrieved_date": "2026-10-29",
+  "main_sources": [
+    {
+      "url": "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+      "use": "Kommunale faste havner og operatørnavn; ikke fullstendig privat havneregister."
+    },
+    {
+      "url": "https://www.agnesbaat.no/b%C3%A5thavna",
+      "use": "Rundt 100 faste plasser; gjelder hele Agnes-gruppen."
+    },
+    {
+      "url": "https://www.havneweb.no/bjonnesstranda-bh/",
+      "use": "143 faste plasser; referanseår ukjent."
+    },
+    {
+      "url": "https://www.havneweb.no/stavern-bf/index.php",
+      "use": "757 foreningsplasser; ikke overført som kapasitet for fysisk sammensatt havnegruppe."
+    },
+    {
+      "url": "https://www.xn--farrisbtforening-job.no/start/kontakt-oss",
+      "use": "Operatørens kartlenke stedfestet Kilen, 59.063053 / 10.018614."
+    }
+  ],
+  "notes": [
+    "Forenings-/foretaksadresse er ikke bevis for havneplassering.",
+    "Planbeskrivelse og utbyggingsprospekt brukes som kontekst, ikke eksisterende polygonfasit.",
+    "Historisk nautisk oversikt fra 2017 kan ikke dokumentere dagens kapasitet eller geometri.",
+    "Operatørgrenser innen Hølen, Stavern og Ødegården er ikke sikkert kartlagt.",
+    "Esri brukes som supplement til Kartverkets topografi; bildedato er ukjent.",
+    "Ferskvannsanlegg ved Farris er inkludert, men alle kommunens vann er ikke detaljkontrollert."
+  ]
+}

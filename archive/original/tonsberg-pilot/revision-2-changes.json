@@ -1,0 +1,152 @@
+[
+  {
+    "id": "3905-H05-B01",
+    "name": "Kaldnes – ytre bryggeanlegg",
+    "action": "slatt_sammen",
+    "reason": "Samlet i Kaldnes Brygge (3905-H04-B01)."
+  },
+  {
+    "id": "3905-H13-B01",
+    "name": "Husøysund/Kirkegaten – mulig havneområde",
+    "action": "utgatt_feil_avgrensning",
+    "reason": "OSM-området ved Kirkegaten følger land/badeområde i dagens bilde, ikke et synlig havneanlegg. Husøy Småbåthavn SA er tatt inn med korrekt sjøavgrensning som H21."
+  },
+  {
+    "id": "3905-H17-B01",
+    "name": "Ringshaugodden – mulig småbåthavn",
+    "action": "utelatt_etter_regel",
+    "reason": "Moloområde; ikke dokumentert felles havn eller minst ti faste båtplasser."
+  },
+  {
+    "id": "3905-H18-B01",
+    "name": "Furustrand – mulig småbåthavn",
+    "action": "utelatt_etter_regel",
+    "reason": "Lite moloområde ved camping; ikke dokumentert felles havn eller minst ti faste båtplasser."
+  },
+  {
+    "id": "3905-H19-B01",
+    "name": "Karlsvika – mulig småbåthavn",
+    "action": "utelatt_etter_regel",
+    "reason": "Moloområde; ikke dokumentert felles havn eller minst ti faste båtplasser. Delvis skydekke i regionalt flybilde."
+  },
+  {
+    "id": "3905-H01-B01",
+    "name": "Ollebukta marina",
+    "action": "revurdert",
+    "reason": "dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "id": "3905-H02-B01",
+    "name": "Kaldnes Båtforening",
+    "action": "revurdert",
+    "reason": "dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "id": "3905-H03-B01",
+    "name": "Tønsberg gjestehavn – Brygga",
+    "action": "revurdert",
+    "reason": "dokumentert_gjestehavn"
+  },
+  {
+    "id": "3905-H04-B01",
+    "name": "Kaldnes Brygge",
+    "action": "revurdert",
+    "reason": "dokumentert_felles_batplassanlegg_og_synlige_plasser"
+  },
+  {
+    "id": "3905-H06-B01",
+    "name": "Vallø Småbåthavn",
+    "action": "revurdert",
+    "reason": "dokumentert_batforening_med_faste_plasser"
+  },
+  {
+    "id": "3905-H07-B01",
+    "name": "Sjøsenteret Vallø",
+    "action": "revurdert",
+    "reason": "dokumentert_marina_med_faste_plasser"
+  },
+  {
+    "id": "3905-H08-B01",
+    "name": "Bliksekilen Båthavn",
+    "action": "revurdert",
+    "reason": "minst_10_synlige_plasser_i_felles_anlegg"
+  },
+  {
+    "id": "3905-H09-B01",
+    "name": "Husvik/Nes – båthavn",
+    "action": "revurdert",
+    "reason": "minst_10_synlige_plasser_i_felles_anlegg"
+  },
+  {
+    "id": "3905-H10-B01",
+    "name": "Nordre Nes – felles bryggeanlegg",
+    "action": "revurdert",
+    "reason": "minst_10_synlige_plasser_i_felles_anlegg"
+  },
+  {
+    "id": "3905-H11-B01",
+    "name": "Søndre Nes – båthavn",
+    "action": "revurdert",
+    "reason": "flere_brygger_men_felles_drift_og_antall_plasser_ukjent"
+  },
+  {
+    "id": "3905-H12-B01",
+    "name": "Soria Moria Båtforening",
+    "action": "revurdert",
+    "reason": "dokumentert_batforening_og_synlig_felles_brygge"
+  },
+  {
+    "id": "3905-H14-B01",
+    "name": "Jarlsø Vest",
+    "action": "revurdert",
+    "reason": "dokumentert_bryggesameie_med_faste_plasser"
+  },
+  {
+    "id": "3905-H15-B01",
+    "name": "Jarlsø – nordre gjestebrygger",
+    "action": "revurdert",
+    "reason": "dokumenterte_gjestebrygger_del_av_Jarlso_havnegruppe"
+  },
+  {
+    "id": "3905-H16-B01",
+    "name": "Rakkevik båthavn",
+    "action": "revurdert",
+    "reason": "dokumentert_felles_smabathavn"
+  },
+  {
+    "id": "3905-H20-B01",
+    "name": "Klopp båthavn",
+    "action": "lagt_til",
+    "reason": "Operatøren oppgir ca. 160 plasser. Manglet i revisjon 1."
+  },
+  {
+    "id": "3905-H21-B01",
+    "name": "Husøy Småbåthavn SA",
+    "action": "lagt_til",
+    "reason": "Operatøren oppgir 75 plasser. Avgrenser sjøanlegget på Husøys side av Myrasundet, ikke opplagsplassen på land. Manglet i revisjon 1."
+  },
+  {
+    "id": "3905-H22-B01",
+    "name": "Husøy Havn – vestre båtanlegg",
+    "action": "lagt_til",
+    "reason": "Vestre av to boligtilknyttede småbåtanlegg. Samme harbour_id som østre del."
+  },
+  {
+    "id": "3905-H22-B02",
+    "name": "Husøy Havn – østre båtanlegg",
+    "action": "lagt_til",
+    "reason": "Østre av to boligtilknyttede småbåtanlegg. Samme harbour_id som vestre del."
+  },
+  {
+    "id": "3905-H03-B02",
+    "name": "Tønsberg gjestehavn – nordre flytebrygger",
+    "action": "lagt_til",
+    "reason": "Nordre del ved Strandpromenaden. Samme havne-ID som Brygga. Manglet i revisjon 1; historisk lokalisering støtter navnet, nåværende brygger er synlige i flybildet."
+  },
+  {
+    "id": "3905-H23-B01",
+    "name": "Jarlsøsundet – nordre bryggeanlegg",
+    "action": "lagt_til",
+    "reason": "Langt sammenhengende bryggeanlegg nord for Jarlsøsundet; båter synlige, men antall faste plasser og operatør er ikke bekreftet."
+  }
+]

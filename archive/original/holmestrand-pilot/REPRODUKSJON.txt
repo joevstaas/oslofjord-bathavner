@@ -1,0 +1,14 @@
+Kjør fra mappen holmestrand-pilot. Krever Python 3.11 eller nyere.
+
+pip install --target deps -r requirements.txt
+python fetch_maps.py initial-maps.json
+python fetch_maps.py scan-maps.json
+python fetch_maps.py detail-maps.json
+python fetch_maps.py additional-maps.json
+python fetch_maps.py inland-maps.json
+python build_dataset.py
+python build_viewer.py
+
+Bygget bruker sentrumskartet i images/original-sentrum.png. Ved førstegangsbygging uten denne filen kopieres holmestrand-sentrum.png fra overordnet mappe.
+Henting krever nett. Karttjenestene kan ha endret seg siden 28.10.2026.
+Digitization.json er de manuelle valgene, ikke resultatet av en automatisk segmenteringsmodell.

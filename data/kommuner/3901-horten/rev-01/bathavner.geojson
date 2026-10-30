@@ -1,0 +1,1246 @@
+{
+  "type": "FeatureCollection",
+  "name": "Horten – godkjent uttrekk fra samlefil",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H02-B01",
+        "harbour_id": "3901-H02",
+        "name": "Solviken småbåthavn",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1216920501",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 35153,
+        "source_image": "../horten-pilot/images/indre-vest.png",
+        "image_metadata": "../horten-pilot/images/indre-vest.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=241960.94091522341%2C6595739.349557522%2C243460.94091522341%2C6597239.349557522&width=3000&height=3000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://www.openstreetmap.org/way/1216920501"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H02-B01",
+        "local_harbour_id": "H02",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4594438,
+              59.4304008
+            ],
+            [
+              10.4587945,
+              59.4297422
+            ],
+            [
+              10.4625964,
+              59.4286123
+            ],
+            [
+              10.4646217,
+              59.4291646
+            ],
+            [
+              10.4628351,
+              59.4300757
+            ],
+            [
+              10.4594438,
+              59.4304008
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H02-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H03-B01",
+        "harbour_id": "3901-H03",
+        "name": "Båtforeningen Pluggen",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1216417052",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 24892,
+        "source_image": "../horten-pilot/images/indre-vest.png",
+        "image_metadata": "../horten-pilot/images/indre-vest.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=241960.94091522341%2C6595739.349557522%2C243460.94091522341%2C6597239.349557522&width=3000&height=3000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://www.openstreetmap.org/way/1216417052"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H03-B01",
+        "local_harbour_id": "H03",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4676268,
+              59.4266385
+            ],
+            [
+              10.4678811,
+              59.4255874
+            ],
+            [
+              10.4682473,
+              59.4252532
+            ],
+            [
+              10.4704291,
+              59.4254832
+            ],
+            [
+              10.4710259,
+              59.426111
+            ],
+            [
+              10.4715547,
+              59.4263992
+            ],
+            [
+              10.4708825,
+              59.4266168
+            ],
+            [
+              10.4676268,
+              59.4266385
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H03-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H04-B01",
+        "harbour_id": "3901-H04",
+        "name": "Bankløkka båthavn",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 14245,
+        "source_image": "../horten-pilot/images/sykehus-banklokka.png",
+        "image_metadata": "../horten-pilot/images/sykehus-banklokka.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243311.91413541895%2C6595691.512837185%2C244261.91413541895%2C6596291.512837185&width=2375&height=1500&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/bankloekka-baathavn/",
+          "https://www.hortenhavn.no/hvor-er-hva/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H04-B01",
+        "local_harbour_id": "H04",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4778524,
+              59.4245638
+            ],
+            [
+              10.4778111,
+              59.4234392
+            ],
+            [
+              10.4792256,
+              59.4235188
+            ],
+            [
+              10.4792419,
+              59.4233972
+            ],
+            [
+              10.479671,
+              59.4234121
+            ],
+            [
+              10.4799238,
+              59.4236712
+            ],
+            [
+              10.4797639,
+              59.4245996
+            ],
+            [
+              10.4778524,
+              59.4245638
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H04-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H05-B01",
+        "harbour_id": "3901-H05",
+        "name": "Sykehusbrygga gjestehavn",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 3328,
+        "source_image": "../horten-pilot/images/sykehus-banklokka.png",
+        "image_metadata": "../horten-pilot/images/sykehus-banklokka.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243311.91413541895%2C6595691.512837185%2C244261.91413541895%2C6596291.512837185&width=2375&height=1500&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/sykehusbrygga-gjestehavn/",
+          "https://www.hortenhavn.no/hvor-er-hva/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H05-B01",
+        "local_harbour_id": "H05",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4848232,
+              59.4248299
+            ],
+            [
+              10.484906,
+              59.4244787
+            ],
+            [
+              10.4860578,
+              59.4244637
+            ],
+            [
+              10.4861816,
+              59.4245229
+            ],
+            [
+              10.4864367,
+              59.4248553
+            ],
+            [
+              10.4848232,
+              59.4248299
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H05-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H06-B01",
+        "harbour_id": "3901-H06",
+        "name": "Fyllinga båthavn",
+        "status": "kart_og_kilde",
+        "osm_id": "node/679140414",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 26523,
+        "source_image": "../horten-pilot/images/fyllinga.png",
+        "image_metadata": "../horten-pilot/images/fyllinga.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=244209.3541496809%2C6594709.057802295%2C245009.3541496809%2C6595509.057802295&width=2000&height=2000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://www.openstreetmap.org/node/679140414"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H06-B01",
+        "local_harbour_id": "H06",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4948093,
+              59.4179694
+            ],
+            [
+              10.4946554,
+              59.4176865
+            ],
+            [
+              10.4945903,
+              59.4174941
+            ],
+            [
+              10.495935,
+              59.4158755
+            ],
+            [
+              10.4973784,
+              59.4158638
+            ],
+            [
+              10.4984289,
+              59.4165322
+            ],
+            [
+              10.4975048,
+              59.4165054
+            ],
+            [
+              10.4978205,
+              59.4168606
+            ],
+            [
+              10.4970366,
+              59.417296
+            ],
+            [
+              10.4948093,
+              59.4179694
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H06-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H07-B01",
+        "harbour_id": "3901-H07",
+        "name": "Horten gjestehavn",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1216306785",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 15788,
+        "source_image": "../horten-pilot/images/sentrum-ost.png",
+        "image_metadata": "../horten-pilot/images/sentrum-ost.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243421.4877620316%2C6593836.180368364%2C244621.4877620316%2C6595836.180368364&width=2400&height=4000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/horten-gjestehavn/",
+          "https://www.hortenhavn.no/hvor-er-hva/",
+          "https://www.openstreetmap.org/way/1216306785"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H07-B01",
+        "local_harbour_id": "H07",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4877845,
+              59.4140285
+            ],
+            [
+              10.4875528,
+              59.4136488
+            ],
+            [
+              10.4874148,
+              59.4132722
+            ],
+            [
+              10.4876983,
+              59.4129103
+            ],
+            [
+              10.4884949,
+              59.412758
+            ],
+            [
+              10.4895843,
+              59.4128797
+            ],
+            [
+              10.4901684,
+              59.4134395
+            ],
+            [
+              10.489531,
+              59.4136333
+            ],
+            [
+              10.4886211,
+              59.4141054
+            ],
+            [
+              10.4877845,
+              59.4140285
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H07-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H08-B01",
+        "harbour_id": "3901-H08",
+        "name": "Strandparken båtforening",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 8645,
+        "source_image": "../horten-pilot/images/sentrum-ost.png",
+        "image_metadata": "../horten-pilot/images/sentrum-ost.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243421.4877620316%2C6593836.180368364%2C244621.4877620316%2C6595836.180368364&width=2400&height=4000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H08-B01",
+        "local_harbour_id": "H08",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4847585,
+              59.4062012
+            ],
+            [
+              10.4848417,
+              59.4054007
+            ],
+            [
+              10.485304,
+              59.4052848
+            ],
+            [
+              10.4858909,
+              59.4052931
+            ],
+            [
+              10.4862304,
+              59.4055687
+            ],
+            [
+              10.48632,
+              59.4059555
+            ],
+            [
+              10.4868771,
+              59.4060108
+            ],
+            [
+              10.4862116,
+              59.4062396
+            ],
+            [
+              10.4847585,
+              59.4062012
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H08-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H09-B01",
+        "harbour_id": "3901-H09",
+        "name": "Steinsneshavn",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 17160,
+        "source_image": "../horten-pilot/images/steinsnes.png",
+        "image_metadata": "../horten-pilot/images/steinsnes.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242818.84946538482%2C6592606.487798533%2C244218.84946538482%2C6594006.487798533&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H09-B01",
+        "local_harbour_id": "H09",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4835259,
+              59.4018234
+            ],
+            [
+              10.4836203,
+              59.4015119
+            ],
+            [
+              10.4835208,
+              59.4010677
+            ],
+            [
+              10.4860196,
+              59.4007136
+            ],
+            [
+              10.4867089,
+              59.4012322
+            ],
+            [
+              10.4867808,
+              59.4014865
+            ],
+            [
+              10.4857148,
+              59.4018093
+            ],
+            [
+              10.4835259,
+              59.4018234
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H09-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H10-B01",
+        "harbour_id": "3901-H10",
+        "name": "Horten Seilforening / Rørestrand",
+        "status": "kart_og_kilde",
+        "osm_id": "node/5107343404",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 19180,
+        "source_image": "../horten-pilot/images/steinsnes.png",
+        "image_metadata": "../horten-pilot/images/steinsnes.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242818.84946538482%2C6592606.487798533%2C244218.84946538482%2C6594006.487798533&width=2800&height=2800&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://www.openstreetmap.org/node/5107343404"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H10-B01",
+        "local_harbour_id": "H10",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4810234,
+              59.3982381
+            ],
+            [
+              10.4811568,
+              59.3973703
+            ],
+            [
+              10.4820165,
+              59.3971393
+            ],
+            [
+              10.4830445,
+              59.3969681
+            ],
+            [
+              10.4838428,
+              59.3969328
+            ],
+            [
+              10.4840391,
+              59.3970476
+            ],
+            [
+              10.4843544,
+              59.3973283
+            ],
+            [
+              10.483914,
+              59.3974569
+            ],
+            [
+              10.4836936,
+              59.3980519
+            ],
+            [
+              10.4821062,
+              59.3981857
+            ],
+            [
+              10.4810234,
+              59.3982381
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H10-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H11-B01",
+        "harbour_id": "3901-H11",
+        "name": "Steinbrygga båthavn – hovedbasseng",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1216709953",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 16871,
+        "source_image": "../horten-pilot/images/steinbrygga.png",
+        "image_metadata": "../horten-pilot/images/steinbrygga.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242285.09632044332%2C6590398.933954482%2C243285.09632044332%2C6591398.933954482&width=2000&height=2000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/",
+          "https://www.openstreetmap.org/way/1216709953"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H11-B01",
+        "local_harbour_id": "H11",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4686934,
+              59.3779262
+            ],
+            [
+              10.4700208,
+              59.3774135
+            ],
+            [
+              10.4703728,
+              59.3773229
+            ],
+            [
+              10.4713537,
+              59.377614
+            ],
+            [
+              10.4716123,
+              59.3777515
+            ],
+            [
+              10.4719618,
+              59.3779628
+            ],
+            [
+              10.4706719,
+              59.3787595
+            ],
+            [
+              10.470421,
+              59.3788471
+            ],
+            [
+              10.4701724,
+              59.3787292
+            ],
+            [
+              10.4686934,
+              59.3779262
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H11-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H12-B01",
+        "harbour_id": "3901-H12",
+        "name": "Åsgårdstrand – nordre basseng / seilforeningen",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1216198612",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 10700,
+        "source_image": "../horten-pilot/images/asgardstrand.png",
+        "image_metadata": "../horten-pilot/images/asgardstrand.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242137.2671150035%2C6587292.953173899%2C243137.2671150035%2C6588492.953173899&width=2000&height=2400&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/",
+          "https://www.openstreetmap.org/way/1216198612"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H12-B01",
+        "local_harbour_id": "H12",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4690766,
+              59.3517904
+            ],
+            [
+              10.4693294,
+              59.3516913
+            ],
+            [
+              10.4700086,
+              59.3509307
+            ],
+            [
+              10.471316,
+              59.3511633
+            ],
+            [
+              10.4712778,
+              59.3514497
+            ],
+            [
+              10.4705824,
+              59.3523321
+            ],
+            [
+              10.4701661,
+              59.352073
+            ],
+            [
+              10.4690766,
+              59.3517904
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H12-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H12-B02",
+        "harbour_id": "3901-H12",
+        "name": "Åsgårdstrand – midtre basseng",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 10714,
+        "source_image": "../horten-pilot/images/asgardstrand.png",
+        "image_metadata": "../horten-pilot/images/asgardstrand.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242137.2671150035%2C6587292.953173899%2C243137.2671150035%2C6588492.953173899&width=2000&height=2400&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bassengavgrensning. Gjesteplasser kan ligge i samme basseng som faste plasser; dette er ikke operatør- eller leiegrenser.",
+        "local_id": "H12-B02",
+        "local_harbour_id": "H12",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4700022,
+              59.3508729
+            ],
+            [
+              10.4704226,
+              59.3503623
+            ],
+            [
+              10.4710112,
+              59.3498576
+            ],
+            [
+              10.4720353,
+              59.3501019
+            ],
+            [
+              10.4720427,
+              59.3507856
+            ],
+            [
+              10.4716924,
+              59.3509821
+            ],
+            [
+              10.4713246,
+              59.3510988
+            ],
+            [
+              10.4700022,
+              59.3508729
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H12-B02"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H12-B03",
+        "harbour_id": "3901-H12",
+        "name": "Åsgårdstrand – søndre basseng",
+        "status": "kart_og_kilde",
+        "osm_id": "way/1217376960",
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 10039,
+        "source_image": "../horten-pilot/images/asgardstrand.png",
+        "image_metadata": "../horten-pilot/images/asgardstrand.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242137.2671150035%2C6587292.953173899%2C243137.2671150035%2C6588492.953173899&width=2000&height=2400&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-gjestehavn/",
+          "https://www.openstreetmap.org/way/1217376960"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Havnebruk støttet av kart og tilleggskilde. Geometrien er et manuelt forslag.",
+        "local_id": "H12-B03",
+        "local_harbour_id": "H12",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4710909,
+              59.3497884
+            ],
+            [
+              10.4714825,
+              59.3491761
+            ],
+            [
+              10.4732498,
+              59.3494462
+            ],
+            [
+              10.4725147,
+              59.3505215
+            ],
+            [
+              10.4720506,
+              59.3506204
+            ],
+            [
+              10.4720337,
+              59.3500083
+            ],
+            [
+              10.4710909,
+              59.3497884
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H12-B03"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-H13-B01",
+        "harbour_id": "3901-H13",
+        "name": "RS Noatun – marina",
+        "status": "kart_og_kilde",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 11860,
+        "source_image": "../horten-pilot/images/noatun-full.png",
+        "image_metadata": "../horten-pilot/images/noatun-full.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=243060.51403858673%2C6591896.394031831%2C243960.51403858673%2C6592796.394031831&width=1800&height=1800&format=image%2Fpng&transparent=false",
+          "https://www.rs-noatun.no/nb"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Tilbyder opplyser om egen marina. Kurs-/konferanseanlegg; ikke automatisk klassifisert som ordinær offentlig gjestehavn.",
+        "local_id": "H13-B01",
+        "local_harbour_id": "H13",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4798742,
+              59.3922108
+            ],
+            [
+              10.4798931,
+              59.3918993
+            ],
+            [
+              10.4795074,
+              59.3918165
+            ],
+            [
+              10.478934,
+              59.3916116
+            ],
+            [
+              10.4817241,
+              59.3913442
+            ],
+            [
+              10.4819739,
+              59.3915957
+            ],
+            [
+              10.4824194,
+              59.391825
+            ],
+            [
+              10.4812274,
+              59.3922636
+            ],
+            [
+              10.4798742,
+              59.3922108
+            ]
+          ]
+        ]
+      },
+      "id": "3901-H13-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-K01-B01",
+        "harbour_id": "3901-K01",
+        "name": "Drasund / Løvøya – bryggegruppe",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 2866,
+        "source_image": "../horten-pilot/images/lovoya.png",
+        "image_metadata": "../horten-pilot/images/lovoya.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=241064.80531888176%2C6598048.560033688%2C241964.80531888176%2C6599048.560033688&width=1800&height=2000&format=image%2Fpng&transparent=false",
+          "https://lovoyaoslofjord.no/",
+          "https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Bryggegruppe synlig i kart. Løvøya har dokumentert båthavn, men koblingen til akkurat disse bryggene er ikke bekreftet. Ikke likestilt med båtfølget kommunen fjernet i august 2026.",
+        "local_id": "K01-B01",
+        "local_harbour_id": "K01",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4372282,
+              59.4473533
+            ],
+            [
+              10.4380339,
+              59.4471417
+            ],
+            [
+              10.4383107,
+              59.4470974
+            ],
+            [
+              10.4386151,
+              59.4473719
+            ],
+            [
+              10.4380956,
+              59.4477314
+            ],
+            [
+              10.4372282,
+              59.4473533
+            ]
+          ]
+        ]
+      },
+      "id": "3901-K01-B01"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3901-K02-B01",
+        "harbour_id": "3901-K02",
+        "name": "Steinbrygga – nordre moloområde",
+        "status": "ma_avklares",
+        "osm_id": null,
+        "kommunenummer": "3901",
+        "municipality": "Horten",
+        "geometry_role": "vannomrade_ved_bryggeanlegg",
+        "method": "manuell_digitalisering_georeferert_topografisk_kart",
+        "geometry_status": "forelopig_ikke_offisiell",
+        "positional_accuracy_m": null,
+        "source_observation_date": null,
+        "retrieved": "2026-10-28",
+        "reviewed": "2026-10-28",
+        "reviewer": "AI-assistent; ikke uavhengig fagkontroll",
+        "needs_orthophoto_review": true,
+        "inside_municipality": true,
+        "area_m2": 10961,
+        "source_image": "../horten-pilot/images/steinbrygga.png",
+        "image_metadata": "../horten-pilot/images/steinbrygga.json",
+        "sources": [
+          "https://wms.geonorge.no/skwms1/wms.topo?service=WMS&version=1.3.0&request=GetMap&layers=topo&styles=&crs=EPSG%3A25833&bbox=242285.09632044332%2C6590398.933954482%2C243285.09632044332%2C6591398.933954482&width=2000&height=2000&format=image%2Fpng&transparent=false",
+          "https://www.hortenhavn.no/fritidsbaat/"
+        ],
+        "attribution": "Kartgrunnlag © Kartverket; supplerende kandidater/navn © OpenStreetMap-bidragsytere (ODbL)",
+        "note": "Nordre moloområde er synlig i kart; faste småbåtplasser og avgrensning mot hovedanlegget må avklares.",
+        "local_id": "K02-B01",
+        "local_harbour_id": "K02",
+        "municipality_delivery_status": "godkjent_av_bruker",
+        "approval_scope": "Godkjent kommuneleveranse; opprinnelig usikkerhetsstatus beholdt",
+        "source_delivery": "/workspace/horten-pilot/bathavner-alle-forslag.geojson"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4712604,
+              59.3789727
+            ],
+            [
+              10.4719843,
+              59.3782655
+            ],
+            [
+              10.4730071,
+              59.3785259
+            ],
+            [
+              10.4738328,
+              59.3787537
+            ],
+            [
+              10.4725631,
+              59.3794933
+            ],
+            [
+              10.4721296,
+              59.3794397
+            ],
+            [
+              10.4712604,
+              59.3789727
+            ]
+          ]
+        ]
+      },
+      "id": "3901-K02-B01"
+    }
+  ]
+}
