@@ -191,7 +191,7 @@ svg{display:block}
   <div>
     <h1>Oslofjord small-boat harbours</h1>
     <div class="sub" id="stats">–</div>
-    <div class="by">by <button id="byBtn" aria-label="About this map">Jo Øvstaas</button> · <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Powered by the Ocean Data Platform ↗</a></div>
+    <div class="by"><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Powered by the Ocean Data Platform ↗</a></div>
     <div class="legend"><span><i style="background:var(--harbour)"></i>Harbour</span><span><i style="background:var(--possible)"></i>Possible</span><span><i style="background:var(--pilot)"></i>Pilot</span><span><i style="background:transparent;border:1px dashed var(--todo)"></i>Not yet mapped</span></div>
   </div>
 </header>
@@ -644,7 +644,6 @@ function wireUI() {
   $('layers').onclick = () => togglePop('layersPop');
   $('find').onclick = () => togglePop('search');
   $('info').onclick = () => setAbout(!$('about').classList.contains('open'));
-  $('byBtn').onclick = () => setAbout(true);
   $('aboutX').onclick = () => setAbout(false);
   $('aboutStats').textContent = `${fmt(H.features.length)} polygons (${fmt(Object.keys(harbours).length)} harbours) from ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`;
   $('compass').onclick = () => map.easeTo({ bearing: 0, pitch: is3D ? map.getPitch() : 0, duration: 800 });
