@@ -22,7 +22,7 @@ The ten-berth threshold is a project rule, not a legal definition. A club's post
 
 ### Workflow per municipality
 
-1. **Boundary and coverage.** The municipal boundary comes from the Norwegian Mapping Authority (Kartverket). The shoreline is divided into tiles. For each tile, aerial imagery (Esri World Imagery, about 0.67 m/pixel) and a topographic map (Kartverket WMS) are stored with georeferencing in EPSG:25833.
+1. **Boundary and coverage.** The municipal boundary comes from the Norwegian Mapping Authority (Kartverket). The shoreline is divided into tiles. For each tile, aerial imagery (Esri World Imagery, about 0.7–0.8 m/pixel) and a topographic map (Kartverket WMS) are stored with georeferencing in EPSG:25833.
 2. **Candidate search from two independent sources.**
    - *Map:* OpenStreetMap piers, marinas and moorings from Overpass.
    - *Sources:* the Central Coordinating Register for Legal Entities (boat clubs, marinas), Kartverket place names, municipal harbour pages and other public documents.
@@ -46,6 +46,41 @@ Each polygon row records, among other things:
 - a flag for uncertain boundaries (`needs_orthophoto_review`)
 
 Wall-clock time is recorded per municipality in `timing.json`. Field names and values are in Norwegian.
+
+### Worked example: Dronninghavna, Bygdøy (Oslo)
+
+**Raw data.** Each detail tile (1.1 × 1.1 km) is stored with its EPSG:25833 bounding box, retrieval date and SHA-256 checksum. The aerial image shows the physical structures. The topographic map gives the shoreline and water area used for clipping, plus place names.
+
+![Esri aerial image and Kartverket topographic map of Dronninghavna](docs/img/raw-imagery-and-map.jpg)
+
+**Automatic draft.** OSM piers (left) are clustered and turned into candidate polygons (right). A019 is the main marina and A020 is a group of short piers along the Bygdøy shore. The draft follows the piers. It can still include too much water or miss berths along quays, so a person reviews every candidate against the image.
+
+![OSM piers and automatic draft polygons](docs/img/osm-piers-and-draft.jpg)
+
+**Final polygons after review.** A019 was accepted as a harbour, because many berths with finger piers are clearly visible. A020 was kept but classified as a *possible* harbour. The piers have boats, but it is unclear whether they are shared with the club or private. Its boundary is flagged as uncertain.
+
+![Final polygons coloured by classification](docs/img/final-polygons.jpg)
+
+**Metadata.** Each polygon is one row in the GeoJSON and in the metadata CSV. Selected fields for the two polygons:
+
+| Field | `0301-H09-B01` | `0301-H10-B01` |
+|---|---|---|
+| `name` | Dronninghavna – Kongelig Norsk Seilforening | Dronninghavna vest – mindre brygger |
+| `name_is_descriptive` | `false` (actual name) | `true` (descriptive name we made up) |
+| `classification` | `smabathavn` | `mulig_smabathavn` |
+| `classification_basis` | `minst_10_synlige_plasser_i_sammenhengende_anlegg` (≥10 visible berths in one facility) | `flere_brygger_men_felles_drift_eller_kapasitet_uklar` (several piers, shared operation or capacity unclear) |
+| `method` | `osm_pirer_bufret_og_klippet_mot_kartvann_bildekontrollert` (OSM piers buffered, clipped to map water, checked against image) | same |
+| `geometry_status` / `needs_orthophoto_review` | `forelopig_avgrensning` (provisional) / `false` | `usikker_avgrensning` (uncertain) / `true` |
+| `area_m2` | 58 866.7 | 4 197.6 |
+| `osm_ids` | 23 piers (`way/27767772`, …) | 8 piers (`way/114200485`, …) |
+| `image_id`, `image_resolution_m_per_pixel` | `d-c259-6649`, 0.833 | `d-c259-6649`, 0.833 |
+| `source_observation_date` | `null` (acquisition date unknown) | `null` |
+| `current_operation_verified` | `false` | `false` |
+| `note` | Long pier with many finger berths and breakwater | Short piers with boats on the Bygdøy side; may belong to the club or be private |
+
+The candidate ledger (`candidate-ledger.csv`) keeps a row for every candidate, including excluded ones, with the decision and reason. Excluded candidates therefore stay traceable.
+
+The figures were made with `work/0301-oslo/readme_figures.py`. It needs the local images, which are not stored in git.
 
 ### Known limitations
 
