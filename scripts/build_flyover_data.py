@@ -71,3 +71,14 @@ for code, name, state in muns:
 for b in bfeats: b['geometry']['coordinates'] = rnd(b['geometry']['coordinates'])
 (OUT / 'municipalities.geojson').write_text(json.dumps(dict(type='FeatureCollection', features=bfeats), ensure_ascii=False, separators=(',', ':')))
 print(len(feats), 'polygoner;', len(bfeats), 'kommuner;', {p.name: f'{p.stat().st_size/1e6:.2f} MB' for p in OUT.glob('*.geojson')})
+
+# nøkkeltall til metodepanelet (bare godkjente kommuner)
+appr = [m for m in st['municipalities'] if m['status'] != 'til_godkjenning']
+ledgers = [json.loads((ROOT / m['candidate_ledger']).read_text()) for m in appr if m.get('candidate_ledger')]
+timed = [m['elapsed_wall_seconds'] for m in appr if m.get('elapsed_wall_seconds')]
+meta = dict(polygons=len(feats), harbours=len({f['properties']['hid'] for f in feats}), municipalities=len(appr),
+            candidates_logged=sum(len(l) for l in ledgers), ledger_municipalities=len(ledgers),
+            wall_hours=round(sum(timed) / 3600, 1), timed_municipalities=len(timed),
+            updated=json.loads((ROOT / 'data/samlet/samlet-manifest.json').read_text())['updated_date'])
+(OUT / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False))
+print(meta)

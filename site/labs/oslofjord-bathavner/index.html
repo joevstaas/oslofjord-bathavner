@@ -47,21 +47,36 @@ svg{display:block}
 .odp a{color:var(--harbour);text-decoration:none;font-weight:700}.odp a:hover{text-decoration:underline}
 
 /* about */
-#about{position:fixed;top:14px;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));width:370px;z-index:9;padding:18px 18px 16px;overflow:auto;opacity:0;transform:translateX(12px);transition:opacity .22s,transform .22s;pointer-events:none}
-#about.open{opacity:1;transform:none;pointer-events:auto}
-#about .x{position:absolute;top:12px;right:12px;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;color:var(--dim)}
-#about .x:hover{background:rgba(159,189,211,.12);color:var(--foam)}
-#about .eyebrow{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--harbour);font-weight:700}
-#about h2{margin:4px 0 10px;font-size:20px;font-weight:800;letter-spacing:-.3px;padding-right:30px}
-#about h3{margin:16px 0 6px;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
-#about p,#about li{font-size:13px;color:var(--mist);margin:0 0 6px}
-#about b{color:var(--foam);font-weight:700}
-#about ol{margin:0;padding-left:20px}#about li{padding-left:2px}
-#about a{color:var(--harbour);text-decoration:none;font-weight:600}#about a:hover{text-decoration:underline}
-#about .cls{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
-#about .who{display:flex;gap:10px;align-items:center;padding:10px;border-radius:12px;background:rgba(70,211,198,.08);border:1px solid rgba(70,211,198,.2);margin-top:4px}
-#about .who svg{flex:none}
-#about .odpbox{margin-top:10px;padding:10px;border-radius:12px;background:rgba(159,189,211,.07);border:1px solid var(--line);font-size:12.5px;color:var(--mist)}
+.side{position:fixed;top:14px;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));width:370px;z-index:9;padding:18px 18px 16px;overflow:auto;opacity:0;transform:translateX(12px);transition:opacity .22s,transform .22s;pointer-events:none}
+.side.open{opacity:1;transform:none;pointer-events:auto}
+.side .x{position:absolute;top:12px;right:12px;width:28px;height:28px;border-radius:8px;display:grid;place-items:center;color:var(--dim)}
+.side .x:hover{background:rgba(159,189,211,.12);color:var(--foam)}
+.side .eyebrow{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--harbour);font-weight:700}
+.side h2{margin:4px 0 10px;font-size:20px;font-weight:800;letter-spacing:-.3px;padding-right:30px}
+.side h3{margin:16px 0 6px;font-size:11px;letter-spacing:1px;text-transform:uppercase;color:var(--dim)}
+.side p,.side li{font-size:13px;color:var(--mist);margin:0 0 6px}
+.side b{color:var(--foam);font-weight:700}
+.side ol{margin:0;padding-left:20px}.side li{padding-left:2px}
+.side a{color:var(--harbour);text-decoration:none;font-weight:600}.side a:hover{text-decoration:underline}
+.side .cls{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}
+.side .who{display:flex;gap:10px;align-items:center;padding:10px;border-radius:12px;background:rgba(70,211,198,.08);border:1px solid rgba(70,211,198,.2);margin-top:4px}
+.side .who svg{flex:none}
+.side .odpbox{margin-top:10px;padding:10px;border-radius:12px;background:rgba(159,189,211,.07);border:1px solid var(--line);font-size:12.5px;color:var(--mist)}
+
+.side .toc{display:flex;gap:6px;flex-wrap:wrap;margin:2px 0 6px}
+.side .toc a{font-size:11.5px;padding:3px 8px;border-radius:999px;background:rgba(70,211,198,.1);border:1px solid rgba(70,211,198,.25);font-weight:600}
+.side .src{display:grid;grid-template-columns:1fr;gap:7px;margin:4px 0}
+.side .src div{font-size:12.5px;color:var(--mist);padding:8px 10px;border-radius:10px;background:rgba(159,189,211,.06);border:1px solid var(--line)}
+.side .src b{display:block;margin-bottom:1px}
+.side .param{font-family:"JetBrains Mono",monospace;font-size:11.5px;color:var(--foam);background:rgba(159,189,211,.12);padding:0 4px;border-radius:4px}
+.side .kpi{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:6px 0}
+.side .kpi div{padding:9px 10px;border-radius:10px;background:rgba(159,189,211,.06);border:1px solid var(--line);font-size:11.5px;color:var(--dim)}
+.side .kpi b{display:block;font-size:19px;color:var(--foam);font-weight:800;letter-spacing:-.3px}
+.side .ai{padding:10px 12px;border-radius:12px;background:rgba(255,181,71,.07);border:1px solid rgba(255,181,71,.25)}
+.pill{height:38px;padding:0 13px 0 10px;border-radius:999px;display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;color:var(--foam);background:rgba(70,211,198,.12);border:1px solid rgba(70,211,198,.3);flex:none}
+.pill:hover,.pill.on{background:var(--harbour);color:var(--navy)}
+.howlink{margin-top:10px;font-size:12.5px;font-weight:700;color:var(--harbour);text-shadow:0 2px 12px rgba(0,0,0,.6)}
+.howlink:hover{text-decoration:underline}
 
 /* hud */
 #hud{position:fixed;top:14px;right:14px;z-index:5;display:flex;gap:8px;align-items:stretch}
@@ -176,7 +191,8 @@ svg{display:block}
   #card.show ~ #caption{opacity:0}
   .pop{width:calc(100vw - 20px);bottom:calc(66px + env(safe-area-inset-bottom))}
   .ib .tip{display:none}
-  #about{top:auto;left:10px;right:10px;width:auto;max-height:72vh;bottom:calc(72px + env(safe-area-inset-bottom));transform:translateY(12px)}
+  .pill{width:34px;height:34px;padding:0;justify-content:center}.pill span{display:none}
+  .side{top:auto;left:10px;right:10px;width:auto;max-height:72vh;bottom:calc(72px + env(safe-area-inset-bottom));transform:translateY(12px)}
   .maplibregl-ctrl-bottom-right{bottom:calc(64px + env(safe-area-inset-bottom))}
 }
 </style>
@@ -231,7 +247,7 @@ svg{display:block}
   <div class="chk"><span>Terrain relief ×2</span><button class="sw" data-t="exag" aria-label="Toggle terrain exaggeration"></button></div>
 </div>
 
-<aside id="about" class="glass" role="dialog" aria-label="About this map" aria-modal="false">
+<aside id="about" class="side glass" role="dialog" aria-label="About this map" aria-modal="false">
   <button class="x" id="aboutX" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
   <div class="eyebrow">About</div>
   <h2>Small-boat harbours of the Oslofjord</h2>
@@ -247,6 +263,7 @@ svg{display:block}
     <li><b>Sweep all imagery tiles</b> along the shore to catch harbours that are missing from OpenStreetMap, and draw them by hand.</li>
     <li><b>Quality-check and approve</b> each municipality: overlays on the imagery, geometry and boundary checks, and a manual approval before anything enters the combined dataset.</li>
   </ol>
+  <p><a href="#" id="toMethod">Data sources, full method and AI models →</a></p>
   <h3>Limitations</h3>
   <p>Image acquisition dates are unknown, no field survey has been made, and small facilities may be missed. Outlines are mapping estimates, not official harbour or property boundaries. Uncertain outlines are flagged in each harbour card.</p>
   <h3>Credits</h3>
@@ -254,6 +271,53 @@ svg{display:block}
     <div style="font-size:13px">Created by <a href="https://github.com/joevstaas" target="_blank" rel="noopener">Jo Øvstaas</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener" style="font-weight:500">Full method, data and code on GitHub ↗</a></div></div>
   <div class="odpbox">Powered by the <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> from <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a>.</div>
   <p style="margin-top:12px;font-size:11.5px;color:var(--dim)">Sources: © Kartverket (topographic map, sea chart, municipal boundaries); imagery © Esri, Vantor, Earthstar Geographics; © OpenStreetMap contributors (ODbL); Brønnøysund Register Centre; terrain: Mapzen / AWS Terrain Tiles.</p>
+</aside>
+
+<aside id="method" class="side glass" role="dialog" aria-label="Methodology">
+  <button class="x" id="methodX" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <div class="eyebrow">Methodology</div>
+  <h2>How the harbours were mapped</h2>
+  <p>An AI agent mapped the harbours one municipality at a time, following a written methodology. A person approved every municipality by inspecting its GeoJSON before it was added to the dataset.</p>
+  <div class="toc"><a href="#m-src">Data sources</a><a href="#m-steps">Analysis</a><a href="#m-ai">AI models</a><a href="#m-qa">Quality</a><a href="#m-num">Numbers</a></div>
+
+  <h3 id="m-src">Data sources</h3>
+  <div class="src">
+    <div><b>Esri World Imagery</b>Aerial and satellite imagery, exported as georeferenced tiles at about 0.67–0.83 m/pixel in EPSG:25833. This is the main evidence for every outline. Acquisition dates are unknown.</div>
+    <div><b>OpenStreetMap (Overpass API)</b>Piers, breakwaters, marinas and moorings. Used to find candidates and as the skeleton of draft outlines. © OpenStreetMap contributors, ODbL.</div>
+    <div><b>Kartverket</b>Municipal boundaries (Kommuneinfo API), the topographic map (WMS) for shoreline, water area and place names, and the place-name register. The sea chart is used only in this viewer.</div>
+    <div><b>Brønnøysund Register Centre</b>The Central Coordinating Register for Legal Entities (Enhetsregisteret): boat clubs, marinas and pier associations. A club’s address is never treated as the harbour’s location.</div>
+    <div><b>Public documents</b>Municipal harbour pages, operator websites, waste-management plans for harbours and planning documents. Used for operation and published berth counts.</div>
+  </div>
+
+  <h3 id="m-steps">Analysis, step by step</h3>
+  <ol>
+    <li><b>Coverage.</b> The municipal boundary is converted to EPSG:25833 and the shoreline is split into cells. Overview and 1.1 × 1.1 km detail tiles are stored with their bounding box, retrieval date and SHA-256 checksum.</li>
+    <li><b>Candidates.</b> OpenStreetMap is queried in 3 × 3 sub-areas. The register and place names are searched separately, so the two sources can check each other.</li>
+    <li><b>Draft outlines</b> (method 1.2). Piers within <span class="param">60 m</span> of each other are clustered, buffered by <span class="param">12 m</span> and closed by <span class="param">20 m</span>. The result is clipped to the map’s water area (+<span class="param">4 m</span>) and to the municipal boundary.</li>
+    <li><b>Visual review.</b> Review sheets show the draft (red), OSM piers (yellow) and the boundary on the imagery. Each candidate is included, trimmed, split, extended, redrawn by hand or excluded, and the reason is written down. Classification follows the ten-berth rule.</li>
+    <li><b>Gap sweep.</b> Contact sheets of all shoreline tiles are checked for harbours missing from OpenStreetMap. These are drawn by hand, in metres.</li>
+    <li><b>Polygon rule.</b> An outline covers the piers, berths and water between them. It does not cover the bay, land or club property. Harbours that cross a municipal boundary are clipped and linked across the boundary.</li>
+  </ol>
+  <p>The method changed over time. Holmestrand and Horten are early pilots traced from the topographic map. Tønsberg to Råde were drawn by hand on aerial imagery (method 1.0–1.1). From Fredrikstad onwards, OSM-assisted drafts were reviewed against imagery (method 1.2).</p>
+
+  <h3 id="m-ai">AI models and tools</h3>
+  <div class="ai">
+    <p><b>AI agent:</b> Anthropic Claude (Claude Opus 5.5) running in Claude Code on a local machine. It was used from Råde onwards (Råde, Fredrikstad, Bærum, Asker, Lier, Drammen and Oslo) and built this viewer.</p>
+    <p style="margin:0">The first seven municipalities (Holmestrand to Moss) were mapped by an AI assistant in an earlier hosted environment. Which model it was is not recorded in the project files.</p>
+  </div>
+  <p style="margin-top:8px"><b>What the AI did:</b> it wrote and ran the processing scripts, retrieved the sources, looked at imagery tiles and review sheets with its built-in image understanding to classify candidates and adjust outlines, and logged every decision.</p>
+  <p><b>What it did not do:</b> no object-detection or segmentation model was trained or used, and no harbour was classified automatically from pixels. All geometry operations are ordinary, repeatable code (Python with Shapely, PyProj and Pillow).</p>
+  <p><b>Human role:</b> a person set the rules, approved every municipality and pointed out harbours that had been missed. Those corrections led to method changes, such as cross-checking against OpenStreetMap piers.</p>
+
+  <h3 id="m-qa">Quality control</h3>
+  <p>After the last edit, every exported polygon is checked as an overlay on the imagery. The automated checks are: valid geometry, unique IDs, 0 m² outside the municipal boundary, no overlap within a municipality, with neighbours or with the combined file, and CSV matching GeoJSON. Uncertain outlines and open candidates are kept and flagged, not removed.</p>
+
+  <h3 id="m-num">Numbers</h3>
+  <div class="kpi" id="kpi"></div>
+  <p style="font-size:11.5px;color:var(--dim)">Wall-clock time is recorded per municipality. Downloads partly ran in parallel, so times for different municipalities are not directly comparable. Token use and cost were not measured.</p>
+
+  <h3>Read more</h3>
+  <p><a href="https://github.com/joevstaas/oslofjord-bathavner#analysis-method" target="_blank" rel="noopener">Method summary (README) ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/blob/main/docs/METODIKK.md" target="_blank" rel="noopener">Full methodology and municipal logs, in Norwegian ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/tree/main/data" target="_blank" rel="noopener">Data: GeoJSON, CSV and candidate ledgers ↗</a></p>
 </aside>
 
 <div id="search" class="pop glass" role="dialog" aria-label="Find a harbour">
@@ -271,6 +335,7 @@ svg{display:block}
   <button class="ib" id="dim" aria-label="Toggle 2D/3D"><span class="mono" style="font-size:11.5px;font-weight:700" id="dimTxt">3D</span><span class="tip">Switch 2D / 3D</span></button>
   <button class="ib hide-m" id="fly" aria-label="Free flight mode"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg><span class="tip">Free flight (keyboard)</span></button>
   <button class="ib" id="find" aria-label="Find harbour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><span class="tip">Find a harbour</span></button>
+  <button class="pill" id="methodBtn" aria-label="Methodology, data sources and AI models"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19A1.5 1.5 0 0 0 5.8 21h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></svg><span>Method</span></button>
   <button class="ib" id="layers" aria-label="Map layers"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg><span class="tip">Layers</span></button>
   <button class="ib" id="info" aria-label="About this map"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span class="tip">About</span></button>
 </nav>
@@ -284,6 +349,7 @@ svg{display:block}
       <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Start the flyover</button>
       <button class="cta sec" id="explore">Explore freely</button>
     </div>
+    <button class="howlink" id="howBtn">How was this mapped? Data sources, method and AI models →</button>
     <div class="odp">Powered by the <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> from <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a></div>
   </div>
 </div>
@@ -617,7 +683,7 @@ function flyLoop(t) {
 addEventListener('keydown', e => {
   if (e.target.tagName === 'INPUT') return;
   const k = e.key.toLowerCase();
-  if (k === 'escape') { if (flyOn) setFly(false); closePops(); closeCard(); setAbout(false); return; }
+  if (k === 'escape') { if (flyOn) setFly(false); closePops(); closeCard(); setAbout(false); setMethod(false); return; }
   if (flyOn) { keys[k] = true; if (k.startsWith('arrow') || k === ' ') e.preventDefault(); return; }
   if (k === ' ') { e.preventDefault(); playing ? pause() : play(Math.max(0, idx < stops.length - 1 ? idx + (idx < 0 ? 1 : 0) : 0)); }
   if (k === 'f') setFly(true);
@@ -630,7 +696,8 @@ function closePops(except) {
   for (const id of ['layersPop', 'search']) if (id !== except) $(id).classList.remove('open');
   $('layers').classList.toggle('on', except === 'layersPop'); $('find').classList.toggle('on', except === 'search');
 }
-function setAbout(on) { $('about').classList.toggle('open', on); $('info').classList.toggle('on', on); if (on) { pause(); stopAttract(); closePops(); } }
+function setAbout(on) { if (on) setMethod(false); $('about').classList.toggle('open', on); $('info').classList.toggle('on', on); if (on) { pause(); stopAttract(); closePops(); } }
+function setMethod(on) { if (on) setAbout(false); $('method').classList.toggle('open', on); $('methodBtn').classList.toggle('on', on); if (on) { pause(); stopAttract(); closePops(); } }
 function togglePop(id) { const open = !$(id).classList.contains('open'); closePops(open ? id : null); $(id).classList.toggle('open', open); if (open && id === 'search') setTimeout(() => $('q').focus(), 50); }
 
 function wireUI() {
@@ -645,6 +712,16 @@ function wireUI() {
   $('find').onclick = () => togglePop('search');
   $('info').onclick = () => setAbout(!$('about').classList.contains('open'));
   $('aboutX').onclick = () => setAbout(false);
+  $('methodBtn').onclick = () => setMethod(!$('method').classList.contains('open'));
+  $('methodX').onclick = () => setMethod(false);
+  $('howBtn').onclick = () => setMethod(true);
+  $('toMethod').onclick = e => { e.preventDefault(); setMethod(true); };
+  document.querySelectorAll('#method .toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+  fetch(BASE + 'data/meta.json').then(r => r.json()).then(m => {
+    $('kpi').innerHTML = [[fmt(m.polygons), 'polygons'], [fmt(m.harbours), 'harbours'], [m.municipalities, 'municipalities approved'],
+      [fmt(m.candidates_logged), `candidates logged (${m.ledger_municipalities} municipalities)`], [`≈ ${m.wall_hours} h`, `wall-clock time (${m.timed_municipalities} municipalities)`], [m.updated, 'last update']]
+      .map(([v, l]) => `<div><b>${v}</b>${l}</div>`).join('');
+  }).catch(() => {});
   $('aboutStats').textContent = `${fmt(H.features.length)} polygons (${fmt(Object.keys(harbours).length)} harbours) from ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`;
   $('compass').onclick = () => map.easeTo({ bearing: 0, pitch: is3D ? map.getPitch() : 0, duration: 800 });
   $('startTour').onclick = () => play(0);
