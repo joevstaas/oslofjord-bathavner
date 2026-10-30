@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Oslofjord Harbours</title>
+<meta name="description" content="Fly in 3D over every mapped small-boat harbour in the Oslofjord, Norway: 456 polygons from 14 municipalities.">
+<meta property="og:title" content="Oslofjord Harbours – 3D flyover">
+<meta property="og:description" content="Fly over every mapped small-boat harbour in the Oslofjord.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23071a2c'/%3E%3Cpath d='M16 6v18M10 10h12M8 18c1 5 5 7 8 7s7-2 8-7' stroke='%2346d3c6' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet">
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
+<style>
+:root{
+  --abyss:#04111e; --navy:#071a2c; --deep:#0d2b45; --steel:#1d4466;
+  --foam:#e9f4fb; --mist:#9fbdd3; --dim:#6d8ea8;
+  --harbour:#46d3c6; --possible:#ffb547; --pilot:#e9dcb8; --todo:#ff7a59;
+  --port:#e5484d; --starboard:#30c48d;
+  --glass:rgba(7,26,44,.72); --glass-strong:rgba(7,26,44,.9); --line:rgba(159,189,211,.18);
+  --r:14px; --shadow:0 10px 30px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--abyss);color:var(--foam);font:14px/1.4 Manrope,system-ui,sans-serif;overflow:hidden}
+#map{position:fixed;inset:0}
+button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
+.glass{background:var(--glass);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+svg{display:block}
+
+/* brand */
+#brand{position:fixed;top:14px;left:14px;padding:9px 13px 9px 11px;display:flex;gap:10px;align-items:center;z-index:5;max-width:calc(100vw - 28px)}
+#brand .logo{width:28px;height:28px;border-radius:8px;background:linear-gradient(140deg,#0f3a5c,#071a2c);display:grid;place-items:center;flex:none;border:1px solid var(--line)}
+#brand h1{margin:0;font-size:13.5px;font-weight:800;letter-spacing:.2px;white-space:nowrap}
+#brand .sub{font-size:11.5px;color:var(--mist);white-space:nowrap}
+#brand .sub b{color:var(--foam);font-weight:700}
+.legend{display:flex;gap:10px;margin-top:2px;font-size:11px;color:var(--mist)}
+.legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;vertical-align:0}
+
+/* hud */
+#hud{position:fixed;top:14px;right:14px;z-index:5;display:flex;gap:8px;align-items:stretch}
+#hud .read{padding:7px 11px;font-size:11px;line-height:1.5;color:var(--mist);display:grid;grid-template-columns:auto auto;column-gap:10px}
+#hud .read b{color:var(--foam);font-weight:600;text-align:right}
+#compass{width:52px;height:52px;border-radius:50%;display:grid;place-items:center;position:relative}
+#compass .rose{transition:transform .08s linear}
+#compass:hover{border-color:var(--harbour)}
+
+/* dock */
+#dock{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:6;display:flex;align-items:center;gap:4px;padding:6px;border-radius:999px;max-width:calc(100vw - 20px)}
+.ib{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;color:var(--mist);transition:background .15s,color .15s;flex:none;position:relative}
+.ib:hover{background:rgba(70,211,198,.12);color:var(--foam)}
+.ib.on{background:var(--harbour);color:var(--navy)}
+.ib.play{width:44px;height:44px;background:var(--harbour);color:var(--navy)}
+.ib.play:hover{background:#6ae3d8}
+.sep{width:1px;height:22px;background:var(--line);margin:0 4px;flex:none}
+#prog{display:flex;flex-direction:column;justify-content:center;width:210px;padding:0 8px;gap:5px;cursor:pointer}
+#prog .lbl{display:flex;justify-content:space-between;font-size:12px;white-space:nowrap;gap:8px}
+#prog .lbl span:first-child{font-weight:700;overflow:hidden;text-overflow:ellipsis}
+#prog .lbl span:last-child{color:var(--dim)}
+#bar{position:relative;height:4px;border-radius:4px;background:rgba(159,189,211,.18);overflow:hidden}
+#bar i{position:absolute;inset:0 auto 0 0;width:0;background:linear-gradient(90deg,var(--harbour),#9ff0e7);border-radius:4px;transition:width .4s}
+.tag{font-size:10px;font-weight:700;letter-spacing:.4px;padding:2px 6px;border-radius:6px;background:rgba(159,189,211,.14);color:var(--mist)}
+.ib .tip{position:absolute;bottom:48px;left:50%;transform:translateX(-50%);background:var(--glass-strong);padding:4px 8px;border-radius:6px;font-size:11px;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .15s;border:1px solid var(--line);color:var(--foam)}
+.ib:hover .tip{opacity:1}
+
+/* popovers */
+.pop{position:fixed;bottom:calc(76px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%) translateY(8px);z-index:7;padding:12px;width:290px;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s}
+.pop.open{opacity:1;pointer-events:auto;transform:translateX(-50%)}
+.pop h4{margin:0 0 8px;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:var(--dim)}
+.seg{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:12px}
+.seg button{padding:7px 4px;border-radius:9px;font-size:12px;font-weight:600;color:var(--mist);background:rgba(159,189,211,.08)}
+.seg button.on{background:var(--harbour);color:var(--navy)}
+.chk{display:flex;justify-content:space-between;align-items:center;padding:5px 0;font-size:13px}
+.sw{width:32px;height:18px;border-radius:10px;background:rgba(159,189,211,.25);position:relative;transition:background .15s}
+.sw::after{content:"";position:absolute;top:2px;left:2px;width:14px;height:14px;border-radius:50%;background:var(--foam);transition:left .15s}
+.sw.on{background:var(--harbour)}.sw.on::after{left:16px}
+#search input{width:100%;padding:9px 11px;border-radius:10px;border:1px solid var(--line);background:rgba(4,17,30,.6);color:var(--foam);font:inherit;outline:none}
+#search input:focus{border-color:var(--harbour)}
+#results{margin-top:8px;max-height:260px;overflow:auto}
+#results button{display:flex;width:100%;text-align:left;justify-content:space-between;gap:8px;padding:7px 8px;border-radius:8px;font-size:12.5px}
+#results button:hover,#results button.act{background:rgba(70,211,198,.12)}
+#results small{color:var(--dim);white-space:nowrap}
+
+/* caption (tour) */
+#caption{position:fixed;left:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:5;padding:11px 14px;max-width:320px;opacity:0;transform:translateY(8px);transition:opacity .5s,transform .5s;pointer-events:none}
+#caption.show{opacity:1;transform:none}
+#caption .k{font-size:10.5px;letter-spacing:1px;text-transform:uppercase;color:var(--harbour);font-weight:700}
+#caption .k.todo{color:var(--todo)}
+#caption h2{margin:2px 0 3px;font-size:19px;font-weight:800;letter-spacing:-.2px}
+#caption p{margin:0;font-size:12.5px;color:var(--mist)}
+
+/* harbour card */
+#card{position:fixed;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:6;width:300px;padding:12px 13px 11px;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
+#card.show{opacity:1;transform:none;pointer-events:auto}
+#card .top{display:flex;gap:8px;align-items:flex-start}
+#card h3{margin:0;font-size:14.5px;font-weight:800;line-height:1.25;flex:1}
+#card .x{width:24px;height:24px;border-radius:6px;display:grid;place-items:center;color:var(--dim);flex:none}
+#card .x:hover{background:rgba(159,189,211,.12);color:var(--foam)}
+#card .meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:6px 0 8px;font-size:11.5px;color:var(--mist)}
+.badge{font-size:10.5px;font-weight:800;padding:2px 7px;border-radius:6px;color:var(--navy)}
+#card dl{display:grid;grid-template-columns:auto 1fr;gap:3px 10px;margin:0;font-size:12px}
+#card dt{color:var(--dim)}#card dd{margin:0;text-align:right}
+#card .note{margin:8px 0 0;font-size:11.5px;color:var(--mist);font-style:italic;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+#card .links{display:flex;gap:12px;margin-top:8px;font-size:11.5px}
+#card a{color:var(--harbour);text-decoration:none}#card a:hover{text-decoration:underline}
+
+/* hover tip */
+#tip{position:fixed;z-index:8;pointer-events:none;padding:4px 8px;border-radius:7px;font-size:12px;font-weight:700;background:var(--glass-strong);border:1px solid var(--line);transform:translate(12px,-50%);opacity:0;transition:opacity .1s;white-space:nowrap}
+
+/* fly hint */
+#flyhint{position:fixed;left:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:5;padding:10px 12px;font-size:11.5px;color:var(--mist);display:none}
+#flyhint.show{display:block}
+#flyhint kbd{font-family:"JetBrains Mono",monospace;font-size:10.5px;padding:1px 5px;border-radius:4px;background:rgba(159,189,211,.16);color:var(--foam);margin-right:2px}
+#flyhint div{margin:2px 0}
+
+/* intro */
+#intro{position:fixed;inset:0;z-index:5;pointer-events:none;display:grid;place-items:end center;padding:0 16px calc(110px + env(safe-area-inset-bottom));background:radial-gradient(ellipse at 50% 120%,rgba(4,17,30,.85),rgba(4,17,30,0) 65%);transition:opacity .6s}
+#intro.hide{opacity:0;pointer-events:none}
+#intro .box{text-align:center;max-width:520px;pointer-events:auto}
+#intro .eyebrow{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--harbour);font-weight:700}
+#intro h2{font-size:clamp(28px,5vw,44px);line-height:1.05;margin:8px 0 10px;font-weight:800;letter-spacing:-1px;text-shadow:0 4px 30px rgba(0,0,0,.5)}
+#intro p{margin:0 auto 18px;color:var(--mist);max-width:430px;font-size:14px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+#intro .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.cta{padding:12px 20px;border-radius:999px;font-weight:800;font-size:14px;display:flex;align-items:center;gap:8px}
+.cta.pri{background:var(--harbour);color:var(--navy);box-shadow:0 8px 30px rgba(70,211,198,.35)}
+.cta.pri:hover{background:#6ae3d8}
+.cta.sec{background:var(--glass);border:1px solid var(--line)}
+.cta.sec:hover{border-color:var(--harbour)}
+#loading{position:fixed;inset:0;z-index:11;display:grid;place-items:center;background:var(--abyss);transition:opacity .6s}
+#loading.hide{opacity:0;pointer-events:none}
+#loading .ring{width:46px;height:46px;border-radius:50%;border:3px solid rgba(70,211,198,.18);border-top-color:var(--harbour);animation:spin 1s linear infinite;margin:0 auto 14px}
+#loading div{text-align:center;color:var(--mist);font-size:12px;letter-spacing:1px;text-transform:uppercase}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.maplibregl-ctrl-attrib{background:rgba(4,17,30,.55)!important;color:var(--dim)!important;font-size:10px}
+.maplibregl-ctrl-attrib a{color:var(--mist)!important}
+.maplibregl-ctrl-attrib-button{filter:invert(1)}
+.maplibregl-ctrl-bottom-right{bottom:0}
+
+@media (max-width:720px){
+  #hud .read{display:none}
+  #compass{width:44px;height:44px}
+  #brand .legend{display:none}
+  #prog{width:120px}
+  .ib{width:34px;height:34px}.ib.play{width:40px;height:40px}
+  .hide-m{display:none}
+  #card{left:10px;right:10px;width:auto;bottom:calc(72px + env(safe-area-inset-bottom))}
+  #caption{left:10px;right:10px;max-width:none;bottom:calc(72px + env(safe-area-inset-bottom));padding:9px 12px}
+  #caption h2{font-size:16px}
+  #card.show ~ #caption{opacity:0}
+  .pop{width:calc(100vw - 20px);bottom:calc(66px + env(safe-area-inset-bottom))}
+  .ib .tip{display:none}
+  .maplibregl-ctrl-bottom-right{bottom:calc(64px + env(safe-area-inset-bottom))}
+}
+</style>
+</head>
+<body>
+<div id="map" aria-label="3D map of the Oslofjord"></div>
+
+<div id="loading"><div><div class="ring"></div><div>Charting the fjord…</div></div></div>
+
+<header id="brand" class="glass">
+  <div class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#46d3c6" stroke-width="2.2" stroke-linecap="round"><path d="M12 3v16M7 7h10M4 13c1 5 4.5 7 8 7s7-2 8-7"/></svg></div>
+  <div>
+    <h1>Oslofjord small-boat harbours</h1>
+    <div class="sub" id="stats">–</div>
+    <div class="legend"><span><i style="background:var(--harbour)"></i>Harbour</span><span><i style="background:var(--possible)"></i>Possible</span><span><i style="background:var(--pilot)"></i>Pilot</span><span><i style="background:transparent;border:1px dashed var(--todo)"></i>Not yet mapped</span></div>
+  </div>
+</header>
+
+<div id="hud">
+  <div class="read glass mono" aria-hidden="true">
+    <span>HDG</span><b id="hdg">000°</b>
+    <span>ALT</span><b id="alt">–</b>
+    <span>POS</span><b id="pos">–</b>
+  </div>
+  <button id="compass" class="glass" title="Reset north" aria-label="Reset north">
+    <svg class="rose" id="rose" width="34" height="34" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="rgba(159,189,211,.35)" stroke-width="1"/><path d="M20 4l4.5 16h-9z" fill="#e5484d"/><path d="M20 36l-4.5-16h9z" fill="#9fbdd3"/><text x="20" y="13.5" text-anchor="middle" font-size="6.5" font-weight="800" fill="#fff" font-family="Manrope">N</text></svg>
+  </button>
+</div>
+
+<div id="caption" class="glass" aria-live="polite"><div class="k" id="capK"></div><h2 id="capH"></h2><p id="capP"></p></div>
+
+<aside id="card" class="glass" aria-live="polite"></aside>
+
+<div id="flyhint" class="glass">
+  <div style="color:var(--foam);font-weight:700;margin-bottom:4px">Free flight</div>
+  <div><kbd>W</kbd><kbd>S</kbd> forward / back</div>
+  <div><kbd>A</kbd><kbd>D</kbd> turn left / right</div>
+  <div><kbd>↑</kbd><kbd>↓</kbd> climb / descend</div>
+  <div><kbd>Q</kbd><kbd>E</kbd> tilt view</div>
+  <div><kbd>Shift</kbd> boost · <kbd>Esc</kbd> exit</div>
+</div>
+
+<div id="tip"></div>
+
+<div id="layersPop" class="pop glass" role="dialog" aria-label="Map layers">
+  <h4>Base map</h4>
+  <div class="seg" id="baseSeg"><button data-b="sat" class="on">Satellite</button><button data-b="chart">Sea chart</button><button data-b="topo">Topo</button></div>
+  <h4>Overlays</h4>
+  <div class="chk"><span>Municipality boundaries</span><button class="sw on" data-t="muni" aria-label="Toggle municipality boundaries"></button></div>
+  <div class="chk"><span>Harbour names</span><button class="sw on" data-t="labels" aria-label="Toggle harbour names"></button></div>
+  <div class="chk"><span>Terrain relief ×2</span><button class="sw" data-t="exag" aria-label="Toggle terrain exaggeration"></button></div>
+</div>
+
+<div id="search" class="pop glass" role="dialog" aria-label="Find a harbour">
+  <input id="q" type="search" placeholder="Find a harbour or municipality…" autocomplete="off">
+  <div id="results"></div>
+</div>
+
+<nav id="dock" class="glass" aria-label="Controls">
+  <button class="ib hide-m" id="prev" aria-label="Previous stop"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zM9.5 12L18 6v12z"/></svg><span class="tip">Previous stop</span></button>
+  <button class="ib play" id="play" aria-label="Play tour"><svg id="playIco" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="tip">Play flyover tour</span></button>
+  <button class="ib hide-m" id="next" aria-label="Next stop"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg><span class="tip">Next stop</span></button>
+  <div id="prog" title="Tour progress"><div class="lbl"><span id="progName">Tour</span><span id="progN" class="mono">0/0</span></div><div id="bar"><i></i></div></div>
+  <button class="ib hide-m" id="speed" aria-label="Tour speed"><span class="mono" style="font-size:11px;font-weight:600" id="speedTxt">1×</span><span class="tip">Tour speed</span></button>
+  <span class="sep"></span>
+  <button class="ib" id="dim" aria-label="Toggle 2D/3D"><span class="mono" style="font-size:11.5px;font-weight:700" id="dimTxt">3D</span><span class="tip">Switch 2D / 3D</span></button>
+  <button class="ib hide-m" id="fly" aria-label="Free flight mode"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg><span class="tip">Free flight (keyboard)</span></button>
+  <button class="ib" id="find" aria-label="Find harbour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><span class="tip">Find a harbour</span></button>
+  <button class="ib" id="layers" aria-label="Map layers"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg><span class="tip">Layers</span></button>
+</nav>
+
+<div id="intro">
+  <div class="box">
+    <div class="eyebrow">Oslofjord · Norway</div>
+    <h2>Fly over every small-boat harbour in the Oslofjord</h2>
+    <p id="introP">Mapped from aerial imagery, OpenStreetMap and public registers. Start in Oslo, head south-west down the fjord, then cross over and fly north again.</p>
+    <div class="btns">
+      <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Start the flyover</button>
+      <button class="cta sec" id="explore">Explore freely</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(() => {
+'use strict';
+const BASE = location.pathname.replace(/index\.html?$/, '').replace(/\/?$/, '/');
+const COLORS = { smabathavn: '#46d3c6', mulig_smabathavn: '#ffb547', pilot: '#e9dcb8' };
+const CLS_LABEL = { smabathavn: 'Harbour', mulig_smabathavn: 'Possible harbour', pilot: 'Pilot (map-based)' };
+const ROUTE = ['Oslo', 'Bærum', 'Asker', 'Lier', 'Drammen', 'Holmestrand', 'Horten', 'Tønsberg', 'Færder', 'Sandefjord', 'Larvik',
+  'Fredrikstad', 'Råde', 'Moss', 'Vestby', 'Frogn', 'Nesodden', '__home'];
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('en-US');
+const isMobile = matchMedia('(max-width:720px)').matches;
+
+const WMS_CHART = 'https://wms.geonorge.no/skwms1/wms.sjokartraster2?service=WMS&version=1.3.0&request=GetMap&layers=all&styles=&crs=EPSG:3857&bbox={bbox-epsg-3857}&width=512&height=512&format=image/png';
+const style = {
+  version: 8,
+  glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
+  sky: {
+    'sky-color': '#0b2c4d', 'horizon-color': '#8fbfdc', 'fog-color': '#c9e0ee',
+    'sky-horizon-blend': 0.55, 'horizon-fog-blend': 0.6, 'fog-ground-blend': 0.35,
+    'atmosphere-blend': ['interpolate', ['linear'], ['zoom'], 0, 1, 10, 0.8, 14, 0.4]
+  },
+  sources: {
+    sat: { type: 'raster', tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'], tileSize: 256, maxzoom: 19,
+      attribution: 'Imagery © Esri, Vantor, Earthstar Geographics' },
+    chart: { type: 'raster', tiles: [WMS_CHART], tileSize: 512, attribution: 'Sea chart © Kartverket' },
+    topo: { type: 'raster', tiles: ['https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png'], tileSize: 256, maxzoom: 18,
+      attribution: 'Topo © Kartverket' },
+    dem: { type: 'raster-dem', tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'], encoding: 'terrarium', tileSize: 256, maxzoom: 14,
+      attribution: 'Terrain: Mapzen / AWS Terrain Tiles' },
+    demhs: { type: 'raster-dem', tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'], encoding: 'terrarium', tileSize: 256, maxzoom: 14 }
+  },
+  layers: [
+    { id: 'bg', type: 'background', paint: { 'background-color': '#0b2236' } },
+    { id: 'sat', type: 'raster', source: 'sat', paint: { 'raster-saturation': -0.12, 'raster-contrast': 0.06, 'raster-fade-duration': 200 } },
+    { id: 'chart', type: 'raster', source: 'chart', layout: { visibility: 'none' } },
+    { id: 'topo', type: 'raster', source: 'topo', layout: { visibility: 'none' } },
+    { id: 'hs', type: 'hillshade', source: 'demhs', layout: { visibility: 'none' },
+      paint: { 'hillshade-shadow-color': '#04111e', 'hillshade-highlight-color': '#ffffff', 'hillshade-exaggeration': 0.35 } }
+  ]
+};
+
+const map = new maplibregl.Map({
+  container: 'map', style, center: [10.735, 59.905], zoom: 11.6, pitch: 62, bearing: 215, maxPitch: 80,
+  attributionControl: false, canvasContextAttributes: { antialias: true }, fadeDuration: 150
+});
+map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Harbours: oslofjord-bathavner (OSM © contributors, Enhetsregisteret)' }), 'bottom-right');
+
+let H = null, M = null, harbours = {}, is3D = true, terrainExag = 1.4;
+
+/* ---------- data ---------- */
+Promise.all([
+  fetch(BASE + 'data/harbours.geojson').then(r => r.json()),
+  fetch(BASE + 'data/municipalities.geojson').then(r => r.json()),
+  new Promise(res => map.on('load', res))
+]).then(([h, m]) => { H = h; M = m; init(); }).catch(err => {
+  $('loading').querySelector('div div:last-child').textContent = 'Could not load data';
+  console.error(err);
+});
+
+function init() {
+  // one point per harbour (largest polygon carries the label)
+  for (const f of H.features) {
+    const p = f.properties, k = p.hid;
+    const h = harbours[k] || (harbours[k] = { hid: k, name: p.name, mun: p.mun, cls: p.cls, area: 0, best: f, bestA: -1, n: 0 });
+    h.area += p.area; h.n++;
+    if (p.area > h.bestA) { h.bestA = p.area; h.best = f; h.name = p.name; h.cls = p.cls; }
+  }
+  const pts = { type: 'FeatureCollection', features: Object.values(harbours).map((h, i) => ({ type: 'Feature', id: i,
+    geometry: { type: 'Point', coordinates: [h.best.properties.lon, h.best.properties.lat] },
+    properties: { hid: h.hid, name: h.name, cls: h.cls, area: h.area, fid: h.best.id } })) };
+  const muniLabels = { type: 'FeatureCollection', features: M.features.map(f => ({ type: 'Feature',
+    geometry: { type: 'Point', coordinates: [f.properties.lx, f.properties.ly] }, properties: f.properties })) };
+
+  const nMapped = M.features.filter(f => f.properties.state === 'mapped').length;
+  $('stats').innerHTML = `<b>${fmt(Object.keys(harbours).length)}</b> harbours · <b>${fmt(H.features.length)}</b> polygons · <b>${nMapped}</b> municipalities`;
+
+  map.addSource('muni', { type: 'geojson', data: M });
+  map.addSource('muniLbl', { type: 'geojson', data: muniLabels });
+  map.addSource('h', { type: 'geojson', data: H });
+  map.addSource('hp', { type: 'geojson', data: pts });
+  const clsColor = ['match', ['get', 'cls'], 'smabathavn', COLORS.smabathavn, 'mulig_smabathavn', COLORS.mulig_smabathavn, COLORS.pilot];
+
+  map.addLayer({ id: 'muni-todo', type: 'fill', source: 'muni', filter: ['==', ['get', 'state'], 'remaining'],
+    paint: { 'fill-color': '#ff7a59', 'fill-opacity': ['interpolate', ['linear'], ['zoom'], 8, 0.10, 12, 0.03] } });
+  map.addLayer({ id: 'muni-line', type: 'line', source: 'muni',
+    paint: { 'line-color': ['match', ['get', 'state'], 'remaining', '#ff9a7e', '#cfe6f7'], 'line-width': ['interpolate', ['linear'], ['zoom'], 8, 0.8, 13, 1.6],
+      'line-opacity': 0.55, 'line-dasharray': [3, 2] } });
+  map.addLayer({ id: 'h-glow', type: 'line', source: 'h', minzoom: 10.5,
+    paint: { 'line-color': clsColor, 'line-width': ['interpolate', ['linear'], ['zoom'], 11, 4, 16, 12], 'line-blur': 6,
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 10.5, 0, 12, 0.55] } });
+  map.addLayer({ id: 'h-fill', type: 'fill', source: 'h', minzoom: 10.5,
+    paint: { 'fill-color': clsColor, 'fill-opacity': ['interpolate', ['linear'], ['zoom'], 10.5, 0, 12, ['case', ['boolean', ['feature-state', 'sel'], false], 0.5,
+      ['boolean', ['feature-state', 'hover'], false], 0.42, 0.24]] } });
+  map.addLayer({ id: 'h-line', type: 'line', source: 'h', minzoom: 10.5,
+    paint: { 'line-color': ['case', ['boolean', ['feature-state', 'sel'], false], '#ffffff', clsColor],
+      'line-width': ['interpolate', ['linear'], ['zoom'], 11, ['case', ['boolean', ['feature-state', 'sel'], false], 2.6, 1.2], 16, ['case', ['boolean', ['feature-state', 'sel'], false], 3.6, 2.4]],
+      'line-opacity': ['interpolate', ['linear'], ['zoom'], 10.5, 0, 11.5, 1] } });
+  map.addLayer({ id: 'hp-halo', type: 'circle', source: 'hp', maxzoom: 13,
+    paint: { 'circle-color': clsColor, 'circle-blur': 1, 'circle-opacity': ['interpolate', ['linear'], ['zoom'], 7, 0.5, 12, 0.35, 13, 0],
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, ['*', 0.03, ['sqrt', ['get', 'area']]], 12, ['*', 0.09, ['sqrt', ['get', 'area']]]] } });
+  map.addLayer({ id: 'hp', type: 'circle', source: 'hp', maxzoom: 13,
+    paint: { 'circle-color': clsColor, 'circle-stroke-color': '#04111e', 'circle-stroke-width': 1,
+      'circle-radius': ['interpolate', ['linear'], ['zoom'], 7, 2, 11, 4, 12.5, 5],
+      'circle-opacity': ['interpolate', ['linear'], ['zoom'], 12, 1, 13, 0], 'circle-stroke-opacity': ['interpolate', ['linear'], ['zoom'], 12, 1, 13, 0] } });
+  map.addLayer({ id: 'h-label', type: 'symbol', source: 'hp', minzoom: 12.3,
+    layout: { 'text-field': ['get', 'name'], 'text-font': ['Open Sans Semibold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 12.3, 11, 16, 14],
+      'text-max-width': 11, 'text-offset': [0, 1.2], 'text-anchor': 'top', 'text-optional': true },
+    paint: { 'text-color': '#ffffff', 'text-halo-color': 'rgba(4,17,30,.9)', 'text-halo-width': 1.6,
+      'text-opacity': ['interpolate', ['linear'], ['zoom'], 12.3, 0, 12.8, 1] } });
+  map.addLayer({ id: 'muni-label', type: 'symbol', source: 'muniLbl', maxzoom: 11.5,
+    layout: { 'text-field': ['case', ['==', ['get', 'state'], 'remaining'], ['concat', ['upcase', ['get', 'name']], '\nnot yet mapped'], ['upcase', ['get', 'name']]],
+      'text-font': ['Open Sans Semibold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 8, 10, 11, 13], 'text-letter-spacing': 0.18, 'text-allow-overlap': false },
+    paint: { 'text-color': ['match', ['get', 'state'], 'remaining', '#ffb39e', '#e9f4fb'], 'text-halo-color': 'rgba(4,17,30,.85)', 'text-halo-width': 1.4,
+      'text-opacity': ['interpolate', ['linear'], ['zoom'], 10.8, 1, 11.5, 0] } });
+
+  document.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
+  setTerrain(true);
+  buildTour();
+  wireUI();
+  $('loading').classList.add('hide');
+  attract();
+}
+
+/* ---------- terrain / 2D-3D ---------- */
+function setTerrain(on) {
+  map.setTerrain(on ? { source: 'dem', exaggeration: terrainExag } : null);
+  map.setLayoutProperty('hs', 'visibility', on ? 'visible' : 'none');
+}
+function set3D(on) {
+  is3D = on; $('dimTxt').textContent = on ? '3D' : '2D';
+  setTerrain(on);
+  map.easeTo({ pitch: on ? 62 : 0, bearing: on ? map.getBearing() : 0, duration: 1200 });
+  on ? map.dragRotate.enable() : map.dragRotate.disable();
+}
+
+/* ---------- HUD ---------- */
+let hudQueued = false;
+function hud() {
+  hudQueued = false;
+  const c = map.getCenter(), z = map.getZoom(), p = map.getPitch(), b = (map.getBearing() + 360) % 360;
+  const mpp = 78271.517 * Math.cos(c.lat * Math.PI / 180) / Math.pow(2, z);
+  const alt = mpp * 1.5 * map.getCanvas().clientHeight * Math.cos(p * Math.PI / 180);
+  $('hdg').textContent = String(Math.round(b)).padStart(3, '0') + '°';
+  $('alt').textContent = alt > 1000 ? (alt / 1000).toFixed(1) + ' km' : Math.round(alt) + ' m';
+  $('pos').textContent = `${c.lat.toFixed(3)}N ${c.lng.toFixed(3)}E`;
+  $('rose').style.transform = `rotate(${-b}deg)`;
+}
+map.on('move', () => { if (!hudQueued) { hudQueued = true; requestAnimationFrame(hud); } });
+
+/* ---------- tour ---------- */
+let stops = [], idx = -1, playing = false, token = 0, speed = 1;
+const HOME_TEXT = 'Back over Oslo. Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Sarpsborg, Halden, Porsgrunn and Bamble are next.';
+function bearingTo(a, b) {
+  const r = Math.PI / 180, y = Math.sin((b[0] - a[0]) * r) * Math.cos(b[1] * r),
+    x = Math.cos(a[1] * r) * Math.sin(b[1] * r) - Math.sin(a[1] * r) * Math.cos(b[1] * r) * Math.cos((b[0] - a[0]) * r);
+  return (Math.atan2(y, x) / r + 360) % 360;
+}
+function buildTour() {
+  const byName = Object.fromEntries(M.features.map(f => [f.properties.name, f.properties]));
+  for (const name of ROUTE) {
+    if (name === '__home') { stops.push({ name: 'Oslo', home: true, center: [10.72, 59.875], zoom: 10.9, pitch: 58 }); continue; }
+    const m = byName[name]; if (!m) continue;
+    if (m.state === 'remaining') { stops.push({ name, todo: true, center: [m.lx, m.ly], zoom: 12.1, pitch: 62 }); continue; }
+    const hs = Object.values(harbours).filter(h => h.mun === name);
+    // fly to the densest cluster of harbours (area-weighted within ~2.5 km), close enough to see the outlines
+    const ll = h => maplibregl.LngLat.convert([h.best.properties.lon, h.best.properties.lat]);
+    const score = h => hs.reduce((s, o) => s + (ll(h).distanceTo(ll(o)) < 2500 ? Math.sqrt(o.area) : 0), 0);
+    const hub = hs.reduce((a, c) => score(c) > score(a) ? c : a, hs[0]);
+    const near = hs.filter(o => ll(hub).distanceTo(ll(o)) < 2500);
+    const ctr = [near.reduce((s, o) => s + o.best.properties.lon, 0) / near.length, near.reduce((s, o) => s + o.best.properties.lat, 0) / near.length];
+    const top = hs.slice().sort((a, c) => c.area - a.area)[0];
+    stops.push({ name, center: ctr, zoom: isMobile ? 12.2 : 12.7, pitch: 62, m, top,
+      possible: new Set(H.features.filter(f => f.properties.mun === name && f.properties.cls === 'mulig_smabathavn').map(f => f.properties.hid)).size });
+  }
+  stops.forEach((s, i) => {
+    const nb = stops[i + 1] || stops[i], pv = stops[i - 1];
+    s.bearing = pv ? bearingTo(pv.center, s.center) : bearingTo(s.center, nb.center);
+    if (s.home) s.bearing = 0;
+  });
+  updateProg();
+}
+function caption(s) {
+  const c = $('caption');
+  if (!s) { c.classList.remove('show'); return; }
+  const k = $('capK');
+  k.className = 'k' + (s.todo ? ' todo' : '');
+  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(Object.keys(harbours).length)} harbours, 14 municipalities`; $('capP').textContent = HOME_TEXT; }
+  else if (s.todo) { k.textContent = 'Not yet mapped'; $('capH').textContent = s.name; $('capP').textContent = 'Part of the project scope. Harbours here will be added in the next batch.'; }
+  else {
+    k.textContent = `Stop ${idx + 1} of ${stops.length}`;
+    $('capH').textContent = s.name;
+    $('capP').innerHTML = `${s.m.harbours} harbours · ${s.m.polygons} polygons${s.possible ? ` · ${s.possible} possible` : ''}<br>Largest: ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
+  }
+  c.classList.remove('show'); void c.offsetWidth; c.classList.add('show');
+}
+function updateProg() {
+  const s = stops[idx];
+  $('progName').textContent = s ? s.name : 'Flyover tour';
+  $('progN').textContent = `${Math.max(idx + 1, 0)}/${stops.length}`;
+  $('bar').firstElementChild.style.width = `${stops.length ? (Math.max(idx + 1, 0) / stops.length) * 100 : 0}%`;
+}
+const wait = (ms, t) => new Promise(res => setTimeout(() => res(t === token), ms));
+function moveEnd(t) { return new Promise(res => map.once('moveend', () => res(t === token))); }
+async function goTo(i, t, fly = true) {
+  idx = (i + stops.length) % stops.length; const s = stops[idx];
+  updateProg(); closeCard(); caption(null);
+  const d = map.getCenter().distanceTo(maplibregl.LngLat.convert(s.center));
+  const dur = Math.max(4200, Math.min(10000, 2500 + d / 9)) / speed;
+  map.flyTo({ center: s.center, zoom: is3D ? s.zoom : s.zoom - 0.2, pitch: is3D ? s.pitch : 0, bearing: is3D ? s.bearing : 0,
+    duration: fly ? dur : 0, curve: 1.5, essential: true });
+  setTimeout(() => { if (t === token) caption(s); }, Math.max(0, (fly ? dur : 0) - 1600));
+  if (!await moveEnd(t)) return false;
+  if (is3D) map.easeTo({ bearing: s.bearing + (s.home ? 0 : 28), duration: 6500 / speed, easing: x => x });
+  return await wait((s.home ? 8000 : 6500) / speed, t);
+}
+async function play(from) {
+  const t = ++token; playing = true; setPlayIcon();
+  stopAttract(); hideIntro();
+  for (let i = from; i < stops.length; i++) {
+    if (!await goTo(i, t)) return;
+  }
+  if (t === token) { playing = false; setPlayIcon(); }
+}
+function pause() { if (!playing) return; token++; playing = false; setPlayIcon(); map.stop(); }
+function setPlayIcon() {
+  $('playIco').innerHTML = playing ? '<path d="M7 5h4v14H7zM13 5h4v14h-4z"/>' : '<path d="M8 5v14l11-7z"/>';
+  $('play').setAttribute('aria-label', playing ? 'Pause tour' : 'Play tour');
+}
+function step(dir) {
+  const was = playing; token++; const t = token; stopAttract(); hideIntro();
+  const target = Math.max(0, Math.min(stops.length - 1, idx + dir));
+  if (was) { playing = true; (async () => { for (let i = target; i < stops.length; i++) if (!await goTo(i, t)) return; playing = false; setPlayIcon(); })(); }
+  else goTo(target, t);
+}
+['dragstart', 'wheel', 'touchstart', 'dblclick'].forEach(ev => map.on(ev, e => { if (e.originalEvent) { pause(); stopAttract(); } }));
+
+/* ---------- attract mode (slow orbit behind intro) ---------- */
+let attractOn = false;
+function attract() {
+  attractOn = true;
+  const spin = () => { if (!attractOn) return; map.easeTo({ bearing: map.getBearing() - 12, duration: 6000, easing: x => x }); };
+  map.on('moveend', function loop() { if (!attractOn) { map.off('moveend', loop); return; } spin(); });
+  spin();
+}
+function stopAttract() { if (attractOn) { attractOn = false; map.stop(); } }
+function hideIntro() { $('intro').classList.add('hide'); }
+
+/* ---------- harbour card ---------- */
+let selId = null, hoverId = null;
+function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function select(fid, fly) {
+  const f = H.features[fid]; if (!f) return;
+  if (selId !== null) map.setFeatureState({ source: 'h', id: selId }, { sel: false });
+  selId = fid; map.setFeatureState({ source: 'h', id: fid }, { sel: true });
+  const p = f.properties, h = harbours[p.hid];
+  const rows = [
+    ['Water area', `${fmt(p.area)} m²` + (h.n > 1 ? ` <span style="color:var(--dim)">(${h.n} parts)</span>` : '')],
+    p.berths ? ['Published berths', fmt(p.berths)] : null,
+    ['Basis', escapeHtml(p.basis)],
+    ['Outline', p.method],
+    ['Boundary', p.unc ? '<span style="color:var(--possible)">Uncertain</span>' : 'Provisional'],
+    p.clip ? ['Note', 'Clipped at municipal border'] : null
+  ].filter(Boolean);
+  $('card').innerHTML = `
+    <div class="top"><h3>${escapeHtml(p.name)}</h3><button class="x" aria-label="Close" onclick="window.__closeCard()"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="meta"><span class="badge" style="background:${COLORS[p.cls]}">${CLS_LABEL[p.cls]}</span><span>${escapeHtml(p.mun)}</span><span class="mono" style="color:var(--dim)">${p.id}</span></div>
+    <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
+    ${p.note ? `<p class="note">${escapeHtml(p.note)}</p>` : ''}
+    <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">Method & data ↗</a></div>`;
+  $('card').classList.add('show');
+  if (fly) {
+    const b = new maplibregl.LngLatBounds();
+    for (const c of f.geometry.coordinates[0]) b.extend(c);
+    const cam = map.cameraForBounds(b, { padding: isMobile ? { top: 60, bottom: 260, left: 30, right: 30 } : { top: 120, bottom: 160, left: 120, right: 380 } });
+    map.flyTo({ center: cam.center, zoom: Math.min(16.2, cam.zoom), pitch: is3D ? 58 : 0, bearing: map.getBearing(), duration: 3000, essential: true });
+  }
+}
+function closeCard() {
+  $('card').classList.remove('show');
+  if (selId !== null) map.setFeatureState({ source: 'h', id: selId }, { sel: false });
+  selId = null;
+}
+window.__closeCard = closeCard;
+
+const tip = $('tip');
+function hoverOn(e, name) { tip.textContent = name; tip.style.left = e.point.x + 'px'; tip.style.top = e.point.y + 'px'; tip.style.opacity = 1; map.getCanvas().style.cursor = 'pointer'; }
+function hoverOff() { tip.style.opacity = 0; map.getCanvas().style.cursor = ''; if (hoverId !== null) map.setFeatureState({ source: 'h', id: hoverId }, { hover: false }); hoverId = null; }
+map.on('mousemove', 'h-fill', e => {
+  const f = e.features[0]; if (hoverId !== f.id) { hoverOff(); hoverId = f.id; map.setFeatureState({ source: 'h', id: f.id }, { hover: true }); }
+  hoverOn(e, f.properties.name);
+});
+map.on('mouseleave', 'h-fill', hoverOff);
+map.on('mousemove', 'hp', e => hoverOn(e, e.features[0].properties.name));
+map.on('mouseleave', 'hp', hoverOff);
+map.on('click', e => {
+  const f = map.queryRenderedFeatures(e.point, { layers: ['h-fill', 'hp'] })[0];
+  if (!f) { closeCard(); return; }
+  pause(); stopAttract(); hideIntro();
+  select(f.layer.id === 'hp' ? f.properties.fid : f.id, f.layer.id === 'hp' || map.getZoom() < 13);
+});
+
+/* ---------- free flight ---------- */
+let flyOn = false, keys = {}, last = 0;
+function setFly(on) {
+  flyOn = on; $('fly').classList.toggle('on', on); $('flyhint').classList.toggle('show', on);
+  if (on) { pause(); stopAttract(); hideIntro(); caption(null); map.keyboard.disable(); if (!is3D) set3D(true); last = performance.now(); requestAnimationFrame(flyLoop); }
+  else { map.keyboard.enable(); keys = {}; }
+}
+function flyLoop(t) {
+  if (!flyOn) return;
+  const dt = Math.min(0.05, (t - last) / 1000); last = t;
+  const k = keys, boost = k.shift ? 3 : 1;
+  const fwd = (k.w ? 1 : 0) - (k.s ? 1 : 0), yaw = (k.d || k.arrowright ? 1 : 0) - (k.a || k.arrowleft ? 1 : 0);
+  const climb = (k.arrowup ? 1 : 0) - (k.arrowdown ? 1 : 0), tilt = (k.e ? 1 : 0) - (k.q ? 1 : 0);
+  if (fwd || yaw || climb || tilt) {
+    const c = map.getCenter(), z = map.getZoom(), b = map.getBearing();
+    const mpp = 78271.517 * Math.cos(c.lat * Math.PI / 180) / Math.pow(2, z);
+    const d = fwd * 520 * dt * boost * mpp, r = b * Math.PI / 180;
+    map.jumpTo({
+      center: [c.lng + d * Math.sin(r) / (111320 * Math.cos(c.lat * Math.PI / 180)), c.lat + d * Math.cos(r) / 111320],
+      bearing: b + yaw * 50 * dt * boost, zoom: Math.max(8, Math.min(17, z - climb * 0.9 * dt * boost)),
+      pitch: Math.max(0, Math.min(80, map.getPitch() + tilt * 30 * dt))
+    });
+  }
+  requestAnimationFrame(flyLoop);
+}
+addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT') return;
+  const k = e.key.toLowerCase();
+  if (k === 'escape') { if (flyOn) setFly(false); closePops(); closeCard(); return; }
+  if (flyOn) { keys[k] = true; if (k.startsWith('arrow') || k === ' ') e.preventDefault(); return; }
+  if (k === ' ') { e.preventDefault(); playing ? pause() : play(Math.max(0, idx < stops.length - 1 ? idx + (idx < 0 ? 1 : 0) : 0)); }
+  if (k === 'f') setFly(true);
+});
+addEventListener('keyup', e => { keys[e.key.toLowerCase()] = false; });
+addEventListener('blur', () => { keys = {}; });
+
+/* ---------- UI wiring ---------- */
+function closePops(except) {
+  for (const id of ['layersPop', 'search']) if (id !== except) $(id).classList.remove('open');
+  $('layers').classList.toggle('on', except === 'layersPop'); $('find').classList.toggle('on', except === 'search');
+}
+function togglePop(id) { const open = !$(id).classList.contains('open'); closePops(open ? id : null); $(id).classList.toggle('open', open); if (open && id === 'search') setTimeout(() => $('q').focus(), 50); }
+
+function wireUI() {
+  $('play').onclick = () => playing ? pause() : play(idx >= 0 && idx < stops.length - 1 ? idx : 0);
+  $('prev').onclick = () => step(-1);
+  $('next').onclick = () => step(1);
+  $('prog').onclick = () => { if (!playing) play(idx >= 0 && idx < stops.length - 1 ? idx : 0); };
+  $('speed').onclick = () => { speed = speed === 1 ? 2 : speed === 2 ? 0.5 : 1; $('speedTxt').textContent = speed === 0.5 ? '½×' : speed + '×'; };
+  $('dim').onclick = () => { stopAttract(); set3D(!is3D); };
+  $('fly').onclick = () => setFly(!flyOn);
+  $('layers').onclick = () => togglePop('layersPop');
+  $('find').onclick = () => togglePop('search');
+  $('compass').onclick = () => map.easeTo({ bearing: 0, pitch: is3D ? map.getPitch() : 0, duration: 800 });
+  $('startTour').onclick = () => play(0);
+  $('explore').onclick = () => { stopAttract(); hideIntro(); };
+  map.on('mousedown', () => closePops());
+
+  $('baseSeg').onclick = e => {
+    const b = e.target.dataset.b; if (!b) return;
+    [...$('baseSeg').children].forEach(x => x.classList.toggle('on', x === e.target));
+    for (const id of ['sat', 'chart', 'topo']) map.setLayoutProperty(id, 'visibility', id === b ? 'visible' : 'none');
+    map.setPaintProperty('hs', 'hillshade-exaggeration', b === 'sat' ? 0.35 : 0.5);
+  };
+  document.querySelectorAll('.sw').forEach(sw => sw.onclick = () => {
+    const on = sw.classList.toggle('on'), t = sw.dataset.t, v = on ? 'visible' : 'none';
+    if (t === 'muni') ['muni-line', 'muni-todo', 'muni-label'].forEach(l => map.setLayoutProperty(l, 'visibility', v));
+    if (t === 'labels') map.setLayoutProperty('h-label', 'visibility', v);
+    if (t === 'exag') { terrainExag = on ? 2.8 : 1.4; if (is3D) setTerrain(true); }
+  });
+
+  // search
+  const list = Object.values(harbours).sort((a, b) => a.name.localeCompare(b.name, 'nb'));
+  let act = 0;
+  const render = () => {
+    const q = $('q').value.trim().toLowerCase();
+    const hits = (q ? list.filter(h => h.name.toLowerCase().includes(q) || h.mun.toLowerCase().includes(q)) : list.slice().sort((a, b) => b.area - a.area)).slice(0, 40);
+    act = 0;
+    $('results').innerHTML = hits.length ? hits.map((h, i) => `<button data-f="${h.best.id}" class="${i ? '' : 'act'}"><span><i style="display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:7px;background:${COLORS[h.cls]}"></i>${escapeHtml(h.name)}</span><small>${escapeHtml(h.mun)}</small></button>`).join('')
+      : '<div style="padding:8px;color:var(--dim);font-size:12px">No harbours found</div>';
+  };
+  $('q').oninput = render;
+  $('q').onkeydown = e => {
+    const bs = [...$('results').querySelectorAll('button')]; if (!bs.length) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); bs[act].classList.remove('act'); act = (act + (e.key === 'ArrowDown' ? 1 : -1) + bs.length) % bs.length; bs[act].classList.add('act'); bs[act].scrollIntoView({ block: 'nearest' }); }
+    if (e.key === 'Enter') bs[act].click();
+  };
+  $('results').onclick = e => {
+    const b = e.target.closest('button'); if (!b) return;
+    pause(); stopAttract(); hideIntro(); closePops(); caption(null); select(+b.dataset.f, true);
+  };
+  render();
+}
+})();
+</script>
+</body>
+</html>
