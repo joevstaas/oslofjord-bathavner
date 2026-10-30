@@ -302,8 +302,7 @@ svg{display:block}
 
   <h3 id="m-ai">AI models and tools</h3>
   <div class="ai">
-    <p><b>AI agent:</b> Anthropic Claude (Claude Opus 5.5) running in Claude Code on a local machine. It was used from Råde onwards (Råde, Fredrikstad, Bærum, Asker, Lier, Drammen and Oslo) and built this viewer.</p>
-    <p style="margin:0">The first seven municipalities (Holmestrand to Moss) were mapped by an AI assistant in an earlier hosted environment. Which model it was is not recorded in the project files.</p>
+    <p style="margin:0"><b>AI models:</b> the mapping was done with a mix of Anthropic Claude Opus 5.5 and OpenAI GPT-6.1 Sol. Both models followed the same methodology and the same instructions.</p>
   </div>
   <p style="margin-top:8px"><b>What the AI did:</b> it wrote and ran the processing scripts, retrieved the sources, looked at imagery tiles and review sheets with its built-in image understanding to classify candidates and adjust outlines, and logged every decision.</p>
   <p><b>What it did not do:</b> no object-detection or segmentation model was trained or used, and no harbour was classified automatically from pixels. All geometry operations are ordinary, repeatable code (Python with Shapely, PyProj and Pillow).</p>
