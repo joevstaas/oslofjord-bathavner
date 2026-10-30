@@ -1,48 +1,60 @@
-# Småbåthavner i Oslofjorden
+# Small-boat harbours in the Oslofjord
 
-Polygoner med sporbare metadata for småbåthavner i kommuner med kystlinje mot indre og ytre Oslofjord.
+Polygons with traceable metadata for small-boat harbours (marinas, boat club harbours and other shared berthing facilities) in the municipalities bordering the inner and outer Oslofjord, Norway.
 
-Godkjent status: **456 polygoner fra 14 kommuner** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo). Gjenstår: Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Sarpsborg, Halden, Porsgrunn, Bamble (Ås uavklart). Se `status.json`.
+Approved status: **456 polygons from 14 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo). Remaining: Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Sarpsborg, Halden, Porsgrunn, Bamble (Ås not yet confirmed as coastal). See `status.json`.
 
-Datasettet er en bilde- og kildebasert kartlegging, ikke offisielle havne- eller eiendomsgrenser. Godkjenning fjerner ikke klassifiserings- eller geometriusikkerhet.
+The dataset is an imagery- and source-based mapping. It does not show official harbour or property boundaries. Approval does not remove uncertainty about classification or geometry.
 
-## Analysemetoden
+## Analysis method
 
-Full metodikk og kommunelogger står i [`docs/METODIKK.md`](docs/METODIKK.md). Kortversjon (metode 1.2, brukt fra Fredrikstad):
+The full methodology and the per-municipality logs are in [`docs/METODIKK.md`](docs/METODIKK.md) (Norwegian). Summary of method version 1.2, used from Fredrikstad onwards:
 
-### Hva er en småbåthavn her?
+### What counts as a small-boat harbour?
 
-| Klasse | Regel |
+| Class | Rule |
 |---|---|
-| `smabathavn` | Felles anlegg med minst 10 båtplasser, eller dokumentert marina/båtforening med faste plasser |
-| `mulig_smabathavn` | Flere sammenhengende brygger, men antall plasser eller felles drift er uklart |
-| Utelatt | Spredte private brygger, badebrygger, fergekaier, ramper, rene moloer, planlagte anlegg |
+| `smabathavn` (harbour) | Shared facility with at least 10 berths, or a documented marina or boat club with permanent berths |
+| `mulig_smabathavn` (possible harbour) | Several connected piers, but the number of berths or the shared operation is unclear |
+| Excluded | Scattered private piers, bathing piers, ferry quays, slipways, plain breakwaters, planned facilities |
 
-Ti plasser er en prosjektgrense, ikke en juridisk definisjon. En foreningsadresse beviser ikke hvor havna ligger, og et planområde er ikke en eksisterende havn.
+The ten-berth threshold is a project rule, not a legal definition. A club's postal address does not prove where its harbour is, and a zoning plan area is not an existing harbour.
 
-### Arbeidsflyt per kommune
+### Workflow per municipality
 
-1. **Avgrensning og dekning.** Kommunegrensen hentes fra Kartverket. Strandlinjen deles i ruter, og hver rute får flybilder (Esri World Imagery, ca. 0,67 m/piksel) og topografisk kart (Kartverket WMS), lagret med georeferering i EPSG:25833.
-2. **Kandidatsøk fra to uavhengige kilder.**
-   - *Kart:* OSM-pirer, marinaer og fortøyninger fra Overpass.
-   - *Kilder:* Enhetsregisteret (båtforeninger, marinaer), Kartverkets stedsnavn, kommunens havnesider og andre offentlige dokumenter.
-3. **Automatisk utkast.** OSM-pirer innen 60 m av hverandre klynges. Hver klynge bufres 12 m og lukkes med 20 m. Resultatet klippes mot vannflaten i det topografiske kartet og mot kommunegrensen. Dette er bare et forslag til geometri.
-4. **Visuell vurdering av hver kandidat.** Utkastet tegnes oppå flybildet. Hver kandidat får én beslutning: inkluder, klipp, del, legg til manuell flate, tegn manuelt eller utelat. Hver beslutning har en begrunnelse og ligger i `decisions.py` og kandidatloggen.
-5. **Systematisk bildesøk.** Alle fjordnære detaljfliser gjennomgås i kontaktark med kandidatene påtegnet, for å finne anlegg som mangler i OSM. Slike anlegg tegnes manuelt.
-6. **Polygonregel.** Polygonet dekker brygger, båtplasser og sjøen mellom dem, ikke hele bukta, landarealer eller foreningens eiendom. Adskilte deler blir egne delpolygoner med felles `harbour_id`. Anlegg som krysser en kommunegrense klippes, merkes `municipality_clipped` og knyttes sammen med `cross_municipality_group_id`.
-7. **Kontroll.** Alle eksporterte polygoner kontrolleres som overlegg på flybildet etter siste endring. I tillegg valideres geometri, unike ID-er, kommunegrense, overlapp mot hverandre og mot samlefilen, og at CSV stemmer med GeoJSON.
-8. **Godkjenning.** Brukeren godkjenner kommunen (eller en avtalt batch) ved å se på GeoJSON-filen. Først da kopieres leveransen til `data/kommuner/<kode>-<navn>/rev-NN/` og legges inn i samlefilen. Usikre avgrensninger og åpne kandidater beholdes. Nye funn i godkjente kommuner legges i en egen ventelogg (`neighbour-pending.json`).
+1. **Boundary and coverage.** The municipal boundary comes from the Norwegian Mapping Authority (Kartverket). The shoreline is divided into tiles. For each tile, aerial imagery (Esri World Imagery, about 0.67 m/pixel) and a topographic map (Kartverket WMS) are stored with georeferencing in EPSG:25833.
+2. **Candidate search from two independent sources.**
+   - *Map:* OpenStreetMap piers, marinas and moorings from Overpass.
+   - *Sources:* the Central Coordinating Register for Legal Entities (boat clubs, marinas), Kartverket place names, municipal harbour pages and other public documents.
+3. **Automatic draft.** OSM piers within 60 m of each other are clustered. Each cluster is buffered by 12 m and closed by 20 m. The result is clipped to the water area of the topographic map and to the municipal boundary. This is only a draft geometry.
+4. **Visual review of every candidate.** The draft is drawn on top of the aerial image. Each candidate gets one decision: include, clip, split, add a manual area, draw manually, or exclude. Every decision has a stated reason and is recorded in `decisions.py` and the candidate ledger.
+5. **Systematic imagery sweep.** All detail tiles near the fjord are reviewed in contact sheets with the candidates overlaid, to find harbours missing from OSM. These are drawn manually.
+6. **Polygon rule.** A polygon covers the piers, the berths and the water between them. It does not cover the whole bay, land areas or the club's property. Separate parts become separate polygons that share a `harbour_id`. Harbours that cross a municipal boundary are clipped, flagged with `municipality_clipped` and linked through `cross_municipality_group_id`.
+7. **Quality control.** Every exported polygon is checked as an overlay on the aerial image after the last edit. The delivery is also validated for:
+   - valid geometry
+   - unique IDs
+   - fit to the municipal boundary
+   - no overlap with other polygons or with the combined file
+   - CSV matching the GeoJSON
+8. **Approval.** The user approves each municipality, or an agreed batch, by inspecting the GeoJSON file. Only after approval is the delivery copied to `data/kommuner/<code>-<name>/rev-NN/` and merged into the combined file. Uncertain boundaries and open candidates are kept. New findings in already approved municipalities go to a separate pending log (`neighbour-pending.json`).
 
-Hver polygonrad har blant annet klassifisering med begrunnelse, metodefelt (OSM-basert eller manuelt), kilder og OSM-ID-er, bildekilde og oppløsning, og flagg for usikker avgrensning (`needs_orthophoto_review`). Veggklokketid registreres per kommune i `timing.json`.
+Each polygon row records, among other things:
+- the classification and its basis
+- the method field (OSM-based or drawn manually)
+- sources and OSM IDs
+- the imagery source and its resolution
+- a flag for uncertain boundaries (`needs_orthophoto_review`)
 
-### Kjente begrensninger
+Wall-clock time is recorded per municipality in `timing.json`. Field names and values are in Norwegian.
 
-- Bildenes opptaksdato er ukjent. Strukturen er påvist, men ikke at havna er i drift i dag.
-- OSM-pirer kan ligge forskjøvet i forhold til bildet. Båter langs kai uten pir i OSM kan falle utenfor polygonet.
-- Visuell analyse kan overse små anlegg. Det er ikke gjort befaring eller landmåling.
-- Holmestrand og Horten er eldre kartbaserte piloter og er ikke etterprøvd med dagens metode.
+### Known limitations
 
-## Kom i gang
+- Image acquisition dates are unknown. A structure is shown to exist, but not that it is in use today.
+- OSM piers can be offset from the imagery. Boats moored along quays without an OSM pier can fall outside the polygon.
+- Visual analysis can miss small facilities. No field survey or land surveying has been done.
+- Holmestrand and Horten are earlier map-based pilots and have not been re-checked with the current method.
+
+## Getting started
 
 ```bash
 git clone https://github.com/joevstaas/oslofjord-bathavner.git
@@ -50,23 +62,23 @@ cd oslofjord-bathavner
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/validate_project.py   # skal gi 456 polygoner / 14 kommuner
+python scripts/validate_project.py   # expects 456 polygons / 14 municipalities
 claude
 ```
 
-Python 3.11 eller nyere. Claude Code installeres separat.
+Requires Python 3.11 or newer. Claude Code is installed separately.
 
-Flybilder, rådata og QA-ark for godkjente kommuner er ikke med i git (se `.gitignore`). De trengs bare hvis en godkjent kommune skal revideres, og kan hentes på nytt. Valideringen melder derfor 0 kommuner med originalbilder etter kloning.
+Aerial images, raw downloads and QA sheets for approved municipalities are not in git (see `.gitignore`). They are only needed to revise an approved municipality and can be fetched again. After cloning, the validation script therefore reports 0 municipalities with original imagery.
 
-## Innhold
+## Contents
 
-- `data/samlet/`: godkjent samlefil (GeoJSON, WGS84) og manifest.
-- `data/kommuner/<kode>-<navn>/rev-NN/`: godkjente kommuneleveranser med metadata-CSV, kandidatlogg, beslutninger, åpne kandidater, dekning og tidtaking.
-- `status.json`: gjeldende status med relative stier.
-- `docs/METODIKK.md`: autoritativ metodikk og kommunelogger. `docs/OVERLEVERING.md`: filkart og videreføring.
-- `CLAUDE.md`: prosjektinstrukser til Claude Code.
-- `work/`: analyseskript per kommune. Den nyeste kommunen (`0301-oslo`) er mal for neste.
-- `archive/original/`: historiske leveranser, notater og skript for de første kommunene.
-- `scripts/validate_project.py`: lokal kontroll uten nettverk.
+- `data/samlet/`: the approved combined file (GeoJSON, WGS84) and its manifest.
+- `data/kommuner/<code>-<name>/rev-NN/`: approved municipal deliveries with metadata CSV, candidate ledger, decisions, open candidates, coverage and timing.
+- `status.json`: current status with relative paths.
+- `docs/METODIKK.md`: the authoritative methodology and municipal logs. `docs/OVERLEVERING.md`: file map and handover notes.
+- `CLAUDE.md`: project instructions for Claude Code.
+- `work/`: analysis scripts per municipality. The most recent one (`0301-oslo`) is the template for the next.
+- `archive/original/`: historical deliveries, notes and scripts for the first municipalities.
+- `scripts/validate_project.py`: local check that needs no network.
 
-Kilder: © Kartverket; Esri, Vantor, Earthstar Geographics and the GIS User Community; © OpenStreetMap contributors (ODbL); Enhetsregisteret.
+Sources: © Kartverket; Esri, Vantor, Earthstar Geographics and the GIS User Community; © OpenStreetMap contributors (ODbL); Brønnøysund Register Centre (Enhetsregisteret).
