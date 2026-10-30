@@ -313,7 +313,6 @@ svg{display:block}
 
   <h3 id="m-num">Numbers</h3>
   <div class="kpi" id="kpi"></div>
-  <p style="font-size:11.5px;color:var(--dim)">Wall-clock time is recorded per municipality. Downloads partly ran in parallel, so times for different municipalities are not directly comparable. Token use and cost were not measured.</p>
 
   <h3>Read more</h3>
   <p><a href="https://github.com/joevstaas/oslofjord-bathavner#analysis-method" target="_blank" rel="noopener">Method summary (README) ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/blob/main/docs/METODIKK.md" target="_blank" rel="noopener">Full methodology and municipal logs, in Norwegian ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/tree/main/data" target="_blank" rel="noopener">Data: GeoJSON, CSV and candidate ledgers ↗</a></p>
@@ -718,7 +717,7 @@ function wireUI() {
   document.querySelectorAll('#method .toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   fetch(BASE + 'data/meta.json').then(r => r.json()).then(m => {
     $('kpi').innerHTML = [[fmt(m.polygons), 'polygons'], [fmt(m.harbours), 'harbours'], [m.municipalities, 'municipalities approved'],
-      [fmt(m.candidates_logged), `candidates logged (${m.ledger_municipalities} municipalities)`], [`≈ ${m.wall_hours} h`, `wall-clock time (${m.timed_municipalities} municipalities)`], [m.updated, 'last update']]
+      [fmt(m.candidates_logged), `candidates logged (${m.ledger_municipalities} municipalities)`], [m.updated, 'last update']]
       .map(([v, l]) => `<div><b>${v}</b>${l}</div>`).join('');
   }).catch(() => {});
   $('aboutStats').textContent = `${fmt(H.features.length)} polygons (${fmt(Object.keys(harbours).length)} harbours) from ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`;
