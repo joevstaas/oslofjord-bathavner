@@ -4,6 +4,8 @@ Polygons with traceable metadata for small-boat harbours (marinas, boat club har
 
 Approved status: **456 polygons from 14 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo). Remaining: Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Sarpsborg, Halden, Porsgrunn, Bamble (Ås not yet confirmed as coastal). See `status.json`.
 
+**Explore it in 3D:** [www.oceandatajo.com/labs/oslofjord-bathavner](https://www.oceandatajo.com/labs/oslofjord-bathavner). The site is in `site/`, and its data is built with `scripts/build_flyover_data.py`. The dataset will be published on the [Ocean Data Platform](https://app.hubocean.earth/) from [HUB Ocean](https://www.hubocean.earth/).
+
 The dataset is an imagery- and source-based mapping. It does not show official harbour or property boundaries. Approval does not remove uncertainty about classification or geometry.
 
 ## Analysis method
@@ -117,3 +119,5 @@ Aerial images, raw downloads and QA sheets for approved municipalities are not i
 - `scripts/validate_project.py`: local check that needs no network.
 
 Sources: © Kartverket; Esri, Vantor, Earthstar Geographics and the GIS User Community; © OpenStreetMap contributors (ODbL); Brønnøysund Register Centre (Enhetsregisteret).
+
+Created by [Jo Øvstaas](https://github.com/joevstaas).
