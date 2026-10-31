@@ -78,3 +78,8 @@ Se kommune-README, `coverage.json`, `validation.json`, `visual-review.json`, `so
 ### Halden rev-01 godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente og bestilte commit, push og PR. Alle 66 polygoner / 31 foreløpige anleggsgrupper er innlemmet, inkludert 11 mulige. Samlet 758 polygoner fra 22 kommuner. De 692 tidligere features er bevart uendret med kanonisk SHA-256 i `data/kommuner/3101-halden/rev-01/approval.json`. Alle 66 avgrensningers kontrollbehov, elleve åpne avklaringer, ukjent bildedato/drift og ufullstendig innlandskartlegging beholdes. Nettstedets lokale kartdata og kommunestatus er oppdatert; publisering følger merge/utrulling. Ingen neste kommune er startet. Bygg/finalisering av Halden stopper nå ved godkjent revisjon; teknisk kontroll bruker `work/3101-halden/validate.py`.
+
+
+### Holmsåsen – avgrenset etterkontroll 2026-10-31
+
+Brukerbildet av campingbukta er stedfestet i georefererte Esri-flybilder. Begge viste pirer manglet: H08 nordre pir beholdes som mulig småbåthavn (ti faste plasser/felles drift uklart), H09 søndre fellespir har minst ti tydelige plasser og klassifiseres som småbåthavn. To nye polygoner / to grupper ligger til godkjenning i `data/kommuner/3903-holmestrand/rev-02-holmsaasen/`. Eksisterende K04 med Holmsåsen-navn ligger nord for brukerbildets bukt; navnesøk alene var misvisende. To bilderammer og tilstøtende enkeltbrygger er kontrollert; dette er ikke full ny kommuneanalyse. Omriss er visuelt kontrollert og geometrier/ID-er/kommunegrense/overlapp/CSV kontrollert uten feil. Ukjent bildedato, nøyaktighet og operatører beholdes. Godkjent leveranse, samlet fil og nettsted er uendret. Læring: treff på stedsnavn må kontrolleres geometrisk før det hevdes at et brukerfunn allerede finnes.

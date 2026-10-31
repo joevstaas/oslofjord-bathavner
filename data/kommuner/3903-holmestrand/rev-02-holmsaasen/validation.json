@@ -1,0 +1,21 @@
+{
+  "features": 2,
+  "groups": 2,
+  "all_geometries_valid": true,
+  "unique_ids": true,
+  "id_collisions_with_combined": [],
+  "outside_municipality_m2": [
+    0.0,
+    0.0
+  ],
+  "overlap_with_combined_m2": [
+    0.0,
+    0.0
+  ],
+  "internal_overlap_m2": 0.0,
+  "csv_rows": 2,
+  "baseline_sha256": "070912b671259e3aaa3c17e491fd528b368b1ae2a0504aa8d1f3770e7aea172a",
+  "csv_ids_match_geojson": true,
+  "exported_overlays_visually_reviewed": true,
+  "visual_review_note": "Begge detaljpaneler gjennomgått; omriss følger pir, utriggere og mellomliggende sjø."
+}

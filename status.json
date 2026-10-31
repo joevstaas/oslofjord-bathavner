@@ -489,5 +489,18 @@
    "website_changed": false,
    "reviewed_date": "2026-10-31"
   }
+ ],
+ "area_reviews": [
+  {
+   "municipality": "Holmestrand",
+   "municipality_code": "3903",
+   "area": "Holmsåsen campingbukt",
+   "status": "til_godkjenning",
+   "path": "data/kommuner/3903-holmestrand/rev-02-holmsaasen",
+   "new_polygons": 2,
+   "new_groups": 2,
+   "possible_groups": 1,
+   "combined_unchanged": true
+  }
  ]
 }
