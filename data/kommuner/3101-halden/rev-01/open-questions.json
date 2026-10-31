@@ -1,0 +1,118 @@
+[
+ {
+  "id": "Q01",
+  "candidate_ids": [],
+  "place": "Daterte ortofoto og drift",
+  "need": "Alle 66 avgrensninger trenger kontroll mot datert ortofoto. Lokal opptaksdato, grunnoppløsning, absolutt nøyaktighet og dagens drift er ukjent. Omprojiserte eller oppskalerte piksler er ikke opptaksoppløsning.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q02",
+  "candidate_ids": [
+   "C013"
+  ],
+  "place": "Røsnes og kommunegrensen",
+  "need": "Fem Halden-polygoner er klippet mot offisiell grense og har ingen arealoverlapp med Sarpsborgs to eksisterende polygoner. Drift, gruppeinndeling og den presise administrative grensen ved båtplassene må etterprøves. ROSNES-3101-3105 er felles nøkkel.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q03",
+  "candidate_ids": [
+   "C002",
+   "C006",
+   "C012",
+   "C016",
+   "C021",
+   "M01S",
+   "M06S",
+   "M06SS",
+   "M11",
+   "M13"
+  ],
+  "place": "Mulige anlegg og private brygger",
+  "need": "Bekreft faste plasser, kapasitet per fysisk fellesanlegg og organisering. Spredte boligbrygger er ikke summert til terskel. Foreløpige grupper kan måtte splittes; 11 grupper er mulige.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q04",
+  "candidate_ids": [
+   "C014",
+   "C010"
+  ],
+  "place": "Sponvika Velbrygga",
+  "need": "Velforeningen dokumenterer 28 plasser ved Velhuset i medlemsbrev 2022. Presis kobling mellom Velhuset og en av de kartlagte bryggene er ikke sikkert verifisert. Tallet er ikke lagt på en tilfeldig polygon eller brukt som nåtidskapasitet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q05",
+  "candidate_ids": [
+   "C023"
+  ],
+  "place": "Jugertangen og Halden Seilforening",
+  "need": "Kommunens turkart 2011 beskriver Jugertangen-foreningen etter Gamle Sørhaugen. Bildet viser store fellesbrygger, men operatørfordeling mellom disse og seilforeningen er uklar. Foreningsadresser er ikke brukt som sjøposisjon.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q06",
+  "candidate_ids": [
+   "M15",
+   "M16",
+   "M25"
+  ],
+  "place": "Tista og eldre kommunekart",
+  "need": "Området Høvleriet er ombygd siden 2014. Vestre Tistasenter syd 2-rekke og en liten Grønland-rekke nedstrøms brua er ikke sikkert gjenfunnet og står uten egne polygoner. Mellomrom mot Tistasenteret og kommunal/privat plassfordeling må kontrolleres.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q07",
+  "candidate_ids": [
+   "M22",
+   "C017",
+   "C018",
+   "C019"
+  ],
+  "place": "Sentrum: bruksgrenser",
+  "need": "Sundsbrygga er dokumentert langsides uten gamle utriggere. Grensene mellom gjestebruk, faste utleieplasser og service kan endres. Tre store plasser ved Felleskjøpet og kommunens gjestedelopplysninger er ikke total havnekapasitet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q08",
+  "candidate_ids": [
+   "C026",
+   "M19",
+   "M21"
+  ],
+  "place": "Haldenkanalen og Brekke",
+  "need": "Tangen har dokumentert gjestebruk og oppgradering i 2026; ny geometri er ikke konstruert fra planen. Anleggsbrygga er levert. Gjestebrygga oppstrøms Brekke er dokumentert, men ikke sikkert skilt fra bru/ventekai/passasjerkai i bildet, og står uten polygon. Nedstrøms ventekai er ikke automatisk egen småbåthavn.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q09",
+  "candidate_ids": [
+   "M05",
+   "C016"
+  ],
+  "place": "Solglitter",
+  "need": "Knivsø og Unnebergstranda har kraftig glitter som begrenser særlig små ytterkanter. Bryggemønster kan følges, men omrissene er usikre. Suppler med lokale daterte ortofoto.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q10",
+  "candidate_ids": [],
+  "place": "Innlandet og fullstendighet",
+  "need": "Fem opprinnelige innlandsklynger og kildestyrte kontroller ved Tangen/Brekke er undersøkt. Hele Femsjøen, Ørsjøen og øvrige ferskvannsstrender er ikke systematisk bildesøkt. Fullstendighet kan ikke påstås.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q11",
+  "candidate_ids": [
+   "M01",
+   "C004",
+   "M10",
+   "M12"
+  ],
+  "place": "Planlagt utvidelse er ikke bygget havn",
+  "need": "KU 2020 om Røsneskilen, Svalerødkilen, Ystehedekilen og Skottene er bare brukt som lokalisering/kontroll. Nye planarealer og fremtidige plasser er ikke tegnet inn eller talt som eksisterende kapasitet.",
+  "status": "aapen"
+ }
+]

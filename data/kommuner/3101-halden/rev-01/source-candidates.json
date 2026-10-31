@@ -1,0 +1,246 @@
+[
+ {
+  "id": "S01",
+  "name": "Reglement og prisliste for faste båtplasser finner du her (PDF, 258 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/idfd72eb3-8a2a-4bfc-9461-465027a88a8d/gebyrer-og-forskrifter-2026-bryggeplasser-og-gjestehavn.PDF",
+  "local_original": "work/3101-halden/raw/kommunekart-1.pdf",
+  "candidate_ids": [],
+  "feature_ids": [],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S02",
+  "name": "Verven 1-2-3 (PDF, 116 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i039d3b90-52ea-4a74-803c-7daeb00df7d2/verven-1-2-3.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-2.pdf",
+  "candidate_ids": [
+   "C022"
+  ],
+  "feature_ids": [
+   "3101-H16-B01",
+   "3101-H16-B02",
+   "3101-H16-B03"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S03",
+  "name": "Langbrygga  (PDF, 148 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i50a47442-a543-4ce3-84ae-8b6eeb9dc4a2/langbrygga.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-3.pdf",
+  "candidate_ids": [
+   "C019"
+  ],
+  "feature_ids": [
+   "3101-H14-B01",
+   "3101-H14-B02"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S04",
+  "name": "Sundsbrygga (PNG, 2 MB)",
+  "url": "https://www.halden.kommune.no/_f/p1/if110d577-d05c-4afe-a636-85a3822e1a77/sundsbrygga-pdf-hjemmeside.PNG",
+  "local_original": "work/3101-halden/raw/kommunekart-4.png",
+  "candidate_ids": [
+   "M22"
+  ],
+  "feature_ids": [
+   "3101-H12-B02",
+   "3101-H12-B03"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S05",
+  "name": "Bro-overgangen (PNG, 1018 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i1d9797b2-040b-4392-b6a9-442c0067a62c/bro-overgangen-pdf-hjemmeside.PNG",
+  "local_original": "work/3101-halden/raw/kommunekart-5.png",
+  "candidate_ids": [
+   "M22"
+  ],
+  "feature_ids": [
+   "3101-H12-B02",
+   "3101-H12-B03"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S06",
+  "name": "Felleskjøpet  (PDF, 174 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i886cc276-c9ef-459e-a676-a72737531293/felleskjopet-batplass.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-6.pdf",
+  "candidate_ids": [
+   "C017"
+  ],
+  "feature_ids": [
+   "3101-H12-B01"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S07",
+  "name": "Grønland (PDF, 204 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/iefb09c64-c6d4-4b50-a379-fcde43c207f5/gronnland-helarsplass.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-7.pdf",
+  "candidate_ids": [
+   "M15"
+  ],
+  "feature_ids": [
+   "3101-H30-B01",
+   "3101-H30-B02"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S08",
+  "name": "Tista senter (PDF, 230 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/iecfc03bf-3c4d-44e2-98e4-bb54581b121f/tista-senter-helarsplass.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-8.pdf",
+  "candidate_ids": [
+   "M16"
+  ],
+  "feature_ids": [
+   "3101-H30-B03",
+   "3101-H30-B04",
+   "3101-H30-B05"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S09",
+  "name": "Tista Senter Syd (PNG, 2 MB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i4ca7c1b5-9bdc-4480-8d54-d184428e98f1/tista-senter-syd-pdf-hjemmeside.PNG",
+  "local_original": "work/3101-halden/raw/kommunekart-9.png",
+  "candidate_ids": [
+   "M16"
+  ],
+  "feature_ids": [
+   "3101-H30-B03",
+   "3101-H30-B04",
+   "3101-H30-B05"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S10",
+  "name": "Tista Senter Syd 2 (PNG, 2 MB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i167980f2-6fe1-4778-8c8f-d4f2bbfb13cd/tista-senter-syd-2-pdf-hjemmeside.PNG",
+  "local_original": "work/3101-halden/raw/kommunekart-10.png",
+  "candidate_ids": [
+   "M16"
+  ],
+  "feature_ids": [
+   "3101-H30-B03",
+   "3101-H30-B04",
+   "3101-H30-B05"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S11",
+  "name": "Rema 1000 Høvleriet (PDF, 185 kB)",
+  "url": "https://www.halden.kommune.no/_f/p1/i6139e098-c6e9-4330-ad17-1a7ac99b92a3/rema-1000-hovleriet-helarsplass.pdf",
+  "local_original": "work/3101-halden/raw/kommunekart-11.pdf",
+  "candidate_ids": [
+   "M25"
+  ],
+  "feature_ids": [
+   "3101-H30-B06",
+   "3101-H30-B07",
+   "3101-H30-B08"
+  ],
+  "decision": "kildekart_sammenholdt_med_bilde",
+  "note": "Eldre kartillustrasjoner er ikke kopiert som dagens geometri. Grønland nedstrøms og Tistasenter syd 2 er delvis uavklart; se Q06."
+ },
+ {
+  "id": "S12",
+  "name": "Sponvika Velbrygga",
+  "candidate_ids": [],
+  "feature_ids": [],
+  "decision": "aapen_delvis_stedfesting",
+  "note": "Dokumentert 28 plasser i 2022, presis bryggekobling uavklart; ikke overført til polygon."
+ },
+ {
+  "id": "S13",
+  "name": "Halden Seilforening / Jugertangen",
+  "candidate_ids": [
+   "C023"
+  ],
+  "feature_ids": [
+   "3101-H17-B01",
+   "3101-H17-B02",
+   "3101-H17-B03",
+   "3101-H17-B04",
+   "3101-H17-B05",
+   "3101-H17-B06"
+  ],
+  "decision": "aapen_delvis_stedfesting",
+  "note": "Fysiske brygger levert, eksakt operatørfordeling åpen."
+ },
+ {
+  "id": "S14",
+  "name": "Tangen brygge",
+  "candidate_ids": [
+   "C026"
+  ],
+  "feature_ids": [
+   "3101-H18-B01"
+  ],
+  "decision": "vurdert",
+  "note": "Dokumentert gjestebruk; fysisk kai stedfestet. Plan for 2026 er ikke bygget-geometri."
+ },
+ {
+  "id": "S15",
+  "name": "Brekke gjesteanlegg",
+  "candidate_ids": [
+   "M19",
+   "M21"
+  ],
+  "feature_ids": [
+   "3101-H31-B01"
+  ],
+  "decision": "aapen_delvis_stedfesting",
+  "note": "Anleggsbrygga levert. Oppstrøms gjestebrygge åpen uten polygon."
+ },
+ {
+  "id": "S16",
+  "name": "KU Røsneskilen / Svalerødkilen / Ystehedekilen / Skottene",
+  "candidate_ids": [
+   "M01",
+   "C004",
+   "M10",
+   "M12"
+  ],
+  "feature_ids": [
+   "3101-H03-B01",
+   "3101-H03-B02",
+   "3101-H19-B01",
+   "3101-H19-B02",
+   "3101-H19-B03",
+   "3101-H19-B04",
+   "3101-H22-B01",
+   "3101-H24-B01"
+  ],
+  "decision": "vurdert",
+  "note": "Planutvidelser er ikke brukt som eksisterende havneareal."
+ },
+ {
+  "id": "S17",
+  "name": "Halden Båtforening",
+  "candidate_ids": [],
+  "feature_ids": [],
+  "decision": "vurdert",
+  "note": "Klubbhus ved byhavna er ikke egen ny havn. Foreningens øy Brattholmen er i Hvaler, ikke plassert i Halden."
+ }
+]

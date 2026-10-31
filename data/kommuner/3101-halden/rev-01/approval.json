@@ -1,0 +1,14 @@
+{
+ "approved_utc": "2026-10-31T16:48:04Z",
+ "authorization": "Bruker: Godkjent. Commit, push og PR",
+ "revision": 1,
+ "polygons": 66,
+ "harbours": 31,
+ "possible_harbours": 11,
+ "uncertain_geometries": 66,
+ "known_uncertainties_retained": true,
+ "previous_features": 692,
+ "previous_features_sha256": "de987d17c43157e2f0e0801b3f047c746a65f68745db5ccb71b60e5ad266ef6e",
+ "combined_features": 758,
+ "municipalities": 22
+}

@@ -1,0 +1,2460 @@
+{
+ "C001": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C002": {
+  "action": "include",
+  "name": "Røsneskilen – nordlig brygge ved Flatskjær",
+  "group": "C002",
+  "parts": [
+   {
+    "frame": "C002",
+    "pixels": [
+     [
+      365,
+      344
+     ],
+     [
+      391,
+      344
+     ],
+     [
+      450,
+      403
+     ],
+     [
+      427,
+      428
+     ],
+     [
+      393,
+      393
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Få synlige båter; omtrent ti plasser er plausibelt, men ikke sikkert. Beskrivende navn.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C003": {
+  "action": "include",
+  "name": "Røsneskilen – sørlig brygge ved Flatskjær",
+  "group": "C003",
+  "parts": [
+   {
+    "frame": "C003",
+    "pixels": [
+     [
+      323,
+      337
+     ],
+     [
+      340,
+      328
+     ],
+     [
+      486,
+      417
+     ],
+     [
+      482,
+      455
+     ],
+     [
+      455,
+      462
+     ],
+     [
+      376,
+      395
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Lang fellespir med tydelig dobbeltsidig plassmønster. Operatør ukjent.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C004": {
+  "action": "include",
+  "name": "Svalerødkilen – nordlige fellesbrygger",
+  "group": "C004",
+  "parts": [
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      335,
+      342
+     ],
+     [
+      349,
+      339
+     ],
+     [
+      395,
+      371
+     ],
+     [
+      385,
+      386
+     ]
+    ]
+   },
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      305,
+      359
+     ],
+     [
+      317,
+      356
+     ],
+     [
+      372,
+      387
+     ],
+     [
+      357,
+      402
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Synlige eksisterende brygger. Foreslått utvidelse i kommunens KU 146 er ikke digitalisert.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C005": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C006": {
+  "action": "include",
+  "name": "Svalerødkilen – brygger ved odden",
+  "group": "C006",
+  "parts": [
+   {
+    "frame": "C006",
+    "pixels": [
+     [
+      537,
+      113
+     ],
+     [
+      579,
+      117
+     ],
+     [
+      579,
+      188
+     ],
+     [
+      559,
+      233
+     ],
+     [
+      518,
+      297
+     ],
+     [
+      492,
+      300
+     ],
+     [
+      529,
+      236
+     ],
+     [
+      548,
+      174
+     ],
+     [
+      550,
+      132
+     ]
+    ]
+   },
+   {
+    "frame": "C006",
+    "pixels": [
+     [
+      377,
+      373
+     ],
+     [
+      302,
+      344
+     ],
+     [
+      304,
+      318
+     ],
+     [
+      331,
+      317
+     ],
+     [
+      384,
+      343
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Små båter langs østsiden av odden og vestlig brygge. Kontinuitet, faste plasser og organisering må avklares. Land på odden og tom sørlig pir utelatt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C007": {
+  "action": "include",
+  "name": "Svalerødkilen – østre nordbrygger",
+  "group": "C007",
+  "parts": [
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      599,
+      473
+     ],
+     [
+      533,
+      480
+     ],
+     [
+      532,
+      453
+     ],
+     [
+      596,
+      461
+     ]
+    ]
+   },
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      594,
+      520
+     ],
+     [
+      568,
+      539
+     ],
+     [
+      500,
+      503
+     ],
+     [
+      507,
+      480
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "To fellesbrygger med tydelig plassmønster; foreløpig fysisk gruppe, drift ukjent.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C008": {
+  "action": "include",
+  "name": "Mørvikholmen – båtplasser langs strandbrygga",
+  "group": "C008",
+  "parts": [
+   {
+    "frame": "C008",
+    "pixels": [
+     [
+      483,
+      185
+     ],
+     [
+      516,
+      180
+     ],
+     [
+      420,
+      445
+     ],
+     [
+      380,
+      515
+     ],
+     [
+      348,
+      561
+     ],
+     [
+      267,
+      534
+     ],
+     [
+      270,
+      515
+     ],
+     [
+      324,
+      542
+     ],
+     [
+      366,
+      475
+     ],
+     [
+      402,
+      372
+     ],
+     [
+      449,
+      240
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Sammenhengende brygge-/kaibelter og tydelig rekke av faste plasser; land og åpent basseng holdes utenfor.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C009": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C010": {
+  "action": "include",
+  "name": "Sponvika – nordre fellesbrygger",
+  "group": "C010",
+  "parts": [
+   {
+    "frame": "C010",
+    "pixels": [
+     [
+      400,
+      154
+     ],
+     [
+      359,
+      143
+     ],
+     [
+      208,
+      154
+     ],
+     [
+      201,
+      200
+     ],
+     [
+      231,
+      215
+     ],
+     [
+      403,
+      169
+     ]
+    ]
+   },
+   {
+    "frame": "C010",
+    "pixels": [
+     [
+      399,
+      225
+     ],
+     [
+      414,
+      225
+     ],
+     [
+      430,
+      389
+     ],
+     [
+      323,
+      420
+     ],
+     [
+      308,
+      393
+     ],
+     [
+      337,
+      374
+     ],
+     [
+      409,
+      369
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "To tydelige felles båtplassrekker; øvrige korte boligbrygger summeres ikke. Foreløpig fysisk gruppe, operatørgrense ukjent.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C011": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C012": {
+  "action": "include",
+  "name": "Sponvika sentrum – bryggeanlegg",
+  "group": "C012",
+  "parts": [
+   {
+    "frame": "C012",
+    "pixels": [
+     [
+      308,
+      362
+     ],
+     [
+      362,
+      348
+     ],
+     [
+      399,
+      457
+     ],
+     [
+      374,
+      469
+     ],
+     [
+      358,
+      400
+     ],
+     [
+      307,
+      395
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Brygger ved sjøhus/vertshus. Faste fellesplasser og eventuell gjestehavn er ikke dokumentert sikkert; omkring ti plasser plausibelt. Private nabobrygger utelatt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C013": {
+  "action": "include",
+  "name": "Røsnes – Halden-del av grensekryssende båtanlegg",
+  "group": "C013",
+  "parts": [
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      537,
+      337
+     ],
+     [
+      515,
+      343
+     ],
+     [
+      474,
+      309
+     ],
+     [
+      479,
+      286
+     ],
+     [
+      495,
+      284
+     ]
+    ]
+   },
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      495,
+      383
+     ],
+     [
+      446,
+      350
+     ],
+     [
+      436,
+      320
+     ],
+     [
+      448,
+      316
+     ],
+     [
+      505,
+      367
+     ]
+    ]
+   },
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      435,
+      425
+     ],
+     [
+      356,
+      365
+     ],
+     [
+      365,
+      338
+     ],
+     [
+      384,
+      335
+     ],
+     [
+      449,
+      408
+     ]
+    ]
+   },
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      402,
+      464
+     ],
+     [
+      328,
+      435
+     ],
+     [
+      320,
+      407
+     ],
+     [
+      334,
+      405
+     ],
+     [
+      403,
+      451
+     ]
+    ]
+   },
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      346,
+      525
+     ],
+     [
+      288,
+      490
+     ],
+     [
+      285,
+      468
+     ],
+     [
+      305,
+      469
+     ],
+     [
+      357,
+      507
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Klippes mot offisiell kommunegrense. Sarpsborg-delene 3105-H20-B01/B02 beholdes uendret. Felles grensegruppe ROSNES-3101-3105; drift/gruppeinndeling og presis grense må kontrolleres.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C014": {
+  "action": "include",
+  "name": "Sponvika – østre fellesbrygge",
+  "group": "C014",
+  "parts": [
+   {
+    "frame": "C014",
+    "pixels": [
+     [
+      438,
+      334
+     ],
+     [
+      458,
+      366
+     ],
+     [
+      425,
+      389
+     ],
+     [
+      474,
+      445
+     ],
+     [
+      447,
+      470
+     ],
+     [
+      413,
+      459
+     ],
+     [
+      382,
+      415
+     ],
+     [
+      339,
+      418
+     ],
+     [
+      330,
+      395
+     ],
+     [
+      386,
+      375
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Synlig fellesanlegg med minst ti plasser. Kobling til Velbryggas 28 historiske plasser er ikke sikkert stedfestet og derfor ikke overført.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C015": {
+  "action": "exclude",
+  "reason": "Knivsø avgrenset i komplett ramme M05.",
+  "related": [
+   "M05"
+  ]
+ },
+ "C016": {
+  "action": "include",
+  "name": "Unnebergstranda – båtplassbrygge",
+  "group": "C016",
+  "parts": [
+   {
+    "frame": "C016",
+    "pixels": [
+     [
+      371,
+      315
+     ],
+     [
+      390,
+      319
+     ],
+     [
+      425,
+      413
+     ],
+     [
+      419,
+      470
+     ],
+     [
+      405,
+      474
+     ],
+     [
+      398,
+      421
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Solglitter hindrer sikker opptelling og yttergrense. Felles rekke med rundt ti plasser plausibelt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C017": {
+  "action": "include",
+  "name": "Felleskjøpet – kommunale langsidesplasser",
+  "group": "M22",
+  "parts": [
+   {
+    "frame": "M22",
+    "pixels": [
+     [
+      9,
+      439
+     ],
+     [
+      25,
+      433
+     ],
+     [
+      157,
+      611
+     ],
+     [
+      145,
+      627
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunen dokumenterer tre faste langsidesplasser for store båter i kommunalt havneanlegg; unntaket for dokumentert anlegg med faste plasser brukes.",
+  "note": "Tre plasser er publisert for dette delanlegget. Småbåtbruk kontra større fritidsfartøy må kontrolleres; øvrig industrikai utelatt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C018": {
+  "action": "include",
+  "name": "Halden gjestehavn – Kongens brygge",
+  "group": "C018",
+  "parts": [
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      415,
+      340
+     ],
+     [
+      433,
+      340
+     ],
+     [
+      469,
+      374
+     ],
+     [
+      454,
+      389
+     ],
+     [
+      431,
+      369
+     ],
+     [
+      414,
+      349
+     ]
+    ]
+   },
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      575,
+      319
+     ],
+     [
+      560,
+      348
+     ],
+     [
+      524,
+      334
+     ],
+     [
+      524,
+      321
+     ],
+     [
+      554,
+      332
+     ],
+     [
+      563,
+      315
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/gjestehavn/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunalt dokumentert gjestehavn, stedfestet mot synlige gjestepirer og Kongens brygge.",
+  "note": "Gjestehavnens små delbrygger får samme havne-ID. Kommunens seks små dagplasser er en delopplysning, ikke hele havnekapasiteten.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C019": {
+  "action": "include",
+  "name": "Langbrygga – kommunale båtplasser",
+  "group": "C019",
+  "parts": [
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      181,
+      406
+     ],
+     [
+      192,
+      404
+     ],
+     [
+      203,
+      431
+     ],
+     [
+      333,
+      399
+     ],
+     [
+      341,
+      426
+     ],
+     [
+      197,
+      459
+     ],
+     [
+      182,
+      447
+     ]
+    ]
+   },
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      205,
+      383
+     ],
+     [
+      355,
+      357
+     ],
+     [
+      362,
+      379
+     ],
+     [
+      211,
+      401
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunen dokumenterer faste utleieplasser ved Langbrygga; stemmer med bryggeanlegget i bildet.",
+  "note": "To sjøbelter for flytebrygga og kaiplassene. Bygninger, land og åpent havnebasseng utelatt. Ikke dobbeltført som egen gjestehavn.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C020": {
+  "action": "exclude",
+  "reason": "Små separate brygger langs sjøhusene; ikke dokumentert fellesanlegg med minst ti plasser. Gjestehavn og Verven leveres separat.",
+  "related": []
+ },
+ "C021": {
+  "action": "include",
+  "name": "Sauøya – østlig båtplassrekke",
+  "group": "C021",
+  "parts": [
+   {
+    "frame": "C021",
+    "pixels": [
+     [
+      370,
+      194
+     ],
+     [
+      399,
+      191
+     ],
+     [
+      418,
+      397
+     ],
+     [
+      413,
+      420
+     ],
+     [
+      450,
+      429
+     ],
+     [
+      451,
+      470
+     ],
+     [
+      412,
+      495
+     ],
+     [
+      398,
+      491
+     ],
+     [
+      389,
+      421
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Egen sammenhengende brygge-/kairekke med mange småbåter. Fast plassordning og gruppegrense er ikke dokumentert. Er ikke kommunens Sundsbrygga.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C022": {
+  "action": "include",
+  "name": "Verven 1–2–3 – kommunale båtplasser",
+  "group": "C022",
+  "parts": [
+   {
+    "frame": "C022",
+    "pixels": [
+     [
+      540,
+      285
+     ],
+     [
+      535,
+      316
+     ],
+     [
+      500,
+      340
+     ],
+     [
+      301,
+      309
+     ],
+     [
+      245,
+      280
+     ],
+     [
+      257,
+      200
+     ],
+     [
+      290,
+      200
+     ],
+     [
+      285,
+      241
+     ],
+     [
+      350,
+      213
+     ],
+     [
+      431,
+      242
+     ]
+    ]
+   },
+   {
+    "frame": "C022",
+    "pixels": [
+     [
+      537,
+      407
+     ],
+     [
+      493,
+      445
+     ],
+     [
+      280,
+      417
+     ],
+     [
+      277,
+      369
+     ],
+     [
+      298,
+      364
+     ],
+     [
+      493,
+      395
+     ]
+    ]
+   },
+   {
+    "frame": "C022",
+    "pixels": [
+     [
+      561,
+      527
+     ],
+     [
+      540,
+      551
+     ],
+     [
+      305,
+      550
+     ],
+     [
+      299,
+      484
+     ],
+     [
+      321,
+      484
+     ],
+     [
+      324,
+      508
+     ],
+     [
+      557,
+      516
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tre kommunale brygger med faste plasser dokumentert i kart Verven 1–2–3.",
+  "note": "Alle tre pirene kontrollert i full detaljramme C022. Kommunekartet er fra 2014; opptaksdato for arbeidsbildet ukjent.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C023": {
+  "action": "include",
+  "name": "Eskeviken / Jugertangen – bryggeanlegg",
+  "group": "C023",
+  "parts": [
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      487,
+      610
+     ],
+     [
+      452,
+      610
+     ],
+     [
+      452,
+      456
+     ],
+     [
+      352,
+      456
+     ],
+     [
+      345,
+      402
+     ],
+     [
+      388,
+      395
+     ],
+     [
+      460,
+      414
+     ],
+     [
+      485,
+      439
+     ]
+    ]
+   },
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      450,
+      492
+     ],
+     [
+      344,
+      491
+     ],
+     [
+      333,
+      523
+     ],
+     [
+      340,
+      557
+     ],
+     [
+      450,
+      557
+     ]
+    ]
+   },
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      170,
+      385
+     ],
+     [
+      193,
+      390
+     ],
+     [
+      150,
+      479
+     ],
+     [
+      120,
+      469
+     ]
+    ]
+   },
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      247,
+      435
+     ],
+     [
+      270,
+      447
+     ],
+     [
+      216,
+      527
+     ],
+     [
+      180,
+      568
+     ],
+     [
+      157,
+      560
+     ],
+     [
+      195,
+      499
+     ]
+    ]
+   },
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      210,
+      542
+     ],
+     [
+      234,
+      549
+     ],
+     [
+      318,
+      578
+     ],
+     [
+      309,
+      607
+     ],
+     [
+      282,
+      612
+     ],
+     [
+      204,
+      568
+     ]
+    ]
+   },
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      682,
+      398
+     ],
+     [
+      682,
+      415
+     ],
+     [
+      652,
+      423
+     ],
+     [
+      652,
+      599
+     ],
+     [
+      545,
+      600
+     ],
+     [
+      544,
+      570
+     ],
+     [
+      551,
+      403
+     ],
+     [
+      614,
+      396
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Flere tydelige felles båtplassrekker rundt felles adkomst/opplag. Historisk kommunalt turkart omtaler Jugertangen-foreningen her, men presis operatørfordeling er uavklart. Navn geografisk; ikke likestilt automatisk med Halden Seilforening.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "C024": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C025": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C026": {
+  "action": "include",
+  "name": "Tangen brygge – gjesteplasser i Tistedal",
+  "group": "C026",
+  "parts": [
+   {
+    "frame": "C026",
+    "pixels": [
+     [
+      320,
+      317
+     ],
+     [
+      331,
+      314
+     ],
+     [
+      411,
+      421
+     ],
+     [
+      402,
+      429
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/ostfold/2026_rsrapport_for_2025_Styrebehandlet_25_04_13_de612f92-3582-4593-a7dd-c34959dafd5b.pdf#page=27",
+   "https://www.visitoestfold.com/listing/tangen-brygge-gjestebrygge-i-tistedal/538810306/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kanalselskapets årsrapport 2025 dokumenterer fastbrygge og båtgjester. Reiselivskilden angir gjesteplasser øst på brygga; stedfesting kontrollert mot kommunens 2026-kart og Aremarkveien 20.",
+  "note": "Gjestebruk i flerbruksanlegg med passasjerbåt, padleklubb og utsettingsrampe. Bare brygge-/fortøyningsbeltene inkludert; rampe/parkering og rene boligbrygger utelatt. Pågående oppgradering 2026 er ikke konstruert inn. Båtrampe og kort tverrbrygge ved rampen er utelatt som flerbruks-/serviceinnretning; gjestebruk av den lange kaia beholdes.",
+  "unc": true,
+  "water": "ferskvann"
+ },
+ "C027": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C028": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "C029": {
+  "action": "exclude",
+  "reason": "Bildet viser kort privat enkeltbrygge, bade-/serviceanlegg eller få plasser uten dokumentert kvalifiserende felles småbåthavn.",
+  "related": []
+ },
+ "M01": {
+  "action": "include",
+  "name": "Røsneskilen – østre bryggeanlegg",
+  "group": "M01",
+  "parts": [
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      452,
+      423
+     ],
+     [
+      408,
+      433
+     ],
+     [
+      400,
+      403
+     ],
+     [
+      415,
+      400
+     ],
+     [
+      453,
+      417
+     ]
+    ]
+   },
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      451,
+      474
+     ],
+     [
+      378,
+      472
+     ],
+     [
+      376,
+      445
+     ],
+     [
+      402,
+      443
+     ],
+     [
+      449,
+      465
+     ]
+    ]
+   },
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      451,
+      518
+     ],
+     [
+      366,
+      514
+     ],
+     [
+      368,
+      499
+     ],
+     [
+      450,
+      509
+     ]
+    ]
+   },
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      434,
+      558
+     ],
+     [
+      335,
+      558
+     ],
+     [
+      336,
+      530
+     ],
+     [
+      371,
+      529
+     ],
+     [
+      431,
+      547
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Fire brygger fra samme strandavsnitt. Foreløpig fysisk gruppe; separate driftsenheter kan forekomme. Ikke planpolygon fra KU 96B.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M02": {
+  "action": "exclude",
+  "reason": "Lang lys rekke langs vei er ikke tilstrekkelig bevis på båtplasser; ingen synlig felles båtplassbrygge i strandsonen. Nordlig bildemangel i landdelen av rammen, ikke kystlinjen.",
+  "related": []
+ },
+ "M03": {
+  "action": "exclude",
+  "reason": "Oversiktsramme Tista. Plasser avgrenset i M15/M16 og særskilt Rema-kontroll.",
+  "related": [
+   "M15",
+   "M16"
+  ]
+ },
+ "M04": {
+  "action": "exclude",
+  "reason": "Oversiktsramme sentrum. Dokumenterte havner avgrenset under egne kandidater.",
+  "related": [
+   "C017",
+   "C018",
+   "C019",
+   "C022",
+   "M22"
+  ]
+ },
+ "M05": {
+  "action": "include",
+  "name": "Knivsø – småbåtanlegg",
+  "group": "M05",
+  "parts": [
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      352,
+      329
+     ],
+     [
+      505,
+      381
+     ],
+     [
+      501,
+      415
+     ],
+     [
+      343,
+      361
+     ]
+    ]
+   },
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      315,
+      350
+     ],
+     [
+      481,
+      417
+     ],
+     [
+      473,
+      457
+     ],
+     [
+      304,
+      385
+     ]
+    ]
+   },
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      286,
+      400
+     ],
+     [
+      445,
+      480
+     ],
+     [
+      434,
+      518
+     ],
+     [
+      274,
+      431
+     ]
+    ]
+   },
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      261,
+      440
+     ],
+     [
+      385,
+      520
+     ],
+     [
+      374,
+      555
+     ],
+     [
+      248,
+      477
+     ]
+    ]
+   },
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      245,
+      490
+     ],
+     [
+      331,
+      550
+     ],
+     [
+      322,
+      588
+     ],
+     [
+      236,
+      530
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Fem hovedbrygger. Solglitter gjør ytterkantene usikre. Industrikai, tankområde og opplag på land utelatt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M06": {
+  "action": "exclude",
+  "reason": "Samleramme; inkluderte deler avgrenset under C004/C006/C007/M06S/M06SS.",
+  "related": [
+   "C004",
+   "C006",
+   "C007",
+   "M06S",
+   "M06SS"
+  ]
+ },
+ "M07": {
+  "action": "exclude",
+  "reason": "Samleramme; Sponvika-anlegg avgrenset separat under C010/C012.",
+  "related": [
+   "C010",
+   "C012"
+  ]
+ },
+ "M08": {
+  "action": "exclude",
+  "reason": "Grensekontrollramme; avgrenset under C013.",
+  "related": [
+   "C013"
+  ]
+ },
+ "M09": {
+  "action": "include",
+  "name": "Mørvik – dobbelt båtplassanlegg",
+  "group": "M09",
+  "parts": [
+   {
+    "frame": "M09",
+    "pixels": [
+     [
+      480,
+      402
+     ],
+     [
+      479,
+      414
+     ],
+     [
+      341,
+      428
+     ],
+     [
+      358,
+      629
+     ],
+     [
+      307,
+      634
+     ],
+     [
+      302,
+      432
+     ],
+     [
+      248,
+      439
+     ],
+     [
+      260,
+      623
+     ],
+     [
+      224,
+      633
+     ],
+     [
+      224,
+      415
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "To lange parallelle båtplassrekker og tydelig organisert plassmønster. Uavhengig bildefunn i kystcelle G036; ikke i OSM-klyngene.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M10": {
+  "action": "include",
+  "name": "Ystehedekilen – østre campingbrygge",
+  "group": "M10",
+  "parts": [
+   {
+    "frame": "M10",
+    "pixels": [
+     [
+      437,
+      262
+     ],
+     [
+      440,
+      273
+     ],
+     [
+      312,
+      314
+     ],
+     [
+      303,
+      302
+     ],
+     [
+      309,
+      289
+     ],
+     [
+      370,
+      273
+     ],
+     [
+      375,
+      286
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Lang brygge med tydelige utriggere, selv om få båter ligger i bildet. Planutvidelse er ikke benyttet som eksisterende areal.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M11": {
+  "action": "include",
+  "name": "Ystehedekilen – vestre brygger",
+  "group": "M11",
+  "parts": [
+   {
+    "frame": "M11",
+    "pixels": [
+     [
+      241,
+      417
+     ],
+     [
+      151,
+      397
+     ],
+     [
+      137,
+      405
+     ],
+     [
+      131,
+      399
+     ],
+     [
+      139,
+      367
+     ],
+     [
+      152,
+      365
+     ],
+     [
+      169,
+      376
+     ],
+     [
+      238,
+      399
+     ]
+    ]
+   },
+   {
+    "frame": "M11",
+    "pixels": [
+     [
+      242,
+      457
+     ],
+     [
+      202,
+      465
+     ],
+     [
+      179,
+      451
+     ],
+     [
+      181,
+      432
+     ],
+     [
+      209,
+      435
+     ],
+     [
+      239,
+      438
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "To brygger ved samme adkomst; rundt ti båter/plasser er plausibelt. Faste plasser kontra sesong-/servicebruk ukjent.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M12": {
+  "action": "include",
+  "name": "Sanderødstranda – fellesbrygge i Idefjorden",
+  "group": "M12",
+  "parts": [
+   {
+    "frame": "M12",
+    "pixels": [
+     [
+      284,
+      365
+     ],
+     [
+      283,
+      384
+     ],
+     [
+      261,
+      453
+     ],
+     [
+      125,
+      437
+     ],
+     [
+      127,
+      408
+     ],
+     [
+      243,
+      423
+     ],
+     [
+      251,
+      397
+     ],
+     [
+      127,
+      390
+     ],
+     [
+      132,
+      361
+     ],
+     [
+      270,
+      376
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "To lange parallelle båtplassrekker med tydelige utriggere; tomme plasser er ikke fravær av anlegg. Navn geografisk/beskrivende. Fremtidig planområde ikke brukt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M13": {
+  "action": "include",
+  "name": "Bakke brygge – liten fellesbrygge",
+  "group": "M13",
+  "parts": [
+   {
+    "frame": "M13",
+    "pixels": [
+     [
+      476,
+      413
+     ],
+     [
+      445,
+      413
+     ],
+     [
+      412,
+      432
+     ],
+     [
+      396,
+      427
+     ],
+     [
+      394,
+      392
+     ],
+     [
+      425,
+      391
+     ],
+     [
+      451,
+      404
+     ],
+     [
+      476,
+      404
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Omtrent ti plasser er plausibelt, men detaljene er svake og operatør ikke identifisert.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M14": {
+  "action": "include",
+  "name": "Bakke – båtplassbrygge ved camping",
+  "group": "M14",
+  "parts": [
+   {
+    "frame": "M14",
+    "pixels": [
+     [
+      422,
+      345
+     ],
+     [
+      445,
+      345
+     ],
+     [
+      418,
+      436
+     ],
+     [
+      439,
+      444
+     ],
+     [
+      436,
+      461
+     ],
+     [
+      395,
+      452
+     ],
+     [
+      401,
+      415
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Samlet fysisk bryggeanlegg med minst ti tydelige båtplasser i bildet.",
+  "note": "Lang utriggerrad ved campingområdet. Ingen publisert kapasitet eller operatørkobling påstått.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M01S": {
+  "action": "include",
+  "name": "Røsneskilen – brygge sør i vika",
+  "group": "M01S",
+  "parts": [
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      205,
+      688
+     ],
+     [
+      200,
+      675
+     ],
+     [
+      232,
+      625
+     ],
+     [
+      250,
+      632
+     ],
+     [
+      259,
+      643
+     ],
+     [
+      225,
+      681
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Egen brygge ved sørlig odde, fysisk skilt fra østre hovedanlegg; omtrent ti plasser plausibelt.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M06S": {
+  "action": "include",
+  "name": "Svalerødkilen – sørøstre fellesbrygge",
+  "group": "M06S",
+  "parts": [
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      513,
+      593
+     ],
+     [
+      474,
+      566
+     ],
+     [
+      480,
+      547
+     ],
+     [
+      520,
+      578
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "Eget landfeste, ikke summert med andre private brygger for å nå terskel.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M06SS": {
+  "action": "include",
+  "name": "Svalerødkilen – sørlig bryggepar",
+  "group": "M06SS",
+  "parts": [
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      489,
+      617
+     ],
+     [
+      458,
+      593
+     ],
+     [
+      446,
+      601
+     ],
+     [
+      482,
+      632
+     ]
+    ]
+   },
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      436,
+      659
+     ],
+     [
+      406,
+      622
+     ],
+     [
+      415,
+      610
+     ],
+     [
+      439,
+      636
+     ],
+     [
+      444,
+      651
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Felles båtplassanlegg plausibelt, men terskel/faste plasser eller bruk er usikker.",
+  "note": "To små nabobrygger. Felles drift og minst ti faste plasser ikke sikkert dokumentert; gruppe foreløpig.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M22": {
+  "action": "include",
+  "name": "Sundsbrygga og bro-overgangen – kommunale båtplasser",
+  "group": "M22",
+  "parts": [
+   {
+    "frame": "M22",
+    "pixels": [
+     [
+      224,
+      342
+     ],
+     [
+      230,
+      352
+     ],
+     [
+      178,
+      387
+     ],
+     [
+      305,
+      569
+     ],
+     [
+      291,
+      583
+     ],
+     [
+      157,
+      388
+     ]
+    ]
+   },
+   {
+    "frame": "M22",
+    "pixels": [
+     [
+      0,
+      342
+     ],
+     [
+      166,
+      295
+     ],
+     [
+      173,
+      311
+     ],
+     [
+      0,
+      365
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunens faste båtplasser er stedfestet mot kartene for Sundsbrygga og bro-overgangen.",
+  "note": "Sundsbrygga følger et smalt langsidesbelte. Kommunen sier utriggere på eldre kart ikke lenger finnes; disse er ikke kopiert. Bro-/veidekke utelatt. To delpolygoner i samme fysiske havnegruppe.",
+  "unc": true,
+  "water": "saltvann_eller_brakkvann"
+ },
+ "M15": {
+  "action": "include",
+  "name": "Tista – kommunale helårsplasser",
+  "group": "TISTA",
+  "parts": [
+   {
+    "frame": "M15",
+    "pixels": [
+     [
+      226,
+      559
+     ],
+     [
+      212,
+      542
+     ],
+     [
+      255,
+      481
+     ],
+     [
+      278,
+      465
+     ],
+     [
+      293,
+      481
+     ]
+    ]
+   },
+   {
+    "frame": "M15",
+    "pixels": [
+     [
+      285,
+      472
+     ],
+     [
+      273,
+      456
+     ],
+     [
+      362,
+      388
+     ],
+     [
+      384,
+      363
+     ],
+     [
+      408,
+      364
+     ],
+     [
+      400,
+      383
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunen dokumenterer faste plasser ved Grønland og Tistasenteret; geometri følger synlige sjøbelter.",
+  "note": "Grønland: to båtplassrekker oppstrøms brua og smal del nedstrøms. Brua og gjennomgående elveløp holdes utenfor. En liten kildeangitt rekke nedstrøms brua er ikke sikkert avgrenset og står åpen.",
+  "unc": true,
+  "water": "elvevann_brakkvann"
+ },
+ "M16": {
+  "action": "include",
+  "name": "Tista – Tistasenteret og søndre båtplassrekker",
+  "group": "TISTA",
+  "parts": [
+   {
+    "frame": "M16",
+    "pixels": [
+     [
+      14,
+      385
+     ],
+     [
+      207,
+      377
+     ],
+     [
+      217,
+      389
+     ],
+     [
+      171,
+      402
+     ],
+     [
+      14,
+      407
+     ]
+    ]
+   },
+   {
+    "frame": "M16",
+    "pixels": [
+     [
+      214,
+      374
+     ],
+     [
+      480,
+      337
+     ],
+     [
+      486,
+      355
+     ],
+     [
+      219,
+      392
+     ]
+    ]
+   },
+   {
+    "frame": "M16",
+    "pixels": [
+     [
+      207,
+      435
+     ],
+     [
+      427,
+      405
+     ],
+     [
+      432,
+      426
+     ],
+     [
+      211,
+      460
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/",
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/gjestehavn/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Stedfestede kommunale helårsplasser ved Tistasenteret, Tistasenter syd og syd 2; gjestebruk ved Tistasenteret oppgitt.",
+  "note": "Smale båtplassbelter på begge bredder. De 1–2 gjesteplassene ved Tistasenteret er delbruk, ikke en ny selvstendig havn. Gamle kartrader er kontrollert mot bildet, med ukjent opptaksdato. Vestre historiske Tistasenter syd 2-rekke kan ikke sikkert skilles fra gjengrodd bredd i bildet og leveres ikke som eget polygon; står åpen.",
+  "unc": true,
+  "water": "elvevann_brakkvann"
+ },
+ "M17": {
+  "action": "exclude",
+  "reason": "Tista-kontrollramme øst for sentrum; ingen tillegg utover separat Rema-stedfesting.",
+  "related": []
+ },
+ "M18": {
+  "action": "exclude",
+  "reason": "Kontrollutsnitt ved industri/dam i Tistedal; ikke sikkert stedfestet som Tangen. Ingen automatisk havnetolkning.",
+  "related": []
+ },
+ "M19": {
+  "action": "exclude",
+  "reason": "Dokumentert gjestebrygge oppstrøms Brekke, men presis plassering er ikke sikkert skilt fra bru, ventebrygge og passasjerbåtkai i arbeidsbildet. Ingen polygon eksportert. Sluseområdet ellers kontrollert.",
+  "related": []
+ },
+ "M20": {
+  "action": "exclude",
+  "reason": "To korte enkeltbrygger på skogkledd strand nord for industrien. Ikke Tangen brygge og ikke kvalifiserende fellesanlegg.",
+  "related": []
+ },
+ "M21": {
+  "action": "include",
+  "name": "Brekke sluser – Anleggsbrygga",
+  "group": "BREKKE",
+  "parts": [
+   {
+    "frame": "M21",
+    "pixels": [
+     [
+      275,
+      343
+     ],
+     [
+      311,
+      339
+     ],
+     [
+      324,
+      351
+     ],
+     [
+      330,
+      361
+     ],
+     [
+      288,
+      366
+     ],
+     [
+      283,
+      357
+     ],
+     [
+      276,
+      358
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/ostfold/2026_rsrapport_for_2025_Styrebehandlet_25_04_13_de612f92-3582-4593-a7dd-c34959dafd5b.pdf#page=31",
+   "https://en.visitoestfold.com/listing/gjestebrygge-nedstr%C3%B8ms-brekke-sluser/538833306/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Dokumentert gjestehavn Anleggsbrygga nedstrøms Brekke, sammenholdt med synlig flytebrygge og landadkomst.",
+  "note": "Del av Brekke gjesteanlegg. Den lange kaia rundt selve slusene er ventebrygge/service, ikke automatisk småbåthavn. Små detaljer og skygge gir usikker avgrensning. Oppstrøms gjestebrygge står åpen uten polygon; dette er ikke full kartlegging av Brekke-anlegget.",
+  "unc": true,
+  "water": "ferskvann"
+ },
+ "M23": {
+  "action": "exclude",
+  "reason": "Tangen stedfestet med kommunens kart og offisiell adresse; samme anlegg avgrenset under C026.",
+  "related": [
+   "C026"
+  ]
+ },
+ "M24": {
+  "action": "exclude",
+  "reason": "Solglitter og blandet næringsområde; Rema 1000-kartet må stedfestes presist før omriss eksporteres.",
+  "related": []
+ },
+ "M25": {
+  "action": "include",
+  "name": "Tista – Høvleriet og Rema-brygga",
+  "group": "TISTA",
+  "parts": [
+   {
+    "frame": "M25",
+    "pixels": [
+     [
+      90,
+      385
+     ],
+     [
+      195,
+      351
+     ],
+     [
+      199,
+      371
+     ],
+     [
+      102,
+      408
+     ],
+     [
+      111,
+      445
+     ],
+     [
+      95,
+      453
+     ]
+    ]
+   },
+   {
+    "frame": "M25",
+    "pixels": [
+     [
+      209,
+      405
+     ],
+     [
+      461,
+      336
+     ],
+     [
+      470,
+      370
+     ],
+     [
+      211,
+      443
+     ]
+    ]
+   },
+   {
+    "frame": "M25",
+    "pixels": [
+     [
+      470,
+      330
+     ],
+     [
+      799,
+      287
+     ],
+     [
+      799,
+      322
+     ],
+     [
+      478,
+      358
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/"
+  ],
+  "classification": "smabathavn",
+  "basis": "Kommunen dokumenterer helårsplasser ved Rema 1000 Høvleriet. Eldre kai stedfestet mot kommunekart og offisiell adresse; øvrige sammenhengende rekker har tydelig båtplassmønster.",
+  "note": "Området er ombygd siden kommunens kartfoto 2014. Bryggerekker følger synlig bilde, ikke gammelt planomriss. Presis kommunal/driftsmessig fordeling og kort mellomrom mot Tistasenteret er uavklart.",
+  "unc": true,
+  "water": "elvevann_brakkvann"
+ }
+}

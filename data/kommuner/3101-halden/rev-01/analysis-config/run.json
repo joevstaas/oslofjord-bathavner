@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-31T15:57:48.714996+00:00",
+  "started_unix": 1793462268.7151291,
+  "municipality": "Halden",
+  "code": "3101",
+  "revision": 1,
+  "method_version": "1.2",
+  "schema_version": "1.1",
+  "approved_baseline_sha256": {
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "baf5fd9962d45a4c6e4a9ba6b30ea89e0295ecdd6d4881abd0b22b7fc229c69e",
+    "data/samlet/samlet-manifest.json": "f930e4b4bd5bdb1842c28920e24c005ea1e85bde4a14226880fc1c39dfcafbf8"
+  }
+}

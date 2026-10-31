@@ -998,3 +998,19 @@ Tidligere åpne avklaringer er beholdt og supplert med ett punkt, totalt elleve.
 ### Sarpsborg – rev-02 godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente rev-02 og ba om commit, push og PR. Alle 62 polygoner / 46 foreløpige grupper er innlemmet, inkludert 16 mulige havner og 61 usikre avgrensninger. Elleve åpne avklaringer, ukjent bildedato/drift og seilforeningens usikre 2025-utvidelse beholdes. Godkjenning er ikke bekreftelse av juridiske driftsgrenser eller fullstendighet. Tidligere 630 godkjente features er bevart med kanonisk SHA-256 i `approval.json`; samlet er nå 692 polygoner fra 21 kommuner. Nettstedets kartdata og status er oppdatert. Rev-01 er bevart som historisk, ikke godkjent leveranse. Ingen neste kommune er startet.
+
+
+### Halden rev-01 – ferdig til godkjenning 2026-10-31
+
+Brukeren ba om Halden alene etter merge av Sarpsborg PR #12. Leveransen i `data/kommuner/3101-halden/rev-01/` har 66 polygoner / 31 foreløpige fysiske grupper, inkludert 11 mulige. Alle 66 avgrensninger trenger datert ortofotokontroll. Elleve åpne punkter er beholdt. Godkjente samledata og nettsted er uendret: 692 polygoner / 21 kommuner.
+
+Kysten er gransket i 125 celler / 32 ark, supplert med 77 OSM-pirer i 29 klynger og 25 kontrollrammer. Nye bildefunn er blant annet Røsneskilen, Mørvik, Ystehedekilen, Sanderødstranda og Bakke. Kommunens båtplasskart, gjestehavn og Haldenkanalen er kildekontrollert. Eldre utriggere ved Sundsbrygga er ikke kopiert; usikre historiske Tista-rekker og gjestebrygga oppstrøms Brekke står åpne uten polygon. Innlandet er ikke fullkartlagt.
+
+Røsnes har fem Halden-deler med `ROSNES-3101-3105`, klippet mot offisiell grense uten arealoverlapp med godkjente `3105-H20-B01/B02`. Sarpsborg-geometriene er uendret. Tre publiserte store plasser ved Felleskjøpet og gjestedelopplysninger er kapasitetskomponenter med begrenset omfang, ikke hele havnetall. Velbryggas 28 plasser i 2022 er ikke koblet sikkert til en bestemt Sponvika-brygge. Planforslag fra KU 2020 er ikke bygget-geometri.
+
+Se kommune-README, `coverage.json`, `validation.json`, `visual-review.json`, `source-candidates.json`, `source-access-limitations.json` og `open-questions.json`. Originalbilder, rå XML/PDF/HTML og QA ligger lokalt i `work/3101-halden/` utenfor Git og må bevares separat. `analysis-config/` og `restore_config.py` bevarer lette innganger; ny nedlasting kan gi endret bildeinnhold. `build.py`/`finalize.py` stopper ved godkjent revisjon. Aktiv branch er `codex/halden-analysis`. Ingen commit, push, PR, innlemming eller neste kommune er bestilt for Halden.
+
+
+### Halden rev-01 godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente og bestilte commit, push og PR. Alle 66 polygoner / 31 foreløpige anleggsgrupper er innlemmet, inkludert 11 mulige. Samlet 758 polygoner fra 22 kommuner. De 692 tidligere features er bevart uendret med kanonisk SHA-256 i `data/kommuner/3101-halden/rev-01/approval.json`. Alle 66 avgrensningers kontrollbehov, elleve åpne avklaringer, ukjent bildedato/drift og ufullstendig innlandskartlegging beholdes. Nettstedets lokale kartdata og kommunestatus er oppdatert; publisering følger merge/utrulling. Ingen neste kommune er startet. Bygg/finalisering av Halden stopper nå ved godkjent revisjon; teknisk kontroll bruker `work/3101-halden/validate.py`.
