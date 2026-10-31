@@ -1,0 +1,44 @@
+{
+ "scope": "Systematisk bildegjennomgang av kyst inkl. Håøya, Kaholmene/Oscarsborg, Bergholmen, øyer i Hallangspollen og Bunnefjorden innenfor offisiell kommunegrense. Innlandet er ikke systematisk bildesøkt.",
+ "coastline_source": "Fire komplette OSM-delruter med spørring, råsvar og proveniens.",
+ "osm_coast_length_m": 76294.2,
+ "coast_tiles": 79,
+ "additional_images": 8,
+ "coast_outside_image_coverage_m": 0.0,
+ "coast_contact_sheets": [
+  "work/3214-frogn/qa/coast-sheet-0.jpg",
+  "work/3214-frogn/qa/coast-sheet-1.jpg",
+  "work/3214-frogn/qa/coast-sheet-2.jpg",
+  "work/3214-frogn/qa/coast-sheet-3.jpg",
+  "work/3214-frogn/qa/coast-sheet-4.jpg",
+  "work/3214-frogn/qa/coast-sheet-5.jpg",
+  "work/3214-frogn/qa/coast-sheet-6.jpg",
+  "work/3214-frogn/qa/coast-sheet-7.jpg",
+  "work/3214-frogn/qa/coast-sheet-8.jpg",
+  "work/3214-frogn/qa/coast-sheet-9.jpg",
+  "work/3214-frogn/qa/coast-sheet-10.jpg",
+  "work/3214-frogn/qa/coast-sheet-11.jpg",
+  "work/3214-frogn/qa/coast-sheet-12.jpg",
+  "work/3214-frogn/qa/coast-sheet-13.jpg"
+ ],
+ "cluster_review_index": "cluster-review-index.json",
+ "clusters_reviewed": 81,
+ "piers_in_clusters": 256,
+ "independent_gap_sweep": "Alle 79 kystfliser visuelt kontrollert på kontaktark uavhengig av OSM-klyngene. Solbergstrand G001 og Bergholmen G003/G004 har fått egne polygoner uten OSM-pirer. G002 var duplikat av C068 og er slettet etter overlappskontroll. Ingen fullstendighetspåstand.",
+ "final_outline_qa": [
+  "work/3214-frogn/qa/qa-0.jpg",
+  "work/3214-frogn/qa/qa-1.jpg",
+  "work/3214-frogn/qa/qa-2.jpg",
+  "work/3214-frogn/qa/qa-3.jpg"
+ ],
+ "final_outline_qa_reviewed": true,
+ "limitations": [
+  "Opptaksdato og posisjonsnøyaktighet ukjent. Eksportoppløsning er ikke målenøyaktighet.",
+  "Flere operatører i samme fysiske anleggsgruppe; ingen eiendoms-/operatørgrenser hevdes.",
+  "Private nabobrygger summeres ikke til ti-plassregelen; service-/ferge-/badebruk er ikke havnebevis.",
+  "Smale detaljforespørsler feilet; åtte ekstra 1100m-ruter ble brukt i stedet. Alle 87 bilder er fullstendig dekodet og hashkontrollert.",
+  "Originalbilder og råkilder ligger lokalt, er ikke i Git. Ny nedlasting kan gi en annen mosaikk.",
+  "Solbukta er en åpen kandidat uten nåtidspolygon fordi udatert bilde og skadereferat ikke bekrefter dagens anlegg."
+ ],
+ "reviewed_utc": "2026-10-31T13:02:12+00:00"
+}

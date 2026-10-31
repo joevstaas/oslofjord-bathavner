@@ -1,0 +1,50 @@
+[
+ {
+  "id": "S001",
+  "place": "Gylteåsen / Vindfangerbukta",
+  "need": "Gylteåsen Båthavn oppgir faste plasser og Frogn foreningsportal oppgir 70. Adresse Gylteveien 4 peker mot nordlige Vindfangerbukta, men eksakte delbrygger og kapasitetens fysiske omfang er ikke bekreftet. Ikke sett 70 på hele Vindfangerbukta eller feil anlegg lenger nord.",
+  "polygon_exported": true,
+  "sources": [
+   "https://gylteaasenbaathavn.no/",
+   "https://frogn.foreningsportal.no/foreninger",
+   "https://www.xn--gv-kka.no/omoss/informasjon/"
+  ]
+ },
+ {
+  "id": "S002",
+  "place": "Torkildstranda",
+  "need": "Registrert båtforening er ikke nok til å knytte alle private brygger ved stranden til et felles havneanlegg. Trenger stedfestede faste båtplasser og operatørkart.",
+  "polygon_exported": false,
+  "sources": [
+   "https://data.brreg.no/enhetsregisteret/api/enheter/993149160"
+  ]
+ },
+ {
+  "id": "S003",
+  "place": "Solbukta",
+  "need": "Avklar dato for BirdLife-observasjonen om ødelagt brygge på land og om fingerbrygga siden er gjenetablert. Referatet vises i 2026-kalenderen, men hendelsesår er ikke uavhengig verifisert. Udattert bilde og gamle planer dokumenterer ikke dagens anlegg.",
+  "polygon_exported": false,
+  "sources": [
+   "https://oa.birdlife.no/Sider/Ekskursjoner_moeter/Eks_moe.php?category=1&id=1602&month=2026-08",
+   "https://data.brreg.no/enhetsregisteret/api/enheter/918941770"
+  ]
+ },
+ {
+  "id": "S004",
+  "place": "Fløyspjeld / Bunnefjorden sør for Stakabukta",
+  "need": "Avklar nøyaktig hvilke brygger Fløyspjeld Båtforening disponerer. C081 er beholdt geografisk navngitt uten operatørtilordning; registeradresse i Ås er ikke havneposisjon.",
+  "polygon_exported": true,
+  "sources": [
+   "https://data.brreg.no/enhetsregisteret/api/enheter/916260954"
+  ]
+ },
+ {
+  "id": "S005",
+  "place": "Bergholmen og Hallangspollen",
+  "need": "Bekreft ti faste båtplasser eller dokumentert havneorganisering på Bergholmen; besøk og kystledbruk er dokumentert, men kapasiteten er ikke. Avklar operatører og underinndeling i Hallangspollen uten å slutte fra nærhet eller navn.",
+  "polygon_exported": true,
+  "sources": [
+   "https://www.oslofjorden.org/bygningene-pa-bergholmen/"
+  ]
+ }
+]

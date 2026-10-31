@@ -855,3 +855,17 @@ Læring: et OSM-marina-merke i nærheten av en privat brygge eller servicekai be
 #### Godkjenning og innlemming av Nesodden
 
 Brukeren godkjente revisjon 1 med «Godkjent» 2026-10-31. Alle 11 polygoner er innlemmet, inkludert de tre mulige havnene; samlet 469 polygoner fra 16 godkjente kommuner. De 458 tidligere godkjente features er kontrollert uendret med kanonisk SHA-256. Fem usikre avgrensninger, ukjent bildeopptaksdato og åpne spørsmål om Bomansvik, Kavringstrand, Ildjernet og Steilene beholdes. Godkjenning er ikke verifikasjon av fullstendighet, dagens kapasitet eller operatørgrenser. Nettstedets lokale kartdata/kommunestatus er oppdatert; publisering krever senere utrulling. Ingen neste kommune er startet.
+
+
+### Frogn – rev-01 til godkjenning 2026-10-31
+
+Brukeren ba om neste kommune etter merge av PR #6; Frogn (3214) er kartlagt på egen branch fra main 30cd3d9. Leveransen i `data/kommuner/3214-frogn/rev-01/` har 24 polygoner / 18 fysiske anleggsgrupper, én mulig havn (Bergholmen, to deler) og ti usikre avgrensninger. 256 OSM-pirer i 81 klynger er visuelt kontrollert, i tillegg til uavhengig gjennomgang av 79 kystfliser og åtte detaljfliser. Solbergstrand og Bergholmen har fått egne bildekandidater uten OSM-pirer. Et duplikat mellom bildeutsnitt ble fjernet ved overlappskontroll. Alle endelige omriss er visuelt kontrollert etter eksport.
+
+Dragsunds to brygger grupperes med koordinat- og kildebelegg; Tåjebukta holdes atskilt. Vindfangerbukta/Husvikholmen deles i sjøpolygoner rundt land uten å hevde eksklusive operatørgrenser. Gylteåsen-kapasiteten på 70 er ikke stedfestet til delbrygger og er derfor ikke påført hele gruppen. Publiserte faste/gjesteplasser holdes atskilt; Tåjebuktas leverandørverdi er prosjektopplysning med ukjent referanseperiode. Solbukta beholdes åpen uten nåtidspolygon på grunn av udatert bilde og motstridende skadereferat; referatets hendelsesår må avklares. Foreningsadresse alene stedfester ikke Torkildstranda eller Fløyspjeld.
+
+Gyldighet, unike ID-er, kommunegrense, overlapp mot alle 469 godkjente polygoner, metadata og bildehash/dekoding er validert. Ukjent opptaksdato/posisjonsnøyaktighet, ti usikre avgrensninger, fem åpne kildeavklaringer og manglende systematisk innlandssøk er beholdt. Samledata, manifest og nettsted er uendret. Frogn venter på brukergodkjenning; Vestby er ikke startet. Målt veggklokketid finnes i leveransen; ingen målt token-/kostnadspåstand.
+
+
+### Frogn – godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-01 og ba om commit, push og PR. Alle 24 polygoner / 18 anleggsgrupper er innlemmet, inkludert mulig Bergholmen. Samlefilen har 493 polygoner fra 17 kommuner. De 469 tidligere features er bevart uendret, kontrollert med kanonisk SHA-256 i `approval.json`. Ti usikre avgrensninger, ukjent opptaksdato/posisjonsnøyaktighet og fem åpne kildeavklaringer beholdes, inkludert Solbukta uten nåtidspolygon og uavklarte operatørgrenser. Godkjenning er ikke verifikasjon av dagens kapasitet, drift eller fullstendighet. Nettstedets lokale kartdata og kommunestatus er oppdatert; publisering krever merge/utrulling. Vestby er ikke startet.
