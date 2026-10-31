@@ -1,0 +1,279 @@
+[
+ {
+  "local_provenance": "work/3216-vestby/raw/esri-service.json.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/esri-service.json"
+  ],
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+  "retrieved_utc": "2026-10-31T13:12:14.543376+00:00",
+  "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/hvitsten-vel-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/hvitsten-vel.html"
+  ],
+  "url": "https://www.hvitstenvel.no/Hvitsten-Vel",
+  "retrieved_utc": "2026-10-31T13:13:22.630986+00:00",
+  "sha256": "f84fc5c82db1947efb1e892860bf2100e348e50e2a7150606dc3bc304b3ccfe8"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/kjovangen-vel-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/kjovangen-vel.html"
+  ],
+  "url": "https://kjovangenvel.org/",
+  "retrieved_utc": "2026-10-31T13:13:22.874755+00:00",
+  "sha256": "f611b0191927c2dd7aea03df37c481706e45a8eb0a1762e6bfa0958d69344552"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/kommunegrense-4326.json.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/kommunegrense-4326.json"
+  ],
+  "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3216/omrade?utkoordsys=4326",
+  "retrieved_utc": "2026-10-31T13:12:14.104322+00:00",
+  "sha256": "4a6ec1a9fd23ea98293e8c4bbbbdb4e8806f70b56f5ae08ae992861bdaedbf12"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/lag-foreninger-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/lag-foreninger.html"
+  ],
+  "url": "https://www.vestby.kommune.no/tjenester/kultur-og-idrett/lag-og-foreninger",
+  "retrieved_utc": "2026-10-31T13:13:24.957485+00:00",
+  "sha256": "cc6145f9191c994b926788b500302d05cef43db3a2bd0ddddb5df423b3c17ce0"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/overpass-inland-1.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/overpass-inland-1.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A15%5D%3B%28nwr%5B%22leisure%22%3D%22marina%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bnwr%5B%22mooring%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bnwr%5B%22harbour%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bnwr%5B%22leisure%22%3D%22slipway%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bway%5B%22man_made%22%3D%22pier%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bway%5B%22man_made%22%3D%22breakwater%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3Bway%5B%22natural%22%3D%22coastline%22%5D%2859.471878816708006%2C10.799151543453712%2C59.51583967047148%2C10.860055914082455%29%3B%29%3Bout+geom+tags%3B",
+  "query": "[out:json][timeout:15];(nwr[\"leisure\"=\"marina\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);nwr[\"mooring\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);nwr[\"harbour\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);nwr[\"leisure\"=\"slipway\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);way[\"man_made\"=\"pier\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);way[\"man_made\"=\"breakwater\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455);way[\"natural\"=\"coastline\"](59.471878816708006,10.799151543453712,59.51583967047148,10.860055914082455););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:16:43.914011+00:00",
+  "sha256": "4e5fad2c62b9b91810702907de578643dde806639cda8b1e375182501a9e82e6"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/overpass-tile-0.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/overpass-tile-0.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);nwr[\"mooring\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);nwr[\"harbour\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);nwr[\"leisure\"=\"slipway\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);way[\"man_made\"=\"pier\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);way[\"man_made\"=\"breakwater\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497);way[\"natural\"=\"coastline\"](59.471878816708006,10.616438431567486,59.55980052423495,10.73824717282497););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:12:38.296729+00:00",
+  "sha256": "5c526235d875f70b2921e347d3b942ea68e13f300eaf23edc212ba9c8ebfad08"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/overpass-tile-1.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/overpass-tile-1.json"
+  ],
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);nwr[\"mooring\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);nwr[\"harbour\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);nwr[\"leisure\"=\"slipway\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);way[\"man_made\"=\"pier\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);way[\"man_made\"=\"breakwater\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455);way[\"natural\"=\"coastline\"](59.471878816708006,10.73824717282497,59.55980052423495,10.860055914082455););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:17:24.952343+00:00",
+  "sha256": "abc674f7bd2214044b8c884c46e8702694e530b1978ac45fa47857a2f00cb4a4"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/overpass-tile-2.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/overpass-tile-2.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);nwr[\"mooring\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);nwr[\"harbour\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);nwr[\"leisure\"=\"slipway\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);way[\"man_made\"=\"pier\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);way[\"man_made\"=\"breakwater\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497);way[\"natural\"=\"coastline\"](59.55980052423495,10.616438431567486,59.6477222317619,10.73824717282497););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:12:55.341434+00:00",
+  "sha256": "b06fd1e8ed091ea2f3b2f53e59c6a2d46ee0845c6354a748c3e08b90076fd05a"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/overpass-tile-3.provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/overpass-tile-3.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);nwr[\"mooring\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);nwr[\"harbour\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);nwr[\"leisure\"=\"slipway\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);way[\"man_made\"=\"pier\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);way[\"man_made\"=\"breakwater\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455);way[\"natural\"=\"coastline\"](59.55980052423495,10.73824717282497,59.6477222317619,10.860055914082455););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:13:06.565905+00:00",
+  "sha256": "3d8094d0bb36e5cdba3747683681438e35fd589b95a465f83bd66fef8b029273"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-faq-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-faq.html"
+  ],
+  "url": "https://www.sonhavn.no/faq/ofte-stile-sporsmal-faq/",
+  "retrieved_utc": "2026-10-31T13:13:18.223139+00:00",
+  "sha256": "a3ec9235f474fbf075ea482e1d586484692375e945f7f60c4447cd2a4cf8712a"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-fast-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-fast.html"
+  ],
+  "url": "https://www.sonhavn.no/smaabaathavn/",
+  "retrieved_utc": "2026-10-31T13:13:17.505204+00:00",
+  "sha256": "3056338cd0b982fad09d98ae7d45fe5fb7050a21c92dab399761c34ee997ab6c"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-gjest-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-gjest.html"
+  ],
+  "url": "https://www.sonhavn.no/son-gjestehavn/",
+  "retrieved_utc": "2026-10-31T13:13:18.098653+00:00",
+  "sha256": "14dca47520baf72e11fe59d322fc09f062d306b3ee52652c6722f9557867617d"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-kart-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-kart.html"
+  ],
+  "url": "https://www.sonhavn.no/havnekart/",
+  "retrieved_utc": "2026-10-31T13:13:18.098339+00:00",
+  "sha256": "85d6056144aae71867d378fa2d45a92d7da8637c414957ee898589fe03857c56"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-kart-side-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-kart-side.html"
+  ],
+  "url": "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+  "retrieved_utc": "2026-10-31T13:15:21.460699+00:00",
+  "sha256": "407d863b9ba057936a6e4b23bf586fb7bb0fe824f3f7360434df2da9a450277b"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-kart2018-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-kart2018.png",
+   "work/3216-vestby/raw/son-kart2019.png"
+  ],
+  "url": "https://www.sonhavn.no/wp-content/uploads/2018/02/Havnekart.png",
+  "retrieved_utc": "2026-10-31T13:15:24.904330+00:00",
+  "sha256": "e70387b2d0003294080331680d1f69d399934e044dbe6f59543185ccb02db161"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-kart2019-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-kart2018.png",
+   "work/3216-vestby/raw/son-kart2019.png"
+  ],
+  "url": "https://www.sonhavn.no/wp-content/uploads/2019/01/Havnekart.png",
+  "retrieved_utc": "2026-10-31T13:15:25.230973+00:00",
+  "sha256": "e70387b2d0003294080331680d1f69d399934e044dbe6f59543185ccb02db161"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-kommunen-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-kommunen.html"
+  ],
+  "url": "https://www.vestby.kommune.no/tjenester/friluftsliv-natur-og-miljo/son-havn",
+  "retrieved_utc": "2026-10-31T13:13:16.821286+00:00",
+  "sha256": "73a5652db410ec54edad5029ac37cb42b847d48601a912e8592e972d741d858a"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-nord2025-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-nord2025.png"
+  ],
+  "url": "https://www.sonhavn.no/wp-content/uploads/2025/07/son-havn-nord-oversikt.png",
+  "retrieved_utc": "2026-10-31T13:17:18.320912+00:00",
+  "sha256": "6d69374425c8c164cbcdf19c038d5ce5ede440368f9afe52107c06520f3e416b"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/son-syd2019-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/son-syd2019.jpg"
+  ],
+  "url": "https://www.sonhavn.no/wp-content/uploads/2019/01/Oversiktsbilde-Son-Havn-SYD-080119.jpg",
+  "retrieved_utc": "2026-10-31T13:17:19.545226+00:00",
+  "sha256": "167a782a3cbcd1bbf34861acce88d18d91c8bdc8308bb850513423600a620019"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonbf-avfall-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonbf-avfall.html"
+  ],
+  "url": "https://www.sonbaat.no/avfallshandtering/",
+  "retrieved_utc": "2026-10-31T13:13:21.202298+00:00",
+  "sha256": "4fc205647e5c7b04052a967e733d3353e2afcf96fc351c69bcaeb66d45f81a36"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonbf-havneweb-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonbf-havneweb.html"
+  ],
+  "url": "https://www.havneweb.no/sonbaat/?mod=omhavnen",
+  "retrieved_utc": "2026-10-31T13:15:18.660219+00:00",
+  "sha256": "72869c6dfbfdfa87d39b9e9a4c569b637181c5c1f998cfe014fe040fe2f6ffdf"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonbf-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonbf.html"
+  ],
+  "url": "https://www.sonbaat.no/havnas-fasiliteter/",
+  "retrieved_utc": "2026-10-31T13:13:19.893537+00:00",
+  "sha256": "ead22a2116632fca90facfc300de07f783429c3bcfc6c7a1ddb878c9de6be745"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonbf-regler-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonbf-regler.html"
+  ],
+  "url": "https://www.sonbaat.no/havnereglement/",
+  "retrieved_utc": "2026-10-31T13:13:21.227525+00:00",
+  "sha256": "96fcf2fbb0f073f2a77dea4d566ae9ca5c477a19d6b8e5e5a28b2b0d3a246e6c"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonskilen-havneweb-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonskilen-havneweb.html"
+  ],
+  "url": "https://www.havneweb.no/sonskilen-bh/?mod=sokplass",
+  "retrieved_utc": "2026-10-31T13:15:23.979343+00:00",
+  "sha256": "c1f0ce1d468aa98b6f148789eca6cebe8465dfd9a455d22dfb8bc5fa75005e6e"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonskilen-om-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonskilen-om.html"
+  ],
+  "url": "https://www.sonskilen.no/om-oss",
+  "retrieved_utc": "2026-10-31T13:13:20.175722+00:00",
+  "sha256": "47f21f22988e33a4be044fdfb15d822d4652f67a7f64441582dd3596d1e5d9a8"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonskilen-plass-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonskilen-plass.html"
+  ],
+  "url": "https://www.sonskilen.no/batplass",
+  "retrieved_utc": "2026-10-31T13:13:21.557935+00:00",
+  "sha256": "a0266004afe5fcde823d908b03ec37be20161319e496eee466d20169c79171f2"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonskilen-sok-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonskilen-sok.html"
+  ],
+  "url": "https://www.sonskilen.no/sok-batplass",
+  "retrieved_utc": "2026-10-31T13:15:23.366265+00:00",
+  "sha256": "66f836b626a9cf561ce8e65e24ea4465f4bd29740684aae414bf84323a5f6a9a"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/sonskilen-tilbud-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/sonskilen-tilbud.html"
+  ],
+  "url": "https://www.sonskilen.no/vi-tilbyr",
+  "retrieved_utc": "2026-10-31T13:13:21.948948+00:00",
+  "sha256": "0530e7a6384719cd0b4faf507f01206fc52df3f9db2120f5253afd3714c50cc0"
+ },
+ {
+  "local_provenance": "work/3216-vestby/raw/strender-provenance.json",
+  "archived_response_files": [
+   "work/3216-vestby/raw/strender.html"
+  ],
+  "url": "https://www.vestby.kommune.no/om-vestby/strender-og-badeplasser",
+  "retrieved_utc": "2026-10-31T13:13:22.625720+00:00",
+  "sha256": "e65c6b961f14b584cd0aaf40f80193a8a90f90abba7013a2f78c07a7a300433e"
+ }
+]

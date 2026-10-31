@@ -449219,6 +449219,1366 @@
      ]
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H01-B01",
+    "harbour_id": "3216-H01",
+    "candidate_id": "C002",
+    "name": "Hvitsten – Andersbrygga ved sjøbodene",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "mulig_smabathavn",
+    "classification_basis": "Vellets bryggekomité tildeler båtplasser på Andersbrygga ved sjøbodene; felles bruk er dokumentert, men ti faste plasser og marina-/båtforeningsstatus er ikke verifisert.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 777.1,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6544736,
+    "latitude": 59.598155,
+    "sources": [
+     "https://www.hvitstenvel.no/Hvitsten-Vel",
+     "https://www.openstreetmap.org/way/795946495",
+     "https://www.openstreetmap.org/way/795946496",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254600.0%2C6614000.0%2C255700.0%2C6615100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/795946495",
+     "way/795946496"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Seilforeningens joller og badebrygger er ikke automatisk del av båtplassanlegget. Antall faste plasser er ukjent.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-254700-6614100",
+    "image_sha256": "e94addec9a856909c2c403b17b0ce46c0b5336ee8d1b2d2090c880e01a9f6930"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.654742689914096,
+       59.598276545607256
+      ],
+      [
+       10.654218926761496,
+       59.59828288372944
+      ],
+      [
+       10.654245793807426,
+       59.59801472223974
+      ],
+      [
+       10.654688270567405,
+       59.598033380261114
+      ],
+      [
+       10.654742689914096,
+       59.598276545607256
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H02-B01",
+    "harbour_id": "3216-H02",
+    "candidate_id": "C006",
+    "name": "Son havn nord / Sonskilen – vestre brygger",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Minst ti synlige båtplasser i sammenhengende felles bryggeanlegg.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 10664.6,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.68318,
+    "latitude": 59.5264153,
+    "sources": [
+     "https://www.sonskilen.no/batplass",
+     "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+     "https://www.openstreetmap.org/way/524968010",
+     "https://www.openstreetmap.org/way/524968011",
+     "https://www.openstreetmap.org/way/524968012",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255500.0%2C6605900.0%2C256600.0%2C6607000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/524968010",
+     "way/524968011",
+     "way/524968012"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Del av fysisk havnegruppe på begge sider av landtungen. Kapasitet 679/775 hos Sonskilen har motstridende og uavklart omfang; ikke fordelt til dette polygonet.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-255600-6606000",
+    "image_sha256": "8b60b88d38a9ca469f52d2d11671ea9691374f960bb7d36d6abd21d4ce1efc30"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.68383872651087,
+       59.52677303137434
+      ],
+      [
+       10.682330479412878,
+       59.526873533338325
+      ],
+      [
+       10.682014132362054,
+       59.526059880063094
+      ],
+      [
+       10.682043084551687,
+       59.52589465887684
+      ],
+      [
+       10.683643403098953,
+       59.52598712186898
+      ],
+      [
+       10.684081803098614,
+       59.526151960881265
+      ],
+      [
+       10.684333697174498,
+       59.526678601683116
+      ],
+      [
+       10.683912374279796,
+       59.526684462780544
+      ],
+      [
+       10.68383872651087,
+       59.52677303137434
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H03-B01",
+    "harbour_id": "3216-H03",
+    "candidate_id": "C007",
+    "name": "Sonsbukta – liten båtplassrekke på vestsiden",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "mulig_smabathavn",
+    "classification_basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller havneorganisering er ikke verifisert.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 1108.1,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6773382,
+    "latitude": 59.5242097,
+    "sources": [
+     "https://www.openstreetmap.org/way/40503582",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254600.0%2C6605900.0%2C255700.0%2C6607000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/40503582"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Én felles brygge og liten samlet fortøyningsrekke ved samme landtilkomst. Antall faste plasser og felles operatør er ikke bekreftet; spredte private nabobrygger er utelatt.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-254700-6606000",
+    "image_sha256": "6e59b71e7db0a15b134b442326acfd1a1161bb3ece4e0b411b26650ee362508b"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.677810280953203,
+       59.52432018719914
+      ],
+      [
+       10.677062621734581,
+       59.524441837999355
+      ],
+      [
+       10.677049285053505,
+       59.5243029141486
+      ],
+      [
+       10.677141991202602,
+       59.52418728343241
+      ],
+      [
+       10.677296230684062,
+       59.52407764593057
+      ],
+      [
+       10.677491441488353,
+       59.52401288730601
+      ],
+      [
+       10.677614686831667,
+       59.524084229071505
+      ],
+      [
+       10.677541205987634,
+       59.52423214947436
+      ],
+      [
+       10.677771328428616,
+       59.52425954853426
+      ],
+      [
+       10.677810280953203,
+       59.52432018719914
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H04-B01",
+    "harbour_id": "3216-H04",
+    "candidate_id": "C008",
+    "name": "Son havn syd / Son Spa – båtplassanlegg",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Minst ti synlige båtplasser i sammenhengende felles bryggeanlegg.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 18299.3,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6797532,
+    "latitude": 59.516658,
+    "sources": [
+     "https://www.sonhavn.no/smaabaathavn/",
+     "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+     "https://www.openstreetmap.org/way/524975286",
+     "https://www.openstreetmap.org/way/524975287",
+     "https://www.openstreetmap.org/way/524975288",
+     "https://www.openstreetmap.org/way/524975289",
+     "https://www.openstreetmap.org/way/524975290",
+     "https://www.openstreetmap.org/way/524975291",
+     "https://www.openstreetmap.org/way/524975292",
+     "https://www.openstreetmap.org/way/524975293",
+     "https://www.openstreetmap.org/way/524975294",
+     "https://www.openstreetmap.org/way/524975295",
+     "https://www.openstreetmap.org/way/640539093",
+     "https://www.openstreetmap.org/way/640539096",
+     "https://www.openstreetmap.org/way/640539097",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255150%2C6604950%2C256250%2C6606050&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/524975286",
+     "way/524975287",
+     "way/524975288",
+     "way/524975289",
+     "way/524975290",
+     "way/524975291",
+     "way/524975292",
+     "way/524975293",
+     "way/524975294",
+     "way/524975295",
+     "way/640539093",
+     "way/640539096",
+     "way/640539097"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Fysisk anlegg med SA–SF ved Son Spa. Operatøren presiserer at SC ikke inngår i den kommunale marinaen; dette omrisset hevder ikke én operatør. Publisert byggetegning 2025 er ikke behandlet som bygget geometri. Aktuell utstrekning må dateres.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "detail-C008",
+    "image_sha256": "d2b760a69f203a8b3fc0095d84a61db2e28dd2a0cca721cc5baacbc8a407026e"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.681097144748193,
+       59.51736958820504
+      ],
+      [
+       10.679375849199424,
+       59.51743337984042
+      ],
+      [
+       10.679384996391551,
+       59.51716680307853
+      ],
+      [
+       10.679086156045155,
+       59.51715691526794
+      ],
+      [
+       10.679056329064391,
+       59.516901757416015
+      ],
+      [
+       10.679071153814277,
+       59.51659088856757
+      ],
+      [
+       10.679080592934685,
+       59.51641963552242
+      ],
+      [
+       10.679041037315008,
+       59.51624040700825
+      ],
+      [
+       10.679118928504733,
+       59.51592527069583
+      ],
+      [
+       10.678943800644157,
+       59.51592583005253
+      ],
+      [
+       10.678960015920282,
+       59.51579928114177
+      ],
+      [
+       10.680562684240547,
+       59.515782407018996
+      ],
+      [
+       10.680785479885566,
+       59.51589779898209
+      ],
+      [
+       10.680803383556142,
+       59.516050893557875
+      ],
+      [
+       10.68097991341105,
+       59.516234651762616
+      ],
+      [
+       10.68056850224724,
+       59.516322712184355
+      ],
+      [
+       10.68066030331741,
+       59.51648460537604
+      ],
+      [
+       10.680434850026625,
+       59.51658517046678
+      ],
+      [
+       10.680441921812003,
+       59.51672519827568
+      ],
+      [
+       10.681186583730021,
+       59.51676889106439
+      ],
+      [
+       10.681566910391172,
+       59.51682594870961
+      ],
+      [
+       10.681432670486794,
+       59.51689776054587
+      ],
+      [
+       10.681160137019171,
+       59.51707302109741
+      ],
+      [
+       10.681097144748193,
+       59.51736958820504
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H05-B01",
+    "harbour_id": "3216-H05",
+    "candidate_id": "C015",
+    "name": "Søndre Brevik båthavn – Son Båtforening",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Dokumentert foreningshavn med andelsplasser og faste brygger, geografisk stedfestet ved Holmenveien 5, nord for kommunegrensen mot Moss.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 12045.8,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6863126,
+    "latitude": 59.4900815,
+    "sources": [
+     "https://www.sonbaat.no/havnas-fasiliteter/",
+     "https://www.havneweb.no/sonbaat/?mod=omhavnen",
+     "https://www.sonbaat.no/havnereglement/",
+     "https://www.openstreetmap.org/way/1455934581",
+     "https://www.openstreetmap.org/way/1455934582",
+     "https://www.openstreetmap.org/way/1455934583",
+     "https://www.openstreetmap.org/way/1455934588",
+     "https://www.openstreetmap.org/way/1456435095",
+     "https://www.openstreetmap.org/way/1456435097",
+     "https://www.openstreetmap.org/way/1456435116",
+     "https://www.openstreetmap.org/way/1456435115",
+     "https://www.openstreetmap.org/way/1456435117",
+     "https://www.openstreetmap.org/way/1456435118",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255500.0%2C6602300.0%2C256600.0%2C6603400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/1455934581",
+     "way/1455934582",
+     "way/1455934583",
+     "way/1455934588",
+     "way/1456435095",
+     "way/1456435097",
+     "way/1456435116",
+     "way/1456435115",
+     "way/1456435117",
+     "way/1456435118"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [
+     {
+      "conflict": true,
+      "count": 141,
+      "reference_period": "ukjent",
+      "scope": "hele_foreningshavnen",
+      "source": "https://www.sonbaat.no/havnas-fasiliteter/",
+      "type": "publiserte_andelsplasser"
+     },
+     {
+      "conflict": true,
+      "count_max": 200,
+      "count_min": 150,
+      "reference_period": "ukjent",
+      "scope": "hele_foreningshavnen",
+      "source": "https://www.havneweb.no/sonbaat/?mod=omhavnen",
+      "type": "publiserte_batplasser_uten_jolleplasser"
+     }
+    ],
+    "municipality_clipped": true,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Foreningens hovedside oppgir 141 andelsplasser, mens Havneweb oppgir 150–200 båter ekskl. jolleplasser. Begge beholdes som kilder med ukjent referanseperiode; ingen entydig scalar kapasitet. Kran-/opplagsareal på land og private brygger i Moss utelatt.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-255600-6602400",
+    "image_sha256": "0a39d57d583b0f85ed7d76a649c0040e9c46a9b8594c9649fa37575d98a8b0d9"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.686478830462447,
+       59.490986193429016
+      ],
+      [
+       10.686158987162418,
+       59.49103691569427
+      ],
+      [
+       10.686122378490552,
+       59.490851826811216
+      ],
+      [
+       10.686118654915736,
+       59.49069234200053
+      ],
+      [
+       10.685909044434645,
+       59.49044637126781
+      ],
+      [
+       10.685834873366531,
+       59.49027229928599
+      ],
+      [
+       10.68564723054926,
+       59.490137381539625
+      ],
+      [
+       10.68518998155009,
+       59.48975450809814
+      ],
+      [
+       10.684915099437397,
+       59.489359274356985
+      ],
+      [
+       10.68480571279965,
+       59.489177908022995
+      ],
+      [
+       10.684828636164298,
+       59.48909285567452
+      ],
+      [
+       10.685122419799894,
+       59.48915160293104
+      ],
+      [
+       10.68532049607179,
+       59.48929912512238
+      ],
+      [
+       10.685441992487789,
+       59.48937260253636
+      ],
+      [
+       10.685448957771484,
+       59.48941455673456
+      ],
+      [
+       10.685507710062694,
+       59.48941234639089
+      ],
+      [
+       10.685577799591407,
+       59.48945473412369
+      ],
+      [
+       10.685971621387553,
+       59.489768087471816
+      ],
+      [
+       10.686064687816888,
+       59.489605672515225
+      ],
+      [
+       10.685889378081269,
+       59.48939798685245
+      ],
+      [
+       10.686017669783597,
+       59.48939315986573
+      ],
+      [
+       10.686033474646024,
+       59.48939539080615
+      ],
+      [
+       10.686054152228653,
+       59.489398232418026
+      ],
+      [
+       10.686060440009326,
+       59.48939910508655
+      ],
+      [
+       10.686200600479363,
+       59.48957951820639
+      ],
+      [
+       10.686428448465724,
+       59.489777056922286
+      ],
+      [
+       10.686902868126909,
+       59.490025648637996
+      ],
+      [
+       10.687327424355212,
+       59.49019291006473
+      ],
+      [
+       10.687596745391167,
+       59.490348911811076
+      ],
+      [
+       10.68741936803232,
+       59.490416602614765
+      ],
+      [
+       10.686478830462447,
+       59.490986193429016
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H06-B01",
+    "harbour_id": "3216-H06",
+    "candidate_id": "C016G",
+    "name": "Son Gjestehavn – sentrumsbrygger",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Dokumentert kommunal gjestehavn med sammenhengende gjestebrygger i sentrum, kontrollert mot havnekart og flybilde.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 10955.5,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6839705,
+    "latitude": 59.5237115,
+    "sources": [
+     "https://www.sonhavn.no/son-gjestehavn/",
+     "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+     "https://www.openstreetmap.org/way/40503236",
+     "https://www.openstreetmap.org/way/40503237",
+     "https://www.openstreetmap.org/way/524966408",
+     "https://www.openstreetmap.org/way/634024045",
+     "https://www.openstreetmap.org/way/634024046",
+     "https://www.openstreetmap.org/way/634024047",
+     "https://www.openstreetmap.org/way/634031744",
+     "https://www.openstreetmap.org/way/40503240",
+     "https://www.openstreetmap.org/way/40503246",
+     "https://www.openstreetmap.org/way/40503285",
+     "https://www.openstreetmap.org/way/40503271",
+     "https://www.openstreetmap.org/way/40503272",
+     "https://www.openstreetmap.org/way/40503274",
+     "https://www.openstreetmap.org/way/40503275",
+     "https://www.openstreetmap.org/way/40503276",
+     "https://www.openstreetmap.org/way/40503277",
+     "https://www.openstreetmap.org/way/40503278",
+     "https://www.openstreetmap.org/way/40503280",
+     "https://www.openstreetmap.org/way/524962609",
+     "https://www.openstreetmap.org/way/524962610",
+     "https://www.openstreetmap.org/way/640560880",
+     "https://www.openstreetmap.org/way/640560881",
+     "https://www.openstreetmap.org/way/640560882",
+     "https://www.openstreetmap.org/way/640560883",
+     "https://www.openstreetmap.org/way/640560894",
+     "https://www.openstreetmap.org/way/640560895",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255500.0%2C6605900.0%2C256600.0%2C6607000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/40503236",
+     "way/40503237",
+     "way/524966408",
+     "way/634024045",
+     "way/634024046",
+     "way/634024047",
+     "way/634031744",
+     "way/40503240",
+     "way/40503246",
+     "way/40503285",
+     "way/40503271",
+     "way/40503272",
+     "way/40503274",
+     "way/40503275",
+     "way/40503276",
+     "way/40503277",
+     "way/40503278",
+     "way/40503280",
+     "way/524962609",
+     "way/524962610",
+     "way/640560880",
+     "way/640560881",
+     "way/640560882",
+     "way/640560883",
+     "way/640560894",
+     "way/640560895"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [
+     {
+      "count": 65,
+      "reference_period": "2026",
+      "scope": "operatoerens_bookingtilbud_ikke_total_eller_sikkert_bare_dette_polygonet",
+      "source": "https://www.sonhavn.no/son-gjestehavn/",
+      "type": "forhandsreserverbare_gjesteplasser"
+     }
+    ],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "65 forhåndsreserverbare plasser oppgis for 2026 og er en delmengde, ikke total gjestekapasitet. Anløps-/fergekai og bygninger er utelatt. Eventuelle gjesteplasser ved Son Spa inngår ikke i dette polygonet.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-255600-6606000",
+    "image_sha256": "8b60b88d38a9ca469f52d2d11671ea9691374f960bb7d36d6abd21d4ce1efc30"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.682682881224261,
+       59.524066533138374
+      ],
+      [
+       10.68249666093418,
+       59.52402800484685
+      ],
+      [
+       10.682486954766672,
+       59.52385503117913
+      ],
+      [
+       10.683150341932643,
+       59.52365035300178
+      ],
+      [
+       10.683777612861077,
+       59.523395919485054
+      ],
+      [
+       10.684515435214747,
+       59.52310736837857
+      ],
+      [
+       10.684725124505409,
+       59.52321141400909
+      ],
+      [
+       10.684983822506313,
+       59.52343038171249
+      ],
+      [
+       10.68503351790287,
+       59.523539931420295
+      ],
+      [
+       10.684914016246204,
+       59.523643891034894
+      ],
+      [
+       10.685056822525105,
+       59.52377270319597
+      ],
+      [
+       10.685178052557161,
+       59.52398712861031
+      ],
+      [
+       10.684280473159188,
+       59.52436212653522
+      ],
+      [
+       10.684194927189852,
+       59.524283764222076
+      ],
+      [
+       10.683984975770949,
+       59.52409877827096
+      ],
+      [
+       10.68363144326788,
+       59.52420579356389
+      ],
+      [
+       10.683412120267997,
+       59.52417696339838
+      ],
+      [
+       10.683200542487935,
+       59.5239217821548
+      ],
+      [
+       10.682682881224261,
+       59.524066533138374
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H02-B02",
+    "harbour_id": "3216-H02",
+    "candidate_id": "C016N",
+    "name": "Son havn nord / Sonskilen – hovedbasseng og molobrygge",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Minst ti synlige båtplasser i sammenhengende felles bryggeanlegg.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 53808.8,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6871744,
+    "latitude": 59.526718,
+    "sources": [
+     "https://www.sonhavn.no/smaabaathavn/",
+     "https://www.sonskilen.no/om-oss",
+     "https://www.sonskilen.no/vi-tilbyr",
+     "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+     "https://www.openstreetmap.org/way/40503236",
+     "https://www.openstreetmap.org/way/40503237",
+     "https://www.openstreetmap.org/way/524966408",
+     "https://www.openstreetmap.org/way/634024045",
+     "https://www.openstreetmap.org/way/634024046",
+     "https://www.openstreetmap.org/way/634024047",
+     "https://www.openstreetmap.org/way/634031744",
+     "https://www.openstreetmap.org/way/40503240",
+     "https://www.openstreetmap.org/way/40503246",
+     "https://www.openstreetmap.org/way/40503285",
+     "https://www.openstreetmap.org/way/40503271",
+     "https://www.openstreetmap.org/way/40503272",
+     "https://www.openstreetmap.org/way/40503274",
+     "https://www.openstreetmap.org/way/40503275",
+     "https://www.openstreetmap.org/way/40503276",
+     "https://www.openstreetmap.org/way/40503277",
+     "https://www.openstreetmap.org/way/40503278",
+     "https://www.openstreetmap.org/way/40503280",
+     "https://www.openstreetmap.org/way/524962609",
+     "https://www.openstreetmap.org/way/524962610",
+     "https://www.openstreetmap.org/way/640560880",
+     "https://www.openstreetmap.org/way/640560881",
+     "https://www.openstreetmap.org/way/640560882",
+     "https://www.openstreetmap.org/way/640560883",
+     "https://www.openstreetmap.org/way/640560894",
+     "https://www.openstreetmap.org/way/640560895",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=255500.0%2C6605900.0%2C256600.0%2C6607000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/40503236",
+     "way/40503237",
+     "way/524966408",
+     "way/634024045",
+     "way/634024046",
+     "way/634024047",
+     "way/634031744",
+     "way/40503240",
+     "way/40503246",
+     "way/40503285",
+     "way/40503271",
+     "way/40503272",
+     "way/40503274",
+     "way/40503275",
+     "way/40503276",
+     "way/40503277",
+     "way/40503278",
+     "way/40503280",
+     "way/524962609",
+     "way/524962610",
+     "way/640560880",
+     "way/640560881",
+     "way/640560882",
+     "way/640560883",
+     "way/640560894",
+     "way/640560895"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [
+     {
+      "conflict": true,
+      "count": 679,
+      "reference_period": "ukjent",
+      "scope": "Sonskilen_operatoranlegg_inkludering_av_elv_og_leieareal_uavklart",
+      "source": "https://www.sonskilen.no/om-oss",
+      "type": "publisert_batplasskapasitet"
+     },
+     {
+      "conflict": true,
+      "count": 775,
+      "reference_period": "ukjent",
+      "scope": "Sonskilen_operatoranlegg_inkludering_av_elv_og_leieareal_uavklart",
+      "source": "https://www.sonskilen.no/vi-tilbyr",
+      "type": "publisert_batplasskapasitet"
+     }
+    ],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Fysisk nordre havnegruppe, med både kommunale plasser og Sonskilen. 2025-kartet viser kommunale NA/NB; eldre kart og tekst har andre inndelinger. Hølenselva oppstrøms er ikke inkludert i denne basin-kapasiteten. 679/775 er motstridende publiserte tall for Sonskilen, ikke sum for alle aktører i gruppen. Hovedbasseng og molobrygge ligger i ett sammenhengende sjøpolygon; vestre brygger er eget delpolygon rundt land.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-255600-6606000",
+    "image_sha256": "8b60b88d38a9ca469f52d2d11671ea9691374f960bb7d36d6abd21d4ce1efc30"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.687282183070597,
+       59.525588972134464
+      ],
+      [
+       10.687169434067105,
+       59.525631951908785
+      ],
+      [
+       10.687211172677841,
+       59.52574843165186
+      ],
+      [
+       10.690029424822562,
+       59.52751762350247
+      ],
+      [
+       10.689925580050533,
+       59.52766526727325
+      ],
+      [
+       10.687948561678061,
+       59.52817552105937
+      ],
+      [
+       10.684300706283592,
+       59.525918466871055
+      ],
+      [
+       10.684749631257818,
+       59.52550886231173
+      ],
+      [
+       10.685821145118263,
+       59.52521334304593
+      ],
+      [
+       10.686360987102733,
+       59.52519409836114
+      ],
+      [
+       10.68510050784997,
+       59.52463333382854
+      ],
+      [
+       10.685393174378381,
+       59.524424725411436
+      ],
+      [
+       10.687657630654593,
+       59.525434984114355
+      ],
+      [
+       10.687407040108846,
+       59.525634592667195
+      ],
+      [
+       10.687282183070597,
+       59.525588972134464
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H07-B01",
+    "harbour_id": "3216-H07",
+    "candidate_id": "G001",
+    "name": "Hvitsten – nordre båtplassbasseng",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "smabathavn",
+    "classification_basis": "Minst ti synlige båtplasser i sammenhengende felles bryggeanlegg.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 2425.7,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6520261,
+    "latitude": 59.6009362,
+    "sources": [
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254600.0%2C6614000.0%2C255700.0%2C6615100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Oppdaget i uavhengig bildegjennomgang uten OSM-pirer. Synlig lite felles havnebasseng med minst ti plasser langs molo og indre brygge. Ikke automatisk Andersbrygga eller seilforeningens anlegg.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-254700-6614100",
+    "image_sha256": "e94addec9a856909c2c403b17b0ce46c0b5336ee8d1b2d2090c880e01a9f6930"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.652011367694346,
+       59.601234861703674
+      ],
+      [
+       10.65181986080147,
+       59.60123086952562
+      ],
+      [
+       10.651686916584795,
+       59.60113623752652
+      ],
+      [
+       10.65164479452909,
+       59.60106361686169
+      ],
+      [
+       10.651597552248388,
+       59.60092197963009
+      ],
+      [
+       10.651568812744262,
+       59.60070973716846
+      ],
+      [
+       10.651685932921968,
+       59.60067327265811
+      ],
+      [
+       10.652379092533494,
+       59.600636964465785
+      ],
+      [
+       10.652435282272888,
+       59.6007456626187
+      ],
+      [
+       10.65245095444515,
+       59.6009503483991
+      ],
+      [
+       10.652166103738745,
+       59.60105245851097
+      ],
+      [
+       10.652066259405194,
+       59.601172588112384
+      ],
+      [
+       10.652011367694346,
+       59.601234861703674
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3216-H08-B01",
+    "harbour_id": "3216-H08",
+    "candidate_id": "G002",
+    "name": "Kjøvangen – sammenhengende båtplassrekke",
+    "name_is_descriptive": true,
+    "municipality": "Vestby",
+    "municipality_code": "3216",
+    "classification": "mulig_smabathavn",
+    "classification_basis": "Sammenhengende rekke av korte brygger og båtplasser ved samme strandtilkomst. Felles organisering kontra separate private rettigheter er ikke dokumentert; derfor mulig havn, ikke sikker ti-plasshavn.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T13:32:03Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 6514.3,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.6650234,
+    "latitude": 59.5393659,
+    "sources": [
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=254600.0%2C6607700.0%2C255700.0%2C6608800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.733,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører og organisasjoner",
+    "note": "Bildekandidat uten OSM-pirer: flere korte brygger med tydelig samlet båtplassmønster langs samme kaikant/tilkomst. Bade-/anløpskaien C005 og spredte private nabobrygger er utelatt. Operatør og publisert kapasitet er ukjent.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "coast-254700-6607800",
+    "image_sha256": "4710544cd3fab989b277ed07b058397c015159aa84ed666eaeea3f9a89158c28"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.664367455189373,
+       59.54025406879597
+      ],
+      [
+       10.66372588530101,
+       59.54015364227329
+      ],
+      [
+       10.663670310258748,
+       59.53985900402521
+      ],
+      [
+       10.664001233242976,
+       59.53983042097782
+      ],
+      [
+       10.66414242992037,
+       59.53973223377564
+      ],
+      [
+       10.664472337284872,
+       59.539711529199074
+      ],
+      [
+       10.664735990931591,
+       59.53956992520711
+      ],
+      [
+       10.664836763496568,
+       59.53924090914915
+      ],
+      [
+       10.664934007746835,
+       59.538848469288695
+      ],
+      [
+       10.66492294461108,
+       59.53857113544892
+      ],
+      [
+       10.665278142065166,
+       59.538535441634366
+      ],
+      [
+       10.66537269637806,
+       59.538799718965045
+      ],
+      [
+       10.665322535143746,
+       59.53909876126648
+      ],
+      [
+       10.665213657078786,
+       59.53949081531069
+      ],
+      [
+       10.665005107353524,
+       59.53983999537601
+      ],
+      [
+       10.664854787191716,
+       59.540009100734295
+      ],
+      [
+       10.664641737292207,
+       59.54012073095637
+      ],
+      [
+       10.664367455189373,
+       59.54025406879597
+      ]
+     ]
+    ]
+   }
   }
  ]
 }
