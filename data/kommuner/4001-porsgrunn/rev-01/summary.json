@@ -1,0 +1,11 @@
+{
+ "polygons": 56,
+ "harbours": 28,
+ "possible_harbours": 3,
+ "uncertain_geometries": 56,
+ "osm_piers": 152,
+ "osm_clusters": 62,
+ "image_review_frames": 25,
+ "published_capacity_harbours": 0,
+ "open_questions": 12
+}

@@ -1,0 +1,31 @@
+{
+ "failed_raw_downloads": [
+  {
+   "url": "https://www.batforening.com/",
+   "status": "HTTP500"
+  },
+  {
+   "url": "https://brevikseilforening.no/seivall/",
+   "status": "HTTP403, innhold lest via webvisning"
+  },
+  {
+   "url": "https://services.norgeibilder.no/wms/ortofoto",
+   "status": "HTTP499, token påkrevd; ingen autentisering omgått"
+  }
+ ],
+ "imagery_failed_requests": [
+  {
+   "image": "lagoon-gunneklev",
+   "status": "Timeout, området dekket av hovedflisene"
+  },
+  {
+   "image": "high-sundjord",
+   "status": "Tom eksport (0 x 0), eksisterende georeferert bilde brukt med skyggeforbehold"
+  },
+  {
+   "service": "Clarity export",
+   "status": "404, offentlig visningsflistjeneste brukt i stedet"
+  }
+ ],
+ "note": "Mislykket nedlasting er ikke negativt geografisk funn. Clarity er historisk arkiv, ikke samtidig opptak med hovedserien."
+}

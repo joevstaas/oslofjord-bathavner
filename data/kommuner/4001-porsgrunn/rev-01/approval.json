@@ -1,0 +1,14 @@
+{
+ "approved_utc": "2026-10-31T18:15:36Z",
+ "authorization": "Bruker: Godkjent",
+ "revision": 1,
+ "polygons": 56,
+ "harbours": 28,
+ "possible_harbours": 3,
+ "uncertain_geometries": 56,
+ "known_uncertainties_retained": true,
+ "previous_features": 760,
+ "previous_features_sha256": "f77b2487d15db4aa94c00b4bab4ca9a605fada4e5b9ba07d87edd18b22eea396",
+ "combined_features": 816,
+ "municipalities": 23
+}

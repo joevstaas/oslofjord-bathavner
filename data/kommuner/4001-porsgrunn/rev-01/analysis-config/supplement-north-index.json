@@ -1,0 +1,111 @@
+[
+ {
+  "cell": "N001",
+  "bbox": [
+   195500,
+   6569000,
+   196000,
+   6569500
+  ],
+  "tiles": [
+   "oselva-east",
+   "river-city-east"
+  ],
+  "sheet": 0
+ },
+ {
+  "cell": "N002",
+  "bbox": [
+   195500,
+   6568500,
+   196000,
+   6569000
+  ],
+  "tiles": [
+   "oselva-east",
+   "river-city-east"
+  ],
+  "sheet": 0
+ },
+ {
+  "cell": "N003",
+  "bbox": [
+   195500,
+   6568000,
+   196000,
+   6568500
+  ],
+  "tiles": [
+   "oselva-east",
+   "river-city-east"
+  ],
+  "sheet": 0
+ },
+ {
+  "cell": "N004",
+  "bbox": [
+   194500,
+   6567500,
+   195000,
+   6568000
+  ],
+  "tiles": [
+   "river-city-east"
+  ],
+  "sheet": 0
+ },
+ {
+  "cell": "N005",
+  "bbox": [
+   195000,
+   6567500,
+   195500,
+   6568000
+  ],
+  "tiles": [
+   "oselva-east",
+   "river-city-east"
+  ],
+  "sheet": 1
+ },
+ {
+  "cell": "N006",
+  "bbox": [
+   195500,
+   6567500,
+   196000,
+   6568000
+  ],
+  "tiles": [
+   "oselva-east",
+   "river-city-east"
+  ],
+  "sheet": 1
+ },
+ {
+  "cell": "N007",
+  "bbox": [
+   194500,
+   6567000,
+   195000,
+   6567500
+  ],
+  "tiles": [
+   "coast-193500-6565500"
+  ],
+  "sheet": 1
+ },
+ {
+  "cell": "N008",
+  "bbox": [
+   195000,
+   6567000,
+   195500,
+   6567500
+  ],
+  "tiles": [
+   "coast-193500-6565500"
+  ],
+  "sheet": 1
+ }
+]

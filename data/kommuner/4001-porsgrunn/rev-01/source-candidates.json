@@ -1,0 +1,263 @@
+[
+ {
+  "id": "S01",
+  "name": "PMF",
+  "candidate_ids": [
+   "C001",
+   "C009",
+   "M01BV",
+   "M01BO",
+   "M19"
+  ],
+  "feature_ids": [
+   "4001-H01-B01",
+   "4001-H03-B01",
+   "4001-H03-B02",
+   "4001-H03-B03",
+   "4001-H03-B04",
+   "4001-H22-B01",
+   "4001-H22-B02",
+   "4001-H25-B01",
+   "4001-H26-B01"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/pmf-havner.html",
+  "url": "https://www.havneweb.no/batforening/?mod=omhavnen",
+  "note": "Foreningslov 2023 og historisk 80-årsrapport. Delnavn ikke tvangskoblet."
+ },
+ {
+  "id": "S02",
+  "name": "Down Town",
+  "candidate_ids": [
+   "M01D"
+  ],
+  "feature_ids": [
+   "4001-H24-B01",
+   "4001-H24-B02",
+   "4001-H24-B03"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/downtown.html",
+  "url": "https://www.visittelemark.no/produkter/down-town-gjestebrygge",
+  "note": "25 gjesteplasser for hele anlegget; feil generisk kartposisjon forkastet."
+ },
+ {
+  "id": "S03",
+  "name": "Østre Brygge og Porselænsfabrikken",
+  "candidate_ids": [
+   "C012",
+   "M05"
+  ],
+  "feature_ids": [
+   "4001-H05-B01"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/kanal-kyst.html",
+  "url": "https://www.telemarkskanalen.no/fritidsbat/strekning-for-strekning/fra-kysten-til-skien",
+  "note": "Østre levert, Porselænsfabrikkens presise gjestedel åpen."
+ },
+ {
+  "id": "S04",
+  "name": "Herøya",
+  "candidate_ids": [
+   "C006"
+  ],
+  "feature_ids": [
+   "4001-H02-B01",
+   "4001-H02-B02"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/heroya-2019.pdf",
+  "url": "https://www.hydro.com/globalassets/07-media/nabo-info-porsgrunn-juni2019.pdf",
+  "note": "Ferdig anlegg 2019; ca170 historisk, ikke dagens kontrollerte total."
+ },
+ {
+  "id": "S05",
+  "name": "Bråten",
+  "candidate_ids": [
+   "M23"
+  ],
+  "feature_ids": [
+   "4001-H23-B01"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/braten.pdf",
+  "url": "https://www.porsgrunn.kommune.no/media/2416/8-mottatte-merknader-i-hoeringsperioden-planid-257-200420.pdf",
+  "note": "24 faste plasser i brev 2019, kart stedfestet ved Eriksgate."
+ },
+ {
+  "id": "S06",
+  "name": "Heistad",
+  "candidate_ids": [
+   "C013"
+  ],
+  "feature_ids": [
+   "4001-H06-B01",
+   "4001-H06-B02",
+   "4001-H06-B03",
+   "4001-H06-B04"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/heistad.html",
+  "url": "https://www.havneweb.no/heistad-mbf/?mod=omhavnen",
+  "note": "Fast plassordning, ikke venteliste50 som havnekapasitet."
+ },
+ {
+  "id": "S07",
+  "name": "Døvik",
+  "candidate_ids": [
+   "C014"
+  ],
+  "feature_ids": [
+   "4001-H07-B01",
+   "4001-H07-B02",
+   "4001-H07-B03"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/dovik-2024.pdf",
+  "url": "https://www.dbf-porsgrunn.com/wordpress/wp-content/uploads/2025/03/ARSMOTEDOMUMENT-2025_09.03.25.pdf",
+  "note": "Nye bryggedeler og nabodrift åpne, hendelser ikke kapasitet."
+ },
+ {
+  "id": "S08",
+  "name": "Skjelsvik",
+  "candidate_ids": [
+   "C017"
+  ],
+  "feature_ids": [
+   "4001-H08-B01"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/skjelsvik.html",
+  "url": "https://www.havneweb.no/skjelsvik-bf/?mod=omhavnen",
+  "note": "Fast havn; medlemstall ikke kapasitet."
+ },
+ {
+  "id": "S09",
+  "name": "Seivall",
+  "candidate_ids": [
+   "C031"
+  ],
+  "feature_ids": [
+   "4001-H11-B01",
+   "4001-H11-B02",
+   "4001-H11-B03"
+  ],
+  "local_original": null,
+  "url": null,
+  "note": "Egen foreningsside lest i webverktøy. Rå HTML svarte403, ingen bevart original påstått."
+ },
+ {
+  "id": "S10",
+  "name": "Brevik",
+  "candidate_ids": [
+   "C036",
+   "C046"
+  ],
+  "feature_ids": [
+   "4001-H12-B01",
+   "4001-H12-B02",
+   "4001-H14-B01",
+   "4001-H14-B02",
+   "4001-H14-B03",
+   "4001-H14-B04",
+   "4001-H14-B05"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/brevik.html",
+  "url": "https://www.havneweb.no/brevik-bf/?mod=omhavnen",
+  "note": "Foreningens460 gjelder hele foreningen."
+ },
+ {
+  "id": "S11",
+  "name": "Sjøloftet",
+  "candidate_ids": [
+   "C046"
+  ],
+  "feature_ids": [
+   "4001-H14-B01",
+   "4001-H14-B02",
+   "4001-H14-B03",
+   "4001-H14-B04",
+   "4001-H14-B05"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/sjoloftet-marina.html",
+  "url": "https://www.sjoloftet.no/sjloftet-marina",
+  "note": "Gjestehavn er delbruk i fysisk indre havn; ikke dobbeltført."
+ },
+ {
+  "id": "S12",
+  "name": "Sandøya",
+  "candidate_ids": [
+   "C055"
+  ],
+  "feature_ids": [
+   "4001-H15-B01",
+   "4001-H15-B02",
+   "4001-H15-B03",
+   "4001-H15-B04"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/sandoya.html",
+  "url": "https://www.havneweb.no/sandoyabatforening/",
+  "note": "Foreningens eksisterende molohavn."
+ },
+ {
+  "id": "S13",
+  "name": "Nystrand",
+  "candidate_ids": [
+   "M10"
+  ],
+  "feature_ids": [
+   "4001-H17-B01",
+   "4001-H17-B02",
+   "4001-H17-B03",
+   "4001-H17-B04"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/nystrand.html",
+  "url": "https://nystrandbf.org/",
+  "note": "Fastplasshavn og bildefunn. Venteliste40 ikke kapasitet."
+ },
+ {
+  "id": "S14",
+  "name": "Langangen/Kilen",
+  "candidate_ids": [
+   "C061",
+   "M11",
+   "M24",
+   "M25"
+  ],
+  "feature_ids": [
+   "4001-H16-B01",
+   "4001-H16-B02",
+   "4001-H16-B03"
+  ],
+  "local_original": "work/4001-porsgrunn/raw/lmbf-2025.pdf",
+  "url": "https://www.lmbf.info/_files/ugd/421622_326c2f97576a4b5aae01d6c6ea3f8699.pdf",
+  "note": "Oppdatert forening, vedtekter, kapasitetsdeler og foto. Brotengninger forkastet; mindre deler åpne."
+ },
+ {
+  "id": "S15",
+  "name": "PMV-plan",
+  "candidate_ids": [
+   "M04"
+  ],
+  "feature_ids": [],
+  "local_original": "work/4001-porsgrunn/raw/pmv-plan.pdf",
+  "url": "https://www.porsgrunn.kommune.no/media/kjcjdo2e/10-notat-smaabaathavn-pmv-20082020.pdf",
+  "note": "Planlagte110 plasser ikke eksportert som eksisterende."
+ },
+ {
+  "id": "S16",
+  "name": "Dikkon",
+  "candidate_ids": [
+   "C037",
+   "C038"
+  ],
+  "feature_ids": [
+   "4001-H13-B01"
+  ],
+  "local_original": null,
+  "url": null,
+  "note": "Fergemolo uten polygon; liten campingrekke mulig. Sekundær gjesteomtale er ikke sikker funksjonsgrense."
+ },
+ {
+  "id": "S17",
+  "name": "Cocheplassen / Laberget",
+  "candidate_ids": [],
+  "feature_ids": [],
+  "local_original": null,
+  "url": null,
+  "note": "Havnelister har misvisende kommunefelt. Cocheplassen ligger i Bamble, Laberget sørlig utenfor grensen; ingen Porsgrunn-geometri konstruert."
+ }
+]

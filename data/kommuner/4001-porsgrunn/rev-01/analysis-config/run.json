@@ -1,0 +1,19 @@
+{
+ "started_utc": "2026-10-31T17:00:49.144655+00:00",
+ "started_unix": 1793466049.145012,
+ "municipality": "Porsgrunn",
+ "code": "4001",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "38358d0d94774a80548d1308595c1a29246566f624b86b1b11660f115bfd3fa2",
+  "data/samlet/samlet-manifest.json": "f7f05f4d3e0fd7e078abfb93aba3d09535d29fe74af1adb4af78508d75225f07"
+ },
+ "initial_approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "38358d0d94774a80548d1308595c1a29246566f624b86b1b11660f115bfd3fa2",
+  "data/samlet/samlet-manifest.json": "f7f05f4d3e0fd7e078abfb93aba3d09535d29fe74af1adb4af78508d75225f07"
+ },
+ "baseline_reconciled_before_build_utc": "2026-10-31T17:41:14.384881+00:00",
+ "baseline_note": "Godkjent Holmsåsen-supplement kom inn parallelt under analysen. Gjeldende 760 polygoner / 22 kommuner fryses før bygg. Opprinnelige hasher bevares; Porsgrunn-arbeidet har ikke endret godkjente geometrier."
+}

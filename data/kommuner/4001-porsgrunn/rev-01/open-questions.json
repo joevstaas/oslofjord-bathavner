@@ -1,0 +1,123 @@
+[
+ {
+  "id": "Q01",
+  "candidate_ids": [],
+  "place": "Bildedato og drift",
+  "need": "Alle avgrensninger er foreløpige og trenger kontroll mot datert lokalt ortofoto. Esri identify ved ett Herøya-punkt oppgir 2023-06-10, 0,46 m og 5 m for en kildeflate; dette er ikke verifisert for alle eksportbilder eller polygoner. Historisk Clarity er ikke bevis på dagens anlegg.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q02",
+  "candidate_ids": [
+   "C018",
+   "C038",
+   "M15"
+  ],
+  "place": "Mulige havner",
+  "need": "Kotøya, Dikkon og Dåpan har plausible fellesrekker, men minst ti faste plasser eller dokumentert felleshavndrift er ikke sikkert bekreftet. Private nabobrygger er ikke summert.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q03",
+  "candidate_ids": [
+   "C001",
+   "M01D",
+   "M01BV",
+   "M01BO",
+   "C009"
+  ],
+  "place": "PMF og sentrum",
+  "need": "Bekreft funksjonsgrenser mellom Down Town og PMF, hvilket Bien-delnavn som hører til hver pir, og nøyaktig utstrekning av Assuranse. De to Bien-pirene er foreløpig separate fysiske grupper. Nordlig T-brygge ved annet landfeste er ikke automatisk tilordnet Assuranse.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q04",
+  "candidate_ids": [
+   "M19"
+  ],
+  "place": "Sundjordkanalen",
+  "need": "Foreningen og kommunen dokumenterer båtplasser. Skygge og trekroner begrenser yttergrensene; to synlige belter er levert. Øvrig kanalbredde, gangbru og skogstrand er ikke konstruert inn. Nye planbrygger og forlengelse er utelatt.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q05",
+  "candidate_ids": [
+   "M05",
+   "C037",
+   "C056"
+  ],
+  "place": "Åpne gjeste-/anløpskandidater uten polygon",
+  "need": "Telemarkskanalen omtaler en liten gjestebrygge ved Porselænsfabrikken. Den er ikke sikkert skilt fra passasjer-/servicekai. Dikkons molo har sekundær gjesteomtale, men ferge-/gjestegrense er uklar. Klokkerholmen har leir-/anløpsfunksjon; ingen dokumentert kvalifiserende felles båtplasshavn.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q06",
+  "candidate_ids": [
+   "C006"
+  ],
+  "place": "Herøya og flytting i 2019",
+  "need": "Hydro dokumenterer ferdig ny havn ved Frierfjorden og ca. 170 plasser i 2019. Bekreft nåværende kapasitet, geometri og eventuell Telebryggen-fordeling. Tidligere utfylt havn og tomme moloer er ikke lagt til som nye anlegg.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q07",
+  "candidate_ids": [
+   "C014"
+  ],
+  "place": "Døvik – ny brygge og nabodrift",
+  "need": "Årsmøtedokumentet omtaler Svensen-brygge og aktivitet i 2024. Bekreft om dagens yttergrenser eller driftsfordeling avviker fra arbeidsbildet. Antall utleier/tildelinger er ikke total kapasitet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q08",
+  "candidate_ids": [
+   "C036",
+   "C046"
+  ],
+  "place": "Brevik – gruppe og funksjon",
+  "need": "Dalsbukta og indre havn er separate fysiske grupper. Bekreft Sjøloftet/Brevik Båtforening/private grenser og faste plasser kontra gjester. Foreningens 460 plasser gjelder hele foreningen; historiske 35 og sekundære 40 gjesteplasser er ikke additive.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q09",
+  "candidate_ids": [
+   "C061"
+  ],
+  "place": "Langangen/Kilen – foreningskobling og mindre deler",
+  "need": "Foreningens oppdaterte dokumenter gjelder Kilen. Hovedanlegget ved Halvarp er foreløpig koblet gjennom stedsnavn, plassmønster og egne bilder. Eksakt operatørkobling til hver del, 14 gamle betongplasser, 15 jolleplasser og tre gangbruplasser må etterprøves før tillegg. 16 foreningseide flytebryggeplasser er en eierskapsdel, ikke ekstra kapasitet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q10",
+  "candidate_ids": [
+   "M12N",
+   "M12S",
+   "M13",
+   "M14",
+   "M16",
+   "C028",
+   "C011"
+  ],
+  "place": "Navn og organisering",
+  "need": "Eiklund/Kreppa, Ørjevik, Bjønnes, Bjørkøybukta, Lundebukta og Osebro har fysisk anleggsgrunnlag, men formelle navn og driftsenheter må bekreftes. Stedsnavn er ikke operatørbevis.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q11",
+  "candidate_ids": [],
+  "place": "Dekning og innland",
+  "need": "259 kyst-/elvenære celler er gjennomgått. Marine OSM-kystlinjer har bildedekning, men dette er ikke bevis på fullstendig havneopptelling. Skydekte øyer er supplert historisk; mørke småbrygger kan være oversett. Hele Leirkup/Oselva oppstrøms, øvrige bekker og alle innsjøstrender er ikke systematisk fullkartlagt.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q12",
+  "candidate_ids": [
+   "M04",
+   "M11",
+   "M24"
+  ],
+  "place": "Planer og feiltolkninger",
+  "need": "PMV-planens 110 fremtidige plasser er ikke eksisterende havn. Langangen bru/rekkverk/landopplag er utelatt etter eksportkontroll; navnet alene ble først misvisende. Korttidsservice, fergekaier og private boligbrygger skal ikke oppgraderes automatisk.",
+  "status": "aapen"
+ }
+]
