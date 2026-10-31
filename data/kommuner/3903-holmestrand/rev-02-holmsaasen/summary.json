@@ -1,10 +1,11 @@
 {
-  "status": "til_godkjenning",
-  "scope": "Holmsåsen campingbukt og umiddelbart omkringliggende kyst i to bilderammer",
-  "new_features": 2,
-  "new_groups": 2,
-  "possible_groups": 1,
-  "baseline_unchanged": true,
-  "combined_unchanged": true,
-  "website_unchanged": true
+ "status": "godkjent_av_bruker",
+ "scope": "Holmsåsen campingbukt og umiddelbart omkringliggende kyst i to bilderammer",
+ "new_features": 2,
+ "new_groups": 2,
+ "possible_groups": 1,
+ "baseline_unchanged": true,
+ "combined_unchanged": false,
+ "website_unchanged": false,
+ "approved_utc": "2026-10-31T16:57:52Z"
 }

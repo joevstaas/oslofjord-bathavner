@@ -1,0 +1,12 @@
+{
+ "approved_utc": "2026-10-31T16:57:52Z",
+ "authorization": "Bruker: Innlem de to nye polygonene i samlefilen",
+ "polygons": 2,
+ "groups": 2,
+ "possible_groups": 1,
+ "known_uncertainties_retained": true,
+ "previous_features": 758,
+ "previous_features_sha256": "e23254333883c6d593265c568bbddd1c043920032f7ef961a6d40685304b3598",
+ "combined_features": 760,
+ "municipalities": 22
+}

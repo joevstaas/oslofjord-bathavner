@@ -83,3 +83,8 @@ Brukeren godkjente og bestilte commit, push og PR. Alle 66 polygoner / 31 forel�
 ### Holmsåsen – avgrenset etterkontroll 2026-10-31
 
 Brukerbildet av campingbukta er stedfestet i georefererte Esri-flybilder. Begge viste pirer manglet: H08 nordre pir beholdes som mulig småbåthavn (ti faste plasser/felles drift uklart), H09 søndre fellespir har minst ti tydelige plasser og klassifiseres som småbåthavn. To nye polygoner / to grupper ligger til godkjenning i `data/kommuner/3903-holmestrand/rev-02-holmsaasen/`. Eksisterende K04 med Holmsåsen-navn ligger nord for brukerbildets bukt; navnesøk alene var misvisende. To bilderammer og tilstøtende enkeltbrygger er kontrollert; dette er ikke full ny kommuneanalyse. Omriss er visuelt kontrollert og geometrier/ID-er/kommunegrense/overlapp/CSV kontrollert uten feil. Ukjent bildedato, nøyaktighet og operatører beholdes. Godkjent leveranse, samlet fil og nettsted er uendret. Læring: treff på stedsnavn må kontrolleres geometrisk før det hevdes at et brukerfunn allerede finnes.
+
+
+### Holmsåsen godkjent og innlemmet 2026-10-31
+
+Brukeren ba eksplisitt om innlemming av begge nye polygoner. H08 (mulig småbåthavn) og H09 (småbåthavn) er innlemmet med kjente usikkerheter. Samlet 760 polygoner / 22 kommuner; Holmestrand har nå 16 polygoner. De 758 tidligere features er bevart uendret, dokumentert med kanonisk SHA-256 i supplementets approval.json. Pilotleveransen rev-01 er uendret; godkjent supplement er koblet via status.json og kontrolleres sammen med hovedleveransen. Lokale kartdata er oppdatert. Ukjent bildedato, operatører og usikre avgrensninger beholdes.

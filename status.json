@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T16:48:04Z",
+ "updated_utc": "2026-10-31T16:57:52Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -8,7 +8,16 @@
    "status": "godkjent_som_pilot",
    "supplement_unreviewed": "archive/original/horten-pilot/suppleringsfunn-holmestrand.geojson",
    "result": "data/kommuner/3903-holmestrand/rev-01/bathavner.geojson",
-   "metadata": "data/kommuner/3903-holmestrand/rev-01/metadata.csv"
+   "metadata": "data/kommuner/3903-holmestrand/rev-01/metadata.csv",
+   "polygons": 16,
+   "supplements": [
+    {
+     "result": "data/kommuner/3903-holmestrand/rev-02-holmsaasen/bathavner.geojson",
+     "metadata": "data/kommuner/3903-holmestrand/rev-02-holmsaasen/metadata.csv",
+     "approved_utc": "2026-10-31T16:57:52Z",
+     "polygons": 2
+    }
+   ]
   },
   {
    "name": "Horten",
@@ -453,7 +462,7 @@
   "finished_utc": "2026-10-30T00:04:27Z",
   "approved_utc": "2026-10-30T05:46:52Z"
  },
- "in_progress": "Halden rev-01 godkjent og innlemmet. Samlet 758 polygoner / 22 kommuner. Kjente usikkerheter og kontrollhull beholdes. Ingen neste kommune startet.",
+ "in_progress": "Holmsåsen-supplement godkjent og innlemmet: to nye polygoner. Samlet 760 polygoner / 22 kommuner. Kjente usikkerheter beholdes.",
  "remaining_after_batch": [
   "Porsgrunn 4001",
   "Ås 3218 (kystlinje ikke bekreftet)"
@@ -495,12 +504,13 @@
    "municipality": "Holmestrand",
    "municipality_code": "3903",
    "area": "Holmsåsen campingbukt",
-   "status": "til_godkjenning",
+   "status": "godkjent_av_bruker",
    "path": "data/kommuner/3903-holmestrand/rev-02-holmsaasen",
    "new_polygons": 2,
    "new_groups": 2,
    "possible_groups": 1,
-   "combined_unchanged": true
+   "combined_unchanged": false,
+   "approved_utc": "2026-10-31T16:57:52Z"
   }
  ]
 }

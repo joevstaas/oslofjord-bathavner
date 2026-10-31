@@ -5,6 +5,7 @@ from shapely.geometry import shape,Polygon,mapping
 from shapely.ops import transform,unary_union
 from PIL import Image,ImageDraw
 P=Path(__file__).parent; R=P.parents[2]; O=R/'data/kommuner/3903-holmestrand/rev-02-holmsaasen';O.mkdir(exist_ok=True)
+assert not (O/'approval.json').exists(), 'Godkjent supplement skal ikke overskrives'
 def write(n,d): (O/n).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
 m=json.loads((P/'images/holmsaasen-bay.json').read_text());bb=m['actual_bbox']; W,H=m['width'],m['height']; toLL=Transformer.from_crs(25833,4326,always_xy=True).transform; toUTM=Transformer.from_crs(4326,25833,always_xy=True).transform
 # Vertices read manually in the displayed 1600-pixel review frame, scaled to the original image.

@@ -1,147 +1,149 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3903-H08-B01",
-        "harbour_id": "3903-H08",
-        "name": "Holmsåsen – nordre brygge i campingbukta",
-        "name_is_descriptive": true,
-        "municipality": "Holmestrand",
-        "municipality_code": "3903",
-        "classification": "mulig_smabathavn",
-        "classification_basis": "Felles pir med flere utriggere og fortøyde småbåter. Minst ti faste plasser kan ikke telles sikkert; felles drift/operatør er ikke dokumentert.",
-        "approval_status": "til_godkjenning",
-        "revision": 2,
-        "scope": "Avgrenset supplement: bukta i brukerens skjermbilde, ikke ny full kommuneanalyse",
-        "method_version": "1.2",
-        "schema_version": "1.1",
-        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
-        "method": "manuell_digitalisering_georeferert_flybilde",
-        "geometry_status": "usikker_avgrensning",
-        "area_m2": 447.1,
-        "longitude": 10.240613996007186,
-        "latitude": 59.55597696730954,
-        "needs_orthophoto_review": true,
-        "source_observation_date": null,
-        "current_operation_verified": false,
-        "berth_count_published": null,
-        "imagery_source": "Esri World Imagery",
-        "imagery_retrieved_date": "2026-10-31",
-        "image_id": "holmsaasen-bay",
-        "image_sha256": "c455b82901315c5b927a75eafd3a04eadcdf267ba1fb53703c99d0e044259c30",
-        "image_resolution_m_per_pixel": 0.444,
-        "sources": [
-          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1139275.0149021023%2C8300608.353131915%2C1140957.7881312673%2C8302294.038121567&bboxSR=3857&imageSR=3857&size=1981%2C1981&format=jpg"
-        ],
-        "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
-        "note": "Beskrivende navn; campingtilknytning er geografisk, ikke bekreftet operatørforhold. Omriss er manuelt forslag med ukjent bildedato og posisjonsnøyaktighet."
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.240670934745774,
-              59.55614784018014
-            ],
-            [
-              10.240778618070376,
-              59.55613827083243
-            ],
-            [
-              10.240706958607081,
-              59.55595576006025
-            ],
-            [
-              10.240716492939262,
-              59.5558256798776
-            ],
-            [
-              10.240458317066345,
-              59.555834263601355
-            ],
-            [
-              10.240468310824088,
-              59.555951562778866
-            ],
-            [
-              10.240553213821975,
-              59.55610307371093
-            ],
-            [
-              10.240670934745774,
-              59.55614784018014
-            ]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "3903-H09-B01",
-        "harbour_id": "3903-H09",
-        "name": "Holmsåsen – søndre fellespir i campingbukta",
-        "name_is_descriptive": true,
-        "municipality": "Holmestrand",
-        "municipality_code": "3903",
-        "classification": "smabathavn",
-        "classification_basis": "Én sammenhengende fellespir med tydelig rekke av utriggere og minst ti synlige båtplasser. Ingen publisert kapasitet eller operatør er fastslått.",
-        "approval_status": "til_godkjenning",
-        "revision": 2,
-        "scope": "Avgrenset supplement: bukta i brukerens skjermbilde, ikke ny full kommuneanalyse",
-        "method_version": "1.2",
-        "schema_version": "1.1",
-        "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
-        "method": "manuell_digitalisering_georeferert_flybilde",
-        "geometry_status": "usikker_avgrensning",
-        "area_m2": 1059.1,
-        "longitude": 10.239723134454264,
-        "latitude": 59.555190309728786,
-        "needs_orthophoto_review": true,
-        "source_observation_date": null,
-        "current_operation_verified": false,
-        "berth_count_published": null,
-        "imagery_source": "Esri World Imagery",
-        "imagery_retrieved_date": "2026-10-31",
-        "image_id": "holmsaasen-bay",
-        "image_sha256": "c455b82901315c5b927a75eafd3a04eadcdf267ba1fb53703c99d0e044259c30",
-        "image_resolution_m_per_pixel": 0.444,
-        "sources": [
-          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1139275.0149021023%2C8300608.353131915%2C1140957.7881312673%2C8302294.038121567&bboxSR=3857&imageSR=3857&size=1981%2C1981&format=jpg"
-        ],
-        "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
-        "note": "Beskrivende navn; campingtilknytning er geografisk, ikke bekreftet operatørforhold. Omriss er manuelt forslag med ukjent bildedato og posisjonsnøyaktighet."
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              10.23917661911365,
-              59.5553737884924
-            ],
-            [
-              10.24030704012932,
-              59.55514962886095
-            ],
-            [
-              10.240203877416768,
-              59.55500194984996
-            ],
-            [
-              10.239113738913797,
-              59.555254561645704
-            ],
-            [
-              10.23917661911365,
-              59.5553737884924
-            ]
-          ]
-        ]
-      }
-    }
-  ]
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3903-H08-B01",
+    "harbour_id": "3903-H08",
+    "name": "Holmsåsen – nordre brygge i campingbukta",
+    "name_is_descriptive": true,
+    "municipality": "Holmestrand",
+    "municipality_code": "3903",
+    "classification": "mulig_smabathavn",
+    "classification_basis": "Felles pir med flere utriggere og fortøyde småbåter. Minst ti faste plasser kan ikke telles sikkert; felles drift/operatør er ikke dokumentert.",
+    "approval_status": "godkjent_av_bruker",
+    "revision": 2,
+    "scope": "Avgrenset supplement: bukta i brukerens skjermbilde, ikke ny full kommuneanalyse",
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde",
+    "geometry_status": "usikker_avgrensning",
+    "area_m2": 447.1,
+    "longitude": 10.240613996007186,
+    "latitude": 59.55597696730954,
+    "needs_orthophoto_review": true,
+    "source_observation_date": null,
+    "current_operation_verified": false,
+    "berth_count_published": null,
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "image_id": "holmsaasen-bay",
+    "image_sha256": "c455b82901315c5b927a75eafd3a04eadcdf267ba1fb53703c99d0e044259c30",
+    "image_resolution_m_per_pixel": 0.444,
+    "sources": [
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1139275.0149021023%2C8300608.353131915%2C1140957.7881312673%2C8302294.038121567&bboxSR=3857&imageSR=3857&size=1981%2C1981&format=jpg"
+    ],
+    "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+    "note": "Beskrivende navn; campingtilknytning er geografisk, ikke bekreftet operatørforhold. Omriss er manuelt forslag med ukjent bildedato og posisjonsnøyaktighet.",
+    "approved_utc": "2026-10-31T16:57:52Z"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.240670934745774,
+       59.55614784018014
+      ],
+      [
+       10.240778618070376,
+       59.55613827083243
+      ],
+      [
+       10.240706958607081,
+       59.55595576006025
+      ],
+      [
+       10.240716492939262,
+       59.5558256798776
+      ],
+      [
+       10.240458317066345,
+       59.555834263601355
+      ],
+      [
+       10.240468310824088,
+       59.555951562778866
+      ],
+      [
+       10.240553213821975,
+       59.55610307371093
+      ],
+      [
+       10.240670934745774,
+       59.55614784018014
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3903-H09-B01",
+    "harbour_id": "3903-H09",
+    "name": "Holmsåsen – søndre fellespir i campingbukta",
+    "name_is_descriptive": true,
+    "municipality": "Holmestrand",
+    "municipality_code": "3903",
+    "classification": "smabathavn",
+    "classification_basis": "Én sammenhengende fellespir med tydelig rekke av utriggere og minst ti synlige båtplasser. Ingen publisert kapasitet eller operatør er fastslått.",
+    "approval_status": "godkjent_av_bruker",
+    "revision": 2,
+    "scope": "Avgrenset supplement: bukta i brukerens skjermbilde, ikke ny full kommuneanalyse",
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde",
+    "geometry_status": "usikker_avgrensning",
+    "area_m2": 1059.1,
+    "longitude": 10.239723134454264,
+    "latitude": 59.555190309728786,
+    "needs_orthophoto_review": true,
+    "source_observation_date": null,
+    "current_operation_verified": false,
+    "berth_count_published": null,
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "image_id": "holmsaasen-bay",
+    "image_sha256": "c455b82901315c5b927a75eafd3a04eadcdf267ba1fb53703c99d0e044259c30",
+    "image_resolution_m_per_pixel": 0.444,
+    "sources": [
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1139275.0149021023%2C8300608.353131915%2C1140957.7881312673%2C8302294.038121567&bboxSR=3857&imageSR=3857&size=1981%2C1981&format=jpg"
+    ],
+    "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+    "note": "Beskrivende navn; campingtilknytning er geografisk, ikke bekreftet operatørforhold. Omriss er manuelt forslag med ukjent bildedato og posisjonsnøyaktighet.",
+    "approved_utc": "2026-10-31T16:57:52Z"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.23917661911365,
+       59.5553737884924
+      ],
+      [
+       10.24030704012932,
+       59.55514962886095
+      ],
+      [
+       10.240203877416768,
+       59.55500194984996
+      ],
+      [
+       10.239113738913797,
+       59.555254561645704
+      ],
+      [
+       10.23917661911365,
+       59.5553737884924
+      ]
+     ]
+    ]
+   }
+  }
+ ]
 }

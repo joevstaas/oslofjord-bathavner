@@ -1,4 +1,4 @@
-# Holmsåsen – avgrenset ny analyse, til godkjenning
+# Holmsåsen – avgrenset ny analyse, godkjent og innlemmet
 
 To nye polygoner / to separate anleggsgrupper i campingbukta fra brukerbildet:
 
@@ -15,6 +15,6 @@ Flybildenes opptaksdato og absolutte nøyaktighet er ukjent. Hentetid er ikke op
 
 ## Kontroll
 
-`review-overlay.jpg` og to detaljpaneler er visuelt kontrollert etter eksport. Geometriene er gyldige, har unike ID-er og 0 m² utenfor kommunegrensen, innbyrdes overlapp eller overlapp med samlet fil. GeoJSON og metadata-CSV er sammenholdt. Navn er beskrivende. Godkjent rev-01, samlefil og nettsted er uendret; supplementet venter på brukergodkjenning.
+`review-overlay.jpg` og to detaljpaneler er visuelt kontrollert etter eksport. Geometriene er gyldige, har unike ID-er og 0 m² utenfor kommunegrensen, innbyrdes overlapp eller overlapp med samlet fil. GeoJSON og metadata-CSV er sammenholdt. Navn er beskrivende. Godkjent rev-01 er uendret. Brukeren godkjente innlemming av begge polygonene; samlet fil og lokale kartdata er oppdatert til 760 polygoner / 22 kommuner.
 
 Reproduksjon: `work/3903-holmestrand/holmsaasen-review/build.py`. Pikselpunkter og eksakt bilderamme står også i `digitisation.json`. Se `open-questions.json` for gjenstående usikkerheter.
