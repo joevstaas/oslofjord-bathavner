@@ -1,0 +1,871 @@
+[
+ {
+  "local_metadata_path": "work/3101-halden/raw/engevika-kart.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i256ab7c4-9cc5-40a2-94d4-fd81ab47702d/engevika-dagsturkart.pdf",
+   "retrieved_utc": "2026-10-31T16:01:11.718696+00:00",
+   "sha256": "2c05496925188378b25879982b500597e44dfc6ba606b431056dfcd6d8b1dc3a"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/esri-service.json.provenance.json",
+  "metadata": {
+   "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+   "retrieved_utc": "2026-10-31T15:57:48.983226+00:00",
+   "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/havneweb.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/haldenhavn/?mod=startsiden",
+   "retrieved_utc": "2026-10-31T16:01:09.240285+00:00",
+   "sha256": "63e46dc1759e1a63259ad65319b04ae0f633a74d6da92d7c048292b57a112e3d"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kanalselskap-2025.provenance.json",
+  "metadata": {
+   "url": "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/ostfold/2026_rsrapport_for_2025_Styrebehandlet_25_04_13_de612f92-3582-4593-a7dd-c34959dafd5b.pdf",
+   "retrieved_utc": "2026-10-31T16:16:08.627625+00:00",
+   "sha256": "9413ec63cbbe23a4fb027b1306f9ec97b7d083a3c4a97e6a1b4e43108389e626"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommune-batplasser.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/",
+   "retrieved_utc": "2026-10-31T16:01:09.014157+00:00",
+   "sha256": "54a498886c61ea097265a043a4d6abd966ec7d062eb67bfaf882988cbaee32c7"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommune-gjestehavn.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/gjestehavn/",
+   "retrieved_utc": "2026-10-31T16:01:09.008975+00:00",
+   "sha256": "c218522313d2ea8e425451a887398a2881c3de7e18468094df4f08651013d9ce"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunegrense-4326.json.provenance.json",
+  "metadata": {
+   "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3101/omrade?utkoordsys=4326",
+   "retrieved_utc": "2026-10-31T15:57:48.875278+00:00",
+   "sha256": "95db571a834193977f4df7b189504288413ab317eb270aea22f3cf4ac66b52e8"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-1.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/idfd72eb3-8a2a-4bfc-9461-465027a88a8d/gebyrer-og-forskrifter-2026-bryggeplasser-og-gjestehavn.PDF",
+   "retrieved_utc": "2026-10-31T16:01:11.868945+00:00",
+   "sha256": "27924f860695fd98ee7f62d2d2c13aa9e2397d76629e0625a59697d1952f3a5e"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-10.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i167980f2-6fe1-4778-8c8f-d4f2bbfb13cd/tista-senter-syd-2-pdf-hjemmeside.PNG",
+   "retrieved_utc": "2026-10-31T16:01:12.322474+00:00",
+   "sha256": "b0d4e854b1025c45916a8c4b23b7a0ad1d15092fb0adf23cffcf43a0ab78f07e"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-11.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i6139e098-c6e9-4330-ad17-1a7ac99b92a3/rema-1000-hovleriet-helarsplass.pdf",
+   "retrieved_utc": "2026-10-31T16:01:12.258200+00:00",
+   "sha256": "ef93997d863dec6cf7e39173bf85ed0c0959bcbc69666e4cb6b43082d64d090e"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-2.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i039d3b90-52ea-4a74-803c-7daeb00df7d2/verven-1-2-3.pdf",
+   "retrieved_utc": "2026-10-31T16:01:11.862565+00:00",
+   "sha256": "0f767987631eb7d8667251bcab0c3c8b52fb6f020fab28465c2c8cb1ebb6e6d0"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-3.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i50a47442-a543-4ce3-84ae-8b6eeb9dc4a2/langbrygga.pdf",
+   "retrieved_utc": "2026-10-31T16:01:11.860605+00:00",
+   "sha256": "c43559b1b119056f744bd8d7e05d77a931fb4941963d09e0ae34da39f30559fa"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-4.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/if110d577-d05c-4afe-a636-85a3822e1a77/sundsbrygga-pdf-hjemmeside.PNG",
+   "retrieved_utc": "2026-10-31T16:01:12.071087+00:00",
+   "sha256": "59ad7c3babecf1b2c36e88e48a3602279b735b0e896fc93cd933815ab61c9fc8"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-5.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i1d9797b2-040b-4392-b6a9-442c0067a62c/bro-overgangen-pdf-hjemmeside.PNG",
+   "retrieved_utc": "2026-10-31T16:01:12.052238+00:00",
+   "sha256": "bd38c30133e02f4a5b4791e4b1d7265b7d2c923fc218716120ce1540fadd8f8f"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-6.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i886cc276-c9ef-459e-a676-a72737531293/felleskjopet-batplass.pdf",
+   "retrieved_utc": "2026-10-31T16:01:11.985458+00:00",
+   "sha256": "0883b700757df55d58f69f4e85624c628527b96203a4d472d345791eb0d85fb5"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-7.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/iefb09c64-c6d4-4b50-a379-fcde43c207f5/gronnland-helarsplass.pdf",
+   "retrieved_utc": "2026-10-31T16:01:12.103915+00:00",
+   "sha256": "a94c2e31df862c2a778267ce59a2d249223d09301e78085b0131466a9db0b947"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-8.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/iecfc03bf-3c4d-44e2-98e4-bb54581b121f/tista-senter-helarsplass.pdf",
+   "retrieved_utc": "2026-10-31T16:01:12.162679+00:00",
+   "sha256": "1bb3cea3b913af84a063a755160203e1f426f1ce0983c0f93a33714e324a2b78"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/kommunekart-9.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/_f/p1/i4ca7c1b5-9bdc-4480-8d54-d184428e98f1/tista-senter-syd-pdf-hjemmeside.PNG",
+   "retrieved_utc": "2026-10-31T16:01:12.284788+00:00",
+   "sha256": "3ab3bf2ee1e26bbc7a607aa397c1de2b11f3115a7ddec5034b7b0fd1ea209029"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/ku-smabathavner.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/vil-du-vare-med-a-pavirke/politikk-og-planer/styringsgrupper-2019-2023/styringsgruppa-for-arealplanen/~/_f/p1/ie310fc7b-0440-47ab-acbf-55af0056bff4/240620-vedlegg-ku-for-enkeltomrader-revidert-251019-del-2rev-170620-m-bokmerker.pdf",
+   "retrieved_utc": "2026-10-31T16:01:11.113504+00:00",
+   "sha256": "bcaea23ec445b03dc6c63e612699cf1287b116f0fc0bd6ebf68519fa48f87e50"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/names-extra.provenance.json",
+  "metadata": {
+   "urls": [
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557510.0&ost=282635.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6552740.0&ost=295020.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6552470.0&ost=294490.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6549800.0&ost=295050.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6547480.0&ost=295860.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6546920.0&ost=296100.0&koordsys=25833&radius=500&utkoordsys=25833&treffPerSide=15"
+   ],
+   "retrieved_utc": "2026-10-31T16:29:15.507010+00:00",
+   "sha256": "d43d6c431269fe4408d5a0b00d79235e39e514174dd108b7eea801e67e861486"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/names.provenance.json",
+  "metadata": {
+   "urls": [
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559112.994939931&ost=283281.4494769336&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559022.778603101&ost=282965.1438811387&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558857.652217811&ost=282959.23304593825&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557860.103706947&ost=283577.7232465983&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557834.229801651&ost=283275.7285809101&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557755.361837143&ost=283516.22077712225&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557729.785050097&ost=283698.1896706871&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557142.273364134&ost=282499.1722942061&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556822.779847108&ost=283455.3116048837&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556786.424310981&ost=283693.3196453351&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556591.528776919&ost=283779.5909184257&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556422.411844036&ost=283843.2842382168&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560767.614244481&ost=284126.54276988795&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556454.712321271&ost=284327.61078320874&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558885.023966325&ost=289421.6248081906&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558184.255071127&ost=288398.277572359&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558889.323743561&ost=292794.1737975989&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558805.221516591&ost=293215.48653315124&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558738.205854859&ost=293005.23442662234&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558607.826529563&ost=293144.3775210873&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558492.967037671&ost=292873.1071782133&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558425.654747688&ost=293089.9161808604&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558153.823329808&ost=293042.50770704314&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557806.853191384&ost=292735.3018088631&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559605.299308113&ost=297188.38937721355&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559420.954595118&ost=296849.83818582754&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6551353.155643025&ost=299648.29416124243&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6546372.945073499&ost=301344.31823527167&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6549321.043008337&ost=303456.5233055082&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15"
+   ],
+   "sha256": "d7b26fd9afec87339cfd3461ddd700efcd831dccac1cfb2be470a03ae7a588a8",
+   "retrieved_utc": "2026-10-31T16:00:27.888661+00:00"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.150000%2C59.050000%2C11.210000%2C59.090000",
+   "bbox": [
+    11.15,
+    59.05,
+    11.21,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T15:58:41.286164+00:00",
+   "sha256": "aa5e55655971708254fc75536de6fbe9765b904daf290cd28d8c77d9824ff3aa"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.150000%2C59.090000%2C11.210000%2C59.130000",
+   "bbox": [
+    11.15,
+    59.09,
+    11.21,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:41.700451+00:00",
+   "sha256": "16c8b48a7ba020d84fd62794dcd1b4af1ff43e99f0b075cd59c237bc22fe919e"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-10.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.330000%2C59.090000%2C11.390000%2C59.130000",
+   "bbox": [
+    11.33,
+    59.09,
+    11.39,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:49.689261+00:00",
+   "sha256": "f1e01127dd0662a0c0595ebdc27b03850ac19e244bc678410c24f90d4b2f6010"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-11.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.330000%2C59.130000%2C11.390000%2C59.170000",
+   "bbox": [
+    11.33,
+    59.13,
+    11.39,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:49.895771+00:00",
+   "sha256": "e6d0139dfe06df0ce2b7922233891b2ec67cb79303184bed7fa0cf67c13953c5"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-12.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.330000%2C59.170000%2C11.390000%2C59.210000",
+   "bbox": [
+    11.33,
+    59.17,
+    11.39,
+    59.21
+   ],
+   "retrieved_utc": "2026-10-31T15:58:50.761064+00:00",
+   "sha256": "5c77da86d020d3625c875b8161cfe4321f1ba70c65b5ce6113c294d6e6e3fab0"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-13.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.050000%2C11.450000%2C59.090000",
+   "bbox": [
+    11.39,
+    59.05,
+    11.45,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T15:58:51.099409+00:00",
+   "sha256": "75d5115049641b6877e7f64820b04bf6c9fd5c2b3ff387c9d86248c10e2f51f5"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-14-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.090000%2C11.420000%2C59.110000",
+   "bbox": [
+    11.39,
+    59.09,
+    11.42,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T15:58:54.039280+00:00",
+   "sha256": "b7dbdf5fdb484782de2589098465cf2b3422aa824e5ebeb2b1e980f7087eb525"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-14-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.420000%2C59.090000%2C11.450000%2C59.110000",
+   "bbox": [
+    11.42,
+    59.09,
+    11.45,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T15:58:54.666886+00:00",
+   "sha256": "5cf046d81dcfd9ba2e88b5044a7c2c3d7eec61e7c42e7ee125f6ba0c5afcbaab"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-14-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.110000%2C11.420000%2C59.130000",
+   "bbox": [
+    11.39,
+    59.11,
+    11.42,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:56.662688+00:00",
+   "sha256": "de6835199871227b470ee785ede615e29dfe4217fbf88ec344263c93afb04cf7"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-14-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.420000%2C59.110000%2C11.450000%2C59.130000",
+   "bbox": [
+    11.42,
+    59.11,
+    11.45,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:58.281687+00:00",
+   "sha256": "e652b99e335595b80c801f6167f4de7b0a5a548074c565bc1c23f1fd1dc16cdb"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-15-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.130000%2C11.420000%2C59.150000",
+   "bbox": [
+    11.39,
+    59.13,
+    11.42,
+    59.150000000000006
+   ],
+   "retrieved_utc": "2026-10-31T15:58:54.629446+00:00",
+   "sha256": "6e2c4410a6ef304dd222608cb9991f0b857e58489af4957e07d7c73fdc3c3ae1"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-15-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.420000%2C59.130000%2C11.450000%2C59.150000",
+   "bbox": [
+    11.42,
+    59.13,
+    11.45,
+    59.150000000000006
+   ],
+   "retrieved_utc": "2026-10-31T15:58:55.824238+00:00",
+   "sha256": "eaef805cac8deaa7ade75ee955f40c8f3333f8fd8b55c02f8141b3d52f6c4736"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-15-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.150000%2C11.420000%2C59.170000",
+   "bbox": [
+    11.39,
+    59.150000000000006,
+    11.42,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:56.258271+00:00",
+   "sha256": "ca676791b5dd87ea74c07050031fb31d9a9a9e41bb903aa9aaa78930382b4af8"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-15-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.420000%2C59.150000%2C11.450000%2C59.170000",
+   "bbox": [
+    11.42,
+    59.150000000000006,
+    11.45,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:56.664746+00:00",
+   "sha256": "4a3f341bcf24d51ce4cd22104f80879ff6af141fc756a47b04f6d0ecd31a1c72"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-16.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.170000%2C11.450000%2C59.210000",
+   "bbox": [
+    11.39,
+    59.17,
+    11.45,
+    59.21
+   ],
+   "retrieved_utc": "2026-10-31T15:58:57.345799+00:00",
+   "sha256": "816ce4452384220e6e6f96bfc218677ae7e4bd99e968e3aff7178aa524b5b495"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-17.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C59.050000%2C11.510000%2C59.090000",
+   "bbox": [
+    11.45,
+    59.05,
+    11.51,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T15:58:58.033874+00:00",
+   "sha256": "de408a6ea2bc1f2b2d25eb1ba210f2387fb9a9ecb18e52d6ee75856691cada1a"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-18.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C59.090000%2C11.510000%2C59.130000",
+   "bbox": [
+    11.45,
+    59.09,
+    11.51,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:58.985911+00:00",
+   "sha256": "3b064883ce5eaf0168b5c75f2089ec3526476d9f8c2de7b23dbe0e3ee98c3711"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-19.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C59.130000%2C11.510000%2C59.170000",
+   "bbox": [
+    11.45,
+    59.13,
+    11.51,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:58.861507+00:00",
+   "sha256": "fabf758f22dc73c643f64bc31ac83f85f0b57dfd8e6b9c8ac39375f3ffebc59e"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.210000%2C59.050000%2C11.270000%2C59.090000",
+   "bbox": [
+    11.21,
+    59.05,
+    11.27,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T15:58:42.289747+00:00",
+   "sha256": "1f646684341704f0fa658d9d384fd55c7f9f6dc0f5e71374d0a5ba56fdd4210d"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-20.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C59.170000%2C11.510000%2C59.210000",
+   "bbox": [
+    11.45,
+    59.17,
+    11.51,
+    59.21
+   ],
+   "retrieved_utc": "2026-10-31T15:58:59.285756+00:00",
+   "sha256": "e2e60f4aab80ed424891e982374b826ccb91b7b5cd8abe26ee2db346717cbb97"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-21.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C58.990000%2C11.450000%2C59.030000",
+   "bbox": [
+    11.39,
+    58.99,
+    11.45,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T15:58:59.726024+00:00",
+   "sha256": "f43e576e14968ece7b08c0ea64d9c99465d59500818d0894c111c44e43623f0a"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-22.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.390000%2C59.030000%2C11.450000%2C59.070000",
+   "bbox": [
+    11.39,
+    59.03,
+    11.45,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T15:59:00.202207+00:00",
+   "sha256": "d69350becb543f2f1fe9064561358d9558b67d750e1d34b469d62ed38680ffc0"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-23.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C58.870000%2C11.510000%2C58.910000",
+   "bbox": [
+    11.45,
+    58.87,
+    11.51,
+    58.91
+   ],
+   "retrieved_utc": "2026-10-31T15:59:00.474398+00:00",
+   "sha256": "a9eea2ccb6748c28aeabcce074d4021f53f0695ef0271beabccae9d2220e1023"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-24.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C58.910000%2C11.510000%2C58.950000",
+   "bbox": [
+    11.45,
+    58.91,
+    11.51,
+    58.95
+   ],
+   "retrieved_utc": "2026-10-31T15:59:00.767891+00:00",
+   "sha256": "51fb9ddbb1a77d4646108e749a5f07c7b2a14c7276cc42e8b3d1618382a79f4f"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-25.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C58.950000%2C11.510000%2C58.990000",
+   "bbox": [
+    11.45,
+    58.95,
+    11.51,
+    58.99
+   ],
+   "retrieved_utc": "2026-10-31T15:59:01.047407+00:00",
+   "sha256": "1c9357f899e5f085ae79474251db30ca901deb290b816a45ab8930517b309600"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-26.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C58.990000%2C11.510000%2C59.030000",
+   "bbox": [
+    11.45,
+    58.99,
+    11.51,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T15:59:01.316518+00:00",
+   "sha256": "29de90f1083f65202f391422fa3251f7bc4f9c2b8b0b2f7274541d6d8b4f097d"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-27.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.450000%2C59.030000%2C11.510000%2C59.070000",
+   "bbox": [
+    11.45,
+    59.03,
+    11.51,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T15:59:01.553213+00:00",
+   "sha256": "ec5c088df6a41fa0e66f2c3fde7f7a46503502d806b3e67286ac7668eba19249"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-28.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.510000%2C58.870000%2C11.570000%2C58.910000",
+   "bbox": [
+    11.51,
+    58.87,
+    11.57,
+    58.91
+   ],
+   "retrieved_utc": "2026-10-31T15:59:02.181797+00:00",
+   "sha256": "aad74c0f67317910a8118bdf9c80c73aa7fdbdaf101ed2df8a466084012eb199"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-29.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.510000%2C58.910000%2C11.570000%2C58.950000",
+   "bbox": [
+    11.51,
+    58.91,
+    11.57,
+    58.95
+   ],
+   "retrieved_utc": "2026-10-31T15:59:02.031111+00:00",
+   "sha256": "8b23c018c4450c7322ad070900a01a5367d9804b907c0f7805de4947ecec61c1"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.210000%2C59.090000%2C11.270000%2C59.130000",
+   "bbox": [
+    11.21,
+    59.09,
+    11.27,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:43.936470+00:00",
+   "sha256": "ffad8c044e03442af717fce7429ab1fb41910a25d67f5b7594b68d3b53c63642"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-30.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.510000%2C58.950000%2C11.570000%2C58.990000",
+   "bbox": [
+    11.51,
+    58.95,
+    11.57,
+    58.99
+   ],
+   "retrieved_utc": "2026-10-31T15:59:02.619096+00:00",
+   "sha256": "8fee3829b934a6b983f0aae3f8b2b13203d4c0313095c368d71c17f6b4963661"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-31.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.510000%2C58.990000%2C11.570000%2C59.030000",
+   "bbox": [
+    11.51,
+    58.99,
+    11.57,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T15:59:02.794583+00:00",
+   "sha256": "68e6a33d0eb5edc1dbebd62c6e0d1599e32ff2534e52d87278896b7f91e987be"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-32.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.510000%2C59.030000%2C11.570000%2C59.070000",
+   "bbox": [
+    11.51,
+    59.03,
+    11.57,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T15:59:03.124375+00:00",
+   "sha256": "119229fdd9bca148da87d0e03655720b830ccf3bc4830e8d2a6a45fdc1e6d2ab"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-33.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.570000%2C58.870000%2C11.630000%2C58.910000",
+   "bbox": [
+    11.57,
+    58.87,
+    11.63,
+    58.91
+   ],
+   "retrieved_utc": "2026-10-31T15:59:03.266250+00:00",
+   "sha256": "a5185faa2440f10fe0c37010cd301331d873e0ba91b8dbd22804023899ebd83a"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-34.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.570000%2C58.910000%2C11.630000%2C58.950000",
+   "bbox": [
+    11.57,
+    58.91,
+    11.63,
+    58.95
+   ],
+   "retrieved_utc": "2026-10-31T15:59:03.679556+00:00",
+   "sha256": "004f40fb3ee25e5feb612b7362efa93ec63f6823ad35a78ecd2e5e49de637295"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-35.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.570000%2C58.950000%2C11.630000%2C58.990000",
+   "bbox": [
+    11.57,
+    58.95,
+    11.63,
+    58.99
+   ],
+   "retrieved_utc": "2026-10-31T15:59:03.643162+00:00",
+   "sha256": "d097ea6ab911f8220020366a2246654da49529782e98ded5443a1738ea69b0fb"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-36.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.570000%2C58.990000%2C11.630000%2C59.030000",
+   "bbox": [
+    11.57,
+    58.99,
+    11.63,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T15:59:04.119664+00:00",
+   "sha256": "0c9fdbad6150f0f0f6f59a4433c86ac545bf52227171b1ba9bae21b09bf0b9df"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-37.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.570000%2C59.030000%2C11.630000%2C59.070000",
+   "bbox": [
+    11.57,
+    59.03,
+    11.63,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T15:59:04.153491+00:00",
+   "sha256": "99132c8b6f95ffa20c5e36ad37223f5f813349158960979d5dc42d870424e3d0"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-4.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.210000%2C59.130000%2C11.270000%2C59.170000",
+   "bbox": [
+    11.21,
+    59.13,
+    11.27,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:43.699294+00:00",
+   "sha256": "ba705e2b92b13479dcba9e4cf2a369b11ce111671a53eef1dc9d852119af245f"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-5.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.210000%2C59.170000%2C11.270000%2C59.210000",
+   "bbox": [
+    11.21,
+    59.17,
+    11.27,
+    59.21
+   ],
+   "retrieved_utc": "2026-10-31T15:58:45.144972+00:00",
+   "sha256": "bb6f6ca76715ea279d5ba159fc2ad320fe386b3a6815491be35c40a795d9c5c9"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-6.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.270000%2C59.090000%2C11.330000%2C59.130000",
+   "bbox": [
+    11.27,
+    59.09,
+    11.33,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T15:58:46.110864+00:00",
+   "sha256": "f76fef3c6019e830e4e5eaa7457e7e7f0855f58a4a204e46afc53dfd8be8b766"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-7.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.270000%2C59.130000%2C11.330000%2C59.170000",
+   "bbox": [
+    11.27,
+    59.13,
+    11.33,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T15:58:46.180038+00:00",
+   "sha256": "8d362de277ec54e600e4ea1a9a02c610930e5a7c2f9c68cceab8c79eeaaa87c5"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-8.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.270000%2C59.170000%2C11.330000%2C59.210000",
+   "bbox": [
+    11.27,
+    59.17,
+    11.33,
+    59.21
+   ],
+   "retrieved_utc": "2026-10-31T15:58:46.829194+00:00",
+   "sha256": "84d0a28f43c41421b3af252e750419fb10c0be2217e4126d19aabb2f698faeaf"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/osm-map-9.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.330000%2C59.050000%2C11.390000%2C59.090000",
+   "bbox": [
+    11.33,
+    59.05,
+    11.39,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T15:58:46.780277+00:00",
+   "sha256": "9fc853283b64908ef2a0ecb03d75209e360b4d324087c3c4943d30e883a75d7d"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/seilforening.provenance.json",
+  "metadata": {
+   "url": "https://www.haldenseilforening.net/",
+   "retrieved_utc": "2026-10-31T16:01:11.081696+00:00",
+   "sha256": "529a329748498a32b60be03bd4758d8302b66baeca5e5474be0c97e520bf4d85"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/sponvika-2022.provenance.json",
+  "metadata": {
+   "url": "https://sponvikavel.no/wp-content/uploads/2022/01/Medlemsinfobrev-2022-1.pdf",
+   "retrieved_utc": "2026-10-31T16:12:05.528746+00:00",
+   "sha256": "4b1e5b8f9151b91844ecaea26361761964aff0eadc87c131dc991d16b9374e9f"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/sponvika-vel.provenance.json",
+  "metadata": {
+   "url": "https://sponvikavel.no/om/",
+   "retrieved_utc": "2026-10-31T16:12:05.553124+00:00",
+   "sha256": "5605e08896c2f1031440fa6782d7b8a4867f09131df4f7d16b137ccaf0e72305"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/sponvika-velhuset.provenance.json",
+  "metadata": {
+   "url": "https://sponvikavel.no/velhuset/",
+   "retrieved_utc": "2026-10-31T16:12:05.630947+00:00",
+   "sha256": "2137ad074421e372fecf0f645b53e03e475c40dd7c441d7f4dd802ddd09f94f7"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/tangen-kommune.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/aktuelt/oppgradering-av-tangen-brygge.64117.aspx",
+   "retrieved_utc": "2026-10-31T16:16:09.211236+00:00",
+   "sha256": "c01741876ee95f5cd5183b88925202d4083257bd3b10d736399a9fa388273146"
+  }
+ },
+ {
+  "local_metadata_path": "work/3101-halden/raw/tangen-plan.provenance.json",
+  "metadata": {
+   "url": "https://www.halden.kommune.no/handlers/bv.ashx/i397d5465-c1cf-4665-aa09-f4306a8c1d5b/w1200/q18571/k1088706f0275/anleggskart_tangen_brygge2026.png",
+   "retrieved_utc": "2026-10-31T16:17:49.652013+00:00",
+   "sha256": "4c1f43f6c2f65ad64f350b2a3863fc5c30cc1e3ca948327c8492a27883926fd2"
+  }
+ }
+]

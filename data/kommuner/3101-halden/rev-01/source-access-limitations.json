@@ -1,0 +1,21 @@
+{
+ "failed_raw_downloads": [
+  {
+   "url": "https://www.haldenbf.no/",
+   "status": "HTTP 500"
+  },
+  {
+   "url": "https://www.visitoestfold.com/halden/overnatting/gjestehavn/",
+   "status": "HTTP 403"
+  },
+  {
+   "url": "https://www.visitoestfold.com/listing/tangen-brygge-gjestebrygge-i-tistedal/538810306/",
+   "status": "Direkte nedlasting 403, søkeindeks lest"
+  },
+  {
+   "url": "https://www.visitoestfold.com/listing/gjestebrygge-nedstr%C3%B8ms-brekke-sluser/538833301/",
+   "status": "Direkte nedlasting 403 / webvisning uten hovedinnhold"
+  }
+ ],
+ "note": "Nettleser/søkeverktøy supplerte de mislykkede rånedlastingene. Kanalselskapets fullstendige årsrapport 2025 er lagret som primærunderlag; manglende HTML er ikke fremstilt som bevart original."
+}

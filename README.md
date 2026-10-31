@@ -2,7 +2,7 @@
 
 Polygons with traceable metadata for small-boat harbours (marinas, boat club harbours and other shared berthing facilities) in the municipalities bordering the inner and outer Oslofjord, Norway.
 
-Approved status: **692 polygons from 21 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo, Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Bamble, Sarpsborg). Sarpsborg rev-02 is approved and included: 62 polygons / 46 provisional harbour groups, including 16 possible harbours. Known uncertainties and eleven open questions are retained. Remaining: Halden, Porsgrunn (Ås not yet confirmed as coastal). See `status.json`.
+Approved status: **758 polygons from 22 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo, Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Bamble, Sarpsborg, Halden). Sarpsborg rev-02 is approved and included: 62 polygons / 46 provisional harbour groups, including 16 possible harbours. Known uncertainties and eleven open questions are retained. Halden rev-01 is approved and included: 66 polygons / 31 provisional harbour groups, including 11 possible harbours; included with known uncertainties retained. Remaining unstarted: Porsgrunn (Ås not yet confirmed as coastal). See `status.json`.
 
 **Explore it in 3D:** [www.oceandatajo.com/labs/oslofjord-bathavner](https://www.oceandatajo.com/labs/oslofjord-bathavner). The site is in `site/`, and its data is built with `scripts/build_flyover_data.py`. The dataset will be published on the [Ocean Data Platform](https://app.hubocean.earth/) from [HUB Ocean](https://www.hubocean.earth/).
 
@@ -99,7 +99,7 @@ cd oslofjord-bathavner
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/validate_project.py   # expects 692 polygons / 21 approved municipalities
+python scripts/validate_project.py   # expects 758 polygons / 22 approved municipalities
 claude
 ```
 
@@ -114,7 +114,7 @@ Aerial images, raw downloads and QA sheets for approved municipalities are not i
 - `status.json`: current status with relative paths.
 - `docs/METODIKK.md`: the authoritative methodology and municipal logs. `docs/OVERLEVERING.md`: file map and handover notes.
 - `CLAUDE.md`: project instructions for Claude Code.
-- `work/`: analysis scripts per municipality. The Sarpsborg scripts (`3105-sarpsborg`) include the latest pending analysis and checks.
+- `work/`: analysis scripts per municipality. The Halden scripts (`3101-halden`) include the Halden analysis, approval and checks.
 - `archive/original/`: historical deliveries, notes and scripts for the first municipalities.
 - `scripts/validate_project.py`: local check that needs no network.
 

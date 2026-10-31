@@ -1,0 +1,338 @@
+{
+ "reviewed_utc": "2026-10-31T16:29:55+00:00",
+ "sheets": 11,
+ "method": "Eksportert GeoJSON projisert tilbake på de bevarte georefererte bildene. Alle endelige omriss kontrollert. Feil kai-/brutolkninger, kuttede plassrekker, overlapper og usikre historiske smårekker rettet eller utelatt.",
+ "features": [
+  {
+   "id": "3101-H01-B01",
+   "geometry_sha256": "931b6d231e0a87cc0bc4e639a03dccad462ec5973bb392042d6593f66e977789",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H02-B01",
+   "geometry_sha256": "55e638624d523db5822fc499f319d4d9fed9e74428e1d09d658dc1d1cc7ad772",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H03-B01",
+   "geometry_sha256": "da7c0c4cd8258a3283b3e9ce9bb0f7677b5448c36605310c2a075238a211d47e",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H03-B02",
+   "geometry_sha256": "e261a60963689eef4909db524a2c43d86d607128986975292818284000b42d0f",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H04-B01",
+   "geometry_sha256": "043b24139b41f31813cf810827ef9e46a170cab06a9e25a8f4b1412169658c82",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H04-B02",
+   "geometry_sha256": "45d3ebf6fd7eb505f894375e6ecc960cc53a6e1e39f52e72820233fb8f725924",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H05-B01",
+   "geometry_sha256": "ceb46d73c041eadbc6c617b87452a3785d3c5cb1683259bf2954afd3c3e234a9",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H05-B02",
+   "geometry_sha256": "c6b42bc5c74a5ea10633e8275278ade4eeb67eae9ee673f6d7b05ee474841013",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H06-B01",
+   "geometry_sha256": "968c2a3194dda177ae025d815df6336efa4d99e138bc51902e3b52aac17e105e",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H07-B01",
+   "geometry_sha256": "3d9af98a4e7a35cedc262848614a3ef75cbff13c99141f54d51d7e1f236a0520",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H07-B02",
+   "geometry_sha256": "a076290a1a670bc52fffcd63eaeb96e032085b4922d780cc69c836641bbf57ad",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H08-B01",
+   "geometry_sha256": "fecee7e1c92c3a519f9dc348c2c20f19f7fba48fa6beba39bad5f605f8b47571",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H09-B01",
+   "geometry_sha256": "a3512b0e2201c4d1183037df6a69a1cde792790d1d870d1309615f6c3ce7f305",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H09-B02",
+   "geometry_sha256": "86be270be88ed4c1d56cd3b50aa487bb96f253ec5bdeb280995c92d3d82df8d9",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H09-B03",
+   "geometry_sha256": "31e7b5fc741d18e18291c7897313676cb96262cea6e5cb74ca08a9a81d69b4a2",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H09-B04",
+   "geometry_sha256": "bce3eb5f970a48731dc93fbd648cf77741d5a1ae3e38d3fd1dfe619ee88b047b",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H09-B05",
+   "geometry_sha256": "8217b287ccc7f0e2b2c71a742323fa7892b5bd7d714147651b8edb6471894d3c",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H10-B01",
+   "geometry_sha256": "e25f80b83f6d94de39dabc38582ed7482d4f458884b7d69f77107d87b39b4b1f",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H11-B01",
+   "geometry_sha256": "da5702835555b3ee270a4253d5d7fe545f23388b61dd1fe3d1188f49e7d6e017",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H12-B01",
+   "geometry_sha256": "17e957394366b1b9d35b803e450f5165ae914eecc01c545ab5983e32447303ee",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H13-B01",
+   "geometry_sha256": "df5325c73498a2c9c1e789c545c736fa6f304968d1ff200cc69ba2487ed0b206",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H13-B02",
+   "geometry_sha256": "bdd38beb4fbf1de1b0205b2b277c2b677f0357de23d3468e2f67e734149bcfd0",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H14-B01",
+   "geometry_sha256": "75d14c8a3805bcf431fec5a1e6fdba418f4f9fa2709f56c92325a9e444336165",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H14-B02",
+   "geometry_sha256": "20a90e1d3490fc64c8c0c526acf567fd0a48340914c66471dc62480be36dbae6",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H15-B01",
+   "geometry_sha256": "2033bae6fb380518fbd12bb4e2e9ea5916cc20a0e0f26b90283f547ee6983968",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H16-B01",
+   "geometry_sha256": "653fd2a588b36c32952c87b9e456118f7ef5acca02f5efad759059b4b1ac7faf",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H16-B02",
+   "geometry_sha256": "628ccbcd6de12943906453b65472563a06431f2fa1c2ca9213a6dc369306c1a1",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H16-B03",
+   "geometry_sha256": "7113521c60493af5ebf130ef625efd62541ce3e527b2661d161c50d224217de6",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B01",
+   "geometry_sha256": "233e4c454e5be8baffd7d60c1a47b0b94c18ef7c0d16da9747f7f05622aaac35",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B02",
+   "geometry_sha256": "b90c7363392d31116bf3bac83888f61f54ef2065dd99cd320a2dc634e5466981",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B03",
+   "geometry_sha256": "96e1af4f8a62153e6aa89aabd54217fa26589175fecd8f5b93fd8ae08bc84335",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B04",
+   "geometry_sha256": "2c3b7b29b800eaf96d7a8a1c5c714089d6c48efcbe61e7984233f622b03a74c6",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B05",
+   "geometry_sha256": "ee303a5a974e99f335cd821a80c2741979729b326f651fd0c283d2e8e411babc",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H17-B06",
+   "geometry_sha256": "b82142259bc53f5fcb610eae303692ea136eff426827a5f7aad79c971f381b6d",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H18-B01",
+   "geometry_sha256": "34a49cf1dacd07cc35b855d44741a0fc533e15c63095b43cf0a3ff7f81f9892c",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H19-B01",
+   "geometry_sha256": "e04120425901fa76644478932c905c664c2be8336d52c5840f42ec6da3da3081",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H19-B02",
+   "geometry_sha256": "e68d743d1ca0f3c2eec73a9b436db8e7ee4c4a4570fd9bd688ba4fb5d66985f4",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H19-B03",
+   "geometry_sha256": "affade97bb18fd879ca2739199f99db16ca4e332472bc805d935810aee7527a4",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H19-B04",
+   "geometry_sha256": "e35f5d7ed5e221b74d8e3d465b2ea3611f7a56e9dab59866f5534370926685fd",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H20-B01",
+   "geometry_sha256": "2ac7ddf9ea9351ffa28cfbd6eab32c8770b8377f172534b65864c1d6debe8842",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H20-B02",
+   "geometry_sha256": "b23785e7dbb793269ac621073f8df7da493aa89367b43c0d339d33bb5bbb5907",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H20-B03",
+   "geometry_sha256": "59fa7a14e3676bccde50cb31cfe8f8d8f60f6fd3da5c9ffc005bbad47b89c249",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H20-B04",
+   "geometry_sha256": "2d85704814bccd24a01c1cc2698f22c6af80939ebafba435013b0088465a9ddc",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H20-B05",
+   "geometry_sha256": "7df0f4ddc1235cd6805f0e3111c0280c9b497d8dec44ee68378281264b3c7d9c",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H21-B01",
+   "geometry_sha256": "451e90770cda39b1e9fa768b4db392159a520e72d6afd800e1aab23e1175c07e",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H22-B01",
+   "geometry_sha256": "45bcc37eb2d16b32d693d63c3ffb054e0ac8514abaa6af6cf3254685bf866dca",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H23-B01",
+   "geometry_sha256": "d5303a28e239a7cd66923cfe6168043e4b90edf8b5bab9fbe4a6a6a679862fbd",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H23-B02",
+   "geometry_sha256": "04784e130c266b94704ebd876b37dc515352296cbfe1c11f0b6fa4fac80390ea",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H24-B01",
+   "geometry_sha256": "bffe2888c8d830eaa81c5efd0f312758d21d1e1307dbedf76c0b8a034b11add3",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H25-B01",
+   "geometry_sha256": "9c69d6d63fa3fc1557c1daa50c35538dec3eaef0c117e67dc07e94b05d9e97d0",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H26-B01",
+   "geometry_sha256": "c0d4b5bfb62f7c0dbe4eaab9225a621f784fc04372b934074a2221bcaa07a29c",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H27-B01",
+   "geometry_sha256": "2315a93a5c9621c44ce8f08dbfcade29ef18a29a6635fd1e68d675fb9fd2f55c",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H28-B01",
+   "geometry_sha256": "e5e6316e215c156eab0cf83c39c6701e77f0c295d5cebc34b9bf286f217c8d5b",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H29-B01",
+   "geometry_sha256": "cbfdcb8dfbc74803b1a74e81582807ce41b77189ee19e9cfc1e7c8f009c9bc44",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H29-B02",
+   "geometry_sha256": "00ef66a6e87ba73350dcb830b1403b86d3b0fb4227a144b654214d9efcb57e29",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H12-B02",
+   "geometry_sha256": "6d8713ff6d37cafd5487d58a42b2787e56738e56cc5797531667c937721dc644",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H12-B03",
+   "geometry_sha256": "702580b7df3ee34f551998e9f0fa6281dec44b796ffa2ea317d63b2c43115d52",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B01",
+   "geometry_sha256": "d1b809c138298207d32b0462be739fc0612b941e0b3ba033deee69e4cafcadb7",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B02",
+   "geometry_sha256": "837a2ba16d5a5bd2d46850a03fbecaf5f7f7915b7956fea8d2eb602425d36cb8",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B03",
+   "geometry_sha256": "3c0ae25027afeff9821247d5997897679d26ed40ec8e2ea2be2cba930249b2b4",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B04",
+   "geometry_sha256": "57ea4ac91cc5857a239d2fe52fed80bf5886f80bbbd9b504822a9983760ac48b",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B05",
+   "geometry_sha256": "0095de412ff09f8bf0cd2f1283f82ba1a1778c99f1cacead86ad18b2ccf633ad",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H31-B01",
+   "geometry_sha256": "e5a7ab36d143f4e52bf15e8b14229972d1ff1acfae13ffc4d81cacce11acc7f2",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B06",
+   "geometry_sha256": "57016ee251a81e628a1f0ad14890eec1ab5301d244366b128b406fdf607909a8",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B07",
+   "geometry_sha256": "1d39c17da7c3e1127fd1259a920011bea8963924ce16b66bd35d5d22a5743e99",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3101-H30-B08",
+   "geometry_sha256": "6b4f9737caddb43de5d0287894f43a6e0a72d0bb3e6dffc9e56cb78bad9024e1",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  }
+ ],
+ "limitations": "Alle avgrensninger er foreløpige. Visuell kontroll gir ikke landmålingsnøyaktighet eller bekreftelse på aktuell drift."
+}

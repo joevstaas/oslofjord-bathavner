@@ -1,0 +1,20 @@
+[
+ {
+  "name": "Røsnes",
+  "municipality": "Sarpsborg",
+  "cross_municipality_group_id": "ROSNES-3101-3105",
+  "halden_ids": [
+   "3101-H09-B01",
+   "3101-H09-B02",
+   "3101-H09-B03",
+   "3101-H09-B04",
+   "3101-H09-B05"
+  ],
+  "existing_sarpsborg_ids": [
+   "3105-H20-B01",
+   "3105-H20-B02"
+  ],
+  "overlap_m2": 0,
+  "decision": "Fem Halden-deler, to eksisterende Sarpsborg-deler. Godkjent Sarpsborg-geometri er uendret. Presisjon og driftsfellesskap står åpent."
+ }
+]
