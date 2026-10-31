@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "initial_enrichment_http_status": 200,
+  "checks": [
+    "Fiske: new source value, source date and preserved historical value",
+    "Card stays inside viewport at 320–2560 px, long content scrolls",
+    "Vansjø: ordinary and dinghy places separate, freshwater labelled",
+    "Betongen: approximate afloat capacity and land storage kept separate",
+    "Knutvika: multiple operators, unknown capacity",
+    "Unresolved harbour does not gain invented facts",
+    "Other municipalities retain original cards",
+    "All 22 Moss records render through real search",
+    "Optional fetch loading/failure keeps map and selected card usable with labelled baseline",
+    "Unsupported enrichment schema falls back safely"
+  ],
+  "console_page_errors": []
+}

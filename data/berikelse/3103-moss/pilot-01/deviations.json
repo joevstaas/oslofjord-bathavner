@@ -1,0 +1,149 @@
+[
+  {
+    "issue_id": "MOSS-E-01",
+    "harbour_ids": [
+      "3103-H01"
+    ],
+    "kind": "capacity_difference",
+    "status": "open",
+    "description": "Operatørens udaterte side oppgir 376; eldre avfallsplan oppgir 384.",
+    "next_step": "Behold begge observasjoner. Innhent referanseår før forskjellen tolkes som faktisk endring.",
+    "source_ids": [
+      "S01",
+      "S14"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-02",
+    "harbour_ids": [
+      "3103-H10"
+    ],
+    "kind": "capacity_precision",
+    "status": "open",
+    "description": "Havneweb oppgir 306; operatørens hovedside litt over 300; eldre plan 380.",
+    "next_step": "Bruk 306 som kildeoppgitt, udatert verdi i pilot. Ikke erklær en målt nedgang eller legg gjestebruk til faste plasser.",
+    "source_ids": [
+      "S07",
+      "S08",
+      "S14"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-03",
+    "harbour_ids": [
+      "3103-H11"
+    ],
+    "kind": "capacity_categories",
+    "status": "open",
+    "description": "Operatøren skiller 168 båtplasser og 16 jolleplasser; eldre plan har 185 uten samme kategorisering.",
+    "next_step": "Bevar separate kategorier og ferskvannsattributt. Avklar om kildene dekker samme anlegg og tidspunkt.",
+    "source_ids": [
+      "S09",
+      "S14"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-04",
+    "harbour_ids": [
+      "3103-H06",
+      "3103-H20"
+    ],
+    "kind": "operator_allocation",
+    "status": "open",
+    "description": "Rørvika har flere aktører og uavklarte interne grenser. Org.nr. 913241045 heter nå FJELLSMELL AS i registeret.",
+    "next_step": "Dokumenter sammenhengen mellom registerenhet, brygger og kildens 29+29 plasser; ikke summer eller fordel nå.",
+    "source_ids": [
+      "S14",
+      "BR913241045",
+      "BR917198616"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-05",
+    "harbour_ids": [
+      "3103-H08",
+      "3103-H09"
+    ],
+    "kind": "operator_change_or_name_change",
+    "status": "open",
+    "description": "Org.nr. 990894116 fra den eldre Fische-raden har nå navnet LARKOLLVEIEN 801 AS. Hotellet tilbyr båtplassbooking; dette avklarer ikke polygonenes operatørgrenser.",
+    "next_step": "Kontroller eier-/driftsrelasjon og stedfestet marinaoversikt før navne- eller kapasitetsendring.",
+    "source_ids": [
+      "S14",
+      "S16",
+      "BR990894116"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-06",
+    "harbour_ids": [
+      "3103-H16"
+    ],
+    "kind": "multi_operator",
+    "status": "open",
+    "description": "Vindsteg beskriver tre utleiere; ABF beskriver egne sesongplasser i samme bukt.",
+    "next_step": "Bevar felles fysisk havnegruppe; registrer kapasitet på operatørnivå når omfang er kjent.",
+    "source_ids": [
+      "S11",
+      "S12",
+      "S14"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-07",
+    "harbour_ids": [
+      "3103-H12"
+    ],
+    "kind": "mixed_reference_periods",
+    "status": "open",
+    "description": "Verket-nettsiden blander leiepriser for 2027 og vilkår merket 2025.",
+    "next_step": "Ikke erklær alle tjenester eller restriksjoner som gjeldende i 2026. Kontroller også gjesteområdene utenfor eksisterende polygon.",
+    "source_ids": [
+      "S10"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-08",
+    "harbour_ids": [
+      "3103-H17",
+      "3103-H18"
+    ],
+    "kind": "identity_boundary",
+    "status": "open",
+    "description": "Moss Marina og Sameie Fleischer Brygge Båthavn er bekreftede registerenheter. Registertreff bekrefter ikke interne sjøgrenser.",
+    "next_step": "Stedfestet operatørkart eller dokument med bryggereferanser kreves før 125 og 34 plasser kan knyttes sikkert til polygonene.",
+    "source_ids": [
+      "BR982743354",
+      "BR912159515",
+      "S14"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-09",
+    "harbour_ids": [],
+    "kind": "open_candidates",
+    "status": "open",
+    "description": "Sjekta og Refsnes småbåtforening finnes i registeret, men sjøpolygon og nåværende plasstype er fortsatt uavklart. Refsnes-nettstedet var utilgjengelig i dette miljøet.",
+    "next_step": "Følg opp C-SJEKTA og C-REFSNES separat fra godkjente anlegg. Ingen automatisk innlemming.",
+    "source_ids": [
+      "BR990798664",
+      "BR916250258",
+      "S14",
+      "S15"
+    ]
+  },
+  {
+    "issue_id": "MOSS-E-10",
+    "harbour_ids": [
+      "3103-H02"
+    ],
+    "kind": "separate_land_service",
+    "status": "open",
+    "description": "Fuglevik Båtservice tilbyr vinteropplag nær Fuglevik båthavn. Det er en separat tjenesteaktør.",
+    "next_step": "Avklar kobling og landlokasjon; ikke tilordne servicebedriftens opplag til båtforeningens sjøpolygon.",
+    "source_ids": [
+      "S02",
+      "S18"
+    ]
+  }
+]

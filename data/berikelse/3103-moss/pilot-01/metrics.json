@@ -1,0 +1,17 @@
+{
+  "harbours_reviewed": 22,
+  "baseline_polygons": 26,
+  "open_candidates": 2,
+  "observations": 91,
+  "sources_attempted": 39,
+  "sources_retrieved": 38,
+  "sources_failed": 1,
+  "harbours_with_newly_checked_numeric_berth_claim": 8,
+  "harbours_with_operator_name_recorded": 12,
+  "harbours_with_land_storage_publication": 4,
+  "harbours_with_dated_current_operation_verification": 0,
+  "harbours_with_current_treatment_verification": 0,
+  "land_polygons_created": 0,
+  "approved_files_unchanged": true,
+  "deviations": 10
+}

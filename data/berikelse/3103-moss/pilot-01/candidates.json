@@ -1,0 +1,36 @@
+[
+  {
+    "candidate_id": "C-SJEKTA",
+    "name": "Båtforeningen Sjekta",
+    "org_no": "990798664",
+    "baseline_candidate_ids": [
+      "AVP-4",
+      "OSM-way/29593396"
+    ],
+    "harbour_id": null,
+    "geometry": null,
+    "status": "unresolved_no_new_geometry",
+    "identity_status": "registered_entity_verified",
+    "operation_status": "not_verified",
+    "capacity_current": null,
+    "land_function_status": "hypothesis_not_verified",
+    "next_action": "Dokumenter operatørens faktiske anlegg og funksjon mot datert bilde eller stedsspesifikk primærkilde; registeradresse gir ikke sjøposisjon."
+  },
+  {
+    "candidate_id": "C-REFSNES",
+    "name": "Refsnes småbåtforening",
+    "org_no": "916250258",
+    "baseline_candidate_ids": [
+      "AVP-5",
+      "OSM-way/1513385299"
+    ],
+    "harbour_id": null,
+    "geometry": null,
+    "status": "unresolved_no_new_geometry",
+    "identity_status": "registered_entity_verified",
+    "operation_status": "not_verified",
+    "capacity_current": null,
+    "land_function_status": "hypothesis_not_verified",
+    "next_action": "Dokumenter operatørens faktiske anlegg og funksjon mot datert bilde eller stedsspesifikk primærkilde; registeradresse gir ikke sjøposisjon."
+  }
+]

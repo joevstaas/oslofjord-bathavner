@@ -121,3 +121,9 @@ Aerial images, raw downloads and QA sheets for approved municipalities are not i
 Sources: © Kartverket; Esri, Vantor, Earthstar Geographics and the GIS User Community; © OpenStreetMap contributors (ODbL); Brønnøysund Register Centre (Enhetsregisteret).
 
 Created by [Jo Øvstaas](https://github.com/joevstaas).
+
+## Moss harbour information pilot
+
+Moss harbour cards include a separate source review of operator identity, reported capacity and services where documented. Each fact links to its source and distinguishes the retrieval date from an unknown reference date. Ordinary, guest, dinghy and land-storage places remain separate; earlier dataset capacities are available as historical context. Current operation and wastewater treatment have not been verified. Approved geometry and harbour classification are unchanged.
+
+The structured review covers 22 harbours and is documented in [the Moss enrichment pilot](data/berikelse/3103-moss/pilot-01/README.md). Build the optional website overlay with `python scripts/build_harbour_enrichment.py`; `scripts/build_flyover_data.py` also invokes it. The map remains usable if the optional overlay cannot load. Local third-party source snapshots are excluded from Git; structured observations, source URLs and hashes are retained.

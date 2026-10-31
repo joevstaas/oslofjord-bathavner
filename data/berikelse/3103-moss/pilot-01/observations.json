@@ -1,0 +1,1806 @@
+[
+  {
+    "observation_id": "OBS-001",
+    "subject_id": "3103-H01",
+    "field": "operator_name",
+    "value": "Fiske Båtforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S01",
+    "source_url": "https://www.fiske-baatforening.no/index.php/om-fiske.html",
+    "accessed_utc": "2026-10-31T07:03:36.153682+00:00",
+    "evidence_lines": [
+      19
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-002",
+    "subject_id": "3103-H01",
+    "field": "berths_published",
+    "value": 376,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "published_berth_capacity_guest_inclusion_unknown",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S01",
+    "source_url": "https://www.fiske-baatforening.no/index.php/om-fiske.html",
+    "accessed_utc": "2026-10-31T07:03:36.153682+00:00",
+    "evidence_lines": [
+      24
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-003",
+    "subject_id": "3103-H01",
+    "field": "lifting_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "historical",
+    "reference_date": "2006",
+    "source_id": "S01",
+    "source_url": "https://www.fiske-baatforening.no/index.php/om-fiske.html",
+    "accessed_utc": "2026-10-31T07:03:36.153682+00:00",
+    "evidence_lines": [
+      21
+    ],
+    "note": "Kranopplysning viser til utbedring i 2006; dagens tilgjengelighet ikke kontrollert."
+  },
+  {
+    "observation_id": "OBS-004",
+    "subject_id": "3103-H01",
+    "field": "winter_afloat_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S01",
+    "source_url": "https://www.fiske-baatforening.no/index.php/om-fiske.html",
+    "accessed_utc": "2026-10-31T07:03:36.153682+00:00",
+    "evidence_lines": [
+      27
+    ],
+    "note": "Vinterplass i sjø; ikke opplag på land."
+  },
+  {
+    "observation_id": "OBS-005",
+    "subject_id": "3103-H02",
+    "field": "operator_name",
+    "value": "Rygge Båtforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S02",
+    "source_url": "https://www.havneweb.no/ryggebf/",
+    "accessed_utc": "2026-10-31T07:03:36.154681+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-006",
+    "subject_id": "3103-H02",
+    "field": "berths_published",
+    "value": 409,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "operator_published_berths_separately_lists_7_guest",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S02",
+    "source_url": "https://www.havneweb.no/ryggebf/",
+    "accessed_utc": "2026-10-31T07:03:36.154681+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": "409 og 7 beholdes separat; ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-007",
+    "subject_id": "3103-H02",
+    "field": "guest_berths_published",
+    "value": 7,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "dedicated_guest_berths",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S02",
+    "source_url": "https://www.havneweb.no/ryggebf/",
+    "accessed_utc": "2026-10-31T07:03:36.154681+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-008",
+    "subject_id": "3103-H02",
+    "field": "lifting_capacity_tonnes_historical",
+    "value": 8,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "historical",
+    "reference_date": "2006",
+    "source_id": "S02",
+    "source_url": "https://www.havneweb.no/ryggebf/",
+    "accessed_utc": "2026-10-31T07:03:36.154681+00:00",
+    "evidence_lines": [
+      12
+    ],
+    "note": "Ikke nåverifisert teknisk kapasitet."
+  },
+  {
+    "observation_id": "OBS-009",
+    "subject_id": "3103-H03",
+    "field": "operator_name",
+    "value": "Kambo Båtforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      10
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-010",
+    "subject_id": "3103-H03",
+    "field": "registered_entity_name",
+    "value": "KAMBO BÅTFORENING",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR996958663",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/996958663",
+    "accessed_utc": "2026-10-31T07:03:38.780786+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-011",
+    "subject_id": "3103-H03",
+    "field": "berths_published",
+    "value": 100,
+    "unit": "berths",
+    "approximate": true,
+    "scope": "published_berth_capacity_guest_inclusion_unknown",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      10
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-012",
+    "subject_id": "3103-H03",
+    "field": "land_storage_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-013",
+    "subject_id": "3103-H03",
+    "field": "lifting_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-014",
+    "subject_id": "3103-H03",
+    "field": "ramp_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      14
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-015",
+    "subject_id": "3103-H03",
+    "field": "guest_service_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S03",
+    "source_url": "https://www.havneweb.no/kambobf/",
+    "accessed_utc": "2026-10-31T07:03:36.155397+00:00",
+    "evidence_lines": [
+      13
+    ],
+    "note": "Antall gjesteplasser er ikke dokumentert."
+  },
+  {
+    "observation_id": "OBS-016",
+    "subject_id": "3103-H04",
+    "field": "operator_name",
+    "value": "Kambo Marina AS",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S04",
+    "source_url": "https://www.kambomarina.no/",
+    "accessed_utc": "2026-10-31T07:03:36.155879+00:00",
+    "evidence_lines": [
+      50
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-017",
+    "subject_id": "3103-H04",
+    "field": "registered_entity_name",
+    "value": "KAMBO MARINA AS",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR958467362",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/958467362",
+    "accessed_utc": "2026-10-31T07:03:37.766590+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-018",
+    "subject_id": "3103-H04",
+    "field": "berths_published",
+    "value": 300,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "published_berth_capacity_guest_inclusion_unknown",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S04",
+    "source_url": "https://www.kambomarina.no/",
+    "accessed_utc": "2026-10-31T07:03:36.155879+00:00",
+    "evidence_lines": [
+      50
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-019",
+    "subject_id": "3103-H04",
+    "field": "land_storage_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S04",
+    "source_url": "https://www.kambomarina.no/",
+    "accessed_utc": "2026-10-31T07:03:36.155879+00:00",
+    "evidence_lines": [
+      39
+    ],
+    "note": "Tjeneste lenket i operatørens navigasjon; kapasitet og landavgrensning ikke bekreftet."
+  },
+  {
+    "observation_id": "OBS-020",
+    "subject_id": "3103-H05",
+    "field": "operator_name",
+    "value": "Moss Motorbåtforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S05",
+    "source_url": "https://www.betongen.no/",
+    "accessed_utc": "2026-10-31T07:03:36.156497+00:00",
+    "evidence_lines": [
+      24
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-021",
+    "subject_id": "3103-H05",
+    "field": "registered_entity_name",
+    "value": "MOSS MOTORBÅTFORENING",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR883336402",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/883336402",
+    "accessed_utc": "2026-10-31T07:03:38.281201+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-022",
+    "subject_id": "3103-H05",
+    "field": "berths_published",
+    "value": 360,
+    "unit": "berths",
+    "approximate": true,
+    "scope": "boats_afloat_capacity",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S05",
+    "source_url": "https://www.betongen.no/",
+    "accessed_utc": "2026-10-31T07:03:36.156497+00:00",
+    "evidence_lines": [
+      24
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-023",
+    "subject_id": "3103-H05",
+    "field": "winter_storage_berths_published",
+    "value": 200,
+    "unit": "berths",
+    "approximate": null,
+    "scope": "land_winter_storage",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S05",
+    "source_url": "https://www.betongen.no/",
+    "accessed_utc": "2026-10-31T07:03:36.156497+00:00",
+    "evidence_lines": [
+      24
+    ],
+    "note": "Kildesetningen bruker ca. om sjøkapasitet; presisjonsnivået for 200 landplasser er ikke uttrykkelig avklart."
+  },
+  {
+    "observation_id": "OBS-024",
+    "subject_id": "3103-H05",
+    "field": "land_storage_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S05",
+    "source_url": "https://www.betongen.no/",
+    "accessed_utc": "2026-10-31T07:03:36.156497+00:00",
+    "evidence_lines": [
+      24
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-025",
+    "subject_id": "3103-H06",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "913241045",
+      "name": "FJELLSMELL AS"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR913241045",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/913241045",
+    "accessed_utc": "2026-10-31T07:03:40.310294+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Kildekobling til akkurat dette sjøpolygonet er ikke bekreftet."
+  },
+  {
+    "observation_id": "OBS-026",
+    "subject_id": "3103-H06",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "917198616",
+      "name": "RØRVIKA BRYGGEFORENING"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR917198616",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/917198616",
+    "accessed_utc": "2026-10-31T07:03:40.326129+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Kildekobling til akkurat dette sjøpolygonet er ikke bekreftet."
+  },
+  {
+    "observation_id": "OBS-027",
+    "subject_id": "3103-H07",
+    "field": "operator_name",
+    "value": "Nasle Bryggesameie",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S06",
+    "source_url": "https://naslebrygge.wordpress.com/",
+    "accessed_utc": "2026-10-31T07:03:36.157054+00:00",
+    "evidence_lines": [
+      1,
+      3
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-028",
+    "subject_id": "3103-H07",
+    "field": "registered_entity_name",
+    "value": "NASLE BRYGGESAMEIE",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR985441464",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985441464",
+    "accessed_utc": "2026-10-31T07:03:40.014712+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-029",
+    "subject_id": "3103-H07",
+    "field": "historical_website_activity",
+    "value": "2011-08-13",
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "historical",
+    "reference_date": "2011-08-13",
+    "source_id": "S06",
+    "source_url": "https://naslebrygge.wordpress.com/",
+    "accessed_utc": "2026-10-31T07:03:36.157054+00:00",
+    "evidence_lines": [
+      14
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-030",
+    "subject_id": "3103-H08",
+    "field": "hotel_berth_booking_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "hotel_marina_internal_extent_unverified",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S16",
+    "source_url": "https://www.stotvighotel.com/nb/sporsmal-og-svar",
+    "accessed_utc": "2026-10-31T07:03:37.542238+00:00",
+    "evidence_lines": [
+      95
+    ],
+    "note": "Tjenestetilbud, ikke bevis på Fische AS som nåværende operatør eller kapasitet 70."
+  },
+  {
+    "observation_id": "OBS-031",
+    "subject_id": "3103-H10",
+    "field": "operator_name",
+    "value": "Moss Seilforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S07",
+    "source_url": "https://www.havneweb.no/moss-sf/",
+    "accessed_utc": "2026-10-31T07:03:36.157709+00:00",
+    "evidence_lines": [
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-032",
+    "subject_id": "3103-H10",
+    "field": "registered_entity_name",
+    "value": "MOSS SEILFORENING",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR882921662",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/882921662",
+    "accessed_utc": "2026-10-31T07:03:38.948042+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-033",
+    "subject_id": "3103-H10",
+    "field": "berths_published",
+    "value": 306,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "operator_published_berths_guest_use_of_members_places",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S07",
+    "source_url": "https://www.havneweb.no/moss-sf/",
+    "accessed_utc": "2026-10-31T07:03:36.157709+00:00",
+    "evidence_lines": [
+      15
+    ],
+    "note": "Litt over 300 faste plasser på S08 støtter størrelsesorden; gjestebruk er ikke ekstra kapasitet."
+  },
+  {
+    "observation_id": "OBS-034",
+    "subject_id": "3103-H10",
+    "field": "land_storage_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S08",
+    "source_url": "https://www.moss-seilforening.no/havn-og-klubbhus",
+    "accessed_utc": "2026-10-31T07:03:36.158337+00:00",
+    "evidence_lines": [
+      37
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-035",
+    "subject_id": "3103-H10",
+    "field": "lifting_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S08",
+    "source_url": "https://www.moss-seilforening.no/havn-og-klubbhus",
+    "accessed_utc": "2026-10-31T07:03:36.158337+00:00",
+    "evidence_lines": [
+      37
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-036",
+    "subject_id": "3103-H10",
+    "field": "ramp_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S08",
+    "source_url": "https://www.moss-seilforening.no/havn-og-klubbhus",
+    "accessed_utc": "2026-10-31T07:03:36.158337+00:00",
+    "evidence_lines": [
+      37
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-037",
+    "subject_id": "3103-H10",
+    "field": "guest_service_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S07",
+    "source_url": "https://www.havneweb.no/moss-sf/",
+    "accessed_utc": "2026-10-31T07:03:36.157709+00:00",
+    "evidence_lines": [
+      16
+    ],
+    "note": "Ingen ekstra gjesteplasskapasitet lagt til."
+  },
+  {
+    "observation_id": "OBS-038",
+    "subject_id": "3103-H10",
+    "field": "wash_area_historical",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "plan_row_6",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      130
+    ],
+    "note": "Historisk plan ca. 2020, eksakt referansedato ukjent. Oljeutskiller dokumenterer ikke dagens rensing av bunnstoff/metaller."
+  },
+  {
+    "observation_id": "OBS-039",
+    "subject_id": "3103-H11",
+    "field": "operator_name",
+    "value": "Vansjø Båtforening",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S09",
+    "source_url": "https://www.havneweb.no/vansjo/?mod=sokplass",
+    "accessed_utc": "2026-10-31T07:03:36.750746+00:00",
+    "evidence_lines": [
+      20
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-040",
+    "subject_id": "3103-H11",
+    "field": "registered_entity_name",
+    "value": "VANSJØ BÅTFORENING",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR983392229",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/983392229",
+    "accessed_utc": "2026-10-31T07:03:39.059736+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-041",
+    "subject_id": "3103-H11",
+    "field": "berths_published",
+    "value": 168,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "ordinary_berths_excluding_separately_reported_dinghy_berths",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S09",
+    "source_url": "https://www.havneweb.no/vansjo/?mod=sokplass",
+    "accessed_utc": "2026-10-31T07:03:36.750746+00:00",
+    "evidence_lines": [
+      16
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-042",
+    "subject_id": "3103-H11",
+    "field": "dinghy_berths_published",
+    "value": 16,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "children_dinghy_berths",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S09",
+    "source_url": "https://www.havneweb.no/vansjo/?mod=sokplass",
+    "accessed_utc": "2026-10-31T07:03:36.750746+00:00",
+    "evidence_lines": [
+      16
+    ],
+    "note": "Holdes separat; 168+16 presenteres ikke som 184 sammenlignbare faste plasser."
+  },
+  {
+    "observation_id": "OBS-043",
+    "subject_id": "3103-H12",
+    "field": "operator_name",
+    "value": "Verket Havn AS",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S10",
+    "source_url": "https://www.verkethavn.no/",
+    "accessed_utc": "2026-10-31T07:03:36.916190+00:00",
+    "evidence_lines": [
+      110
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-044",
+    "subject_id": "3103-H12",
+    "field": "registered_entity_name",
+    "value": "VERKET HAVN AS",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR918686878",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/918686878",
+    "accessed_utc": "2026-10-31T07:03:39.218884+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-045",
+    "subject_id": "3103-H12",
+    "field": "guest_service_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S10",
+    "source_url": "https://www.verkethavn.no/",
+    "accessed_utc": "2026-10-31T07:03:36.916190+00:00",
+    "evidence_lines": [
+      18
+    ],
+    "note": "Gjesteområdet beskrives utenfor småbåthavna og nord for Rabben; eksakt samsvar med baselinepolygonet krever kartkontroll."
+  },
+  {
+    "observation_id": "OBS-046",
+    "subject_id": "3103-H12",
+    "field": "launching_permitted_historical",
+    "value": false,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "historical",
+    "reference_date": "2025",
+    "source_id": "S10",
+    "source_url": "https://www.verkethavn.no/",
+    "accessed_utc": "2026-10-31T07:03:36.916190+00:00",
+    "evidence_lines": [
+      104
+    ],
+    "note": "Vilkår merket sesong 2025, mens pristabellen er for 2027; ikke fylt som någjeldende nei til rampe."
+  },
+  {
+    "observation_id": "OBS-047",
+    "subject_id": "3103-H13",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "995878321",
+      "name": "KIPPENES HYTTEGREND"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR995878321",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/995878321",
+    "accessed_utc": "2026-10-31T07:03:39.666344+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-048",
+    "subject_id": "3103-H14",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "922347034",
+      "name": "SAMEIET SILDEBAUGEN BÅTBRYGGE"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR922347034",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/922347034",
+    "accessed_utc": "2026-10-31T07:03:39.832577+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-049",
+    "subject_id": "3103-H15",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "930391204",
+      "name": "REFSNES BRYGGEFORENING"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR930391204",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/930391204",
+    "accessed_utc": "2026-10-31T07:03:40.161672+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-050",
+    "subject_id": "3103-H17",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "982743354",
+      "name": "MOSS MARINA AS"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR982743354",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/982743354",
+    "accessed_utc": "2026-10-31T07:03:39.437586+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-051",
+    "subject_id": "3103-H18",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "912159515",
+      "name": "SAMEIE FLEISCHER BRYGGE BÅTHAVN"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR912159515",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912159515",
+    "accessed_utc": "2026-10-31T07:03:39.632737+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-052",
+    "subject_id": "3103-H22",
+    "field": "candidate_registered_entity",
+    "value": {
+      "org_no": "920520111",
+      "name": "FUGLEVIKBRYGGEN SA"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "candidate_operator_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR920520111",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/920520111",
+    "accessed_utc": "2026-10-31T07:03:40.123446+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Navn/organisasjon verifisert; operatørens geografiske omfang er ikke bekreftet på nytt."
+  },
+  {
+    "observation_id": "OBS-053",
+    "subject_id": "3103-H16",
+    "field": "operator_name",
+    "value": "Vindsteg AS; Arbeidernes Båtforening Moss; tredje utleier uavklart",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S11",
+    "source_url": "https://knutvika.no/",
+    "accessed_utc": "2026-10-31T07:03:36.959379+00:00",
+    "evidence_lines": [
+      14
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-054",
+    "subject_id": "3103-H16",
+    "field": "operator_component",
+    "value": {
+      "org_no": "991373721",
+      "name": "VINDSTEG AS"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "suboperator",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S11",
+    "source_url": "https://knutvika.no/",
+    "accessed_utc": "2026-10-31T07:03:36.959379+00:00",
+    "evidence_lines": [
+      14
+    ],
+    "note": "Ikke eksklusiv operatør for hele havnegruppen."
+  },
+  {
+    "observation_id": "OBS-055",
+    "subject_id": "3103-H16",
+    "field": "registered_entity_name",
+    "value": "VINDSTEG AS",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR991373721",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/991373721",
+    "accessed_utc": "2026-10-31T07:03:39.335904+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-056",
+    "subject_id": "3103-H16",
+    "field": "operator_component",
+    "value": {
+      "org_no": "979250029",
+      "name": "ARBEIDERNES BÅTFORENING MOSS"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "suboperator",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S12",
+    "source_url": "https://abf-teibern.no/baat/",
+    "accessed_utc": "2026-10-31T07:03:37.024663+00:00",
+    "evidence_lines": [
+      1,
+      3
+    ],
+    "note": "Ikke eksklusiv operatør for hele havnegruppen."
+  },
+  {
+    "observation_id": "OBS-057",
+    "subject_id": "3103-H16",
+    "field": "registered_entity_name",
+    "value": "ARBEIDERNES BÅTFORENING MOSS",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR979250029",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/979250029",
+    "accessed_utc": "2026-10-31T07:03:39.396235+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-058",
+    "subject_id": "3103-H16",
+    "field": "ramp_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "bay_shared_ramp_location_not_digitised",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S11",
+    "source_url": "https://knutvika.no/",
+    "accessed_utc": "2026-10-31T07:03:36.959379+00:00",
+    "evidence_lines": [
+      69
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-059",
+    "subject_id": "3103-H16",
+    "field": "winter_berthing_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "Vindsteg_only",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S11",
+    "source_url": "https://knutvika.no/",
+    "accessed_utc": "2026-10-31T07:03:36.959379+00:00",
+    "evidence_lines": [
+      30,
+      50
+    ],
+    "note": "Oppgitt vinterplass er ikke dokumentasjon på vinteropplag på land."
+  },
+  {
+    "observation_id": "OBS-060",
+    "subject_id": "3103-H19",
+    "field": "operator_name",
+    "value": "Moss Havn KF",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S13",
+    "source_url": "https://www.moss-havn.no/",
+    "accessed_utc": "2026-10-31T07:03:37.029755+00:00",
+    "evidence_lines": [
+      107
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-061",
+    "subject_id": "3103-H19",
+    "field": "guest_service_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "whole_harbour",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S13",
+    "source_url": "https://www.moss-havn.no/",
+    "accessed_utc": "2026-10-31T07:03:37.029755+00:00",
+    "evidence_lines": [
+      107
+    ],
+    "note": "Kilden beskriver begge sider av kanalen og Tollbodbrygga; ingen ny oppmåling eller kapasitetstelling."
+  },
+  {
+    "observation_id": "OBS-062",
+    "subject_id": "3103-H21",
+    "field": "operator_name",
+    "value": "Sameiet Røedsstranda",
+    "unit": null,
+    "approximate": null,
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S17",
+    "source_url": "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+    "accessed_utc": "2026-10-31T07:03:37.563699+00:00",
+    "evidence_lines": [
+      133
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-063",
+    "subject_id": "3103-H21",
+    "field": "registered_entity_name",
+    "value": "SAMEIET RØEDSSTRANDA",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR993100544",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/993100544",
+    "accessed_utc": "2026-10-31T07:03:39.997621+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet dokumenterer ikke alene stedfesting eller faktisk drift."
+  },
+  {
+    "observation_id": "OBS-064",
+    "subject_id": "3103-H21",
+    "field": "berths_published",
+    "value": 16,
+    "unit": "berths",
+    "approximate": false,
+    "scope": "whole_shared_facility",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S17",
+    "source_url": "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+    "accessed_utc": "2026-10-31T07:03:37.563699+00:00",
+    "evidence_lines": [
+      133
+    ],
+    "note": "Salgsopplysning, ikke operatørbekreftelse; oppgitt sist endret 2026-09-08, ukjent faktisk tellingstidspunkt."
+  },
+  {
+    "observation_id": "OBS-065",
+    "subject_id": "3103-H01",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Fiske Båtforening (Privat)",
+      "berths": 384,
+      "guest_berths": 2,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_3",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      93,
+      321
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-066",
+    "subject_id": "3103-H02",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Fuglevik Båthavn v/Rygge Båtforening (Privat)",
+      "berths": 412,
+      "guest_berths": 10,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_14",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      202
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-067",
+    "subject_id": "3103-H03",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Kambo båtforening (Privat)",
+      "berths": 97,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_9",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      153,
+      309
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-068",
+    "subject_id": "3103-H04",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Kambo Marina AS (Privat)",
+      "berths": 300,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_8",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      1,
+      143,
+      318,
+      324
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-069",
+    "subject_id": "3103-H05",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Moss Motorbåtfor ening (Betongen) (Privat)",
+      "berths": 360,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_7",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      133
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-070",
+    "subject_id": "3103-H06",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Rørvik brygge (Privat)",
+      "berths": 29,
+      "guest_berths": 0,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_19",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      251,
+      261,
+      308,
+      317
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-071",
+    "subject_id": "3103-H06",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Rørvik Bryggeforenig (Privat)",
+      "berths": 29,
+      "guest_berths": 0,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_20",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      261,
+      317
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-072",
+    "subject_id": "3103-H06",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Fiskermoloen (Statlig)",
+      "berths": null,
+      "guest_berths": null,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_21",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      270
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-073",
+    "subject_id": "3103-H07",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Nasle Bryggesameie (Privat)",
+      "berths": 123,
+      "guest_berths": 2,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_24",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      293,
+      320
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-074",
+    "subject_id": "3103-H08",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Fische AS – Støtvig (Privat)",
+      "berths": 70,
+      "guest_berths": 5,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_16",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      221,
+      316
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-075",
+    "subject_id": "3103-H09",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Lersbauen (Privat)",
+      "berths": 39,
+      "guest_berths": 0,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_22",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      274,
+      312
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-076",
+    "subject_id": "3103-H10",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Søly båthavn (Moss Seilforening) (Privat)",
+      "berths": 380,
+      "guest_berths": 2,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_6",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      123,
+      318,
+      323
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-077",
+    "subject_id": "3103-H11",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Vansjø båtforening (Privat)",
+      "berths": 185,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_10",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      163,
+      326
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-078",
+    "subject_id": "3103-H13",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Kippenes hyttegrend (Privat)",
+      "berths": 33,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_13",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      193,
+      314
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-079",
+    "subject_id": "3103-H14",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Sameiet Sildebaugen Båtbrygge (Privat)",
+      "berths": 38,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_17",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      231,
+      310
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-080",
+    "subject_id": "3103-H15",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Refsnes Gods brygge (Privat)",
+      "berths": 18,
+      "guest_berths": 4,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_2",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      83
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-081",
+    "subject_id": "3103-H16",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Knutvika – Vindsteg AS (Privat)",
+      "berths": 83,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_15",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      211
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-082",
+    "subject_id": "3103-H16",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Arbeidernes båtforening Moss-Teibern (Privat)",
+      "berths": 100,
+      "guest_berths": 4,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_18",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      241,
+      327
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-083",
+    "subject_id": "3103-H17",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Moss Marina AS (privat)",
+      "berths": 125,
+      "guest_berths": 9,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_1",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      73,
+      319
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-084",
+    "subject_id": "3103-H18",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Fleischer Brygge Båtforening (Privat)",
+      "berths": 34,
+      "guest_berths": 0,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_12",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      183
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-085",
+    "subject_id": "3103-H21",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "Sameiet Røedsstranda Molo og Bryggeanlegg (Privat)",
+      "berths": 16,
+      "guest_berths": 0,
+      "link_status": "bilde_og_kildekontrollert"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_23",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      283,
+      311
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-086",
+    "subject_id": "3103-H22",
+    "field": "historical_capacity_component",
+    "value": {
+      "source_name": "AL Fuglevikbryggen (Privat)",
+      "berths": 54,
+      "guest_berths": 0,
+      "link_status": "forelopig_geografisk"
+    },
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_11",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      173,
+      313
+    ],
+    "note": "Historisk plan ca. 2020, dato ikke bekreftet. Kildens rad er ikke en bekreftet geografisk operatørgrense. Ingen automatisk summering."
+  },
+  {
+    "observation_id": "OBS-087",
+    "subject_id": "SERVICE-fuglevik",
+    "field": "land_storage_reported",
+    "value": true,
+    "unit": null,
+    "approximate": null,
+    "scope": "separate_service_operator",
+    "status": "published_undated",
+    "reference_date": null,
+    "source_id": "S18",
+    "source_url": "https://www.fuglevik-bs.no/kontakt-oss/",
+    "accessed_utc": "2026-10-31T07:03:37.665939+00:00",
+    "evidence_lines": [
+      61
+    ],
+    "note": "Fuglevik Båtservice er ikke automatisk Rygge Båtforening eller dens kapasitet."
+  },
+  {
+    "observation_id": "OBS-088",
+    "subject_id": "C-SJEKTA",
+    "field": "registered_entity_name",
+    "value": "BÅTFORENINGEN SJEKTA",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR990798664",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/990798664",
+    "accessed_utc": "2026-10-31T07:03:40.224457+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-089",
+    "subject_id": "C-SJEKTA",
+    "field": "historical_plan_capacity",
+    "value": 169,
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_4",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      103,
+      305
+    ],
+    "note": "Plasstype og eventuell kobling til sjø-/landanlegg er uavklart; ikke lagt til totalsum."
+  },
+  {
+    "observation_id": "OBS-090",
+    "subject_id": "C-REFSNES",
+    "field": "registered_entity_name",
+    "value": "REFSNES SMÅBÅTFORENING",
+    "unit": null,
+    "approximate": null,
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "source_id": "BR916250258",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/916250258",
+    "accessed_utc": "2026-10-31T07:03:40.176281+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "OBS-091",
+    "subject_id": "C-REFSNES",
+    "field": "historical_plan_capacity",
+    "value": 80,
+    "unit": null,
+    "approximate": null,
+    "scope": "avfallsplan_row_5",
+    "status": "historical",
+    "reference_date": null,
+    "source_id": "S14",
+    "source_url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "accessed_utc": "2026-10-31T07:03:37.354742+00:00",
+    "evidence_lines": [
+      113,
+      306
+    ],
+    "note": "Plasstype og eventuell kobling til sjø-/landanlegg er uavklart; ikke lagt til totalsum."
+  }
+]

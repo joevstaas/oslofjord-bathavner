@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-30T05:46:52Z",
+ "updated_utc": "2026-10-31T07:26:14Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -283,5 +283,22 @@
   "Porsgrunn 4001",
   "Bamble 4012",
   "Ås 3218 (kystlinje ikke bekreftet)"
+ ],
+ "enrichment_pilots": [
+  {
+   "municipality": "Moss",
+   "municipality_code": "3103",
+   "pilot": "pilot-01",
+   "status": "kildegjennomgang_ferdig_til_vurdering",
+   "path": "data/berikelse/3103-moss/pilot-01",
+   "harbours_reviewed": 22,
+   "baseline_polygons": 26,
+   "open_candidates": 2,
+   "geometry_changed": false,
+   "merged_into_approved_dataset": false,
+   "reviewed_date": "2026-10-31",
+   "publication_status": "integrert_i_nettstedets_kildekode",
+   "website_data": "site/labs/oslofjord-bathavner/data/enrichment.json"
+  }
  ]
 }
