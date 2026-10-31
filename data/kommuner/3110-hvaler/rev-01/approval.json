@@ -1,0 +1,11 @@
+{
+ "approved_utc": "2026-10-31T14:27:49Z",
+ "authorization": "Bruker: Godkjent. COmmit, push og PR",
+ "revision": 1,
+ "polygons": 69,
+ "known_uncertainties_retained": true,
+ "previous_features": 502,
+ "previous_features_sha256": "dd0b048ea33bb3f1501b7553ad74c7de0cc0500f4d0a36640726908d8dc48db4",
+ "combined_features": 571,
+ "municipalities": 19
+}

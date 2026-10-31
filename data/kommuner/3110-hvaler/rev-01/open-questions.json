@@ -1,0 +1,60 @@
+[
+ {
+  "id": "S001",
+  "place": "Papperhavn",
+  "need": "Koble kommunens/Borgs dokumenterte fritidsutleie og 36 plasser (2024) til eksakte brygger. C012/C015 er ikke navngitt etter en antatt operatør.",
+  "sources": [
+   "https://www.havneweb.no/borg-havn/?mod=sokplass"
+  ]
+ },
+ {
+  "id": "S002",
+  "place": "Utgårdskilen",
+  "need": "Avgrens vestre brygger og båtforeningens ca.140 mot Borgs 52 næringsplasser. Ingen samlet sum.",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/"
+  ]
+ },
+ {
+  "id": "S003",
+  "place": "Vikerhavn",
+  "need": "Bekreft hvilke vestre kaiavsnitt som er gjeste-/fritidsplasser. Østre marina er kartlagt; fiskerikaier utvides ikke automatisk.",
+  "sources": [
+   "https://www.borg-havn.no/utleie-batplasser/"
+  ]
+ },
+ {
+  "id": "S004",
+  "place": "Skjærhalden",
+  "need": "Bekreft operatør- og kapasitetstilknytning mellom gjestehavn, båtforening, Lorentzenhavna og Borg. 2018-planen er historisk.",
+  "sources": [
+   "https://www.hvalergjestehavn.no/",
+   "https://www.havneweb.no/skjarhalden-bf/"
+  ]
+ },
+ {
+  "id": "S005",
+  "place": "Listranda / camping / Stokken",
+  "need": "Bekreft presise operatørgrenser; postadresse og nærhet er ikke nok til å tilordne anlegg eller kapasitet.",
+  "sources": [
+   "https://www.listrandabatforening.no/omrader/bryggeplasser/",
+   "https://hvalerbaatforening.no/",
+   "https://www.herfoelmarina.no/"
+  ]
+ },
+ {
+  "id": "S006",
+  "place": "Brattholmen/Makøsundet og Korshavn",
+  "need": "Suppler operatørkilder og bekreft eksisterende båtplasser. Rene ferge-/anløpskaier er ikke havnebevis.",
+  "sources": [
+   "https://www.haldenbf.no/",
+   "https://www.borg-havn.no/utleie-batplasser/"
+  ]
+ },
+ {
+  "id": "S007",
+  "place": "Alle foreløpige anlegg",
+  "need": "Daterte ortofoto og lokal kontroll av drift, navn, gruppering og plassmønster. Nettbildets hentetid er ikke opptaksdato.",
+  "sources": []
+ }
+]
