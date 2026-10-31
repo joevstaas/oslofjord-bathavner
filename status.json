@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T07:26:14Z",
+ "updated_utc": "2026-10-31T07:54:39Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -299,6 +299,21 @@
    "reviewed_date": "2026-10-31",
    "publication_status": "integrert_i_nettstedets_kildekode",
    "website_data": "site/labs/oslofjord-bathavner/data/enrichment.json"
+  },
+  {
+   "municipality": "Holmestrand",
+   "municipality_code": "3903",
+   "pilot": "pilot-01",
+   "status": "kildegjennomgang_ferdig_til_vurdering",
+   "path": "data/berikelse/3903-holmestrand/pilot-01",
+   "harbour_groups_reviewed": 12,
+   "baseline_polygons": 14,
+   "legacy_unresolved_groups": 5,
+   "open_supplements": 1,
+   "geometry_changed": false,
+   "merged_into_approved_dataset": false,
+   "website_changed": false,
+   "reviewed_date": "2026-10-31"
   }
  ]
 }

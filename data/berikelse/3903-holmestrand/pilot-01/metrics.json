@@ -1,0 +1,17 @@
+{
+  "harbours_reviewed": 12,
+  "baseline_polygons": 14,
+  "legacy_unresolved_harbour_groups": 5,
+  "observations": 41,
+  "operator_names_recorded": 7,
+  "capacity_groups": 2,
+  "harbours_with_conflicting_operator_capacity": 1,
+  "harbours_with_separate_capacity_components": 1,
+  "open_supplements": 1,
+  "sources_attempted": 27,
+  "sources_retrieved": 25,
+  "deviations": 10,
+  "geometry_reassessed": false,
+  "approved_files_unchanged": true,
+  "website_changed": false
+}

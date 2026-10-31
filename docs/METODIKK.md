@@ -817,3 +817,11 @@ Se pilotens README for feltskjema, avvik, gjenstående kontrollbehov og reproduk
 ### Moss – berikelse i nettstedets havnekort, 2026-10-31
 
 Brukeren har bedt om at piloten kobles til nettstedet. Bare kildebelagte opplysninger eksporteres til en separat `enrichment.json`, koblet med `harbour_id`. Kildehenvisning, innhentingsdato, ukjent referansedato og feltets omfang følger visningen. Eldre kapasitet beholdes som sammenleggbar historikk. Ukjent drift og rensing merkes som ikke verifisert. Ingen nye kandidater eller geometriske endringer innlemmes. Primærdatasettets tidligere godkjenning og metodeversjon er uendret.
+
+### Holmestrand – separat kilde- og berikelsessjekk 2026-10-31
+
+Brukeren ba om tilsvarende sjekk som Moss. Leveransen ligger i `data/berikelse/3903-holmestrand/pilot-01/`, med arbeids-/reproduksjonsskript i `work/3903-holmestrand/`. Alle 12 anleggsgrupper / 14 polygoner er dekket; sju har tidligere status `kart_og_kilde` og fem `ma_avklares`. Disse statusene er ikke harmonisert til nyere klasseverdier. Originalgeometri, egenskaper, godkjent kommuneleveranse, metadata-CSV og samlet datasett er uendret. Våle/Frebergsvik forblir et ikke-godkjent supplement.
+
+41 observasjoner er lagret. Særlig viktig: kommunens ca. 1100 faste plasser lagres én gang på operatør-/gruppenivå, ikke som kapasitet for hvert basseng eller Hagemann. Gjestehavnas ca. 50 båter og 450 meter longside er ulike størrelser og er ikke summert med faste plasser. NJB oppgir 450 på én side og 397 på Havneweb; begge beholdes uten valg av en enkelt kapasitet. Bjerkøya oppgir 155 andelsplasser og 62 utleieplasser, beholdt som separate komponenter. Katalogens 155 kan være en delmengde. Publisert bryggeutvidelse er et kontrollbehov, ikke en ny geometri.
+
+Operatøren Holmestrand Småbåthavn oppgir nå AS, og registeret viser den eldre DA-en under avvikling; kommunesider bruker fortsatt DA. Rolle, selskapsform og havnegrense holdes adskilt. Thorrud/Torrud merkes som ferskvann; campingkapasitet og pris overføres ikke til antall båtplasser. K-gruppenes operatørkoblinger er fortsatt uavklarte. Det er registrert ti avklaringsbehov og utført struktur-/provenienskontroll. Ingen nettsideendring eller innlemming i primærdata er gjort i denne oppgaven. Ingen nye bilder eller befaring er utført; eksisterende behov for ortofotokontroll gjelder fortsatt.

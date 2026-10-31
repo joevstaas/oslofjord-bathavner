@@ -1,0 +1,3 @@
+﻿group_id;name;related_harbour_ids;berths_published;approximate;scope;reference_date;observation_ids;mapping_status
+HS-GROUP-CITY-OPERATOR;Holmestrand Småbåthavn – operatørens samlede tilbud;"[""3903-H01"", ""3903-H02""]";1100;True;operator_total_not_allocated_to_basins_or_sites;;"[""HS-OBS-007"", ""HS-OBS-008"", ""HS-OBS-009"", ""HS-OBS-010"", ""HS-OBS-013""]";related_existing_sites_exact_capacity_extent_unverified
+HS-GROUP-CITY-GUEST;Holmestrand gjestekai i sentrum;"[""3903-H01""]";50;True;guest_boat_capacity_depends_on_boat_size_not_added_to_fixed_places;;"[""HS-OBS-011"", ""HS-OBS-012""]";exact_quay_to_polygon_allocation_unverified

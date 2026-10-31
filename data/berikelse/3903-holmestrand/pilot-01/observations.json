@@ -1,0 +1,704 @@
+[
+  {
+    "observation_id": "HS-OBS-001",
+    "subject_id": "3903-H01",
+    "field": "operator_name",
+    "value": "Holmestrand Småbåthavn AS",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS01",
+    "source_url": "https://holmestrandsmabathavn.no/",
+    "accessed_utc": "2026-10-31T07:44:49.668182+00:00",
+    "evidence_lines": [
+      47
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-002",
+    "subject_id": "3903-H01",
+    "field": "registered_entity_name",
+    "value": "HOLMESTRAND SMÅBÅTHAVN AS",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR936760600",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936760600",
+    "accessed_utc": "2026-10-31T07:44:51.696326+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-003",
+    "subject_id": "3903-H01",
+    "field": "dated_operation_notice",
+    "value": "Vinterhavn 2026/27; oppdatert 06.10.2026",
+    "scope": "operator_wide_not_every_polygon",
+    "status": "dated_operator_notice",
+    "reference_date": "2026-10-06",
+    "approximate": null,
+    "source_id": "HS01",
+    "source_url": "https://holmestrandsmabathavn.no/",
+    "accessed_utc": "2026-10-31T07:44:49.668182+00:00",
+    "evidence_lines": [
+      15
+    ],
+    "note": "Datering gjelder kun den konkrete publiserte meldingen, ikke alle kapasitets- eller driftsopplysninger."
+  },
+  {
+    "observation_id": "HS-OBS-004",
+    "subject_id": "3903-H02",
+    "field": "operator_name",
+    "value": "Holmestrand Småbåthavn AS",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS01",
+    "source_url": "https://holmestrandsmabathavn.no/",
+    "accessed_utc": "2026-10-31T07:44:49.668182+00:00",
+    "evidence_lines": [
+      47
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-005",
+    "subject_id": "3903-H02",
+    "field": "registered_entity_name",
+    "value": "HOLMESTRAND SMÅBÅTHAVN AS",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR936760600",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/936760600",
+    "accessed_utc": "2026-10-31T07:44:51.696326+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-006",
+    "subject_id": "3903-H02",
+    "field": "dated_operation_notice",
+    "value": "Vinterhavn 2026/27; oppdatert 06.10.2026",
+    "scope": "operator_wide_not_every_polygon",
+    "status": "dated_operator_notice",
+    "reference_date": "2026-10-06",
+    "approximate": null,
+    "source_id": "HS01",
+    "source_url": "https://holmestrandsmabathavn.no/",
+    "accessed_utc": "2026-10-31T07:44:49.668182+00:00",
+    "evidence_lines": [
+      15
+    ],
+    "note": "Datering gjelder kun den konkrete publiserte meldingen, ikke alle kapasitets- eller driftsopplysninger."
+  },
+  {
+    "observation_id": "HS-OBS-007",
+    "subject_id": "HS-GROUP-CITY-OPERATOR",
+    "field": "berths_published",
+    "value": 1100,
+    "scope": "municipal_operator_total_multiple_sites_no_allocation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": true,
+    "source_id": "HS02",
+    "source_url": "https://holmestrand.kommune.no/innbyggerhjelpen/naring-transport-og-samfunn/parkering-vei-og-havn/havn-og-bobil/smabathavn/",
+    "accessed_utc": "2026-10-31T07:44:49.669274+00:00",
+    "evidence_lines": [
+      43
+    ],
+    "note": "Ikke 1100 på hvert anlegg eller hvert delpolygon. Kapasitetens referanseår er ukjent; nettsidens endringsdato er noe annet."
+  },
+  {
+    "observation_id": "HS-OBS-008",
+    "subject_id": "HS-GROUP-CITY-OPERATOR",
+    "field": "winter_afloat_reported",
+    "value": true,
+    "scope": "operator_wide_no_allocation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS02",
+    "source_url": "https://holmestrand.kommune.no/innbyggerhjelpen/naring-transport-og-samfunn/parkering-vei-og-havn/havn-og-bobil/smabathavn/",
+    "accessed_utc": "2026-10-31T07:44:49.669274+00:00",
+    "evidence_lines": [
+      43
+    ],
+    "note": "Vinterhavn i sjø er ikke landopplag."
+  },
+  {
+    "observation_id": "HS-OBS-009",
+    "subject_id": "HS-GROUP-CITY-OPERATOR",
+    "field": "legacy_operator_name",
+    "value": "Holmestrand Småbåthavn DA",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS02",
+    "source_url": "https://holmestrand.kommune.no/innbyggerhjelpen/naring-transport-og-samfunn/parkering-vei-og-havn/havn-og-bobil/smabathavn/",
+    "accessed_utc": "2026-10-31T07:44:49.669274+00:00",
+    "evidence_lines": [
+      43
+    ],
+    "note": "Kommunens side har eldre selskapsform enn operatørens melding; navn holdes som motstridende kildeopplysning."
+  },
+  {
+    "observation_id": "HS-OBS-010",
+    "subject_id": "HS-GROUP-CITY-OPERATOR",
+    "field": "registered_legacy_entity_status",
+    "value": {
+      "org_no": "985747970",
+      "underAvvikling": true
+    },
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR985747970",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/985747970",
+    "accessed_utc": "2026-10-31T07:44:52.357550+00:00",
+    "evidence_lines": [
+      17
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-011",
+    "subject_id": "HS-GROUP-CITY-GUEST",
+    "field": "guest_berths_published",
+    "value": 50,
+    "scope": "city_guest_quays_longside_capacity_depends_on_boat_size",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": true,
+    "source_id": "HS03",
+    "source_url": "https://holmestrand.kommune.no/innbyggerhjelpen/naring-transport-og-samfunn/parkering-vei-og-havn/havn-og-bobil/gjestehavn/",
+    "accessed_utc": "2026-10-31T07:44:49.669960+00:00",
+    "evidence_lines": [
+      47
+    ],
+    "note": "Gjelder gjestekai i sentrum; eksakt kobling til de to bassengpolygonene er ikke kontrollert. Ikke tillegg til 1100 uten avklaring av omfang."
+  },
+  {
+    "observation_id": "HS-OBS-012",
+    "subject_id": "HS-GROUP-CITY-GUEST",
+    "field": "guest_quay_length_m",
+    "value": 450,
+    "scope": "guest_quays_not_berth_count",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS03",
+    "source_url": "https://holmestrand.kommune.no/innbyggerhjelpen/naring-transport-og-samfunn/parkering-vei-og-havn/havn-og-bobil/gjestehavn/",
+    "accessed_utc": "2026-10-31T07:44:49.669960+00:00",
+    "evidence_lines": [
+      47
+    ],
+    "note": "450 er meter kailengde, ikke 450 båtplasser."
+  },
+  {
+    "observation_id": "HS-OBS-013",
+    "subject_id": "HS-GROUP-CITY-OPERATOR",
+    "field": "association_allocates_places",
+    "value": false,
+    "scope": "Holmestrand_Baatforening_only",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS17",
+    "source_url": "https://holmestrand-baatforening.no/?page_id=172",
+    "accessed_utc": "2026-10-31T07:44:51.580030+00:00",
+    "evidence_lines": [
+      14
+    ],
+    "note": "Båtforeningen viser til havneselskapet for plass; forening og operatør er ikke samme rolle."
+  },
+  {
+    "observation_id": "HS-OBS-014",
+    "subject_id": "3903-H03",
+    "field": "operator_name",
+    "value": "Nordre Jarlsberg Brygge Marina AS",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS05",
+    "source_url": "https://www.havneweb.no/njb-marina/",
+    "accessed_utc": "2026-10-31T07:44:49.671330+00:00",
+    "evidence_lines": [
+      1,
+      10
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-015",
+    "subject_id": "3903-H03",
+    "field": "registered_entity_name",
+    "value": "NORDRE JARLSBERG BRYGGE MARINA AS",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR912886786",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912886786",
+    "accessed_utc": "2026-10-31T07:44:52.489494+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-016",
+    "subject_id": "3903-H03",
+    "field": "berths_published",
+    "value": 450,
+    "scope": "NJB_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS04",
+    "source_url": "https://njb.no/bathavna/",
+    "accessed_utc": "2026-10-31T07:44:49.670641+00:00",
+    "evidence_lines": [
+      18
+    ],
+    "note": "To operatørpubliseringer gir ulike tall uten sammenlignbar referansedato; ingen enkeltverdi er valgt."
+  },
+  {
+    "observation_id": "HS-OBS-017",
+    "subject_id": "3903-H03",
+    "field": "berths_published",
+    "value": 397,
+    "scope": "NJB_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS05",
+    "source_url": "https://www.havneweb.no/njb-marina/",
+    "accessed_utc": "2026-10-31T07:44:49.671330+00:00",
+    "evidence_lines": [
+      9
+    ],
+    "note": "To operatørpubliseringer gir ulike tall uten sammenlignbar referansedato; ingen enkeltverdi er valgt."
+  },
+  {
+    "observation_id": "HS-OBS-018",
+    "subject_id": "3903-H03",
+    "field": "guest_service_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS04",
+    "source_url": "https://njb.no/bathavna/",
+    "accessed_utc": "2026-10-31T07:44:49.670641+00:00",
+    "evidence_lines": [
+      19
+    ],
+    "note": "Antall gjesteplasser er ikke oppgitt."
+  },
+  {
+    "observation_id": "HS-OBS-019",
+    "subject_id": "3903-H03",
+    "field": "ramp_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS06",
+    "source_url": "https://njb.no/wp-content/uploads/2024/04/FAQ_NJB_Marina.pdf",
+    "accessed_utc": "2026-10-31T07:44:49.671820+00:00",
+    "evidence_lines": [
+      89
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-020",
+    "subject_id": "3903-H03",
+    "field": "own_crane_reported",
+    "value": false,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS06",
+    "source_url": "https://njb.no/wp-content/uploads/2024/04/FAQ_NJB_Marina.pdf",
+    "accessed_utc": "2026-10-31T07:44:49.671820+00:00",
+    "evidence_lines": [
+      89
+    ],
+    "note": "Operatørens udaterte FAQ svarer nei på egen kran; kranfirma kan kontaktes. Dette er ikke fravær av løftetjenester i området."
+  },
+  {
+    "observation_id": "HS-OBS-021",
+    "subject_id": "3903-H03",
+    "field": "storage_offer_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS18",
+    "source_url": "https://njb.no/wp-content/uploads/2026/06/Prisliste_opplag_NJB_Marina_20260605.pdf",
+    "accessed_utc": "2026-10-31T07:48:53.501264+00:00",
+    "evidence_lines": [
+      1
+    ],
+    "note": "Publisert opplagstilbud; antall og landgeometri er ikke oppgitt. Filnavnets 20260605 brukes ikke som observasjonsdato."
+  },
+  {
+    "observation_id": "HS-OBS-022",
+    "subject_id": "3903-H03",
+    "field": "land_storage_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS06",
+    "source_url": "https://njb.no/wp-content/uploads/2024/04/FAQ_NJB_Marina.pdf",
+    "accessed_utc": "2026-10-31T07:44:49.671820+00:00",
+    "evidence_lines": [
+      107
+    ],
+    "note": "FAQ bekrefter landbasert opplags-/parkeringsareal; bobilparkering er ikke båtkapasitet."
+  },
+  {
+    "observation_id": "HS-OBS-023",
+    "subject_id": "3903-H04",
+    "field": "operator_name",
+    "value": "Sande & Havna Båtforening",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS09",
+    "source_url": "https://www.havneweb.no/sandehavnabf/",
+    "accessed_utc": "2026-10-31T07:44:50.546204+00:00",
+    "evidence_lines": [
+      1,
+      11
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-024",
+    "subject_id": "3903-H04",
+    "field": "registered_entity_name",
+    "value": "SANDE & HAVNA BÅTFORENING",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR997317599",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/997317599",
+    "accessed_utc": "2026-10-31T07:44:52.650834+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-025",
+    "subject_id": "3903-H04",
+    "field": "historical_municipal_facility",
+    "value": "Eksisterende småbåthavn",
+    "scope": "municipal_inventory_row",
+    "status": "historical",
+    "reference_date": "2020",
+    "approximate": null,
+    "source_id": "HS15",
+    "source_url": "https://holmestrand.kommune.no/_f/p1/iab4e779d-804c-4437-8bff-00434dfab166/annleggsplan-for-idrett-friluftsliv-og-kultur-2020-2028-392438.pdf",
+    "accessed_utc": "2026-10-31T07:44:51.294199+00:00",
+    "evidence_lines": [
+      835
+    ],
+    "note": "Anleggsplan 2020–2028, PDF-side 18. Ikke nåverifisert kapasitet eller omriss."
+  },
+  {
+    "observation_id": "HS-OBS-026",
+    "subject_id": "3903-H05",
+    "field": "operator_name",
+    "value": "Bjerkøya Båtforening",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS07",
+    "source_url": "https://bjerkbat.no/OmOss/InformasjonomBjerk%C3%B8yab%C3%A5tforening.aspx",
+    "accessed_utc": "2026-10-31T07:44:49.672348+00:00",
+    "evidence_lines": [
+      32
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-027",
+    "subject_id": "3903-H05",
+    "field": "registered_entity_name",
+    "value": "BJERKØYA BÅTFORENING",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR896548972",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/896548972",
+    "accessed_utc": "2026-10-31T07:44:52.813875+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-028",
+    "subject_id": "3903-H05",
+    "field": "member_share_places",
+    "value": 155,
+    "scope": "operator_capacity_component",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS07",
+    "source_url": "https://bjerkbat.no/OmOss/InformasjonomBjerk%C3%B8yab%C3%A5tforening.aspx",
+    "accessed_utc": "2026-10-31T07:44:49.672348+00:00",
+    "evidence_lines": [
+      32
+    ],
+    "note": "Kilden sier at 62 utleieplasser kommer i tillegg til 155 andelsplasser. Begge kategorier beholdes separat; ingen samlet polygonkapasitet konstrueres."
+  },
+  {
+    "observation_id": "HS-OBS-029",
+    "subject_id": "3903-H05",
+    "field": "rental_places",
+    "value": 62,
+    "scope": "operator_capacity_component",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS07",
+    "source_url": "https://bjerkbat.no/OmOss/InformasjonomBjerk%C3%B8yab%C3%A5tforening.aspx",
+    "accessed_utc": "2026-10-31T07:44:49.672348+00:00",
+    "evidence_lines": [
+      32
+    ],
+    "note": "Kilden sier at 62 utleieplasser kommer i tillegg til 155 andelsplasser. Begge kategorier beholdes separat; ingen samlet polygonkapasitet konstrueres."
+  },
+  {
+    "observation_id": "HS-OBS-030",
+    "subject_id": "3903-H05",
+    "field": "directory_berths_published",
+    "value": 155,
+    "scope": "directory_unspecified_capacity",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS16",
+    "source_url": "https://velihavn.no/hjemmehavner/bjerkoya-batforening",
+    "accessed_utc": "2026-10-31T07:44:51.544184+00:00",
+    "evidence_lines": [
+      49
+    ],
+    "note": "155 i katalogen kan være delmengden andelsplasser; ikke nødvendigvis motstrid med operatørens 155+62."
+  },
+  {
+    "observation_id": "HS-OBS-031",
+    "subject_id": "3903-H05",
+    "field": "ramp_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS07",
+    "source_url": "https://bjerkbat.no/OmOss/InformasjonomBjerk%C3%B8yab%C3%A5tforening.aspx",
+    "accessed_utc": "2026-10-31T07:44:49.672348+00:00",
+    "evidence_lines": [
+      33
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-032",
+    "subject_id": "3903-H05",
+    "field": "lifting_ramp_reported",
+    "value": true,
+    "scope": "whole_harbour_operator_publication",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS07",
+    "source_url": "https://bjerkbat.no/OmOss/InformasjonomBjerk%C3%B8yab%C3%A5tforening.aspx",
+    "accessed_utc": "2026-10-31T07:44:49.672348+00:00",
+    "evidence_lines": [
+      33
+    ],
+    "note": "Rampe for større båter er ikke i seg selv dokumentasjon på egen kran."
+  },
+  {
+    "observation_id": "HS-OBS-033",
+    "subject_id": "3903-H05",
+    "field": "expansion_reported",
+    "value": "Bryggeutvidelse omtalt som beregnet klar for sesong 2026",
+    "scope": "operator_plan_and_news",
+    "status": "planned_or_progress_publication",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS08",
+    "source_url": "https://bjerkbat.no/",
+    "accessed_utc": "2026-10-31T07:44:49.674295+00:00",
+    "evidence_lines": [
+      42
+    ],
+    "note": "Nyere bryggeomtale krever bildekontroll før pilotens gamle kartomriss kan revurderes."
+  },
+  {
+    "observation_id": "HS-OBS-034",
+    "subject_id": "3903-H06",
+    "field": "operator_name",
+    "value": "Gyltesø Båtforening",
+    "scope": "operator_relation",
+    "status": "historical",
+    "reference_date": "2020",
+    "approximate": null,
+    "source_id": "HS15",
+    "source_url": "https://holmestrand.kommune.no/_f/p1/iab4e779d-804c-4437-8bff-00434dfab166/annleggsplan-for-idrett-friluftsliv-og-kultur-2020-2028-392438.pdf",
+    "accessed_utc": "2026-10-31T07:44:51.294199+00:00",
+    "evidence_lines": [
+      1055
+    ],
+    "note": "Anleggsplan 2020–2028, PDF-side 22. Ikke bevis på drift i dag."
+  },
+  {
+    "observation_id": "HS-OBS-035",
+    "subject_id": "3903-H06",
+    "field": "registered_entity_name",
+    "value": "GYLTESØ BÅTFORENING",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR912086275",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/912086275",
+    "accessed_utc": "2026-10-31T07:44:52.909806+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-036",
+    "subject_id": "3903-H07",
+    "field": "operator_name",
+    "value": "Holm Brygge AS",
+    "scope": "operator_relation",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS10",
+    "source_url": "https://www.holmbrygge.no/",
+    "accessed_utc": "2026-10-31T07:44:50.682633+00:00",
+    "evidence_lines": [
+      12
+    ],
+    "note": ""
+  },
+  {
+    "observation_id": "HS-OBS-037",
+    "subject_id": "3903-H07",
+    "field": "registered_entity_name",
+    "value": "HOLM BRYGGE AS",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR987352965",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/987352965",
+    "accessed_utc": "2026-10-31T07:44:52.975840+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Registeridentitet gir ikke alene havneposisjon eller faktisk drift."
+  },
+  {
+    "observation_id": "HS-OBS-038",
+    "subject_id": "3903-K05",
+    "field": "candidate_operator_offer",
+    "value": "Thorrud Camping tilbyr båtplasser",
+    "scope": "camping_offer_not_allocated_to_two_baseline_polygons",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS11",
+    "source_url": "https://thorrudcamping.no/fasiliteter/",
+    "accessed_utc": "2026-10-31T07:44:50.746582+00:00",
+    "evidence_lines": [
+      39
+    ],
+    "note": "Nord/sør-bryggene kan ikke tilordnes operatøren sikkert fra tekstkilden; operator_name er fortsatt null."
+  },
+  {
+    "observation_id": "HS-OBS-039",
+    "subject_id": "3903-K05",
+    "field": "non_boat_capacity",
+    "value": 130,
+    "scope": "camping_seasonal_pitches_not_boat_places",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": false,
+    "source_id": "HS12",
+    "source_url": "https://thorrudcamping.no/om-oss/",
+    "accessed_utc": "2026-10-31T07:44:50.834567+00:00",
+    "evidence_lines": [
+      17
+    ],
+    "note": "130 gjelder campingplasser. Dette tallet er eksplisitt utelatt fra båtplasskapasitet."
+  },
+  {
+    "observation_id": "HS-OBS-040",
+    "subject_id": "3903-K05",
+    "field": "berth_price_nok",
+    "value": 1000,
+    "scope": "price_not_capacity",
+    "status": "published_undated",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "HS13",
+    "source_url": "https://thorrudcamping.no/informasjon/",
+    "accessed_utc": "2026-10-31T07:44:51.045531+00:00",
+    "evidence_lines": [
+      42
+    ],
+    "note": "Pris er ikke antall båtplasser. Kapasiteten er ukjent."
+  },
+  {
+    "observation_id": "HS-OBS-041",
+    "subject_id": "C-VALE",
+    "field": "registered_entity_name",
+    "value": "VÅLE BÅTFORENING",
+    "scope": "organisation_only",
+    "status": "register_verified",
+    "reference_date": null,
+    "approximate": null,
+    "source_id": "BR915094821",
+    "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/915094821",
+    "accessed_utc": "2026-10-31T07:44:53.086327+00:00",
+    "evidence_lines": [
+      3
+    ],
+    "note": "Ingen ny stedfesting eller kapasitet er bekreftet."
+  }
+]

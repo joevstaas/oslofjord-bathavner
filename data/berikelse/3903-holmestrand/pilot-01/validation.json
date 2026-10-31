@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "harbour_groups": 12,
+  "polygons": 14,
+  "observations": 41,
+  "local_source_snapshots_checked": 25,
+  "checks": [
+    "Complete baseline coverage and unchanged legacy classification",
+    "Every observation linked to a successful source",
+    "Available snapshot hashes and evidence locators checked",
+    "Shared 1100 capacity stored once; 397/450 conflict retained",
+    "155 membership and 62 rental places remain separate",
+    "Camping pitches, prices and freshwater distinguished",
+    "CSV/JSON consistent and reference geometries identical",
+    "Approved municipality, combined files and earlier supplement byte-for-byte unchanged"
+  ]
+}
