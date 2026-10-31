@@ -1,0 +1,889 @@
+[
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/braten.provenance.json",
+  "metadata": {
+   "url": "https://www.porsgrunn.kommune.no/media/2416/8-mottatte-merknader-i-hoeringsperioden-planid-257-200420.pdf",
+   "retrieved_utc": "2026-10-31T17:31:27.329761+00:00",
+   "sha256": "bc92482bc26cb056a6b69de1025c9f27c5e23acd68a2c67c4b3bbeffb8f22eeb"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/brevik.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/brevik-bf/?mod=omhavnen",
+   "retrieved_utc": "2026-10-31T17:02:47.428293+00:00",
+   "sha256": "2efb9ca506741dd84f786df120a881505c92f317d6e407ea33de7ef7c33b0988"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/dovik-2024.provenance.json",
+  "metadata": {
+   "url": "https://www.dbf-porsgrunn.com/wordpress/wp-content/uploads/2025/03/ARSMOTEDOMUMENT-2025_09.03.25.pdf",
+   "retrieved_utc": "2026-10-31T17:04:06.054142+00:00",
+   "sha256": "eb73627bd0ed5c4e1316198e1f18dd7fb6f25ce04d0894efb3a0611341bd5765"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/dovik.provenance.json",
+  "metadata": {
+   "url": "https://www.dbf-porsgrunn.com/",
+   "retrieved_utc": "2026-10-31T17:04:06.601089+00:00",
+   "sha256": "9323ccf5366e81dadb958003e6f9d78d5069594b4e5875d2e33959c00a989fbf"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/downtown.provenance.json",
+  "metadata": {
+   "url": "https://www.visittelemark.no/produkter/down-town-gjestebrygge",
+   "retrieved_utc": "2026-10-31T17:04:06.478911+00:00",
+   "sha256": "e59003cc2c05f18f5cd1159f4cde2ac7f3a693cf55b888e09ff43bfaa5a57d99"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/esri-service.json.provenance.json",
+  "metadata": {
+   "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+   "retrieved_utc": "2026-10-31T17:00:49.383968+00:00",
+   "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/gjestehavner-2013.provenance.json",
+  "metadata": {
+   "url": "https://www.telemarkskanalen.no/dbimgs/13-11-01%20Rapport%20gjestehavner%20-%20endelig%20og%20offentlig.pdf",
+   "retrieved_utc": "2026-10-31T17:02:48.233199+00:00",
+   "sha256": "11daf7b49252c8da84df80a6b55fa84e123630e1141d86eb543f46104bcb29a2"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/heistad.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/heistad-mbf/?mod=omhavnen",
+   "retrieved_utc": "2026-10-31T17:02:47.617814+00:00",
+   "sha256": "c14a8ae97765426eca4f896f0e844e94718c4930e0c8d49dbe47befcb78a1945"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/heroya-2019.provenance.json",
+  "metadata": {
+   "url": "https://www.hydro.com/globalassets/07-media/nabo-info-porsgrunn-juni2019.pdf",
+   "retrieved_utc": "2026-10-31T17:09:26.697856+00:00",
+   "sha256": "700a1a56249304ddf6b4b301e3e44302d046c05a9ab63566c3afbf1d07d62778"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/heroya-local.provenance.json",
+  "metadata": {
+   "url": "https://heroya.wordpress.com/omhff/hff-medlemsorganisasjoner/heroya-motorbatforening/",
+   "retrieved_utc": "2026-10-31T17:09:26.376484+00:00",
+   "sha256": "311f04aee6dcf27fed51f8200c3f8d71e3cdf3fcf4730023250da29cb677007f"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/heroya.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/heroya/",
+   "retrieved_utc": "2026-10-31T17:09:25.823426+00:00",
+   "sha256": "838bda4057ba8a3ef6acd78f663a0712ed1d355da6d987cb1c9aaecc997c8aae"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/kanal-kyst.provenance.json",
+  "metadata": {
+   "url": "https://www.telemarkskanalen.no/fritidsbat/strekning-for-strekning/fra-kysten-til-skien",
+   "retrieved_utc": "2026-10-31T17:04:07.515055+00:00",
+   "sha256": "b941c92e4bef33091d7be557122b3b81da838a190b816055854cd054cc71430f"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/kommunegrense-4326.json.provenance.json",
+  "metadata": {
+   "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/4001/omrade?utkoordsys=4326",
+   "retrieved_utc": "2026-10-31T17:00:49.266071+00:00",
+   "sha256": "c0dc7bf35e598109b80dbdb0e3c988abc8712a2b4e7628dca9ee582b361ca902"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/langangen.provenance.json",
+  "metadata": {
+   "url": "https://langangen.com/index.php?Itemid=602&catid=17&id=107%3Abatforeningen&option=com_content&view=article",
+   "retrieved_utc": "2026-10-31T17:02:48.419864+00:00",
+   "sha256": "83ad2379613465de54682cd4685adf848313a486c1338135e996a5f2178c0485"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-2025.provenance.json",
+  "metadata": {
+   "url": "https://www.lmbf.info/_files/ugd/421622_326c2f97576a4b5aae01d6c6ea3f8699.pdf",
+   "retrieved_utc": "2026-10-31T17:48:27.012086+00:00",
+   "sha256": "6abfc7c161920d34d431d7a97e61fd39daeb30b7d3877c1cc84fe125209254c2"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-law.provenance.json",
+  "metadata": {
+   "url": "https://www.lmbf.info/_files/ugd/421622_19dbd11086724b41aea788ae64f5e20c.pdf",
+   "retrieved_utc": "2026-10-31T17:48:27.208848+00:00",
+   "sha256": "5a144dfb675249d65615cb72250b74832bea8870cafbff0982ecd274bc5f6731"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-photo-0.provenance.json",
+  "metadata": {
+   "url": "https://static.wixstatic.com/media/421622_803f78bec9b949938c07061a872c4f06~mv2_d_4032_2268_s_2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190505_113106.jpg",
+   "alt": "20190505_113106.jpg",
+   "retrieved_date": "2026-10-31",
+   "source_observation_date": null,
+   "sha256": "9139ca14e4996fbf809810f65a38e654d4580d6c08a33b7350fd5d8816d75175"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-photo-1.provenance.json",
+  "metadata": {
+   "url": "https://static.wixstatic.com/media/421622_f45bf12c065d452690dce0d177ef62e1~mv2_d_4032_2268_s_2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190505_114203.jpg",
+   "alt": "20190505_114203.jpg",
+   "retrieved_date": "2026-10-31",
+   "source_observation_date": null,
+   "sha256": "176bf469a58414743c6b564c335c24c7d8e05f7779e6679b0d210f294fce8128"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-photo-2.provenance.json",
+  "metadata": {
+   "url": "https://static.wixstatic.com/media/421622_922e585e97bc47e781bddce4565f8aec~mv2_d_4128_2322_s_2.jpg/v1/fill/w_940,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/20190505_114804.jpg",
+   "alt": "20190505_114804.jpg",
+   "retrieved_date": "2026-10-31",
+   "source_observation_date": null,
+   "sha256": "71597bd77eddd701064f0fb35f906f2bd97fe1b56c82aafe95e146dabd46120c"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf-photo-3.provenance.json",
+  "metadata": {
+   "url": "https://static.wixstatic.com/media/421622_c074e45ad2064b4096284711f1560601~mv2_d_4128_2322_s_2.jpg/v1/fill/w_123,h_69,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/421622_c074e45ad2064b4096284711f1560601~mv2_d_4128_2322_s_2.jpg",
+   "alt": "20190505_114608.jpg",
+   "retrieved_date": "2026-10-31",
+   "source_observation_date": null,
+   "sha256": "0892423664a47e69a3c499a5b60635a9af334a645d61aa9fbd274bf72b6044cb"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/lmbf.provenance.json",
+  "metadata": {
+   "url": "https://www.lmbf.info/",
+   "retrieved_utc": "2026-10-31T17:48:26.225513+00:00",
+   "sha256": "1bd3433a02673e1ed3d68f63acadc2d9b32b102e7d82b34cd15e7ab3775e5d83"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/names.provenance.json",
+  "metadata": {
+   "urls": [
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567879.050515178&ost=193769.34111091617&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567449.314910113&ost=192882.60696743053&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567406.202679912&ost=192817.51690609165&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567376.979118295&ost=192931.47165865896&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567349.3132871&ost=192853.23867686052&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6564649.204486527&ost=193309.36082185185&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562101.889071266&ost=193328.6184967885&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562003.998252386&ost=193321.51368061325&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6568514.2491268255&ost=194459.4429733736&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6568405.906889996&ost=194457.93747744343&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6568295.771373082&ost=194414.50892033597&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567997.987969556&ost=194271.58052660452&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560554.553631013&ost=195964.33095723836&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6564119.60401486&ost=197569.960380088&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6564044.651318231&ost=197414.44619552282&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563574.104675925&ost=197740.20927954811&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562946.13189914&ost=196251.806756537&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562539.038817824&ost=196230.78433150533&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562038.602635016&ost=197293.20472377783&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561833.697587774&ost=197309.4222278628&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561755.259905956&ost=196361.13121912608&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561722.091107561&ost=197373.80002097163&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561615.857054123&ost=197447.86662733182&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561536.470836381&ost=197455.22885160797&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561430.942407779&ost=197361.67474876257&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561151.954128844&ost=197363.95758534403&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561040.4988087565&ost=197327.2756586636&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560952.38280442&ost=196296.6575682961&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560924.302384718&ost=197323.14771014682&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560754.531573111&ost=196222.68933803408&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560287.555051741&ost=197220.24516930658&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560013.172997002&ost=197262.82525670205&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559725.704662127&ost=197432.54965241213&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559418.252983408&ost=197658.8583730997&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559397.40196345&ost=197551.35651997637&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558820.385458034&ost=196164.02260118054&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558743.886855217&ost=197564.44875108832&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558665.758641452&ost=197715.95482044044&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558574.921914188&ost=196314.0885298859&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558574.002214962&ost=197834.13112785463&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558550.573481248&ost=197377.99670832275&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558511.710626514&ost=197946.36129599347&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558401.141852003&ost=197326.72841125063&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558352.848119955&ost=196466.20967070234&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558266.405689284&ost=197362.32436965074&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558155.3386436645&ost=196254.42531482773&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558133.944844308&ost=197357.84362287028&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558067.7758159395&ost=196492.24646981256&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558016.363278427&ost=197347.93706105102&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557891.694452715&ost=197390.87505524413&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557770.856920123&ost=197553.49763458138&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557501.423725377&ost=197643.96031763495&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557426.909084233&ost=197698.47192218775&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557283.448356994&ost=197710.13580996735&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557096.102135403&ost=197848.00066812325&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558664.909520788&ost=198444.58612977577&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558430.609503223&ost=198032.0776051074&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6557062.15610446&ost=201185.8275683543&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556908.988748195&ost=201101.08494545778&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6553766.458045275&ost=200148.77357390517&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561115.32354966&ost=202163.5825439294&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558737.875615263&ost=203449.6577409022&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15"
+   ],
+   "sha256": "9f08e9c85bbcab32f9280576753f8454cb5c0e0c19897a9cbc81f745491530c5",
+   "retrieved_utc": "2026-10-31T17:04:17.801632+00:00"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/nystrand.provenance.json",
+  "metadata": {
+   "url": "https://nystrandbf.org/",
+   "retrieved_utc": "2026-10-31T17:04:09.310341+00:00",
+   "sha256": "f30713d227457f7387869d022209554aaaca06a6276d21e6cd44f6dd94507eba"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.030000%2C9.660000%2C59.070000",
+   "bbox": [
+    9.6,
+    59.03,
+    9.66,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:18.750190+00:00",
+   "sha256": "7df4bd148c15839ee8368110d59372adaec01c19deae40f590e9801abce4590f"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.070000%2C9.660000%2C59.110000",
+   "bbox": [
+    9.6,
+    59.07,
+    9.66,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:18.826264+00:00",
+   "sha256": "8b19fbb8208b26af2803659c5e5f1c1d88bf21e51ffe7f4ec8a6f68dd06dcca0"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-10.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C59.070000%2C9.780000%2C59.110000",
+   "bbox": [
+    9.72,
+    59.07,
+    9.78,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:38.670086+00:00",
+   "sha256": "9c48c1e3de743a58319dc53e5a72493d81618e6cd3cf8286a021c916e8ef730f"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-11.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C59.110000%2C9.780000%2C59.150000",
+   "bbox": [
+    9.72,
+    59.11,
+    9.78,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:39.296555+00:00",
+   "sha256": "8f5057d2d0cf0f339e7d91595f20eea75873a06a42b56247d7055d6edc84b5b9"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-12.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C59.150000%2C9.780000%2C59.190000",
+   "bbox": [
+    9.72,
+    59.15,
+    9.78,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:39.255932+00:00",
+   "sha256": "96a9471637c4e511d6e036bbaf236e49a52983b5756c0a03086ecafc5805685a"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-13.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C59.190000%2C9.780000%2C59.230000",
+   "bbox": [
+    9.72,
+    59.19,
+    9.78,
+    59.23
+   ],
+   "retrieved_utc": "2026-10-31T17:01:39.864662+00:00",
+   "sha256": "d029c34fa41ca50d962bf61618ce4f1c529b680e343994756be7a0696a64354b"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-14.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C58.990000%2C9.840000%2C59.030000",
+   "bbox": [
+    9.78,
+    58.99,
+    9.84,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T17:01:40.188672+00:00",
+   "sha256": "00ef70af50cbc0955cc38994d667bbef49161664654e5b8c0a4ee4eca2f36ee7"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-15.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C59.030000%2C9.840000%2C59.070000",
+   "bbox": [
+    9.78,
+    59.03,
+    9.84,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:40.662955+00:00",
+   "sha256": "c16cc12dcbaa6c77a2d9b5067f2514785cbad78b15f69ae04b5e39f4862bfac8"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-16.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C59.070000%2C9.840000%2C59.110000",
+   "bbox": [
+    9.78,
+    59.07,
+    9.84,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:41.200458+00:00",
+   "sha256": "bc015e092058422ae193f6ae04e3671ec03e6f81d06302919bc1d7b9ebbddfd6"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-17.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C59.110000%2C9.840000%2C59.150000",
+   "bbox": [
+    9.78,
+    59.11,
+    9.84,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:41.060940+00:00",
+   "sha256": "c706e7f856f355b1ec0a454947864ab76b31325ff2b5eb6efb957ef2b347a7be"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-18.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C59.150000%2C9.840000%2C59.190000",
+   "bbox": [
+    9.78,
+    59.15,
+    9.84,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:41.582388+00:00",
+   "sha256": "ecec2fa9bfaa4456912081deb5c691a5ebe4684484a4c68113edc642a0cf0d2a"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-19.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.780000%2C59.190000%2C9.840000%2C59.230000",
+   "bbox": [
+    9.78,
+    59.19,
+    9.84,
+    59.23
+   ],
+   "retrieved_utc": "2026-10-31T17:01:41.536616+00:00",
+   "sha256": "9a59cfeb96bd048035a770a9c741a69e80048263a7dfa5c1524653bbd4a2b20b"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-2-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.110000%2C9.630000%2C59.130000",
+   "bbox": [
+    9.6,
+    59.11,
+    9.629999999999999,
+    59.129999999999995
+   ],
+   "retrieved_utc": "2026-10-31T17:01:21.308752+00:00",
+   "sha256": "0f4ecfabd3764c57dec04c0aae3693c78c794671f1fa21b770814b504a58e4d0"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-2-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.630000%2C59.110000%2C9.660000%2C59.130000",
+   "bbox": [
+    9.629999999999999,
+    59.11,
+    9.66,
+    59.129999999999995
+   ],
+   "retrieved_utc": "2026-10-31T17:01:22.724473+00:00",
+   "sha256": "48e1d1c388c699e1422a71393c24b0217587f0266d419fbcdec2fdf7b518215a"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-2-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.130000%2C9.630000%2C59.150000",
+   "bbox": [
+    9.6,
+    59.129999999999995,
+    9.629999999999999,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:23.637685+00:00",
+   "sha256": "2dc448a141ba7cdbbb3bfd6d9c0eaed388c0ed460b10c052adb58901a9ce9319"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-2-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.630000%2C59.130000%2C9.660000%2C59.150000",
+   "bbox": [
+    9.629999999999999,
+    59.129999999999995,
+    9.66,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:26.327577+00:00",
+   "sha256": "7c351b05b40a68c126698ec134e821186e5f2026942597f556cbf1401af1d52e"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-20.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.840000%2C59.030000%2C9.900000%2C59.070000",
+   "bbox": [
+    9.84,
+    59.03,
+    9.9,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:42.337928+00:00",
+   "sha256": "c8e35d5ab1cabd5b44ec5afbea744524642e5bfa8a7befcec7e7f0acc9bcdc00"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-21.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.840000%2C59.070000%2C9.900000%2C59.110000",
+   "bbox": [
+    9.84,
+    59.07,
+    9.9,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:42.182420+00:00",
+   "sha256": "a7c4138d607db2cec062fbd618aff94b777c642771d893da9430a8bcd43e703e"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-22.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.840000%2C59.110000%2C9.900000%2C59.150000",
+   "bbox": [
+    9.84,
+    59.11,
+    9.9,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:42.767470+00:00",
+   "sha256": "0c4529b97e652ac0dad4b15dd39cb732f2e6100cda531c1bbe0701f85fe2fd29"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-23.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.840000%2C59.150000%2C9.900000%2C59.190000",
+   "bbox": [
+    9.84,
+    59.15,
+    9.9,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:42.885186+00:00",
+   "sha256": "957f414f38ff7c36d92e0f4cdb843344b15bef38a6874f62e7781a0abc5208c1"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-24.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.840000%2C59.190000%2C9.900000%2C59.230000",
+   "bbox": [
+    9.84,
+    59.19,
+    9.9,
+    59.23
+   ],
+   "retrieved_utc": "2026-10-31T17:01:43.235129+00:00",
+   "sha256": "142a3a6ccb0663ed8c62ff4a0ae7259352394cb070b472cd0a9b1f01ba151e4e"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-3-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.150000%2C9.630000%2C59.170000",
+   "bbox": [
+    9.6,
+    59.15,
+    9.629999999999999,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T17:01:22.109279+00:00",
+   "sha256": "92afd5269352cb971abc64cacc35bd2358625110ba65f3964b672a2454a19e35"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-3-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.630000%2C59.150000%2C9.660000%2C59.170000",
+   "bbox": [
+    9.629999999999999,
+    59.15,
+    9.66,
+    59.17
+   ],
+   "retrieved_utc": "2026-10-31T17:01:23.996317+00:00",
+   "sha256": "6af2520bfbb803734e19dc3c025c254930e2bab01273ab2ec122d3df6711283d"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-3-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.600000%2C59.170000%2C9.630000%2C59.190000",
+   "bbox": [
+    9.6,
+    59.17,
+    9.629999999999999,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:26.123479+00:00",
+   "sha256": "9f4dde4bbac535b959c57b0d965b44cb84a8b394ace6e6fb2b571bc7bb57e5de"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-3-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.630000%2C59.170000%2C9.660000%2C59.190000",
+   "bbox": [
+    9.629999999999999,
+    59.17,
+    9.66,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:27.718371+00:00",
+   "sha256": "aa1f94edb7993fb1afa643abce75be47dc554ceebd0a21ae725bf46723a509b9"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-4-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.030000%2C9.690000%2C59.050000",
+   "bbox": [
+    9.66,
+    59.03,
+    9.690000000000001,
+    59.05
+   ],
+   "retrieved_utc": "2026-10-31T17:01:29.503288+00:00",
+   "sha256": "8ec8af7cdf24a17f52b897d747e794424bf93e7cdf31607d25212b9c37b30ef8"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-4-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.030000%2C9.720000%2C59.050000",
+   "bbox": [
+    9.690000000000001,
+    59.03,
+    9.72,
+    59.05
+   ],
+   "retrieved_utc": "2026-10-31T17:01:30.604521+00:00",
+   "sha256": "928a96bcb973efee7a60dc003b297be289693dd067e0d5bf7f689a8246ea8684"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-4-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.050000%2C9.690000%2C59.070000",
+   "bbox": [
+    9.66,
+    59.05,
+    9.690000000000001,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:31.216143+00:00",
+   "sha256": "b7d769e38d98e875623dcc4fb434524c00355368cd694c932bb832d7aacc4aa8"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-4-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.050000%2C9.720000%2C59.070000",
+   "bbox": [
+    9.690000000000001,
+    59.05,
+    9.72,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:32.023290+00:00",
+   "sha256": "79a4fc2d29846677d6ce565f4874f5d8e4fe0ffedf5081256e0eedd39508f510"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-5-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.070000%2C9.690000%2C59.090000",
+   "bbox": [
+    9.66,
+    59.07,
+    9.690000000000001,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T17:01:31.218300+00:00",
+   "sha256": "2589ec68395f02e663e778628814332aad2c4baa6ecc285e50d7938b34374b1e"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-5-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.070000%2C9.720000%2C59.090000",
+   "bbox": [
+    9.690000000000001,
+    59.07,
+    9.72,
+    59.09
+   ],
+   "retrieved_utc": "2026-10-31T17:01:31.827332+00:00",
+   "sha256": "f78a03a55991686660f19a303527ad31742a86aebf9115e097bdae0d63d42cf0"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-5-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.090000%2C9.690000%2C59.110000",
+   "bbox": [
+    9.66,
+    59.09,
+    9.690000000000001,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:33.096837+00:00",
+   "sha256": "a4125f9099690e204b48fa40d18ab14d5036c400e3e9424fe3359d7436e7d57a"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-5-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.090000%2C9.720000%2C59.110000",
+   "bbox": [
+    9.690000000000001,
+    59.09,
+    9.72,
+    59.11
+   ],
+   "retrieved_utc": "2026-10-31T17:01:33.945743+00:00",
+   "sha256": "649bb1a1cbfe75ee8193780ff363cf8edee4b2c035ed3fe33ddccc76bd7ecc31"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-6-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.110000%2C9.690000%2C59.130000",
+   "bbox": [
+    9.66,
+    59.11,
+    9.690000000000001,
+    59.129999999999995
+   ],
+   "retrieved_utc": "2026-10-31T17:01:35.208326+00:00",
+   "sha256": "250b8ee95ba1e8e4fa4c4b27657a6b6ac94160c24a470701d0760908b9b6c50c"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-6-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.110000%2C9.720000%2C59.130000",
+   "bbox": [
+    9.690000000000001,
+    59.11,
+    9.72,
+    59.129999999999995
+   ],
+   "retrieved_utc": "2026-10-31T17:01:36.363213+00:00",
+   "sha256": "23feccfebcb08738ca02a859317bac16f6073b8324d6e05fec690e0e4fc1ebd9"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-6-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.130000%2C9.690000%2C59.150000",
+   "bbox": [
+    9.66,
+    59.129999999999995,
+    9.690000000000001,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:37.547183+00:00",
+   "sha256": "ed7ee2af031ba47377d32dfd6b04512f24c40762f2519417465393651d9707d3"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-6-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.690000%2C59.130000%2C9.720000%2C59.150000",
+   "bbox": [
+    9.690000000000001,
+    59.129999999999995,
+    9.72,
+    59.15
+   ],
+   "retrieved_utc": "2026-10-31T17:01:37.880087+00:00",
+   "sha256": "f5d2e9a38775b94e09a25f35e6ee3fefe8090b79a54f43d90d962e3986404945"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-7.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.660000%2C59.150000%2C9.720000%2C59.190000",
+   "bbox": [
+    9.66,
+    59.15,
+    9.72,
+    59.19
+   ],
+   "retrieved_utc": "2026-10-31T17:01:35.338081+00:00",
+   "sha256": "4b4df1a22b7d82d824a1c46c97bb990008c2670fb6ee645dd5b2f38ea9d7972c"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-8.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C58.990000%2C9.780000%2C59.030000",
+   "bbox": [
+    9.72,
+    58.99,
+    9.78,
+    59.03
+   ],
+   "retrieved_utc": "2026-10-31T17:01:37.542916+00:00",
+   "sha256": "ab8dd5437296dbff20f843c65463731e962a09fe3fc4faf1c82363683ea6ffd5"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/osm-map-9.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=9.720000%2C59.030000%2C9.780000%2C59.070000",
+   "bbox": [
+    9.72,
+    59.03,
+    9.78,
+    59.07
+   ],
+   "retrieved_utc": "2026-10-31T17:01:38.680146+00:00",
+   "sha256": "58877f4f61b406831bbe97108b3add7bbd09cc5a7b22014ff58216a0f57c53a1"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/pmf-2023.provenance.json",
+  "metadata": {
+   "url": "https://www.batforening.com/wp-content/uploads/2023/04/PMF-lov-rev.10.03.23.pdf",
+   "retrieved_utc": "2026-10-31T17:24:13.787202+00:00",
+   "sha256": "c2ed17603363794c54e75ff23a0a07211f3354cb744f72b16af9e18b62748d07"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/pmf-80aar.provenance.json",
+  "metadata": {
+   "url": "https://www.batforening.com/wp-content/uploads/2016/04/80-%C3%A5rs-beretning.pdf",
+   "retrieved_utc": "2026-10-31T17:04:08.772793+00:00",
+   "sha256": "fafd2230fe1308114485a5c68543d0cb85290d85a126a5f08d61cba4b5da6dbc"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/pmf-havner.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/batforening/?mod=omhavnen",
+   "retrieved_utc": "2026-10-31T17:02:47.433446+00:00",
+   "sha256": "499aa6e4c5396b879e0972e0fdc9637f953c2a34e22de2a2f1d78aa8de4d2e03"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/pmv-plan.provenance.json",
+  "metadata": {
+   "url": "https://www.porsgrunn.kommune.no/media/kjcjdo2e/10-notat-smaabaathavn-pmv-20082020.pdf",
+   "retrieved_utc": "2026-10-31T17:02:48.055514+00:00",
+   "sha256": "055cdb2fca0d302d19533e6b729e523d1b6823498bf3ef22a63d35519aadc67e"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/sandoya.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/sandoyabatforening/",
+   "retrieved_utc": "2026-10-31T17:24:13.611465+00:00",
+   "sha256": "61a7eb77288c9d804fb375c146c36bc65e63e8a29fa48565954ab6ab3cd095d2"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/sjoloftet-marina.provenance.json",
+  "metadata": {
+   "url": "https://www.sjoloftet.no/sjloftet-marina",
+   "retrieved_utc": "2026-10-31T17:24:13.663802+00:00",
+   "sha256": "d8e28b5144449a8528ca82b808a61453a9666dac08accedc66b39b782b7d0dc7"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/sjoloftet.provenance.json",
+  "metadata": {
+   "url": "https://www.sjoloftet.no/",
+   "retrieved_utc": "2026-10-31T17:04:06.857218+00:00",
+   "sha256": "9ab0d33af00ee48c71d3c7748aad9c2c8a23651a591812d367270eff54c44219"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/skjelsvik.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/skjelsvik-bf/?mod=omhavnen",
+   "retrieved_utc": "2026-10-31T17:02:47.617974+00:00",
+   "sha256": "f476073d339d47c1ccc887e1219eb61c8389882b4204c8aead662cc17994b401"
+  }
+ },
+ {
+  "local_metadata_path": "work/4001-porsgrunn/raw/sundjord-plan.provenance.json",
+  "metadata": {
+   "url": "https://www.porsgrunn.kommune.no/media/idefyybu/4-planbeskrivelse.pdf",
+   "retrieved_utc": "2026-10-31T17:24:15.015539+00:00",
+   "sha256": "290853e09b2705819a62dd8d2ef181ed429bd59b5a40be5f8afce4828d40650c"
+  }
+ }
+]

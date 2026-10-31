@@ -1,0 +1,1046 @@
+[
+ {
+  "cid": "C001",
+  "image_id": "detail-C001",
+  "review_bbox": [
+   193574.47063839162,
+   6567688.37731365,
+   193948.2997670282,
+   6568062.206442286
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C002",
+  "image_id": "detail-C003",
+  "review_bbox": [
+   192752.65248170332,
+   6567319.24370652,
+   193012.65248170332,
+   6567579.24370652
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C003",
+  "image_id": "detail-C003",
+  "review_bbox": [
+   192687.46974689493,
+   6567276.326904582,
+   192947.46974689493,
+   6567536.326904582
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C004",
+  "image_id": "detail-C004",
+  "review_bbox": [
+   192802.9442339897,
+   6567242.006740762,
+   193062.9442339897,
+   6567502.006740762
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C005",
+  "image_id": "detail-C003",
+  "review_bbox": [
+   192723.23795012318,
+   6567219.314080568,
+   192983.23795012318,
+   6567479.314080568
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C006",
+  "image_id": "detail-C006",
+  "review_bbox": [
+   193179.3615669689,
+   6564519.204344222,
+   193439.3615669689,
+   6564779.204344222
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C007",
+  "image_id": "detail-C007",
+  "review_bbox": [
+   193201.1738830574,
+   6561969.624774316,
+   193461.1738830574,
+   6562229.624774316
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C008",
+  "image_id": "detail-C008",
+  "review_bbox": [
+   193194.80632917714,
+   6561871.394347664,
+   193454.80632917714,
+   6562131.394347664
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C009",
+  "image_id": "detail-C009",
+  "review_bbox": [
+   194332.97144932652,
+   6568381.703793042,
+   194592.97144932652,
+   6568641.703793042
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C010",
+  "image_id": "detail-C010",
+  "review_bbox": [
+   194327.93747744343,
+   6568275.906889996,
+   194587.93747744343,
+   6568535.906889996
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C011",
+  "image_id": "detail-C011",
+  "review_bbox": [
+   194284.50892033597,
+   6568165.771373082,
+   194544.50892033597,
+   6568425.771373082
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C012",
+  "image_id": "detail-C012",
+  "review_bbox": [
+   194141.58052660452,
+   6567867.987969557,
+   194401.58052660452,
+   6568127.987969557
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C013",
+  "image_id": "detail-C013",
+  "review_bbox": [
+   195844.10546780756,
+   6560428.912100388,
+   196104.10546780756,
+   6560688.912100388
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C014",
+  "image_id": "detail-C014",
+  "review_bbox": [
+   197445.76357501769,
+   6563995.165688568,
+   197705.76357501769,
+   6564255.165688568
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C015",
+  "image_id": "detail-C015",
+  "review_bbox": [
+   197284.13316889212,
+   6563913.959381629,
+   197544.13316889212,
+   6564173.959381629
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C016",
+  "image_id": "detail-C016",
+  "review_bbox": [
+   197610.4544771005,
+   6563444.203868479,
+   197870.4544771005,
+   6563704.203868479
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C017",
+  "image_id": "detail-C017",
+  "review_bbox": [
+   196121.6111666739,
+   6562809.602567521,
+   196385.05897395895,
+   6563073.050374807
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C018",
+  "image_id": "detail-C018",
+  "review_bbox": [
+   196103.1354158494,
+   6562406.968091094,
+   196363.1354158494,
+   6562666.968091094
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C019",
+  "image_id": "detail-C019",
+  "review_bbox": [
+   197172.08051115565,
+   6561915.955634391,
+   197432.08051115565,
+   6562175.955634391
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C020",
+  "image_id": "detail-C020",
+  "review_bbox": [
+   197175.84060732322,
+   6561701.007251041,
+   197435.84060732322,
+   6561961.007251041
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C021",
+  "image_id": "detail-C021",
+  "review_bbox": [
+   196232.16080474583,
+   6561626.639672964,
+   196492.16080474583,
+   6561886.639672964
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C022",
+  "image_id": "detail-C022",
+  "review_bbox": [
+   197246.21422665563,
+   6561592.338787828,
+   197506.21422665563,
+   6561852.338787828
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C023",
+  "image_id": "detail-C023",
+  "review_bbox": [
+   197324.06301431794,
+   6561488.136073633,
+   197584.06301431794,
+   6561748.136073633
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C024",
+  "image_id": "detail-C024",
+  "review_bbox": [
+   197329.69953275312,
+   6561403.676044227,
+   197589.69953275312,
+   6561663.676044227
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C025",
+  "image_id": "detail-C025",
+  "review_bbox": [
+   197232.44783636244,
+   6561301.870321138,
+   197492.44783636244,
+   6561561.870321138
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C026",
+  "image_id": "detail-C026",
+  "review_bbox": [
+   197228.2225665053,
+   6561026.802626962,
+   197488.2225665053,
+   6561286.802626962
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C027",
+  "image_id": "detail-C027",
+  "review_bbox": [
+   197196.56120860184,
+   6560910.310224991,
+   197456.56120860184,
+   6561170.310224991
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C028",
+  "image_id": "detail-C028",
+  "review_bbox": [
+   196168.2137090872,
+   6560828.048289796,
+   196428.2137090872,
+   6561088.048289796
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C029",
+  "image_id": "detail-C029",
+  "review_bbox": [
+   197193.82262801367,
+   6560802.153033922,
+   197453.82262801367,
+   6561062.153033922
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C030",
+  "image_id": "detail-C030",
+  "review_bbox": [
+   196092.6630863397,
+   6560615.511518724,
+   196352.6630863397,
+   6560875.511518724
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C031",
+  "image_id": "detail-C031",
+  "review_bbox": [
+   197104.02693313113,
+   6560166.8539636005,
+   197387.2245851982,
+   6560450.051615668
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C032",
+  "image_id": "detail-C032",
+  "review_bbox": [
+   197132.82526144342,
+   6559883.172996486,
+   197392.82526144342,
+   6560143.172996486
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C033",
+  "image_id": "detail-C033",
+  "review_bbox": [
+   197310.98637454896,
+   6559594.422608491,
+   197570.98637454896,
+   6559854.422608491
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C034",
+  "image_id": "detail-C034",
+  "review_bbox": [
+   197527.85329998357,
+   6559288.562021733,
+   197787.85329998357,
+   6559548.562021733
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C035",
+  "image_id": "detail-C035",
+  "review_bbox": [
+   197421.44578243635,
+   6559267.49879555,
+   197681.44578243635,
+   6559527.49879555
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C036",
+  "image_id": "detail-C036",
+  "review_bbox": [
+   196032.5833578138,
+   6558694.087742001,
+   196292.5833578138,
+   6558954.087742001
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C037",
+  "image_id": "detail-C037",
+  "review_bbox": [
+   197434.46609807777,
+   6558613.898837007,
+   197694.46609807777,
+   6558873.898837007
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C038",
+  "image_id": "detail-C038",
+  "review_bbox": [
+   197585.97275538876,
+   6558535.615234368,
+   197845.97275538876,
+   6558795.615234368
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C039",
+  "image_id": "detail-C039",
+  "review_bbox": [
+   196182.1385068641,
+   6558444.265785359,
+   196442.1385068641,
+   6558704.265785359
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C040",
+  "image_id": "detail-C040",
+  "review_bbox": [
+   197704.24807536684,
+   6558442.662653391,
+   197964.24807536684,
+   6558702.662653391
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C041",
+  "image_id": "detail-C041",
+  "review_bbox": [
+   197243.67216059862,
+   6558417.100030328,
+   197503.67216059862,
+   6558677.100030328
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C042",
+  "image_id": "detail-C042",
+  "review_bbox": [
+   197814.40980253436,
+   6558382.374675065,
+   198074.40980253436,
+   6558642.374675065
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C043",
+  "image_id": "detail-C043",
+  "review_bbox": [
+   197195.05687674473,
+   6558261.360334051,
+   197455.05687674473,
+   6558521.360334051
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C044",
+  "image_id": "detail-C044",
+  "review_bbox": [
+   196336.7605757243,
+   6558221.710928805,
+   196596.7605757243,
+   6558481.710928805
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C045",
+  "image_id": "detail-C045",
+  "review_bbox": [
+   197232.32436965074,
+   6558136.405689284,
+   197492.32436965074,
+   6558396.405689284
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C046",
+  "image_id": "detail-C046",
+  "review_bbox": [
+   196090.44585693092,
+   6557984.597165001,
+   196413.59101862158,
+   6558307.742326691
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C047",
+  "image_id": "detail-C047",
+  "review_bbox": [
+   197228.22698831145,
+   6558004.249964241,
+   197488.22698831145,
+   6558264.249964241
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C048",
+  "image_id": "detail-C048",
+  "review_bbox": [
+   196362.24646981256,
+   6557937.7758159395,
+   196622.24646981256,
+   6558197.7758159395
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C049",
+  "image_id": "detail-C049",
+  "review_bbox": [
+   197219.0566135665,
+   6557885.877885614,
+   197479.0566135665,
+   6558145.877885614
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C050",
+  "image_id": "detail-C050",
+  "review_bbox": [
+   197261.0215537153,
+   6557761.515757697,
+   197521.0215537153,
+   6558021.515757697
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C051",
+  "image_id": "detail-C051",
+  "review_bbox": [
+   197395.11277524725,
+   6557630.96162449,
+   197660.4425793874,
+   6557896.291428631
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C052",
+  "image_id": "detail-C052",
+  "review_bbox": [
+   197515.58433864577,
+   6557373.303118247,
+   197775.58433864577,
+   6557633.303118247
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C053",
+  "image_id": "detail-C053",
+  "review_bbox": [
+   197568.45963767878,
+   6557296.990421176,
+   197828.45963767878,
+   6557556.990421176
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C054",
+  "image_id": "detail-C054",
+  "review_bbox": [
+   197580.1367423532,
+   6557153.4449669225,
+   197840.1367423532,
+   6557413.4449669225
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C055",
+  "image_id": "detail-C055",
+  "review_bbox": [
+   197715.1719320212,
+   6556961.501872797,
+   197975.1719320212,
+   6557221.501872797
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C056",
+  "image_id": "detail-C056",
+  "review_bbox": [
+   198317.8693197261,
+   6558537.77165823,
+   198577.8693197261,
+   6558797.77165823
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C057",
+  "image_id": "detail-C057",
+  "review_bbox": [
+   197902.61564903508,
+   6558295.95448804,
+   198162.61564903508,
+   6558555.95448804
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C058",
+  "image_id": "detail-C058",
+  "review_bbox": [
+   201056.02023137285,
+   6556932.201135717,
+   201316.02023137285,
+   6557192.201135717
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C059",
+  "image_id": "detail-C059",
+  "review_bbox": [
+   200971.08478910557,
+   6556778.987199932,
+   201231.08478910557,
+   6557038.987199932
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C060",
+  "image_id": "detail-C060",
+  "review_bbox": [
+   200018.77306932842,
+   6553636.45875044,
+   200278.77306932842,
+   6553896.45875044
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C061",
+  "image_id": "detail-C061",
+  "review_bbox": [
+   202029.7108274549,
+   6560959.404479839,
+   202301.48898237848,
+   6561231.182634763
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "C062",
+  "image_id": "detail-C062",
+  "review_bbox": [
+   203319.6577409022,
+   6558607.875615263,
+   203579.6577409022,
+   6558867.875615263
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M01",
+  "image_id": "detail-M01",
+  "review_bbox": [
+   193305.0,
+   6567505.0,
+   194055.0,
+   6568255.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M02",
+  "image_id": "detail-M02",
+  "review_bbox": [
+   192875.0,
+   6564225.0,
+   193525.0,
+   6564875.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M03",
+  "image_id": "detail-M03",
+  "review_bbox": [
+   194130.0,
+   6568300.0,
+   194730.0,
+   6568900.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M04",
+  "image_id": "detail-M04",
+  "review_bbox": [
+   191995.0,
+   6566815.0,
+   192445.0,
+   6567265.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M05",
+  "image_id": "detail-M05",
+  "review_bbox": [
+   192950.0,
+   6567530.0,
+   193450.0,
+   6568030.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M06",
+  "image_id": "detail-M06",
+  "review_bbox": [
+   197175.0,
+   6563775.0,
+   197825.0,
+   6564425.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M07",
+  "image_id": "detail-M07",
+  "review_bbox": [
+   196940.0,
+   6560020.0,
+   197540.0,
+   6560620.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M08",
+  "image_id": "detail-M08",
+  "review_bbox": [
+   195825.0,
+   6558325.0,
+   196575.0,
+   6559075.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M09",
+  "image_id": "detail-M09",
+  "review_bbox": [
+   195945.0,
+   6557825.0,
+   196595.0,
+   6558475.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M10",
+  "image_id": "detail-M10",
+  "review_bbox": [
+   196490.0,
+   6563650.0,
+   197190.0,
+   6564350.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M11",
+  "image_id": "detail-M11",
+  "review_bbox": [
+   202065.0,
+   6561775.0,
+   202715.0,
+   6562425.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M12",
+  "image_id": "detail-M12",
+  "review_bbox": [
+   197750,
+   6559280,
+   198550,
+   6560080
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M13",
+  "image_id": "detail-M13",
+  "review_bbox": [
+   198490.0,
+   6559810.0,
+   198790.0,
+   6560110.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M14",
+  "image_id": "detail-M14",
+  "review_bbox": [
+   200365.0,
+   6557305.0,
+   200715.0,
+   6557655.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M15",
+  "image_id": "detail-M15",
+  "review_bbox": [
+   198400,
+   6556730,
+   198700,
+   6557030
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M16",
+  "image_id": "detail-M16",
+  "review_bbox": [
+   198445.0,
+   6555295.0,
+   198895.0,
+   6555745.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M17",
+  "image_id": "detail-M17",
+  "review_bbox": [
+   203420,
+   6555510,
+   203720,
+   6555810
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M18",
+  "image_id": "detail-M18",
+  "review_bbox": [
+   192925.0,
+   6566805.0,
+   193575.0,
+   6567455.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M19",
+  "image_id": "detail-M19",
+  "review_bbox": [
+   192885.0,
+   6567095.0,
+   193335.0,
+   6567545.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M20",
+  "image_id": "detail-M20",
+  "review_bbox": [
+   196000.0,
+   6562690.0,
+   196500.0,
+   6563190.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M21",
+  "image_id": "detail-M21",
+  "review_bbox": [
+   192825.0,
+   6565625.0,
+   193375.0,
+   6566175.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M22",
+  "image_id": "detail-M22",
+  "review_bbox": [
+   193075.0,
+   6565075.0,
+   193925.0,
+   6565925.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M23",
+  "image_id": "detail-M23",
+  "review_bbox": [
+   194060.0,
+   6569000.0,
+   194660.0,
+   6569600.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M24",
+  "image_id": "detail-M24",
+  "review_bbox": [
+   202220.0,
+   6561500.0,
+   202720.0,
+   6562000.0
+  ],
+  "review_width": 800,
+  "review_height": 800
+ },
+ {
+  "cid": "M25",
+  "image_id": "detail-M25",
+  "review_bbox": [
+   201850,
+   6560900,
+   202550,
+   6561600
+  ],
+  "review_width": 800,
+  "review_height": 800
+ }
+]

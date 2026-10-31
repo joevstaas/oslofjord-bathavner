@@ -88,3 +88,22 @@ Brukerbildet av campingbukta er stedfestet i georefererte Esri-flybilder. Begge 
 ### Holmsåsen godkjent og innlemmet 2026-10-31
 
 Brukeren ba eksplisitt om innlemming av begge nye polygoner. H08 (mulig småbåthavn) og H09 (småbåthavn) er innlemmet med kjente usikkerheter. Samlet 760 polygoner / 22 kommuner; Holmestrand har nå 16 polygoner. De 758 tidligere features er bevart uendret, dokumentert med kanonisk SHA-256 i supplementets approval.json. Pilotleveransen rev-01 er uendret; godkjent supplement er koblet via status.json og kontrolleres sammen med hovedleveransen. Lokale kartdata er oppdatert. Ukjent bildedato, operatører og usikre avgrensninger beholdes.
+
+
+### Porsgrunn rev-01 – ferdig til godkjenning 2026-10-31
+
+Brukeren ba om Porsgrunn alene. Leveranse i `data/kommuner/4001-porsgrunn/rev-01/`: **56 polygoner / 28 foreløpige anleggsgrupper**, inkludert **3 mulige**, alle 56 med kontrollbehov. Tolv åpne avklaringer beholdes. Samlefil og nettsted er uendret, **760 polygoner / 22 godkjente kommuner**. Holmsåsen-supplementet kom inn parallelt før første Porsgrunn-bygg; start-/avstemte hasher er bevart i run.json.
+
+62 OSM-klynger / 152 pirer og 25 ekstra kontrollrammer er vurdert. Hele hovedserien på 259 kyst-/elvenære 500 m-celler / 65 ark er visuelt lest. 51 hovedfliser dekker uttrekt marin OSM-kyst; tre historiske Clarity-mosaikker supplerer skyer over østlige øyer og åtte nordlige kontrollceller er ettersett. Dette er ikke fullstendighetsbevis. Innlandet og alle oppstrøms bekker/innsjøstrender er ikke fullkartlagt.
+
+PMF, gjestehavner, Sundjordkanalen, Bråten, Herøya, Heistad, Døvik, Skjelsvik, Nystrand, Seivall, Brevik, Sandøya og Langangen/Kilen er kildekontrollert. Eiklund/Kreppa, Ørjevik, Bjønnes, Dåpan og Bjørkøybukta er også kontrollert som bildefunn. Kotøya, Dikkon-campingbrygga og Dåpan er mulige. Porselænsfabrikkens lille gjestebrygge og Dikkons molo er åpne uten polygon. PMV-planens110 plasser er ikke tegnet som eksisterende. Bro/rekkverk/landopplag ved Langangen ble først feiltolket og deretter forkastet ved eksportkontroll; foreningen i Kilen/Halvarp har egen, foreløpig stedskobling.
+
+Alle eksporterte omriss er visuelt kontrollert; ID-er, geometri, grense, intern/nabo-overlapp, bildehasher og CSV-samsvar er validert. Kapasitetsdeler er ikke summert til nåtidstotaler: ventelistegrenser, medlemmer, utleiehendelser og 16 foreningseide Langangen-plasser er ikke ekstra havnekapasitet.
+
+Råpakken på omtrent540 MB er lokalt i `work/4001-porsgrunn/`, utenfor Git. Bevar den separat; ny nedlasting er ikke identisk rekonstruksjon. Lette innganger i `analysis-config/`, kilde-/bildemanifester i leveransen. Bygg/finalisering stopper ved godkjent revisjon. Aktiv gren `codex/porsgrunn-analysis` i isolert arbeidsområde. Ingen commit, push, PR, innlemming eller neste kommune er bestilt. Ås er fortsatt uavklart kystkommune, ingen ny analyse startet.
+
+## Porsgrunn rev-01 godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente 56 polygoner / 28 foreløpige anleggsgrupper, inkludert 3 mulige havner. Samlefilen og nettstedets lokale kartdata inneholder nå 816 polygoner fra 23 godkjente kommuner. Alle 760 tidligere godkjente feature-objekter er bevart uendret; SHA-256 og godkjenningstidspunkt er registrert i data/kommuner/4001-porsgrunn/rev-01/approval.json. Førkontrollen er bevart i validation-before-approval.json.
+
+Alle 56 usikre avgrensninger, tolv åpne avklaringer, ukjente bildedatoer og ufullstendig innlandsgjennomgang beholdes. Godkjenningen gjør ikke disse sikre. Brukeren har senere bestilt commit, push og PR. Ingen publisering er bestilt. Ingen neste kommune startet; Ås står fortsatt som uavklart kystkommune.

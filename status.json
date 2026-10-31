@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T16:57:52Z",
+ "updated_utc": "2026-10-31T18:15:36Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -443,6 +443,28 @@
    "open_questions": 11,
    "inland_systematically_reviewed": false,
    "approved_utc": "2026-10-31T16:48:04Z"
+  },
+  {
+   "name": "Porsgrunn",
+   "code": "4001",
+   "status": "godkjent_av_bruker",
+   "revision": 1,
+   "method_version": "1.2",
+   "schema_version": "1.1",
+   "started_utc": "2026-10-31T17:00:49.144655+00:00",
+   "finished_utc": "2026-10-31T18:00:07+00:00",
+   "elapsed_wall_seconds": 3559,
+   "result": "data/kommuner/4001-porsgrunn/rev-01/bathavner.geojson",
+   "metadata": "data/kommuner/4001-porsgrunn/rev-01/metadata.csv",
+   "candidate_ledger": "data/kommuner/4001-porsgrunn/rev-01/candidate-ledger.json",
+   "work_dir": "work/4001-porsgrunn",
+   "polygons": 56,
+   "harbours": 28,
+   "possible_harbours": 3,
+   "uncertain_geometries": 56,
+   "open_questions": 12,
+   "inland_systematically_reviewed": false,
+   "approved_utc": "2026-10-31T18:15:36Z"
   }
  ],
  "next_municipality_started": false,
@@ -462,9 +484,8 @@
   "finished_utc": "2026-10-30T00:04:27Z",
   "approved_utc": "2026-10-30T05:46:52Z"
  },
- "in_progress": "Holmsåsen-supplement godkjent og innlemmet: to nye polygoner. Samlet 760 polygoner / 22 kommuner. Kjente usikkerheter beholdes.",
+ "in_progress": "Porsgrunn rev-01 godkjent og innlemmet. Samlet 816 polygoner / 23 kommuner. Kjente usikkerheter og kontrollhull beholdes. Ingen neste kommune startet.",
  "remaining_after_batch": [
-  "Porsgrunn 4001",
   "Ås 3218 (kystlinje ikke bekreftet)"
  ],
  "enrichment_pilots": [

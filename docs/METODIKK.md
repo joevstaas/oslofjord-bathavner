@@ -1024,3 +1024,12 @@ Brukerbildet av campingbukta er stedfestet i georefererte Esri-flybilder. Begge 
 ### Holmsåsen godkjent og innlemmet 2026-10-31
 
 Brukeren ba eksplisitt om innlemming av begge nye polygoner. H08 (mulig småbåthavn) og H09 (småbåthavn) er innlemmet med kjente usikkerheter. Samlet 760 polygoner / 22 kommuner; Holmestrand har nå 16 polygoner. De 758 tidligere features er bevart uendret, dokumentert med kanonisk SHA-256 i supplementets approval.json. Pilotleveransen rev-01 er uendret; godkjent supplement er koblet via status.json og kontrolleres sammen med hovedleveransen. Lokale kartdata er oppdatert. Ukjent bildedato, operatører og usikre avgrensninger beholdes.
+
+
+### Erfaring fra Porsgrunn, 2026-10-31
+
+- En reiselivsside kan ha korrekt nautisk posisjon i brødtekst og feil automatisk kartpunkt. Kontroller begge mot kommunegrense og bilde før stedfesting.
+- Brurekkverk, lyse skygger og opplagsbåter kan ligne bryggerekker. Eksportert omriss må kontrolleres mot sjø og land; Porsgrunn-kontrollen fjernet en slik feiltolkning ved Langangen.
+- Historisk Clarity kan åpne skydekte kontrollområder, men gir ikke samtidighet eller nåtidsdrift. Skill service-/utgivelsesdato, bildeopptaksdato og nedlastingsdato; ett metadataoppslag bekrefter ikke alle bilder.
+- Kapasitetsdeler og eierskap kan omtales flere ganger i samme årsmøterapport. Ikke legg foreningseide plasser til det anlegget de allerede inngår i. Ventelistegrenser og antall utleiehendelser er ikke havnekapasitet.
+- Overlapp mellom håndtegnede sjøbelter ved samme pirrot kan fjernes med union av de manuelle delene. Dette skaper ikke ny arealavgrensning og erstatter ikke etterfølgende visuell kontroll.
