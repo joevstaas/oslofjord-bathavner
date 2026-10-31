@@ -1,0 +1,155 @@
+[
+ {
+  "candidate_id": "C009",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Den lille sentrale brygga har under ti klare plasser; båter langs kaien i samme utsnitt er allerede registrert som H34. Den store langbrygga er H07. Ingen dublett opprettes.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C015",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Liten privat brygge.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C017",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Store brygger i utsnittet er allerede H11 og H38. De øvrige korte bryggene har separate landfester og få plasser. Ingen summering.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C019",
+  "previous_decision": "utelatt",
+  "current_decision": "inkludert_smabathavn",
+  "reason": "Én langbrygge med mange utriggere og klart over ti båtplasser. Tidligere utelatelse av C019 som under ti plasser var feil.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C020",
+  "previous_decision": "utelatt",
+  "current_decision": "inkludert_smabathavn",
+  "reason": "Én felles brygge med to rekker utriggere, klart over ti plasser i detaljbildet. Tidligere utelatelse av C020 som under ti var feil.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C022",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Små brygger med egne landfester; stort anlegg nord i utsnittet er allerede H12. Under ti klare plasser i hver av de øvrige separate bryggene.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C023",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C024",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C027",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C031",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Kort brygge/molo ved strand og camping, rundt åtte synlige båter. Ikke ti klare faste plasser eller dokumentert marina; fortsatt utelatt.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C032",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Samme fysiske anlegg som C030 (Salen båthavn); ikke eget anlegg.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C034",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Firkantanlegget nord i utsnittet er allerede H16. Separate småbrygger ved boligene sør for dette er ikke summert.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C036",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Ferje-/servicekai; ingen småbåtplasser.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C039",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Langesund sentrum: rekke av korte private brygger med separate landfester (bl.a. sameier ved Vaterlands gate). Ikke ett dokumentert felles anlegg; ingen summering.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "C040",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Liten brygge på Langøya.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "M03",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Feilsentrert søkeutsnitt (bare sjø); bryggegruppen ved Stathelle vest er vurdert som C016.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ },
+ {
+  "candidate_id": "M11",
+  "previous_decision": "utelatt",
+  "current_decision": "utelatt",
+  "reason": "Havsundbukta øst: spredte private brygger med separate landfester.",
+  "reviewed_date": "2026-10-31",
+  "source": "cluster-review-index.json; bevarte georefererte kandidatpaneler",
+  "duplicate_context_checked": true
+ }
+]

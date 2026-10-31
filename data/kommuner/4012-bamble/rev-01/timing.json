@@ -1,0 +1,30 @@
+{
+ "started_utc": "2026-10-31T12:46:34.666321+00:00",
+ "started_unix": 1793450794.6667368,
+ "municipality": "Bamble",
+ "code": "4012",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "0b4ae85d65a3e68e0c42ec15ae238cf07b0ebc195ed2755b12740efd9b06fa63",
+  "data/samlet/samlet-manifest.json": "d85fb5258a10f3a83390a6ebd405b2e5ff50a6f5fcaaee0bed8d7e9387e42e4a"
+ },
+ "finished_utc": "2026-10-31T13:59:50+00:00",
+ "elapsed_wall_seconds": 4396,
+ "tokens_measured": null,
+ "cost_measured": null,
+ "note": "elapsed_wall_seconds er total tid fra oppstart til siste ferdigstilling og inkluderer venting på bruker. Bruk first_delivery_elapsed_wall_seconds for førstegangsarbeid.",
+ "first_delivery_finished_utc": "2026-10-31T13:38:19+00:00",
+ "first_delivery_elapsed_wall_seconds": 3105,
+ "correction_rounds": [
+  {
+   "round": 1,
+   "reason": "To oversette kaianlegg (Stranda, Havparadiset)."
+  },
+  {
+   "round": 2,
+   "reason": "Elleve brukerpåpekte steder: seks nye anlegg, to omklassifiseringer, tre utenfor/utelatt, ett ikke stedfestet."
+  }
+ ]
+}

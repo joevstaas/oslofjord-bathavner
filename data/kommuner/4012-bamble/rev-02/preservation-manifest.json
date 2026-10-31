@@ -1,0 +1,31 @@
+{
+ "protected_sha256": {
+  "data/kommuner/4012-bamble/rev-01/imagery-manifest.json": "1a00efa85f84511f1e31106c58e582a0f633af452fd719e6ba8e9d3665209ec9",
+  "data/kommuner/4012-bamble/rev-01/summary.json": "1e73da9d6aebfd06108875ffc8efab441643b8060521c68b800c9f3378555d85",
+  "data/kommuner/4012-bamble/rev-01/bathavner.geojson": "953f5aec501ab031437b6db2a0046893b8c1386b37726389bd9b7700df8cca59",
+  "data/kommuner/4012-bamble/rev-01/candidate-ledger.json": "0f2c740f5c164b258800fffb8959ae589e88ac634d78aea3bd9cbce6f986ef14",
+  "data/kommuner/4012-bamble/rev-01/timing.json": "ad9b55b6db3858eadebdead3c072cada040eb5b4039ef19c4fad731cfe668b77",
+  "data/kommuner/4012-bamble/rev-01/kommunegrense.geojson": "2ba04a996d7bb5741fab6d28b71b2a8a8cefd5a3cc84722e81e5cc728d003612",
+  "data/kommuner/4012-bamble/rev-01/decisions.py": "c5f9e98951df93627530f652601147c13db94110dd02feebe1c3d98b1bb555c4",
+  "data/kommuner/4012-bamble/rev-01/README.md": "6af14aebc2e29769cb5ba832e57a5d0b7ac03cb381ea52ed12237ab9b4c33646",
+  "data/kommuner/4012-bamble/rev-01/open-questions.json": "d6b4dd8ea11f4f9d46ff95324300287c452068d7e504388ca06d8a60e4cb59c2",
+  "data/kommuner/4012-bamble/rev-01/cluster-review-index.json": "da9681db827427475f885789e8ffa3b695b32d0df0e764086ddba40a1e0a5d0f",
+  "data/kommuner/4012-bamble/rev-01/validation.json": "f5f38c3a60f2c1a4a29e9ce014d0219914b4eb8164c0dfda752a461d29542fde",
+  "data/kommuner/4012-bamble/rev-01/source-provenance.json": "4ba982d0a85589f22b9476f24b18e27dcd5feb040dcd8db485c57b7b3b003af9",
+  "data/kommuner/4012-bamble/rev-01/metadata.csv": "cf809b211c566970271ffaf4b4613574a6ed575ea503c8cdcfa0fb194436806a",
+  "data/kommuner/4012-bamble/rev-01/coverage.json": "abfdd003c9f12e3d168e0ee2c529d220f4336aefeeddcde36b4cbff2a1480ee8",
+  "data/kommuner/4012-bamble/rev-01/digitisation.json": "1221a58ba5e81649d8108ddd17ed91d105612d340b73a7a5508b0dd0335b69b8",
+  "data/kommuner/4012-bamble/rev-01/clusters.json": "7794938ebeef0f38724fcc63e3e5a94c2c9fce913fbedb863e739e1898a9d17b",
+  "data/kommuner/4012-bamble/rev-01/candidate-ledger.csv": "13416418875e14f41aca0a4e70a81a7e8822a17ffe8fd2d354fe444d15b65741",
+  "data/kommuner/4012-bamble/rev-01/neighbour-pending.json": "8f389cc516ae8eb2e641a1eb4f78544ed220c844e5c3046cb9d541d1bf8fb691",
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "0b4ae85d65a3e68e0c42ec15ae238cf07b0ebc195ed2755b12740efd9b06fa63",
+  "data/samlet/samlet-manifest.json": "d85fb5258a10f3a83390a6ebd405b2e5ff50a6f5fcaaee0bed8d7e9387e42e4a",
+  "site/vercel.json": "3ae66a8a5e5468af2e49c6ceafcdb48cb783486ebfa0cb8f56b6f01e2e8d91a0",
+  "site/labs/oslofjord-bathavner/index.html": "a71384d3ba62a2e2303c644fc8f114e91b085843a463ef8c70d99d5b2da6be69",
+  "site/labs/oslofjord-bathavner/data/harbours.geojson": "3fd3ec5f81990a59f05df1d69285f4db35cc2b287e972c8971acd734ad5ff39e",
+  "site/labs/oslofjord-bathavner/data/municipalities.geojson": "9c7c7b79b246bc5fc8decec6b2a51782cd2e3ee891e3b3de346e798d9b32ba81",
+  "site/labs/oslofjord-bathavner/data/enrichment.json": "99cf17c6cd8d1ace6700e2094965426c885d9e42f211d5d034349ae4eac8d0d1",
+  "site/labs/oslofjord-bathavner/data/meta.json": "a9b8ec0f0e0a2dafc3aee6679e447290ca1cb81d80c7621dcf6209b256c1d400"
+ },
+ "description": "SHA-256 før ny gjennomgang; rev-01, samledata og nettsted skal være uendret."
+}

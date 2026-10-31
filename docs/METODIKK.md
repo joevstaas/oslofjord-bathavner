@@ -899,3 +899,70 @@ Alle eksporterte omriss er visuelt kontrollert etter eksport, og korrigerte omri
 ### Hvaler – godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente rev-01 og ba om commit, push og PR. Alle 69 polygoner / 66 foreløpige anleggsgrupper er innlemmet, inkludert 20 mulige. Samlet 571 polygoner fra 19 kommuner. De 502 tidligere features er kontrollert uendret med kanonisk SHA-256 i `approval.json`. 68 avgrensningers kontrollbehov, sju åpne kildeavklaringer og ukjent bildeopptaksdato beholdes. Operatørgrenser, kapasitet og fullstendighet er ikke verifisert av godkjenningen. Nettstedets lokale kartdata og kommunestatus er oppdatert. Sarpsborg er ikke startet.
+
+
+### Bamble – revisjon 1 til godkjenning, 2026-10-31
+
+Brukeren ba om Bamble (4012). Leveransen ligger i `data/kommuner/4012-bamble/rev-01/`: **38 anleggsgrupper / 43 polygoner** etter to rettingsrunder, inkludert sju mulige havner og 17 usikre avgrensninger. Den venter på godkjenning; samlefil og nettsted er uendret (469 polygoner / 16 kommuner). Ingen neste kommune er startet.
+
+Metode 1.2 / skjema 1.1. Omrissene er tegnet manuelt i georefererte bilder. 130 kystfliser dekker ca. 224 km OSM-kystlinje uten hull, og alle er gjennomgått på kontaktark uavhengig av OSM. 52 kandidater er vurdert enkeltvis: 40 OSM-pirklynger og 12 bildefunn. I tillegg er 12 registrerte foreninger eller havner uten sikker stedfesting loggført som åpne kildekandidater. To bryggeanlegg like utenfor kommunegrensen står i `neighbour-pending.json`. Overpass-delrute 6 måtte deles i fire etter gjentatte tidsavbrudd.
+
+Læring:
+1. OSM-dekningen av pirer var svak (144 pirer). Flere store anlegg fantes bare i det systematiske bildesøket. Kontaktark må derfor gjennomgås selv når OSM ser fullstendig ut.
+2. Første overleggskontroll avdekket forskyvning eller land i omkring 20 omriss. Rettingen gikk raskere med et zoomverktøy som tegner gjeldende omriss på et forstørret panelrutenett (`work/4012-bamble/zoom.py`). Dette anbefales fra starten neste gang.
+3. Beskrivende navn bør hentes fra Kartverkets stedsnavn-API (`/punkt`) ved anlegget, ikke fra hukommelse eller nærliggende fjordnavn. Søkeparameteren for kommune er `knr`, ikke `kommunenummer`.
+4. Flere kommunale PDF-lenker svarte 404, og visitnorway.no avviste automatisk henting (403). Kildeopplysningene er derfor tatt fra kommunens egne havnesider, lokalhistoriewiki, Enhetsregisteret og KNBF, med eksplisitt referanseusikkerhet.
+
+Bildeopptaksdato, nøyaktighet og dagens drift er ukjent. Tidsbruk er målt veggklokketid, 51,8 minutter fram til ferdigstillingsskriptet, inkludert nettventing; tokens og pris er ikke målt.
+
+#### Brukerinnspill før godkjenning (samme dag)
+
+Brukeren påviste to oversette havner: Stranda ved Grosholmen og Havparadiset på Kjønnøya (Kjønnøyaveien ca. 217–226). Begge er små kaianlegg der båtene ligger langs steinkai eller i et lite basseng ved en T-brygge, uten OSM-pir. På kontaktark med ca. 1,8 m/px var de ikke synlige som bryggeanlegg. De er lagt til som H31 og H32 (kandidat M13 og M14), med brukerens identifikasjon som grunnlag og usikker avgrensning. Rev-01 er oppdatert før godkjenning; ingen godkjent revisjon er overskrevet.
+
+Forbedring for neste kommune: kontaktark alene fanger ikke opp anlegg langs kai. Følgende kontroller skal derfor gjøres i tillegg:
+1. Gå gjennom detaljutsnitt på ca. 0,7 m/px langs bebygd strandlinje (adressepunkter nær sjø), ikke bare kontaktark.
+2. Søk i adresseregisteret etter samlinger av adresser ved sjø og naust.
+3. Merk «båter langs kai» som egen kandidattype.
+
+Førstegangsarbeidet tok 51,8 minutter. Tiden for rettingen er registrert separat i `timing.json`; ventetid på brukeren er ikke produksjonstid.
+
+#### Brukerinnspill runde 2 (samme dag)
+
+Brukeren viste elleve steder til, og var selv usikker på størrelsen for flere av dem. Utfall:
+- **Seks nye anlegg (H33–H38):** Sauøya, Grunnsundveien, Hafsundveien, Trolldalen, Rognstranda og Vinjekilen. Sauøya (C026) var først utelatt som under ti plasser.
+- **Omklassifisert:** Vinjestranda (H11) er oppgradert fra mulig til småbåthavn.
+- **Utenfor kommunen:** Stråholmen ligger i Kragerø og står som nabofunn.
+- **Fortsatt utelatt, nå med begrunnelse i loggen:** Vaterlands gate (private brygger med hver sin landfeste) og en liten brygge ved Rognstranda.
+- **Ikke stedfestet:** et molobasseng ved «Kyststien».
+
+Havne-ID-ene fra forrige utkast er beholdt, og nye anlegg er nummerert bakerst.
+
+Samlet læring fra de to rundene:
+1. **Kontaktark er for grove.** Ved ca. 1,8 m/px ble brygger med 10–20 båter oversett, særlig når båtene ligger langs kai, i skygge eller ved små molobasseng.
+2. **Neste kommune: detaljbilder langs bebygd strand.** Gjør en systematisk gjennomgang i ca. 0,7 m/px (zoompaneler) langs all strandlinje med bebyggelse, hyttefelt eller vei. Kontaktark brukes bare til oversikt.
+3. **Revurder grensetilfeller.** Brygger som er utelatt fordi de har «under ti synlige plasser», skal revurderes i høyere oppløsning. Én mosaikk kan vise færre båter enn virkeligheten, for eksempel i en annen sesong.
+4. **Vurder å stoppe opp tidlig.** Når brukeren påviser mange mangler, er en full ny gjennomgang i detaljoppløsning mer effektiv enn å rette punkt for punkt. For Bamble er den ikke gjort; fullstendigheten er fortsatt usikker.
+
+
+### Bamble – revisjon 2 etter fullført detaljgjennomgang, 2026-10-31
+
+Brukeren ba om å ferdigstille ny gjennomgang etter brukerinnspill. Rev-02 ligger i `data/kommuner/4012-bamble/rev-02/` og venter på godkjenning: **53 anleggsgrupper / 59 polygoner**, inkludert **13 mulige havner og 33 usikre avgrensninger**. Dette er **15 nye grupper / 16 nye polygoner** fra rev-01. De 43 tidligere polygonene og ID-ene er bevart; rev-01 er ikke overskrevet. Samledata og nettsted er uendret.
+
+Detaljsøket omfatter 255 kystceller à 500 m, 64 ark, med kildeflisene vist i ca. 0,73 m/px. En bevart, påbegynt gjennomgang hadde allerede kontrollert ark 25–63 og notert 12 funn. Ark 0–24 er fullført nå. Alle de 12 funnene, pluss seks nye kontrollfunn, har fått eksplisitte beslutninger i egne georefererte detaljpaneler. I tillegg er 17 tidligere utelatte kandidater kontrollert på nytt, med eksisterende polygoner som overlegg for å unngå dubletter.
+
+Fem tidligere utelatelser er omgjort: C013 (Skjerkebukta nord), C029 (Bunes), M05 (Ekstrand båtbyggeri/Kuskjær), C019 (Vinjestranda øst) og C020 (Høvika). C013/C029/C019/C020 viser tydelige anlegg over ti-plassgrensen; tidligere vurdering som små enkeltbrygger var feil. Ved båtbyggeriet er faste fritidsbåtplasser ikke skilt sikkert fra service-/salgsplasser, derfor mulig. H45 ved Håvøyveien har to sjøpolygoner med felles landtilkomst; ingen polygon er trukket over land for å binde dem sammen.
+
+Det trekantede molobassenget ved Kruksdalen/Krukodden er stedfestet som H39. Formen passer beskrivelsen av brukerens «Kyststien»-basseng; identitet med originalskjermbildet er ikke bekreftet og beholdes som åpen avklaring. Nye beskrivende navn er støttet av Kartverkets punkt-API, med lagrede svar og proveniens. Navnestøtte er ikke dokumentasjon av operatør.
+
+De 16 nye eksportomrissene er visuelt kontrollert som overlegg etter geometrirettinger. Teknisk kontroll viser gyldige polygoner, unike ID-er, 0 m² utenfor kommunen, ingen intern overlapp eller overlapp mot samledata og fullstendig CSV-samsvar. Bildehashene stemmer. SHA-256-kontroll bekrefter at rev-01, godkjente samledata og nettsted er uendret.
+
+**Kontrollhull beholdes:** Skydekte deler av industrikysten i G024/G028/G030/G031 er ikke tilstrekkelig visuelt kontrollert. Ukjent opptaksdato/nøyaktighet, dagens drift, driftsgrensene Valle/Stoa og ikke-systematisk kartlagt innland er fortsatt begrensninger. «Fullført detaljgjennomgang» betyr at alle feltene er behandlet og begrensningene er loggført, ikke at fullstendighet er bevist.
+
+Læring: Tidligere kandidatpaneler må kontrolleres med eksisterende omriss som overlegg. Et panel kan vise både en liten utelatt brygge og en stor havn som allerede er inkludert. Omvendt må faktisk antall utriggere leses i detalj; en generell «under ti»-begrunnelse kan skjule tydelige større anlegg. Småbåter langs sammenhengende kai skal vurderes på samme måte som flytebrygger, med usikker klasse når faste plasser eller felles drift ikke er dokumentert.
+
+Ny veggklokketid er registrert separat i `rev-02/timing.json`, fra opprettelsen av detaljpanelverktøyet. Innledende fil-/bildekontroll før målepunktet og den tidligere delgjennomgangen er ikke målt i dette intervallet. Tokens og pris er ikke målt. Ingen neste kommune er startet.
+
+
+### Bamble – revisjon 2 godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-02 og ba om commit, push og PR. Alle 59 polygoner / 53 anleggsgrupper er innlemmet, inkludert 13 mulige havner og 33 usikre avgrensninger. Samlet 630 polygoner fra 20 kommuner. De 571 tidligere godkjente features, inkludert Frogn, Vestby og Hvaler fra siste main, er bevart med kanonisk SHA-256 i `data/kommuner/4012-bamble/rev-02/approval.json`. Rev-01 er bevart som historisk, ikke-godkjent leveranse. Skydekte deler av industrikysten, ukjent bildedato/drift og øvrige åpne avklaringer beholdes. Godkjenning verifiserer ikke fullstendighet eller antall operatører. Nettstedets kartdata og kommunestatus er oppdatert. Ingen neste kommune er startet.

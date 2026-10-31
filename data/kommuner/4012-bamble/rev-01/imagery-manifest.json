@@ -1,0 +1,5884 @@
+[
+ {
+  "id": "coast-180900-6545700",
+  "bbox": [
+   180799.99999999994,
+   6545600,
+   181899.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=180800.0%2C6545600.0%2C181900.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa8f094e732954775a2dc7f51d2e7f3cb.jpg",
+  "requested_bbox": [
+   180800.0,
+   6545600.0,
+   181900.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   180799.99999999994,
+   6545600,
+   181899.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:14+00:00",
+  "source_observation_date": null,
+  "sha256": "3acf4cc85bc02f7df1dc1e84f4c47d09f58b0905e5c2832e9f7f4f6164376879",
+  "elapsed_seconds": 91.43,
+  "bytes": 676735
+ },
+ {
+  "id": "coast-181800-6545700",
+  "bbox": [
+   181700,
+   6545600,
+   182800,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=181700.0%2C6545600.0%2C182800.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map13bba30862cd4c0eabbc816ec9334936.jpg",
+  "requested_bbox": [
+   181700.0,
+   6545600.0,
+   182800.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   181700,
+   6545600,
+   182800,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:04:59+00:00",
+  "source_observation_date": null,
+  "sha256": "04db73fae5e27b2cd70dff34598704b1d732f1942c1f8298b6872f4ca8fb9cc3",
+  "elapsed_seconds": 73.49,
+  "bytes": 516262
+ },
+ {
+  "id": "coast-181800-6546600",
+  "bbox": [
+   181700,
+   6546499.999999999,
+   182800,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=181700.0%2C6546500.0%2C182800.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7a97e8f122ec446c8a2535ecdd498152.jpg",
+  "requested_bbox": [
+   181700.0,
+   6546500.0,
+   182800.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   181700,
+   6546499.999999999,
+   182800,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:40+00:00",
+  "source_observation_date": null,
+  "sha256": "fa684cb32bd6f32ba86558f3ea493826fe666de3bfe2cd6b64c2bef20ff7b328",
+  "elapsed_seconds": 14.89,
+  "bytes": 618892
+ },
+ {
+  "id": "coast-182700-6544800",
+  "bbox": [
+   182599.99999999994,
+   6544699.999999998,
+   183699.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=182600.0%2C6544700.0%2C183700.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map58a2151e3af84660bc4184dec675b41b.jpg",
+  "requested_bbox": [
+   182600.0,
+   6544700.0,
+   183700.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   182599.99999999994,
+   6544699.999999998,
+   183699.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:02:40+00:00",
+  "source_observation_date": null,
+  "sha256": "3e659724be5fbf063c5ec840a6509259349905fbbf87c1d74cbbf3c2f3d0601b",
+  "elapsed_seconds": 54.68,
+  "bytes": 567827
+ },
+ {
+  "id": "coast-182700-6545700",
+  "bbox": [
+   182599.99999999994,
+   6545600,
+   183699.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=182600.0%2C6545600.0%2C183700.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map8eb3e928fab544f59b8bb770164f6562.jpg",
+  "requested_bbox": [
+   182600.0,
+   6545600.0,
+   183700.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   182599.99999999994,
+   6545600,
+   183699.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:04:16+00:00",
+  "source_observation_date": null,
+  "sha256": "fe7d4f70ed9164d2db486ec6699a9c376c7feaf33055be50a4bdc66335fb73e4",
+  "elapsed_seconds": 16.98,
+  "bytes": 555774
+ },
+ {
+  "id": "coast-183600-6544800",
+  "bbox": [
+   183499.99999999994,
+   6544699.999999998,
+   184599.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=183500.0%2C6544700.0%2C184600.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapcf4cf9d497e64a528befcc80d4903aa1.jpg",
+  "requested_bbox": [
+   183500.0,
+   6544700.0,
+   184600.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   183499.99999999994,
+   6544699.999999998,
+   184599.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:02:22+00:00",
+  "source_observation_date": null,
+  "sha256": "9f2f097f9c40e1b9bc6d5fce2fc8d51b524cdfead75326ad8b4007d52b7e000c",
+  "elapsed_seconds": 15.7,
+  "bytes": 465772
+ },
+ {
+  "id": "coast-183600-6545700",
+  "bbox": [
+   183499.99999999994,
+   6545600,
+   184599.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=183500.0%2C6545600.0%2C184600.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map56c41e4653394094b37fcd51cdb0301c.jpg",
+  "requested_bbox": [
+   183500.0,
+   6545600.0,
+   184600.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   183499.99999999994,
+   6545600,
+   184599.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:04:28+00:00",
+  "source_observation_date": null,
+  "sha256": "a3cede119a45181bf0557778d015c6f80f5011e924de0f3f0efe890047db9d1c",
+  "elapsed_seconds": 11.71,
+  "bytes": 727632
+ },
+ {
+  "id": "coast-184500-6544800",
+  "bbox": [
+   184400,
+   6544699.999999998,
+   185500,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=184400.0%2C6544700.0%2C185500.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0bcb8699c89f488d88f6f5cce10d34d2.jpg",
+  "requested_bbox": [
+   184400.0,
+   6544700.0,
+   185500.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   184400,
+   6544699.999999998,
+   185500,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:04:24+00:00",
+  "source_observation_date": null,
+  "sha256": "5ca79580ea422f47977dae194da43d0135cf31daebde12dbfaee4f68ee1d4227",
+  "elapsed_seconds": 122.34,
+  "bytes": 527588
+ },
+ {
+  "id": "coast-185400-6543900",
+  "bbox": [
+   185300,
+   6543799.999999999,
+   186400,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=185300.0%2C6543800.0%2C186400.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map8ae68ed5c46a424d8a75d2d0ae1bd1f5.jpg",
+  "requested_bbox": [
+   185300.0,
+   6543800.0,
+   186400.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   185300,
+   6543799.999999999,
+   186400,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:16+00:00",
+  "source_observation_date": null,
+  "sha256": "217087fbcb9ba5428a4fe49e210b2febfa1aaa65e72802c894a7a684f4b00076",
+  "elapsed_seconds": 20.5,
+  "bytes": 560243
+ },
+ {
+  "id": "coast-185400-6544800",
+  "bbox": [
+   185300,
+   6544699.999999998,
+   186400,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=185300.0%2C6544700.0%2C186400.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc6b6cbb325904651bbb083bf9ec90460.jpg",
+  "requested_bbox": [
+   185300.0,
+   6544700.0,
+   186400.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   185300,
+   6544699.999999998,
+   186400,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:19+00:00",
+  "source_observation_date": null,
+  "sha256": "295389cffd5e9bc6ce3fbca9337ad5cd43fa8128b6eca17d434d5241f3637a64",
+  "elapsed_seconds": 48.07,
+  "bytes": 613276
+ },
+ {
+  "id": "coast-185400-6566400",
+  "bbox": [
+   185300,
+   6566299.999999999,
+   186400,
+   6567399.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=185300.0%2C6566300.0%2C186400.0%2C6567400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map61236d24ddb44183a2bd4cd80cfab59c.jpg",
+  "requested_bbox": [
+   185300.0,
+   6566300.0,
+   186400.0,
+   6567400.0
+  ],
+  "actual_bbox": [
+   185300,
+   6566299.999999999,
+   186400,
+   6567399.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:02+00:00",
+  "source_observation_date": null,
+  "sha256": "f3c0af0a2cdcb7234ece669d4bd4f19bdd00149c038552dc0fb6eb984c204e49",
+  "elapsed_seconds": 10.67,
+  "bytes": 659684
+ },
+ {
+  "id": "coast-186300-6543000",
+  "bbox": [
+   186199.99999999994,
+   6542900,
+   187299.99999999994,
+   6544000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186200.0%2C6542900.0%2C187300.0%2C6544000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map1b649c1823fd4fe1bf92ed5e72628748.jpg",
+  "requested_bbox": [
+   186200.0,
+   6542900.0,
+   187300.0,
+   6544000.0
+  ],
+  "actual_bbox": [
+   186199.99999999994,
+   6542900,
+   187299.99999999994,
+   6544000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:06+00:00",
+  "source_observation_date": null,
+  "sha256": "91875fe1541144dc02ec055a6b4afcf2dbf67ec306d012b86523803b101211bb",
+  "elapsed_seconds": 10.85,
+  "bytes": 697035
+ },
+ {
+  "id": "coast-186300-6543900",
+  "bbox": [
+   186199.99999999994,
+   6543799.999999999,
+   187299.99999999994,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186200.0%2C6543800.0%2C187300.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapfae24791c6b0473da2f9eb0927b3e994.jpg",
+  "requested_bbox": [
+   186200.0,
+   6543800.0,
+   187300.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   186199.99999999994,
+   6543799.999999999,
+   187299.99999999994,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:29+00:00",
+  "source_observation_date": null,
+  "sha256": "8f4458097d8f97623c35f8d7d6fa0b17d26bfea607b4e1d665155ffe471ea1ba",
+  "elapsed_seconds": 23.28,
+  "bytes": 681986
+ },
+ {
+  "id": "coast-186300-6544800",
+  "bbox": [
+   186199.99999999994,
+   6544699.999999998,
+   187299.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186200.0%2C6544700.0%2C187300.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf0fd70f75fc44508a8be2bd6172c5198.jpg",
+  "requested_bbox": [
+   186200.0,
+   6544700.0,
+   187300.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   186199.99999999994,
+   6544699.999999998,
+   187299.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:02+00:00",
+  "source_observation_date": null,
+  "sha256": "3c788831a720b239c6ebad63b6de54d8dcfe52c25a4814178bae501ad497ce23",
+  "elapsed_seconds": 22.56,
+  "bytes": 670296
+ },
+ {
+  "id": "coast-186300-6565500",
+  "bbox": [
+   186199.99999999994,
+   6565400,
+   187299.99999999994,
+   6566500
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186200.0%2C6565400.0%2C187300.0%2C6566500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa3813808cfaa4ed28c192ae6312ef5d3.jpg",
+  "requested_bbox": [
+   186200.0,
+   6565400.0,
+   187300.0,
+   6566500.0
+  ],
+  "actual_bbox": [
+   186199.99999999994,
+   6565400,
+   187299.99999999994,
+   6566500
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:32+00:00",
+  "source_observation_date": null,
+  "sha256": "4e62e257c4960f743b931205044357fcd5a0dbba9a631151902db247bdefc725",
+  "elapsed_seconds": 17.86,
+  "bytes": 661647
+ },
+ {
+  "id": "coast-186300-6566400",
+  "bbox": [
+   186199.99999999994,
+   6566299.999999999,
+   187299.99999999994,
+   6567399.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186200.0%2C6566300.0%2C187300.0%2C6567400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map766932a3fad745d6aca44f42e487f4a7.jpg",
+  "requested_bbox": [
+   186200.0,
+   6566300.0,
+   187300.0,
+   6567400.0
+  ],
+  "actual_bbox": [
+   186199.99999999994,
+   6566299.999999999,
+   187299.99999999994,
+   6567399.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:15+00:00",
+  "source_observation_date": null,
+  "sha256": "eae927dd8884f9462655c040e6a97441263b457bec0cde141cc3e7efec18cf85",
+  "elapsed_seconds": 22.79,
+  "bytes": 427098
+ },
+ {
+  "id": "coast-187200-6543000",
+  "bbox": [
+   187100,
+   6542900,
+   188200,
+   6544000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187100.0%2C6542900.0%2C188200.0%2C6544000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb6f866797c884b479f571a6b6b641061.jpg",
+  "requested_bbox": [
+   187100.0,
+   6542900.0,
+   188200.0,
+   6544000.0
+  ],
+  "actual_bbox": [
+   187100,
+   6542900,
+   188200,
+   6544000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:09+00:00",
+  "source_observation_date": null,
+  "sha256": "47e6874594358d4b139397b447d35876f650962a5874cfbf06f6768ac71256f1",
+  "elapsed_seconds": 14.19,
+  "bytes": 723036
+ },
+ {
+  "id": "coast-187200-6543900",
+  "bbox": [
+   187100,
+   6543799.999999999,
+   188200,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187100.0%2C6543800.0%2C188200.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map46faa7ecd6c446fdae6f1b11e6c6c93f.jpg",
+  "requested_bbox": [
+   187100.0,
+   6543800.0,
+   188200.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   187100,
+   6543799.999999999,
+   188200,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:02:31+00:00",
+  "source_observation_date": null,
+  "sha256": "9704497860db3f8188c416d0faecfd3afdf34f1dac08999178b375a4706b008d",
+  "elapsed_seconds": 81.9,
+  "bytes": 700053
+ },
+ {
+  "id": "coast-187200-6544800",
+  "bbox": [
+   187100,
+   6544699.999999998,
+   188200,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187100.0%2C6544700.0%2C188200.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapefc5ca5e37e7459c8f53b4f5218f2f38.jpg",
+  "requested_bbox": [
+   187100.0,
+   6544700.0,
+   188200.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   187100,
+   6544699.999999998,
+   188200,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:07+00:00",
+  "source_observation_date": null,
+  "sha256": "f1f38cf9124e66bdb6aab482a80546726e7f2e6a3ecfcb5051258a854ae53021",
+  "elapsed_seconds": 11.46,
+  "bytes": 680618
+ },
+ {
+  "id": "coast-187200-6565500",
+  "bbox": [
+   187100,
+   6565400,
+   188200,
+   6566500
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187100.0%2C6565400.0%2C188200.0%2C6566500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5d5303e0bd934d18827eead8aea1e3d8.jpg",
+  "requested_bbox": [
+   187100.0,
+   6565400.0,
+   188200.0,
+   6566500.0
+  ],
+  "actual_bbox": [
+   187100,
+   6565400,
+   188200,
+   6566500
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:51+00:00",
+  "source_observation_date": null,
+  "sha256": "c5cef037fbabae755b8d820f7f7ed53173fa986a633f68bee580a2cc7eecc844",
+  "elapsed_seconds": 19.33,
+  "bytes": 685012
+ },
+ {
+  "id": "coast-187200-6566400",
+  "bbox": [
+   187100,
+   6566299.999999999,
+   188200,
+   6567399.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187100.0%2C6566300.0%2C188200.0%2C6567400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map49f9714566b3423a9c90f8c1ee92a5a7.jpg",
+  "requested_bbox": [
+   187100.0,
+   6566300.0,
+   188200.0,
+   6567400.0
+  ],
+  "actual_bbox": [
+   187100,
+   6566299.999999999,
+   188200,
+   6567399.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:14+00:00",
+  "source_observation_date": null,
+  "sha256": "c4dc78d526852dcf3d8471bb877d854280e5f3efae8852961595f3c91b94813e",
+  "elapsed_seconds": 20.74,
+  "bytes": 437241
+ },
+ {
+  "id": "coast-188100-6543000",
+  "bbox": [
+   188000,
+   6542900,
+   189100,
+   6544000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6542900.0%2C189100.0%2C6544000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapacb1b082b04348538e3864575aab2077.jpg",
+  "requested_bbox": [
+   188000.0,
+   6542900.0,
+   189100.0,
+   6544000.0
+  ],
+  "actual_bbox": [
+   188000,
+   6542900,
+   189100,
+   6544000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:25+00:00",
+  "source_observation_date": null,
+  "sha256": "5b31851a10deb52821764ec76628ccf70d241e0aa8bdcf006b32ec9f4fd40011",
+  "elapsed_seconds": 30.09,
+  "bytes": 714213
+ },
+ {
+  "id": "coast-188100-6543900",
+  "bbox": [
+   188000,
+   6543799.999999999,
+   189100,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6543800.0%2C189100.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map8e6783feaf684f428d250fba109197e7.jpg",
+  "requested_bbox": [
+   188000.0,
+   6543800.0,
+   189100.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   188000,
+   6543799.999999999,
+   189100,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:34+00:00",
+  "source_observation_date": null,
+  "sha256": "e73f937ac571f52f029d968e70a7b5635ad755ef3e8c3618f7673aba17c2997f",
+  "elapsed_seconds": 18.42,
+  "bytes": 721548
+ },
+ {
+  "id": "coast-188100-6544800",
+  "bbox": [
+   188000,
+   6544699.999999998,
+   189100,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6544700.0%2C189100.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5906a9b501a149e4a98926433280b654.jpg",
+  "requested_bbox": [
+   188000.0,
+   6544700.0,
+   189100.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   188000,
+   6544699.999999998,
+   189100,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:21+00:00",
+  "source_observation_date": null,
+  "sha256": "55056ee7640e9cdd6824d65e058265ba708fc6abb3deb918fcc13e8b162e57e0",
+  "elapsed_seconds": 18.39,
+  "bytes": 723872
+ },
+ {
+  "id": "coast-188100-6545700",
+  "bbox": [
+   188000,
+   6545600,
+   189100,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6545600.0%2C189100.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6f0a1bf264b84c1783f755eb5bb07d10.jpg",
+  "requested_bbox": [
+   188000.0,
+   6545600.0,
+   189100.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   188000,
+   6545600,
+   189100,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:04:51+00:00",
+  "source_observation_date": null,
+  "sha256": "459c5ad2cdd4258da79976df028f3484c24338a036b9e5a78f93f3786aa1a8a5",
+  "elapsed_seconds": 27.02,
+  "bytes": 684009
+ },
+ {
+  "id": "coast-188100-6546600",
+  "bbox": [
+   188000,
+   6546499.999999999,
+   189100,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6546500.0%2C189100.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map94554c6a917d40f4b8a6de363473bc7f.jpg",
+  "requested_bbox": [
+   188000.0,
+   6546500.0,
+   189100.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   188000,
+   6546499.999999999,
+   189100,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:42+00:00",
+  "source_observation_date": null,
+  "sha256": "3ecd1573d3701e8f334af7565bbd9f560009679b6ba629405bffdeebba2195c7",
+  "elapsed_seconds": 9.26,
+  "bytes": 673380
+ },
+ {
+  "id": "coast-188100-6563700",
+  "bbox": [
+   188000,
+   6563599.999999999,
+   189100,
+   6564699.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6563600.0%2C189100.0%2C6564700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2ade2ff03a8040f582313b196a2b9590.jpg",
+  "requested_bbox": [
+   188000.0,
+   6563600.0,
+   189100.0,
+   6564700.0
+  ],
+  "actual_bbox": [
+   188000,
+   6563599.999999999,
+   189100,
+   6564699.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:14+00:00",
+  "source_observation_date": null,
+  "sha256": "7b1bf995d7b83d4d04dd1de378c618b851e036d53b62692ba3da236413b5f2ba",
+  "elapsed_seconds": 27.71,
+  "bytes": 707111
+ },
+ {
+  "id": "coast-188100-6564600",
+  "bbox": [
+   188000,
+   6564499.999999998,
+   189100,
+   6565599.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6564500.0%2C189100.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map705104f35570403aa4ee2145cf8898ed.jpg",
+  "requested_bbox": [
+   188000.0,
+   6564500.0,
+   189100.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   188000,
+   6564499.999999998,
+   189100,
+   6565599.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:41+00:00",
+  "source_observation_date": null,
+  "sha256": "5299cd171c1fbe7adffb11dd32ebf2a417ba8dff54917435dda34dad1522dafc",
+  "elapsed_seconds": 42.23,
+  "bytes": 479391
+ },
+ {
+  "id": "coast-188100-6565500",
+  "bbox": [
+   188000,
+   6565400,
+   189100,
+   6566500
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6565400.0%2C189100.0%2C6566500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9a763f6956054665891df1f1b2480821.jpg",
+  "requested_bbox": [
+   188000.0,
+   6565400.0,
+   189100.0,
+   6566500.0
+  ],
+  "actual_bbox": [
+   188000,
+   6565400,
+   189100,
+   6566500
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:03+00:00",
+  "source_observation_date": null,
+  "sha256": "f68a9a5cf78da8c47d66d6595ea83cc6a3678cbb44586f372482913a389df0d5",
+  "elapsed_seconds": 21.88,
+  "bytes": 443009
+ },
+ {
+  "id": "coast-188100-6566400",
+  "bbox": [
+   188000,
+   6566299.999999999,
+   189100,
+   6567399.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188000.0%2C6566300.0%2C189100.0%2C6567400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb2a5a80f87a94a81ba4990e8a13d89b5.jpg",
+  "requested_bbox": [
+   188000.0,
+   6566300.0,
+   189100.0,
+   6567400.0
+  ],
+  "actual_bbox": [
+   188000,
+   6566299.999999999,
+   189100,
+   6567399.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:23+00:00",
+  "source_observation_date": null,
+  "sha256": "fcaa045e96f7c8d408413acb7d345a9fd6dc703b3d36a67c82a0cb473b392a0f",
+  "elapsed_seconds": 20.84,
+  "bytes": 549337
+ },
+ {
+  "id": "coast-189000-6543900",
+  "bbox": [
+   188899.99999999994,
+   6543799.999999999,
+   189999.99999999994,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6543800.0%2C190000.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5acb62b6c8bb4d64acea809ae5a4e3ac.jpg",
+  "requested_bbox": [
+   188900.0,
+   6543800.0,
+   190000.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6543799.999999999,
+   189999.99999999994,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:42+00:00",
+  "source_observation_date": null,
+  "sha256": "5cd9ed38a7609698b592c2bc3f79476597600e857e95b7f8dc8e8f3b65b3e44f",
+  "elapsed_seconds": 16.48,
+  "bytes": 645170
+ },
+ {
+  "id": "coast-189000-6544800",
+  "bbox": [
+   188899.99999999994,
+   6544699.999999998,
+   189999.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6544700.0%2C190000.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6e8d6c1492414a119cfe95839db123ce.jpg",
+  "requested_bbox": [
+   188900.0,
+   6544700.0,
+   190000.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6544699.999999998,
+   189999.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:31+00:00",
+  "source_observation_date": null,
+  "sha256": "6350f1eecbce4fe6e1c67730522978237f1b5160fbde7694140a8b1fd6b8ef4d",
+  "elapsed_seconds": 24.65,
+  "bytes": 670897
+ },
+ {
+  "id": "coast-189000-6545700",
+  "bbox": [
+   188899.99999999994,
+   6545600,
+   189999.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6545600.0%2C190000.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map64eba55e9a414c9bb8897181b780066a.jpg",
+  "requested_bbox": [
+   188900.0,
+   6545600.0,
+   190000.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6545600,
+   189999.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:14+00:00",
+  "source_observation_date": null,
+  "sha256": "4f3a75a88ed22f8641691d38e220b8bfd66a86810dccd8a51cf36e39bfc5d065",
+  "elapsed_seconds": 46.48,
+  "bytes": 613428
+ },
+ {
+  "id": "coast-189000-6546600",
+  "bbox": [
+   188899.99999999994,
+   6546499.999999999,
+   189999.99999999994,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6546500.0%2C190000.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3380828e5c1f4f118525766815c92340.jpg",
+  "requested_bbox": [
+   188900.0,
+   6546500.0,
+   190000.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6546499.999999999,
+   189999.99999999994,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:50+00:00",
+  "source_observation_date": null,
+  "sha256": "cdeb91f3aeb0368fc5b43c1975908676d776dd041977057dfb14b70637a045ae",
+  "elapsed_seconds": 10.04,
+  "bytes": 630096
+ },
+ {
+  "id": "coast-189000-6563700",
+  "bbox": [
+   188899.99999999994,
+   6563599.999999999,
+   189999.99999999994,
+   6564699.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6563600.0%2C190000.0%2C6564700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa8d12fcfd7814c44bb1831fbda9a6ed5.jpg",
+  "requested_bbox": [
+   188900.0,
+   6563600.0,
+   190000.0,
+   6564700.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6563599.999999999,
+   189999.99999999994,
+   6564699.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:43+00:00",
+  "source_observation_date": null,
+  "sha256": "391938fdc3596295f8b40edaeeb4a116b44684addc7150b2ec257fc0b5cfa8ea",
+  "elapsed_seconds": 46.24,
+  "bytes": 570869
+ },
+ {
+  "id": "coast-189000-6564600",
+  "bbox": [
+   188899.99999999994,
+   6564499.999999998,
+   189999.99999999994,
+   6565599.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6564500.0%2C190000.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map21c062e608264974a87f0fdd9ccd2ec4.jpg",
+  "requested_bbox": [
+   188900.0,
+   6564500.0,
+   190000.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6564499.999999998,
+   189999.99999999994,
+   6565599.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:52+00:00",
+  "source_observation_date": null,
+  "sha256": "76578da702e59ce94f48b3cda32b4c34fb0fcb21846dd7295e8361c6e81a9c72",
+  "elapsed_seconds": 41.8,
+  "bytes": 137022
+ },
+ {
+  "id": "coast-189000-6565500",
+  "bbox": [
+   188899.99999999994,
+   6565400,
+   189999.99999999994,
+   6566500
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188900.0%2C6565400.0%2C190000.0%2C6566500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapef518b17aa444aa5a96eca762cde5d0f.jpg",
+  "requested_bbox": [
+   188900.0,
+   6565400.0,
+   190000.0,
+   6566500.0
+  ],
+  "actual_bbox": [
+   188899.99999999994,
+   6565400,
+   189999.99999999994,
+   6566500
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:54+00:00",
+  "source_observation_date": null,
+  "sha256": "db92a5ff8463be6c9dcca56997d38d630f0600780398bb9f1f7c5d8867b37c29",
+  "elapsed_seconds": 10.75,
+  "bytes": 349944
+ },
+ {
+  "id": "coast-189900-6543900",
+  "bbox": [
+   189800,
+   6543799.999999999,
+   190900,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6543800.0%2C190900.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa693114d4f5e434cbb74b8989a30929e.jpg",
+  "requested_bbox": [
+   189800.0,
+   6543800.0,
+   190900.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   189800,
+   6543799.999999999,
+   190900,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:01:45+00:00",
+  "source_observation_date": null,
+  "sha256": "f040e87aa9c7cdf74740fae728c375b7d464ffee528b2d7ef7ab4a2d7a9d5ecb",
+  "elapsed_seconds": 15.7,
+  "bytes": 661261
+ },
+ {
+  "id": "coast-189900-6544800",
+  "bbox": [
+   189800,
+   6544699.999999998,
+   190900,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6544700.0%2C190900.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map634f89677fcf48b0b179a9f7fb5175d0.jpg",
+  "requested_bbox": [
+   189800.0,
+   6544700.0,
+   190900.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   189800,
+   6544699.999999998,
+   190900,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:34+00:00",
+  "source_observation_date": null,
+  "sha256": "91b205d81f5deeec8d982e557c1fd7f71a4c2d2d048a1bdffb261e217b30f4c2",
+  "elapsed_seconds": 14.77,
+  "bytes": 657523
+ },
+ {
+  "id": "coast-189900-6545700",
+  "bbox": [
+   189800,
+   6545600,
+   190900,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6545600.0%2C190900.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map054109732f394caeb05562b4cf5213ae.jpg",
+  "requested_bbox": [
+   189800.0,
+   6545600.0,
+   190900.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   189800,
+   6545600,
+   190900,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:08+00:00",
+  "source_observation_date": null,
+  "sha256": "cb2fa90610329f0205da1db686bbc288d29294ad3442cbfd7cb8fa7940628736",
+  "elapsed_seconds": 16.78,
+  "bytes": 619746
+ },
+ {
+  "id": "coast-189900-6546600",
+  "bbox": [
+   189800,
+   6546499.999999999,
+   190900,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6546500.0%2C190900.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf42e5d592fef48409bcd6da6cc99691c.jpg",
+  "requested_bbox": [
+   189800.0,
+   6546500.0,
+   190900.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   189800,
+   6546499.999999999,
+   190900,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:01+00:00",
+  "source_observation_date": null,
+  "sha256": "d8a8baaf1e8d7df0c70dc8f1b202e8aa1bb53ffc6a0464ca09c04f2fd63bb3cb",
+  "elapsed_seconds": 19.39,
+  "bytes": 614848
+ },
+ {
+  "id": "coast-189900-6547500",
+  "bbox": [
+   189800,
+   6547399.999999998,
+   190900,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6547400.0%2C190900.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape5b2e584184c45d69d2a80885516ff10.jpg",
+  "requested_bbox": [
+   189800.0,
+   6547400.0,
+   190900.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   189800,
+   6547399.999999998,
+   190900,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:24+00:00",
+  "source_observation_date": null,
+  "sha256": "af151f28d3599970b85652e8881c672fa76a1248937d0212eec325e23d1263bc",
+  "elapsed_seconds": 13.45,
+  "bytes": 661420
+ },
+ {
+  "id": "coast-189900-6561900",
+  "bbox": [
+   189800,
+   6561799.999999999,
+   190900,
+   6562899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6561800.0%2C190900.0%2C6562900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map280c5927716442baa8b62233929b8565.jpg",
+  "requested_bbox": [
+   189800.0,
+   6561800.0,
+   190900.0,
+   6562900.0
+  ],
+  "actual_bbox": [
+   189800,
+   6561799.999999999,
+   190900,
+   6562899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:37+00:00",
+  "source_observation_date": null,
+  "sha256": "af4879f578d997a676a0fc63c91a686f869240bb1cc33169d6dd2a9035f276dc",
+  "elapsed_seconds": 20.63,
+  "bytes": 741593
+ },
+ {
+  "id": "coast-189900-6562800",
+  "bbox": [
+   189800,
+   6562700,
+   190900,
+   6563800
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6562700.0%2C190900.0%2C6563800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map79126d0e3d5e47808b9789c985ed9aac.jpg",
+  "requested_bbox": [
+   189800.0,
+   6562700.0,
+   190900.0,
+   6563800.0
+  ],
+  "actual_bbox": [
+   189800,
+   6562700,
+   190900,
+   6563800
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:59+00:00",
+  "source_observation_date": null,
+  "sha256": "9889a8ca6bbe04cf158b5a095174aae71f653c9f10e3019ad721d30bc0ed59e1",
+  "elapsed_seconds": 21.92,
+  "bytes": 587432
+ },
+ {
+  "id": "coast-189900-6563700",
+  "bbox": [
+   189800,
+   6563599.999999999,
+   190900,
+   6564699.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189800.0%2C6563600.0%2C190900.0%2C6564700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb17981ee02ec44cba07f5274629c5b0b.jpg",
+  "requested_bbox": [
+   189800.0,
+   6563600.0,
+   190900.0,
+   6564700.0
+  ],
+  "actual_bbox": [
+   189800,
+   6563599.999999999,
+   190900,
+   6564699.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:14:10+00:00",
+  "source_observation_date": null,
+  "sha256": "1f9de506b8889b7ac410bd6cbc83b69b3ea976b796430245a95f7d09ac84fab9",
+  "elapsed_seconds": 12.95,
+  "bytes": 293684
+ },
+ {
+  "id": "coast-190800-6543900",
+  "bbox": [
+   190700,
+   6543799.999999999,
+   191800,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6543800.0%2C191800.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapab20b3fa1d19475d9de9b5dffca2490d.jpg",
+  "requested_bbox": [
+   190700.0,
+   6543800.0,
+   191800.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   190700,
+   6543799.999999999,
+   191800,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:02:55+00:00",
+  "source_observation_date": null,
+  "sha256": "113742b13c909bc9398e5f4b8cbd96550e36c0a1f7bcc405b66565bc206e7e61",
+  "elapsed_seconds": 81.12,
+  "bytes": 746338
+ },
+ {
+  "id": "coast-190800-6544800",
+  "bbox": [
+   190700,
+   6544699.999999998,
+   191800,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6544700.0%2C191800.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map63663498e6ae4df7a51c5cc7f597d3ab.jpg",
+  "requested_bbox": [
+   190700.0,
+   6544700.0,
+   191800.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   190700,
+   6544699.999999998,
+   191800,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:46+00:00",
+  "source_observation_date": null,
+  "sha256": "9cb4d2e93379cab226b31708d54ef60932ff2c8f9f25be83efee42f0dc7ba456",
+  "elapsed_seconds": 25.19,
+  "bytes": 681562
+ },
+ {
+  "id": "coast-190800-6545700",
+  "bbox": [
+   190700,
+   6545600,
+   191800,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6545600.0%2C191800.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapde9272173d02408aa3aae72be3ea25f3.jpg",
+  "requested_bbox": [
+   190700.0,
+   6545600.0,
+   191800.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   190700,
+   6545600,
+   191800,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:59+00:00",
+  "source_observation_date": null,
+  "sha256": "e75d1c098fcb6b627bf4726bff477edd9477cbec0cda28d1474e7cf024a279d5",
+  "elapsed_seconds": 59.53,
+  "bytes": 583700
+ },
+ {
+  "id": "coast-190800-6546600",
+  "bbox": [
+   190700,
+   6546499.999999999,
+   191800,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6546500.0%2C191800.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2803a2d66aa34f6582424bef51817d69.jpg",
+  "requested_bbox": [
+   190700.0,
+   6546500.0,
+   191800.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   190700,
+   6546499.999999999,
+   191800,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:12+00:00",
+  "source_observation_date": null,
+  "sha256": "fe0f69c7b70db6a75808307495f8816e78835410e74b2affe5fda4f4fb7026bc",
+  "elapsed_seconds": 22.05,
+  "bytes": 597022
+ },
+ {
+  "id": "coast-190800-6547500",
+  "bbox": [
+   190700,
+   6547399.999999998,
+   191800,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6547400.0%2C191800.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map01f6e38eaf4843d792b988c1dae86f27.jpg",
+  "requested_bbox": [
+   190700.0,
+   6547400.0,
+   191800.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   190700,
+   6547399.999999998,
+   191800,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:23+00:00",
+  "source_observation_date": null,
+  "sha256": "6fae4f8ff3ab37bb111c9a73ef19838d4fcc434fd40d64480479581ab81d894d",
+  "elapsed_seconds": 11.72,
+  "bytes": 657629
+ },
+ {
+  "id": "coast-190800-6561000",
+  "bbox": [
+   190700,
+   6560900,
+   191800,
+   6562000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6560900.0%2C191800.0%2C6562000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2d98b66a1627494480e1076318f997a1.jpg",
+  "requested_bbox": [
+   190700.0,
+   6560900.0,
+   191800.0,
+   6562000.0
+  ],
+  "actual_bbox": [
+   190700,
+   6560900,
+   191800,
+   6562000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:44+00:00",
+  "source_observation_date": null,
+  "sha256": "a9794179d6cd4ff24e94f81d8b3d2650355fa6279aeba9ba69a6613d6ae56702",
+  "elapsed_seconds": 71.02,
+  "bytes": 656667
+ },
+ {
+  "id": "coast-190800-6561900",
+  "bbox": [
+   190700,
+   6561799.999999999,
+   191800,
+   6562899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6561800.0%2C191800.0%2C6562900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc237a031333a4145b626bde912151c50.jpg",
+  "requested_bbox": [
+   190700.0,
+   6561800.0,
+   191800.0,
+   6562900.0
+  ],
+  "actual_bbox": [
+   190700,
+   6561799.999999999,
+   191800,
+   6562899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:37+00:00",
+  "source_observation_date": null,
+  "sha256": "cdf153f87c5bd3d4334cc895daf4060fee811fa6594854dc4133908665bf52d9",
+  "elapsed_seconds": 19.19,
+  "bytes": 508917
+ },
+ {
+  "id": "coast-190800-6562800",
+  "bbox": [
+   190700,
+   6562700,
+   191800,
+   6563800
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190700.0%2C6562700.0%2C191800.0%2C6563800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapfa5579714bb64145b0c13a23698c959d.jpg",
+  "requested_bbox": [
+   190700.0,
+   6562700.0,
+   191800.0,
+   6563800.0
+  ],
+  "actual_bbox": [
+   190700,
+   6562700,
+   191800,
+   6563800
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:57+00:00",
+  "source_observation_date": null,
+  "sha256": "98c4f4a14cad1f0bfa830388c206d2a4510d6257e7e97e06f67d94361dc9e5ff",
+  "elapsed_seconds": 13.23,
+  "bytes": 138088
+ },
+ {
+  "id": "coast-191700-6543900",
+  "bbox": [
+   191599.99999999994,
+   6543799.999999999,
+   192699.99999999994,
+   6544899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6543800.0%2C192700.0%2C6544900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map347cd4f5fadd48cfbb58e9e9abbb8d5d.jpg",
+  "requested_bbox": [
+   191600.0,
+   6543800.0,
+   192700.0,
+   6544900.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6543799.999999999,
+   192699.99999999994,
+   6544899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:02:06+00:00",
+  "source_observation_date": null,
+  "sha256": "a5f3d091d8bbce82fdefffe2b338796412af36a5d4ad9438d293a96046d5a0f4",
+  "elapsed_seconds": 24.09,
+  "bytes": 817153
+ },
+ {
+  "id": "coast-191700-6544800",
+  "bbox": [
+   191599.99999999994,
+   6544699.999999998,
+   192699.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6544700.0%2C192700.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0c246e03e88a4a209b3891694ee612e4.jpg",
+  "requested_bbox": [
+   191600.0,
+   6544700.0,
+   192700.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6544699.999999998,
+   192699.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:43+00:00",
+  "source_observation_date": null,
+  "sha256": "c91111164c387862d3f908f5ca16f9fe6a7a039d3e4b10d27eb0ef8a37fc3114",
+  "elapsed_seconds": 11.21,
+  "bytes": 754174
+ },
+ {
+  "id": "coast-191700-6545700",
+  "bbox": [
+   191599.99999999994,
+   6545600,
+   192699.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6545600.0%2C192700.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map1ba94302cc2946719b9923179f20a44b.jpg",
+  "requested_bbox": [
+   191600.0,
+   6545600.0,
+   192700.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6545600,
+   192699.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:33+00:00",
+  "source_observation_date": null,
+  "sha256": "b115798ca2cc1069c48412ec3181f870e083b7a3774faa8110b186aa7866ab88",
+  "elapsed_seconds": 25.01,
+  "bytes": 635028
+ },
+ {
+  "id": "coast-191700-6546600",
+  "bbox": [
+   191599.99999999994,
+   6546499.999999999,
+   192699.99999999994,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6546500.0%2C192700.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape26e26418af541d1ac11aeeffc6dc251.jpg",
+  "requested_bbox": [
+   191600.0,
+   6546500.0,
+   192700.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6546499.999999999,
+   192699.99999999994,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:19+00:00",
+  "source_observation_date": null,
+  "sha256": "6c6eded12eef099240e105b24b889514c4380792755969ca04f3a46143a68d38",
+  "elapsed_seconds": 19.75,
+  "bytes": 602006
+ },
+ {
+  "id": "coast-191700-6547500",
+  "bbox": [
+   191599.99999999994,
+   6547399.999999998,
+   192699.99999999994,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6547400.0%2C192700.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape1cc0c04eccb46e2852185d1feca6e6c.jpg",
+  "requested_bbox": [
+   191600.0,
+   6547400.0,
+   192700.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6547399.999999998,
+   192699.99999999994,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:29+00:00",
+  "source_observation_date": null,
+  "sha256": "45abe20122d1197b1dc09d8df98f9c0ecb2b036b3ade67285a44a2f10884026f",
+  "elapsed_seconds": 10.89,
+  "bytes": 632506
+ },
+ {
+  "id": "coast-191700-6548400",
+  "bbox": [
+   191599.99999999994,
+   6548300,
+   192699.99999999994,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6548300.0%2C192700.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map00f51abf61404a97a92049b2cf9a3ea6.jpg",
+  "requested_bbox": [
+   191600.0,
+   6548300.0,
+   192700.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6548300,
+   192699.99999999994,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:54+00:00",
+  "source_observation_date": null,
+  "sha256": "0ba5a6278177a8b55c46b925ef98c86c7065517499ad0cba5df4dbd4865095a5",
+  "elapsed_seconds": 14.62,
+  "bytes": 673442
+ },
+ {
+  "id": "coast-191700-6549300",
+  "bbox": [
+   191599.99999999994,
+   6549199.999999999,
+   192699.99999999994,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6549200.0%2C192700.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape395df6624234bab985690852ed1e92c.jpg",
+  "requested_bbox": [
+   191600.0,
+   6549200.0,
+   192700.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6549199.999999999,
+   192699.99999999994,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:33+00:00",
+  "source_observation_date": null,
+  "sha256": "c6c99bd2eb54ebb606f30ee1a3dbbeb31b801f10f6c3910aba37294ffd935890",
+  "elapsed_seconds": 19.35,
+  "bytes": 669182
+ },
+ {
+  "id": "coast-191700-6557400",
+  "bbox": [
+   191599.99999999994,
+   6557299.999999997,
+   192699.99999999994,
+   6558399.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6557300.0%2C192700.0%2C6558400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc2dae4a3168b47bdb86b152a4bfdb529.jpg",
+  "requested_bbox": [
+   191600.0,
+   6557300.0,
+   192700.0,
+   6558400.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6557299.999999997,
+   192699.99999999994,
+   6558399.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:06+00:00",
+  "source_observation_date": null,
+  "sha256": "96513e59add69e740cb5da231d193192cb0da18816dc311e28ef4459604ecdd2",
+  "elapsed_seconds": 23.9,
+  "bytes": 649534
+ },
+ {
+  "id": "coast-191700-6558300",
+  "bbox": [
+   191599.99999999994,
+   6558199.999999998,
+   192699.99999999994,
+   6559299.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6558200.0%2C192700.0%2C6559300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0b8e943e93294d3480d76371d9c0a5c7.jpg",
+  "requested_bbox": [
+   191600.0,
+   6558200.0,
+   192700.0,
+   6559300.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6558199.999999998,
+   192699.99999999994,
+   6559299.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:25+00:00",
+  "source_observation_date": null,
+  "sha256": "879ff0e6b69002b048b2d945343381a17b463d7a481c16f4f9e2d304a25fe9b4",
+  "elapsed_seconds": 14.71,
+  "bytes": 655489
+ },
+ {
+  "id": "coast-191700-6559200",
+  "bbox": [
+   191599.99999999994,
+   6559099.999999997,
+   192699.99999999994,
+   6560199.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6559100.0%2C192700.0%2C6560200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map619c6403c8554932bfe9cc3d76198c41.jpg",
+  "requested_bbox": [
+   191600.0,
+   6559100.0,
+   192700.0,
+   6560200.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6559099.999999997,
+   192699.99999999994,
+   6560199.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:30+00:00",
+  "source_observation_date": null,
+  "sha256": "2ee8b0a8a0da28a6529c90af68b43edf257eba90ab59f35f8e4884f8ed4c0623",
+  "elapsed_seconds": 10.41,
+  "bytes": 552809
+ },
+ {
+  "id": "coast-191700-6560100",
+  "bbox": [
+   191599.99999999994,
+   6560000,
+   192699.99999999994,
+   6561100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6560000.0%2C192700.0%2C6561100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbe29034ac85f401c8fa3e3c2b55fb40d.jpg",
+  "requested_bbox": [
+   191600.0,
+   6560000.0,
+   192700.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6560000,
+   192699.99999999994,
+   6561100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:16+00:00",
+  "source_observation_date": null,
+  "sha256": "51c3f8a0c052b369e5a935b634b3505a45c31e06cd7473de36166c886b0cfc41",
+  "elapsed_seconds": 50.52,
+  "bytes": 511287
+ },
+ {
+  "id": "coast-191700-6561000",
+  "bbox": [
+   191599.99999999994,
+   6560900,
+   192699.99999999994,
+   6562000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6560900.0%2C192700.0%2C6562000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa245242b9be04eb5ae6917c0df9af172.jpg",
+  "requested_bbox": [
+   191600.0,
+   6560900.0,
+   192700.0,
+   6562000.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6560900,
+   192699.99999999994,
+   6562000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:05+00:00",
+  "source_observation_date": null,
+  "sha256": "1c709ad36607223110ce502d0e92e1b1289525a24153d08bda621c085389e1d0",
+  "elapsed_seconds": 14.89,
+  "bytes": 436838
+ },
+ {
+  "id": "coast-191700-6561900",
+  "bbox": [
+   191599.99999999994,
+   6561799.999999999,
+   192699.99999999994,
+   6562899.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=191600.0%2C6561800.0%2C192700.0%2C6562900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map22ac3d22e83f4a39a251b19414757d81.jpg",
+  "requested_bbox": [
+   191600.0,
+   6561800.0,
+   192700.0,
+   6562900.0
+  ],
+  "actual_bbox": [
+   191599.99999999994,
+   6561799.999999999,
+   192699.99999999994,
+   6562899.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:46+00:00",
+  "source_observation_date": null,
+  "sha256": "abdad77b301ab8b5c272055c9228d40b3ceecc13242bc00237c38d112e70c37c",
+  "elapsed_seconds": 9.02,
+  "bytes": 167306
+ },
+ {
+  "id": "coast-192600-6545700",
+  "bbox": [
+   192499.99999999994,
+   6545600,
+   193599.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6545600.0%2C193600.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map02872e1438474cfd88640368bbf50fb9.jpg",
+  "requested_bbox": [
+   192500.0,
+   6545600.0,
+   193600.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6545600,
+   193599.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:00+00:00",
+  "source_observation_date": null,
+  "sha256": "903b7e8050144449ce3bda1ba3fc8adeb0f72885f25c69cd07db4e19c78802e1",
+  "elapsed_seconds": 46.16,
+  "bytes": 712780
+ },
+ {
+  "id": "coast-192600-6546600",
+  "bbox": [
+   192499.99999999994,
+   6546499.999999999,
+   193599.99999999994,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6546500.0%2C193600.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6efa41ede6f8444f8614aa89ecc86bec.jpg",
+  "requested_bbox": [
+   192500.0,
+   6546500.0,
+   193600.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6546499.999999999,
+   193599.99999999994,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:18+00:00",
+  "source_observation_date": null,
+  "sha256": "11a88077c9f15dd0b175f87aa84e0d51e84907a5affccdf83e2b89561acc6b0d",
+  "elapsed_seconds": 17.96,
+  "bytes": 653532
+ },
+ {
+  "id": "coast-192600-6547500",
+  "bbox": [
+   192499.99999999994,
+   6547399.999999998,
+   193599.99999999994,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6547400.0%2C193600.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6ef14954e44f462bb6da7ac0f03ee173.jpg",
+  "requested_bbox": [
+   192500.0,
+   6547400.0,
+   193600.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6547399.999999998,
+   193599.99999999994,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:39+00:00",
+  "source_observation_date": null,
+  "sha256": "4db20ead21756024607e56d380844934b434a95576a9cb994cb56ebeeb46d457",
+  "elapsed_seconds": 20.7,
+  "bytes": 589421
+ },
+ {
+  "id": "coast-192600-6548400",
+  "bbox": [
+   192499.99999999994,
+   6548300,
+   193599.99999999994,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6548300.0%2C193600.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf3c55b6ef2e6492b85429e621160cc38.jpg",
+  "requested_bbox": [
+   192500.0,
+   6548300.0,
+   193600.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6548300,
+   193599.99999999994,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:44+00:00",
+  "source_observation_date": null,
+  "sha256": "747079bfda94dc98e255786caab9b6f6f38e3411d564768ac87704a2785637c3",
+  "elapsed_seconds": 184.52,
+  "bytes": 568316
+ },
+ {
+  "id": "coast-192600-6549300",
+  "bbox": [
+   192499.99999999994,
+   6549199.999999999,
+   193599.99999999994,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6549200.0%2C193600.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa1e1e785f75b414498bfb17e323045dc.jpg",
+  "requested_bbox": [
+   192500.0,
+   6549200.0,
+   193600.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6549199.999999999,
+   193599.99999999994,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:35+00:00",
+  "source_observation_date": null,
+  "sha256": "a35c16f3d20cc4c07caa05a1c57a06e8fbfebd66662f56407497054d7de1df4a",
+  "elapsed_seconds": 11.64,
+  "bytes": 692792
+ },
+ {
+  "id": "coast-192600-6550200",
+  "bbox": [
+   192499.99999999994,
+   6550099.999999998,
+   193599.99999999994,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6550100.0%2C193600.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4ef124b1ea3144b7b798cb9dbb1ce453.jpg",
+  "requested_bbox": [
+   192500.0,
+   6550100.0,
+   193600.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6550099.999999998,
+   193599.99999999994,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:47+00:00",
+  "source_observation_date": null,
+  "sha256": "bb0d551795e4729f70eb42e9dcb08986d88619bc0d1da69e3579c55a256cfa1e",
+  "elapsed_seconds": 58.44,
+  "bytes": 692462
+ },
+ {
+  "id": "coast-192600-6551100",
+  "bbox": [
+   192499.99999999994,
+   6551000,
+   193599.99999999994,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6551000.0%2C193600.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf696912312d44529a8497e0572976698.jpg",
+  "requested_bbox": [
+   192500.0,
+   6551000.0,
+   193600.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6551000,
+   193599.99999999994,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:56+00:00",
+  "source_observation_date": null,
+  "sha256": "efe345186459a21f7bc106bea24cf4eb8e986c124b0ba09286de2485ba5ae916",
+  "elapsed_seconds": 8.94,
+  "bytes": 627647
+ },
+ {
+  "id": "coast-192600-6556500",
+  "bbox": [
+   192499.99999999994,
+   6556399.999999997,
+   193599.99999999994,
+   6557499.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6556400.0%2C193600.0%2C6557500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2dfed79298254b07bec5b955db84930f.jpg",
+  "requested_bbox": [
+   192500.0,
+   6556400.0,
+   193600.0,
+   6557500.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6556399.999999997,
+   193599.99999999994,
+   6557499.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:43+00:00",
+  "source_observation_date": null,
+  "sha256": "b1676982bd71c4fcecc374cfc884d28326290382c7bd9e4e621c1e5f637426b1",
+  "elapsed_seconds": 15.52,
+  "bytes": 673346
+ },
+ {
+  "id": "coast-192600-6557400",
+  "bbox": [
+   192499.99999999994,
+   6557299.999999997,
+   193599.99999999994,
+   6558399.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6557300.0%2C193600.0%2C6558400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3555231751c34e0aa5e895822cda63bf.jpg",
+  "requested_bbox": [
+   192500.0,
+   6557300.0,
+   193600.0,
+   6558400.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6557299.999999997,
+   193599.99999999994,
+   6558399.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:01+00:00",
+  "source_observation_date": null,
+  "sha256": "75654e53d73523a6d23b49cd50d3949fb07a4885de5c4526761f79dda43c964d",
+  "elapsed_seconds": 18.2,
+  "bytes": 614738
+ },
+ {
+  "id": "coast-192600-6558300",
+  "bbox": [
+   192499.99999999994,
+   6558199.999999998,
+   193599.99999999994,
+   6559299.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6558200.0%2C193600.0%2C6559300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2fb975ee95c5450daad8f2a5057ddb7c.jpg",
+  "requested_bbox": [
+   192500.0,
+   6558200.0,
+   193600.0,
+   6559300.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6558199.999999998,
+   193599.99999999994,
+   6559299.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:26+00:00",
+  "source_observation_date": null,
+  "sha256": "a0e88325f59df8bc116b3c2da929068eeeb4ba2192424f95d4096ad7b8e961dc",
+  "elapsed_seconds": 8.67,
+  "bytes": 582883
+ },
+ {
+  "id": "coast-192600-6559200",
+  "bbox": [
+   192499.99999999994,
+   6559099.999999997,
+   193599.99999999994,
+   6560199.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6559100.0%2C193600.0%2C6560200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdb9ed900922845cca53816c889de9c61.jpg",
+  "requested_bbox": [
+   192500.0,
+   6559100.0,
+   193600.0,
+   6560200.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6559099.999999997,
+   193599.99999999994,
+   6560199.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:50+00:00",
+  "source_observation_date": null,
+  "sha256": "9f31d634eaf79e50fc50b51e7ffc5a44033fb8f3a1434e7f2a78c4e0d49bd68e",
+  "elapsed_seconds": 24.76,
+  "bytes": 531298
+ },
+ {
+  "id": "coast-192600-6560100",
+  "bbox": [
+   192499.99999999994,
+   6560000,
+   193599.99999999994,
+   6561100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6560000.0%2C193600.0%2C6561100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbb0671092fc3458f8d9aaadf43475693.jpg",
+  "requested_bbox": [
+   192500.0,
+   6560000.0,
+   193600.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6560000,
+   193599.99999999994,
+   6561100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:18+00:00",
+  "source_observation_date": null,
+  "sha256": "9f02758de2dca5de06772b6a5e2c07d7d0d6c5f9b92a22c9b0295063508ee440",
+  "elapsed_seconds": 47.96,
+  "bytes": 624188
+ },
+ {
+  "id": "coast-192600-6561000",
+  "bbox": [
+   192499.99999999994,
+   6560900,
+   193599.99999999994,
+   6562000
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192500.0%2C6560900.0%2C193600.0%2C6562000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9e88e581b3d04911887209ced3524eb7.jpg",
+  "requested_bbox": [
+   192500.0,
+   6560900.0,
+   193600.0,
+   6562000.0
+  ],
+  "actual_bbox": [
+   192499.99999999994,
+   6560900,
+   193599.99999999994,
+   6562000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:13:57+00:00",
+  "source_observation_date": null,
+  "sha256": "3ac31994caeb98cdf30f36dc303b0e87d5e0606f4e3e376e817499894093d704",
+  "elapsed_seconds": 51.93,
+  "bytes": 587795
+ },
+ {
+  "id": "coast-193500-6544800",
+  "bbox": [
+   193399.99999999994,
+   6544699.999999998,
+   194499.99999999994,
+   6545799.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6544700.0%2C194500.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6aa22f13cd9346d88f14c02931b3d1a3.jpg",
+  "requested_bbox": [
+   193400.0,
+   6544700.0,
+   194500.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6544699.999999998,
+   194499.99999999994,
+   6545799.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:03:59+00:00",
+  "source_observation_date": null,
+  "sha256": "3c9d9e04c8c25c019102ef662e5373f0db26250d9a9f28a088a33b679fdebe7c",
+  "elapsed_seconds": 24.99,
+  "bytes": 843731
+ },
+ {
+  "id": "coast-193500-6545700",
+  "bbox": [
+   193399.99999999994,
+   6545600,
+   194499.99999999994,
+   6546700
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6545600.0%2C194500.0%2C6546700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdd4d00d45d6e4615b371c728763c1757.jpg",
+  "requested_bbox": [
+   193400.0,
+   6545600.0,
+   194500.0,
+   6546700.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6545600,
+   194499.99999999994,
+   6546700
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:05:25+00:00",
+  "source_observation_date": null,
+  "sha256": "699338a9f87621c172340fe71e9d514c081816a0ae7a39a33868dd3723322b5e",
+  "elapsed_seconds": 10.52,
+  "bytes": 763833
+ },
+ {
+  "id": "coast-193500-6546600",
+  "bbox": [
+   193399.99999999994,
+   6546499.999999999,
+   194499.99999999994,
+   6547599.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6546500.0%2C194500.0%2C6547600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map302782a50d784888984edc388871533c.jpg",
+  "requested_bbox": [
+   193400.0,
+   6546500.0,
+   194500.0,
+   6547600.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6546499.999999999,
+   194499.99999999994,
+   6547599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:11+00:00",
+  "source_observation_date": null,
+  "sha256": "18e853a065131bca6a3c515b4d98017c7594db2600ecfc9c845e73710d09cc68",
+  "elapsed_seconds": 9.37,
+  "bytes": 695263
+ },
+ {
+  "id": "coast-193500-6547500",
+  "bbox": [
+   193399.99999999994,
+   6547399.999999998,
+   194499.99999999994,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6547400.0%2C194500.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map243acfccbc9b49c0b2bb7a89070ee66e.jpg",
+  "requested_bbox": [
+   193400.0,
+   6547400.0,
+   194500.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6547399.999999998,
+   194499.99999999994,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:34+00:00",
+  "source_observation_date": null,
+  "sha256": "5c1a1b0f34b6ec7436e2f230be130dd2a8f801aed0d0d3bee0ac47be81542d36",
+  "elapsed_seconds": 10.08,
+  "bytes": 651934
+ },
+ {
+  "id": "coast-193500-6548400",
+  "bbox": [
+   193399.99999999994,
+   6548300,
+   194499.99999999994,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6548300.0%2C194500.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map919f761337f64b64bb7a7fc02c43c65b.jpg",
+  "requested_bbox": [
+   193400.0,
+   6548300.0,
+   194500.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6548300,
+   194499.99999999994,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:04+00:00",
+  "source_observation_date": null,
+  "sha256": "f11ea5d95e53ca6a2a4e66b8382248c6368de625bef0ba4d03f5d04caea376a1",
+  "elapsed_seconds": 13.16,
+  "bytes": 584897
+ },
+ {
+  "id": "coast-193500-6549300",
+  "bbox": [
+   193399.99999999994,
+   6549199.999999999,
+   194499.99999999994,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6549200.0%2C194500.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7fc2e93685664b38b08d621a7727d641.jpg",
+  "requested_bbox": [
+   193400.0,
+   6549200.0,
+   194500.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6549199.999999999,
+   194499.99999999994,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:49+00:00",
+  "source_observation_date": null,
+  "sha256": "67488ebb8a8a5b70c589608084aa7519b0626883668f41676dc6a0a9e5409f24",
+  "elapsed_seconds": 22.14,
+  "bytes": 710423
+ },
+ {
+  "id": "coast-193500-6550200",
+  "bbox": [
+   193399.99999999994,
+   6550099.999999998,
+   194499.99999999994,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6550100.0%2C194500.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa6d35e664f084a3782175429aeb632dc.jpg",
+  "requested_bbox": [
+   193400.0,
+   6550100.0,
+   194500.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6550099.999999998,
+   194499.99999999994,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:21+00:00",
+  "source_observation_date": null,
+  "sha256": "842c6c8d38132b0de4138ec92d9d78b7b36d62cdb11cf07b943b92930cc30cf0",
+  "elapsed_seconds": 18.75,
+  "bytes": 609273
+ },
+ {
+  "id": "coast-193500-6551100",
+  "bbox": [
+   193399.99999999994,
+   6551000,
+   194499.99999999994,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6551000.0%2C194500.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map081bdcdeeb6a444d8552483e732292e5.jpg",
+  "requested_bbox": [
+   193400.0,
+   6551000.0,
+   194500.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6551000,
+   194499.99999999994,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:40+00:00",
+  "source_observation_date": null,
+  "sha256": "adc9fab0db126a3c34debfae3ee1431418e289ca0383c0abf207ce946a6f6f23",
+  "elapsed_seconds": 46.74,
+  "bytes": 568180
+ },
+ {
+  "id": "coast-193500-6552000",
+  "bbox": [
+   193399.99999999994,
+   6551899.999999999,
+   194499.99999999994,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6551900.0%2C194500.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb9d3eff07dc940409a9c6b547276c612.jpg",
+  "requested_bbox": [
+   193400.0,
+   6551900.0,
+   194500.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6551899.999999999,
+   194499.99999999994,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:00+00:00",
+  "source_observation_date": null,
+  "sha256": "1de9c59252333fc4db8dda0e780de055f69cc0be59358644246c48c8a928c64c",
+  "elapsed_seconds": 13.26,
+  "bytes": 662013
+ },
+ {
+  "id": "coast-193500-6557400",
+  "bbox": [
+   193399.99999999994,
+   6557299.999999997,
+   194499.99999999994,
+   6558399.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193400.0%2C6557300.0%2C194500.0%2C6558400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapceacc1f872214f31a64804b05b1672ee.jpg",
+  "requested_bbox": [
+   193400.0,
+   6557300.0,
+   194500.0,
+   6558400.0
+  ],
+  "actual_bbox": [
+   193399.99999999994,
+   6557299.999999997,
+   194499.99999999994,
+   6558399.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:10+00:00",
+  "source_observation_date": null,
+  "sha256": "836e7e8775c735e1787f3114047c10494290ba08248dcf6cbdbce088d7f707ed",
+  "elapsed_seconds": 19.73,
+  "bytes": 690835
+ },
+ {
+  "id": "coast-194400-6547500",
+  "bbox": [
+   194299.99999999997,
+   6547399.999999998,
+   195399.99999999997,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6547400.0%2C195400.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapca62293317e141c188c629e739a198ac.jpg",
+  "requested_bbox": [
+   194300.0,
+   6547400.0,
+   195400.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6547399.999999998,
+   195399.99999999997,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:11+00:00",
+  "source_observation_date": null,
+  "sha256": "486727ae2804ab600b9d8d479063935accc13e441dbeefc0e268ef28d0835b58",
+  "elapsed_seconds": 47.04,
+  "bytes": 664444
+ },
+ {
+  "id": "coast-194400-6548400",
+  "bbox": [
+   194299.99999999997,
+   6548300,
+   195399.99999999997,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6548300.0%2C195400.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map18b55d89fd3041df8063222bf0f1d940.jpg",
+  "requested_bbox": [
+   194300.0,
+   6548300.0,
+   195400.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6548300,
+   195399.99999999997,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:13+00:00",
+  "source_observation_date": null,
+  "sha256": "7a3a711769525d966148b523b4f92580a807ec3c16e9977fc0dcba89b83226b8",
+  "elapsed_seconds": 19.38,
+  "bytes": 628971
+ },
+ {
+  "id": "coast-194400-6549300",
+  "bbox": [
+   194299.99999999997,
+   6549199.999999999,
+   195399.99999999997,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6549200.0%2C195400.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3623e9e888214741a7576959b67cfa25.jpg",
+  "requested_bbox": [
+   194300.0,
+   6549200.0,
+   195400.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6549199.999999999,
+   195399.99999999997,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:02+00:00",
+  "source_observation_date": null,
+  "sha256": "99a633d2ea6b05a7cb20ae3e6d3b110371e60002cff2a11738c394312b9c98fe",
+  "elapsed_seconds": 29.43,
+  "bytes": 695099
+ },
+ {
+  "id": "coast-194400-6550200",
+  "bbox": [
+   194299.99999999997,
+   6550099.999999998,
+   195399.99999999997,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6550100.0%2C195400.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map243a87a473164af8b21d34313f164073.jpg",
+  "requested_bbox": [
+   194300.0,
+   6550100.0,
+   195400.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6550099.999999998,
+   195399.99999999997,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:25+00:00",
+  "source_observation_date": null,
+  "sha256": "b67969935841e94132503d3b9e0f21730dddf7ff6141f3df751175b837471165",
+  "elapsed_seconds": 17.72,
+  "bytes": 607006
+ },
+ {
+  "id": "coast-194400-6551100",
+  "bbox": [
+   194299.99999999997,
+   6551000,
+   195399.99999999997,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6551000.0%2C195400.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa005ccf6d7724ca282d4837c217c6732.jpg",
+  "requested_bbox": [
+   194300.0,
+   6551000.0,
+   195400.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6551000,
+   195399.99999999997,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:19+00:00",
+  "source_observation_date": null,
+  "sha256": "78b9527305feef4022b6b2ae6cb496ffa2aca5e702f9097a41c2e9dd839f9eb4",
+  "elapsed_seconds": 22.91,
+  "bytes": 665706
+ },
+ {
+  "id": "coast-194400-6557400",
+  "bbox": [
+   194299.99999999997,
+   6557299.999999997,
+   195399.99999999997,
+   6558399.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194300.0%2C6557300.0%2C195400.0%2C6558400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapeff1a35572944b29b289cb4bd70c4018.jpg",
+  "requested_bbox": [
+   194300.0,
+   6557300.0,
+   195400.0,
+   6558400.0
+  ],
+  "actual_bbox": [
+   194299.99999999997,
+   6557299.999999997,
+   195399.99999999997,
+   6558399.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:20+00:00",
+  "source_observation_date": null,
+  "sha256": "fa9089476513e3e6c659dd6c330117deafed99015d3b03f6a2f6318aadc4b4d4",
+  "elapsed_seconds": 18.72,
+  "bytes": 665637
+ },
+ {
+  "id": "coast-195300-6547500",
+  "bbox": [
+   195199.99999999994,
+   6547399.999999998,
+   196299.99999999994,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6547400.0%2C196300.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map733e3d72113047ffbeb9c1cfb69bc6ff.jpg",
+  "requested_bbox": [
+   195200.0,
+   6547400.0,
+   196300.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6547399.999999998,
+   196299.99999999994,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:40+00:00",
+  "source_observation_date": null,
+  "sha256": "139c42353b085f5dda847e7b93f40ab6c0714e5c1feff8526680e65d20751caa",
+  "elapsed_seconds": 10.68,
+  "bytes": 697735
+ },
+ {
+  "id": "coast-195300-6548400",
+  "bbox": [
+   195199.99999999994,
+   6548300,
+   196299.99999999994,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6548300.0%2C196300.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9bf5b3f921c0438285df490ae35bdbba.jpg",
+  "requested_bbox": [
+   195200.0,
+   6548300.0,
+   196300.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6548300,
+   196299.99999999994,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:23+00:00",
+  "source_observation_date": null,
+  "sha256": "a609851bcd379d3ce0d84b3ae0b3f72034a2397ea483240e27c72491c2ecff31",
+  "elapsed_seconds": 19.04,
+  "bytes": 666007
+ },
+ {
+  "id": "coast-195300-6549300",
+  "bbox": [
+   195199.99999999994,
+   6549199.999999999,
+   196299.99999999994,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6549200.0%2C196300.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdfc86e49a0314c889c4e993116862b17.jpg",
+  "requested_bbox": [
+   195200.0,
+   6549200.0,
+   196300.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6549199.999999999,
+   196299.99999999994,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:46+00:00",
+  "source_observation_date": null,
+  "sha256": "593c5995d0bf6d246588e9a33b7c7d84f2e927287b12509b7d87396e01663c99",
+  "elapsed_seconds": 10.96,
+  "bytes": 701382
+ },
+ {
+  "id": "coast-195300-6550200",
+  "bbox": [
+   195199.99999999994,
+   6550099.999999998,
+   196299.99999999994,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6550100.0%2C196300.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map75731052b95143a6b937b25a45b61637.jpg",
+  "requested_bbox": [
+   195200.0,
+   6550100.0,
+   196300.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6550099.999999998,
+   196299.99999999994,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:34+00:00",
+  "source_observation_date": null,
+  "sha256": "8b245c2cc6440187c842da738c5bef0c1a115abb5d9b0e2a30f501cf77562e9d",
+  "elapsed_seconds": 12.84,
+  "bytes": 656510
+ },
+ {
+  "id": "coast-195300-6551100",
+  "bbox": [
+   195199.99999999994,
+   6551000,
+   196299.99999999994,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6551000.0%2C196300.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map1de177de92ea4b0f8236cb326a97df78.jpg",
+  "requested_bbox": [
+   195200.0,
+   6551000.0,
+   196300.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6551000,
+   196299.99999999994,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:47+00:00",
+  "source_observation_date": null,
+  "sha256": "2fc8383b464b288f1c6713d8def5b33fddd2f1f9efa5a96544c3c7dee24d479f",
+  "elapsed_seconds": 27.37,
+  "bytes": 696791
+ },
+ {
+  "id": "coast-195300-6552000",
+  "bbox": [
+   195199.99999999994,
+   6551899.999999999,
+   196299.99999999994,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6551900.0%2C196300.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map12cb62a4b4084e5f91d974a63adf0a6e.jpg",
+  "requested_bbox": [
+   195200.0,
+   6551900.0,
+   196300.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6551899.999999999,
+   196299.99999999994,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:11+00:00",
+  "source_observation_date": null,
+  "sha256": "0d4be2faae5dcaf2b5e82f09bdfd4f65651527619b2390a1f8fde6895f25d87b",
+  "elapsed_seconds": 12.75,
+  "bytes": 650968
+ },
+ {
+  "id": "coast-195300-6552900",
+  "bbox": [
+   195199.99999999994,
+   6552799.999999998,
+   196299.99999999994,
+   6553899.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6552800.0%2C196300.0%2C6553900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2ac8282822384e63ad41ddc352edba5e.jpg",
+  "requested_bbox": [
+   195200.0,
+   6552800.0,
+   196300.0,
+   6553900.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6552799.999999998,
+   196299.99999999994,
+   6553899.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:40+00:00",
+  "source_observation_date": null,
+  "sha256": "b41cb064cb58462a6ccce7e53836fa6ef038c7a02d6e1aa9002b64c0302fda94",
+  "elapsed_seconds": 10.1,
+  "bytes": 602683
+ },
+ {
+  "id": "coast-195300-6556500",
+  "bbox": [
+   195199.99999999994,
+   6556399.999999997,
+   196299.99999999994,
+   6557499.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6556400.0%2C196300.0%2C6557500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf337c8fb46cf4327b6e9b365c2ea580e.jpg",
+  "requested_bbox": [
+   195200.0,
+   6556400.0,
+   196300.0,
+   6557500.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6556399.999999997,
+   196299.99999999994,
+   6557499.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:42+00:00",
+  "source_observation_date": null,
+  "sha256": "8a335e9ed8c3b732c218c1227fa7be2a0844e0089a4b5d32d152284fc21d0d14",
+  "elapsed_seconds": 10.28,
+  "bytes": 752777
+ },
+ {
+  "id": "coast-195300-6557400",
+  "bbox": [
+   195199.99999999994,
+   6557299.999999997,
+   196299.99999999994,
+   6558399.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195200.0%2C6557300.0%2C196300.0%2C6558400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2ee1d419fc90495b8a45d8363f0fcb4c.jpg",
+  "requested_bbox": [
+   195200.0,
+   6557300.0,
+   196300.0,
+   6558400.0
+  ],
+  "actual_bbox": [
+   195199.99999999994,
+   6557299.999999997,
+   196299.99999999994,
+   6558399.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:17+00:00",
+  "source_observation_date": null,
+  "sha256": "dd6c91d872a40b96e86fc41397f5c168f6f001ca9ba8905a492e5c886e77f7c3",
+  "elapsed_seconds": 11.27,
+  "bytes": 661224
+ },
+ {
+  "id": "coast-196200-6547500",
+  "bbox": [
+   196099.99999999994,
+   6547399.999999998,
+   197199.99999999994,
+   6548499.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6547400.0%2C197200.0%2C6548500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0dbc3f2c86fe408c9cbd5dfc8a122459.jpg",
+  "requested_bbox": [
+   196100.0,
+   6547400.0,
+   197200.0,
+   6548500.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6547399.999999998,
+   197199.99999999994,
+   6548499.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:06:51+00:00",
+  "source_observation_date": null,
+  "sha256": "4bda75eb09d928b4b77ec5775a720b0cdbeeec302418792e17c7d3fe82fbdd55",
+  "elapsed_seconds": 17.18,
+  "bytes": 842208
+ },
+ {
+  "id": "coast-196200-6548400",
+  "bbox": [
+   196099.99999999994,
+   6548300,
+   197199.99999999994,
+   6549400
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6548300.0%2C197200.0%2C6549400.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape52a8f7856fe42e3b5b3ac57d7a584ed.jpg",
+  "requested_bbox": [
+   196100.0,
+   6548300.0,
+   197200.0,
+   6549400.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6548300,
+   197199.99999999994,
+   6549400
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:07:27+00:00",
+  "source_observation_date": null,
+  "sha256": "8d96e36b435e93427bb271690eb88ecff150b59da940c25906666187a879aea5",
+  "elapsed_seconds": 15.65,
+  "bytes": 830205
+ },
+ {
+  "id": "coast-196200-6550200",
+  "bbox": [
+   196099.99999999994,
+   6550099.999999998,
+   197199.99999999994,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6550100.0%2C197200.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map61279c3fced84b30938d33f68edb8fb6.jpg",
+  "requested_bbox": [
+   196100.0,
+   6550100.0,
+   197200.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6550099.999999998,
+   197199.99999999994,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:45+00:00",
+  "source_observation_date": null,
+  "sha256": "5ffee430a923a9a14a3228e935d3383791f272e44a54f05d634a7a999ce484c6",
+  "elapsed_seconds": 19.93,
+  "bytes": 777822
+ },
+ {
+  "id": "coast-196200-6551100",
+  "bbox": [
+   196099.99999999994,
+   6551000,
+   197199.99999999994,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6551000.0%2C197200.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7e9dab1832974541b66ab5d55e280e82.jpg",
+  "requested_bbox": [
+   196100.0,
+   6551000.0,
+   197200.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6551000,
+   197199.99999999994,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:45+00:00",
+  "source_observation_date": null,
+  "sha256": "fe4fe92c2c9465b0bff9f16114529f7cd498be7e887f9cdc3333be1162d0aef8",
+  "elapsed_seconds": 17.36,
+  "bytes": 748790
+ },
+ {
+  "id": "coast-196200-6552000",
+  "bbox": [
+   196099.99999999994,
+   6551899.999999999,
+   197199.99999999994,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6551900.0%2C197200.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb78b10aad15c465ca1527de27af77912.jpg",
+  "requested_bbox": [
+   196100.0,
+   6551900.0,
+   197200.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6551899.999999999,
+   197199.99999999994,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:19+00:00",
+  "source_observation_date": null,
+  "sha256": "5c835fc86e54c69d6499ffbc01e4e7d6de88b262413c9031c71115f19d81450c",
+  "elapsed_seconds": 18.68,
+  "bytes": 639097
+ },
+ {
+  "id": "coast-196200-6552900",
+  "bbox": [
+   196099.99999999994,
+   6552799.999999998,
+   197199.99999999994,
+   6553899.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6552800.0%2C197200.0%2C6553900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3901d2cb41ef49368d50a129e2feede4.jpg",
+  "requested_bbox": [
+   196100.0,
+   6552800.0,
+   197200.0,
+   6553900.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6552799.999999998,
+   197199.99999999994,
+   6553899.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:58+00:00",
+  "source_observation_date": null,
+  "sha256": "c7d619f161a031dee0ff0b4aee92469cfe6a031fd755dbcec358dbfb8d811715",
+  "elapsed_seconds": 23.73,
+  "bytes": 693544
+ },
+ {
+  "id": "coast-196200-6554700",
+  "bbox": [
+   196099.99999999994,
+   6554599.999999997,
+   197199.99999999994,
+   6555699.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6554600.0%2C197200.0%2C6555700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map360145b03ceb4821af9e20b721ff8b79.jpg",
+  "requested_bbox": [
+   196100.0,
+   6554600.0,
+   197200.0,
+   6555700.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6554599.999999997,
+   197199.99999999994,
+   6555699.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:13+00:00",
+  "source_observation_date": null,
+  "sha256": "feebec1e073f476691d785654ebedd75ae2a5afb0cd1559847012ddb2e4698da",
+  "elapsed_seconds": 12.91,
+  "bytes": 695955
+ },
+ {
+  "id": "coast-196200-6555600",
+  "bbox": [
+   196099.99999999994,
+   6555499.999999998,
+   197199.99999999994,
+   6556599.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6555500.0%2C197200.0%2C6556600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapda90c6b5893044feb3fada4ae1a458cd.jpg",
+  "requested_bbox": [
+   196100.0,
+   6555500.0,
+   197200.0,
+   6556600.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6555499.999999998,
+   197199.99999999994,
+   6556599.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:27+00:00",
+  "source_observation_date": null,
+  "sha256": "4bf179d1e107326f6ac76b342cfa8e26016a852073834ff411e2155a033677da",
+  "elapsed_seconds": 13.85,
+  "bytes": 748290
+ },
+ {
+  "id": "coast-196200-6556500",
+  "bbox": [
+   196099.99999999994,
+   6556399.999999997,
+   197199.99999999994,
+   6557499.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=196100.0%2C6556400.0%2C197200.0%2C6557500.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapef64252739cb45078412b205de9b5a01.jpg",
+  "requested_bbox": [
+   196100.0,
+   6556400.0,
+   197200.0,
+   6557500.0
+  ],
+  "actual_bbox": [
+   196099.99999999994,
+   6556399.999999997,
+   197199.99999999994,
+   6557499.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:51+00:00",
+  "source_observation_date": null,
+  "sha256": "09f25ae25ce9bbca613980dce789d99b463a140c58c621cfc4ef24db66e01be6",
+  "elapsed_seconds": 15.79,
+  "bytes": 708656
+ },
+ {
+  "id": "coast-197100-6551100",
+  "bbox": [
+   196999.99999999997,
+   6551000,
+   198099.99999999997,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6551000.0%2C198100.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbe349a43f4304e8a8cbdc3dd4f121933.jpg",
+  "requested_bbox": [
+   197000.0,
+   6551000.0,
+   198100.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6551000,
+   198099.99999999997,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:30+00:00",
+  "source_observation_date": null,
+  "sha256": "0ca674c6d18d3094da8eeb7c1d424e3c1647a272b4d88748470ef361d490531c",
+  "elapsed_seconds": 50.47,
+  "bytes": 749153
+ },
+ {
+  "id": "coast-197100-6552000",
+  "bbox": [
+   196999.99999999997,
+   6551899.999999999,
+   198099.99999999997,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6551900.0%2C198100.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapd64467d5c02745a3a98e11b669e5b4f9.jpg",
+  "requested_bbox": [
+   197000.0,
+   6551900.0,
+   198100.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6551899.999999999,
+   198099.99999999997,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:22+00:00",
+  "source_observation_date": null,
+  "sha256": "1108723937977cac4bf0ec10deeb08735a5aaab63a63ce893d8dc8f3b59262fc",
+  "elapsed_seconds": 11.07,
+  "bytes": 727312
+ },
+ {
+  "id": "coast-197100-6552900",
+  "bbox": [
+   196999.99999999997,
+   6552799.999999998,
+   198099.99999999997,
+   6553899.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6552800.0%2C198100.0%2C6553900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapd505dc504d084e58a455330ed5d95a99.jpg",
+  "requested_bbox": [
+   197000.0,
+   6552800.0,
+   198100.0,
+   6553900.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6552799.999999998,
+   198099.99999999997,
+   6553899.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:47+00:00",
+  "source_observation_date": null,
+  "sha256": "a663fbc8ffc35eba13df32bab97c85272d7f7c3e582ba717996486279670c566",
+  "elapsed_seconds": 9.33,
+  "bytes": 699575
+ },
+ {
+  "id": "coast-197100-6553800",
+  "bbox": [
+   196999.99999999997,
+   6553699.999999997,
+   198099.99999999997,
+   6554799.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6553700.0%2C198100.0%2C6554800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6c3157958757484aa8cc689c8763a186.jpg",
+  "requested_bbox": [
+   197000.0,
+   6553700.0,
+   198100.0,
+   6554800.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6553699.999999997,
+   198099.99999999997,
+   6554799.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:14+00:00",
+  "source_observation_date": null,
+  "sha256": "72a04215d1270b6334f3ac9c4c40570e003e539dfcff787919dd1c85de01e41a",
+  "elapsed_seconds": 18.86,
+  "bytes": 680186
+ },
+ {
+  "id": "coast-197100-6554700",
+  "bbox": [
+   196999.99999999997,
+   6554599.999999997,
+   198099.99999999997,
+   6555699.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6554600.0%2C198100.0%2C6555700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbff0f54d090548988610e82e7e4902b8.jpg",
+  "requested_bbox": [
+   197000.0,
+   6554600.0,
+   198100.0,
+   6555700.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6554599.999999997,
+   198099.99999999997,
+   6555699.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:35+00:00",
+  "source_observation_date": null,
+  "sha256": "dbc621c6bd02363587b095b0bee7b1186f99e0ed00016e01410447b0ba9f4beb",
+  "elapsed_seconds": 28.63,
+  "bytes": 646954
+ },
+ {
+  "id": "coast-197100-6555600",
+  "bbox": [
+   196999.99999999997,
+   6555499.999999998,
+   198099.99999999997,
+   6556599.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197000.0%2C6555500.0%2C198100.0%2C6556600.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapae899d16167a4cf0808f894bf30403d0.jpg",
+  "requested_bbox": [
+   197000.0,
+   6555500.0,
+   198100.0,
+   6556600.0
+  ],
+  "actual_bbox": [
+   196999.99999999997,
+   6555499.999999998,
+   198099.99999999997,
+   6556599.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:12:33+00:00",
+  "source_observation_date": null,
+  "sha256": "d82be9862b7ff41253d8c0c11c88a4f72d342110cf6385d3896c873d237acf48",
+  "elapsed_seconds": 78.53,
+  "bytes": 671569
+ },
+ {
+  "id": "coast-198000-6549300",
+  "bbox": [
+   197899.99999999994,
+   6549199.999999999,
+   198999.99999999994,
+   6550299.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6549200.0%2C199000.0%2C6550300.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map25921165ed214181ba297d29520f013b.jpg",
+  "requested_bbox": [
+   197900.0,
+   6549200.0,
+   199000.0,
+   6550300.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6549199.999999999,
+   198999.99999999994,
+   6550299.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:07+00:00",
+  "source_observation_date": null,
+  "sha256": "81971bffcffeebec657c8bfac1a14ab6a9b28f064206d60a47f135c38b777d1d",
+  "elapsed_seconds": 21.67,
+  "bytes": 848940
+ },
+ {
+  "id": "coast-198000-6550200",
+  "bbox": [
+   197899.99999999994,
+   6550099.999999998,
+   198999.99999999994,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6550100.0%2C199000.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdc17cc428a2240c780512f225a5c690b.jpg",
+  "requested_bbox": [
+   197900.0,
+   6550100.0,
+   199000.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6550099.999999998,
+   198999.99999999994,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:08:53+00:00",
+  "source_observation_date": null,
+  "sha256": "0e01dc74d70e9906377e9c1a733a61f03b0559814767eca2f5b271d7b365d79d",
+  "elapsed_seconds": 19.47,
+  "bytes": 771533
+ },
+ {
+  "id": "coast-198000-6551100",
+  "bbox": [
+   197899.99999999994,
+   6551000,
+   198999.99999999994,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6551000.0%2C199000.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc2c2b7b4f52f4348996f044e134d12bb.jpg",
+  "requested_bbox": [
+   197900.0,
+   6551000.0,
+   199000.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6551000,
+   198999.99999999994,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:58+00:00",
+  "source_observation_date": null,
+  "sha256": "7c58a5618d52419e07852ff9e47cd011ff868e920fd5edc92a70a3f6a6c4e393",
+  "elapsed_seconds": 13.86,
+  "bytes": 701144
+ },
+ {
+  "id": "coast-198000-6552000",
+  "bbox": [
+   197899.99999999994,
+   6551899.999999999,
+   198999.99999999994,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6551900.0%2C199000.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa55cd5abeb0947f88de4ba8fdf16a8b6.jpg",
+  "requested_bbox": [
+   197900.0,
+   6551900.0,
+   199000.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6551899.999999999,
+   198999.99999999994,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:38+00:00",
+  "source_observation_date": null,
+  "sha256": "83fcbc864deb00dd8276611816e90d3a095c11584285dd8b5b30b257207f3ba7",
+  "elapsed_seconds": 19.52,
+  "bytes": 682586
+ },
+ {
+  "id": "coast-198000-6552900",
+  "bbox": [
+   197899.99999999994,
+   6552799.999999998,
+   198999.99999999994,
+   6553899.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6552800.0%2C199000.0%2C6553900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf4c369f4af8746f094e4e851d6358cc4.jpg",
+  "requested_bbox": [
+   197900.0,
+   6552800.0,
+   199000.0,
+   6553900.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6552799.999999998,
+   198999.99999999994,
+   6553899.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:56+00:00",
+  "source_observation_date": null,
+  "sha256": "80ed07356ac6029eddd38fc4c2c7bc2ed817c5d2a56d270d2fa11ac1455acec3",
+  "elapsed_seconds": 15.11,
+  "bytes": 654124
+ },
+ {
+  "id": "coast-198000-6553800",
+  "bbox": [
+   197899.99999999994,
+   6553699.999999997,
+   198999.99999999994,
+   6554799.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6553700.0%2C199000.0%2C6554800.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapd476f0fe6c1e4c08ac0b050dcf40c643.jpg",
+  "requested_bbox": [
+   197900.0,
+   6553700.0,
+   199000.0,
+   6554800.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6553699.999999997,
+   198999.99999999994,
+   6554799.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:12+00:00",
+  "source_observation_date": null,
+  "sha256": "7aa13828fd62d912ceee7d7a21540ee42eb2bb8f5d02e6befe3556ffd3506814",
+  "elapsed_seconds": 13.23,
+  "bytes": 595830
+ },
+ {
+  "id": "coast-198000-6554700",
+  "bbox": [
+   197899.99999999994,
+   6554599.999999997,
+   198999.99999999994,
+   6555699.999999997
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197900.0%2C6554600.0%2C199000.0%2C6555700.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map91effb9c85e24f19955a29a4eadb1cd7.jpg",
+  "requested_bbox": [
+   197900.0,
+   6554600.0,
+   199000.0,
+   6555700.0
+  ],
+  "actual_bbox": [
+   197899.99999999994,
+   6554599.999999997,
+   198999.99999999994,
+   6555699.999999997
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:32+00:00",
+  "source_observation_date": null,
+  "sha256": "eccc03b3f2656dd215ef02ad70b9c2cb9506037ba162d2c3361cba8bacc07ea4",
+  "elapsed_seconds": 20.19,
+  "bytes": 589260
+ },
+ {
+  "id": "coast-198900-6550200",
+  "bbox": [
+   198799.99999999997,
+   6550099.999999998,
+   199899.99999999997,
+   6551199.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198800.0%2C6550100.0%2C199900.0%2C6551200.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map87756d4f3ad4418896a12f8b2eab7307.jpg",
+  "requested_bbox": [
+   198800.0,
+   6550100.0,
+   199900.0,
+   6551200.0
+  ],
+  "actual_bbox": [
+   198799.99999999997,
+   6550099.999999998,
+   199899.99999999997,
+   6551199.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:09:28+00:00",
+  "source_observation_date": null,
+  "sha256": "d30c36ae22f840a82fe8576b50a163dcc12396a82e8996a90cd32d797d6cbfe5",
+  "elapsed_seconds": 43.14,
+  "bytes": 781929
+ },
+ {
+  "id": "coast-198900-6551100",
+  "bbox": [
+   198799.99999999997,
+   6551000,
+   199899.99999999997,
+   6552100
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198800.0%2C6551000.0%2C199900.0%2C6552100.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape0017c3076bc4e92a21e17e704fcdf89.jpg",
+  "requested_bbox": [
+   198800.0,
+   6551000.0,
+   199900.0,
+   6552100.0
+  ],
+  "actual_bbox": [
+   198799.99999999997,
+   6551000,
+   199899.99999999997,
+   6552100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:10:35+00:00",
+  "source_observation_date": null,
+  "sha256": "616770292d5875800692d6c2c2852907201114e452868bd3a6d1b82978372c70",
+  "elapsed_seconds": 49.29,
+  "bytes": 708637
+ },
+ {
+  "id": "coast-198900-6552000",
+  "bbox": [
+   198799.99999999997,
+   6551899.999999999,
+   199899.99999999997,
+   6552999.999999999
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198800.0%2C6551900.0%2C199900.0%2C6553000.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map25464005d41c4ca09d98465307496d38.jpg",
+  "requested_bbox": [
+   198800.0,
+   6551900.0,
+   199900.0,
+   6553000.0
+  ],
+  "actual_bbox": [
+   198799.99999999997,
+   6551899.999999999,
+   199899.99999999997,
+   6552999.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:06+00:00",
+  "source_observation_date": null,
+  "sha256": "34347679e5c60b41ad4aa78112ab6dd247e70aad0e2d357e77f04c0f28d7399b",
+  "elapsed_seconds": 44.4,
+  "bytes": 681151
+ },
+ {
+  "id": "coast-198900-6552900",
+  "bbox": [
+   198799.99999999997,
+   6552799.999999998,
+   199899.99999999997,
+   6553899.999999998
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198800.0%2C6552800.0%2C199900.0%2C6553900.0&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7a2ebd5b7e70408e889758284e2a646b.jpg",
+  "requested_bbox": [
+   198800.0,
+   6552800.0,
+   199900.0,
+   6553900.0
+  ],
+  "actual_bbox": [
+   198799.99999999997,
+   6552799.999999998,
+   199899.99999999997,
+   6553899.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:11:00+00:00",
+  "source_observation_date": null,
+  "sha256": "f5718e3213d73b6e494f7fecc01d220f54ea4a60a82f8d67aa3ea82202f83a53",
+  "elapsed_seconds": 13.04,
+  "bytes": 603693
+ },
+ {
+  "id": "detail-C004",
+  "bbox": [
+   186902.98462020792,
+   6544771.319791709,
+   187352.98462020792,
+   6545221.319791709
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=186902.98462020792%2C6544771.31979171%2C187352.98462020792%2C6545221.31979171&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7f5c29a23e72447c99c2eea86bedd801.jpg",
+  "requested_bbox": [
+   186902.98462020792,
+   6544771.31979171,
+   187352.98462020792,
+   6545221.31979171
+  ],
+  "actual_bbox": [
+   186902.98462020792,
+   6544771.319791709,
+   187352.98462020792,
+   6545221.319791709
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:18+00:00",
+  "source_observation_date": null,
+  "sha256": "33d8a8d9f47b95e076cd235e53ed7353998b5048493eae57979f86f2b485f7ad",
+  "elapsed_seconds": 3.66,
+  "bytes": 135371
+ },
+ {
+  "id": "detail-C005",
+  "bbox": [
+   188670.7324688156,
+   6546347.080752666,
+   189120.7324688156,
+   6546797.080752666
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188670.73246881564%2C6546347.080752667%2C189120.73246881564%2C6546797.080752667&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map409eba33a3fd4208a713cce44d788075.jpg",
+  "requested_bbox": [
+   188670.73246881564,
+   6546347.080752667,
+   189120.73246881564,
+   6546797.080752667
+  ],
+  "actual_bbox": [
+   188670.7324688156,
+   6546347.080752666,
+   189120.7324688156,
+   6546797.080752666
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:20+00:00",
+  "source_observation_date": null,
+  "sha256": "3f042d5e411bf226a5ffefb083ec1cfd63f9953eb934cd96e3edc1bbd83a0d1e",
+  "elapsed_seconds": 5.58,
+  "bytes": 125139
+ },
+ {
+  "id": "detail-C007",
+  "bbox": [
+   188891.4951641795,
+   6545550.458182466,
+   189341.4951641795,
+   6546000.458182466
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188891.49516417953%2C6545550.458182467%2C189341.49516417953%2C6546000.458182467&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map46d9a8a5619c44c7b7bc5d39083df9c1.jpg",
+  "requested_bbox": [
+   188891.49516417953,
+   6545550.458182467,
+   189341.49516417953,
+   6546000.458182467
+  ],
+  "actual_bbox": [
+   188891.4951641795,
+   6545550.458182466,
+   189341.4951641795,
+   6546000.458182466
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:20+00:00",
+  "source_observation_date": null,
+  "sha256": "fd227afd576a4026e51ba36dae31acd62f553f8b5dab8f9d22f5edb8493819fd",
+  "elapsed_seconds": 6.41,
+  "bytes": 130241
+ },
+ {
+  "id": "detail-C008",
+  "bbox": [
+   188995.7115001705,
+   6545493.589058938,
+   189445.7115001705,
+   6545943.589058938
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188995.7115001705%2C6545493.58905894%2C189445.7115001705%2C6545943.58905894&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map81d527667d1845428e55e5aca584e25f.jpg",
+  "requested_bbox": [
+   188995.7115001705,
+   6545493.58905894,
+   189445.7115001705,
+   6545943.58905894
+  ],
+  "actual_bbox": [
+   188995.7115001705,
+   6545493.589058938,
+   189445.7115001705,
+   6545943.589058938
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:20+00:00",
+  "source_observation_date": null,
+  "sha256": "b1bbbfdd8b60eb772f0000b20b1c9441839aa4a1e5fe0880cafe75abaef46e99",
+  "elapsed_seconds": 5.58,
+  "bytes": 130689
+ },
+ {
+  "id": "detail-C009",
+  "bbox": [
+   189132.0654418059,
+   6545357.161018959,
+   189582.0654418059,
+   6545807.161018959
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189132.06544180596%2C6545357.161018959%2C189582.06544180596%2C6545807.161018959&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa193c8a03fa04d0fbe1cd67fe52362b3.jpg",
+  "requested_bbox": [
+   189132.06544180596,
+   6545357.161018959,
+   189582.06544180596,
+   6545807.161018959
+  ],
+  "actual_bbox": [
+   189132.0654418059,
+   6545357.161018959,
+   189582.0654418059,
+   6545807.161018959
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:21+00:00",
+  "source_observation_date": null,
+  "sha256": "eb06e2d9cefea4d64a4e947609dc2c64dc025cab051f795fe393c3156ce4a3ec",
+  "elapsed_seconds": 3.0,
+  "bytes": 140094
+ },
+ {
+  "id": "detail-C010",
+  "bbox": [
+   190255.72939800605,
+   6563539.354337125,
+   190705.72939800605,
+   6563989.354337125
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190255.72939800605%2C6563539.354337127%2C190705.72939800605%2C6563989.354337127&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map601ff368c549485f90daf7c044c18a3e.jpg",
+  "requested_bbox": [
+   190255.72939800605,
+   6563539.354337127,
+   190705.72939800605,
+   6563989.354337127
+  ],
+  "actual_bbox": [
+   190255.72939800605,
+   6563539.354337125,
+   190705.72939800605,
+   6563989.354337125
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:28+00:00",
+  "source_observation_date": null,
+  "sha256": "38ab936f4d894d40994d6362ba8e5ca913c15f20dcafe4f08f26cd966caf1235",
+  "elapsed_seconds": 8.58,
+  "bytes": 66909
+ },
+ {
+  "id": "detail-C011",
+  "bbox": [
+   190458.02927852608,
+   6563145.117971814,
+   190908.02927852608,
+   6563595.117971814
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190458.02927852608%2C6563145.117971814%2C190908.02927852608%2C6563595.117971814&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map26b934fc31cd4f12bb523e6243e24444.jpg",
+  "requested_bbox": [
+   190458.02927852608,
+   6563145.117971814,
+   190908.02927852608,
+   6563595.117971814
+  ],
+  "actual_bbox": [
+   190458.02927852608,
+   6563145.117971814,
+   190908.02927852608,
+   6563595.117971814
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:31+00:00",
+  "source_observation_date": null,
+  "sha256": "b97e21afba7df5cc414790874f2b5d8d0f8a94b803f073e6fa21dcfbd92844d6",
+  "elapsed_seconds": 11.1,
+  "bytes": 71608
+ },
+ {
+  "id": "detail-C012",
+  "bbox": [
+   192345.57182775764,
+   6558870.001473323,
+   192800.73828611476,
+   6559325.167931681
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192345.57182775764%2C6558870.001473323%2C192800.73828611476%2C6559325.167931681&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapfa96c37ab59744a7b6217bab46c7813b.jpg",
+  "requested_bbox": [
+   192345.57182775764,
+   6558870.001473323,
+   192800.73828611476,
+   6559325.167931681
+  ],
+  "actual_bbox": [
+   192345.57182775764,
+   6558870.001473323,
+   192800.73828611476,
+   6559325.167931681
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:23+00:00",
+  "source_observation_date": null,
+  "sha256": "cd3ea0db36132a7c3778a7a5056b15f295b66abdca5e4745c2b266101a23ed16",
+  "elapsed_seconds": 3.1,
+  "bytes": 101102
+ },
+ {
+  "id": "detail-C013",
+  "bbox": [
+   192433.18155270998,
+   6558058.328835899,
+   192883.18155270998,
+   6558508.328835899
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192433.18155270998%2C6558058.328835899%2C192883.18155270998%2C6558508.328835899&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape22c2a1f2b6a490b8e400efe68277e68.jpg",
+  "requested_bbox": [
+   192433.18155270998,
+   6558058.328835899,
+   192883.18155270998,
+   6558508.328835899
+  ],
+  "actual_bbox": [
+   192433.18155270998,
+   6558058.328835899,
+   192883.18155270998,
+   6558508.328835899
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:24+00:00",
+  "source_observation_date": null,
+  "sha256": "77e8c561fc12dc533de53418808237651e4e3b7401908e213a313cd195d44e26",
+  "elapsed_seconds": 3.55,
+  "bytes": 115178
+ },
+ {
+  "id": "detail-C019",
+  "bbox": [
+   193349.78859879263,
+   6551189.869481184,
+   193799.78859879263,
+   6551639.869481184
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193349.78859879263%2C6551189.869481184%2C193799.78859879263%2C6551639.869481184&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapcbb0686a40604cb4af804f9735d294a9.jpg",
+  "requested_bbox": [
+   193349.78859879263,
+   6551189.869481184,
+   193799.78859879263,
+   6551639.869481184
+  ],
+  "actual_bbox": [
+   193349.78859879263,
+   6551189.869481184,
+   193799.78859879263,
+   6551639.869481184
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:27+00:00",
+  "source_observation_date": null,
+  "sha256": "cce871adc6f8bc4a4568b15351d7c2395553f73317c85b67fad823248dfa305f",
+  "elapsed_seconds": 3.6,
+  "bytes": 112129
+ },
+ {
+  "id": "detail-C021",
+  "bbox": [
+   192324.99668837828,
+   6549007.133053977,
+   192774.99668837828,
+   6549457.133053977
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192324.99668837828%2C6549007.133053978%2C192774.99668837828%2C6549457.133053978&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9ef878304b0243a39a896ff679efd562.jpg",
+  "requested_bbox": [
+   192324.99668837828,
+   6549007.133053978,
+   192774.99668837828,
+   6549457.133053978
+  ],
+  "actual_bbox": [
+   192324.99668837828,
+   6549007.133053977,
+   192774.99668837828,
+   6549457.133053977
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:26+00:00",
+  "source_observation_date": null,
+  "sha256": "86ce26a0b3899c443cfd344ba1104a34abdd1c20f019f78f342b89bccaef5886",
+  "elapsed_seconds": 2.17,
+  "bytes": 127900
+ },
+ {
+  "id": "detail-C022",
+  "bbox": [
+   192292.09242853208,
+   6548744.2496223925,
+   192742.09242853208,
+   6549194.2496223925
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=192292.0924285321%2C6548744.2496223925%2C192742.0924285321%2C6549194.2496223925&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa2e2fe49f63447d781384ccc86dc68ab.jpg",
+  "requested_bbox": [
+   192292.0924285321,
+   6548744.2496223925,
+   192742.0924285321,
+   6549194.2496223925
+  ],
+  "actual_bbox": [
+   192292.09242853208,
+   6548744.2496223925,
+   192742.09242853208,
+   6549194.2496223925
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:31+00:00",
+  "source_observation_date": null,
+  "sha256": "144acf31c7b73b18ffbfb9d0cec05ede3045612a2525c25d303248a7b26baf59",
+  "elapsed_seconds": 4.25,
+  "bytes": 121503
+ },
+ {
+  "id": "detail-C025",
+  "bbox": [
+   195754.07817133464,
+   6557155.0718486095,
+   196204.07817133464,
+   6557605.0718486095
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195754.07817133467%2C6557155.071848611%2C196204.07817133467%2C6557605.071848611&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc01b600e9eaa4c4da9363d3f42e3c4fd.jpg",
+  "requested_bbox": [
+   195754.07817133467,
+   6557155.071848611,
+   196204.07817133467,
+   6557605.071848611
+  ],
+  "actual_bbox": [
+   195754.07817133464,
+   6557155.0718486095,
+   196204.07817133464,
+   6557605.0718486095
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:30+00:00",
+  "source_observation_date": null,
+  "sha256": "ad53b7fb587896f9ed7b42877a865eb656357b12335a3d24ab2324284a7d9add",
+  "elapsed_seconds": 3.33,
+  "bytes": 149924
+ },
+ {
+  "id": "detail-C026",
+  "bbox": [
+   194138.40535626523,
+   6551316.843096049,
+   194588.40535626523,
+   6551766.843096049
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194138.40535626523%2C6551316.843096049%2C194588.40535626523%2C6551766.843096049&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map834d071c569e4bdc8e773743834f30aa.jpg",
+  "requested_bbox": [
+   194138.40535626523,
+   6551316.843096049,
+   194588.40535626523,
+   6551766.843096049
+  ],
+  "actual_bbox": [
+   194138.40535626523,
+   6551316.843096049,
+   194588.40535626523,
+   6551766.843096049
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:32+00:00",
+  "source_observation_date": null,
+  "sha256": "609e0ebb590a974984cf9acfad706cbe857b958aef123672fa5169e169babab3",
+  "elapsed_seconds": 3.69,
+  "bytes": 125328
+ },
+ {
+  "id": "detail-C027",
+  "bbox": [
+   194420.86618995667,
+   6550997.046663812,
+   194870.86618995667,
+   6551447.046663812
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194420.86618995667%2C6550997.046663814%2C194870.86618995667%2C6551447.046663814&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape23ba84741f74eec9d1085994bf8d6e4.jpg",
+  "requested_bbox": [
+   194420.86618995667,
+   6550997.046663814,
+   194870.86618995667,
+   6551447.046663814
+  ],
+  "actual_bbox": [
+   194420.86618995667,
+   6550997.046663812,
+   194870.86618995667,
+   6551447.046663812
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:35+00:00",
+  "source_observation_date": null,
+  "sha256": "3e599bb88ed5ee3124e1faa1a096b1ea3258aa7f1dcc69a8ba100890007e744d",
+  "elapsed_seconds": 4.36,
+  "bytes": 121800
+ },
+ {
+  "id": "detail-C028",
+  "bbox": [
+   195923.7156360809,
+   6556993.616572377,
+   196391.14535259252,
+   6557461.046288889
+  ],
+  "width": 719,
+  "height": 719,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195923.71563608092%2C6556993.616572378%2C196391.14535259255%2C6557461.046288889&bboxSR=25833&imageSR=25833&size=719%2C719&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc489199ee738414f94ffd1b4aac3c07f.jpg",
+  "requested_bbox": [
+   195923.71563608092,
+   6556993.616572378,
+   196391.14535259255,
+   6557461.046288889
+  ],
+  "actual_bbox": [
+   195923.7156360809,
+   6556993.616572377,
+   196391.14535259252,
+   6557461.046288889
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:34+00:00",
+  "source_observation_date": null,
+  "sha256": "02f090e67838e5b734812459022b79a565c1951a26127fad631c5d9e4cf18183",
+  "elapsed_seconds": 3.49,
+  "bytes": 158366
+ },
+ {
+  "id": "detail-C030",
+  "bbox": [
+   197711.4016712955,
+   6554474.805647807,
+   198161.4016712955,
+   6554924.805647807
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197711.4016712955%2C6554474.805647808%2C198161.4016712955%2C6554924.805647808&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map03e473f2b1e14df9abcf7796e3e9ce75.jpg",
+  "requested_bbox": [
+   197711.4016712955,
+   6554474.805647808,
+   198161.4016712955,
+   6554924.805647808
+  ],
+  "actual_bbox": [
+   197711.4016712955,
+   6554474.805647807,
+   198161.4016712955,
+   6554924.805647807
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:33+00:00",
+  "source_observation_date": null,
+  "sha256": "39a28e1c20157eb03196d8c77309cb71d736f1617d61971849e4420e8b57c278",
+  "elapsed_seconds": 2.67,
+  "bytes": 118948
+ },
+ {
+  "id": "detail-C031",
+  "bbox": [
+   195973.32990961458,
+   6552654.965141668,
+   196423.32990961458,
+   6553104.965141668
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195973.32990961458%2C6552654.965141668%2C196423.32990961458%2C6553104.965141668&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9b82c396b04c41b3806d586dca514dab.jpg",
+  "requested_bbox": [
+   195973.32990961458,
+   6552654.965141668,
+   196423.32990961458,
+   6553104.965141668
+  ],
+  "actual_bbox": [
+   195973.32990961458,
+   6552654.965141668,
+   196423.32990961458,
+   6553104.965141668
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:35+00:00",
+  "source_observation_date": null,
+  "sha256": "ce1aaf35d2ccdacdb28dd53859913794b92616445622e8d4fd08bd59e080757e",
+  "elapsed_seconds": 3.25,
+  "bytes": 125451
+ },
+ {
+  "id": "detail-C032",
+  "bbox": [
+   197801.75927273452,
+   6554339.522954428,
+   198251.75927273452,
+   6554789.522954428
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197801.75927273458%2C6554339.5229544295%2C198251.75927273458%2C6554789.5229544295&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3ca92b00eab34ce6a7bc8668fc7bca66.jpg",
+  "requested_bbox": [
+   197801.75927273458,
+   6554339.5229544295,
+   198251.75927273458,
+   6554789.5229544295
+  ],
+  "actual_bbox": [
+   197801.75927273452,
+   6554339.522954428,
+   198251.75927273452,
+   6554789.522954428
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:43+00:00",
+  "source_observation_date": null,
+  "sha256": "963b824a6a917310753a8dc784395927f3ef3c2d32e749b06834f795719b7fe4",
+  "elapsed_seconds": 9.36,
+  "bytes": 123477
+ },
+ {
+  "id": "detail-C034",
+  "bbox": [
+   198229.36642691414,
+   6553658.371375316,
+   198679.36642691414,
+   6554108.371375316
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198229.36642691414%2C6553658.371375316%2C198679.36642691414%2C6554108.371375316&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map604c672d581b44bcb32528502f9c3760.jpg",
+  "requested_bbox": [
+   198229.36642691414,
+   6553658.371375316,
+   198679.36642691414,
+   6554108.371375316
+  ],
+  "actual_bbox": [
+   198229.36642691414,
+   6553658.371375316,
+   198679.36642691414,
+   6554108.371375316
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:38+00:00",
+  "source_observation_date": null,
+  "sha256": "f33d487af9692f4d8d5c8c2552dea398d08b36f33f402b92372b485443941791",
+  "elapsed_seconds": 4.21,
+  "bytes": 124937
+ },
+ {
+  "id": "detail-C035",
+  "bbox": [
+   198090.29280578042,
+   6552742.25924146,
+   198934.536071182,
+   6553586.502506861
+  ],
+  "width": 1298,
+  "height": 1298,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198090.29280578095%2C6552742.25924146%2C198934.5360711816%2C6553586.502506861&bboxSR=25833&imageSR=25833&size=1298%2C1298&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7fabff6902e74943982d97a6f7ecf24d.jpg",
+  "requested_bbox": [
+   198090.29280578095,
+   6552742.25924146,
+   198934.5360711816,
+   6553586.502506861
+  ],
+  "actual_bbox": [
+   198090.29280578042,
+   6552742.25924146,
+   198934.536071182,
+   6553586.502506861
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:44+00:00",
+  "source_observation_date": null,
+  "sha256": "c5191455b99b1b2c22028b47a8c36d3a4c96142313fa876b386312074b1482db",
+  "elapsed_seconds": 8.97,
+  "bytes": 454133
+ },
+ {
+  "id": "detail-C037",
+  "bbox": [
+   198597.98901530396,
+   6552041.775738319,
+   199047.98901530396,
+   6552491.775738319
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198597.98901530396%2C6552041.775738319%2C199047.98901530396%2C6552491.775738319&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map23824192d9ba4f02a16287b8500bf9bd.jpg",
+  "requested_bbox": [
+   198597.98901530396,
+   6552041.775738319,
+   199047.98901530396,
+   6552491.775738319
+  ],
+  "actual_bbox": [
+   198597.98901530396,
+   6552041.775738319,
+   199047.98901530396,
+   6552491.775738319
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:40+00:00",
+  "source_observation_date": null,
+  "sha256": "058f7e8a60bb34c045b7dffda4be824d85d2c50b62d9a32577196b897bebebe7",
+  "elapsed_seconds": 5.05,
+  "bytes": 127630
+ },
+ {
+  "id": "detail-C038",
+  "bbox": [
+   198394.48588736425,
+   6551847.747875256,
+   198844.48588736425,
+   6552297.747875256
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198394.48588736428%2C6551847.747875256%2C198844.48588736428%2C6552297.747875256&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5f8bb974944049c6921f838b96fa1024.jpg",
+  "requested_bbox": [
+   198394.48588736428,
+   6551847.747875256,
+   198844.48588736428,
+   6552297.747875256
+  ],
+  "actual_bbox": [
+   198394.48588736425,
+   6551847.747875256,
+   198844.48588736425,
+   6552297.747875256
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:40+00:00",
+  "source_observation_date": null,
+  "sha256": "0e28f2bb94dd393232eda16be3660726409266dd30554c0aaf617bd7c66513fe",
+  "elapsed_seconds": 1.87,
+  "bytes": 133813
+ },
+ {
+  "id": "detail-C040",
+  "bbox": [
+   198597.56454907765,
+   6550986.527602933,
+   199047.56454907765,
+   6551436.527602933
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198597.56454907765%2C6550986.527602933%2C199047.56454907765%2C6551436.527602933&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map543031c04abe41369e72d85e483c8286.jpg",
+  "requested_bbox": [
+   198597.56454907765,
+   6550986.527602933,
+   199047.56454907765,
+   6551436.527602933
+  ],
+  "actual_bbox": [
+   198597.56454907765,
+   6550986.527602933,
+   199047.56454907765,
+   6551436.527602933
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:44+00:00",
+  "source_observation_date": null,
+  "sha256": "989318d4b07ccf67d85c75b1bc1be1d481e31d6b8e1a203e94712cb56ecb556c",
+  "elapsed_seconds": 3.74,
+  "bytes": 144072
+ },
+ {
+  "id": "detail-M02",
+  "bbox": [
+   194127.99999999997,
+   6548992,
+   194577.99999999997,
+   6549442
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194128.0%2C6548992.0%2C194578.0%2C6549442.0&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map262be8a4c4e0449591175c316bfac0ed.jpg",
+  "requested_bbox": [
+   194128.0,
+   6548992.0,
+   194578.0,
+   6549442.0
+  ],
+  "actual_bbox": [
+   194127.99999999997,
+   6548992,
+   194577.99999999997,
+   6549442
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:44+00:00",
+  "source_observation_date": null,
+  "sha256": "b36e6651c653ca1af10c201a3c56c0e64b7f4176d6b8d724d4e509913428a6f3",
+  "elapsed_seconds": 3.74,
+  "bytes": 126546
+ },
+ {
+  "id": "detail-M03",
+  "bbox": [
+   193432,
+   6558028,
+   193882,
+   6558478
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193432.0%2C6558028.0%2C193882.0%2C6558478.0&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6142ddac1b994b7ea7a2830dad705378.jpg",
+  "requested_bbox": [
+   193432.0,
+   6558028.0,
+   193882.0,
+   6558478.0
+  ],
+  "actual_bbox": [
+   193432,
+   6558028,
+   193882,
+   6558478
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:48+00:00",
+  "source_observation_date": null,
+  "sha256": "51ca09bf1e691cec6acf26830d1c75771d49bb12c7bfbd42a5d032e4122b88cd",
+  "elapsed_seconds": 4.9,
+  "bytes": 150010
+ },
+ {
+  "id": "detail-M08",
+  "bbox": [
+   190308,
+   6547228,
+   190758,
+   6547678
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190308.0%2C6547228.0%2C190758.0%2C6547678.0&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map8978dbf68df949d08fad80b57e5f3e33.jpg",
+  "requested_bbox": [
+   190308.0,
+   6547228.0,
+   190758.0,
+   6547678.0
+  ],
+  "actual_bbox": [
+   190308,
+   6547228,
+   190758,
+   6547678
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:48+00:00",
+  "source_observation_date": null,
+  "sha256": "dc052451605b95f05903cfae16c9902b31477bfe903af440feb31e33a4d4ed0b",
+  "elapsed_seconds": 3.79,
+  "bytes": 132873
+ },
+ {
+  "id": "detail-M11",
+  "bbox": [
+   187655,
+   6544574.999999998,
+   188105,
+   6545024.999999998
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=187655.0%2C6544575.0%2C188105.0%2C6545025.0&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa61d38ec49bc4e7d8963cf6158b36967.jpg",
+  "requested_bbox": [
+   187655.0,
+   6544575.0,
+   188105.0,
+   6545025.0
+  ],
+  "actual_bbox": [
+   187655,
+   6544574.999999998,
+   188105,
+   6545024.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:57+00:00",
+  "source_observation_date": null,
+  "sha256": "1f738fbe6848f6eff472cab35b19192989048ecaa068b1e9f8f5964ec51789ba",
+  "elapsed_seconds": 12.87,
+  "bytes": 129361
+ },
+ {
+  "id": "detail-M12",
+  "bbox": [
+   198475,
+   6555301,
+   198925,
+   6555751
+  ],
+  "width": 700,
+  "height": 700,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198475.0%2C6555301.0%2C198925.0%2C6555751.0&bboxSR=25833&imageSR=25833&size=700%2C700&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map80618c90fb3a4ece98358f13040f1eba.jpg",
+  "requested_bbox": [
+   198475.0,
+   6555301.0,
+   198925.0,
+   6555751.0
+  ],
+  "actual_bbox": [
+   198475,
+   6555301,
+   198925,
+   6555751
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:19:48+00:00",
+  "source_observation_date": null,
+  "sha256": "eb0a30a75a5b0e6e3c9800ca1e575eed537b278a3c5093eb8d3b4a324bfdcb40",
+  "elapsed_seconds": 4.23,
+  "bytes": 127576
+ },
+ {
+  "id": "detail-M13",
+  "bbox": [
+   189750,
+   6546910,
+   190050,
+   6547210
+  ],
+  "width": 450,
+  "height": 450,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189750.0%2C6546910.0%2C190050.0%2C6547210.0&bboxSR=25833&imageSR=25833&size=450%2C450&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7a5504a0cff643bbb0b7dec71ae96f74.jpg",
+  "requested_bbox": [
+   189750.0,
+   6546910.0,
+   190050.0,
+   6547210.0
+  ],
+  "actual_bbox": [
+   189750,
+   6546910,
+   190050,
+   6547210
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:44:54+00:00",
+  "source_observation_date": null,
+  "sha256": "cd12295715476484f280136f87e065e4d86c0643893d0d54e44bcf4dfb233ba4",
+  "elapsed_seconds": 1.91,
+  "bytes": 53675
+ },
+ {
+  "id": "detail-M14",
+  "bbox": [
+   190490,
+   6545700,
+   190790,
+   6546000
+  ],
+  "width": 450,
+  "height": 450,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=190490.0%2C6545700.0%2C190790.0%2C6546000.0&bboxSR=25833&imageSR=25833&size=450%2C450&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map96bf438379f743d4820298a226baf1f4.jpg",
+  "requested_bbox": [
+   190490.0,
+   6545700.0,
+   190790.0,
+   6546000.0
+  ],
+  "actual_bbox": [
+   190490,
+   6545700,
+   190790,
+   6546000
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:44:54+00:00",
+  "source_observation_date": null,
+  "sha256": "1a9c3a876b07a113efd699fc6390a262e02ff258508cab0bf6d8a3063c22424f",
+  "elapsed_seconds": 2.52,
+  "bytes": 57753
+ },
+ {
+  "id": "detail-U01",
+  "bbox": [
+   189125,
+   6545374.999999999,
+   189575,
+   6545824.999999999
+  ],
+  "width": 674,
+  "height": 674,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189125.0%2C6545375.0%2C189575.0%2C6545825.0&bboxSR=25833&imageSR=25833&size=674%2C674&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapabac434291a1491b898b2968a6749189.jpg",
+  "requested_bbox": [
+   189125.0,
+   6545375.0,
+   189575.0,
+   6545825.0
+  ],
+  "actual_bbox": [
+   189125,
+   6545374.999999999,
+   189575,
+   6545824.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:12+00:00",
+  "source_observation_date": null,
+  "sha256": "df64084778cf9e9603980f9437a3b7121a148113c4b38a7240757108d95b09fd",
+  "elapsed_seconds": 4.79,
+  "bytes": 131743
+ },
+ {
+  "id": "detail-U02",
+  "bbox": [
+   189950.00000000003,
+   6545200.000000001,
+   190550.00000000003,
+   6545800.000000001
+  ],
+  "width": 899,
+  "height": 899,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189950.0%2C6545200.0%2C190550.0%2C6545800.0&bboxSR=25833&imageSR=25833&size=899%2C899&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4aed46383b8f41c88d0566950e3abbfc.jpg",
+  "requested_bbox": [
+   189950.0,
+   6545200.0,
+   190550.0,
+   6545800.0
+  ],
+  "actual_bbox": [
+   189950.00000000003,
+   6545200.000000001,
+   190550.00000000003,
+   6545800.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:14+00:00",
+  "source_observation_date": null,
+  "sha256": "e8f9f972f74e90a31a7579113ab27c80fb67f30d37ecc5c1964b0dfdd24ad6fc",
+  "elapsed_seconds": 6.87,
+  "bytes": 229345
+ },
+ {
+  "id": "detail-U03",
+  "bbox": [
+   194075.00000000003,
+   6551355,
+   194525.00000000003,
+   6551805
+  ],
+  "width": 674,
+  "height": 674,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194075.0%2C6551355.0%2C194525.0%2C6551805.0&bboxSR=25833&imageSR=25833&size=674%2C674&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4167130747a1411cbe15966e69b443ec.jpg",
+  "requested_bbox": [
+   194075.0,
+   6551355.0,
+   194525.0,
+   6551805.0
+  ],
+  "actual_bbox": [
+   194075.00000000003,
+   6551355,
+   194525.00000000003,
+   6551805
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:10+00:00",
+  "source_observation_date": null,
+  "sha256": "9688aa106c804e4a02058086ef8fb358b8296059696b1231d260ecf972083802",
+  "elapsed_seconds": 2.09,
+  "bytes": 123047
+ },
+ {
+  "id": "detail-U04",
+  "bbox": [
+   195650,
+   6552459.999999999,
+   196250,
+   6553059.999999999
+  ],
+  "width": 899,
+  "height": 899,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195650.0%2C6552460.0%2C196250.0%2C6553060.0&bboxSR=25833&imageSR=25833&size=899%2C899&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape97feedcb6e74ef798693ffaf8c26c28.jpg",
+  "requested_bbox": [
+   195650.0,
+   6552460.0,
+   196250.0,
+   6553060.0
+  ],
+  "actual_bbox": [
+   195650,
+   6552459.999999999,
+   196250,
+   6553059.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:15+00:00",
+  "source_observation_date": null,
+  "sha256": "6a60258ef7cc84dd4cf2f948886611ff3aeb7034bcd121e6a6004fa5053b7a4f",
+  "elapsed_seconds": 6.94,
+  "bytes": 223541
+ },
+ {
+  "id": "detail-U05",
+  "bbox": [
+   188949.99999999994,
+   6544630,
+   189349.99999999994,
+   6545030
+  ],
+  "width": 599,
+  "height": 599,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=188950.0%2C6544630.0%2C189350.0%2C6545030.0&bboxSR=25833&imageSR=25833&size=599%2C599&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4a08dcb960e3421097967d583b6b788f.jpg",
+  "requested_bbox": [
+   188950.0,
+   6544630.0,
+   189350.0,
+   6545030.0
+  ],
+  "actual_bbox": [
+   188949.99999999994,
+   6544630,
+   189349.99999999994,
+   6545030
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:11+00:00",
+  "source_observation_date": null,
+  "sha256": "5126a64e5992d7dd353a5e4499d88c3d4f9f8ad90ba744174c519310acda0b42",
+  "elapsed_seconds": 1.5,
+  "bytes": 105371
+ },
+ {
+  "id": "detail-U06",
+  "bbox": [
+   198310,
+   6551450.000000002,
+   198810,
+   6551950.000000002
+  ],
+  "width": 749,
+  "height": 749,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=198310.0%2C6551450.0%2C198810.0%2C6551950.0&bboxSR=25833&imageSR=25833&size=749%2C749&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9d2f4ffd89954f62af03c4db33e4c661.jpg",
+  "requested_bbox": [
+   198310.0,
+   6551450.0,
+   198810.0,
+   6551950.0
+  ],
+  "actual_bbox": [
+   198310,
+   6551450.000000002,
+   198810,
+   6551950.000000002
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:15+00:00",
+  "source_observation_date": null,
+  "sha256": "a5c593ac8125c951dc848704ae06ada31c71c5c406308dd70cbd6c5194aa0a8d",
+  "elapsed_seconds": 3.35,
+  "bytes": 170440
+ },
+ {
+  "id": "detail-U07",
+  "bbox": [
+   195430,
+   6549935,
+   195630,
+   6550135
+  ],
+  "width": 299,
+  "height": 299,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=195430.0%2C6549935.0%2C195630.0%2C6550135.0&bboxSR=25833&imageSR=25833&size=299%2C299&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapefed18abc3dc4b1a88cb564a0497330f.jpg",
+  "requested_bbox": [
+   195430.0,
+   6549935.0,
+   195630.0,
+   6550135.0
+  ],
+  "actual_bbox": [
+   195430,
+   6549935,
+   195630,
+   6550135
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:54:14+00:00",
+  "source_observation_date": null,
+  "sha256": "425ec8203fad0b3f6f209c852b95c659f27ce37c87b343eb59c82a6ff32a1fec",
+  "elapsed_seconds": 1.13,
+  "bytes": 27910
+ },
+ {
+  "id": "detail-U08",
+  "bbox": [
+   189840,
+   6545230,
+   190140,
+   6545530
+  ],
+  "width": 449,
+  "height": 449,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=189840.0%2C6545230.0%2C190140.0%2C6545530.0&bboxSR=25833&imageSR=25833&size=449%2C449&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9e78714fb03f48e7a9fdc6ecf1db0959.jpg",
+  "requested_bbox": [
+   189840.0,
+   6545230.0,
+   190140.0,
+   6545530.0
+  ],
+  "actual_bbox": [
+   189840,
+   6545230,
+   190140,
+   6545530
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:55:55+00:00",
+  "source_observation_date": null,
+  "sha256": "24188881e6a2dac8821174effc75433b47f1a7a5eeaf20629f81548cc4ecefa5",
+  "elapsed_seconds": 1.46,
+  "bytes": 54476
+ },
+ {
+  "id": "detail-U09",
+  "bbox": [
+   194170,
+   6551220.000000001,
+   194670,
+   6551720.000000001
+  ],
+  "width": 749,
+  "height": 749,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=194170.0%2C6551220.0%2C194670.0%2C6551720.0&bboxSR=25833&imageSR=25833&size=749%2C749&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map07c8f72ef16444dda292957a90683b9e.jpg",
+  "requested_bbox": [
+   194170.0,
+   6551220.0,
+   194670.0,
+   6551720.0
+  ],
+  "actual_bbox": [
+   194170,
+   6551220.000000001,
+   194670,
+   6551720.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:55:56+00:00",
+  "source_observation_date": null,
+  "sha256": "7b9d609db35d062d43604b48f2dc1945aea082cbbf2ce0a6bed83b195ec0e5bd",
+  "elapsed_seconds": 2.92,
+  "bytes": 139463
+ },
+ {
+  "id": "detail-U10",
+  "bbox": [
+   197950,
+   6550849.999999998,
+   198550,
+   6551449.999999998
+  ],
+  "width": 899,
+  "height": 899,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=197950.0%2C6550850.0%2C198550.0%2C6551450.0&bboxSR=25833&imageSR=25833&size=899%2C899&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map127470d0d5dc4e33a4f169bebbcea7cc.jpg",
+  "requested_bbox": [
+   197950.0,
+   6550850.0,
+   198550.0,
+   6551450.0
+  ],
+  "actual_bbox": [
+   197950,
+   6550849.999999998,
+   198550,
+   6551449.999999998
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:55:57+00:00",
+  "source_observation_date": null,
+  "sha256": "dd7ad4ab82cd2e9ae0494e3d0cf1e9917e6a196a574130f86b448cee53a492c6",
+  "elapsed_seconds": 4.07,
+  "bytes": 248039
+ },
+ {
+  "id": "detail-U11",
+  "bbox": [
+   193500,
+   6551150,
+   194500,
+   6552150
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=193500%2C6551150%2C194500%2C6552150&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbb9439591cea4e389ea47b055884d132.jpg",
+  "requested_bbox": [
+   193500,
+   6551150,
+   194500,
+   6552150
+  ],
+  "actual_bbox": [
+   193500,
+   6551150,
+   194500,
+   6552150
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:57:00+00:00",
+  "source_observation_date": null,
+  "sha256": "02aa993862168fdc77429a5de0a64ee17303cc057a73ea21a5fd2ac7817fa26b",
+  "elapsed_seconds": 44.84,
+  "bytes": 551929
+ },
+ {
+  "id": "inland-183600-6546600",
+  "bbox": [
+   183450,
+   6546450,
+   184650,
+   6547650
+  ],
+  "width": 1500,
+  "height": 1500,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=183450%2C6546450%2C184650%2C6547650&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapfb5a3557ebef43cfa0dbc1292f76af32.jpg",
+  "requested_bbox": [
+   183450,
+   6546450,
+   184650,
+   6547650
+  ],
+  "actual_bbox": [
+   183450,
+   6546450,
+   184650,
+   6547650
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T13:15:58+00:00",
+  "source_observation_date": null,
+  "sha256": "544d12ea0ce019f9e6ea509e385865541cd3cb0a96cfe3f44ab5063989c1ed36",
+  "elapsed_seconds": 54.22,
+  "bytes": 710786
+ }
+]
