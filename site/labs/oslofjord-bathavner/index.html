@@ -27,6 +27,7 @@ html,body{margin:0;height:100%;background:var(--abyss);color:var(--foam);font:14
 #map{position:fixed;inset:0}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
 .glass{background:var(--glass);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.mobile-copy{display:none}
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 svg{display:block}
 
@@ -188,6 +189,9 @@ svg{display:block}
 .maplibregl-ctrl-bottom-right{bottom:0}
 
 @media (max-width:720px){
+  .desktop-copy{display:none}
+  .mobile-copy{display:inline}
+  #intro .eyebrow,#intro .odp{display:none}
   #hud .read{display:none}
   #compass{width:44px;height:44px}
   #brand{max-width:calc(100vw - 14px - 14px - 44px - 14px)}
@@ -218,9 +222,9 @@ svg{display:block}
 <header id="brand" class="glass">
   <div class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#46d3c6" stroke-width="2.2" stroke-linecap="round"><path d="M12 3v16M7 7h10M4 13c1 5 4.5 7 8 7s7-2 8-7"/></svg></div>
   <div>
-    <h1>Oslofjord small-boat harbours</h1>
+    <h1><span class="desktop-copy">Oslofjord small-boat harbours</span><span class="mobile-copy">Oslofjord harbours</span></h1>
     <div class="sub" id="stats">–</div>
-    <div class="by"><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Powered by the Ocean Data Platform ↗</a></div>
+    <div class="by"><a href="https://app.hubocean.earth/" target="_blank" rel="noopener"><span class="desktop-copy">Powered by the Ocean Data Platform ↗</span><span class="mobile-copy">Ocean Data Platform ↗</span></a></div>
     <div class="legend"><span><i style="background:var(--harbour)"></i>Harbour</span><span><i style="background:var(--possible)"></i>Possible</span><span><i style="background:var(--pilot)"></i>Pilot</span><span><i style="background:transparent;border:1px dashed var(--todo)"></i>Not yet mapped</span></div>
   </div>
 </header>
@@ -265,6 +269,8 @@ svg{display:block}
   <div class="eyebrow">About</div>
   <h2>Small-boat harbours of the Oslofjord</h2>
   <p>This map shows the physical outline of every small-boat harbour found so far in the municipalities around the inner and outer Oslofjord: piers, berths and the water between them. <b id="aboutStats">456 polygons from 14 municipalities</b> are mapped; the municipalities marked <span style="color:var(--todo)">not yet mapped</span> are next.</p>
+  <h3>Flyover route</h3>
+  <p>Start in Oslo, head south-west down the fjord, then cross over and fly north again.</p>
   <h3>What counts as a harbour</h3>
   <p>A shared facility with at least 10 berths, or a documented marina or boat club with permanent berths. Scattered private piers, bathing piers, ferry quays and planned facilities are left out.</p>
   <div class="cls"><span class="badge" style="background:var(--harbour)">Harbour</span><span class="badge" style="background:var(--possible)">Possible harbour</span><span class="badge" style="background:var(--pilot)">Pilot (map-based)</span></div>
@@ -354,13 +360,13 @@ svg{display:block}
 <div id="intro">
   <div class="box">
     <div class="eyebrow">Oslofjord · Norway</div>
-    <h2>Fly over every small-boat harbour in the Oslofjord</h2>
-    <p id="introP">Mapped from aerial imagery, OpenStreetMap and public registers. Start in Oslo, head south-west down the fjord, then cross over and fly north again.</p>
+    <h2><span class="desktop-copy">Fly over every small-boat harbour in the Oslofjord</span><span class="mobile-copy">Explore the Oslofjord</span></h2>
+    <p id="introP"><span class="desktop-copy">Mapped from aerial imagery, OpenStreetMap and public registers. Start in Oslo, head south-west down the fjord, then cross over and fly north again.</span><span class="mobile-copy">Discover mapped small-boat harbours in 3D.</span></p>
     <div class="btns">
-      <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Start the flyover</button>
-      <button class="cta sec" id="explore">Explore freely</button>
+      <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="desktop-copy">Start the flyover</span><span class="mobile-copy">Start tour</span></button>
+      <button class="cta sec" id="explore"><span class="desktop-copy">Explore freely</span><span class="mobile-copy">Explore map</span></button>
     </div>
-    <button class="howlink" id="howBtn">How was this mapped? Data sources, method and AI models →</button>
+    <button class="howlink" id="howBtn"><span class="desktop-copy">How was this mapped? Data sources, method and AI models →</span><span class="mobile-copy">About the mapping →</span></button>
     <div class="odp">Powered by the <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> from <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a></div>
   </div>
 </div>
@@ -452,7 +458,7 @@ function init() {
     geometry: { type: 'Point', coordinates: [f.properties.lx, f.properties.ly] }, properties: f.properties })) };
 
   const nMapped = M.features.filter(f => f.properties.state === 'mapped').length;
-  $('stats').innerHTML = `<b>${fmt(Object.keys(harbours).length)}</b> harbours · <b>${fmt(H.features.length)}</b> polygons · <b>${nMapped}</b> municipalities`;
+  $('stats').innerHTML = `<span class="desktop-copy"><b>${fmt(Object.keys(harbours).length)}</b> harbours · <b>${fmt(H.features.length)}</b> polygons · <b>${nMapped}</b> municipalities</span><span class="mobile-copy"><b>${fmt(Object.keys(harbours).length)}</b> harbours · <b>${nMapped}</b> municipalities</span>`;
 
   map.addSource('muni', { type: 'geojson', data: M });
   map.addSource('muniLbl', { type: 'geojson', data: muniLabels });
