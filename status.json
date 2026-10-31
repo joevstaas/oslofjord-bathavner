@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T14:27:49Z",
+ "updated_utc": "2026-10-31T14:40:18+00:00",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -354,6 +354,36 @@
    "uncertain_geometries": 68,
    "approved_utc": "2026-10-31T14:27:49Z",
    "work_dir": "work/3110-hvaler"
+  },
+  {
+   "name": "Bamble",
+   "code": "4012",
+   "status": "til_godkjenning",
+   "revision": 2,
+   "method_version": "1.2",
+   "schema_version": "1.1",
+   "started_utc": "2026-10-31T12:46:34.666321+00:00",
+   "finished_utc": "2026-10-31T14:40:18+00:00",
+   "elapsed_wall_seconds": 4396,
+   "result": "data/kommuner/4012-bamble/rev-02/bathavner.geojson",
+   "metadata": "data/kommuner/4012-bamble/rev-02/metadata.csv",
+   "candidate_ledger": "data/kommuner/4012-bamble/rev-02/candidate-ledger.json",
+   "polygons": 59,
+   "harbours": 53,
+   "possible_harbours": 13,
+   "uncertain_geometries": 33,
+   "approved_utc": null,
+   "work_dir": "work/4012-bamble",
+   "first_delivery_elapsed_wall_seconds": 3105,
+   "elapsed_note": "elapsed_wall_seconds inkluderer venting på bruker før rettingsrundene.",
+   "previous_revision": "data/kommuner/4012-bamble/rev-01",
+   "detail_review_completed": true,
+   "detail_sweep_cells": 255,
+   "detail_sweep_sheets": 64,
+   "revision02_elapsed_wall_seconds": 585,
+   "revision02_timing_scope": "Fra opprettelse av detaljpanelverktøy. Innledende fil- og bildegjennomgang før dette er ikke målt.",
+   "remaining_limitations": "Skydekte deler av industrikysten; ukjent bildedato og drift. H39 er kandidat til Kyststien-bassenget, identitet ikke bekreftet.",
+   "revision02_started_utc": "2026-10-31T14:30:33.553202+00:00"
   }
  ],
  "next_municipality_started": false,
@@ -373,7 +403,7 @@
   "finished_utc": "2026-10-30T00:04:27Z",
   "approved_utc": "2026-10-30T05:46:52Z"
  },
- "in_progress": "Hvaler rev-01 godkjent og innlemmet. Samlet 571 polygoner / 19 kommuner. Ingen neste kommune startet.",
+ "in_progress": "Bamble rev-02 etter fullført detaljgjennomgang: 59 polygoner / 53 anleggsgrupper, inkludert 13 mulige. 15 nye grupper / 16 polygoner. Til godkjenning; samledata og nettsted uendret. Skydekte deler fortsatt kontrollhull.",
  "remaining_after_batch": [
   "Sarpsborg 3105",
   "Halden 3101",

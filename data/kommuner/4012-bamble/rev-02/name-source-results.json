@@ -1,0 +1,3860 @@
+{
+ "N01": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6551345.0&ost=196330.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.455815+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6551345.0&ost=196330.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 6,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 103,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551348.39969,
+      "øst": 196084.40009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kruksdalen",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048229,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 363,
+     "navneobjekttype": "Båe i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551641.14795,
+      "øst": 196541.39707
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rognsbåen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 85426,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 343,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551454.17286,
+      "øst": 196004.80033
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kruk",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 845689,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 149,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551274.24176,
+      "øst": 196197.46719
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Krukodden",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Krokodden",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 304581,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 295,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551077.39467,
+      "øst": 196204.12828
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kruksholet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 784664,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 319,
+     "navneobjekttype": "Våg i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551196.33936,
+      "øst": 197047.16147
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rognsfjorden",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 61547,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N02": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6551490.0&ost=198610.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.456974+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6551490.0&ost=198610.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 20,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 58,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551622.7197,
+      "øst": 198543.45008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vaterlands gate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051234,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 60,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551496.5997,
+      "øst": 198514.30008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "E. Eilertsens gate",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048152,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 95,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551496.5997,
+      "øst": 198514.30008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Furulundveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050519,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 95,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551974.1197,
+      "øst": 198469.60008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Storgata",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051094,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 148,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551494.8997,
+      "øst": 198461.50008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Åshusveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051423,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 151,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551594.8997,
+      "øst": 198454.20008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skougaards gate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051133,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 154,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551430.1097,
+      "øst": 198464.21008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stouslands plass",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051122,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 165,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551416.9997,
+      "øst": 198461.80008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tangenveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051403,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 224,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551647.3097,
+      "øst": 198450.36008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stenvikveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051018,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 234,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551766.1397,
+      "øst": 198527.60008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Fiskerstredet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050443,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 234,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551711.4997,
+      "øst": 198533.80008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Åsengate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051430,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 283,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551463.9997,
+      "øst": 198318.00008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Linaaes gate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050855,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 336,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551832.4997,
+      "øst": 198322.40008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Solveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051070,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 365,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551845.7997,
+      "øst": 198524.30008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Clarks gate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050150,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 367,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551764.1997,
+      "øst": 198365.70008
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "K Sundts vei",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050553,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N03": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6549440.0&ost=192880.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.460832+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6549440.0&ost=192880.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 16,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 71,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549424.00543,
+      "øst": 192809.80137
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985809,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 176,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549607.12281,
+      "øst": 192824.58803
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985808,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 208,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549600.70162,
+      "øst": 193012.68582
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985812,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 354,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549680.62975,
+      "øst": 193140.65437
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 980444,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 27,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545161.71965,
+      "øst": 187112.18012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Valleveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047600,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 217,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549512.66968,
+      "øst": 193188.4901
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Elvikveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047570,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 276,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549449.59045,
+      "øst": 192603.57299
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Breviksmyra",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "undernavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 2
+      }
+     ],
+     "stedsnummer": 985825,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 277,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549471.27968,
+      "øst": 193230.9401
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Svensvikveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 605736,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 300,
+     "navneobjekttype": "Grend",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549622.8247,
+      "øst": 193135.97812
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brevikstranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 911874,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 342,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549356.02967,
+      "øst": 192536.6401
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brevikstrandfjorden",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 120757,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 227,
+     "navneobjekttype": "Gard",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549597.14518,
+      "øst": 193045.01009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Brevik",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 789886,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 304,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549249.49021,
+      "øst": 192642.94701
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Veitholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 221156,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 188,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549236.34841,
+      "øst": 192861.02304
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bjønnbukta",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 342173,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 203,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549475.65237,
+      "øst": 193080.71747
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kilen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 342152,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 310,
+     "navneobjekttype": "Navnegard",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549403.16779,
+      "øst": 192572.14849
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brevik",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 980445,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N04": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6548050.0&ost=192025.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.457292+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6548050.0&ost=192025.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 4,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 39,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6548302.79967,
+      "øst": 191883.4001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rakkestadveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048330,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 57,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6548219.89967,
+      "øst": 192015.7001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Smørviktangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 969809,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 136,
+     "navneobjekttype": "Strand i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547903.40461,
+      "øst": 191849.87526
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rakkestadstranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 62897,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 249,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547970.9747,
+      "øst": 192261.63125
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Smørviktangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 706394,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N05": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6547600.0&ost=190600.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.571838+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6547600.0&ost=190600.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 12,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 94,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546170.83967,
+      "øst": 190837.1301
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøyaveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985892,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 136,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547523.09966,
+      "øst": 190765.5001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjøykroken",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 120811,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 157,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547207.30967,
+      "øst": 190919.9901
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjøyaveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 363775,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 182,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547788.39966,
+      "øst": 190675.7001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Sandvikveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047979,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 217,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545161.71965,
+      "øst": 187112.18012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Valleveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047600,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 260,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547530.01966,
+      "øst": 190170.05011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lisbetstranda",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 727830,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 270,
+     "navneobjekttype": "Gard",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547881.55802,
+      "øst": 190763.40198
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Trosby",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 183897,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 76,
+     "navneobjekttype": "Strand i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547581.48696,
+      "øst": 190674.34822
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brennevinstranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 889424,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 337,
+     "navneobjekttype": "Bru",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547709.86696,
+      "øst": 190281.05512
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kvernbekken",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 653304,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 349,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547906.98181,
+      "øst": 190433.07988
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stuås",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 706400,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 372,
+     "navneobjekttype": "Mo",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547406.25459,
+      "øst": 190282.04324
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Buvollen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 911884,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 393,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547803.88941,
+      "øst": 190936.72541
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Løkkås",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 221396,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N06": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6547185.0&ost=190560.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.569365+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6547185.0&ost=190560.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 8,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 57,
+     "navneobjekttype": "Høyde",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547156.54606,
+      "øst": 190610.18143
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 509454,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 158,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546170.83967,
+      "øst": 190837.1301
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøyaveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985892,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 274,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547207.30967,
+      "øst": 190919.9901
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjøyaveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 363775,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 352,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547523.09966,
+      "øst": 190765.5001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjøykroken",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 120811,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 375,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546822.59438,
+      "øst": 190657.89672
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rødnes",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 365921,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 387,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547530.01966,
+      "øst": 190170.05011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lisbetstranda",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 727830,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 396,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547309.81966,
+      "øst": 190184.01011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjørstadsletta",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 181846,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 329,
+     "navneobjekttype": "Mo",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547406.25459,
+      "øst": 190282.04324
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Buvollen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 911884,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N07": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6546840.0&ost=189610.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.572910+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6546840.0&ost=189610.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 9,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 104,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547082.09966,
+      "øst": 189519.50011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjerra",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 605843,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 228,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547176.59966,
+      "øst": 189756.20011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 545829,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 312,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547024.58966,
+      "øst": 189275.32011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjørstadstranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 969836,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 330,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547148.5477,
+      "øst": 189492.78215
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjerra",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 365919,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 387,
+     "navneobjekttype": "Strand i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547046.51241,
+      "øst": 189937.85222
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 982084,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 390,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547196.17535,
+      "øst": 189449.44467
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Fløyås",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 342600,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 258,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546805.46593,
+      "øst": 189866.18929
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Grosholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 729901,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 374,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546619.90652,
+      "øst": 189913.31194
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Byttingholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 24483,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 291,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6547057.93168,
+      "øst": 189410.9552
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Sandvika",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 668902,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N08": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6546720.0&ost=190810.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.576179+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6546720.0&ost=190810.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 12,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 22,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546706.18966,
+      "øst": 190781.3801
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tonerhavna",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 666794,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 28,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546170.83967,
+      "øst": 190837.1301
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøyaveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985892,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 50,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546544.45967,
+      "øst": 191001.4101
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Gamle Kjønnøyavei",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 302798,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 170,
+     "navneobjekttype": "Bakke",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546618.80276,
+      "øst": 190947.50246
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøybakken",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985848,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 183,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546545.16699,
+      "øst": 190864.15488
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985845,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 183,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546822.59438,
+      "øst": 190657.89672
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rødnes",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 365921,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 253,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546688.02094,
+      "øst": 190558.79584
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 985847,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 358,
+     "navneobjekttype": "Gard",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546361.78446,
+      "øst": 190833.61888
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjønnøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tjørnøya",
+       "skrivemåtestatus": "historisk",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 607898,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 265,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546914.38265,
+      "øst": 190991.33562
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "De brente holmane",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 342396,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 261,
+     "navneobjekttype": "Sund i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546948.95135,
+      "øst": 190936.33249
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Strømsundet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 342397,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 289,
+     "navneobjekttype": "Øy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546444.9131,
+      "øst": 190899.3937
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Ytre Kjønnøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 282324,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 304,
+     "navneobjekttype": "Øy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546753.3216,
+      "øst": 190507.66381
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Indre Kjønnøya",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 160387,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N09": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6546281.0&ost=189157.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.668940+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6546281.0&ost=189157.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 7,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 92,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546157.79966,
+      "øst": 188883.24011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Håvøyveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 120826,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 300,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545353.67966,
+      "øst": 189620.13011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Grunnsundveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048124,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 352,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546015.79966,
+      "øst": 188924.40011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Fløyåsveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047955,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 252,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546040.20558,
+      "øst": 189080.25667
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Spertangheia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 767819,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 252,
+     "navneobjekttype": "Nes",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546040.20558,
+      "øst": 189080.25667
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Sperrtangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 283290,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 290,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546532.62981,
+      "øst": 189011.481
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brennevinsholmane",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 889549,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 211,
+     "navneobjekttype": "Øy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546316.25603,
+      "øst": 189365.80371
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Håvøya",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Hovøya",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1903,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N10": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6545750.0&ost=189645.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.680065+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6545750.0&ost=189645.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 9,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 10,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545432.99966,
+      "øst": 189580.60011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Hafsundveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 60853,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 26,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545442.44966,
+      "øst": 189550.88011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Håvøytangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 787820,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 302,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545353.67966,
+      "øst": 189620.13011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Grunnsundveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048124,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 325,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545536.49966,
+      "øst": 190085.30011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Hafsundsvingen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 605837,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 391,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545360.33188,
+      "øst": 189683.77773
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Grunnsund",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 668924,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 262,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545817.38302,
+      "øst": 190175.1942
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rødlandet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 911927,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 283,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545923.76323,
+      "øst": 189420.72422
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Håvøytangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 767002,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 384,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545798.31151,
+      "øst": 190026.72282
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tubukta",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 403335,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 362,
+     "navneobjekttype": "Fjord",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6546480.02171,
+      "øst": 189837.45679
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Trosbyfjorden",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 183906,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N11": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6545040.0&ost=186310.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.674824+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6545040.0&ost=186310.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 11,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 156,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545368.96964,
+      "øst": 186085.43012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Isnesbukta",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 727824,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 314,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545356.65964,
+      "øst": 186402.12012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vestre Vågøy",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 181911,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 329,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545380.50964,
+      "øst": 186394.69012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lille Furuholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 727911,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 344,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545291.73964,
+      "øst": 185949.76012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Isnesheia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 60918,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 350,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545399.33964,
+      "øst": 186402.62012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Østre Vågøy",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 787896,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 370,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545339.95964,
+      "øst": 185757.16012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vallekjær",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048089,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 290,
+     "navneobjekttype": "Ås",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545327.38918,
+      "øst": 186268.97792
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Isnesheia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 891752,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 160,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6544942.65301,
+      "øst": 186456.1522
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Isnestangen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 692999,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 323,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6544980.28299,
+      "øst": 185992.23331
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bikjeholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 267994,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 341,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6545334.48778,
+      "øst": 186482.39175
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Prestvika",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "undernavn",
+       "skrivemåte": "Prestvika",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 2
+      }
+     ],
+     "stedsnummer": 328486,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 378,
+     "navneobjekttype": "Øy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6544992.58728,
+      "øst": 186685.45217
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tveitholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "undernavn",
+       "skrivemåte": "Tveitholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 2
+      }
+     ],
+     "stedsnummer": 769966,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N12": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6544351.0&ost=186765.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.689084+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6544351.0&ost=186765.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 2,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 98,
+     "navneobjekttype": "Gard",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6544443.36648,
+      "øst": 186798.84256
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vågøya",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 980440,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 221,
+     "navneobjekttype": "Øy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6544106.80919,
+      "øst": 187580.53512
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vågøy",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vågøya",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1660,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N13": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6558300.0&ost=192660.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.751068+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6558300.0&ost=192660.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 9,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 87,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558279.68967,
+      "øst": 192541.1201
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skjerkøyveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048108,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 120,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556733.40968,
+      "øst": 194629.02009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Herreveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050382,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 201,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558113.47967,
+      "øst": 192583.3801
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "historisk",
+       "skrivemåte": "Sødholtveien",
+       "skrivemåtestatus": "historisk og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051323,
+     "stedstatus": "relikt"
+    },
+    {
+     "meterFraPunkt": 223,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558438.11408,
+      "øst": 192479.66406
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skjerke",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 183403,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 295,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558021.73441,
+      "øst": 192758.56056
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Burvall",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 305476,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 307,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558253.99967,
+      "øst": 193079.4001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Isdammen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047605,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 121,
+     "navneobjekttype": "Bru",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558268.9775,
+      "øst": 192543.02476
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skjerke",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 957315,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 188,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558157.37506,
+      "øst": 192783.23789
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skjerkebukta",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 645721,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 267,
+     "navneobjekttype": "Halvøy i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6558572.72855,
+      "øst": 192814.25423
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skjerkøya",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 244455,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N14": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556700.0&ost=196350.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.760159+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6556700.0&ost=196350.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 33,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 41,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556638.26969,
+      "øst": 196372.30009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kveldroveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047581,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 49,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555867.79969,
+      "øst": 196916.63009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Langesundveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050861,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 77,
+     "navneobjekttype": "Busstopp",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556689.99949,
+      "øst": 196273.45956
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunes",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 903760,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 118,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556751.82969,
+      "øst": 196226.28009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunesveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 175777,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 120,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556906.79969,
+      "øst": 196153.80009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tostrups vei",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 951195,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 152,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556573.39969,
+      "øst": 196265.80009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Fagerlia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050070,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 167,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556275.79969,
+      "øst": 196505.10009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunesåsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050198,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 170,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556795.90969,
+      "øst": 196193.05009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Strandgata",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 404189,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 187,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556773.07969,
+      "øst": 196162.37009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjellestadbakken",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 842771,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 196,
+     "navneobjekttype": "Busstopp",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556761.67093,
+      "øst": 196157.33615
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kjellestadbakken",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 114780,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 237,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556910.99296,
+      "øst": 196241.69258
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tostrups brygge",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1095221,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 271,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556906.79969,
+      "øst": 196153.80009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Tostrupshagen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 465181,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 276,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6554342.48969,
+      "øst": 197037.17009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Sundbyveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048141,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 278,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556922.09969,
+      "øst": 196181.90009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Blehrs gate",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1048525,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 284,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556906.74463,
+      "øst": 196153.86018
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Crofts vei",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1095220,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N15": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6556190.0&ost=196800.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.780141+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6556190.0&ost=196800.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 16,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 22,
+     "navneobjekttype": "Annen industri- og lagerbygning",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556189.01123,
+      "øst": 196777.17828
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Ekstrand båtbyggeri",
+       "skrivemåtestatus": "privat og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 180755,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 90,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555867.79969,
+      "øst": 196916.63009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Langesundveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050861,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 154,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555738.66969,
+      "øst": 196859.97009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Ekeliveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1049888,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 190,
+     "navneobjekttype": "Busstopp",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556433.18326,
+      "øst": 196557.85944
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stadionveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 902085,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 197,
+     "navneobjekttype": "Busstopp",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555992.84981,
+      "øst": 196802.6001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Eikstrand",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 295085,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 217,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555911.80969,
+      "øst": 196816.07009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skauveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051128,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 227,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556273.69969,
+      "øst": 196521.50009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Snarveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051069,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 229,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556289.69969,
+      "øst": 196593.10009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Stadionveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 538098,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 237,
+     "navneobjekttype": "Annen kulturdetalj",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556408.34516,
+      "øst": 196706.37312
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunes",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 281801,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 249,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555587.69969,
+      "øst": 196802.00009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vesteråsveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051237,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 266,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556246.79969,
+      "øst": 196539.70009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bueveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050172,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 307,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556275.79969,
+      "øst": 196505.10009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunesåsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050198,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 365,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556129.1871,
+      "øst": 196439.09573
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Bunes",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 117162,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 75,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556263.19811,
+      "øst": 196817.00566
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kuskjær",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 26893,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 191,
+     "navneobjekttype": "Tettsted",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6555998.93519,
+      "øst": 196804.20367
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Eiksrønningen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 267945,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N16": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6564320.0&ost=188800.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.771597+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6564320.0&ost=188800.0&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 24,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 42,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564275.39965,
+      "øst": 188927.20012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Rafnesveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050952,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 54,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564360.20965,
+      "øst": 188650.35012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lakseberget",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050902,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 72,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564248.31965,
+      "øst": 188712.28012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Hellestvedtveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050388,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 77,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564269.79965,
+      "øst": 188740.50012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Barthsbakke",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1049809,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 113,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564385.59965,
+      "øst": 188707.60012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050863,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 131,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6556733.40968,
+      "øst": 194629.02009
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Herreveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050382,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 158,
+     "navneobjekttype": "Skole",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564226.53673,
+      "øst": 188928.41772
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Herre skole",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 767982,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 179,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6563626.79965,
+      "øst": 189291.80011
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Ringveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050992,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 198,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564302.19965,
+      "øst": 188494.10012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Nedre Herrejordet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051000,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 206,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564244.39965,
+      "øst": 188266.80012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Herrejordet",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050384,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 242,
+     "navneobjekttype": "Bruk",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564092.74379,
+      "øst": 188885.04869
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Heia",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 958713,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 267,
+     "navneobjekttype": "Brygge",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564490.12899,
+      "øst": 189006.99211
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brygga",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 524965,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 278,
+     "navneobjekttype": "Haug",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564563.11008,
+      "øst": 188665.02713
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Laksebergåsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Lakseberget",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 533709,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 296,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564283.99965,
+      "øst": 189093.90012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Gamleveien",
+       "skrivemåtestatus": "vedtatt",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1050493,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 297,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6564628.49965,
+      "øst": 188144.00012
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Skoleåsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1051134,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N17": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6551414.869481184&ost=193574.78859879263&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.829486+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6551414.869481184&ost=193574.78859879263&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 5,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 80,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551495.89968,
+      "øst": 193534.6001
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vinjestranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 60756,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 125,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551523.35968,
+      "øst": 193511.5901
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Åbyfjorden",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 666754,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 353,
+     "navneobjekttype": "Hyttefelt",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551709.73453,
+      "øst": 193769.21101
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vinjastranda",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Vinjestranda",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 789575,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 279,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551339.65738,
+      "øst": 193844.13175
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Brattholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 304592,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 303,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6551195.64955,
+      "øst": 193784.19471
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Saltholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 61552,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ },
+ "N18": {
+  "url": "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6550553.259588587&ost=193904.1174249734&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+  "retrieved_utc": "2026-10-31T14:37:38.830787+00:00",
+  "response": {
+   "metadata": {
+    "side": 1,
+    "sokeStreng": "nord=6550553.259588587&ost=193904.1174249734&koordsys=25833&radius=400&utkoordsys=25833&treffPerSide=15",
+    "totaltAntallTreff": 6,
+    "treffPerSide": 15,
+    "viserFra": 1,
+    "viserTil": 15
+   },
+   "navn": [
+    {
+     "meterFraPunkt": 239,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6550165.77968,
+      "øst": 193358.7601
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Høvikåsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 727765,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 316,
+     "navneobjekttype": "Adressenavn",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6549512.66968,
+      "øst": 193188.4901
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Elvikveien",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 1047570,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 365,
+     "navneobjekttype": "Nes i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6550592.45178,
+      "øst": 194276.81174
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kvernhalsen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 584846,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 375,
+     "navneobjekttype": "Holmegruppe i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6550912.59357,
+      "øst": 194014.08759
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Ankerholmane",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 509475,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 394,
+     "navneobjekttype": "Holme i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6550880.41625,
+      "øst": 194125.19658
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Kattholmen",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 240443,
+     "stedstatus": "aktiv"
+    },
+    {
+     "meterFraPunkt": 77,
+     "navneobjekttype": "Vik i sjø",
+     "representasjonspunkt": {
+      "koordsys": 25833,
+      "nord": 6550583.9449,
+      "øst": 193974.99273
+     },
+     "stedsnavn": [
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Høvika",
+       "skrivemåtestatus": "godkjent og prioritert",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      },
+      {
+       "navnestatus": "hovednavn",
+       "skrivemåte": "Høvikbukta",
+       "skrivemåtestatus": "godkjent",
+       "språk": "Norsk",
+       "stedsnavnnummer": 1
+      }
+     ],
+     "stedsnummer": 911608,
+     "stedstatus": "aktiv"
+    }
+   ]
+  }
+ }
+}

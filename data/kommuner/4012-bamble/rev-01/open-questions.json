@@ -1,0 +1,32 @@
+[
+ {
+  "id": "Q01",
+  "place": "Stoa / Langesund småbåthavn",
+  "need": "Kommunalt kart eller operatørkilde som bekrefter hvilke basseng som er Stoa båthavn, og driftsgrensen mot Langesund Båthavn AS og nordre bryggerekker.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q02",
+  "place": "Valle",
+  "need": "Avklar grensen mellom Sjøbua Marina/Valle gjestehavn, Vestrestrand båthavn og Valle Båthavn AS; 120 båter er en gjestehavnomtale, ikke faste plasser.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q03",
+  "place": "Skjerkebukta, Vinjestranda, Prisgrunnbukta, Søndre Eikstrand, Herre, Stangbukta",
+  "need": "Bekreft faste plasser og felles drift; klassifisering forblir mulig.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q04",
+  "place": "Registrerte foreninger uten stedfestet havn",
+  "need": "Stathelle og Omegn, Valle, Fagerheim, Cocheplassen, Sandvika, Mjælvika, Leirvad og Langesund og Omegn Seilforening – stedfest anleggene før eventuelle tillegg.",
+  "polygon_exported": false
+ },
+ {
+  "id": "Q05",
+  "place": "Hele kommunen",
+  "need": "Datert ortofoto for å fastslå opptaksår og kontrollere store anlegg (Stathelle Marina, Salen, Sildeberget).",
+  "polygon_exported": true
+ }
+]

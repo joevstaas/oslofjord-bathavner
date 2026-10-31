@@ -1,0 +1,12 @@
+{
+ "polygons": 59,
+ "harbours": 53,
+ "possible_harbours": 13,
+ "uncertain_geometries": 33,
+ "new_harbours": 15,
+ "new_polygons": 16,
+ "previous_polygons": 43,
+ "new_detail_candidates": 18,
+ "previously_excluded_now_included": 5,
+ "published_capacity_harbours": 2
+}

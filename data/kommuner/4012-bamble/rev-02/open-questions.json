@@ -1,0 +1,44 @@
+[
+ {
+  "id": "Q01",
+  "place": "Stoa / Langesund småbåthavn",
+  "need": "Kommunalt kart eller operatørkilde som bekrefter hvilke basseng som er Stoa båthavn, og driftsgrensen mot Langesund Båthavn AS og nordre bryggerekker.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q02",
+  "place": "Valle",
+  "need": "Avklar grensen mellom Sjøbua Marina/Valle gjestehavn, Vestrestrand båthavn og Valle Båthavn AS; 120 båter er en gjestehavnomtale, ikke faste plasser.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q03",
+  "place": "Skjerkebukta – brygger ved båtsenter, Prisgrunnbukta – mulig felles brygge i vik, Søndre Eikstrand – mulig båthavn ved Asvallveien, Herre (Herrejordet) – bryggerekke i elveløpet, Stangbukta – lite båtbasseng, Grunnsundveien – båter langs kai, Vinjekilen – brygger, Vinjekilen – brygger, Kjøya sør – brygge, Tonerhavna, Kjønnøya – brygge, Hafsundveien – båter langs kai ved camping, Isnesbukta – båter langs kai, Ekstrand båtbyggeri / Kuskjær – mulig båtplassanlegg, Herreelva ved Rafnesveien – båter langs søndre kai",
+  "need": "Bekreft faste båtplasser og felles drift. De mulige anleggene beholdes som usikre; Vinjestranda H11 er småbåthavn etter tidligere brukerinnspill.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q04",
+  "place": "Registrerte foreninger uten stedfestet havn",
+  "need": "Stathelle og Omegn, Valle, Fagerheim, Cocheplassen, Sandvika, Mjælvika, Leirvad og Langesund og Omegn Seilforening – stedfest anleggene før eventuelle tillegg.",
+  "polygon_exported": false
+ },
+ {
+  "id": "Q05",
+  "place": "Hele kommunen",
+  "need": "Datert ortofoto for å fastslå opptaksår og kontrollere store anlegg (Stathelle Marina, Salen, Sildeberget).",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q06",
+  "place": "Kruksdalen / Krukodden (N01)",
+  "need": "Avklar om H39 er brukerens tidligere viste trekantede Kyststien-basseng. Stedfestet kandidat inkludert; identitet ikke bekreftet.",
+  "polygon_exported": true
+ },
+ {
+  "id": "Q07",
+  "place": "Industrikysten G024/G028/G030/G031",
+  "need": "Alternativt skyfritt bilde kreves for de skjulte delene av kysten. Ikke tilstrekkelig kontrollert i Esri-mosaikken.",
+  "polygon_exported": false
+ }
+]

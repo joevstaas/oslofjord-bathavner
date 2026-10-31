@@ -1,0 +1,29 @@
+[
+ {
+  "id": "M07",
+  "center_25833": [
+   186070,
+   6567162
+  ],
+  "distance_outside_m": 612,
+  "note": "Bryggeanlegg nordvest for kommunegrensen (trolig Porsgrunn/Siljan-siden ved Frierfjorden/Herre). Ikke vurdert for regelen; behandles med riktig kommune."
+ },
+ {
+  "id": "M12",
+  "center_25833": [
+   198700,
+   6555526
+  ],
+  "distance_outside_m": 682,
+  "note": "Bryggeanlegg øst for Langøya/Langesundsfjorden, utenfor Bamble (trolig Porsgrunn). Behandles med riktig kommune."
+ },
+ {
+  "id": "S013",
+  "center_25833": [
+   191600,
+   6541200
+  ],
+  "distance_outside_m": 3300,
+  "note": "Brukerinnspill: småbåthavn med molo ved Stråholmen, Kragerø kommune. Behandles med Kragerø."
+ }
+]

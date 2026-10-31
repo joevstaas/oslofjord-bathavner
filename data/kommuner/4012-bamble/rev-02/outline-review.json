@@ -1,0 +1,32 @@
+{
+ "reviewed_utc": "2026-10-31T14:40:18+00:00",
+ "new_outlines_reviewed": [
+  "4012-H39-B01",
+  "4012-H40-B01",
+  "4012-H41-B01",
+  "4012-H42-B01",
+  "4012-H43-B01",
+  "4012-H44-B01",
+  "4012-H45-B01",
+  "4012-H45-B02",
+  "4012-H46-B01",
+  "4012-H47-B01",
+  "4012-H48-B01",
+  "4012-H49-B01",
+  "4012-H50-B01",
+  "4012-H51-B01",
+  "4012-H52-B01",
+  "4012-H53-B01"
+ ],
+ "new_outline_count": 16,
+ "qa_sheets": [
+  "work/4012-bamble/qa/rev02-additions-00.jpg",
+  "work/4012-bamble/qa/rev02-additions-01.jpg",
+  "work/4012-bamble/qa/rev02-additions-02.jpg",
+  "work/4012-bamble/qa/rev02-additions-03.jpg"
+ ],
+ "method": "Eksportert GeoJSON projisert tilbake på samme georefererte kildepanel og visuelt vurdert. Rettet utsnitt/geometri ved N04, N05, N06 og N14; N09 levert med to adskilte sjøpolygoner.",
+ "result": "Alle 16 nye eksportomriss sett etter siste geometriretting; ingen store landflater/bygninger tatt med. Avgrensningene beholdes som usikre.",
+ "preserved_revision01_outlines": 43,
+ "preserved_review_basis": "Uendrede geometrier med tidligere visuell overleggskontroll dokumentert i rev-01/README.md og validation.json."
+}

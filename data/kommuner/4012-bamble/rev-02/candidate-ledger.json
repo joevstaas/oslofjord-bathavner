@@ -1,0 +1,2135 @@
+[
+ {
+  "candidate_id": "C001",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   184001.1,
+   6547114.3
+  ],
+  "osm_ids": [
+   "way/716390374"
+  ],
+  "osm_marks": [],
+  "image_id": "inland-183600-6546600",
+  "review_bbox": [
+   183776.07629935723,
+   6546889.311154094,
+   184226.07629935723,
+   6547339.311154094
+  ],
+  "decision": "utelatt",
+  "reason": "Innsjø/ferskvann innenfor kysten; én liten enkeltbrygge. Ikke felles havn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C002",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   186471.8,
+   6545330.1
+  ],
+  "osm_ids": [
+   "way/355645509",
+   "way/355645510"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-186300-6544800",
+  "review_bbox": [
+   186246.75215783415,
+   6545105.080775684,
+   186696.75215783415,
+   6545555.080775684
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "To lange brygger med båtplasser på begge sider. Lokalhistoriewiki omtaler en større småbåthavn og servicesenter i Prestvika; kilden gir ikke kapasitet eller operatør. Navnet er stedsbeskrivende.",
+  "feature_ids": [
+   "4012-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C003",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   186699.6,
+   6545219.1
+  ],
+  "osm_ids": [
+   "way/355645506",
+   "way/355645507",
+   "way/355645508"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-186300-6544800",
+  "review_bbox": [
+   186474.60880204936,
+   6544994.054018949,
+   186924.60880204936,
+   6545444.054018949
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Samlet flytebryggeanlegg med flere fortøyde båter mellom Prestvika og Valle. Valle Båthavn AS har adresse Vallekjær 34 like ved, men adresse er ikke bevis for havneposisjon; operatør ukjent. Mindre brygger lenger nord og øst i bukta er utelatt.",
+  "feature_ids": [
+   "4012-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C004",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   187128.0,
+   6544996.3
+  ],
+  "osm_ids": [
+   "way/58879795",
+   "way/58897384",
+   "way/428763987",
+   "way/1301794184"
+  ],
+  "osm_marks": [
+   "Valle marina"
+  ],
+  "image_id": "detail-C004",
+  "review_bbox": [
+   186902.98462020792,
+   6544771.31979171,
+   187352.98462020792,
+   6545221.31979171
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Dokumentert gjestehavn/marina; bildet viser stort bryggeanlegg med mange båtplasser.",
+  "note": "«Plass til rundt 120 båter» er lokalhistoriewikis omtale av gjestehavna, ikke en bekreftet kapasitet for faste plasser. OSM oppgir Bamble kommune som operatør for marinamerket; kommunens side nevner drivstoff hos Sjøbua Marina på Valle. Delpolygon B02 er bryggerekken langs veien nordøst for hovedanlegget; den kan høre til Vestrestrand båthavn (Valleveien 1044, ifølge kommunalt planinnspill drevet med båtplassutleie siden 1930-tallet), men grensen er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H03-B01",
+   "4012-H03-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C005",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   188895.7,
+   6546572.1
+  ],
+  "osm_ids": [
+   "way/391748437"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C005",
+  "review_bbox": [
+   188670.73246881564,
+   6546347.080752667,
+   189120.73246881564,
+   6546797.080752667
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Én lang brygge med båter på begge sider, minst ti synlige plasser. Operatør og navn ukjent.",
+  "feature_ids": [
+   "4012-H04-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C006",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   189681.0,
+   6545974.5
+  ],
+  "osm_ids": [
+   "way/391746212"
+  ],
+  "osm_marks": [
+   "Havsund marina"
+  ],
+  "image_id": "coast-189000-6545700",
+  "review_bbox": [
+   189456.00618185842,
+   6545749.490000287,
+   189906.00618185842,
+   6546199.490000287
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "OSM-navn og operatør (Bamble kommune) er OSM-opplysninger, ikke kontrollert mot kommunens liste. Båter langs land ved campingområdet sør for brygga er ikke tatt med.",
+  "feature_ids": [
+   "4012-H05-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C007",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   189116.5,
+   6545775.5
+  ],
+  "osm_ids": [
+   "way/391747237"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C007",
+  "review_bbox": [
+   188891.49516417953,
+   6545550.458182467,
+   189341.49516417953,
+   6546000.458182467
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Lang brygge med tett rekke av båtplasser. Nabobrygga C008 er levert som eget anlegg; felles operatør er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H06-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C008",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   189220.7,
+   6545718.6
+  ],
+  "osm_ids": [
+   "way/391747238"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C008",
+  "review_bbox": [
+   188995.7115001705,
+   6545493.58905894,
+   189445.7115001705,
+   6545943.58905894
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Lang brygge med tett rekke av båtplasser. Kan høre sammen med C007 og Trosby båt & motor, men dette er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H07-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C009",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   189357.1,
+   6545582.2
+  ],
+  "osm_ids": [
+   "way/391747236"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C009",
+  "review_bbox": [
+   189132.06544180596,
+   6545357.161018959,
+   189582.06544180596,
+   6545807.161018959
+  ],
+  "decision": "utelatt",
+  "reason": "Den lille sentrale brygga har under ti klare plasser; båter langs kaien i samme utsnitt er allerede registrert som H34. Den store langbrygga er H07. Ingen dublett opprettes.",
+  "note": "Revurdert i detalj, rev-02.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C010",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   190480.7,
+   6563764.4
+  ],
+  "osm_ids": [
+   "way/439661187",
+   "way/553394429",
+   "way/553394430"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C010",
+  "review_bbox": [
+   190255.72939800605,
+   6563539.354337127,
+   190705.72939800605,
+   6563989.354337127
+  ],
+  "decision": "utelatt",
+  "reason": "Industrikai ved Rafnes; ingen fritidsbåtplasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C011",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   190683.0,
+   6563370.1
+  ],
+  "osm_ids": [
+   "way/439661189",
+   "way/553394461",
+   "way/553394463"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C011",
+  "review_bbox": [
+   190458.02927852608,
+   6563145.117971814,
+   190908.02927852608,
+   6563595.117971814
+  ],
+  "decision": "utelatt",
+  "reason": "Industrikai ved Rafnes; ingen fritidsbåtplasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C012",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   192573.2,
+   6559097.6
+  ],
+  "osm_ids": [
+   "way/1301794185",
+   "way/1301794186",
+   "way/1301794190",
+   "way/1301794187",
+   "way/1301794188",
+   "way/1301794189",
+   "way/1301794191",
+   "way/1301794192"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C012",
+  "review_bbox": [
+   192345.57182775764,
+   6558870.001473323,
+   192800.73828611476,
+   6559325.167931681
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Marinaanlegg med hovedbrygge og utriggere i havneområdet ved Isdammen. Navnet er koblet via Enhetsregisterets forretningsadresse Isdammen 69 og stedsnavnpunkt; adressen er ikke alene bevis. Små brygger langs industrikaia sør er utelatt.",
+  "feature_ids": [
+   "4012-H08-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C013",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   192660.0,
+   6558300.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-191700-6557400",
+  "review_bbox": [
+   192540.0,
+   6558180.0,
+   192780.0,
+   6558420.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Lang felles flytebrygge med utriggere og klart mer enn ti båtplasser. Tidligere utelatelse som under ti plasser var feil.",
+  "note": "Revurdert C013. Den korte nordre armen og hovedbrygga deler landtilkomst; ett fysisk anlegg. Det tidligere navngitte H09 ved båtsenteret er et annet anlegg.",
+  "feature_ids": [
+   "4012-H48-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N13",
+  "previous_decision": "utelatt"
+ },
+ {
+  "candidate_id": "C014",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   193014.9,
+   6558118.8
+  ],
+  "osm_ids": [
+   "way/1412400248",
+   "way/1412400249",
+   "way/1412400250",
+   "way/1412400251",
+   "way/1412400252"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-192600-6557400",
+  "review_bbox": [
+   192789.90204754245,
+   6557893.826302724,
+   193239.90204754245,
+   6558343.826302724
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Vestre brygge ved næringsbygg i Skjerkebukta med rundt tolv båter; to mindre brygger øst for bygget med få båter er utelatt. Om plassene er faste eller service-/salgsplasser for båtbedrifter (Seilbåtsenteret AS, Skjerke Brygge AS) er ikke avklart.",
+  "feature_ids": [
+   "4012-H09-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C015",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   192893.8,
+   6557999.0
+  ],
+  "osm_ids": [
+   "way/1412400247"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-192600-6557400",
+  "review_bbox": [
+   192668.82923280552,
+   6557774.035668096,
+   193118.82923280552,
+   6558224.035668096
+  ],
+  "decision": "utelatt",
+  "reason": "Liten privat brygge.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C016",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   193665.6,
+   6557649.0
+  ],
+  "osm_ids": [
+   "way/1062621053",
+   "way/1062621054",
+   "way/1062621055",
+   "way/1062621056",
+   "way/1062621057"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-193500-6557400",
+  "review_bbox": [
+   193440.61419024595,
+   6557424.036369443,
+   193890.61419024595,
+   6557874.036369443
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Samlet flytebrygge med utriggere og minst ti synlige plasser, festet ett sted på land. Operatør ukjent; Cocheplassen Båtforening har kontaktadresse i Martha Cochs vei ca. 140 m unna, men adresse er ikke bevis for havneposisjon; ikke koblet.",
+  "feature_ids": [
+   "4012-H10-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C017",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   193941.7,
+   6551736.7
+  ],
+  "osm_ids": [
+   "way/392246167",
+   "way/392246168",
+   "way/392246170",
+   "way/392246172",
+   "way/392246173"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-193500-6551100",
+  "review_bbox": [
+   193716.7074610915,
+   6551511.708568031,
+   194166.7074610915,
+   6551961.708568031
+  ],
+  "decision": "utelatt",
+  "reason": "Store brygger i utsnittet er allerede H11 og H38. De øvrige korte bryggene har separate landfester og få plasser. Ingen summering.",
+  "note": "Revurdert i detalj, rev-02.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C018",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   193824.5,
+   6551660.3
+  ],
+  "osm_ids": [
+   "way/392246174"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-193500-6551100",
+  "review_bbox": [
+   193599.5298512624,
+   6551435.2646720065,
+   194049.5298512624,
+   6551885.2646720065
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Lang brygge med utriggere; Esri-bildet viser rundt fjorten båter, og brukerens nyere bilde rundt tjue. Ti-plassgrensen er oppfylt i bildet.",
+  "note": "Én lang brygge med båter på begge sider. Oppgradert fra mulig etter brukerinnspill (runde 2). Operatør og faste plasser er ikke kildefestet.",
+  "feature_ids": [
+   "4012-H11-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C019",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   193574.78859879263,
+   6551414.869481184
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-193500-6551100",
+  "review_bbox": [
+   193454.78859879263,
+   6551294.869481184,
+   193694.78859879263,
+   6551534.869481184
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Én langbrygge med mange utriggere og klart over ti båtplasser. Tidligere utelatelse av C019 som under ti plasser var feil.",
+  "note": "Eget anlegg øst for H11 Vinjestranda; den separate lille brygga nord for hovedbrygga er ikke summert inn.",
+  "feature_ids": [
+   "4012-H52-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N17",
+  "previous_decision": "utelatt"
+ },
+ {
+  "candidate_id": "C020",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   193904.1174249734,
+   6550553.259588587
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-193500-6550200",
+  "review_bbox": [
+   193784.1174249734,
+   6550433.259588587,
+   194024.1174249734,
+   6550673.259588587
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Én felles brygge med to rekker utriggere, klart over ti plasser i detaljbildet. Tidligere utelatelse av C020 som under ti var feil.",
+  "note": "Operatør ukjent. Høvika er viknavn fra Kartverket, ikke dokumentert navn på en båtforening.",
+  "feature_ids": [
+   "4012-H53-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N18",
+  "previous_decision": "utelatt"
+ },
+ {
+  "candidate_id": "C021",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   192550.0,
+   6549232.1
+  ],
+  "osm_ids": [
+   "way/438408254",
+   "way/438408255",
+   "way/438408256",
+   "way/438408257",
+   "way/1078405570",
+   "way/1078405571",
+   "way/1078405574",
+   "way/1078405572",
+   "way/1078405573"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C021",
+  "review_bbox": [
+   192324.99668837828,
+   6549007.133053978,
+   192774.99668837828,
+   6549457.133053978
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "To bryggeområder ved campingplassen på Båtstøtangen. Navnet er koblet via Enhetsregisterets adresse Båtstøtangen 2 og stedsnavnpunkt Strandsletta; kapasitet ukjent. Delpolygonene deler harbour_id fordi de ligger i samme basseng ved samme campinganlegg.",
+  "feature_ids": [
+   "4012-H12-B01",
+   "4012-H12-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C022",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   192517.1,
+   6548969.2
+  ],
+  "osm_ids": [
+   "way/438408259"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C022",
+  "review_bbox": [
+   192292.0924285321,
+   6548744.2496223925,
+   192742.0924285321,
+   6549194.2496223925
+  ],
+  "decision": "utelatt",
+  "reason": "Små brygger med egne landfester; stort anlegg nord i utsnittet er allerede H12. Under ti klare plasser i hver av de øvrige separate bryggene.",
+  "note": "Revurdert i detalj, rev-02.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C023",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   194052.0,
+   6557676.7
+  ],
+  "osm_ids": [
+   "way/1062621060"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-193500-6557400",
+  "review_bbox": [
+   193827.00008061551,
+   6557451.650170328,
+   194277.00008061551,
+   6557901.650170328
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C024",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   194212.1,
+   6557664.2
+  ],
+  "osm_ids": [
+   "way/1062621061",
+   "way/1062621062"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-193500-6557400",
+  "review_bbox": [
+   193987.07850165077,
+   6557439.157914534,
+   194437.07850165077,
+   6557889.157914534
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C025",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   195979.1,
+   6557380.1
+  ],
+  "osm_ids": [
+   "way/88305395",
+   "way/727030582"
+  ],
+  "osm_marks": [
+   "Stathelle gjestebrygge"
+  ],
+  "image_id": "detail-C025",
+  "review_bbox": [
+   195754.07817133467,
+   6557155.071848611,
+   196204.07817133467,
+   6557605.071848611
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Kommunal gjestehavn dokumentert av kommunen; bildet viser pir med båtplasser og et lite flytebryggeanlegg.",
+  "note": "Kommunen beskriver gjesteplasser på piren og molobryggen ved småbåthavnen sør for Stathelle Marina. Kverndalen/Parken/Kommunebrygga er kommunale havneeiendommer; interne grenser mellom dem er ikke kartlagt. Stathelle og Omegn Båtforening (Strandgata 42) kan ha tilknytning, men er ikke koblet.",
+  "feature_ids": [
+   "4012-H13-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C026",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   194363.4,
+   6551541.8
+  ],
+  "osm_ids": [
+   "way/392256093"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C026",
+  "review_bbox": [
+   194138.40535626523,
+   6551316.843096049,
+   194588.40535626523,
+   6551766.843096049
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukerinnspill (runde 2): nyere bilde viser rundt tjue båter; Esri-bildet viser brygge med utriggere og over ti plasser.",
+  "note": "Først utelatt som under ti plasser i Esri-mosaikken; revurdert etter brukerens skjermbilde. Operatør ukjent; navnet er stedsbeskrivende (Sauøya/Vinjeveien).",
+  "feature_ids": [
+   "4012-H33-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C027",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   194645.9,
+   6551222.0
+  ],
+  "osm_ids": [
+   "way/392256092"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C027",
+  "review_bbox": [
+   194420.86618995667,
+   6550997.046663814,
+   194870.86618995667,
+   6551447.046663814
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller små private brygger med under ti synlige plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C028",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   196157.4,
+   6557227.3
+  ],
+  "osm_ids": [
+   "way/88305396",
+   "way/88305402",
+   "way/88305398",
+   "way/88305399",
+   "way/88305401",
+   "way/88305400",
+   "way/88305403",
+   "way/727030579",
+   "way/727030580",
+   "way/727030581"
+  ],
+  "osm_marks": [
+   "Stathelle gjestebrygge"
+  ],
+  "image_id": "detail-C028",
+  "review_bbox": [
+   195923.71563608092,
+   6556993.616572378,
+   196391.14535259255,
+   6557461.046288889
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Dokumentert marina med publisert kapasitet; bildet viser stort anlegg med mange utriggerplasser.",
+  "note": "445 båtplasser ifølge lokalhistoriewiki (Åsenbakken), referanseperiode ukjent. Kommunens reguleringsdokumenter for marinaen ble funnet i søk, men lenkene svarte 404 ved henting.",
+  "feature_ids": [
+   "4012-H14-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C029",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   196350.0,
+   6556700.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-196200-6556500",
+  "review_bbox": [
+   196230.0,
+   6556580.0,
+   196470.0,
+   6556820.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "To lange brygger og en kort sidebrygge fra felles havneflate med utriggere og klart mer enn ti synlige plasser. Tidligere utelatelse som under ti var feil.",
+  "note": "Egne små privatbrygger nord for anlegget er holdt utenfor. Operatør er ikke dokumentert; parkering og bebyggelse er holdt utenfor.",
+  "feature_ids": [
+   "4012-H49-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N14",
+  "previous_decision": "utelatt"
+ },
+ {
+  "candidate_id": "C030",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   197936.4,
+   6554699.8
+  ],
+  "osm_ids": [
+   "way/696925192",
+   "way/696925193",
+   "way/696925194"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C030",
+  "review_bbox": [
+   197711.4016712955,
+   6554474.805647808,
+   198161.4016712955,
+   6554924.805647808
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Stort anlegg med molo og flere bryggerekker nord for Langesund. Navnet er fra OSM-relasjonen (med lenke til bookingtjeneste); relasjonens eget omriss er ikke brukt. Klyngene C030 og C032 er samme fysiske anlegg, levert som to delpolygoner (nordre og søndre basseng) med felles harbour_id; parkering mellom bassengene er holdt utenfor.",
+  "feature_ids": [
+   "4012-H15-B01",
+   "4012-H15-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C031",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   196198.3,
+   6552880.0
+  ],
+  "osm_ids": [
+   "way/856718349"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C031",
+  "review_bbox": [
+   195973.32990961458,
+   6552654.965141668,
+   196423.32990961458,
+   6553104.965141668
+  ],
+  "decision": "utelatt",
+  "reason": "Kort brygge/molo ved strand og camping, rundt åtte synlige båter. Ikke ti klare faste plasser eller dokumentert marina; fortsatt utelatt.",
+  "note": "Revurdert i detalj, rev-02.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C032",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198026.8,
+   6554564.5
+  ],
+  "osm_ids": [
+   "way/696925188",
+   "way/696925189",
+   "way/696925190",
+   "way/696925191"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C032",
+  "review_bbox": [
+   197801.75927273458,
+   6554339.5229544295,
+   198251.75927273458,
+   6554789.5229544295
+  ],
+  "decision": "utelatt",
+  "reason": "Samme fysiske anlegg som C030 (Salen båthavn); ikke eget anlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C033",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198373.4,
+   6554028.3
+  ],
+  "osm_ids": [
+   "way/1483062872",
+   "way/1483062874",
+   "way/1483062873"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-198000-6553800",
+  "review_bbox": [
+   198148.41684651782,
+   6553803.299220076,
+   198598.41684651782,
+   6554253.299220076
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Lukket firkantet flytebrygge med rundt tjue utriggerplasser ytterst på en lang gangbrygge. Fagerheim båtforening (Ørvikstubben) kan være relevant, men koblingen bygger bare på adresse/nærhet og er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H16-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C034",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198454.4,
+   6553883.4
+  ],
+  "osm_ids": [
+   "way/511056106",
+   "way/511056107",
+   "way/511056108"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C034",
+  "review_bbox": [
+   198229.36642691414,
+   6553658.371375316,
+   198679.36642691414,
+   6554108.371375316
+  ],
+  "decision": "utelatt",
+  "reason": "Firkantanlegget nord i utsnittet er allerede H16. Separate småbrygger ved boligene sør for dette er ikke summert.",
+  "note": "Revurdert i detalj, rev-02.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C035",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198512.4,
+   6553164.4
+  ],
+  "osm_ids": [
+   "way/163107622",
+   "way/163107623",
+   "way/163131350",
+   "way/163113725",
+   "way/163131348",
+   "way/163131352",
+   "way/163131353",
+   "way/163131354",
+   "way/163131356",
+   "way/163131360",
+   "way/163131357",
+   "way/163131359",
+   "way/163131361",
+   "way/163131362",
+   "way/163131364",
+   "way/163131365",
+   "way/163131366",
+   "way/163131358",
+   "way/163131363",
+   "way/163131367",
+   "way/163131368",
+   "way/163131370",
+   "way/163131371",
+   "way/1483062853"
+  ],
+  "osm_marks": [
+   "Langesunds småbåtshavn"
+  ],
+  "image_id": "detail-C035",
+  "review_bbox": [
+   198090.29280578095,
+   6552742.25924146,
+   198934.5360711816,
+   6553586.502506861
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Bryggerekker med mange utriggerplasser. Navn fra OSM. Bassenget like sør er levert som eget anlegg (Stoa); operatørgrense er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H17-B01",
+   "4012-H18-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C036",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198529.4,
+   6552477.3
+  ],
+  "osm_ids": [
+   "way/163131777",
+   "way/163131778"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-198000-6552000",
+  "review_bbox": [
+   198304.36479342842,
+   6552252.256538363,
+   198754.36479342842,
+   6552702.256538363
+  ],
+  "decision": "utelatt",
+  "reason": "Ferje-/servicekai; ingen småbåtplasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C037",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198823.0,
+   6552266.8
+  ],
+  "osm_ids": [
+   "way/173455453",
+   "way/173455462",
+   "way/173455470",
+   "way/173455459",
+   "way/727030587"
+  ],
+  "osm_marks": [
+   "Langøya gjestehavn"
+  ],
+  "image_id": "detail-C037",
+  "review_bbox": [
+   198597.98901530396,
+   6552041.775738319,
+   199047.98901530396,
+   6552491.775738319
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Kommunal gjestehavn dokumentert av kommunen; bildet viser brygger med båtplasser.",
+  "note": "Kommunen beskriver en anlagt småbåthavn på Langøya som gjestehavn. U-formet bryggeanlegg; få båter i bildet. Liten nordre brygge utelatt.",
+  "feature_ids": [
+   "4012-H19-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C038",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198619.5,
+   6552072.7
+  ],
+  "osm_ids": [
+   "way/163131349",
+   "way/511014920"
+  ],
+  "osm_marks": [
+   "Kongshavn",
+   "Dampskipsbrygga"
+  ],
+  "image_id": "detail-C038",
+  "review_bbox": [
+   198394.48588736428,
+   6551847.747875256,
+   198844.48588736428,
+   6552297.747875256
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Kommunal gjestehavn dokumentert av kommunen; bildet viser brygge med båtplasser.",
+  "note": "Dampskipsbrygga er kommunal gjestehavn. Søndre/Nordre Dampskipskai er kommersielle kaier og inngår ikke.",
+  "feature_ids": [
+   "4012-H20-B01",
+   "4012-H21-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C039",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198598.0,
+   6551707.4
+  ],
+  "osm_ids": [
+   "way/163131355",
+   "way/163131369",
+   "way/173451789",
+   "way/173451803",
+   "way/173451807",
+   "way/173451821",
+   "way/173451822",
+   "way/173451801",
+   "way/173451824",
+   "way/173451829",
+   "way/173451791",
+   "way/173451792",
+   "way/173451796",
+   "way/173451808",
+   "way/173451809",
+   "way/173451800",
+   "way/173451830",
+   "way/173451831"
+  ],
+  "osm_marks": [
+   "Dampskipsbrygga"
+  ],
+  "image_id": "coast-198000-6551100",
+  "review_bbox": [
+   198256.8843805568,
+   6551366.289280072,
+   198939.01660445906,
+   6552048.421503974
+  ],
+  "decision": "utelatt",
+  "reason": "Langesund sentrum: rekke av korte private brygger med separate landfester (bl.a. sameier ved Vaterlands gate). Ikke ett dokumentert felles anlegg; ingen summering.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C040",
+  "kind": "osm_pier_cluster",
+  "center_25833": [
+   198822.6,
+   6551211.5
+  ],
+  "osm_ids": [
+   "way/173448244"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C040",
+  "review_bbox": [
+   198597.56454907765,
+   6550986.527602933,
+   199047.56454907765,
+   6551436.527602933
+  ],
+  "decision": "utelatt",
+  "reason": "Liten brygge på Langøya.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M01",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   192315,
+   6559632
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-191700-6559200",
+  "review_bbox": [
+   192040.0,
+   6559300.0,
+   192560.0,
+   6559820.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Stort bryggeanlegg uten OSM-pir, funnet i systematisk bildesøk. Sildeberget Båt & Motor AS har adresse ved anlegget; operatør for båtplassene er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H22-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M02",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   194353,
+   6549217
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M02",
+  "review_bbox": [
+   194128.0,
+   6548992.0,
+   194578.0,
+   6549442.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Lang brygge langs vestsiden av en smal vik med mange små båter. Sameiet Leirvad båthavn (Ivarsandveien) kan være relevant; koblingen bygger bare på adresse.",
+  "feature_ids": [
+   "4012-H23-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M03",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   193657,
+   6558253
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M03",
+  "review_bbox": [
+   193432.0,
+   6558028.0,
+   193882.0,
+   6558478.0
+  ],
+  "decision": "utelatt",
+  "reason": "Feilsentrert søkeutsnitt (bare sjø); bryggegruppen ved Stathelle vest er vurdert som C016.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M04",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   197440,
+   6555370
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-197100-6554700",
+  "review_bbox": [
+   197215.0,
+   6555145.0,
+   197665.0,
+   6555595.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Lite molobasseng med brygger og båter ved Asvall. Sameiet Fjeldstrand Båthavn har kontaktadresse Asvallveien; dette er ikke bevis for havneposisjon, men stemmer geografisk.",
+  "feature_ids": [
+   "4012-H24-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M05",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   196800.0,
+   6556190.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-196200-6555600",
+  "review_bbox": [
+   196680.0,
+   6556070.0,
+   196920.0,
+   6556310.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Tett rekke småbåter langs kai og brygge ved båtbyggeri. Faste fritidsbåtplasser kan ikke skilles sikkert fra service-/salgsplasser.",
+  "note": "Tidligere utelatt som kommunal næringskai med få båter; detaljbildet viser flere. Kartverkets stedsnavnpunkt Ekstrand båtbyggeri gir navnestøtte, ikke verifisert dagens operatør eller kapasitet.",
+  "feature_ids": [
+   "4012-H50-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N15",
+  "previous_decision": "utelatt"
+ },
+ {
+  "candidate_id": "M06",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   188550,
+   6564214
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-188100-6563700",
+  "review_bbox": [
+   188325.0,
+   6563989.0,
+   188775.0,
+   6564439.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Rekke av små båter langs brygge i Herreelva nær utløpet. Felles organisering og antall faste plasser ukjent; bildet er utydelig. Brakkvann.",
+  "feature_ids": [
+   "4012-H25-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M07",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   186070,
+   6567162
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-185400-6566400",
+  "review_bbox": [
+   185845.0,
+   6566937.0,
+   186295.0,
+   6567387.0
+  ],
+  "decision": "utelatt",
+  "reason": "Bryggeanlegg nordvest, ca. 610 m utenfor kommunegrensen. Ikke del av Bamble-leveransen; loggført som nabofunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M08",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   190533,
+   6547453
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M08",
+  "review_bbox": [
+   190308.0,
+   6547228.0,
+   190758.0,
+   6547678.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Flere bryggearmer med utriggere ved stor hall. OSM-merket «Småbåtshavn» ligger i sundet. Operatør ukjent; Trosby båt & motor ligger i området, men er ikke koblet.",
+  "feature_ids": [
+   "4012-H26-B01",
+   "4012-H27-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M09",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   193068,
+   6549493
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-192600-6549300",
+  "review_bbox": [
+   192843.0,
+   6549268.0,
+   193293.0,
+   6549718.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båtplasser/utriggerplasser i bildet.",
+  "note": "Flere brygger med mange båter. Stedsnavn Brevikstranda/Elvikveien. Brevikstrand Båthavn DA og Brevikstrand Båt AS har adresser i Elvikveien/Valleveien; koblingen bygger på adresse og nærhet. OSM-merket heter bare «Småbåtshavn».",
+  "feature_ids": [
+   "4012-H28-B01",
+   "4012-H29-B01",
+   "4012-H29-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M10",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   195529,
+   6550040
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-195300-6549300",
+  "review_bbox": [
+   195304.0,
+   6549815.0,
+   195754.0,
+   6550265.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Lite U-formet bryggebasseng med rundt ti plasser, merket som marina i OSM uten navn. Navnet er stedsbeskrivende.",
+  "feature_ids": [
+   "4012-H30-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M11",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   187880,
+   6544800
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M11",
+  "review_bbox": [
+   187655.0,
+   6544575.0,
+   188105.0,
+   6545025.0
+  ],
+  "decision": "utelatt",
+  "reason": "Havsundbukta øst: spredte private brygger med separate landfester.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M12",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   198700,
+   6555526
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M12",
+  "review_bbox": [
+   198475.0,
+   6555301.0,
+   198925.0,
+   6555751.0
+  ],
+  "decision": "utelatt",
+  "reason": "Bryggeanlegg øst for Langøya ligger ca. 680 m utenfor kommunegrensen (Porsgrunn). Loggført som nabofunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M13",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   189900,
+   6547060
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M13",
+  "review_bbox": [
+   189750.0,
+   6546910.0,
+   190050.0,
+   6547210.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukeren har påvist anlegget som havn; bildet viser kai med tett rekke av rundt ti båtplasser.",
+  "note": "Brukerinnspill 2026-10-31. Steinkai med båter fortøyd langs kaien nord for Grosholmen (stedsnavn Stranda). Operatør og antall faste plasser ukjent; avgrensningen er smal fordi båtene ligger langs kai.",
+  "feature_ids": [
+   "4012-H31-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M14",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   190640,
+   6545850
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "detail-M14",
+  "review_bbox": [
+   190490.0,
+   6545700.0,
+   190790.0,
+   6546000.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukeren har påvist anlegget som havn; bildet viser T-brygge, lite basseng og båtplasser langs kai.",
+  "note": "Brukerinnspill 2026-10-31 (Havparadiset, Kjønnøyaveien ca. 217–226). Navnet er brukerens; operatør og antall plasser er ikke kildefestet. Båtplasser langs kaien sørover er avgrenset etter bildet og er usikre.",
+  "feature_ids": [
+   "4012-H32-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M15",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   189425,
+   6545528
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189000-6544800",
+  "review_bbox": [
+   189315.0,
+   6545418.0,
+   189535.0,
+   6545638.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Brukerinnspill. Rekke av rundt åtte–ti båter langs kai/brygge ved campingområdet; ti faste plasser og felles drift er ikke dokumentert.",
+  "note": "Brukerinnspill runde 2. Brukeren var selv usikker på størrelsen. Små enkeltbrygger lenger vest i bukta er ikke tatt med.",
+  "feature_ids": [
+   "4012-H34-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M16",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   189990,
+   6545370
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189900-6544800",
+  "review_bbox": [
+   189880.0,
+   6545260.0,
+   190100.0,
+   6545480.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukerinnspill. Brygge med utriggere og rundt tjue båter innenfor en lang fjellrygg; ti-plassgrensen er oppfylt i bildet.",
+  "note": "Brukerinnspill runde 2. Operatør ukjent; navn fra adressenavnet Hafsundveien. Ikke samme anlegg som Havsund marina (H05) lenger nord.",
+  "feature_ids": [
+   "4012-H35-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M17",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   189223,
+   6544830
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189000-6544800",
+  "review_bbox": [
+   189113.0,
+   6544720.0,
+   189333.0,
+   6544940.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukerinnspill. Steinmolo med rundt femten båter fortøyd på innsiden; ti-plassgrensen er oppfylt i bildet.",
+  "note": "Brukerinnspill runde 2. OSM way/1172342601 er moloen. Lite indre basseng med noen få båter nordvest for moloen er ikke tatt med. Operatør ukjent; navn fra stedsnavnet Trolldalen.",
+  "feature_ids": [
+   "4012-H36-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M18",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   195953,
+   6552553
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-195300-6552000",
+  "review_bbox": [
+   195843.0,
+   6552443.0,
+   196063.0,
+   6552663.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Brukerinnspill. Lang brygge med utriggere og rundt femten båter; ti-plassgrensen er oppfylt i bildet.",
+  "note": "Brukerinnspill runde 2. Hyttefelt Rognstranda; operatør ukjent. Brygga lenger nord ved stranda (få båter) er utelatt.",
+  "feature_ids": [
+   "4012-H37-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M19",
+  "kind": "bildefunn_kontaktark",
+  "center_25833": [
+   193913,
+   6551723
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-193500-6551100",
+  "review_bbox": [
+   193803.0,
+   6551613.0,
+   194023.0,
+   6551833.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Brukerinnspill. To brygger i Vinjekilen med til sammen over ti båtplasser i tilknytning til samme landområde.",
+  "note": "Brukerinnspill runde 2. To delbrygger med felles landområde/parkering; felles drift er ikke dokumentert, derfor mulig. Vinjestranda (H11) og Sauøya (C026) er egne anlegg.",
+  "feature_ids": [
+   "4012-H38-B01",
+   "4012-H38-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S001",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Stathelle og Omegn Båtforening: KNBF-medlem (126 medlemmer, ikke kapasitet); forretningsadresse Strandgata 42 Stathelle. Havneplassering ikke dokumentert; kan ha tilknytning til C025.",
+  "note": "Kilde: https://www.knbf.no/regioner/ost/medlemsforeninger-ost/",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S002",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Langesund og Omegn Seilforening: Registrert forening (c/o-adresse); ingen stedfestet havn funnet.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/924750952",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S003",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Valle Båtforening: Registrert ved Valleskolen; havneplassering ikke dokumentert.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/917212929",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S004",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Fagerheim Båtforening: Kontaktadresse Ørvikstubben; mulig kobling til C033 er ikke dokumentert.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/998543401",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S005",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Cocheplassen Båtforening: Kontaktadresse Martha Cochs vei; mulig kobling til C016 er ikke dokumentert.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/990905339",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S006",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Sandvika Småbåtforening: To steder heter Sandvika i Bamble (vik ved Langesund og ved Trosby); havn ikke stedfestet.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/917926492",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S007",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Mjælvika Båthavn SA: Adresse Sildetangveien; stedsnavn ikke funnet i Kartverkets søk. Ikke stedfestet.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/924572329",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S008",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Sameiet Leirvad Båthavn: Adresse Ivarsandveien; mulig kobling til M02 er ikke dokumentert.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/996594408",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S009",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Hegnas Marina: Adresse Valleveien 1011 (nær Valle); kan inngå i Valle-anleggene, ikke koblet.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/954128334",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S010",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Vestrestrand båthavn: Planinnspill 2022 omtaler båtplassutleie siden 1930-tallet og 15 plasser langs land; kommunens PDF svarte 404 ved henting. Mulig del av C004 B02.",
+  "note": "Kilde: https://www.bamble.kommune.no/contentassets/1eaa40268ddc4fc4aaa1328e24b70a19/27-arkitektkontoret-henning-karlsen-as-for-vestrestrand-bathavn-200422.pdf",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S011",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Langesund Båthavn AS / Båtforeningenes havneutvalg (Stoa): Adresser på Stoa; støtter Stoa-navnet for C035S, men ikke driftsgrenser.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/930153605",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S013",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Stråholmen småbåthavn (brukerinnspill runde 2): Molohavn ved Stråholmen ligger i Kragerø (ca. 3,3 km utenfor Bamble-grensen). Ikke del av leveransen; ført i neighbour-pending.json.",
+  "note": "Kilde: https://api.kartverket.no/stedsnavn/v1/navn?sok=Str%C3%A5holmen",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S014",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Vaterlands gate, Langesund (brukerinnspill runde 2): Rekke av korte private brygger med separate landfester (C039). Sameiet Vaterland Brygge og Sameiet Andersens Brygge har adresse her, men sameienavn dokumenterer ikke faste båtplasser eller felles anlegg. Fortsatt utelatt; bør avklares mot sameiene.",
+  "note": "Kilde: https://data.brreg.no/enhetsregisteret/api/enheter/988458597",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S015",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Kyststien – trekantet molobasseng: N01 ved Kruksdalen/Krukodden er funnet og inkludert som 4012-H39-B01. Formen passer beskrivelsen, men identitet med brukerens opprinnelige skjermbilde er ikke bekreftet.",
+  "note": "Se detail-review.json / N01.",
+  "feature_ids": [
+   "4012-H39-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S016",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Rognstranda nord – brygge ved stranda (brukerinnspill runde 2): Brygge med få båter ved badestranda; under ti plasser i bildet. Utelatt.",
+  "note": "Kilde: ",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S012",
+  "kind": "kildekandidat",
+  "center_25833": null,
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Kverndalen og Kommunebrygga (Stathelle), Kuskjær og Sykehusbrygga (Langesund): Kommunale havneeiendommer; ingen egen småbåthavn avgrenset utover C025. Kuskjær vurdert som M05.",
+  "note": "Kilde: https://www.bamble.kommune.no/vei-vann-havn-og-renovasjon/havn/havner-og-havneeiendommer-i-bamble-kommune/",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "N01",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   196330.0,
+   6551345.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-196200-6551100",
+  "review_bbox": [
+   196210.0,
+   6551225.0,
+   196450.0,
+   6551465.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Samlet trekantet molobasseng med en tett rekke båtplasser langs innsiden; klart over ti båter/plasser i detaljbildet.",
+  "note": "Aktuell kandidat til brukerens tidligere ikke-stedfestede «Kyststien»-basseng. Formen passer beskrivelsen, men identitet med originalskjermbildet er ikke bekreftet. Navnet er stedsbeskrivende fra Kartverket; operatør ukjent.",
+  "feature_ids": [
+   "4012-H39-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N01"
+ },
+ {
+  "candidate_id": "N02",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   198610.0,
+   6551490.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-198000-6551100",
+  "review_bbox": [
+   198490.0,
+   6551370.0,
+   198730.0,
+   6551610.0
+  ],
+  "decision": "utelatt",
+  "reason": "Fiskeri-/næringshavn: noen få småbåter langs molo, men ingen tydelig felles fritidsbåtanlegg med minst ti faste plasser. Moloen alene kvalifiserer ikke. Vaterlands gates separate privatbrygger er ikke summert med disse.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N02"
+ },
+ {
+  "candidate_id": "N03",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   192880.0,
+   6549440.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-192600-6548400",
+  "review_bbox": [
+   192760.0,
+   6549320.0,
+   193000.0,
+   6549560.0
+  ],
+  "decision": "utelatt",
+  "reason": "Separate korte brygger ved hver sin eiendom og egne landfester. Ingen enkeltbrygge viser ti klare plasser, og felles organisering er ikke dokumentert. Ikke summert til havn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N03"
+ },
+ {
+  "candidate_id": "N04",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   192025.0,
+   6548050.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-191700-6547500",
+  "review_bbox": [
+   191905.0,
+   6547930.0,
+   192145.0,
+   6548170.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Avgrenset molobasseng med felles kaifront og to brygger; tydelig over ti båtplasser i detaljbildet.",
+  "note": "N04 var grovt stedfestet ca. 200 m for langt øst i sweep-notatene; korrigert mot G152. Operatør ukjent.",
+  "feature_ids": [
+   "4012-H40-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N04"
+ },
+ {
+  "candidate_id": "N05",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   190600.0,
+   6547600.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189900-6547500",
+  "review_bbox": [
+   190480.0,
+   6547480.0,
+   190720.0,
+   6547720.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Samlet U-formet flytebrygge med båter på begge sider og minst ti synlige plasser.",
+  "note": "Den lille separate brygga lenger vest er holdt utenfor. Tilknytning til camping eller Kjøya-anleggene er ikke dokumentert.",
+  "feature_ids": [
+   "4012-H41-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N05"
+ },
+ {
+  "candidate_id": "N06",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   190560.0,
+   6547185.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189900-6546600",
+  "review_bbox": [
+   190440.0,
+   6547065.0,
+   190680.0,
+   6547305.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Felles langbrygge med tett rekke båter på begge sider; antall faste plasser ligger nær terskelen og kan ikke telles sikkert.",
+  "note": "Holdt som eget fysisk anlegg sør for H26. Nabobrygger og plasser i H26 er ikke summert inn.",
+  "feature_ids": [
+   "4012-H42-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N06"
+ },
+ {
+  "candidate_id": "N07",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   189610.0,
+   6546840.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189000-6546600",
+  "review_bbox": [
+   189490.0,
+   6546720.0,
+   189730.0,
+   6546960.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Den sentrale langbrygga har båter/plasser på begge sider, minst ti synlige plasser i ett anlegg.",
+  "note": "Bare den sentrale langbrygga er avgrenset; separate private brygger langs nabostranden er utelatt.",
+  "feature_ids": [
+   "4012-H43-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N07"
+ },
+ {
+  "candidate_id": "N08",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   190810.0,
+   6546720.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189900-6546600",
+  "review_bbox": [
+   190690.0,
+   6546600.0,
+   190930.0,
+   6546840.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet brygge med flere båter; felles båtplassanlegg er plausibelt, men ti faste plasser og drift er ikke sikkert dokumentert.",
+  "note": "Separate korte brygger nord og øst er ikke summert inn. Tonerhavna er et adressenavn, ikke dokumentert operatørnavn.",
+  "feature_ids": [
+   "4012-H44-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N08"
+ },
+ {
+  "candidate_id": "N09",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   189157.0,
+   6546281.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189000-6545700",
+  "review_bbox": [
+   189037.0,
+   6546161.0,
+   189277.0,
+   6546401.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "To brygger med utriggere ved samme felles landtilkomst; hver brygge har rundt ti eller flere synlige plasser. Sjøområdene er levert som separate delpolygoner.",
+  "note": "To brygger med felles landtilkomst på samme lille holme/tilkomstflate er én fysisk gruppe, levert som to sjøpolygoner uten landbro. Operatør ukjent.",
+  "feature_ids": [
+   "4012-H45-B01",
+   "4012-H45-B02"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N09"
+ },
+ {
+  "candidate_id": "N10",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   189645.0,
+   6545750.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-189000-6545700",
+  "review_bbox": [
+   189425.0,
+   6545530.0,
+   189865.0,
+   6545970.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende kaifront med godt over ti småbåter og en liten brygge; felles faste plasser er plausible, men camping-/servicebruk og drift er ikke dokumentert.",
+  "note": "Revurdert etter at første runde utelot båter langs land. Området er fysisk ved Havsund marina H05; felles operatør er ukjent, så det er ikke slått sammen med H05. Areal på land og camping er holdt utenfor.",
+  "feature_ids": [
+   "4012-H46-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N10"
+ },
+ {
+  "candidate_id": "N11",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   186310.0,
+   6545040.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-185400-6544800",
+  "review_bbox": [
+   186190.0,
+   6544920.0,
+   186430.0,
+   6545160.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Tett rekke på omtrent åtte–ti båter langs en samlet kaifront. Felles anlegg er plausibelt; ti faste plasser og organisering er usikkert.",
+  "note": "Bølgemønsteret ute i kilen er ikke båtplasser. Ingen kapasitet er utledet fra mønsteret. Kaifronten er avgrenset alene; nabobrygger er ikke summert inn.",
+  "feature_ids": [
+   "4012-H47-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N11"
+ },
+ {
+  "candidate_id": "N12",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   186765.0,
+   6544351.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-186300-6543900",
+  "review_bbox": [
+   186645.0,
+   6544231.0,
+   186885.0,
+   6544471.0
+  ],
+  "decision": "utelatt",
+  "reason": "En liten brygge i vik ved privat bebyggelse, omtrent seks–åtte båter. Under ti klare plasser, ingen dokumentert marina/båtforening; utelatt etter ny detaljkontroll.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N12"
+ },
+ {
+  "candidate_id": "N16",
+  "kind": "bildefunn_detaljgjennomgang",
+  "center_25833": [
+   188800.0,
+   6564320.0
+  ],
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-188100-6563700",
+  "review_bbox": [
+   188680.0,
+   6564200.0,
+   188920.0,
+   6564440.0
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtrekke langs søndre kaifront i Herreelva, rundt ti eller flere båter; antall faste plasser, bruk og felles drift er ikke dokumentert.",
+  "note": "Eget fysisk kaianlegg ca. 250 m fra H25. Nordbreddens separate private brygger er holdt utenfor, og gjennomgående elveløp er ikke innlemmet. Brakkvann.",
+  "feature_ids": [
+   "4012-H51-B01"
+  ],
+  "reviewed_date": "2026-10-31",
+  "detail_review_id": "N16"
+ }
+]
