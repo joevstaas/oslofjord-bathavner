@@ -24,3 +24,6 @@ archive/original/*/*-kart.html
 
 # Lokale tredjeparts kildeuttrekk for berikelsespiloter; publiserte fakta har egne kildehenvisninger.
 data/berikelse/*/*/sources/
+
+# Råkilder til miljøkort bevares lokalt; publiser bare strukturerte fakta.
+data/miljokort/*/sources/

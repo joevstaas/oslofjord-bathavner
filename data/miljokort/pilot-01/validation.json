@@ -1,0 +1,22 @@
+{
+  "cards": 6,
+  "observations": 25,
+  "sources": 19,
+  "source_snapshots_sha256_match": true,
+  "source_references_valid": true,
+  "csv_matches_json": true,
+  "baseline_unchanged": true,
+  "baseline_polygons": 816,
+  "map_links_verified": false,
+  "independent_operation_verified": false,
+  "ecological_effect_verified": false,
+  "geographic_context_checked": true,
+  "operating_boundaries_verified": false,
+  "public_overlay_cards": 6,
+  "browser_desktop_cards_checked": 6,
+  "mobile_width_checked": 390,
+  "python_tests_passed": 10,
+  "javascript_tests_passed": 3,
+  "optional_overlay_failure_test_passed": true,
+  "mobile_scope": "De tre opprinnelige kortene kontrollert i 390 px; samme kortkomponent brukes av de nye."
+}

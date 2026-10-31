@@ -1,0 +1,618 @@
+[
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 1,
+    "name": "Leangbukten båtforening",
+    "municipality": "Asker",
+    "coordinates": {
+      "x": 10.47811508178711,
+      "y": 59.83646011352538
+    },
+    "harbour_id": "3203-H09",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 2,
+    "name": "Vollen Marina",
+    "municipality": "Asker",
+    "coordinates": {
+      "x": 10.485729217529297,
+      "y": 59.80949783325196
+    },
+    "harbour_id": "3203-H12",
+    "distance_to_polygon_m": 25.8,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 3,
+    "name": "Sandvika gjestebrygge",
+    "municipality": "Bærum",
+    "coordinates": {
+      "x": 10.528515815734862,
+      "y": 59.88794708251953
+    },
+    "harbour_id": "3201-H04",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 4,
+    "name": "Oksenøyen Marina",
+    "municipality": "Bærum",
+    "coordinates": {
+      "x": 10.598560333251953,
+      "y": 59.89619827270508
+    },
+    "harbour_id": "3201-H19",
+    "distance_to_polygon_m": 10.3,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 6,
+    "name": "Borg Havn IKS",
+    "municipality": "Fredrikstad",
+    "coordinates": {
+      "x": 10.97043514251709,
+      "y": 59.17863464355468
+    },
+    "harbour_id": "3107-H49",
+    "distance_to_polygon_m": 11.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 7,
+    "name": "Tjøme - Verdens Ende",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.408661842346191,
+      "y": 59.05847549438475
+    },
+    "harbour_id": "3911-H15",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 8,
+    "name": "Halden Gjestehavn",
+    "municipality": "Halden",
+    "coordinates": {
+      "x": 11.386919975280762,
+      "y": 59.11854934692382
+    },
+    "harbour_id": "3101-H13",
+    "distance_to_polygon_m": 33.8,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 10,
+    "name": "Kommunebrygga",
+    "municipality": "Frogn",
+    "coordinates": {
+      "x": 10.627114295959473,
+      "y": 59.66293334960938
+    },
+    "harbour_id": "3214-H10",
+    "distance_to_polygon_m": 11.8,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 11,
+    "name": "Drøbak båthavn",
+    "municipality": "Frogn",
+    "coordinates": {
+      "x": 10.62791633605957,
+      "y": 59.65951156616212
+    },
+    "harbour_id": "3214-H11",
+    "distance_to_polygon_m": 9.5,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 12,
+    "name": "Vindfangerbukta",
+    "municipality": "Frogn",
+    "coordinates": {
+      "x": 10.624261856079102,
+      "y": 59.67653274536133
+    },
+    "harbour_id": "3214-H09",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 13,
+    "name": "Skjebergkilen marina",
+    "municipality": "Sarpsborg",
+    "coordinates": {
+      "x": 11.15767574310303,
+      "y": 59.17816925048827
+    },
+    "harbour_id": "3105-H33",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 14,
+    "name": "Sandefjord gjestehavn",
+    "municipality": "Sandefjord",
+    "coordinates": {
+      "x": 10.222743034362791,
+      "y": 59.12527465820312
+    },
+    "harbour_id": null,
+    "distance_to_polygon_m": null,
+    "status": "not_counted",
+    "note": "Utenfor de 664 eller tvetydig steds-/navnekobling; ikke automatisk tilordnet."
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 15,
+    "name": "Fuglevik Båthavn v/Rygge Båtforening ",
+    "municipality": "Moss",
+    "coordinates": {
+      "x": 10.652134895324707,
+      "y": 59.38686752319335
+    },
+    "harbour_id": "3103-H02",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 16,
+    "name": "Oksval båthavn SA",
+    "municipality": "Nesodden",
+    "coordinates": {
+      "x": 10.671557426452637,
+      "y": 59.862419128417976
+    },
+    "harbour_id": "3212-H07",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 17,
+    "name": "Steilene Seilhavn",
+    "municipality": "Nesodden",
+    "coordinates": {
+      "x": 10.605620384216309,
+      "y": 59.818645477294915
+    },
+    "harbour_id": "3212-H01",
+    "distance_to_polygon_m": 243.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 19,
+    "name": "Stavern gjestehavn",
+    "municipality": "Larvik",
+    "coordinates": {
+      "x": 10.041255950927736,
+      "y": 58.999839782714844
+    },
+    "harbour_id": "3909-H16",
+    "distance_to_polygon_m": 4.1,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 21,
+    "name": "Tønsgberg gjestehavn",
+    "municipality": "Tønsberg",
+    "coordinates": {
+      "x": 10.40187358856201,
+      "y": 59.26914978027344
+    },
+    "harbour_id": "3905-H03",
+    "distance_to_polygon_m": 13.5,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 22,
+    "name": "Vallø Marina",
+    "municipality": "Tønsberg",
+    "coordinates": {
+      "x": 10.48992443084717,
+      "y": 59.26265335083008
+    },
+    "harbour_id": "3905-H06",
+    "distance_to_polygon_m": 4.9,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 23,
+    "name": "Bankløkka båthavn",
+    "municipality": "Horten",
+    "coordinates": {
+      "x": 10.4793119430542,
+      "y": 59.4234199523926
+    },
+    "harbour_id": "3901-H04",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 24,
+    "name": "Åsgårdstrand båthavn",
+    "municipality": "Horten",
+    "coordinates": {
+      "x": 10.472482681274416,
+      "y": 59.3493995666504
+    },
+    "harbour_id": "3901-H12",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 26,
+    "name": "Son Havn Nord",
+    "municipality": "Vestby",
+    "coordinates": {
+      "x": 10.687188148498535,
+      "y": 59.525798797607415
+    },
+    "harbour_id": "3216-H02",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 27,
+    "name": "Nesset",
+    "municipality": "Ås",
+    "coordinates": {
+      "x": 10.732246398925781,
+      "y": 59.72967529296875
+    },
+    "harbour_id": null,
+    "distance_to_polygon_m": null,
+    "status": "not_counted",
+    "note": "Utenfor de 664 eller tvetydig steds-/navnekobling; ikke automatisk tilordnet."
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 28,
+    "name": "Sentrum",
+    "municipality": "Porsgrunn",
+    "coordinates": {
+      "x": 9.652960777282715,
+      "y": 59.14091110229491
+    },
+    "harbour_id": "4001-H05",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 29,
+    "name": "Breivik",
+    "municipality": "Porsgrunn",
+    "coordinates": {
+      "x": 9.703242301940916,
+      "y": 59.05422592163086
+    },
+    "harbour_id": "4001-H14",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 30,
+    "name": "Langøya/Langesund Gjestehavn",
+    "municipality": "Bamble",
+    "coordinates": {
+      "x": 9.748194694519043,
+      "y": 59.00248718261719
+    },
+    "harbour_id": "4012-H21",
+    "distance_to_polygon_m": 7.8,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 33,
+    "name": "Tordenskjoldbukta",
+    "municipality": "Hvaler",
+    "coordinates": {
+      "x": 11.109177589416504,
+      "y": 59.05165481567382
+    },
+    "harbour_id": null,
+    "distance_to_polygon_m": null,
+    "status": "not_counted",
+    "note": "Utenfor de 664 eller tvetydig steds-/navnekobling; ikke automatisk tilordnet."
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 34,
+    "name": "Bestumkilen på flåte",
+    "municipality": "Oslo",
+    "coordinates": {
+      "x": 10.663511028458204,
+      "y": 59.91536459306951
+    },
+    "harbour_id": "0301-H04",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 35,
+    "name": "Kongen Marina på flåte",
+    "municipality": "Oslo",
+    "coordinates": {
+      "x": 10.7005986510003,
+      "y": 59.91033602899968
+    },
+    "harbour_id": "0301-H08",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 36,
+    "name": "Hovedøya på flåte",
+    "municipality": "Oslo",
+    "coordinates": {
+      "x": 10.734260748316707,
+      "y": 59.896916501439364
+    },
+    "harbour_id": "0301-H23",
+    "distance_to_polygon_m": 37.6,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 37,
+    "name": "Paddehavet på flåte",
+    "municipality": "Oslo",
+    "coordinates": {
+      "x": 10.773883205211158,
+      "y": 59.87454994873833
+    },
+    "harbour_id": "0301-H29",
+    "distance_to_polygon_m": 35.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 38,
+    "name": "Kjøpmannskjær",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.38386058807373,
+      "y": 59.17386245727539
+    },
+    "harbour_id": "3911-H22",
+    "distance_to_polygon_m": 227.2,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 39,
+    "name": "Tenvik",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.365198135375977,
+      "y": 59.1744041442871
+    },
+    "harbour_id": "3911-H07",
+    "distance_to_polygon_m": 42.1,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 40,
+    "name": "Verdens ende",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.408587455749512,
+      "y": 59.05791473388672
+    },
+    "harbour_id": "3911-H15",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 41,
+    "name": "Østre bolerne",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.56959342956543,
+      "y": 59.201087951660156
+    },
+    "harbour_id": "3911-H14",
+    "distance_to_polygon_m": 22.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 43,
+    "name": "Skjæløy Slipp A/S, Marina",
+    "municipality": "Fredrikstad",
+    "coordinates": {
+      "x": 10.736808776855469,
+      "y": 59.27225112915039
+    },
+    "harbour_id": null,
+    "distance_to_polygon_m": null,
+    "status": "not_counted",
+    "note": "Utenfor de 664 eller tvetydig steds-/navnekobling; ikke automatisk tilordnet."
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 44,
+    "name": "Knarberg",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.458002090454102,
+      "y": 59.20884323120117
+    },
+    "harbour_id": "3911-H18",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 45,
+    "name": "Stabbestad på flåte",
+    "municipality": "Kragerø",
+    "coordinates": {
+      "x": 9.406269073486328,
+      "y": 58.85100173950195
+    },
+    "harbour_id": null,
+    "distance_to_polygon_m": null,
+    "status": "not_counted",
+    "note": "Utenfor de 664 eller tvetydig steds-/navnekobling; ikke automatisk tilordnet."
+  },
+  {
+    "layer": "Septik_(ny_og_gammel)",
+    "object_id": 48,
+    "name": "Holmsbu gjestehavn",
+    "municipality": "Asker",
+    "coordinates": {
+      "x": 10.42470645904541,
+      "y": 59.56074523925781
+    },
+    "harbour_id": "3203-H06",
+    "distance_to_polygon_m": 0.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": 49,
+    "name": "Grimsøy Marine AS - privat anlegg",
+    "municipality": "Sarpsborg",
+    "coordinates": {
+      "x": 11.192077114453378,
+      "y": 59.14458974671916
+    },
+    "harbour_id": "3105-H36",
+    "distance_to_polygon_m": 57.0,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": 50,
+    "name": "Holmsbu havn",
+    "municipality": "Asker",
+    "coordinates": {
+      "x": 10.427141026503309,
+      "y": 59.55966662118616
+    },
+    "harbour_id": "3203-H06",
+    "distance_to_polygon_m": 20.3,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": 51,
+    "name": "Kongelig Norsk Seilforening -  Dronningen",
+    "municipality": "Oslo",
+    "coordinates": {
+      "x": 10.694913831495343,
+      "y": 59.90759870955901
+    },
+    "harbour_id": "0301-H09",
+    "distance_to_polygon_m": 49.8,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": 52,
+    "name": "Sandøsund",
+    "municipality": "Færder",
+    "coordinates": {
+      "x": 10.451193065197716,
+      "y": 59.08195040133799
+    },
+    "harbour_id": "3911-H11",
+    "distance_to_polygon_m": 1.9,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": 53,
+    "name": "Værste gjestehavn (Borg havn IKS)",
+    "municipality": "Fredrikstad",
+    "coordinates": {
+      "x": 10.924147735802249,
+      "y": 59.21316557546672
+    },
+    "harbour_id": "3107-H38",
+    "distance_to_polygon_m": 78.3,
+    "status": "accepted_context",
+    "note": ""
+  },
+  {
+    "layer": "Septik_(ny)",
+    "object_id": null,
+    "name": "Ormestad Båtforening",
+    "municipality": "Sandefjord",
+    "coordinates": {
+      "x": 10.262430142253764,
+      "y": 59.10905420330379
+    },
+    "harbour_id": "3907-H32",
+    "distance_to_polygon_m": 28.9,
+    "status": "accepted_context",
+    "note": ""
+  }
+]

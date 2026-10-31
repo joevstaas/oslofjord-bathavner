@@ -1,0 +1,15 @@
+{
+  "groups": 664,
+  "eligible": 69,
+  "counts": {
+    "uavklart": 595,
+    "kortgrunnlag": 50,
+    "historisk_kortgrunnlag": 19
+  },
+  "unique_group_ids": true,
+  "evidence_links_valid": true,
+  "source_hashes_match_when_local": true,
+  "csv_matches_json": true,
+  "approved_baseline_unchanged": true,
+  "all_groups_individually_web_searched": false
+}
