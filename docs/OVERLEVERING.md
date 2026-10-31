@@ -180,3 +180,21 @@ inkludering av nye kommuner som ikke er ført opp i rekkefølgen. Aktivt
 kapasitetsfilter begrenser fortsatt turen til kommuner med treff, og telleren
 følger dette utvalget. Regresjonstest kjører faktisk rutebygging mot kartdata,
 kontrollerer 23 unike kommuner, retur, fremtidige kommuner og filtrert tur.
+
+### Norsk og engelsk nettside
+
+Nettsiden har norsk bokmål som standard og språkvelger «Norsk / English» på både
+mobil og stor skjerm. Valget lagres lokalt i nettleseren; blokkert lagring
+hindrer ikke språkbytte. `html lang`, sidetittel, beskrivelse, tilgjengelighets-
+etiketter, kartkontroller, tur, filter, metode-/informasjonspaneler, Moss-
+berikelse og miljøkort bruker språkvalget. Kartposisjon, tur og filter beholdes
+ved språkbytte; åpne kort oppdateres uten ny kameraflyging. Mobilfilteret er
+fortsatt begrenset til publisert kapasitet. Stedsnavn og kildetitler beholdes;
+opprinnelige kartleggingsnotater vises merket på originalspråket.
+
+Oversettelser ligger i `site/labs/oslofjord-bathavner/i18n.js`. Statiske tekster
+merkes med `data-i18n` og tilsvarende attributtmarkører; dynamiske tekster bruker
+`t`/`tx` og navngitte parametere. Godkjente kartdata og kildefakta endres ikke av
+oversettelsene. Tester dekker norsk standard, lagring/lagringsfeil, like
+parametere i begge språk, alle brukte statiske nøkler og engelske oversettelser
+av samtlige miljøkortoppsummeringer og strukturerte evidenstekster.

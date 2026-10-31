@@ -1,17 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="nb">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Oslofjord Harbours</title>
-<meta name="description" content="Fly in 3D over every mapped small-boat harbour in the Oslofjord, Norway: 816 polygons from 23 municipalities.">
-<meta property="og:title" content="Oslofjord Harbours – 3D flyover">
-<meta property="og:description" content="Fly over every mapped small-boat harbour in the Oslofjord.">
+<title>Havner i Oslofjorden</title>
+<meta name="description" content="Utforsk småbåthavnene i Oslofjorden i 3D: 816 polygoner fra 23 kommuner." data-i18n-content="description">
+<meta property="og:title" content="Havner i Oslofjorden – flytur i 3D" data-i18n-content="og.title">
+<meta property="og:description" content="Utforsk småbåthavnene i Oslofjorden i 3D: 816 polygoner fra 23 kommuner." data-i18n-content="description">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23071a2c'/%3E%3Cpath d='M16 6v18M10 10h12M8 18c1 5 5 7 8 7s7-2 8-7' stroke='%2346d3c6' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" rel="stylesheet">
+<script src="/labs/oslofjord-bathavner/i18n.js"></script>
 <script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js"></script>
 <style>
 :root{
@@ -33,6 +34,10 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;paddin
 .mono{font-family:"JetBrains Mono",ui-monospace,monospace}
 svg{display:block}
 
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+#languageControl{position:fixed;right:14px;top:88px;z-index:8;padding:5px 8px}
+#language{font:inherit;font-size:12px;min-height:28px;color:var(--foam);background:var(--navy);border:0;border-radius:5px}
+@media(max-width:720px){#languageControl{top:66px;right:14px}}
 /* brand */
 #brand{position:fixed;top:14px;left:14px;padding:9px 13px 9px 11px;display:flex;gap:10px;align-items:center;z-index:5;max-width:calc(100vw - 28px)}
 #brand .logo{width:28px;height:28px;border-radius:8px;background:linear-gradient(140deg,#0f3a5c,#071a2c);display:grid;place-items:center;flex:none;border:1px solid var(--line)}
@@ -229,27 +234,29 @@ svg{display:block}
 </style>
 </head>
 <body>
-<div id="map" aria-label="3D map of the Oslofjord"></div>
+<div id="map" aria-label="3D-kart over Oslofjorden" data-i18n-aria-label="3D map of the Oslofjord"></div>
 
-<div id="loading"><div><div class="ring"></div><div>Charting the fjord…</div></div></div>
+<div id="loading"><div><div class="ring"></div><div><span data-i18n="s0">Kartlegger fjorden…</span></div></div></div>
 
 <header id="brand" class="glass">
   <div class="logo"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#46d3c6" stroke-width="2.2" stroke-linecap="round"><path d="M12 3v16M7 7h10M4 13c1 5 4.5 7 8 7s7-2 8-7"/></svg></div>
   <div>
-    <h1><span class="desktop-copy">Oslofjord small-boat harbours</span><span class="mobile-copy">Oslofjord harbours</span></h1>
+    <h1><span class="desktop-copy"><span data-i18n="s1">Småbåthavner i Oslofjorden</span></span><span class="mobile-copy"><span data-i18n="s2">Havner i Oslofjorden</span></span></h1>
     <div class="sub" id="stats">–</div>
-    <div class="by"><a href="https://app.hubocean.earth/" target="_blank" rel="noopener"><span class="desktop-copy">Powered by the Ocean Data Platform ↗</span><span class="mobile-copy">Ocean Data Platform ↗</span></a></div>
-    <div class="legend"><span><i style="background:var(--harbour)"></i>Harbour</span><span><i style="background:var(--possible)"></i>Possible</span><span><i style="background:var(--pilot)"></i>Pilot</span><span><i style="background:transparent;border:1px dashed var(--todo)"></i>Not yet mapped</span></div>
+    <div class="by"><a href="https://app.hubocean.earth/" target="_blank" rel="noopener"><span class="desktop-copy"><span data-i18n="s4">Drevet av Ocean Data Platform ↗</span></span><span class="mobile-copy">Ocean Data Platform ↗</span></a></div>
+    <div class="legend"><span><i style="background:var(--harbour)"></i><span data-i18n="s6">Småbåthavn</span></span><span><i style="background:var(--possible)"></i><span data-i18n="s7">Mulig havn</span></span><span><i style="background:var(--pilot)"></i>Pilot</span><span><i style="background:transparent;border:1px dashed var(--todo)"></i><span data-i18n="s9">Ikke kartlagt</span></span></div>
   </div>
 </header>
 
+<label id="languageControl" class="glass"><span class="sr-only">Språk / Language</span><select id="language" aria-label="Språk / Language"><option value="nb">Norsk</option><option value="en">English</option></select></label>
+
 <div id="hud">
   <div class="read glass mono" aria-hidden="true">
-    <span>HDG</span><b id="hdg">000°</b>
-    <span>ALT</span><b id="alt">–</b>
-    <span>POS</span><b id="pos">–</b>
+    <span><span data-i18n="s10">KURS</span></span><b id="hdg">000°</b>
+    <span><span data-i18n="s12">HØYDE</span></span><b id="alt">–</b>
+    <span><span data-i18n="s13">POS</span></span><b id="pos">–</b>
   </div>
-  <button id="compass" class="glass" title="Reset north" aria-label="Reset north">
+  <button id="compass" class="glass" title="Vend kartet mot nord" aria-label="Vend kartet mot nord" data-i18n-aria-label="Reset north" data-i18n-title="Reset north">
     <svg class="rose" id="rose" width="34" height="34" viewBox="0 0 40 40"><circle cx="20" cy="20" r="17" fill="none" stroke="rgba(159,189,211,.35)" stroke-width="1"/><path d="M20 4l4.5 16h-9z" fill="#e5484d"/><path d="M20 36l-4.5-16h9z" fill="#9fbdd3"/><text x="20" y="13.5" text-anchor="middle" font-size="6.5" font-weight="800" fill="#fff" font-family="Manrope">N</text></svg>
   </button>
 </div>
@@ -259,149 +266,149 @@ svg{display:block}
 <aside id="card" class="glass" aria-live="polite"></aside>
 
 <div id="flyhint" class="glass">
-  <div style="color:var(--foam);font-weight:700;margin-bottom:4px">Free flight</div>
-  <div><kbd>W</kbd><kbd>S</kbd> forward / back</div>
-  <div><kbd>A</kbd><kbd>D</kbd> turn left / right</div>
-  <div><kbd>↑</kbd><kbd>↓</kbd> climb / descend</div>
-  <div><kbd>Q</kbd><kbd>E</kbd> tilt view</div>
-  <div><kbd>Shift</kbd> boost · <kbd>Esc</kbd> exit</div>
+  <div style="color:var(--foam);font-weight:700;margin-bottom:4px"><span data-i18n="s14">Fri flyging</span></div>
+  <div><kbd>W</kbd><kbd>S</kbd> <span data-i18n="s17">fremover / bakover</span></div>
+  <div><kbd>A</kbd><kbd>D</kbd> <span data-i18n="s20">sving venstre / høyre</span></div>
+  <div><kbd>↑</kbd><kbd>↓</kbd> <span data-i18n="s23">opp / ned</span></div>
+  <div><kbd>Q</kbd><kbd>E</kbd> <span data-i18n="s26">vipp kameraet</span></div>
+  <div><kbd>Shift</kbd> <span data-i18n="s28">raskere ·</span> <kbd>Esc</kbd> <span data-i18n="s30">avslutt</span></div>
 </div>
 
 <div id="tip"></div>
 
-<div id="layersPop" class="pop glass" role="dialog" aria-label="Map layers">
+<div id="layersPop" class="pop glass" role="dialog" aria-label="Kartlag" data-i18n-aria-label="Map layers">
   <h4>Filter</h4>
-  <div class="chk"><span>200+ båtplasser</span><button id="largeHarbours" class="sw" data-t="capacity" aria-label="Vis havner med minst 200 båtplasser" aria-pressed="false"></button></div>
+  <div class="chk"><span><span data-i18n="s32">200+ båtplasser</span></span><button id="largeHarbours" class="sw" data-t="capacity" aria-label="Vis havner med minst 200 båtplasser" aria-pressed="false" data-i18n-aria-label="filter.label"></button></div>
   <div class="capacity-advanced">
-  <label for="capacityMode" style="font-size:12px">Grunnlag</label>
+  <label for="capacityMode" style="font-size:12px"><span data-i18n="s33">Grunnlag</span></label>
   <select id="capacityMode" style="width:100%;margin:6px 0;padding:7px;background:#102a3a;color:white;border:1px solid #547181;border-radius:6px">
-    <option value="published">Kun publisert kapasitet</option>
-    <option value="likely">Publisert + trolig ≥200 fra areal</option>
-    <option value="possible">Også mulig ≥200 (usikre anslag)</option>
+    <option value="published" data-i18n="s34">Kun publisert kapasitet</option>
+    <option value="likely" data-i18n="s35">Publisert + trolig ≥200 fra areal</option>
+    <option value="possible" data-i18n="s36">Også mulig ≥200 (usikre anslag)</option>
   </select>
   </div>
   <p id="capacityStatus" aria-live="polite" style="font-size:12px;color:var(--dim)"></p>
-  <p class="mobile-copy" style="font-size:11px;color:var(--dim)">Kun publiserte tall. Ukjent kapasitet utelates.</p>
+  <p class="mobile-copy" style="font-size:11px;color:var(--dim)"><span data-i18n="s37">Kun publiserte tall. Ukjent kapasitet utelates.</span></p>
   <div class="capacity-advanced">
-  <p style="font-size:11px;color:var(--dim)">Publiserte tall kan være eldre. Arealanslag er grove og vises separat. Ingen vurdering av forskriftskrav.</p>
-  <details style="font-size:11px;color:var(--dim);margin-bottom:10px"><summary>Om arealanslagene</summary>
-    <p id="capacityModelInfo">Modell testet ved å holde hele kommuner utenfor beregningen. Spennet er veiledende, uten garantert dekning.</p>
-    <p>Havnestørrelse og båtstørrelser varierer. Ukjent kapasitet er ikke det samme som under 200. Utenfor modellens arealområde og for mulige havner beholdes usikker status.</p>
-    <a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a>
+  <p style="font-size:11px;color:var(--dim)"><span data-i18n="s38">Publiserte tall kan være eldre. Arealanslag er grove og vises separat. Ingen vurdering av forskriftskrav.</span></p>
+  <details style="font-size:11px;color:var(--dim);margin-bottom:10px"><summary><span data-i18n="s39">Om arealanslagene</span></summary>
+    <p id="capacityModelInfo"><span data-i18n="s40">Modell testet ved å holde hele kommuner utenfor beregningen. Spennet er veiledende, uten garantert dekning.</span></p>
+    <p><span data-i18n="s41">Havnestørrelse og båtstørrelser varierer. Ukjent kapasitet er ikke det samme som under 200. Utenfor modellens arealområde og for mulige havner beholdes usikker status.</span></p>
+    <a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener"><span data-i18n="s42">Modellgrunnlag og testresultater ↗</span></a>
   </details>
   </div>
-  <h4>Base map</h4>
-  <div class="seg" id="baseSeg"><button data-b="sat" class="on">Satellite</button><button data-b="chart">Sea chart</button><button data-b="topo">Topo</button></div>
-  <h4>Overlays</h4>
-  <div class="chk"><span>Municipality boundaries</span><button class="sw on" data-t="muni" aria-label="Toggle municipality boundaries"></button></div>
-  <div class="chk"><span>Harbour names</span><button class="sw on" data-t="labels" aria-label="Toggle harbour names"></button></div>
-  <div class="chk"><span>Terrain relief ×2</span><button class="sw" data-t="exag" aria-label="Toggle terrain exaggeration"></button></div>
+  <h4><span data-i18n="s43">Bakgrunnskart</span></h4>
+  <div class="seg" id="baseSeg"><button data-b="sat" class="on"><span data-i18n="s44">Satellitt</span></button><button data-b="chart"><span data-i18n="s45">Sjøkart</span></button><button data-b="topo"><span data-i18n="s46">Topografi</span></button></div>
+  <h4><span data-i18n="s47">Kartlag</span></h4>
+  <div class="chk"><span><span data-i18n="s48">Kommunegrenser</span></span><button class="sw on" data-t="muni" aria-label="Vis eller skjul kommunegrenser" data-i18n-aria-label="Toggle municipality boundaries"></button></div>
+  <div class="chk"><span><span data-i18n="s49">Havnenavn</span></span><button class="sw on" data-t="labels" aria-label="Vis eller skjul havnenavn" data-i18n-aria-label="Toggle harbour names"></button></div>
+  <div class="chk"><span><span data-i18n="s50">Terrengforsterkning ×2</span></span><button class="sw" data-t="exag" aria-label="Slå terrengforsterkning av eller på" data-i18n-aria-label="Toggle terrain exaggeration"></button></div>
 </div>
 
-<aside id="about" class="side glass" role="dialog" aria-label="About this map" aria-modal="false">
-  <button class="x" id="aboutX" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  <div class="eyebrow">About</div>
-  <h2>Small-boat harbours of the Oslofjord</h2>
-  <p>This map shows the physical outline of every small-boat harbour found so far in the municipalities around the inner and outer Oslofjord: piers, berths and the water between them. <b id="aboutStats">816 polygons from 23 municipalities</b> are mapped; the municipalities marked <span style="color:var(--todo)">not yet mapped</span> are next.</p>
-  <h3>Flyover route</h3>
-  <p>Start in Oslo, head south-west down the fjord, then cross over and fly north again.</p>
-  <h3>What counts as a harbour</h3>
-  <p>A shared facility with at least 10 berths, or a documented marina or boat club with permanent berths. Scattered private piers, bathing piers, ferry quays and planned facilities are left out.</p>
-  <div class="cls"><span class="badge" style="background:var(--harbour)">Harbour</span><span class="badge" style="background:var(--possible)">Possible harbour</span><span class="badge" style="background:var(--pilot)">Pilot (map-based)</span></div>
-  <h3>How it was made</h3>
+<aside id="about" class="side glass" role="dialog" aria-label="Om kartet" aria-modal="false" data-i18n-aria-label="About this map">
+  <button class="x" id="aboutX" aria-label="Lukk" data-i18n-aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <div class="eyebrow"><span data-i18n="s51">Om kartet</span></div>
+  <h2><span data-i18n="s52">Småbåthavner i Oslofjorden</span></h2>
+  <p><span data-i18n="s53">Kartet viser omrisset av småbåthavnene som er funnet så langt i kommunene langs indre og ytre Oslofjord: brygger, båtplasser og vannet mellom dem.</span> <b id="aboutStats"><span data-i18n="s54">816 polygoner fra 23 kommuner</span></b> <span data-i18n="s55">er kartlagt. Kommunene merket</span> <span style="color:var(--todo)"><span data-i18n="s56">ikke kartlagt</span></span> <span data-i18n="s57">står for tur.</span></p>
+  <h3><span data-i18n="s58">Flyrute</span></h3>
+  <p><span data-i18n="s59">Start i Oslo, følg fjorden sørover langs vestsiden og kryss over før turen går nordover igjen.</span></p>
+  <h3><span data-i18n="s60">Hva regnes som en småbåthavn?</span></h3>
+  <p><span data-i18n="s61">Et fellesanlegg med minst ti båtplasser, eller en dokumentert marina eller båtforening med faste båtplasser. Spredte private brygger, badebrygger, ferjekaier og planlagte anlegg er utelatt.</span></p>
+  <div class="cls"><span class="badge" style="background:var(--harbour)"><span data-i18n="s6">Småbåthavn</span></span><span class="badge" style="background:var(--possible)"><span data-i18n="s62">Mulig småbåthavn</span></span><span class="badge" style="background:var(--pilot)"><span data-i18n="s63">Pilot (kartbasert)</span></span></div>
+  <h3><span data-i18n="s64">Slik ble kartet laget</span></h3>
   <ol>
-    <li><b>Collect candidates</b> from two independent sources: OpenStreetMap piers and marinas, and public registers, place names and municipal harbour pages.</li>
-    <li><b>Draft outlines automatically:</b> nearby piers are clustered, buffered and clipped to the water area of Kartverket’s topographic map and to the municipal boundary.</li>
-    <li><b>Review every candidate</b> against georeferenced aerial imagery. Each one is included, trimmed, split, redrawn by hand or excluded, and the reason is logged.</li>
-    <li><b>Sweep all imagery tiles</b> along the shore to catch harbours that are missing from OpenStreetMap, and draw them by hand.</li>
-    <li><b>Quality-check and approve</b> each municipality: overlays on the imagery, geometry and boundary checks, and a manual approval before anything enters the combined dataset.</li>
+    <li><b><span data-i18n="s65">Finn kandidater</span></b> <span data-i18n="s66">fra to uavhengige kilder: brygger og marinaer i OpenStreetMap, og offentlige registre, stedsnavn og kommunale havnesider.</span></li>
+    <li><b><span data-i18n="s67">Lag foreløpige omriss automatisk:</span></b> <span data-i18n="s68">nærliggende brygger grupperes, bufres og klippes mot vannarealet i Kartverkets topografiske kart og mot kommunegrensen.</span></li>
+    <li><b><span data-i18n="s69">Gjennomgå hver kandidat</span></b> <span data-i18n="s70">mot georefererte flybilder. Hver kandidat tas med, justeres, deles, tegnes på nytt eller utelates, og begrunnelsen loggføres.</span></li>
+    <li><b><span data-i18n="s71">Gjennomgå alle bildeflisene</span></b> <span data-i18n="s72">langs kysten for å finne havner som mangler i OpenStreetMap, og tegn dem for hånd.</span></li>
+    <li><b><span data-i18n="s73">Kvalitetssikre og godkjenn</span></b> <span data-i18n="s74">hver kommune med bildeoverlegg, geometri- og grensekontroller og manuell godkjenning før innlemming i datasettet.</span></li>
   </ol>
-  <p><a href="#" id="toMethod">Data sources, full method and AI models →</a></p>
-  <h3>Limitations</h3>
-  <p>Image acquisition dates are unknown, no field survey has been made, and small facilities may be missed. Outlines are mapping estimates, not official harbour or property boundaries. Uncertain outlines are flagged in each harbour card.</p>
-  <h3>Credits</h3>
+  <p><a href="#" id="toMethod"><span data-i18n="s75">Kilder, full metode og KI-modeller →</span></a></p>
+  <h3><span data-i18n="s76">Begrensninger</span></h3>
+  <p><span data-i18n="s77">Bildenes opptaksdato er ukjent, det er ikke gjennomført befaring, og små anlegg kan være oversett. Omrissene er kartleggingsanslag, ikke offisielle havne- eller eiendomsgrenser. Usikre omriss er merket i havnekortet.</span></p>
+  <h3><span data-i18n="s78">Bidragsytere</span></h3>
   <div class="who"><svg width="22" height="22" viewBox="0 0 24 24" fill="#e9f4fb"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
-    <div style="font-size:13px">Created by <a href="https://github.com/joevstaas" target="_blank" rel="noopener">Jo Øvstaas</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener" style="font-weight:500">Full method, data and code on GitHub ↗</a></div></div>
-  <div class="odpbox">Powered by the <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> from <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a>.</div>
-  <p style="margin-top:12px;font-size:11.5px;color:var(--dim)">Sources: © Kartverket (topographic map, sea chart, municipal boundaries); imagery © Esri, Vantor, Earthstar Geographics; © OpenStreetMap contributors (ODbL); Brønnøysund Register Centre; terrain: Mapzen / AWS Terrain Tiles.</p>
+    <div style="font-size:13px"><span data-i18n="s79">Laget av</span> <a href="https://github.com/joevstaas" target="_blank" rel="noopener">Jo Øvstaas</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener" style="font-weight:500"><span data-i18n="s81">Full metode, data og kode på GitHub ↗</span></a></div></div>
+  <div class="odpbox"><span data-i18n="s82">Drevet av</span> <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> <span data-i18n="s84">fra</span> <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a>.</div>
+  <p style="margin-top:12px;font-size:11.5px;color:var(--dim)"><span data-i18n="s87">Kilder: © Kartverket (topografisk kart, sjøkart og kommunegrenser); bilder © Esri, Vantor og Earthstar Geographics; © OpenStreetMap-bidragsytere (ODbL); Brønnøysundregistrene; terreng: Mapzen / AWS Terrain Tiles.</span></p>
 </aside>
 
-<aside id="method" class="side glass" role="dialog" aria-label="Methodology">
-  <button class="x" id="methodX" aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  <div class="eyebrow">Methodology</div>
-  <h2>How the harbours were mapped</h2>
-  <p>An AI agent mapped the harbours one municipality at a time, following a written methodology. A person approved every municipality by inspecting its GeoJSON before it was added to the dataset.</p>
-  <div class="toc"><a href="#m-src">Data sources</a><a href="#m-steps">Analysis</a><a href="#m-ai">AI models</a><a href="#m-qa">Quality</a><a href="#m-num">Numbers</a></div>
+<aside id="method" class="side glass" role="dialog" aria-label="Metode" data-i18n-aria-label="s88">
+  <button class="x" id="methodX" aria-label="Lukk" data-i18n-aria-label="Close"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  <div class="eyebrow"><span data-i18n="s88">Metode</span></div>
+  <h2><span data-i18n="s89">Slik ble havnene kartlagt</span></h2>
+  <p><span data-i18n="s90">En KI-agent kartla havnene kommunevis etter en skriftlig metode. Et menneske godkjente hver kommune ved å kontrollere GeoJSON-filen før den ble tatt inn i datasettet.</span></p>
+  <div class="toc"><a href="#m-src"><span data-i18n="s91">Datakilder</span></a><a href="#m-steps"><span data-i18n="s92">Analyse</span></a><a href="#m-ai"><span data-i18n="s93">KI-modeller</span></a><a href="#m-qa"><span data-i18n="s94">Kvalitet</span></a><a href="#m-num"><span data-i18n="s95">Nøkkeltall</span></a></div>
 
-  <h3 id="m-src">Data sources</h3>
+  <h3 id="m-src"><span data-i18n="s91">Datakilder</span></h3>
   <div class="src">
-    <div><b>Esri World Imagery</b>Aerial and satellite imagery, exported as georeferenced tiles at about 0.67–0.83 m/pixel in EPSG:25833. This is the main evidence for every outline. Acquisition dates are unknown.</div>
-    <div><b>OpenStreetMap (Overpass API)</b>Piers, breakwaters, marinas and moorings. Used to find candidates and as the skeleton of draft outlines. © OpenStreetMap contributors, ODbL.</div>
-    <div><b>Kartverket</b>Municipal boundaries (Kommuneinfo API), the topographic map (WMS) for shoreline, water area and place names, and the place-name register. The sea chart is used only in this viewer.</div>
-    <div><b>Brønnøysund Register Centre</b>The Central Coordinating Register for Legal Entities (Enhetsregisteret): boat clubs, marinas and pier associations. A club’s address is never treated as the harbour’s location.</div>
-    <div><b>Public documents</b>Municipal harbour pages, operator websites, waste-management plans for harbours and planning documents. Used for operation and published berth counts.</div>
+    <div><b>Esri World Imagery</b><span data-i18n="s97">Fly- og satellittbilder eksportert som georefererte fliser med ca. 0,67–0,83 m/piksel i EPSG:25833. Dette er hovedgrunnlaget for hvert omriss. Opptaksdatoene er ukjente.</span></div>
+    <div><b>OpenStreetMap (Overpass API)</b><span data-i18n="s99">Brygger, moloer, marinaer og fortøyninger. Brukes til å finne kandidater og som utgangspunkt for foreløpige omriss. © OpenStreetMap-bidragsytere, ODbL.</span></div>
+    <div><b>Kartverket</b><span data-i18n="s101">Kommunegrenser (Kommuneinfo API), topografisk kart (WMS) for kystlinje, vannareal og stedsnavn, og stedsnavnregisteret. Sjøkartet brukes bare i denne visningen.</span></div>
+    <div><b><span data-i18n="s102">Brønnøysundregistrene</span></b><span data-i18n="s103">Enhetsregisteret: båtforeninger, marinaer og bryggelag. En foreningsadresse er aldri i seg selv bevis for havnens plassering.</span></div>
+    <div><b><span data-i18n="s104">Offentlige dokumenter</span></b><span data-i18n="s105">Kommunale havnesider, operatørnettsider, avfallsplaner og plandokumenter. Brukes til å dokumentere drift og publisert antall båtplasser.</span></div>
   </div>
 
-  <h3 id="m-steps">Analysis, step by step</h3>
+  <h3 id="m-steps"><span data-i18n="s106">Analyse, steg for steg</span></h3>
   <ol>
-    <li><b>Coverage.</b> The municipal boundary is converted to EPSG:25833 and the shoreline is split into cells. Overview and 1.1 × 1.1 km detail tiles are stored with their bounding box, retrieval date and SHA-256 checksum.</li>
-    <li><b>Candidates.</b> OpenStreetMap is queried in 3 × 3 sub-areas. The register and place names are searched separately, so the two sources can check each other.</li>
-    <li><b>Draft outlines</b> (method 1.2). Piers within <span class="param">60 m</span> of each other are clustered, buffered by <span class="param">12 m</span> and closed by <span class="param">20 m</span>. The result is clipped to the map’s water area (+<span class="param">4 m</span>) and to the municipal boundary.</li>
-    <li><b>Visual review.</b> Review sheets show the draft (red), OSM piers (yellow) and the boundary on the imagery. Each candidate is included, trimmed, split, extended, redrawn by hand or excluded, and the reason is written down. Classification follows the ten-berth rule.</li>
-    <li><b>Gap sweep.</b> Contact sheets of all shoreline tiles are checked for harbours missing from OpenStreetMap. These are drawn by hand, in metres.</li>
-    <li><b>Polygon rule.</b> An outline covers the piers, berths and water between them. It does not cover the bay, land or club property. Harbours that cross a municipal boundary are clipped and linked across the boundary.</li>
+    <li><b><span data-i18n="s107">Dekning.</span></b> <span data-i18n="s108">Kommunegrensen konverteres til EPSG:25833, og kystlinjen deles inn i ruter. Oversiktsbilder og detaljfliser på 1,1 × 1,1 km lagres med avgrensning, hentetidspunkt og SHA-256-kontrollsum.</span></li>
+    <li><b><span data-i18n="s109">Kandidater.</span></b> <span data-i18n="s110">OpenStreetMap søkes i 3 × 3 delområder. Registeret og stedsnavn undersøkes separat slik at kildene kan kontrollere hverandre.</span></li>
+    <li><b><span data-i18n="s111">Foreløpige omriss</span></b> <span data-i18n="s112">(metode 1.2). Brygger innen</span> <span class="param">60 m</span> <span data-i18n="s114">fra hverandre grupperes, bufres med</span> <span class="param">12 m</span> <span data-i18n="s116">og lukkes med</span> <span class="param">20 m</span><span data-i18n="s118">. Resultatet klippes mot kartets vannareal (+</span><span class="param">4 m</span><span data-i18n="s120">) og mot kommunegrensen.</span></li>
+    <li><b><span data-i18n="s121">Visuell gjennomgang.</span></b> <span data-i18n="s122">Kontrollark viser forslaget (rødt), OSM-brygger (gult) og kommunegrensen på flybildet. Hver kandidat tas med, justeres, deles, utvides, tegnes på nytt eller utelates, og begrunnelsen loggføres. Klassifiseringen følger ti-plassregelen.</span></li>
+    <li><b><span data-i18n="s123">Søk etter manglende havner.</span></b> <span data-i18n="s124">Kontaktark med alle kystflisene gjennomgås for å finne havner som mangler i OpenStreetMap. Disse tegnes for hånd, i meter.</span></li>
+    <li><b><span data-i18n="s125">Polygonregel.</span></b> <span data-i18n="s126">Et omriss dekker bryggene, båtplassene og vannet mellom dem. Det dekker ikke hele bukten, landareal eller foreningens eiendom. Havner som krysser en kommunegrense klippes og kobles på tvers av grensen.</span></li>
   </ol>
-  <p>The method changed over time. Holmestrand and Horten are early pilots traced from the topographic map. Tønsberg to Råde were drawn by hand on aerial imagery (method 1.0–1.1). From Fredrikstad onwards, OSM-assisted drafts were reviewed against imagery (method 1.2).</p>
+  <p><span data-i18n="s127">Metoden har utviklet seg. Holmestrand og Horten er tidlige piloter tegnet etter topografisk kart. Fra Tønsberg til Råde ble omrissene tegnet for hånd på flybilder (metode 1.0–1.1). Fra Fredrikstad ble OSM-baserte forslag kontrollert mot bilder (metode 1.2).</span></p>
 
-  <h3 id="m-ai">AI models and tools</h3>
+  <h3 id="m-ai"><span data-i18n="s128">KI-modeller og verktøy</span></h3>
   <div class="ai">
-    <p style="margin:0"><b>AI models:</b> the mapping was done with a mix of Anthropic Claude Opus 5.5 and OpenAI GPT-6.1 Sol. Both models followed the same methodology and the same instructions.</p>
+    <p style="margin:0"><b><span data-i18n="s129">KI-modeller:</span></b> <span data-i18n="s130">kartleggingen ble utført med en blanding av Anthropic Claude Opus 5.5 og OpenAI GPT-6.1 Sol. Begge fulgte samme metode og instrukser.</span></p>
   </div>
-  <p style="margin-top:8px"><b>What the AI did:</b> it wrote and ran the processing scripts, retrieved the sources, looked at imagery tiles and review sheets with its built-in image understanding to classify candidates and adjust outlines, and logged every decision.</p>
-  <p><b>What it did not do:</b> no object-detection or segmentation model was trained or used, and no harbour was classified automatically from pixels. All geometry operations are ordinary, repeatable code (Python with Shapely, PyProj and Pillow).</p>
-  <p><b>Human role:</b> a person set the rules, approved every municipality and pointed out harbours that had been missed. Those corrections led to method changes, such as cross-checking against OpenStreetMap piers.</p>
+  <p style="margin-top:8px"><b><span data-i18n="s131">Dette gjorde KI-agenten:</span></b> <span data-i18n="s132">skrev og kjørte behandlingsskript, hentet kilder, gjennomgikk bildefliser og kontrollark med innebygd bildeforståelse, klassifiserte kandidater, justerte omriss og loggførte alle beslutninger.</span></p>
+  <p><b><span data-i18n="s133">Dette ble ikke gjort:</span></b> <span data-i18n="s134">ingen objektdeteksjons- eller segmenteringsmodell ble trent eller brukt, og ingen havn ble klassifisert automatisk fra piksler. Alle geometrioperasjoner er vanlig, repeterbar kode (Python med Shapely, PyProj og Pillow).</span></p>
+  <p><b><span data-i18n="s135">Menneskets rolle:</span></b> <span data-i18n="s136">et menneske fastsatte reglene, godkjente hver kommune og påpekte oversette havner. Disse innspillene førte til metodeendringer, blant annet kryssjekking mot OpenStreetMap-brygger.</span></p>
 
-  <h3 id="m-qa">Quality control</h3>
-  <p>After the last edit, every exported polygon is checked as an overlay on the imagery. The automated checks are: valid geometry, unique IDs, 0 m² outside the municipal boundary, no overlap within a municipality, with neighbours or with the combined file, and CSV matching GeoJSON. Uncertain outlines and open candidates are kept and flagged, not removed.</p>
+  <h3 id="m-qa"><span data-i18n="s137">Kvalitetskontroll</span></h3>
+  <p><span data-i18n="s138">Etter siste endring kontrolleres hvert eksportert omriss som bildeoverlegg. Automatiske kontroller omfatter gyldig geometri, unike ID-er, 0 m² utenfor kommunegrensen, ingen overlapp internt, med nabokommuner eller med samlefilen, og samsvar mellom CSV og GeoJSON. Usikre omriss og åpne kandidater beholdes og merkes.</span></p>
 
-  <h3 id="m-num">Numbers</h3>
+  <h3 id="m-num"><span data-i18n="s95">Nøkkeltall</span></h3>
   <div class="kpi" id="kpi"></div>
 
-  <h3>Read more</h3>
-  <p><a href="https://github.com/joevstaas/oslofjord-bathavner#analysis-method" target="_blank" rel="noopener">Method summary (README) ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/blob/main/docs/METODIKK.md" target="_blank" rel="noopener">Full methodology and municipal logs, in Norwegian ↗</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/tree/main/data" target="_blank" rel="noopener">Data: GeoJSON, CSV and candidate ledgers ↗</a></p>
+  <h3><span data-i18n="s139">Les mer</span></h3>
+  <p><a href="https://github.com/joevstaas/oslofjord-bathavner#analysis-method" target="_blank" rel="noopener"><span data-i18n="s140">Metodesammendrag (README) ↗</span></a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/blob/main/docs/METODIKK.md" target="_blank" rel="noopener"><span data-i18n="s141">Full metode og kommunelogger, på norsk ↗</span></a><br><a href="https://github.com/joevstaas/oslofjord-bathavner/tree/main/data" target="_blank" rel="noopener"><span data-i18n="s142">Data: GeoJSON, CSV og kandidatlogger ↗</span></a></p>
 </aside>
 
-<div id="search" class="pop glass" role="dialog" aria-label="Find a harbour">
-  <input id="q" type="search" placeholder="Find a harbour or municipality…" autocomplete="off">
+<div id="search" class="pop glass" role="dialog" aria-label="Finn en havn" data-i18n-aria-label="s153">
+  <input id="q" type="search" placeholder="Finn en havn eller kommune…" autocomplete="off" data-i18n-placeholder="Find a harbour or municipality…">
   <div id="results"></div>
 </div>
 
-<nav id="dock" class="glass" aria-label="Controls">
-  <button class="ib hide-m" id="prev" aria-label="Previous stop"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zM9.5 12L18 6v12z"/></svg><span class="tip">Previous stop</span></button>
-  <button class="ib play" id="play" aria-label="Play tour"><svg id="playIco" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="tip">Play flyover tour</span></button>
-  <button class="ib hide-m" id="next" aria-label="Next stop"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg><span class="tip">Next stop</span></button>
-  <div id="prog" title="Tour progress"><div class="lbl"><span id="progName">Tour</span><span id="progN" class="mono">0/0</span></div><div id="bar"><i></i></div></div>
-  <button class="ib hide-m" id="speed" aria-label="Tour speed"><span class="mono" style="font-size:11px;font-weight:600" id="speedTxt">1×</span><span class="tip">Tour speed</span></button>
+<nav id="dock" class="glass" aria-label="Kartkontroller" data-i18n-aria-label="Controls">
+  <button class="ib hide-m" id="prev" aria-label="Forrige stopp" data-i18n-aria-label="s143"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zM9.5 12L18 6v12z"/></svg><span class="tip"><span data-i18n="s143">Forrige stopp</span></span></button>
+  <button class="ib play" id="play" aria-label="Spill av turen" data-i18n-aria-label="Play tour"><svg id="playIco" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="tip"><span data-i18n="s144">Spill av flyturen</span></span></button>
+  <button class="ib hide-m" id="next" aria-label="Neste stopp" data-i18n-aria-label="s145"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z"/></svg><span class="tip"><span data-i18n="s145">Neste stopp</span></span></button>
+  <div id="prog" title="Fremdrift i turen" data-i18n-title="Tour progress"><div class="lbl"><span id="progName"><span data-i18n="s146">Flytur</span></span><span id="progN" class="mono">0/0</span></div><div id="bar"><i></i></div></div>
+  <button class="ib hide-m" id="speed" aria-label="Turhastighet" data-i18n-aria-label="s149"><span class="mono" style="font-size:11px;font-weight:600" id="speedTxt">1×</span><span class="tip"><span data-i18n="s149">Turhastighet</span></span></button>
   <span class="sep"></span>
-  <button class="ib" id="dim" aria-label="Toggle 2D/3D"><span class="mono" style="font-size:11.5px;font-weight:700" id="dimTxt">3D</span><span class="tip">Switch 2D / 3D</span></button>
-  <button class="ib hide-m" id="fly" aria-label="Free flight mode"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg><span class="tip">Free flight (keyboard)</span></button>
-  <button class="ib" id="find" aria-label="Find harbour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><span class="tip">Find a harbour</span></button>
-  <button class="pill" id="methodBtn" aria-label="Methodology, data sources and AI models"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19A1.5 1.5 0 0 0 5.8 21h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></svg><span>Method</span></button>
-  <button class="ib" id="layers" aria-label="Map layers"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg><span class="tip">Layers</span></button>
-  <button class="ib" id="info" aria-label="About this map"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span class="tip">About</span></button>
+  <button class="ib" id="dim" aria-label="Bytt mellom 2D og 3D" data-i18n-aria-label="Toggle 2D/3D"><span class="mono" style="font-size:11.5px;font-weight:700" id="dimTxt">3D</span><span class="tip"><span data-i18n="s151">Bytt 2D / 3D</span></span></button>
+  <button class="ib hide-m" id="fly" aria-label="Fri flyging" data-i18n-aria-label="Free flight mode"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 0 0-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5z"/></svg><span class="tip"><span data-i18n="s152">Fri flyging (tastatur)</span></span></button>
+  <button class="ib" id="find" aria-label="Finn havn" data-i18n-aria-label="Find harbour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><span class="tip"><span data-i18n="s153">Finn en havn</span></span></button>
+  <button class="pill" id="methodBtn" aria-label="Metode, datakilder og KI-modeller" data-i18n-aria-label="Methodology, data sources and AI models"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19A1.5 1.5 0 0 0 5.8 21h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></svg><span><span data-i18n="s154">Metode</span></span></button>
+  <button class="ib" id="layers" aria-label="Kartlag" data-i18n-aria-label="Map layers"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg><span class="tip"><span data-i18n="s155">Kartlag</span></span></button>
+  <button class="ib" id="info" aria-label="Om kartet" data-i18n-aria-label="About this map"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span class="tip"><span data-i18n="s51">Om kartet</span></span></button>
 </nav>
 
 <div id="intro">
   <div class="box">
-    <div class="eyebrow">Oslofjord · Norway</div>
-    <h2><span class="desktop-copy">Fly over every small-boat harbour in the Oslofjord</span><span class="mobile-copy">Explore the Oslofjord</span></h2>
-    <p id="introP"><span class="desktop-copy">Mapped from aerial imagery, OpenStreetMap and public registers. Start in Oslo, head south-west down the fjord, then cross over and fly north again.</span><span class="mobile-copy">Discover mapped small-boat harbours in 3D.</span></p>
+    <div class="eyebrow"><span data-i18n="s156">Oslofjorden · Norge</span></div>
+    <h2><span class="desktop-copy"><span data-i18n="s157">Se alle småbåthavnene i Oslofjorden</span></span><span class="mobile-copy"><span data-i18n="s158">Utforsk Oslofjorden</span></span></h2>
+    <p id="introP"><span class="desktop-copy"><span data-i18n="s159">Kartlagt fra flybilder, OpenStreetMap og offentlige registre. Start i Oslo, følg fjorden sørover langs vestsiden og kryss over før turen går nordover igjen.</span></span><span class="mobile-copy"><span data-i18n="s160">Oppdag kartlagte småbåthavner i 3D.</span></span></p>
     <div class="btns">
-      <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="desktop-copy">Start the flyover</span><span class="mobile-copy">Start tour</span></button>
-      <button class="cta sec" id="explore"><span class="desktop-copy">Explore freely</span><span class="mobile-copy">Explore map</span></button>
+      <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="desktop-copy"><span data-i18n="s161">Start flyturen</span></span><span class="mobile-copy"><span data-i18n="s162">Start turen</span></span></button>
+      <button class="cta sec" id="explore"><span class="desktop-copy"><span data-i18n="s163">Utforsk fritt</span></span><span class="mobile-copy"><span data-i18n="s164">Utforsk kartet</span></span></button>
     </div>
-    <button class="howlink" id="howBtn"><span class="desktop-copy">How was this mapped? Data sources, method and AI models →</span><span class="mobile-copy">About the mapping →</span></button>
-    <div class="odp">Powered by the <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> from <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a></div>
+    <button class="howlink" id="howBtn"><span class="desktop-copy"><span data-i18n="s165">Hvordan ble dette kartlagt? Kilder, metode og KI-modeller →</span></span><span class="mobile-copy"><span data-i18n="s166">Om kartleggingen →</span></span></button>
+    <div class="odp"><span data-i18n="s82">Drevet av</span> <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> <span data-i18n="s84">fra</span> <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a></div>
   </div>
 </div>
 
@@ -425,7 +432,10 @@ function tourProgress(stops, index) {
   return { total, current: Math.min(Math.max(index + 1, 0), total) };
 }
 const $ = id => document.getElementById(id);
-const fmt = n => n.toLocaleString('en-US');
+const t = (key, values) => window.I18n.t(key, values);
+const tx = value => window.I18n.text(value);
+const fmt = n => window.I18n.number(n);
+let metaData = null;
 const mobileViewport = matchMedia('(max-width:720px)');
 const isMobile = mobileViewport.matches;
 const touchMap = matchMedia('(pointer:coarse)').matches;
@@ -465,7 +475,7 @@ const map = new maplibregl.Map({
   attributionControl: false, canvasContextAttributes: { antialias: !touchMap }, fadeDuration: touchMap ? 0 : 150,
   dragPan: true, touchZoomRotate: true, cooperativeGestures: false
 });
-map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Harbours: <a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank">oslofjord-bathavner</a> by Jo Øvstaas (OSM © contributors, Enhetsregisteret) · Powered by the <a href="https://app.hubocean.earth/" target="_blank">Ocean Data Platform</a>' }), 'bottom-right');
+map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: '<span data-i18n="Harbours:">Havner:</span> <a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank">oslofjord-bathavner</a> <span data-i18n="by">av</span> Jo Øvstaas (OSM © contributors, Enhetsregisteret) · <span data-i18n="Powered by the">Drevet av</span> <a href="https://app.hubocean.earth/" target="_blank">Ocean Data Platform</a>' }), 'bottom-right');
 
 let H = null, M = null, harbours = {}, is3D = true, terrainExag = 1.4;
 let enrichment = { status: 'loading', records: {} };
@@ -488,7 +498,7 @@ Promise.all([
   fetch(BASE + 'data/municipalities.geojson').then(r => r.json()),
   new Promise(res => map.on('load', res))
 ]).then(([h, m]) => { H = h; M = m; init(); }).catch(err => {
-  $('loading').querySelector('div div:last-child').textContent = 'Could not load data';
+  $('loading').querySelector('div div:last-child').textContent = t('Could not load data');
   console.error(err);
 });
 
@@ -504,15 +514,32 @@ function applyCapacityFilter(on) {
   const ids = [...new Set(Object.values(harbours).filter(hasLargeCapacity).map(h => h.best.properties.gid))];
   for (const layer of ['h-glow', 'h-fill', 'h-line', 'hp-halo', 'hp', 'h-label'])
     map.setFilter(layer, on ? ['in', ['get', 'gid'], ['literal', ids]] : null);
+  renderCapacityStatus();
+  if (on) { pause(); stopAttract(); hideIntro(); caption(null); closeCard(); }
+  stops = []; buildTour();
+  $('q').dispatchEvent(new Event('input'));
+}
+function renderCapacityStatus() {
+  const ids = [...new Set(Object.values(harbours).filter(hasLargeCapacity).map(h => h.best.properties.gid))];
   const selected = new Map(Object.values(harbours).filter(hasLargeCapacity).map(h => [h.best.properties.gid, h.best.properties]));
   const published = [...selected.values()].filter(p => p.capacity).length;
   const likely = [...selected.values()].filter(p => !p.capacity && p.capacity_estimate?.category === 'likely_ge_200').length;
   const uncertain = ids.length - published - likely;
-  $('capacityStatus').innerHTML = `<span class="desktop-copy">${on ? 'Viser' : 'Filterutvalg:'} ${ids.length} havner · ${published} publisert${likely ? ` · ${likely} trolig fra areal` : ''}${uncertain ? ` · ${uncertain} usikre` : ''}</span><span class="mobile-copy">${published} ${on ? 'havner med publisert kapasitet ≥200' : 'kjente treff'}</span>`;
-  $('largeHarbours').title = on ? 'Slå av kapasitetsfilter' : 'Slå på kapasitetsfilter';
-  if (on) { pause(); stopAttract(); hideIntro(); caption(null); closeCard(); }
-  stops = []; buildTour();
-  $('q').dispatchEvent(new Event('input'));
+  $('capacityStatus').innerHTML = `<span class="desktop-copy">${t(largeOnly ? 'filter.show' : 'filter.selection')} ${fmt(ids.length)} ${t('harbours')} · ${fmt(published)} ${t('filter.published')}${likely ? ` · ${fmt(likely)} ${t('filter.likely')}` : ''}${uncertain ? ` · ${fmt(uncertain)} ${t('filter.uncertain')}` : ''}</span><span class="mobile-copy">${t(largeOnly ? 'filter.mobile' : 'filter.hits', {count:fmt(published)})}</span>`;
+  $('largeHarbours').title = t(largeOnly ? 'filter.off' : 'filter.on');
+}
+function renderStats() {
+  const values = {harbours:fmt(new Set(H.features.map(f => f.properties.gid || f.properties.hid)).size), polygons:fmt(H.features.length), municipalities:fmt(M.features.filter(f => f.properties.state === 'mapped').length)};
+  const bold = Object.fromEntries(Object.entries(values).map(([k,v]) => [k, `<b>${v}</b>`]));
+  $('stats').innerHTML = `<span class="desktop-copy">${t('stats',bold)}</span><span class="mobile-copy">${t('stats.mobile',bold)}</span>`;
+  $('aboutStats').textContent = t('about.stats',values);
+}
+function renderMeta() {
+  const m = metaData; if (!m) return;
+  if (m.capacity_model) $('capacityModelInfo').textContent = t('model.summary', {harbours:fmt(m.capacity_model.training_groups), municipalities:fmt(m.capacity_model.training_municipalities), error:fmt(Math.round(m.capacity_model.evaluation.median_absolute_percentage_error * 100))});
+  $('kpi').innerHTML = [[fmt(m.polygons), t('polygons')], [fmt(m.harbours), t('harbours')], [fmt(m.municipalities), t('municipalities approved')],
+    [fmt(m.candidates_logged), t('candidates',{count:fmt(m.ledger_municipalities)})], [m.updated, t('last update')]]
+    .map(([v,l]) => `<div><b>${v}</b>${l}</div>`).join('');
 }
 function init() {
   // one point per harbour (largest polygon carries the label)
@@ -528,8 +555,7 @@ function init() {
   const muniLabels = { type: 'FeatureCollection', features: M.features.map(f => ({ type: 'Feature',
     geometry: { type: 'Point', coordinates: [f.properties.lx, f.properties.ly] }, properties: f.properties })) };
 
-  const nMapped = M.features.filter(f => f.properties.state === 'mapped').length;
-  $('stats').innerHTML = `<span class="desktop-copy"><b>${fmt(new Set(H.features.map(f => f.properties.gid || f.properties.hid)).size)}</b> harbours · <b>${fmt(H.features.length)}</b> polygons · <b>${nMapped}</b> municipalities</span><span class="mobile-copy"><b>${fmt(new Set(H.features.map(f => f.properties.gid || f.properties.hid)).size)}</b> harbours · <b>${nMapped}</b> municipalities</span>`;
+  renderStats();
 
   map.addSource('muni', { type: 'geojson', data: M });
   map.addSource('muniLbl', { type: 'geojson', data: muniLabels });
@@ -565,7 +591,7 @@ function init() {
     paint: { 'text-color': '#ffffff', 'text-halo-color': 'rgba(4,17,30,.9)', 'text-halo-width': 1.6,
       'text-opacity': ['interpolate', ['linear'], ['zoom'], 12.3, 0, 12.8, 1] } });
   map.addLayer({ id: 'muni-label', type: 'symbol', source: 'muniLbl', maxzoom: 11.5,
-    layout: { 'text-field': ['case', ['==', ['get', 'state'], 'remaining'], ['concat', ['upcase', ['get', 'name']], '\nnot yet mapped'], ['upcase', ['get', 'name']]],
+    layout: { 'text-field': ['case', ['==', ['get', 'state'], 'remaining'], ['concat', ['upcase', ['get', 'name']], '\n' + tx('Not yet mapped')], ['upcase', ['get', 'name']]],
       'text-font': ['Open Sans Semibold'], 'text-size': ['interpolate', ['linear'], ['zoom'], 8, 10, 11, 13], 'text-letter-spacing': 0.18, 'text-allow-overlap': false },
     paint: { 'text-color': ['match', ['get', 'state'], 'remaining', '#ffb39e', '#e9f4fb'], 'text-halo-color': 'rgba(4,17,30,.85)', 'text-halo-width': 1.4,
       'text-opacity': ['interpolate', ['linear'], ['zoom'], 10.8, 1, 11.5, 0] } });
@@ -583,8 +609,12 @@ function init() {
       $('environment-title').focus({preventScroll:true});
       map.flyTo({center:feature.geometry.coordinates, zoom:16, duration:1600, essential:true});
     },
+    update: html => { $('card').innerHTML = html; },
     ready: () => { if (selId !== null) select(selId, false); }
   });
+  document.querySelector('.maplibregl-ctrl-attrib-button')?.setAttribute('data-i18n-aria-label','Toggle attribution');
+  document.querySelector('.maplibregl-ctrl-attrib-button')?.setAttribute('data-i18n-title','Toggle attribution');
+  window.I18n.apply();
   $('loading').classList.add('hide');
   if (!touchMap) attract();
 }
@@ -653,19 +683,19 @@ function caption(s) {
   if (!s) { c.classList.remove('show'); return; }
   const k = $('capK');
   k.className = 'k' + (s.todo ? ' todo' : '');
-  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || matchesCapacity(f.properties)).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${stops.filter(stop => !stop.home && !stop.todo).length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
-  else if (s.todo) { k.textContent = 'Not yet mapped'; $('capH').textContent = s.name; $('capP').textContent = 'Part of the project scope. Harbours here will be added in the next batch.'; }
+  if (s.home) { k.textContent = t('Journey complete'); $('capH').textContent = t('harbour.summary',{harbours:fmt(new Set(H.features.filter(f => !largeOnly || matchesCapacity(f.properties)).map(f => f.properties.gid || f.properties.hid)).size), municipalities:fmt(stops.filter(stop => !stop.home && !stop.todo).length)}); $('capP').textContent = t(largeOnly ? 'tour.filtered' : 'tour.home'); }
+  else if (s.todo) { k.textContent = tx('Not yet mapped'); $('capH').textContent = s.name; $('capP').textContent = t('tour.todo'); }
   else {
-    k.textContent = `Stop ${idx + 1} of ${tourProgress(stops, idx).total}`;
+    k.textContent = t('stop',{current:idx+1,total:tourProgress(stops,idx).total});
     $('capH').textContent = s.name;
-    $('capP').innerHTML = `${largeOnly ? `${s.filteredCount} harbours in capacity filter` : `${s.m.harbours} harbours · ${s.m.polygons} polygons`}${!largeOnly && s.possible ? ` · ${s.possible} possible` : ''}<br>Largest: ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
+    $('capP').innerHTML = `${largeOnly ? `${t('tour.filteredCount',{count:fmt(s.filteredCount)})}` : `${fmt(s.m.harbours)} ${t('harbours')} · ${fmt(s.m.polygons)} ${t('polygons')}`}${!largeOnly && s.possible ? ` · ${fmt(s.possible)} ${t('possible')}` : ''}<br>${t('Largest:')} ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
   }
   c.classList.remove('show'); void c.offsetWidth; c.classList.add('show');
 }
 function updateProg() {
   const s = stops[idx];
   const progress = tourProgress(stops, idx);
-  $('progName').textContent = s?.home ? 'Back in Oslo' : s ? s.name : 'Flyover tour';
+  $('progName').textContent = s?.home ? t('Back in Oslo') : s ? s.name : t('Flyover tour');
   $('progN').textContent = `${progress.current}/${progress.total}`;
   $('bar').firstElementChild.style.width = `${progress.total ? (progress.current / progress.total) * 100 : 0}%`;
 }
@@ -694,7 +724,7 @@ async function play(from) {
 function pause() { if (!playing) return; token++; playing = false; setPlayIcon(); map.stop(); }
 function setPlayIcon() {
   $('playIco').innerHTML = playing ? '<path d="M7 5h4v14H7zM13 5h4v14h-4z"/>' : '<path d="M8 5v14l11-7z"/>';
-  $('play').setAttribute('aria-label', playing ? 'Pause tour' : 'Play tour');
+  $('play').setAttribute('aria-label', t(playing ? 'Pause tour' : 'Play tour'));
 }
 function step(dir) {
   const was = playing; token++; const t = token; stopAttract(); hideIntro();
@@ -730,26 +760,26 @@ function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;
 function sourceLink(url, label, title = '') {
   try {
     const target = new URL(url);
-    if (target.protocol !== 'https:') return escapeHtml(label);
-    return `<a href="${escapeHtml(target.href)}" target="_blank" rel="noopener" title="${escapeHtml(title)}">${escapeHtml(label)} ↗</a>`;
-  } catch { return escapeHtml(label); }
+    if (target.protocol !== 'https:') return escapeHtml(tx(label));
+    return `<a href="${escapeHtml(target.href)}" target="_blank" rel="noopener" title="${escapeHtml(title)}">${escapeHtml(tx(label))} ↗</a>`;
+  } catch { return escapeHtml(tx(label)); }
 }
 function enrichmentCard(p) {
   if (p.mun !== 'Moss') return '';
   const e = enrichment.records[p.hid];
   if (!e) {
-    const message = enrichment.status === 'loading' ? 'Additional source information is loading…' : 'Additional source information is unavailable. Try reloading the page.';
-    const earlier = p.berths != null ? `<p>Earlier dataset: ${fmt(p.berths)} reported boat places; reference year unknown.</p>` : '';
-    return `<section class="enrichment"><h4>Moss · source review</h4><p>${message}</p>${earlier}</section>`;
+    const message = t(enrichment.status === 'loading' ? 'Source review is loading.' : 'Source review is unavailable. Try reloading the page.');
+    const earlier = p.berths != null ? `<p>${t('enrichment.earlier',{count:fmt(p.berths)})}</p>` : '';
+    return `<section class="enrichment"><h4>${t('Moss · source review')}</h4><p>${message}</p>${earlier}</section>`;
   }
   const facts = e.facts.map(f => {
-    const value = typeof f.value === 'number' ? `${f.approximate === true ? '≈ ' : ''}${fmt(f.value)}` : typeof f.value === 'boolean' ? (f.value ? 'Reported' : 'Reported unavailable') : f.value;
-    const links = f.sources.map(s => sourceLink(s.url, s.type, s.title)).join(' · ');
+    const value = typeof f.value === 'number' ? `${f.approximate === true ? '≈ ' : ''}${fmt(f.value)}` : typeof f.value === 'boolean' ? t(f.value ? 'Reported' : 'Reported unavailable') : f.value;
+    const links = f.sources.map(s => sourceLink(s.url,s.type,s.title)).join(' · ');
     const dates = [...new Set(f.sources.map(s => s.accessed_date))].map(escapeHtml).join(', ');
-    return `<div class="fact"><span class="fact-label">${escapeHtml(f.label)}</span><span class="fact-value">${escapeHtml(value)}</span>${f.qualifier ? `<small>${escapeHtml(f.qualifier)}</small>` : ''}<small>${links}</small><small>${f.reference_date ? `Reference: ${escapeHtml(f.reference_date)}` : 'Reference date unknown'} · Checked ${dates}</small></div>`;
+    return `<div class="fact"><span class="fact-label">${escapeHtml(tx(f.label))}</span><span class="fact-value">${escapeHtml(value)}</span>${f.qualifier ? `<small>${escapeHtml(tx(f.qualifier))}</small>` : ''}<small>${links}</small><small>${f.reference_date ? `${t('Reference:')} ${escapeHtml(f.reference_date)}` : t('Reference date unknown')} · ${t('Checked')} ${dates}</small></div>`;
   }).join('');
-  const earlier = e.baseline_capacities.map(c => `<p>${fmt(c.value)} reported boat places · reference period ${escapeHtml(c.reference_period === 'ca_2020_ikke_bekreftet' ? 'approximately 2020 (unconfirmed)' : c.reference_period || 'unknown')}${c.source ? ` · ${sourceLink(c.source, 'Earlier source')}` : ''}</p>`).join('');
-  return `<section class="enrichment"><h4>Moss · source review</h4><p>Reviewed ${escapeHtml(e.reviewed_date)}. Source-reported information; not independently verified. Harbour outline unchanged.</p>${e.water_environment === 'freshwater' ? '<p><b>Freshwater harbour · Vansjø</b></p>' : ''}${facts || '<p>No additional operator, capacity or service information could be established for this harbour.</p>'}${!e.facts.some(f => f.field === 'berths_published') ? '<p>Boat-place capacity: not established in this review.</p>' : ''}<p>Current operation and wastewater treatment: not verified. Unlisted services are unknown.</p>${earlier ? `<details><summary>Earlier dataset capacity</summary>${earlier}<p>Historical or undated values. Categories and scopes may differ; do not add these to the figures above.</p></details>` : ''}</section>`;
+  const earlier = e.baseline_capacities.map(c => `<p>${t('enrichment.baseline',{count:fmt(c.value),period:escapeHtml(tx(c.reference_period === 'ca_2020_ikke_bekreftet' ? 'approximately 2020 (unconfirmed)' : c.reference_period || 'unknown'))})}${c.source ? ` · ${sourceLink(c.source,'Earlier source')}` : ''}</p>`).join('');
+  return `<section class="enrichment"><h4>${t('Moss · source review')}</h4><p>${t('enrichment.review',{date:escapeHtml(e.reviewed_date)})}</p>${e.water_environment === 'freshwater' ? `<p><b>${t('Freshwater harbour · Vansjø')}</b></p>` : ''}${facts || `<p>${t('No additional operator, capacity or service information could be established for this harbour.')}</p>`}${!e.facts.some(f => f.field === 'berths_published') ? `<p>${t('Boat-place capacity: not established in this review.')}</p>` : ''}<p>${t('Current operation and wastewater treatment: not verified. Unlisted services are unknown.')}</p>${earlier ? `<details><summary>${t('Earlier dataset capacity')}</summary>${earlier}<p>${t('Historical or undated values. Categories and scopes may differ; do not add these to the figures above.')}</p></details>` : ''}</section>`;
 }
 function select(fid, fly) {
   const f = H.features[fid]; if (!f) return;
@@ -757,23 +787,23 @@ function select(fid, fly) {
   selId = fid; map.setFeatureState({ source: 'h', id: fid }, { sel: true });
   const p = f.properties, h = harbours[p.hid];
   const rows = [
-    ['Water area', `${fmt(p.area)} m²` + (h.n > 1 ? ` <span style="color:var(--dim)">(${h.n} parts)</span>` : '')],
+    ['Water area', `${fmt(p.area)} m²` + (h.n > 1 ? ` <span style="color:var(--dim)">(${t('parts',{count:fmt(h.n)})})</span>` : '')],
     p.capacity ? ['Published berths', `${p.capacity.approximate ? '~' : ''}${fmt(p.capacity.count)}`] : null,
-    !p.capacity && p.capacity_estimate ? ['Arealanslag', `≈${fmt(p.capacity_estimate.count)} plasser <span style="color:var(--possible)">(grovt spenn ${fmt(p.capacity_estimate.low)}–${fmt(p.capacity_estimate.high)})</span>`] : null,
-    ['Basis', escapeHtml(p.basis)],
-    ['Outline', p.method],
-    ['Boundary', p.unc ? '<span style="color:var(--possible)">Uncertain</span>' : 'Provisional'],
-    p.clip ? ['Note', 'Clipped at municipal border'] : null
+    !p.capacity && p.capacity_estimate ? [t('estimate.kind'), `${t('estimate.row',{count:fmt(p.capacity_estimate.count)})} <span style="color:var(--possible)">(${t('estimate.range',{low:fmt(p.capacity_estimate.low),high:fmt(p.capacity_estimate.high)})})</span>`] : null,
+    ['Basis', escapeHtml(tx(p.basis))],
+    ['Outline',escapeHtml(tx(p.method))],
+    ['Boundary', p.unc ? `<span style="color:var(--possible)">${t('Uncertain')}</span>` : t('Provisional')],
+    p.clip ? ['Note', t('Clipped at municipal border')] : null
   ].filter(Boolean);
   $('card').innerHTML = `
-    <div class="top"><h3>${escapeHtml(p.name)}</h3><button class="x" aria-label="Close" onclick="window.__closeCard()"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
-    <div class="meta"><span class="badge" style="background:${COLORS[p.cls]}">${CLS_LABEL[p.cls]}</span><span>${escapeHtml(p.mun)}</span><span class="mono" style="color:var(--dim)">${p.id}</span></div>
-    <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
-    ${p.note ? `<p class="note">${p.mun === 'Moss' ? 'Earlier mapping note: ' : ''}${escapeHtml(p.note)}</p>` : ''}
-    ${p.capacity ? `<p style="font-size:12px">Capacity: ${sourceLink(p.capacity.source, 'Source')} · ${escapeHtml(p.capacity.period)}</p>` : ''}${enrichmentCard(p)}
-    ${!p.capacity && p.capacity_estimate ? `<section class="enrichment capacity-advanced"><h4>Estimert · ikke publisert kapasitet</h4><p>${escapeHtml(window.CapacityFilter?.labels[p.capacity_estimate.category] || 'Usikkert arealanslag')}. Beregnet fra hele anleggsgruppens kartlagte sjøareal (${fmt(p.capacity_estimate.area_m2)} m²), også på tvers av kommunegrenser.</p><p>${p.capacity_estimate.outside_training_range ? 'Arealet ligger utenfor modellens kalibreringsområde. Anslaget er ekstra usikkert. ' : ''}${p.capacity_estimate.possible_harbour ? 'Anlegget er klassifisert som mulig havn; antall faste plasser er uavklart. ' : ''}Veiledende spenn, uten garantert dekning. Landopplag er ikke beregnet.</p><a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a></section>` : ''}
+    <div class="top"><h3>${escapeHtml(p.name)}</h3><button class="x" aria-label="${t('Close')}" onclick="window.__closeCard()"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="meta"><span class="badge" style="background:${COLORS[p.cls]}">${tx(CLS_LABEL[p.cls])}</span><span>${escapeHtml(p.mun)}</span><span class="mono" style="color:var(--dim)">${p.id}</span></div>
+    <dl>${rows.map(([k, v]) => `<dt>${tx(k)}</dt><dd>${v}</dd>`).join('')}</dl>
+    ${p.note ? `<details class="note"><summary>${t('Original mapping note (Norwegian)')}</summary><p lang="nb">${escapeHtml(p.note)}</p></details>` : ''}
+    ${p.capacity ? `<p style="font-size:12px">${t('Capacity:')} ${sourceLink(p.capacity.source, 'Source')} · ${escapeHtml(tx(p.capacity.period))}</p>` : ''}${enrichmentCard(p)}
+    ${!p.capacity && p.capacity_estimate ? `<section class="enrichment capacity-advanced"><h4>${t('estimate.title')}</h4><p>${t('estimate.' + p.capacity_estimate.category)}. ${t('estimate.basis',{area:fmt(p.capacity_estimate.area_m2)})}</p><p>${p.capacity_estimate.outside_training_range ? t('estimate.outside') + ' ' : ''}${p.capacity_estimate.possible_harbour ? t('estimate.possible') + ' ' : ''}${t('estimate.caveat')}</p><a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener">${tx('Modellgrunnlag og testresultater ↗')}</a></section>` : ''}
     ${window.EnvironmentCards?.links(p.hid) || ''}
-    <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">Method ↗</a><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform ↗</a></div>`;
+    <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">${t('Method')} ↗</a><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform ↗</a></div>`;
   $('card').scrollTop = 0;
   $('card').classList.add('show');
   if (fly) {
@@ -869,13 +899,7 @@ function wireUI() {
   $('howBtn').onclick = () => setMethod(true);
   $('toMethod').onclick = e => { e.preventDefault(); setMethod(true); };
   document.querySelectorAll('#method .toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-  fetch(BASE + 'data/meta.json?v=capacity-estimates-1').then(r => r.json()).then(m => {
-    if (m.capacity_model) $('capacityModelInfo').textContent = `Kalibrert på ${m.capacity_model.training_groups} havner i ${m.capacity_model.training_municipalities} kommuner. Medianavvik ${Math.round(m.capacity_model.evaluation.median_absolute_percentage_error * 100)} % når hele kommuner holdes utenfor. Enkelthavner kan avvike mye mer. Spennet har ingen garantert dekning.`;
-    $('kpi').innerHTML = [[fmt(m.polygons), 'polygons'], [fmt(m.harbours), 'harbours'], [m.municipalities, 'municipalities approved'],
-      [fmt(m.candidates_logged), `candidates logged (${m.ledger_municipalities} municipalities)`], [m.updated, 'last update']]
-      .map(([v, l]) => `<div><b>${v}</b>${l}</div>`).join('');
-  }).catch(() => {});
-  $('aboutStats').textContent = `${fmt(H.features.length)} polygons (${fmt(new Set(H.features.map(f => f.properties.gid || f.properties.hid)).size)} harbours) from ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`;
+  fetch(BASE + 'data/meta.json?v=capacity-estimates-1').then(r => r.json()).then(m => { metaData = m; renderMeta(); }).catch(() => {});
   $('compass').onclick = () => map.easeTo({ bearing: 0, pitch: is3D ? map.getPitch() : 0, duration: 800 });
   $('startTour').onclick = () => play(0);
   $('explore').onclick = () => { stopAttract(); hideIntro(); };
@@ -911,7 +935,7 @@ function wireUI() {
     const hits = (q ? eligible.filter(h => h.name.toLowerCase().includes(q) || h.mun.toLowerCase().includes(q)) : eligible.slice().sort((a, b) => b.area - a.area)).slice(0, 40);
     act = 0;
     $('results').innerHTML = hits.length ? hits.map((h, i) => `<button data-f="${h.best.id}" class="${i ? '' : 'act'}"><span><i style="display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:7px;background:${COLORS[h.cls]}"></i>${escapeHtml(h.name)}</span><small>${escapeHtml(h.mun)}</small></button>`).join('')
-      : '<div style="padding:8px;color:var(--dim);font-size:12px">No harbours found</div>';
+      : `<div style="padding:8px;color:var(--dim);font-size:12px">${t('No harbours found')}</div>`;
   };
   $('q').oninput = render;
   $('q').onkeydown = e => {
@@ -925,6 +949,18 @@ function wireUI() {
   };
   render();
 }
+addEventListener('site-language-change', () => {
+  if (!H || !M) return;
+  renderStats(); renderMeta(); renderCapacityStatus(); updateProg(); setPlayIcon();
+  if (idx >= 0) caption(stops[idx]);
+  const cardScroll = $('card').scrollTop, detailStates = [...$('card').querySelectorAll('details')].map(d => d.open);
+  if (selId !== null) select(selId,false);
+  window.EnvironmentCards?.refreshLanguage();
+  [...$('card').querySelectorAll('details')].forEach((d,i) => { d.open = detailStates[i] || false; });
+  $('card').scrollTop = cardScroll;
+  if (map.getLayer('muni-label')) map.setLayoutProperty('muni-label','text-field', ['case',['==',['get','state'],'remaining'],['concat',['upcase',['get','name']],'\n' + tx('Not yet mapped')],['upcase',['get','name']]]);
+  $('q').dispatchEvent(new Event('input'));
+});
 })();
 </script>
 </body>
