@@ -17,7 +17,7 @@ for hid,name,cls,vertices,reason in specs:
  features.append(dict(type='Feature',properties=props,geometry=mapping(g)))
 write('bathavner.geojson',dict(type='FeatureCollection',features=features))
 with (O/'metadata.csv').open('w') as f:
- wr=csv.DictWriter(f,fieldnames=list(features[0]['properties']),delimiter=';');wr.writeheader();wr.writerows([x['properties'] for x in features])
+ wr=csv.DictWriter(f,fieldnames=list(features[0]['properties']),delimiter=';',lineterminator='\n');wr.writeheader();wr.writerows([x['properties'] for x in features])
 write('digitisation.json',dict(image_id=m['id'],frame=[W,H],bbox=bb,crs='EPSG:25833',vertices=[dict(id=f['properties']['id'],pixels=v) for f,v in zip(features,pix)]))
 base=json.loads((R/'data/kommuner/3903-holmestrand/rev-01/bathavner.geojson').read_text()); combined=json.loads((R/'data/samlet/oslofjorden-bathavner-samlet.geojson').read_text())
 municipal=shape(json.loads((R/'archive/original/holmestrand-pilot/kommunegrense.geojson').read_text())['features'][0]['geometry']); boundary=transform(toUTM,municipal)
