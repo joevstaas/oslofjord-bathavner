@@ -1,0 +1,10 @@
+{
+ "polygons": 24,
+ "harbours": 18,
+ "possible_harbours": 1,
+ "uncertain_geometries": 10,
+ "osm_piers": 256,
+ "osm_clusters": 81,
+ "open_source_candidates": 5,
+ "published_capacity_harbours": 4
+}

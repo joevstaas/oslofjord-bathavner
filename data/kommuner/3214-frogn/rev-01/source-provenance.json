@@ -1,0 +1,303 @@
+[
+ {
+  "local_provenance": "work/3214-frogn/raw/adresse-gylteveien4-provenance.json",
+  "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Gylteveien%204&kommunenummer=3214&treffPerSide=10",
+  "retrieved_utc": "2026-10-31T12:54:58.126656+00:00",
+  "sha256": "c2b122e7f4efca78b300062286f8932f650f53e1b54635c44eb0aabfec893521",
+  "archived_response_files": [
+   "work/3214-frogn/raw/adresse-gylteveien4.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/bergholmen-bv-provenance.json",
+  "url": "https://b-v.no/havner/bergholmen",
+  "retrieved_utc": "2026-10-31T12:58:27.838613+00:00",
+  "sha256": "f5032750212cfd537d73718e46a1d9f5947607eecbb981b987b69d1edf5ed5f6",
+  "archived_response_files": [
+   "work/3214-frogn/raw/bergholmen-bv.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/bergholmen-hytte-provenance.json",
+  "url": "https://friluftsliv.oslofjorden.org/hytteoversikt/bergholmen-befalsboligen",
+  "retrieved_utc": "2026-10-31T12:58:26.421226+00:00",
+  "sha256": "aaae438a9f43312588dc3c0cddfe7500c267dc0a42a6a8bf01017dbc31f23fdd",
+  "archived_response_files": [
+   "work/3214-frogn/raw/bergholmen-hytte.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/bergholmen-provenance.json",
+  "url": "https://www.oslofjorden.org/bygningene-pa-bergholmen/",
+  "retrieved_utc": "2026-10-31T12:54:54.759707+00:00",
+  "sha256": "6b065f670225be3ea61eb7b77159707a1b575b1c8739595c49051ae489df9049",
+  "archived_response_files": [
+   "work/3214-frogn/raw/bergholmen.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-916260954-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916260954",
+  "retrieved_utc": "2026-10-31T12:40:34.020261+00:00",
+  "sha256": "3f03bf6159ee089ef924ef89ba6b6d9e379e9c4ce968e081d10654db2200c863",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-916260954.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-918941770-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/918941770",
+  "retrieved_utc": "2026-10-31T12:40:33.503891+00:00",
+  "sha256": "3437a302d7aabc0849d88fdeba7734cfd942003808f6878f50cfe21073117a88",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-918941770.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-919329955-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/919329955",
+  "retrieved_utc": "2026-10-31T12:40:33.825935+00:00",
+  "sha256": "a4f22129514240ab09ef80b62ba0eaa798d6d8d23c527194a1defb5140e279f0",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-919329955.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-975628922-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/975628922",
+  "retrieved_utc": "2026-10-31T12:40:33.847620+00:00",
+  "sha256": "b41314d803d560ddea5f95df96c343727f2af4f7da228ba645329f531dd63bba",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-975628922.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-993149160-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993149160",
+  "retrieved_utc": "2026-10-31T12:40:33.660949+00:00",
+  "sha256": "e027a433f627b8b66daa75c8fb7578a7188b1d382c40f37db163eff9e73a0acc",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-993149160.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/brreg-993956961-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/993956961",
+  "retrieved_utc": "2026-10-31T12:40:33.989749+00:00",
+  "sha256": "5984f5f6b51263b59de9a7dc791e1b93c07e076212395608ad22320f64762b83",
+  "archived_response_files": [
+   "work/3214-frogn/raw/brreg-993956961.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/dragsund-posisjon-provenance.json",
+  "url": "https://pequod.nesodd1.no/?page_id=9244",
+  "retrieved_utc": "2026-10-31T12:58:33.715528+00:00",
+  "sha256": "35f187139c06146f6850cb093673d516ae6cc06f9ab6a145bdcef8961daa027d",
+  "archived_response_files": [
+   "work/3214-frogn/raw/dragsund-posisjon.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/drobak-bf-provenance.json",
+  "url": "https://www.havneweb.no/drobak-bf/?mod=omhavnen",
+  "retrieved_utc": "2026-10-31T12:38:51.794292+00:00",
+  "sha256": "8a1d9883ccd1b6e0a0a0755fe4fb48833678abbf634799a46514ff8ab2c77139",
+  "archived_response_files": [
+   "work/3214-frogn/raw/drobak-bf.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/dssf-brygger-provenance.json",
+  "url": "https://www.dssf.no/dssf/dssf-bryggeanlegg",
+  "retrieved_utc": "2026-10-31T12:40:31.907781+00:00",
+  "sha256": "f826974c9d84a05f3e770dc8698c32ab0b459e1151c9f6c086be56a2f2e3e20b",
+  "archived_response_files": [
+   "work/3214-frogn/raw/dssf-brygger.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/dssf-gylte-provenance.json",
+  "url": "https://dssf.no/dssf/gylteholmen-brygger",
+  "retrieved_utc": "2026-10-31T12:40:32.134197+00:00",
+  "sha256": "2c63f3b9cbdd3ab90d2a0aaaa60305f63ed2aea0e4c04ad133ba1c94c931bf07",
+  "archived_response_files": [
+   "work/3214-frogn/raw/dssf-gylte.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/esri-service.json.provenance.json",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+  "retrieved_utc": "2026-10-31T12:37:52.556549+00:00",
+  "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc",
+  "archived_response_files": [
+   "work/3214-frogn/raw/esri-service.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/foreningsportal-provenance.json",
+  "url": "https://frogn.foreningsportal.no/foreninger",
+  "retrieved_utc": "2026-10-31T12:38:52.916694+00:00",
+  "sha256": "4bc0c2b2320e900ad9ee441c15ff6cba2aa499dd5d7d9d6cbe0f0efc5f54e054",
+  "archived_response_files": [
+   "work/3214-frogn/raw/foreningsportal.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/gjestehavn-turist-provenance.json",
+  "url": "https://visitgreateroslo.com/no/drobak-gjestehavn",
+  "retrieved_utc": "2026-10-31T12:40:32.812717+00:00",
+  "sha256": "82aba65297848ebe1ed10020fd02472a66435b73539d67c883d2d6e1fc44d172",
+  "archived_response_files": [
+   "work/3214-frogn/raw/gjestehavn-turist.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/gylteaasen-om-provenance.json",
+  "url": "https://gylteaasenbaathavn.no/om-oss.htm",
+  "retrieved_utc": "2026-10-31T12:40:33.480729+00:00",
+  "sha256": "7ae841da1fe302f4f48b17748fa5f0465fca586f2c72966dcf541160d7eca100",
+  "archived_response_files": [
+   "work/3214-frogn/raw/gylteaasen-om.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/gylteaasen-provenance.json",
+  "url": "https://gylteaasenbaathavn.no/",
+  "retrieved_utc": "2026-10-31T12:38:53.217859+00:00",
+  "sha256": "c830f856ecf3dabf8ab8d415a19f867f25cb652e1ddf3c411e80e73d5e9063e9",
+  "archived_response_files": [
+   "work/3214-frogn/raw/gylteaasen.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/gylteaasen-vel-provenance.json",
+  "url": "https://www.xn--gv-kka.no/omoss/informasjon/",
+  "retrieved_utc": "2026-10-31T12:54:56.987437+00:00",
+  "sha256": "b914df36e6bcaac377d869de65df0df5671e64797d6119ba5dfcf9fdd74c00dd",
+  "archived_response_files": [
+   "work/3214-frogn/raw/gylteaasen-vel.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/gylteholmen-provenance.json",
+  "url": "https://www.gylteholmenbrygger.no/",
+  "retrieved_utc": "2026-10-31T12:40:31.064497+00:00",
+  "sha256": "10dab945a65bf39d62b10696993172feafe0fa18e65a811658d343181e32e1ca",
+  "archived_response_files": [
+   "work/3214-frogn/raw/gylteholmen.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/haoya-friluftsrad-provenance.json",
+  "url": "https://www.oslofjorden.org/telting-pa-haoya/",
+  "retrieved_utc": "2026-10-31T12:40:30.945048+00:00",
+  "sha256": "51df38c93f9c46d2c9b45d689bd5ef2e00655d37e6282c0bdd07196d01699cf1",
+  "archived_response_files": [
+   "work/3214-frogn/raw/haoya-friluftsrad.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/kommunegrense-4326.json.provenance.json",
+  "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3214/omrade?utkoordsys=4326",
+  "retrieved_utc": "2026-10-31T12:37:52.043883+00:00",
+  "sha256": "a40482ed94842560dd522a86f42b9bed1f1e6cc9c85e7aa178219af9f07c2d32",
+  "archived_response_files": [
+   "work/3214-frogn/raw/kommunegrense-4326.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/oscarsborg-provenance.json",
+  "url": "https://oscarsborggjestehavn.no/",
+  "retrieved_utc": "2026-10-31T12:38:53.407125+00:00",
+  "sha256": "ededa572b64ebf33b7f55dd11ca4332fb9621dece4a89be0c7f085981d0d13de",
+  "archived_response_files": [
+   "work/3214-frogn/raw/oscarsborg.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/overpass-tile-0.provenance.json",
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);nwr[\"mooring\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);nwr[\"harbour\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);nwr[\"leisure\"=\"slipway\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);way[\"man_made\"=\"pier\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);way[\"man_made\"=\"breakwater\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426);way[\"natural\"=\"coastline\"](59.61265979087993,10.538102412620015,59.695929687375376,10.644631306450426););out geom tags;",
+  "retrieved_utc": "2026-10-31T12:40:27.857586+00:00",
+  "sha256": "ce8a0eaa080a8549accbcce8585de1912be4e9df9c35f7d1876d78005725d7bb",
+  "archived_response_files": [
+   "work/3214-frogn/raw/overpass-tile-0.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/overpass-tile-1.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);nwr[\"mooring\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);nwr[\"harbour\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);nwr[\"leisure\"=\"slipway\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);way[\"man_made\"=\"pier\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);way[\"man_made\"=\"breakwater\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838);way[\"natural\"=\"coastline\"](59.61265979087993,10.644631306450426,59.695929687375376,10.751160200280838););out geom tags;",
+  "retrieved_utc": "2026-10-31T12:38:09.674148+00:00",
+  "sha256": "42a099e801fe42e79fa762683142fa5dd6497d8f67ebf000c03cd5189fd692ee",
+  "archived_response_files": [
+   "work/3214-frogn/raw/overpass-tile-1.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/overpass-tile-2.provenance.json",
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);nwr[\"mooring\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);nwr[\"harbour\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);nwr[\"leisure\"=\"slipway\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);way[\"man_made\"=\"pier\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);way[\"man_made\"=\"breakwater\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426);way[\"natural\"=\"coastline\"](59.695929687375376,10.538102412620015,59.77919958387082,10.644631306450426););out geom tags;",
+  "retrieved_utc": "2026-10-31T12:38:47.408497+00:00",
+  "sha256": "6a31f6842589a738416dc0eb5685cdf760d8b13a502df0a974053b0fb356ca47",
+  "archived_response_files": [
+   "work/3214-frogn/raw/overpass-tile-2.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/overpass-tile-3.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);nwr[\"mooring\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);nwr[\"harbour\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);nwr[\"leisure\"=\"slipway\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);way[\"man_made\"=\"pier\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);way[\"man_made\"=\"breakwater\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838);way[\"natural\"=\"coastline\"](59.695929687375376,10.644631306450426,59.77919958387082,10.751160200280838););out geom tags;",
+  "retrieved_utc": "2026-10-31T12:39:10.462418+00:00",
+  "sha256": "fac53614f37065ad2007221e78f71ecb216da8fed7c3b6144f6c1494ddc07b94",
+  "archived_response_files": [
+   "work/3214-frogn/raw/overpass-tile-3.json"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/solbukta-birdlife2026-provenance.json",
+  "url": "https://oa.birdlife.no/Sider/Ekskursjoner_moeter/Eks_moe.php?category=1&id=1602&month=2026-08",
+  "retrieved_utc": "2026-10-31T12:40:32.749698+00:00",
+  "sha256": "99a6d5f09c322b1bf954ccf90b92d6ef4bc03fc640f1db60b5cccbd7d9109065",
+  "archived_response_files": [
+   "work/3214-frogn/raw/solbukta-birdlife2026.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/solbukta-provenance.json",
+  "url": "https://solbukta.net/baat/",
+  "retrieved_utc": "2026-10-31T12:38:53.108097+00:00",
+  "sha256": "d379f28b50aefbeafd5819d866ab4dad65c8ae7c4d283d468e12e8bb7206831e",
+  "archived_response_files": [
+   "work/3214-frogn/raw/solbukta.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/tajebukta-leverandor-provenance.json",
+  "url": "https://sfmarina.com/sf-projects/haoya/",
+  "retrieved_utc": "2026-10-31T12:58:29.292970+00:00",
+  "sha256": "c0aa9a81e21e5064e371465a00cf335cb074e66b72a4ea2a0f3a0ab004f9bc9e",
+  "archived_response_files": [
+   "work/3214-frogn/raw/tajebukta-leverandor.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/tajebukta-posisjon-provenance.json",
+  "url": "https://pequod.nesodd1.no/?page_id=5509",
+  "retrieved_utc": "2026-10-31T12:58:31.573116+00:00",
+  "sha256": "adf1aaf12927da6bb3137664c829498f26cda2b5fe3440ef5fe2361eb7f9b540",
+  "archived_response_files": [
+   "work/3214-frogn/raw/tajebukta-posisjon.html"
+  ]
+ },
+ {
+  "local_provenance": "work/3214-frogn/raw/vindfangerbukta-provenance.json",
+  "url": "https://www.vindfangerbukta.no/havna/",
+  "retrieved_utc": "2026-10-31T12:38:52.128495+00:00",
+  "sha256": "75b7ed7b7ee0f17f0c4556ce28c79085c09cb43c44e3f1eea0e5fd8f2fb0f1c6",
+  "archived_response_files": [
+   "work/3214-frogn/raw/vindfangerbukta.html"
+  ]
+ }
+]

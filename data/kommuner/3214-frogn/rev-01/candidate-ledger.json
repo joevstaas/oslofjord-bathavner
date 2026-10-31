@@ -1,0 +1,1938 @@
+[
+ {
+  "candidate_id": "C001",
+  "osm_ids": [
+   "way/1352411067"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-249300-6626700",
+  "review_bbox": [
+   249860.23046044022,
+   6627102.698167287,
+   250080.23046044022,
+   6627322.698167287
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Felles gjestebrygge med en lang rekke fortøyde småbåter. Oslo kommunes eierskap til Håøya endrer ikke geografisk kommune. Ingen publisert kapasitet satt.",
+  "feature_ids": [
+   "3214-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C002",
+  "osm_ids": [
+   "way/156815383"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250891.831542617,
+   6632793.782486022,
+   251111.831542617,
+   6633013.782486022
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C003",
+  "osm_ids": [
+   "way/156815376",
+   "way/156815391",
+   "way/156815401",
+   "way/156815416",
+   "way/156815492",
+   "way/156815505",
+   "way/156815509",
+   "way/156815411",
+   "way/156815504"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250675.74619380926,
+   6632683.761594836,
+   251001.99799020943,
+   6633010.013391236
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C004",
+  "osm_ids": [
+   "way/156815396",
+   "way/156815510"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250923.25720524433,
+   6632626.077878438,
+   251143.25720524433,
+   6632846.077878438
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C005",
+  "osm_ids": [
+   "way/156815506"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250689.28624236386,
+   6632537.608270014,
+   250909.28624236386,
+   6632757.608270014
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C006",
+  "osm_ids": [
+   "way/156815372",
+   "way/156815466",
+   "way/156815480",
+   "way/156815491"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250652.37090055866,
+   6632422.936143272,
+   250872.37090055866,
+   6632642.936143272
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C007",
+  "osm_ids": [
+   "way/156815366",
+   "way/156815399",
+   "way/156815481"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6632100",
+  "review_bbox": [
+   250622.32259065454,
+   6632264.14672689,
+   250842.32259065454,
+   6632484.14672689
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C008",
+  "osm_ids": [
+   "way/156815361",
+   "way/156815389",
+   "way/156815479",
+   "way/156815362",
+   "way/156815380",
+   "way/156815407",
+   "way/156815418",
+   "way/156815458",
+   "way/156815377",
+   "way/156815395",
+   "way/156815393",
+   "way/156815398",
+   "way/156815406",
+   "way/156815412",
+   "way/156815507",
+   "way/156815508",
+   "way/156815515",
+   "way/156815363",
+   "way/156815484",
+   "way/156815468",
+   "way/156815511"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C008",
+  "review_bbox": [
+   250616.8968514601,
+   6631990.760717049,
+   251283.88537634315,
+   6632657.749241933
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C009",
+  "osm_ids": [
+   "way/156815379",
+   "way/156815381",
+   "way/156815420",
+   "way/156815490",
+   "way/156815384",
+   "way/156815414",
+   "way/156815390",
+   "way/156815470",
+   "way/156815474",
+   "way/156815494",
+   "way/156815512"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C008",
+  "review_bbox": [
+   250490.48780433572,
+   6631915.9723040685,
+   250872.2734575944,
+   6632297.757957328
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C010",
+  "osm_ids": [
+   "way/156815368",
+   "way/156815421"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6631200",
+  "review_bbox": [
+   250835.449149921,
+   6631833.3639975935,
+   251055.449149921,
+   6632053.3639975935
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C011",
+  "osm_ids": [
+   "way/156815392",
+   "way/156815400",
+   "way/156815488",
+   "way/156815502"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6631200",
+  "review_bbox": [
+   250612.95079535805,
+   6631752.870061238,
+   250832.95079535805,
+   6631972.870061238
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C012",
+  "osm_ids": [
+   "way/156815385",
+   "way/156815397",
+   "way/156815513",
+   "way/156815403",
+   "way/156815405"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6631200",
+  "review_bbox": [
+   250723.04891626225,
+   6631716.690051241,
+   250943.04891626225,
+   6631936.690051241
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C013",
+  "osm_ids": [
+   "way/148886269"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6630300",
+  "review_bbox": [
+   250665.92077431924,
+   6630397.218419382,
+   250885.92077431924,
+   6630617.218419382
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C014",
+  "osm_ids": [
+   "way/148886278"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6629400",
+  "review_bbox": [
+   250719.5366158533,
+   6629910.97105385,
+   250939.5366158533,
+   6630130.97105385
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Beskrivende regionalt navn; nøyaktig lokalt navn og operatør er ikke verifisert. Synlige permanente utriggere.",
+  "feature_ids": [
+   "3214-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C015",
+  "osm_ids": [
+   "way/148886270",
+   "way/148886272",
+   "way/148886279"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6629400",
+  "review_bbox": [
+   251023.44046739314,
+   6629765.687404927,
+   251243.44046739314,
+   6629985.687404927
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C016",
+  "osm_ids": [
+   "way/148886281"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6629400",
+  "review_bbox": [
+   251138.01375157418,
+   6629740.822387725,
+   251358.01375157418,
+   6629960.822387725
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C017",
+  "osm_ids": [
+   "way/148886266"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C017",
+  "review_bbox": [
+   250984.03422258398,
+   6629567.496972999,
+   251204.03422258398,
+   6629787.496972999
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C018",
+  "osm_ids": [
+   "way/148886268"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6629400",
+  "review_bbox": [
+   250958.35473889497,
+   6629459.562012611,
+   251178.35473889497,
+   6629679.562012611
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C019",
+  "osm_ids": [
+   "way/148886277",
+   "way/148886282"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251279.17274383805,
+   6629230.899007598,
+   251499.17274383805,
+   6629450.899007598
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C020",
+  "osm_ids": [
+   "way/148886267",
+   "way/148886275"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-250200-6628500",
+  "review_bbox": [
+   250977.42435534456,
+   6629043.86656191,
+   251197.42435534456,
+   6629263.86656191
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C021",
+  "osm_ids": [
+   "way/148886280"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251315.64454978192,
+   6629043.416385302,
+   251535.64454978192,
+   6629263.416385302
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C022",
+  "osm_ids": [
+   "way/148886273"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C022",
+  "review_bbox": [
+   250996.79081194144,
+   6628956.109950937,
+   251216.79081194144,
+   6629176.109950937
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C023",
+  "osm_ids": [
+   "way/148886265"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251274.2935712027,
+   6628826.62132966,
+   251494.2935712027,
+   6629046.62132966
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C024",
+  "osm_ids": [
+   "way/1545245160"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251823.32017882753,
+   6628756.516813889,
+   252043.32017882753,
+   6628976.516813889
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C025",
+  "osm_ids": [
+   "way/148886274"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251077.45410061936,
+   6628713.350819054,
+   251297.45410061936,
+   6628933.350819054
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C026",
+  "osm_ids": [
+   "way/1545124252",
+   "way/1545124254"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6628500",
+  "review_bbox": [
+   251804.04902312192,
+   6628537.78834249,
+   252024.04902312192,
+   6628757.78834249
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C027",
+  "osm_ids": [
+   "way/1545124263"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6627600",
+  "review_bbox": [
+   251797.4854764928,
+   6628362.058283759,
+   252017.4854764928,
+   6628582.058283759
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C028",
+  "osm_ids": [
+   "way/1352411065"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-249300-6626700",
+  "review_bbox": [
+   249996.14867464014,
+   6627086.450449342,
+   250216.14867464014,
+   6627306.450449342
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Indre og ytre gjestebrygge ved dokumentert felles gjesteanlegg i Dragsund. Gruppen har mer enn ti synlige båtplasser; indre del alene er ikke telt som egen ti-plasshavn.",
+  "note": "Kildens posisjon og beskrivelse av ny flytebrygge og eldre brygge innerst samsvarer med bildeutsnittene C001/C028. To sjøpolygoner, én fysisk gjestehavngruppe; ingen publisert kapasitet.",
+  "feature_ids": [
+   "3214-H01-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C029",
+  "osm_ids": [
+   "way/1433632209"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C029",
+  "review_bbox": [
+   250082.4139767346,
+   6627035.5270852,
+   250302.4139767346,
+   6627255.5270852
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C030",
+  "osm_ids": [
+   "way/363011786"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C029",
+  "review_bbox": [
+   250244.2889071257,
+   6626595.173163993,
+   250464.2889071257,
+   6626815.173163993
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C031",
+  "osm_ids": [
+   "way/1409680821",
+   "way/1409680822",
+   "way/1409680823"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-249300-6625800",
+  "review_bbox": [
+   249990.815327789,
+   6625987.296017406,
+   250241.03435219574,
+   6626237.515041812
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Leverandøren beskriver et bygget anlegg med 90 gjesteplasser. Prosjektopplysning med ukjent referanseperiode, ikke uavhengig verifisering av dagens kapasitet. Planforslaget alene er ikke brukt som bevis. Tåjebukta er koordinatkontrollert; landkai og bygningsareal utelatt.",
+  "feature_ids": [
+   "3214-H03-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C032",
+  "osm_ids": [
+   "way/1545825517",
+   "way/1545825518"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6629400",
+  "review_bbox": [
+   252040.03659801523,
+   6629369.547753928,
+   252260.03659801523,
+   6629589.547753928
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C033",
+  "osm_ids": [
+   "way/1545245147"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6628500",
+  "review_bbox": [
+   251940.28335964892,
+   6629014.899895281,
+   252160.28335964892,
+   6629234.899895281
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C034",
+  "osm_ids": [
+   "way/1545124275"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6627600",
+  "review_bbox": [
+   252025.63749036915,
+   6627927.263374626,
+   252245.63749036915,
+   6628147.263374626
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C035",
+  "osm_ids": [
+   "way/1503652091"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6626700",
+  "review_bbox": [
+   252416.94549498023,
+   6627471.2729172,
+   252636.94549498023,
+   6627691.2729172
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C036",
+  "osm_ids": [
+   "way/1503652088",
+   "way/1503652090"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6626700",
+  "review_bbox": [
+   252442.80015531636,
+   6627406.439942225,
+   252662.80015531636,
+   6627626.439942225
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C037",
+  "osm_ids": [
+   "way/1503652100",
+   "way/1503652101",
+   "way/1503652102",
+   "way/1503652103"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6626700",
+  "review_bbox": [
+   252424.32443057006,
+   6627249.690430265,
+   252644.32443057006,
+   6627469.690430265
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C038",
+  "osm_ids": [
+   "way/1496065546"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6625800",
+  "review_bbox": [
+   252440.3530953838,
+   6626248.54813005,
+   252660.3530953838,
+   6626468.54813005
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C039",
+  "osm_ids": [
+   "way/1501090178",
+   "way/1501090179"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   253822.04244368913,
+   6625974.0555610545,
+   254042.04244368913,
+   6626194.0555610545
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "To lengre fingerbrygger og en kortere rekke. Deskriptivt navn; foreningsansvar ikke verifisert.",
+  "feature_ids": [
+   "3214-H04-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C040",
+  "osm_ids": [
+   "way/1263691476",
+   "way/1493990831"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6625800",
+  "review_bbox": [
+   252514.84160759376,
+   6625883.355875332,
+   252734.84160759376,
+   6626103.355875332
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C041",
+  "osm_ids": [
+   "way/1501090164",
+   "way/1501090165",
+   "way/1501090166",
+   "way/1501090167",
+   "way/1501090173"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   253728.19970679592,
+   6625846.373135879,
+   253948.19970679592,
+   6626066.373135879
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "To felles brygger med mange synlige båser, avgrenset fra private nabobrygger.",
+  "feature_ids": [
+   "3214-H05-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C042",
+  "osm_ids": [
+   "way/1489059397"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6625800",
+  "review_bbox": [
+   252568.13581045208,
+   6625733.926280569,
+   252788.13581045208,
+   6625953.926280569
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C043",
+  "osm_ids": [
+   "way/1489059400",
+   "way/1489059401"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6624900",
+  "review_bbox": [
+   252561.11170796337,
+   6625604.924353636,
+   252781.11170796337,
+   6625824.924353636
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C044",
+  "osm_ids": [
+   "way/1501090192",
+   "way/1501090193",
+   "way/1501090194",
+   "way/1501090195"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C044",
+  "review_bbox": [
+   253680.81052625715,
+   6625462.093652796,
+   253900.81052625715,
+   6625682.093652796
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C045",
+  "osm_ids": [
+   "way/1256579049",
+   "way/1256579050",
+   "way/1258240212",
+   "way/1488830911"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6624900",
+  "review_bbox": [
+   252633.7264882187,
+   6625300.989071926,
+   252853.7264882187,
+   6625520.989071926
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C046",
+  "osm_ids": [
+   "way/1258240214",
+   "way/1258240215"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6624900",
+  "review_bbox": [
+   252684.17680136336,
+   6625056.051968057,
+   252904.17680136336,
+   6625276.051968057
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C047",
+  "osm_ids": [
+   "way/1501090199",
+   "way/1501090200",
+   "way/1501090201",
+   "way/1501090202",
+   "way/1501090203",
+   "way/1501090204",
+   "way/1501090205"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6624900",
+  "review_bbox": [
+   253525.1871388188,
+   6625007.919862413,
+   253822.44230415358,
+   6625305.175027748
+  ],
+  "decision": "delt_i_sjopolygoner",
+  "reason": "To felles båtplasspartier langs samme korte strandstrekning; sjøpolygoner delt rundt land. Ukjent eksklusiv operatør, ikke koblet til Gylteåsen-kapasitet på grunn av navnelikhet.",
+  "note": "",
+  "feature_ids": [
+   "3214-H06-B01",
+   "3214-H06-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C048",
+  "osm_ids": [
+   "way/1258240216"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C048",
+  "review_bbox": [
+   252781.96920178458,
+   6624855.857661394,
+   253001.96920178458,
+   6625075.857661394
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C049",
+  "osm_ids": [
+   "way/1305581098"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6624000",
+  "review_bbox": [
+   252805.7565325766,
+   6624656.386913779,
+   253025.7565325766,
+   6624876.386913779
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C050",
+  "osm_ids": [
+   "way/745684178",
+   "way/745684179",
+   "way/745684180",
+   "way/745684185",
+   "way/745684181",
+   "way/745684186",
+   "way/745684187",
+   "way/745684188",
+   "way/745684190"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6624000",
+  "review_bbox": [
+   253545.2588768073,
+   6624460.863943693,
+   253779.92106386763,
+   6624695.526130754
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Operatøren oppgir 68 faste båtplasser og 12 faste gjesteplasser. 68 er ikke total inkl. gjesteplasser; 12 ligger som egen kapasitetskomponent. Referanseperiode ukjent. Private brygger øst for anlegget og land på holmen er utelatt.",
+  "feature_ids": [
+   "3214-H07-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C051",
+  "osm_ids": [
+   "way/1305621978"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6624000",
+  "review_bbox": [
+   252877.77296876884,
+   6624416.349860362,
+   253097.77296876884,
+   6624636.349860362
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C052",
+  "osm_ids": [
+   "way/1265082570",
+   "way/1305621986"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6624000",
+  "review_bbox": [
+   253140.9966189172,
+   6624165.187276,
+   253360.9966189172,
+   6624385.187276
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C053",
+  "osm_ids": [
+   "way/705954792"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6624000",
+  "review_bbox": [
+   252481.8431418559,
+   6623918.877097476,
+   252701.8431418559,
+   6624138.877097476
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C054",
+  "osm_ids": [
+   "way/705929975",
+   "way/705929976",
+   "way/705929982",
+   "way/705929985",
+   "way/705929986",
+   "way/705929988",
+   "way/705929991",
+   "way/705929993",
+   "way/978534107",
+   "way/1234356396",
+   "way/1234356402"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/1270148363",
+    "tags": {
+     "leisure": "marina",
+     "name": "Oscarsborg gjestehavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "http://oscarsborggjestehavn.no/"
+    }
+   }
+  ],
+  "image_id": "coast-252000-6623100",
+  "review_bbox": [
+   252418.9370455983,
+   6623538.492779519,
+   252705.97996806062,
+   6623825.535701983
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Operatøren dokumenterer gjestehavn for ca. 110 båter på vestsiden av Kaholmene; flere faste gjestebrygger synlige.",
+  "note": "Kapasiteten gjelder hele gjestehavnen, ikke hver brygge. Østlige fergekaier og vestlige kaier sør for selve gjestehavnen er ikke automatisk del av gjestehavnen. Referanseperiode for publisert kapasitet er ukjent.",
+  "feature_ids": [
+   "3214-H08-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C055",
+  "osm_ids": [
+   "way/541843921",
+   "way/705954760"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6623100",
+  "review_bbox": [
+   252597.35164607968,
+   6623442.768413067,
+   252817.35164607968,
+   6623662.768413067
+  ],
+  "decision": "utelatt",
+  "reason": "Oscarsborg: ferge-/anløps-/servicekaier uten sikker dokumentasjon på at de er del av gjestehavnen. Ikke inkludert ut fra nærhet alene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C056",
+  "osm_ids": [
+   "way/32611911",
+   "way/32611916",
+   "way/32611926",
+   "way/32611932",
+   "way/32611937",
+   "way/32611938",
+   "way/32611941",
+   "way/32611948",
+   "way/32611951",
+   "way/32611960",
+   "way/543452852",
+   "way/32611968",
+   "way/45818715",
+   "way/45818718",
+   "way/543452853",
+   "way/543452854",
+   "way/543452855",
+   "way/1301721047"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/1270148331",
+    "tags": {
+     "leisure": "marina",
+     "name": "Drøbak",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6623100",
+  "review_bbox": [
+   253270.8088117647,
+   6623284.686376125,
+   253787.428587127,
+   6623801.306151487
+  ],
+  "decision": "delt_i_sjopolygoner",
+  "reason": "Sammenhengende fysisk havneområde ved Husvikholmen med flere operatørinteresser. Delt i sjøpolygoner for å unngå land; ingen eksklusiv operatørgrense eller kapasitet tilordnet.",
+  "note": "",
+  "feature_ids": [
+   "3214-H09-B01",
+   "3214-H09-B02",
+   "3214-H09-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C057",
+  "osm_ids": [
+   "way/705929969",
+   "way/705929970",
+   "way/902774864",
+   "way/902774865"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6623100",
+  "review_bbox": [
+   252434.8126480063,
+   6623266.627903204,
+   252654.8126480063,
+   6623486.627903204
+  ],
+  "decision": "utelatt",
+  "reason": "Oscarsborg: ferge-/anløps-/servicekaier uten sikker dokumentasjon på at de er del av gjestehavnen. Ikke inkludert ut fra nærhet alene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C058",
+  "osm_ids": [
+   "way/973599742",
+   "way/973599743"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6622200",
+  "review_bbox": [
+   253427.62743687112,
+   6622708.199987056,
+   253647.62743687112,
+   6622928.199987056
+  ],
+  "decision": "utelatt",
+  "reason": "Service-/institusjonskai eller private brygger med separate landfester. Ingen dokumentert felles havn med faste plasser i dette konkrete omrisset.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C059",
+  "osm_ids": [
+   "way/705747852",
+   "way/705747858",
+   "way/705747859",
+   "way/705747860",
+   "way/705747861"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/237549138",
+    "tags": {
+     "drinking_water": "yes",
+     "leisure": "marina",
+     "name": "Drøbak båthavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6621300",
+  "review_bbox": [
+   253607.26493303024,
+   6621829.854253459,
+   253827.26493303024,
+   6622049.854253459
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Dokumentert båtforening med faste plasser; eksisterende havnebasseng med flere båtplassrekker synlig.",
+  "note": "Skilt med medlemmers plasser kan gi gjesteleie når plassen er ledig. Ikke sammenblandet med kommunal Drøbak gjestehavn sør for dette bassenget.",
+  "feature_ids": [
+   "3214-H10-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C060",
+  "osm_ids": [
+   "way/237549738",
+   "way/237549739",
+   "way/237549740"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/237549741",
+    "tags": {
+     "leisure": "marina",
+     "mooring": "guest",
+     "name": "Drøbak gjestehavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6621300",
+  "review_bbox": [
+   253614.945858785,
+   6621487.74242647,
+   253834.945858785,
+   6621707.74242647
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Dokumentert gjestehavn med 48 publiserte gjesteplasser; synlig molo og båser.",
+  "note": "48 gjesteplasser er publisert av Visit Greater Oslo; referanseperioden er ukjent og tallet er ikke uavhengig målt. Landanlegg/serveringsbygg er utelatt.",
+  "feature_ids": [
+   "3214-H11-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C061",
+  "osm_ids": [
+   "way/1266034914",
+   "way/1266034915",
+   "way/1266034916",
+   "way/1266034917",
+   "way/1266034918",
+   "way/1266034919"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6620400",
+  "review_bbox": [
+   253741.18647458998,
+   6620995.040034925,
+   254064.3767817769,
+   6621318.230342112
+  ],
+  "decision": "utelatt",
+  "reason": "Service-/institusjonskai eller private brygger med separate landfester. Ingen dokumentert felles havn med faste plasser i dette konkrete omrisset.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C062",
+  "osm_ids": [
+   "way/1266034920"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6620400",
+  "review_bbox": [
+   253833.71100079024,
+   6620691.027298087,
+   254053.71100079024,
+   6620911.027298087
+  ],
+  "decision": "utelatt",
+  "reason": "Service-/institusjonskai eller private brygger med separate landfester. Ingen dokumentert felles havn med faste plasser i dette konkrete omrisset.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C063",
+  "osm_ids": [
+   "way/1501117191",
+   "way/1501117192",
+   "way/1501117193",
+   "way/1501117194",
+   "way/1501117204",
+   "way/1501117206",
+   "way/1501117207"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6625800",
+  "review_bbox": [
+   254627.4958501071,
+   6626471.369532825,
+   254847.4958501071,
+   6626691.369532825
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C064",
+  "osm_ids": [
+   "way/416648368",
+   "way/416649877",
+   "way/1501117235",
+   "way/1501117233",
+   "way/1501117234",
+   "way/1501117236"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   254310.65727213942,
+   6626284.950471047,
+   254530.65727213942,
+   6626504.950471047
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Felles utriggere ved holme. Private brygger på fastlandet holdes utenfor.",
+  "feature_ids": [
+   "3214-H12-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C065",
+  "osm_ids": [
+   "way/1501038217"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   254167.77575844302,
+   6626260.496018599,
+   254387.77575844302,
+   6626480.496018599
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C066",
+  "osm_ids": [
+   "way/1501038200",
+   "way/1501038201",
+   "way/1501038202",
+   "way/1501038203",
+   "way/1501038204",
+   "way/1501038205",
+   "way/1501038206",
+   "way/1501038207",
+   "way/1501038208"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   254059.52877074695,
+   6626233.615704359,
+   254279.52877074695,
+   6626453.615704359
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C067",
+  "osm_ids": [
+   "way/1501038163",
+   "way/1501038164",
+   "way/1501038165",
+   "way/1501038166"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   253966.84382821614,
+   6626147.888662711,
+   254186.84382821614,
+   6626367.888662711
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "To felles fingerbrygger; separate landbrygger rundt stranden utelatt.",
+  "feature_ids": [
+   "3214-H13-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C068",
+  "osm_ids": [
+   "way/1501038167",
+   "way/1501038168"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6625800",
+  "review_bbox": [
+   253903.89747241102,
+   6626048.781349331,
+   254123.89747241102,
+   6626268.781349331
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Kort felles fingerbrygge med minst ti synlige utriggere totalt på begge sider. Adskilt fra C067; ingen operatørtilordning.",
+  "feature_ids": [
+   "3214-H14-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C069",
+  "osm_ids": [
+   "way/1172656003"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6615900",
+  "review_bbox": [
+   254709.67224445578,
+   6616624.674710372,
+   254929.67224445578,
+   6616844.674710372
+  ],
+  "decision": "utelatt",
+  "reason": "OSM-klyngen gjelder en liten privat brygge. Et større synlig båtplassanlegg sør for denne er separat bildesøk-kandidat G001; ikke likestilt med den lille OSM-bryggen.",
+  "note": "",
+  "feature_ids": [
+   "3214-H17-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C070",
+  "osm_ids": [
+   "way/1166086475"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633900",
+  "review_bbox": [
+   259198.78926809834,
+   6634138.36716681,
+   259418.78926809834,
+   6634358.36716681
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C071",
+  "osm_ids": [
+   "way/1544933590"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633900",
+  "review_bbox": [
+   259298.23978787736,
+   6634084.65619763,
+   259518.23978787736,
+   6634304.65619763
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C072",
+  "osm_ids": [
+   "way/1544933586"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633000",
+  "review_bbox": [
+   259267.7842512118,
+   6633342.186550349,
+   259487.7842512118,
+   6633562.186550349
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C073",
+  "osm_ids": [
+   "way/1166089250",
+   "way/1166089251",
+   "way/1166089252"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633000",
+  "review_bbox": [
+   259120.06257691796,
+   6633160.82095422,
+   259340.06257691796,
+   6633380.82095422
+  ],
+  "decision": "utelatt",
+  "reason": "Solbukta: udaterte bilder viser fingerbrygge, mens et BirdLife-referat vist i kalenderen for august 2026 omtaler hele anlegget som ødelagt og på land. Hendelsesår og dagens tilstand er ikke uavhengig verifisert. Beholdt åpen som S003 uten nåtidspolygon.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C074",
+  "osm_ids": [
+   "way/299949505",
+   "way/1184150082"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6631200",
+  "review_bbox": [
+   259257.92924144538,
+   6631452.664416635,
+   259477.92924144538,
+   6631672.664416635
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C075",
+  "osm_ids": [
+   "way/1184941933",
+   "way/1184941934",
+   "way/1185268197"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6630300",
+  "review_bbox": [
+   259384.78958370496,
+   6631019.957571658,
+   259604.78958370496,
+   6631239.957571658
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C076",
+  "osm_ids": [
+   "way/1184150083",
+   "way/1184150084"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6629400",
+  "review_bbox": [
+   259567.8818806016,
+   6629429.058880426,
+   259787.8818806016,
+   6629649.058880426
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C077",
+  "osm_ids": [
+   "way/1184150085"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6629400",
+  "review_bbox": [
+   259594.6698698667,
+   6629306.315170269,
+   259814.6698698667,
+   6629526.315170269
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C078",
+  "osm_ids": [
+   "way/1184025577"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6628500",
+  "review_bbox": [
+   259614.5819681536,
+   6629159.448013437,
+   259834.5819681536,
+   6629379.448013437
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C079",
+  "osm_ids": [
+   "way/1184025576"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6628500",
+  "review_bbox": [
+   259616.86030310727,
+   6628927.815196195,
+   259836.86030310727,
+   6629147.815196195
+  ],
+  "decision": "utelatt",
+  "reason": "Visuelt kontrollert: separate private landfester, strand-/bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Mange nabobrygger er ikke summert til ti-plassregelen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C080",
+  "osm_ids": [
+   "way/136055777",
+   "way/136055781",
+   "way/176983429",
+   "way/176983430",
+   "way/176983431",
+   "way/1192830429",
+   "way/176983406",
+   "way/176983407",
+   "way/176983433",
+   "way/176983434"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/1874560311",
+    "tags": {
+     "leisure": "marina",
+     "name": "Stakabukta",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   },
+   {
+    "id": "way/794328995",
+    "tags": {
+     "leisure": "marina"
+    }
+   },
+   {
+    "id": "way/794328996",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-259200-6627600",
+  "review_bbox": [
+   259385.58121528302,
+   6628114.732942469,
+   259804.4358682182,
+   6628533.587595405
+  ],
+  "decision": "delt_i_sjopolygoner",
+  "reason": "Stakabukta: båtplasser på begge sider av nes med opplagsareal. Delt i sjøpolygoner uten opplag, ikke i to havner.",
+  "note": "",
+  "feature_ids": [
+   "3214-H15-B01",
+   "3214-H15-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C081",
+  "osm_ids": [
+   "way/1192830427",
+   "way/1192830428"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6627600",
+  "review_bbox": [
+   259130.52981872676,
+   6627807.859356556,
+   259350.52981872676,
+   6628027.859356556
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Flere faste småbåtplasser med felles landtilkomst. Navn/operatør Fløyspjeld er ikke sikkert stedfestet; registeradresse i Ås er ikke bevis på sjøplassering.",
+  "feature_ids": [
+   "3214-H16-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "G001",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-254700-6615900",
+  "review_bbox": [
+   254709.67224445578,
+   6616624.674710372,
+   254929.67224445578,
+   6616844.674710372
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Minst ti synlige båser/utriggerplasser i sammenhengende båtplassanlegg.",
+  "note": "Oppdaget ved bildegjennomgang uten OSM-pirer for selve båtplassanlegget. Synlig sammenhengende rekke med mange båser. Kommunegrensen mot Vestby og NIVA-kaier lenger sør holdes utenfor. Operatør og publisert kapasitet er ukjent.",
+  "feature_ids": [
+   "3214-H17-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "G003",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-251100-6623100",
+  "review_bbox": [
+   251366.66666666657,
+   6623439.999999997,
+   251549.9999999999,
+   6623623.33333333
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Felles båtplassanlegg er plausibelt, men antall faste plasser eller felles drift er uavklart.",
+  "note": "Dokumenterte brygger for besøkende ved friluftsøy/kystledhytter og synlige småbåter. Ti permanente plasser er ikke verifisert. Gamle militærbygninger/slipp på land er utelatt.",
+  "feature_ids": [
+   "3214-H18-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "G004",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": "coast-251100-6623100",
+  "review_bbox": [
+   251483.9999999999,
+   6623190.666666664,
+   251703.9999999999,
+   6623410.666666664
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Felles båtplassanlegg er plausibelt, men antall faste plasser eller felles drift er uavklart.",
+  "note": "Kai ved kystledhyttene i samme besøksanlegg som nordre brygge. Ikke hele bukta; naturfortøyninger, skjær og bygninger er utelatt. Antall båtplasser og eksklusiv bruk av kaikant er usikkert.",
+  "feature_ids": [
+   "3214-H18-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S001",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Gylteåsen / Vindfangerbukta: Gylteåsen Båthavn oppgir faste plasser og Frogn foreningsportal oppgir 70. Adresse Gylteveien 4 peker mot nordlige Vindfangerbukta, men eksakte delbrygger og kapasitetens fysiske omfang er ikke bekreftet. Ikke sett 70 på hele Vindfangerbukta eller feil anlegg lenger nord.",
+  "note": "Kilder: https://gylteaasenbaathavn.no/ https://frogn.foreningsportal.no/foreninger https://www.xn--gv-kka.no/omoss/informasjon/",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S002",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Torkildstranda: Registrert båtforening er ikke nok til å knytte alle private brygger ved stranden til et felles havneanlegg. Trenger stedfestede faste båtplasser og operatørkart.",
+  "note": "Kilder: https://data.brreg.no/enhetsregisteret/api/enheter/993149160",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S003",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Solbukta: Avklar dato for BirdLife-observasjonen om ødelagt brygge på land og om fingerbrygga siden er gjenetablert. Referatet vises i 2026-kalenderen, men hendelsesår er ikke uavhengig verifisert. Udattert bilde og gamle planer dokumenterer ikke dagens anlegg.",
+  "note": "Kilder: https://oa.birdlife.no/Sider/Ekskursjoner_moeter/Eks_moe.php?category=1&id=1602&month=2026-08 https://data.brreg.no/enhetsregisteret/api/enheter/918941770",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S004",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Fløyspjeld / Bunnefjorden sør for Stakabukta: Avklar nøyaktig hvilke brygger Fløyspjeld Båtforening disponerer. C081 er beholdt geografisk navngitt uten operatørtilordning; registeradresse i Ås er ikke havneposisjon.",
+  "note": "Kilder: https://data.brreg.no/enhetsregisteret/api/enheter/916260954",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S005",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Bergholmen og Hallangspollen: Bekreft ti faste båtplasser eller dokumentert havneorganisering på Bergholmen; besøk og kystledbruk er dokumentert, men kapasiteten er ikke. Avklar operatører og underinndeling i Hallangspollen uten å slutte fra nærhet eller navn.",
+  "note": "Kilder: https://www.oslofjorden.org/bygningene-pa-bergholmen/",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ }
+]
