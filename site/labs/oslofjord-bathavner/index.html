@@ -94,10 +94,10 @@ svg{display:block}
 .ib.play{width:44px;height:44px;background:var(--harbour);color:var(--navy)}
 .ib.play:hover{background:#6ae3d8}
 .sep{width:1px;height:22px;background:var(--line);margin:0 4px;flex:none}
-#prog{display:flex;flex-direction:column;justify-content:center;width:210px;padding:0 8px;gap:5px;cursor:pointer}
-#prog .lbl{display:flex;justify-content:space-between;font-size:12px;white-space:nowrap;gap:8px}
-#prog .lbl span:first-child{font-weight:700;overflow:hidden;text-overflow:ellipsis}
-#prog .lbl span:last-child{color:var(--dim)}
+#prog{display:flex;flex-direction:column;justify-content:center;width:210px;flex:0 1 210px;min-width:0;padding:0 8px;gap:5px;cursor:pointer}
+#prog .lbl{min-width:0;display:flex;justify-content:space-between;font-size:12px;white-space:nowrap;gap:8px}
+#prog .lbl span:first-child{flex:1 1 auto;min-width:0;font-weight:700;overflow:hidden;text-overflow:ellipsis}
+#prog .lbl span:last-child{flex:none;color:var(--dim)}
 #bar{position:relative;height:4px;border-radius:4px;background:rgba(159,189,211,.18);overflow:hidden}
 #bar i{position:absolute;inset:0 auto 0 0;width:0;background:linear-gradient(90deg,var(--harbour),#9ff0e7);border-radius:4px;transition:width .4s}
 .tag{font-size:10px;font-weight:700;letter-spacing:.4px;padding:2px 6px;border-radius:6px;background:rgba(159,189,211,.14);color:var(--mist)}
@@ -181,8 +181,12 @@ svg{display:block}
 @media (max-width:720px){
   #hud .read{display:none}
   #compass{width:44px;height:44px}
+  #brand{max-width:calc(100vw - 14px - 14px - 44px - 14px)}
+  #brand > div:last-child{min-width:0}
+  #brand h1,#brand .sub,#brand .by{white-space:normal}
   #brand .legend{display:none}
-  #prog{width:120px}
+  #prog{width:120px;flex:0 1 120px;min-width:0;padding-inline:0}
+  #prog .lbl{gap:0}
   .ib{width:34px;height:34px}.ib.play{width:40px;height:40px}
   .hide-m{display:none}
   #card{left:10px;right:10px;width:auto;bottom:calc(72px + env(safe-area-inset-bottom))}
