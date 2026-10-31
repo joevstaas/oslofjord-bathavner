@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T14:40:18+00:00",
+ "updated_utc": "2026-10-31T14:44:43Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -358,7 +358,7 @@
   {
    "name": "Bamble",
    "code": "4012",
-   "status": "til_godkjenning",
+   "status": "godkjent_av_bruker",
    "revision": 2,
    "method_version": "1.2",
    "schema_version": "1.1",
@@ -372,7 +372,7 @@
    "harbours": 53,
    "possible_harbours": 13,
    "uncertain_geometries": 33,
-   "approved_utc": null,
+   "approved_utc": "2026-10-31T14:44:43Z",
    "work_dir": "work/4012-bamble",
    "first_delivery_elapsed_wall_seconds": 3105,
    "elapsed_note": "elapsed_wall_seconds inkluderer venting på bruker før rettingsrundene.",
@@ -403,12 +403,11 @@
   "finished_utc": "2026-10-30T00:04:27Z",
   "approved_utc": "2026-10-30T05:46:52Z"
  },
- "in_progress": "Bamble rev-02 etter fullført detaljgjennomgang: 59 polygoner / 53 anleggsgrupper, inkludert 13 mulige. 15 nye grupper / 16 polygoner. Til godkjenning; samledata og nettsted uendret. Skydekte deler fortsatt kontrollhull.",
+ "in_progress": "Bamble rev-02 godkjent og innlemmet. Samlet 630 polygoner / 20 kommuner. Kjente usikkerheter og kontrollhull beholdes. Ingen neste kommune startet.",
  "remaining_after_batch": [
   "Sarpsborg 3105",
   "Halden 3101",
   "Porsgrunn 4001",
-  "Bamble 4012",
   "Ås 3218 (kystlinje ikke bekreftet)"
  ],
  "enrichment_pilots": [

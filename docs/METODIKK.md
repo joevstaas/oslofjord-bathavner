@@ -961,3 +961,8 @@ De 16 nye eksportomrissene er visuelt kontrollert som overlegg etter geometriret
 Læring: Tidligere kandidatpaneler må kontrolleres med eksisterende omriss som overlegg. Et panel kan vise både en liten utelatt brygge og en stor havn som allerede er inkludert. Omvendt må faktisk antall utriggere leses i detalj; en generell «under ti»-begrunnelse kan skjule tydelige større anlegg. Småbåter langs sammenhengende kai skal vurderes på samme måte som flytebrygger, med usikker klasse når faste plasser eller felles drift ikke er dokumentert.
 
 Ny veggklokketid er registrert separat i `rev-02/timing.json`, fra opprettelsen av detaljpanelverktøyet. Innledende fil-/bildekontroll før målepunktet og den tidligere delgjennomgangen er ikke målt i dette intervallet. Tokens og pris er ikke målt. Ingen neste kommune er startet.
+
+
+### Bamble – revisjon 2 godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-02 og ba om commit, push og PR. Alle 59 polygoner / 53 anleggsgrupper er innlemmet, inkludert 13 mulige havner og 33 usikre avgrensninger. Samlet 630 polygoner fra 20 kommuner. De 571 tidligere godkjente features, inkludert Frogn, Vestby og Hvaler fra siste main, er bevart med kanonisk SHA-256 i `data/kommuner/4012-bamble/rev-02/approval.json`. Rev-01 er bevart som historisk, ikke-godkjent leveranse. Skydekte deler av industrikysten, ukjent bildedato/drift og øvrige åpne avklaringer beholdes. Godkjenning verifiserer ikke fullstendighet eller antall operatører. Nettstedets kartdata og kommunestatus er oppdatert. Ingen neste kommune er startet.

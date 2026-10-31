@@ -39,3 +39,8 @@ Aktive tids-/tokenregnskap fra denne samtalen kan ikke overføres til Claude. Re
 Hvaler ligger på branch `data/hvaler-analysis`, med 69 polygoner / 66 foreløpige anleggsgrupper, inkludert 20 mulige. Se `data/kommuner/3110-hvaler/rev-01/README.md` og `open-questions.json`. 68 avgrensninger har kontrollbehov. Brukeren har godkjent innlemming; usikkerhetene er beholdt. Godkjent grunnlag er nå 571 polygoner / 19 kommuner. De 502 tidligere polygonene er kontrollert uendret i `approval.json`. Sarpsborg er ikke startet.
 
 Lokal bilde-/råkildesamling ligger i `work/3110-hvaler/`, utenfor Git. Tekniske kontroller kan kjøres med `work/3110-hvaler/validate.py` når originalbildene finnes. `build.py`/`qa.py` gjenskaper avventende eksport og overlegg, men en godkjent revisjon må aldri overskrives. Hvaler er klargjort for commit/push/PR etter brukerens beskjed.
+
+
+### Bamble – revisjon 2 godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-02 og ba om commit, push og PR. Alle 59 polygoner / 53 anleggsgrupper er innlemmet, inkludert 13 mulige havner og 33 usikre avgrensninger. Samlet 630 polygoner fra 20 kommuner. De 571 tidligere godkjente features, inkludert Frogn, Vestby og Hvaler fra siste main, er bevart med kanonisk SHA-256 i `data/kommuner/4012-bamble/rev-02/approval.json`. Rev-01 er bevart som historisk, ikke-godkjent leveranse. Skydekte deler av industrikysten, ukjent bildedato/drift og øvrige åpne avklaringer beholdes. Godkjenning verifiserer ikke fullstendighet eller antall operatører. Nettstedets kartdata og kommunestatus er oppdatert. Ingen neste kommune er startet.

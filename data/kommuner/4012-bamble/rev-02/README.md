@@ -1,8 +1,8 @@
-# Bamble (4012) – revisjon 2 til godkjenning
+# Bamble (4012) – revisjon 2 godkjent
 
 **53 anleggsgrupper / 59 polygoner**, inkludert 13 mulige havner og 33 usikre avgrensninger.
 
-Ny detaljgjennomgang etter brukerinnspill er fullført i det tilgjengelige bildegrunnlaget. Endring fra rev-01: **15 nye anleggsgrupper / 16 nye polygoner**. De tidligere 43 polygonene og ID-ene er bevart. Revisjon 1 er uendret. Leveransen er ikke godkjent eller innlemmet i samledata/nettsted.
+Ny detaljgjennomgang etter brukerinnspill er fullført i det tilgjengelige bildegrunnlaget. Endring fra rev-01: **15 nye anleggsgrupper / 16 nye polygoner**. De tidligere 43 polygonene og ID-ene er bevart. Revisjon 1 er uendret. Brukeren godkjente revisjon 2 2026-10-31T14:44:43Z. Alle 59 polygonene er innlemmet i samledata; nettstedets kartdata er oppdatert. Kjente usikkerheter er beholdt.
 
 ## Gjennomgang og funn
 
@@ -32,13 +32,13 @@ Fem tidligere utelatelser er omgjort: C013 (Skjerkebukta nord), C029 (Bunes), M0
 
 ## Leveranser og kontroll
 
-- `bathavner.geojson` og `metadata.csv`: samme 59 polygonrader, WGS84, status `til_godkjenning`.
+- `bathavner.geojson` og `metadata.csv`: samme 59 polygonrader, WGS84, status `godkjent_av_bruker`.
 - `changes.csv`: alle 16 nye polygoner med begrunnelser.
 - `candidate-ledger.json`/CSV, `detail-review.json` og `excluded-review.json`: sporbare kandidatbeslutninger.
 - `sweep-review.json` og `coverage.json`: hvilke ark som er gjennomgått, med kontrollhull.
 - `digitisation.json`, `decisions.py` og `cluster-review-index.json`: manuelle pikselomriss og georeferering. Rev-01s beslutninger beholdes i rev-01.
 - `outline-review.json`: de 16 nye eksportomrissene er visuelt kontrollert som overlegg på kildebildene.
-- `validation.json`: gyldige polygoner, unike ID-er, 0 m² utenfor kommunen, ingen intern overlapp eller overlapp mot samledata, CSV-samsvar og bildehashkontroll.
+- `validation-before-approval.json`: kontroll før godkjenning. `validation.json`: gyldige polygoner, unike ID-er, 0 m² utenfor kommunen, ingen intern overlapp eller overlapp mot samledata, CSV-samsvar og bildehashkontroll.
 - `preservation-manifest.json`: rev-01, godkjente samledata og nettsted er kontrollert uendret med SHA-256.
 - Originalbilder med georeferering er bevart lokalt i `work/4012-bamble/images/`. Nye stedsnavn er kontrollert mot Kartverkets punkt-API; navnene er beskrivende, ikke verifiserte operatørnavn.
 

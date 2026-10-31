@@ -2,7 +2,7 @@
 
 Polygons with traceable metadata for small-boat harbours (marinas, boat club harbours and other shared berthing facilities) in the municipalities bordering the inner and outer Oslofjord, Norway.
 
-Approved status: **456 polygons from 14 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo). Remaining: Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Sarpsborg, Halden, Porsgrunn, Bamble (Ås not yet confirmed as coastal). See `status.json`.
+Approved status: **630 polygons from 20 municipalities** (Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo, Nordre Follo, Nesodden, Frogn, Vestby, Hvaler, Bamble). Remaining: Sarpsborg, Halden, Porsgrunn (Ås not yet confirmed as coastal). See `status.json`.
 
 **Explore it in 3D:** [www.oceandatajo.com/labs/oslofjord-bathavner](https://www.oceandatajo.com/labs/oslofjord-bathavner). The site is in `site/`, and its data is built with `scripts/build_flyover_data.py`. The dataset will be published on the [Ocean Data Platform](https://app.hubocean.earth/) from [HUB Ocean](https://www.hubocean.earth/).
 
