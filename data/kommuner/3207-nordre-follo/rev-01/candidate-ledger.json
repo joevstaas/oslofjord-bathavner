@@ -1,0 +1,710 @@
+[
+ {
+  "candidate_id": "OSM-238965995",
+  "osm_ids": [
+   "way/238965995"
+  ],
+  "image_id": "coast-04",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-239193933",
+  "osm_ids": [
+   "way/239193933"
+  ],
+  "image_id": "inland-01",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-239193937",
+  "osm_ids": [
+   "way/239193937"
+  ],
+  "image_id": "inland-01",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-416709856",
+  "osm_ids": [
+   "way/416709856"
+  ],
+  "image_id": "inland-02",
+  "decision": "inkludert_i_NF002",
+  "reason": "Del av inkludert havnekandidat.",
+  "feature_ids": [
+   "3207-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-416709861",
+  "osm_ids": [
+   "way/416709861"
+  ],
+  "image_id": "inland-02",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-417677157",
+  "osm_ids": [
+   "way/417677157"
+  ],
+  "image_id": "inland-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-431290733",
+  "osm_ids": [
+   "way/431290733"
+  ],
+  "image_id": "inland-04",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-459323672",
+  "osm_ids": [
+   "way/459323672"
+  ],
+  "image_id": "inland-05",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-459323673",
+  "osm_ids": [
+   "way/459323673"
+  ],
+  "image_id": "inland-05",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-459323674",
+  "osm_ids": [
+   "way/459323674"
+  ],
+  "image_id": "inland-05",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-480177201",
+  "osm_ids": [
+   "way/480177201"
+  ],
+  "image_id": "inland-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-737103250",
+  "osm_ids": [
+   "way/737103250"
+  ],
+  "image_id": "inland-07",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-799741682",
+  "osm_ids": [
+   "way/799741682"
+  ],
+  "image_id": "inland-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-878239170",
+  "osm_ids": [
+   "way/878239170"
+  ],
+  "image_id": "inland-08",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-931863464",
+  "osm_ids": [
+   "way/931863464"
+  ],
+  "image_id": "inland-01",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-955114879",
+  "osm_ids": [
+   "way/955114879"
+  ],
+  "image_id": "coast-13",
+  "decision": "inkludert_i_NF001",
+  "reason": "Del av inkludert havnekandidat.",
+  "feature_ids": [
+   "3207-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-955114880",
+  "osm_ids": [
+   "way/955114880"
+  ],
+  "image_id": "coast-13",
+  "decision": "inkludert_i_NF001",
+  "reason": "Del av inkludert havnekandidat.",
+  "feature_ids": [
+   "3207-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-965673801",
+  "osm_ids": [
+   "way/965673801"
+  ],
+  "image_id": "inland-09",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-987014544",
+  "osm_ids": [
+   "way/987014544"
+  ],
+  "image_id": "inland-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-987189799",
+  "osm_ids": [
+   "way/987189799"
+  ],
+  "image_id": "inland-11",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-988124843",
+  "osm_ids": [
+   "way/988124843"
+  ],
+  "image_id": "inland-12",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-988124852",
+  "osm_ids": [
+   "way/988124852"
+  ],
+  "image_id": "inland-12",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1026522846",
+  "osm_ids": [
+   "way/1026522846"
+  ],
+  "image_id": "inland-13",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1026522848",
+  "osm_ids": [
+   "way/1026522848"
+  ],
+  "image_id": "inland-13",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1029898480",
+  "osm_ids": [
+   "way/1029898480"
+  ],
+  "image_id": "inland-14",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126453718",
+  "osm_ids": [
+   "way/1126453718"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126453719",
+  "osm_ids": [
+   "way/1126453719"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126453720",
+  "osm_ids": [
+   "way/1126453720"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126453721",
+  "osm_ids": [
+   "way/1126453721"
+  ],
+  "image_id": "coast-13",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126453722",
+  "osm_ids": [
+   "way/1126453722"
+  ],
+  "image_id": "coast-13",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457018",
+  "osm_ids": [
+   "way/1126457018"
+  ],
+  "image_id": "coast-11",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457020",
+  "osm_ids": [
+   "way/1126457020"
+  ],
+  "image_id": "coast-11",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457021",
+  "osm_ids": [
+   "way/1126457021"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457022",
+  "osm_ids": [
+   "way/1126457022"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457023",
+  "osm_ids": [
+   "way/1126457023"
+  ],
+  "image_id": "coast-10",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1126457024",
+  "osm_ids": [
+   "way/1126457024"
+  ],
+  "image_id": "coast-13",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1165790095",
+  "osm_ids": [
+   "way/1165790095"
+  ],
+  "image_id": "coast-02",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1165790096",
+  "osm_ids": [
+   "way/1165790096"
+  ],
+  "image_id": "coast-02",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458338",
+  "osm_ids": [
+   "way/1168458338"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458339",
+  "osm_ids": [
+   "way/1168458339"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458340",
+  "osm_ids": [
+   "way/1168458340"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458341",
+  "osm_ids": [
+   "way/1168458341"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458342",
+  "osm_ids": [
+   "way/1168458342"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458343",
+  "osm_ids": [
+   "way/1168458343"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1168458344",
+  "osm_ids": [
+   "way/1168458344"
+  ],
+  "image_id": "coast-03",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179602508",
+  "osm_ids": [
+   "way/1179602508"
+  ],
+  "image_id": "coast-05",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179604312",
+  "osm_ids": [
+   "way/1179604312"
+  ],
+  "image_id": "coast-09",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690028",
+  "osm_ids": [
+   "way/1179690028"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690029",
+  "osm_ids": [
+   "way/1179690029"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690030",
+  "osm_ids": [
+   "way/1179690030"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690031",
+  "osm_ids": [
+   "way/1179690031"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690032",
+  "osm_ids": [
+   "way/1179690032"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690033",
+  "osm_ids": [
+   "way/1179690033"
+  ],
+  "image_id": "coast-06",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690034",
+  "osm_ids": [
+   "way/1179690034"
+  ],
+  "image_id": "coast-09",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1179690035",
+  "osm_ids": [
+   "way/1179690035"
+  ],
+  "image_id": "coast-09",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1260466060",
+  "osm_ids": [
+   "way/1260466060"
+  ],
+  "image_id": "inland-15",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1260466071",
+  "osm_ids": [
+   "way/1260466071"
+  ],
+  "image_id": "inland-16",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "OSM-1262875137",
+  "osm_ids": [
+   "way/1262875137"
+  ],
+  "image_id": "inland-17",
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "NF001",
+  "osm_ids": [
+   "way/89719107",
+   "way/955114879",
+   "way/955114880"
+  ],
+  "image_id": "detail-oppegard",
+  "decision": "inkludert_smabathavn",
+  "reason": "Dokumentert båtforening med faste plasser; sammenhengende marina bekreftet i georeferert bilde.",
+  "feature_ids": [
+   "3207-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "NF002",
+  "osm_ids": [
+   "way/416709856"
+  ],
+  "image_id": "inland-02",
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet brygge med flere fortøyde småbåter i Gjevika. Vellet dokumenterer felles båtplasser i bukta; ti faste plasser og eksakt operatørkobling er ikke sikkert dokumentert.",
+  "feature_ids": [
+   "3207-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S001",
+  "osm_ids": [],
+  "image_id": null,
+  "decision": "aapen_kildekandidat_uten_polygon",
+  "reason": "Elvestadsletta Båtforening: Registeradresse i Nordre Follo er ikke havneposisjon; beholdes åpen uten polygon.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S002",
+  "osm_ids": [],
+  "image_id": null,
+  "decision": "aapen_kildekandidat_uten_polygon",
+  "reason": "Fløyspjeld Båtforening: Kilden peker mot Fløyspjeld/Ås/Frogn, ikke en verifisert havneposisjon i Nordre Follo; ingen polygon.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S003",
+  "osm_ids": [],
+  "image_id": null,
+  "decision": "aapen_kildekandidat_uten_polygon",
+  "reason": "Kjøkkenodden Båtforening: Post-/forretningsadresse i Ski dokumenterer ikke sjøanlegg i kommunen; ingen polygon.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S004",
+  "osm_ids": [],
+  "image_id": null,
+  "decision": "aapen_kildekandidat_uten_polygon",
+  "reason": "Båtsvikdalen Hytteforening: Hyttefelt omtalt i Risør; kontoradresse i Ski/Solberg dokumenterer ikke havn i Nordre Follo; ingen polygon.",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ }
+]

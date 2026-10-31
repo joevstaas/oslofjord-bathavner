@@ -4,8 +4,8 @@ Les docs/METODIKK.md, docs/OVERLEVERING.md og status.json før arbeid.
 Metodikken er autoritativ. Historiske kommunelogger beskriver status på det tidspunktet; status.json viser dagens status.
 
 ## Godkjent status
-Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen og Oslo er godkjent.
-Samlet GeoJSON inneholder 456 polygoner fra 14 kommuner. Neste batch (Nordre Follo, Nesodden, Frogn, Vestby) startes kun etter brukerens beskjed.
+Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo og Nordre Follo er godkjent.
+Samlet GeoJSON inneholder 458 polygoner fra 15 kommuner. Nordre Follo rev-01 er godkjent og innlemmet (én saltvannshavn og én mulig ferskvannshavn); usikkerhetene er beholdt. Nesodden, Frogn og Vestby startes kun etter brukerens beskjed.
 Prosjektomfang: alle kommuner med kystlinje mot indre eller ytre Oslofjord. Brukeren godkjenner hver kommune ved å se på GeoJSON-filen.
 
 ## Arbeidsregler
@@ -23,7 +23,7 @@ Prosjektomfang: alle kommuner med kystlinje mot indre eller ytre Oslofjord. Bruk
 
 ## Lokal oppstart
 Opprett .venv med Python 3.11 eller nyere og installer requirements.txt.
-Kjør python scripts/validate_project.py. Det skal gi 456 polygoner / 14 kommuner.
+Kjør python scripts/validate_project.py. Det skal gi 458 polygoner / 15 kommuner.
 Skriptet bruker prosjektets plassering, ikke /workspace.
 
 ## Historiske skript

@@ -1,0 +1,76 @@
+[
+ {
+  "local_source": "work/3207-nordre-follo/raw/brreg-875473212-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/875473212",
+  "retrieved_utc": "2026-10-31T10:46:20.660413+00:00",
+  "sha256": "91e80e73e2fecd10f85217a96f7e469208ce6cb2dbc54992d2a3fc01af078d03"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/brreg-916034954-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916034954",
+  "retrieved_utc": "2026-10-31T10:46:20.898516+00:00",
+  "sha256": "eb619035124d44dc6b4955c45207d28bf2de516c1c548417cb97d5db6ae983d3"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/brreg-916260954-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/916260954",
+  "retrieved_utc": "2026-10-31T10:46:21.074577+00:00",
+  "sha256": "3f03bf6159ee089ef924ef89ba6b6d9e379e9c4ce968e081d10654db2200c863"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/brreg-921055927-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/921055927",
+  "retrieved_utc": "2026-10-31T10:46:21.259546+00:00",
+  "sha256": "55388df2ba343e892816668a2cce76197c36c5f77b8e2dd4eded3f6ca20b6ed3"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/brreg-987337079-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/987337079",
+  "retrieved_utc": "2026-10-31T10:46:21.437261+00:00",
+  "sha256": "860257f52b61fc7bb251e69dd4f61eaf0233243827374b4163bd3d75aef39fa9"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/esri-service.json.provenance.json",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+  "retrieved_utc": "2026-10-31T10:40:12.779155+00:00",
+  "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/gjevik-vel-provenance.json",
+  "url": "https://gjevikvel.no/2018/11/27/bilder/",
+  "retrieved_utc": "2026-10-31T10:52:44.505409+00:00",
+  "sha256": "ab38ca614ab210b4001fc480d01d2d68ff1ebbe4159d87568c11891a1fbdf10e"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/kommunegrense-4326.json.provenance.json",
+  "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3207/omrade?utkoordsys=4326",
+  "retrieved_utc": "2026-10-31T10:40:12.395852+00:00",
+  "sha256": "3709c62ab12113a470702ab9fba4fd6e361c087a89bf020ebbfa00de6939b7f0"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/kyststi-provenance.json",
+  "url": "https://www.nordrefollo.kommune.no/tjenester/kultur-idrett-og-fritid/kyststi-langs-bunnefjorden/",
+  "retrieved_utc": "2026-10-31T10:46:22.094217+00:00",
+  "sha256": "7b80e320089a5b6c5f07a9f82b08b843c2fac77f1b17e2327b5337794412e65e"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/oppegard-foreningen-provenance.json",
+  "url": "https://oppegaard-baatforening.no/foreningen.aspx",
+  "retrieved_utc": "2026-10-31T10:46:20.862721+00:00",
+  "sha256": "d2a66dec221ffd29e664bbd16f99c5f9cb077bf21f25131cb99e515552fc17d8"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/oppegard-hjem-provenance.json",
+  "url": "https://oppegaard-baatforening.no/",
+  "retrieved_utc": "2026-10-31T10:46:21.012585+00:00",
+  "sha256": "bffb7c1976e095494c8ef0559d7c38f66d007c269b91eb45d7f2ea7b845f4f97"
+ },
+ {
+  "local_source": "work/3207-nordre-follo/raw/overpass-provenance.json",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:35];(nwr[\"leisure\"=\"marina\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);nwr[\"mooring\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);nwr[\"harbour\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);nwr[\"leisure\"=\"slipway\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);way[\"man_made\"=\"pier\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);way[\"man_made\"=\"breakwater\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554);way[\"natural\"=\"coastline\"](59.61667546643139,10.714640321730922,59.841283203748276,10.99398223896554););out geom tags;",
+  "retrieved_utc": "2026-10-31T10:43:42.271688+00:00",
+  "sha256": "f9e23071b3385b2ad07fac0fcf555e97e00f8667004db456cd86b3e7b1e5fa69",
+  "osm_base_timestamp": "2026-10-31T10:42:36Z"
+ }
+]

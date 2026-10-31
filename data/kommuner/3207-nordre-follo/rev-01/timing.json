@@ -1,0 +1,18 @@
+{
+ "started_utc": "2026-10-31T10:40:10.767914+00:00",
+ "started_unix": 1793443210.7679267,
+ "municipality": "Nordre Follo",
+ "code": "3207",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "94d6be45daf90c16679329850650690d4b071f2576d00923dba79d6fb7f32775",
+  "data/samlet/samlet-manifest.json": "86f571e5ec0557da04d8e095988c32e96bcc2cb6634697f24de34c330b8dff87"
+ },
+ "finished_utc": "2026-10-31T10:56:52+00:00",
+ "elapsed_wall_seconds": 1002,
+ "tokens_measured": null,
+ "cost_measured": null,
+ "note": "Veggklokketid fra oppstart, inkludert nettventing og kontekstoverføring; ikke ren prosessortid."
+}

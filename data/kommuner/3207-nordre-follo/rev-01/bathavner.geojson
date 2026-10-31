@@ -1,0 +1,315 @@
+{
+ "type": "FeatureCollection",
+ "name": "Nordre Follo – småbåthavner, revisjon 1",
+ "description": "Godkjent revisjon 1. Én saltvannshavn (kommunedel av grenseanlegg) og én mulig ferskvannshavn. Kjente usikkerheter beholdt.",
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "features": [
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3207-H01-B01",
+    "harbour_id": "3207-H01",
+    "candidate_id": "NF001",
+    "name": "Oppegård Båtforening / Ljansbruket – Nordre Follo-del",
+    "name_is_descriptive": true,
+    "municipality": "Nordre Follo",
+    "municipality_code": "3207",
+    "classification": "smabathavn",
+    "classification_basis": "Dokumentert båtforening med faste plasser; sammenhengende marina bekreftet i georeferert bilde.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T11:00:18Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 32483.6,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.7622088,
+    "latitude": 59.8291803,
+    "sources": [
+     "https://oppegaard-baatforening.no/foreningen.aspx",
+     "https://data.brreg.no/enhetsregisteret/api/enheter/875473212",
+     "https://www.openstreetmap.org/way/89719107",
+     "https://www.openstreetmap.org/way/955114879",
+     "https://www.openstreetmap.org/way/955114880",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=262200%2C6639650%2C262800%2C6640250&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/89719107",
+     "way/955114879",
+     "way/955114880"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.4,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": false,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": 350,
+    "berth_count_source": "https://oppegaard-baatforening.no/foreningen.aspx",
+    "berth_count_approximate": false,
+    "berth_count_scope": "hele_havneanlegget_pa_tvers_av_kommunegrensen",
+    "berth_count_reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31",
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": true,
+    "cross_municipality_group_id": "X-HVERVEN-0301-3207",
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører/vel og Enhetsregisteret",
+    "note": "350 publiserte plasser gjelder hele Oppegård Båtforenings havn, inkludert Oslo-del, ikke kapasiteten i dette kommuneuttrekket. Må ikke summeres med Oslo-delen. Kildens referanseperiode er ukjent. Opplag og parkering på land er utelatt. Eksisterende Oslo-navn Hvervenbukta/Fiskevollen beholdes uendret; grensegruppe kobler delene.",
+    "geometry_status": "forelopig_avgrensning",
+    "water_body": "saltvann_eller_brakkvann",
+    "image_id": "detail-oppegard",
+    "image_sha256": "172feb7eaca25a12ca2ad416f84efe2d86b630173f5ddf8888a05a532c42cf71"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.75988891223962,
+       59.82815530142145
+      ],
+      [
+       10.760136744335437,
+       59.82811654159765
+      ],
+      [
+       10.760283144577931,
+       59.82808889529074
+      ],
+      [
+       10.7604782557611,
+       59.828127560668555
+      ],
+      [
+       10.760740868275759,
+       59.828197176930125
+      ],
+      [
+       10.760887364576085,
+       59.82828103004585
+      ],
+      [
+       10.76097055978294,
+       59.828413194357786
+      ],
+      [
+       10.761050287978563,
+       59.8285164733429
+      ],
+      [
+       10.761264467922196,
+       59.82857373600981
+      ],
+      [
+       10.76153984963354,
+       59.82854305555033
+      ],
+      [
+       10.761749472276385,
+       59.82863613715574
+      ],
+      [
+       10.762033714275924,
+       59.82876039844282
+      ],
+      [
+       10.76232097139935,
+       59.8289171263687
+      ],
+      [
+       10.762640235450874,
+       59.828934615496784
+      ],
+      [
+       10.762939521941753,
+       59.8289406696502
+      ],
+      [
+       10.763270458410403,
+       59.82892256689431
+      ],
+      [
+       10.76358232771549,
+       59.82888586523217
+      ],
+      [
+       10.763807730140318,
+       59.82891111538449
+      ],
+      [
+       10.763900156849264,
+       59.82908313853058
+      ],
+      [
+       10.764125493382284,
+       59.82927742944596
+      ],
+      [
+       10.764361136647377,
+       59.829446875458686
+      ],
+      [
+       10.764310071383418,
+       59.82956751616813
+      ],
+      [
+       10.764195356838233,
+       59.82972572735661
+      ],
+      [
+       10.761924734422324,
+       59.830419625783605
+      ],
+      [
+       10.761741203787013,
+       59.83044140127474
+      ],
+      [
+       10.76144745628207,
+       59.83022331948724
+      ],
+      [
+       10.761374561522617,
+       59.83006631115547
+      ],
+      [
+       10.7614316461072,
+       59.82973006497275
+      ],
+      [
+       10.760728781856049,
+       59.82935851381314
+      ],
+      [
+       10.760034416344578,
+       59.82897644273843
+      ],
+      [
+       10.759670455287651,
+       59.82874889745779
+      ],
+      [
+       10.759649656578633,
+       59.82857558564153
+      ],
+      [
+       10.759754827431147,
+       59.82836677539027
+      ],
+      [
+       10.75988891223962,
+       59.82815530142145
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "3207-H02-B01",
+    "harbour_id": "3207-H02",
+    "candidate_id": "NF002",
+    "name": "Gjevika ved Langen – mulig felles båtbrygge",
+    "name_is_descriptive": true,
+    "municipality": "Nordre Follo",
+    "municipality_code": "3207",
+    "classification": "mulig_smabathavn",
+    "classification_basis": "Samlet brygge med flere fortøyde småbåter i Gjevika. Vellet dokumenterer felles båtplasser i bukta; ti faste plasser og eksakt operatørkobling er ikke sikkert dokumentert.",
+    "approval_status": "godkjent_av_bruker",
+    "approved_utc": "2026-10-31T11:00:18Z",
+    "revision": 1,
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "method": "manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll",
+    "area_m2": 762.6,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.9329554,
+    "latitude": 59.7746255,
+    "sources": [
+     "https://gjevikvel.no/2018/11/27/bilder/",
+     "https://data.brreg.no/enhetsregisteret/api/enheter/916034954",
+     "https://www.openstreetmap.org/way/416709856",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=270750%2C6632850%2C271950%2C6634050&bboxSR=25833&imageSR=25833&size=1500%2C1500&format=jpg"
+    ],
+    "osm_ids": [
+     "way/416709856"
+    ],
+    "imagery_source": "Esri World Imagery",
+    "imagery_retrieved_date": "2026-10-31",
+    "source_observation_date": null,
+    "image_resolution_m_per_pixel": 0.8,
+    "estimated_accuracy_m": null,
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "current_operation_verified": false,
+    "reviewed_date": "2026-10-31",
+    "berth_count_published": null,
+    "berth_count_source": null,
+    "berth_count_approximate": null,
+    "berth_count_scope": null,
+    "berth_count_reference_period": null,
+    "source_register_objectid": null,
+    "source_register_number": null,
+    "source_register_members": [],
+    "capacity_components": [],
+    "municipality_clipped": false,
+    "cross_municipality_group_id": null,
+    "attribution": "© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører/vel og Enhetsregisteret",
+    "note": "Separat ferskvannskandidat. Gjevik Båtforenings registerformål gjelder båthavn, men registeret alene stedfester ikke bryggen; operatørkoblingen er uavklart. Ingen publisert kapasitet. Badebrygge og strand i bukta inngår ikke.",
+    "geometry_status": "usikker_avgrensning",
+    "water_body": "ferskvann",
+    "image_id": "inland-02",
+    "image_sha256": "765af8cf1b4f5787115c9c016863b0f7a3c00b8915008f4320a1c4e2a6dee731"
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.933283010995106,
+       59.774695749788975
+      ],
+      [
+       10.933138534299486,
+       59.77482793364872
+      ],
+      [
+       10.932843373727657,
+       59.77467493751961
+      ],
+      [
+       10.932669993746556,
+       59.77457606203101
+      ],
+      [
+       10.932583620432611,
+       59.77446549684361
+      ],
+      [
+       10.93279128959441,
+       59.774400004855096
+      ],
+      [
+       10.932975386957247,
+       59.774527982643704
+      ],
+      [
+       10.933283010995106,
+       59.774695749788975
+      ]
+     ]
+    ]
+   }
+  }
+ ]
+}

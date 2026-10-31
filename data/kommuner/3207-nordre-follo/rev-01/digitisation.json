@@ -1,0 +1,208 @@
+[
+ {
+  "cid": "NF001",
+  "name": "Oppegård Båtforening / Ljansbruket – Nordre Follo-del",
+  "image": "detail-oppegard",
+  "cls": "smabathavn",
+  "water": "saltvann_eller_brakkvann",
+  "cross": "X-HVERVEN-0301-3207",
+  "basis": "Dokumentert båtforening med faste plasser; sammenhengende marina bekreftet i georeferert bilde.",
+  "sources": [
+   "https://oppegaard-baatforening.no/foreningen.aspx",
+   "https://data.brreg.no/enhetsregisteret/api/enheter/875473212"
+  ],
+  "osm": [
+   "way/89719107",
+   "way/955114879",
+   "way/955114880"
+  ],
+  "capacity": 350,
+  "note": "350 publiserte plasser gjelder hele Oppegård Båtforenings havn, inkludert Oslo-del, ikke kapasiteten i dette kommuneuttrekket. Må ikke summeres med Oslo-delen. Kildens referanseperiode er ukjent. Opplag og parkering på land er utelatt. Eksisterende Oslo-navn Hvervenbukta/Fiskevollen beholdes uendret; grensegruppe kobler delene.",
+  "pixels": [
+   [
+    480,
+    938
+   ],
+   [
+    446,
+    925
+   ],
+   [
+    431,
+    865
+   ],
+   [
+    420,
+    806
+   ],
+   [
+    426,
+    758
+   ],
+   [
+    481,
+    698
+   ],
+   [
+    585,
+    598
+   ],
+   [
+    690,
+    501
+   ],
+   [
+    688,
+    407
+   ],
+   [
+    701,
+    364
+   ],
+   [
+    746,
+    306
+   ],
+   [
+    792,
+    320
+   ],
+   [
+    1055,
+    400
+   ],
+   [
+    1050,
+    436
+   ],
+   [
+    1090,
+    572
+   ],
+   [
+    1095,
+    606
+   ],
+   [
+    1059,
+    651
+   ],
+   [
+    1024,
+    703
+   ],
+   [
+    1008,
+    750
+   ],
+   [
+    976,
+    755
+   ],
+   [
+    933,
+    742
+   ],
+   [
+    887,
+    734
+   ],
+   [
+    845,
+    733
+   ],
+   [
+    800,
+    735
+   ],
+   [
+    757,
+    776
+   ],
+   [
+    715,
+    808
+   ],
+   [
+    684,
+    832
+   ],
+   [
+    646,
+    821
+   ],
+   [
+    615,
+    835
+   ],
+   [
+    602,
+    863
+   ],
+   [
+    588,
+    899
+   ],
+   [
+    566,
+    921
+   ],
+   [
+    528,
+    938
+   ],
+   [
+    500,
+    947
+   ]
+  ]
+ },
+ {
+  "cid": "NF002",
+  "name": "Gjevika ved Langen – mulig felles båtbrygge",
+  "image": "inland-02",
+  "cls": "mulig_smabathavn",
+  "water": "ferskvann",
+  "cross": null,
+  "basis": "Samlet brygge med flere fortøyde småbåter i Gjevika. Vellet dokumenterer felles båtplasser i bukta; ti faste plasser og eksakt operatørkobling er ikke sikkert dokumentert.",
+  "sources": [
+   "https://gjevikvel.no/2018/11/27/bilder/",
+   "https://data.brreg.no/enhetsregisteret/api/enheter/916034954"
+  ],
+  "osm": [
+   "way/416709856"
+  ],
+  "capacity": null,
+  "note": "Separat ferskvannskandidat. Gjevik Båtforenings registerformål gjelder båthavn, men registeret alene stedfester ikke bryggen; operatørkoblingen er uavklart. Ingen publisert kapasitet. Badebrygge og strand i bukta inngår ikke.",
+  "pixels": [
+   [
+    1206,
+    888
+   ],
+   [
+    1184,
+    908
+   ],
+   [
+    1171,
+    921
+   ],
+   [
+    1164,
+    936
+   ],
+   [
+    1178,
+    946
+   ],
+   [
+    1192,
+    929
+   ],
+   [
+    1215,
+    907
+   ]
+  ]
+ }
+]

@@ -1,0 +1,41 @@
+"""Reproduser Nordre Follo rev-01 fra dokumenterte bildedigitaliseringer. Ingen godkjenning/innlemming."""
+import json,csv,hashlib,warnings,datetime
+from pathlib import Path
+from shapely.geometry import shape,Polygon,mapping,box,LineString
+from shapely.ops import transform,unary_union
+from shapely.geometry.polygon import orient
+from pyproj import Transformer
+warnings.filterwarnings('ignore')
+P=Path(__file__).parent;ROOT=P.parents[1];OUT=ROOT/'data/kommuner/3207-nordre-follo/rev-01';OUT.mkdir(parents=True,exist_ok=True)
+F=Transformer.from_crs(4326,25833,always_xy=True).transform;B=Transformer.from_crs(25833,4326,always_xy=True).transform
+boundary=transform(F,shape(json.loads((P/'kommunegrense.geojson').read_text())['features'][0]['geometry']))
+assert not (OUT/'approval.json').exists(), 'Godkjent revisjon må ikke overskrives; opprett ny revisjon.'
+TODAY=datetime.date.today().isoformat()
+D=[dict(cid='NF001',name='Oppegård Båtforening / Ljansbruket – Nordre Follo-del',image='detail-oppegard',cls='smabathavn',water='saltvann_eller_brakkvann',cross='X-HVERVEN-0301-3207',basis='Dokumentert båtforening med faste plasser; sammenhengende marina bekreftet i georeferert bilde.',sources=['https://oppegaard-baatforening.no/foreningen.aspx','https://data.brreg.no/enhetsregisteret/api/enheter/875473212'],osm=['way/89719107','way/955114879','way/955114880'],capacity=350,note='350 publiserte plasser gjelder hele Oppegård Båtforenings havn, inkludert Oslo-del, ikke kapasiteten i dette kommuneuttrekket. Må ikke summeres med Oslo-delen. Kildens referanseperiode er ukjent. Opplag og parkering på land er utelatt. Eksisterende Oslo-navn Hvervenbukta/Fiskevollen beholdes uendret; grensegruppe kobler delene.',pixels=[(480,938),(446,925),(431,865),(420,806),(426,758),(481,698),(585,598),(690,501),(688,407),(701,364),(746,306),(792,320),(1055,400),(1050,436),(1090,572),(1095,606),(1059,651),(1024,703),(1008,750),(976,755),(933,742),(887,734),(845,733),(800,735),(757,776),(715,808),(684,832),(646,821),(615,835),(602,863),(588,899),(566,921),(528,938),(500,947)]),
+ dict(cid='NF002',name='Gjevika ved Langen – mulig felles båtbrygge',image='inland-02',cls='mulig_smabathavn',water='ferskvann',cross=None,basis='Samlet brygge med flere fortøyde småbåter i Gjevika. Vellet dokumenterer felles båtplasser i bukta; ti faste plasser og eksakt operatørkobling er ikke sikkert dokumentert.',sources=['https://gjevikvel.no/2018/11/27/bilder/','https://data.brreg.no/enhetsregisteret/api/enheter/916034954'],osm=['way/416709856'],capacity=None,note='Separat ferskvannskandidat. Gjevik Båtforenings registerformål gjelder båthavn, men registeret alene stedfester ikke bryggen; operatørkoblingen er uavklart. Ingen publisert kapasitet. Badebrygge og strand i bukta inngår ikke.',pixels=[(1206,888),(1184,908),(1171,921),(1164,936),(1178,946),(1192,929),(1215,907)])]
+features=[];projected=[]
+for i,d in enumerate(D,1):
+ m=json.loads((P/'images'/f"{d['image']}.json").read_text());a,b,c,e=m['bbox'];W,H=m['width'],m['height']
+ raw=Polygon([(a+x/W*(c-a),e-y/H*(e-b)) for x,y in d['pixels']]);assert raw.is_valid,d['cid']
+ g=raw.intersection(boundary);assert g.geom_type=='Polygon' and g.area>100,d['cid'];g=orient(g,sign=1);geo=transform(B,g);q=geo.representative_point();hid=f'3207-H{i:02}'
+ p=dict(id=hid+'-B01',harbour_id=hid,candidate_id=d['cid'],name=d['name'],name_is_descriptive=True,municipality='Nordre Follo',municipality_code='3207',classification=d['cls'],classification_basis=d['basis'],approval_status='til_godkjenning',approved_utc=None,revision=1,method_version='1.2',schema_version='1.1',geometry_role='brygger_batplasser_og_mellomliggende_sjo',method='manuell_digitalisering_georeferert_flybilde_med_osm_og_kildekontroll',area_m2=round(g.area,1),area_crs='EPSG:25833',longitude=round(q.x,7),latitude=round(q.y,7),sources=d['sources']+[f'https://www.openstreetmap.org/{v}' for v in d['osm']]+[m['url']],osm_ids=d['osm'],imagery_source=m['source'],imagery_retrieved_date=m['retrieved_date'],source_observation_date=None,image_resolution_m_per_pixel=round((c-a)/W,3),estimated_accuracy_m=None,needs_orthophoto_review=d['cls']=='mulig_smabathavn',needs_dated_imagery_review=True,current_operation_verified=False,reviewed_date=TODAY,berth_count_published=d['capacity'],berth_count_source=d['sources'][0] if d['capacity'] else None,berth_count_approximate=False if d['capacity'] else None,berth_count_scope='hele_havneanlegget_pa_tvers_av_kommunegrensen' if d['capacity'] else None,berth_count_reference_period='ukjent_referanseperiode_nettside_lest_'+TODAY if d['capacity'] else None,source_register_objectid=None,source_register_number=None,source_register_members=[],capacity_components=[],municipality_clipped=raw.difference(boundary).area>0.01,cross_municipality_group_id=d['cross'],attribution='© Kartverket; © OpenStreetMap contributors (ODbL); imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community; kildeangitte operatører/vel og Enhetsregisteret',note=d['note'],geometry_status='usikker_avgrensning' if d['cls']=='mulig_smabathavn' else 'forelopig_avgrensning',water_body=d['water'],image_id=d['image'],image_sha256=m['sha256'])
+ features.append(dict(type='Feature',properties=p,geometry=mapping(geo)));projected.append(g)
+fc=dict(type='FeatureCollection',name='Nordre Follo – småbåthavner, revisjon 1',description='Til godkjenning. Én saltvannshavn og én mulig ferskvannshavn. Bildeopptaksdato, dagens drift og fullstendighet er ikke verifisert. Ikke juridiske grenser.',method_version='1.2',schema_version='1.1',features=features)
+(OUT/'bathavner.geojson').write_text(json.dumps(fc,ensure_ascii=False,indent=1)+'\n')
+def table(filename,rows):
+ with (OUT/filename).open('w',encoding='utf-8-sig',newline='') as h:
+  w=csv.DictWriter(h,fieldnames=list(rows[0]),delimiter=';',lineterminator='\n');w.writeheader();w.writerows({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in r.items()} for r in rows)
+table('metadata.csv',[f['properties'] for f in features])
+# Individual mapped piers remain traceable, even when several belong to the same excluded private stretch.
+ledger=[];index=json.loads((P/'pier-review-index.json').read_text())
+for r in index:
+ oid=r['osm_id'];inc='NF001' if oid in [955114879,955114880] else 'NF002' if oid==416709856 else None
+ freshwater=r['image_id'].startswith('inland')
+ why='Del av inkludert havnekandidat.' if inc else ('Enkeltbrygge, bade-/rekreasjonsbrygge eller småskala privat anlegg; minst ti faste plasser eller dokumentert felles båthavn er ikke påvist.' if freshwater else 'Enkeltbrygge/badeanlegg eller adskilte landfester ved boliger. Ingen dokumentert felles havn eller ti tydelige faste plasser; summeres ikke langs stranden.')
+ ledger.append(dict(candidate_id='OSM-'+str(oid),osm_ids=[f'way/{oid}'],image_id=r['image_id'],decision='inkludert_i_'+inc if inc else 'utelatt',reason=why,feature_ids=[f['properties']['id'] for f in features if f['properties']['candidate_id']==inc],reviewed_date=TODAY))
+for d in D:ledger.append(dict(candidate_id=d['cid'],osm_ids=d['osm'],image_id=d['image'],decision='inkludert_'+d['cls'],reason=d['basis'],feature_ids=[f['properties']['id'] for f in features if f['properties']['candidate_id']==d['cid']],reviewed_date=TODAY))
+for cid,name,reason in [('S001','Elvestadsletta Båtforening','Registeradresse i Nordre Follo er ikke havneposisjon; beholdes åpen uten polygon.'),('S002','Fløyspjeld Båtforening','Kilden peker mot Fløyspjeld/Ås/Frogn, ikke en verifisert havneposisjon i Nordre Follo; ingen polygon.'),('S003','Kjøkkenodden Båtforening','Post-/forretningsadresse i Ski dokumenterer ikke sjøanlegg i kommunen; ingen polygon.'),('S004','Båtsvikdalen Hytteforening','Hyttefelt omtalt i Risør; kontoradresse i Ski/Solberg dokumenterer ikke havn i Nordre Follo; ingen polygon.')]:
+ ledger.append(dict(candidate_id=cid,osm_ids=[],image_id=None,decision='aapen_kildekandidat_uten_polygon',reason=name+': '+reason,feature_ids=[],reviewed_date=TODAY))
+(OUT/'candidate-ledger.json').write_text(json.dumps(ledger,ensure_ascii=False,indent=1)+'\n');table('candidate-ledger.csv',ledger)
+(OUT/'digitisation.json').write_text(json.dumps(D,ensure_ascii=False,indent=1)+'\n')
+print('built',len(features),'polygons',[(f['properties']['name'],f['properties']['area_m2']) for f in features])
