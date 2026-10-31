@@ -1,0 +1,251 @@
+[
+ {
+  "local_provenance": "work/3110-hvaler/raw/borg-fiskeri-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/borg-fiskeri.html"
+  ],
+  "url": "https://www.borg-havn.no/fiskeri-og-naeringskaier/",
+  "retrieved_utc": "2026-10-31T13:36:27.513174+00:00",
+  "sha256": "bb04fa73f66ee9e90352b97c8ca703781613bb1a7ae69edfdecdd7625f811e6e"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/borg-havneweb-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/borg-havneweb.html"
+  ],
+  "url": "https://www.havneweb.no/borg-havn/?mod=sokplass",
+  "retrieved_utc": "2026-10-31T13:36:27.142443+00:00",
+  "sha256": "8c53b94ebc705b6f6157b36b4d675c700e2827739dcaa1f314d22c0bd8336bda"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/borg-utleie-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/borg-utleie.html"
+  ],
+  "url": "https://www.borg-havn.no/utleie-batplasser/",
+  "retrieved_utc": "2026-10-31T13:36:27.401044+00:00",
+  "sha256": "7b303796dd9fbd2abf817b5de21a446939ab8ec4b7ab597736b7284f68152818"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/dypedal-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/dypedal.html"
+  ],
+  "url": "https://www.hvalermarinesenter.no/omoss.html",
+  "retrieved_utc": "2026-10-31T13:37:33.726372+00:00",
+  "sha256": "d55f13f26a8192972d8750ba524c5088e18d3d16541d3576e5db4d163ea35bd3"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/edholmen-marina-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/edholmen-marina.html"
+  ],
+  "url": "https://www.edholmenmarina.no/",
+  "retrieved_utc": "2026-10-31T13:41:23.951814+00:00",
+  "sha256": "1a2b625a7d1c25e89101de18b3c6fe935cd7ef65f962bd4f9648508b312119cf"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/edholmen-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/edholmen.html"
+  ],
+  "url": "https://www.edholmen.no/",
+  "retrieved_utc": "2026-10-31T13:37:35.309608+00:00",
+  "sha256": "b03fd57d21fe4f5a5ffdeb25cba6b85c24fb894328bc9cafd8382787391c5222"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/esri-service.json.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/esri-service.json"
+  ],
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+  "retrieved_utc": "2026-10-31T13:35:58.154885+00:00",
+  "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/havneplan2018.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/havneplan2018.pdf"
+  ],
+  "url": "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf",
+  "retrieved_utc": "2026-10-31T13:37:44.295589+00:00",
+  "sha256": "7273e4c2d2d2215da6f058144d895b3b18087bda251b4f86da4bdeaeac745706"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/herfol-marina-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/herfol-marina.html"
+  ],
+  "url": "https://www.herfoelmarina.no/",
+  "retrieved_utc": "2026-10-31T13:37:32.678976+00:00",
+  "sha256": "35de86175cc5cb71af43df474730457c786424f563faaac9ac9e8f6524ef4f70"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/hvaler-bf-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/hvaler-bf.html"
+  ],
+  "url": "https://hvalerbaatforening.no/",
+  "retrieved_utc": "2026-10-31T13:37:30.397154+00:00",
+  "sha256": "83e59f500dc851bf22d43dedd21440cc9ada4479395ec648710b1bb4e4ba2dbf"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/hvaler-camping-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/hvaler-camping.html"
+  ],
+  "url": "https://www.hvalercamping.no/tjenester/",
+  "retrieved_utc": "2026-10-31T13:37:37.164835+00:00",
+  "sha256": "af8442bcef28727872bfa8b134b113e6dfaba48a16f8ae181f9a161576843192"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/kommune-havner-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/kommune-havner.html"
+  ],
+  "url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+  "retrieved_utc": "2026-10-31T13:36:28.061832+00:00",
+  "sha256": "5f1e8ded193f66551259ba665dbe0e41c0388ccbd8d609fa707d5feffd3e25ba"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/kommunegrense-4326.json.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/kommunegrense-4326.json"
+  ],
+  "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3110/omrade?utkoordsys=4326",
+  "retrieved_utc": "2026-10-31T13:35:57.834872+00:00",
+  "sha256": "db686c114fddc7fffc87d2d6e05c227cea7700dbcf787b3ae2d09c9b88bd99ad"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/listranda-brygger-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/listranda-brygger.html"
+  ],
+  "url": "https://www.listrandabatforening.no/bryggeplasser/",
+  "retrieved_utc": "2026-10-31T13:41:34.383900+00:00",
+  "sha256": "07936373f6b9c58b91a0dbd4e5eb3b1d27fb34fa50020504d18daa62cf27b4ce"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/listranda-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/listranda.html"
+  ],
+  "url": "https://www.listrandabatforening.no/",
+  "retrieved_utc": "2026-10-31T13:37:31.944461+00:00",
+  "sha256": "561af6951e01cec9230afe044984727e672a83a66295628d9ab85e807fdcf845"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/odegard-plan-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/odegard-plan.html"
+  ],
+  "url": "https://www.hvaler.kommune.no/nyhetsarkiv/varsel-av-oppstart-av-reguleringsplanarbeid-for-odegardskilen-bathavn/",
+  "retrieved_utc": "2026-10-31T13:36:33.418661+00:00",
+  "sha256": "cb8e4e1b2eebd640697d7593dabdbd34ff35c59eda3b52bf73989c127909fa07"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-sea-1.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-sea-1.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:20];(nwr[\"leisure\"=\"marina\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);nwr[\"mooring\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);nwr[\"harbour\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);nwr[\"leisure\"=\"slipway\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);way[\"man_made\"=\"pier\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);way[\"man_made\"=\"breakwater\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819);way[\"natural\"=\"coastline\"](58.76096038684062,11.023780640639437,58.85551930998878,11.16734246825819););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:41:05.207158+00:00",
+  "sha256": "7f386019b643e4efb3d6aea4d3c55b00628186136c400283701dac17c83ff55f"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-sea-3.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-sea-3.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:20];(nwr[\"leisure\"=\"marina\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);nwr[\"mooring\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);nwr[\"harbour\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);nwr[\"leisure\"=\"slipway\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);way[\"man_made\"=\"pier\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);way[\"man_made\"=\"breakwater\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819);way[\"natural\"=\"coastline\"](58.85551930998878,11.023780640639437,58.950078233136935,11.16734246825819););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:41:29.531984+00:00",
+  "sha256": "e0a2a976cb7296af1d27648354813aa257f0f908e7c2daf163f9948e590c4d9d"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-tile-0.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-tile-0.json"
+  ],
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);nwr[\"mooring\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);nwr[\"harbour\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);nwr[\"leisure\"=\"slipway\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);way[\"man_made\"=\"pier\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);way[\"man_made\"=\"breakwater\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683);way[\"natural\"=\"coastline\"](58.76096038684062,10.593095157783175,58.950078233136935,10.880218813020683););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:36:38.731271+00:00",
+  "sha256": "7c004038ca3bc3088567472e52754927c4e3da49994bf98fabb1d877103aac63"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-tile-1.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-tile-1.json"
+  ],
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);nwr[\"mooring\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);nwr[\"harbour\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);nwr[\"leisure\"=\"slipway\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);way[\"man_made\"=\"pier\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);way[\"man_made\"=\"breakwater\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819);way[\"natural\"=\"coastline\"](58.76096038684062,10.880218813020683,58.950078233136935,11.16734246825819););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:42:56.221686+00:00",
+  "sha256": "87443d30b15b24e7fcb31be5793cfa704187d78994c4bdfe008883c75a228fe7"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-tile-2.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-tile-2.json"
+  ],
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);nwr[\"mooring\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);nwr[\"harbour\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);nwr[\"leisure\"=\"slipway\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);way[\"man_made\"=\"pier\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);way[\"man_made\"=\"breakwater\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683);way[\"natural\"=\"coastline\"](58.950078233136935,10.593095157783175,59.13919607943325,10.880218813020683););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:36:56.881717+00:00",
+  "sha256": "5bcf9ceb665a23b5ce932b3489185c44d0044337070397c075d43552287d76f4"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/overpass-tile-3.provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/overpass-tile-3.json"
+  ],
+  "url": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);nwr[\"mooring\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);nwr[\"harbour\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);nwr[\"leisure\"=\"slipway\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);way[\"man_made\"=\"pier\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);way[\"man_made\"=\"breakwater\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819);way[\"natural\"=\"coastline\"](58.950078233136935,10.880218813020683,59.13919607943325,11.16734246825819););out geom tags;",
+  "retrieved_utc": "2026-10-31T13:37:36.576678+00:00",
+  "sha256": "ebdc37b7aab0601934cc85aff2fbc2c8feeca393b2fbbcf40425cb062f299dca"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/sand-marina-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/sand-marina.html"
+  ],
+  "url": "https://sandmarina.no/",
+  "retrieved_utc": "2026-10-31T13:36:32.359532+00:00",
+  "sha256": "bacd97aacb15692106498cfc4f6edfa8c79bfe6a55590986221225d359d9be06"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/siljeholmen-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/siljeholmen.html"
+  ],
+  "url": "https://www.siljeholmenvel.com/",
+  "retrieved_utc": "2026-10-31T13:41:30.019147+00:00",
+  "sha256": "c859dc957f7bf32898db8272a00a17a8268eddcbb410a4eac68bafdd26b69481"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/skjaerhalden-gjest-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/skjaerhalden-gjest.html"
+  ],
+  "url": "https://www.hvalergjestehavn.no/",
+  "retrieved_utc": "2026-10-31T13:36:29.114051+00:00",
+  "sha256": "1bf0f0be15087165115a56992765f3252afb4970c458c490d6c3dff896c42e26"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/skjaerhalden-havneweb-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/skjaerhalden-havneweb.html"
+  ],
+  "url": "https://www.havneweb.no/skjarhalden-bf/",
+  "retrieved_utc": "2026-10-31T13:41:24.782009+00:00",
+  "sha256": "cacbf332421c581aae70a175ca3f2e22c3e16228a03e32d9de8cdc4440ff3295"
+ },
+ {
+  "local_provenance": "work/3110-hvaler/raw/utgardskilen-bf-provenance.json",
+  "archived_response_files": [
+   "work/3110-hvaler/raw/utgardskilen-bf.html"
+  ],
+  "url": "https://www.xn--utgrdskilenbtforening-u2bj.no/om-oss-16647s.html",
+  "retrieved_utc": "2026-10-31T13:36:28.600463+00:00",
+  "sha256": "409c1994ad574d899fe45974f2f880761a507552138a0593cde839e0641522df"
+ }
+]

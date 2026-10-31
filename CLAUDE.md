@@ -4,8 +4,8 @@ Les docs/METODIKK.md, docs/OVERLEVERING.md og status.json før arbeid.
 Metodikken er autoritativ. Historiske kommunelogger beskriver status på det tidspunktet; status.json viser dagens status.
 
 ## Godkjent status
-Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo, Nordre Follo, Nesodden, Frogn og Vestby er godkjent.
-Samlet GeoJSON inneholder 502 polygoner fra 18 kommuner. Nordre Follo rev-01 er godkjent og innlemmet (én saltvannshavn og én mulig ferskvannshavn); usikkerhetene er beholdt. Nesodden rev-01 er godkjent og innlemmet: 11 polygoner / 11 anleggsgrupper, inkludert 3 mulige. Åpne avklaringer og usikkerheter er beholdt. Frogn rev-01 er godkjent og innlemmet: 24 polygoner / 18 anleggsgrupper, inkludert én mulig (Bergholmen). Ti usikre avgrensninger og fem åpne kildeavklaringer beholdes. Vestby rev-01 er godkjent og innlemmet: 9 polygoner / 8 anleggsgrupper, inkludert 3 mulige. Alle 9 avgrensninger har kontrollbehov. Kapasitetsavvik og åpne avklaringer er beholdt. Hvaler er ikke startet.
+Holmestrand, Horten, Tønsberg, Færder, Sandefjord, Larvik, Moss, Råde, Fredrikstad, Bærum, Asker, Lier, Drammen, Oslo, Nordre Follo, Nesodden, Frogn, Vestby og Hvaler er godkjent.
+Samlet GeoJSON inneholder 571 polygoner fra 19 kommuner. Nordre Follo rev-01 er godkjent og innlemmet (én saltvannshavn og én mulig ferskvannshavn); usikkerhetene er beholdt. Nesodden rev-01 er godkjent og innlemmet: 11 polygoner / 11 anleggsgrupper, inkludert 3 mulige. Åpne avklaringer og usikkerheter er beholdt. Frogn rev-01 er godkjent og innlemmet: 24 polygoner / 18 anleggsgrupper, inkludert én mulig (Bergholmen). Ti usikre avgrensninger og fem åpne kildeavklaringer beholdes. Vestby rev-01 er godkjent og innlemmet: 9 polygoner / 8 anleggsgrupper, inkludert 3 mulige. Alle 9 avgrensninger har kontrollbehov. Kapasitetsavvik og åpne avklaringer er beholdt. Hvaler rev-01 er godkjent og innlemmet: 69 polygoner / 66 foreløpige anleggsgrupper, inkludert 20 mulige. 68 avgrensninger har kontrollbehov; sju åpne kildeavklaringer og ukjent bildeopptaksdato beholdes. Samledata og nettsted er oppdatert. Sarpsborg er ikke startet.
 Prosjektomfang: alle kommuner med kystlinje mot indre eller ytre Oslofjord. Brukeren godkjenner hver kommune ved å se på GeoJSON-filen.
 
 ## Arbeidsregler
@@ -23,7 +23,7 @@ Prosjektomfang: alle kommuner med kystlinje mot indre eller ytre Oslofjord. Bruk
 
 ## Lokal oppstart
 Opprett .venv med Python 3.11 eller nyere og installer requirements.txt.
-Kjør python scripts/validate_project.py. Det skal gi 502 polygoner / 18 kommuner.
+Kjør python scripts/validate_project.py. Det skal gi 571 polygoner / 19 kommuner.
 Skriptet bruker prosjektets plassering, ikke /workspace.
 
 ## Historiske skript

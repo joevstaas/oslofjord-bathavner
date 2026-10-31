@@ -1,0 +1,5873 @@
+{
+ "C165": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C264": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C265": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C266": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C268": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C269": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C317": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C318": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller få plasser ved separate landfester. Ingen sikker felles havn med ti faste plasser; ikke summert med nabobrygger."
+ },
+ "C267": {
+  "action": "include",
+  "name": "Østre øyer – felles T-brygge",
+  "pixels": [
+   [
+    181,
+    205
+   ],
+   [
+    229,
+    193
+   ],
+   [
+    239,
+    219
+   ],
+   [
+    238,
+    238
+   ],
+   [
+    255,
+    281
+   ],
+   [
+    260,
+    291
+   ],
+   [
+    270,
+    288
+   ],
+   [
+    277,
+    303
+   ],
+   [
+    253,
+    312
+   ],
+   [
+    230,
+    312
+   ],
+   [
+    226,
+    285
+   ],
+   [
+    216,
+    253
+   ],
+   [
+    204,
+    226
+   ],
+   [
+    185,
+    229
+   ]
+  ],
+  "frame": "C267",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C267",
+  "note": "Fast felles brygge med samlet rekke av båtplasser; separate private nabobrygger er utelatt. Beskrivende navn, ukjent operatør.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C270": {
+  "action": "include",
+  "name": "Østre øyer – lang felles båtplassbrygge",
+  "pixels": [
+   [
+    128,
+    246
+   ],
+   [
+    158,
+    213
+   ],
+   [
+    379,
+    200
+   ],
+   [
+    382,
+    260
+   ],
+   [
+    159,
+    272
+   ],
+   [
+    140,
+    267
+   ]
+  ],
+  "frame": "C270",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C270",
+  "note": "Tydelig sammenhengende brygge med mange utriggere på begge sider. Ingen antatt gjestebruk eller publisert kapasitet.",
+  "unc": false,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C316": {
+  "action": "include",
+  "name": "Østre øyer – båtplassrekke i vestre del av bukta",
+  "pixels": [
+   [
+    149,
+    143
+   ],
+   [
+    185,
+    160
+   ],
+   [
+    204,
+    181
+   ],
+   [
+    193,
+    193
+   ],
+   [
+    171,
+    181
+   ],
+   [
+    135,
+    337
+   ],
+   [
+    118,
+    353
+   ],
+   [
+    113,
+    372
+   ],
+   [
+    98,
+    383
+   ],
+   [
+    77,
+    368
+   ],
+   [
+    94,
+    338
+   ],
+   [
+    120,
+    326
+   ],
+   [
+    146,
+    181
+   ]
+  ],
+  "frame": "C316",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C316",
+  "note": "Sammenhengende vestre brygge og båtplasser ved felles landtilkomst. Den lange adskilte kaien på østsiden og private landfester er utelatt; ingen stor polygon over hele bukta.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C226": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C228": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C229": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C230": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C231": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C258": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C260": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C261": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C263": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C305": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C306": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C308": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C309": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C311": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C312": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C314": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C315": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C329": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C330": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C331": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C332": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, spredte brygger eller anløps-/servicekai. Ikke sikker dokumentasjon på felles båtplassanlegg i dette konkrete omrisset. Nærhet til en dokumentert havn er ikke nok."
+ },
+ "C227": {
+  "action": "include",
+  "name": "Lauer – gjeste- og fritidsbåthavn",
+  "pixels": [
+   [
+    76,
+    263
+   ],
+   [
+    90,
+    258
+   ],
+   [
+    109,
+    280
+   ],
+   [
+    140,
+    274
+   ],
+   [
+    161,
+    257
+   ],
+   [
+    177,
+    257
+   ],
+   [
+    198,
+    259
+   ],
+   [
+    227,
+    269
+   ],
+   [
+    243,
+    277
+   ],
+   [
+    257,
+    307
+   ],
+   [
+    285,
+    347
+   ],
+   [
+    273,
+    359
+   ],
+   [
+    253,
+    351
+   ],
+   [
+    217,
+    338
+   ],
+   [
+    150,
+    326
+   ],
+   [
+    107,
+    339
+   ],
+   [
+    76,
+    332
+   ],
+   [
+    45,
+    319
+   ],
+   [
+    33,
+    315
+   ],
+   [
+    49,
+    299
+   ],
+   [
+    68,
+    281
+   ]
+  ],
+  "frame": "V002",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+   "https://www.borg-havn.no/utleie-batplasser/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 15,
+    "type": "publiserte_utleieplasser",
+    "scope": "Borg_Havns_delanlegg_ikke_total",
+    "reference_period": "2024-01-01",
+    "source": "https://www.havneweb.no/borg-havn/?mod=sokplass"
+   }
+  ],
+  "group": "C227",
+  "note": "Bare nordre havnebrygger/molo i det dokumenterte anlegget. Private brygger sør/vest og rene trafikkaiområder er utelatt. Borg Havns 15 plasser fra 2024 er en operatørdel, ikke total havnekapasitet.",
+  "unc": true,
+  "basis": "Kommunen og Borg Havn dokumenterer utleie til fritidsbåter og gjesteplasser ved Lauer; synlige permanente havnekaier og småbåter."
+ },
+ "C259": {
+  "action": "include",
+  "name": "Østre øyer – liten felles båtplassbrygge",
+  "pixels": [
+   [
+    247,
+    167
+   ],
+   [
+    266,
+    166
+   ],
+   [
+    294,
+    191
+   ],
+   [
+    299,
+    209
+   ],
+   [
+    258,
+    233
+   ],
+   [
+    249,
+    225
+   ],
+   [
+    238,
+    210
+   ]
+  ],
+  "frame": "C259",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C259",
+  "note": "Kort felles fingerbrygge. Antall faste plasser og operatør er ikke bekreftet; private brygger i samme bukt er utelatt.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C262": {
+  "action": "split",
+  "reason": "Herføl Marina: nordlige bryggerekker og søndre båtplassrekke deles i sjøpolygoner rundt land. Fergekai C263 og private landfester ikke automatisk inkludert."
+ },
+ "C262N": {
+  "action": "include",
+  "name": "Herføl Marina – nordre båtplassrekker",
+  "pixels": [
+   [
+    214,
+    95
+   ],
+   [
+    339,
+    104
+   ],
+   [
+    345,
+    128
+   ],
+   [
+    321,
+    142
+   ],
+   [
+    355,
+    164
+   ],
+   [
+    365,
+    195
+   ],
+   [
+    250,
+    217
+   ],
+   [
+    213,
+    217
+   ],
+   [
+    197,
+    213
+   ],
+   [
+    194,
+    198
+   ],
+   [
+    156,
+    194
+   ],
+   [
+    157,
+    178
+   ],
+   [
+    190,
+    179
+   ],
+   [
+    192,
+    164
+   ]
+  ],
+  "frame": "C262",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.herfoelmarina.no/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "HERFOL",
+  "note": "Geografisk havn på Herføl. Operatøren har også virksomhet ved Stokken; kontor-/verkstedadressen er ikke antatt å være samme havn. Publisert kapasitet er ikke sikkert avgrenset.",
+  "unc": true,
+  "basis": "Dokumentert marina med faste og gjesteplasser; flere felles brygger og tydelige båtplassrekker er synlige."
+ },
+ "C262S": {
+  "action": "include",
+  "name": "Herføl Marina – søndre båtplassrekke",
+  "pixels": [
+   [
+    168,
+    326
+   ],
+   [
+    185,
+    319
+   ],
+   [
+    257,
+    369
+   ],
+   [
+    264,
+    382
+   ],
+   [
+    260,
+    401
+   ],
+   [
+    244,
+    399
+   ],
+   [
+    177,
+    350
+   ]
+  ],
+  "frame": "C262",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.herfoelmarina.no/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "HERFOL",
+  "note": "Søndre småbåtgruppe ved samme fysiske marina, skilt fra bygninger/opplag på land. Ingen egne kapasitetsverdier.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C310": {
+  "action": "include",
+  "name": "Østre øyer – større felles båtplassanlegg",
+  "pixels": [
+   [
+    280,
+    50
+   ],
+   [
+    302,
+    53
+   ],
+   [
+    362,
+    76
+   ],
+   [
+    371,
+    106
+   ],
+   [
+    369,
+    143
+   ],
+   [
+    390,
+    145
+   ],
+   [
+    406,
+    139
+   ],
+   [
+    416,
+    163
+   ],
+   [
+    423,
+    214
+   ],
+   [
+    428,
+    249
+   ],
+   [
+    428,
+    275
+   ],
+   [
+    426,
+    310
+   ],
+   [
+    421,
+    347
+   ],
+   [
+    420,
+    379
+   ],
+   [
+    417,
+    419
+   ],
+   [
+    409,
+    436
+   ],
+   [
+    371,
+    417
+   ],
+   [
+    363,
+    413
+   ],
+   [
+    351,
+    413
+   ],
+   [
+    290,
+    380
+   ],
+   [
+    249,
+    360
+   ],
+   [
+    177,
+    326
+   ],
+   [
+    178,
+    306
+   ],
+   [
+    192,
+    309
+   ],
+   [
+    195,
+    274
+   ],
+   [
+    192,
+    252
+   ],
+   [
+    176,
+    241
+   ],
+   [
+    176,
+    230
+   ],
+   [
+    195,
+    205
+   ],
+   [
+    214,
+    160
+   ],
+   [
+    235,
+    125
+   ],
+   [
+    263,
+    95
+   ]
+  ],
+  "frame": "C310",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C310",
+  "note": "Felles anlegg med flere lange båtplassrekker og molo. Deskriptivt navn; eksklusivt operatøransvar og kapasitet ikke verifisert.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C313": {
+  "action": "include",
+  "name": "Østre øyer – to korte felles båtplassrekker",
+  "pixels": [
+   [
+    232,
+    192
+   ],
+   [
+    258,
+    198
+   ],
+   [
+    307,
+    216
+   ],
+   [
+    307,
+    238
+   ],
+   [
+    296,
+    289
+   ],
+   [
+    293,
+    311
+   ],
+   [
+    190,
+    320
+   ],
+   [
+    189,
+    282
+   ],
+   [
+    229,
+    280
+   ]
+  ],
+  "frame": "C313",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C313",
+  "note": "To parallelle brygger med flere båser og samme tilkomst på land. Private nabobrygger holdes utenfor.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C247": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C248": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C249": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C250": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C251": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C253": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C254": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C256": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C298": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C299": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C300": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C301": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C302": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C303": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C304": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C307": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C322": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C323": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C325": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C326": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C327": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, anløps-/fiskeri-/servicekai eller få båtplasser uten sikker felles havn. Båtforeningsnavn ved nabokai brukes ikke som bevis på tilhørighet."
+ },
+ "C252": {
+  "action": "include",
+  "name": "Skjærhalden – Kroksand båtplassbrygger",
+  "pixels": [
+   [
+    183,
+    167
+   ],
+   [
+    205,
+    164
+   ],
+   [
+    205,
+    185
+   ],
+   [
+    225,
+    281
+   ],
+   [
+    272,
+    288
+   ],
+   [
+    273,
+    153
+   ],
+   [
+    303,
+    151
+   ],
+   [
+    315,
+    394
+   ],
+   [
+    289,
+    396
+   ],
+   [
+    286,
+    300
+   ],
+   [
+    246,
+    295
+   ],
+   [
+    198,
+    295
+   ]
+  ],
+  "frame": "C252",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 32,
+    "type": "historiske_batplasser",
+    "scope": "Kroksand_batplassiden_av_badebrygge_ikke_nodvendigvis_begge_polygonets_brygger",
+    "reference_period": "2018_havneplan_situasjonsbeskrivelse",
+    "source": "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf"
+   }
+  ],
+  "group": "C252",
+  "note": "Bade-/båtplassbruk ved Kroksand er uttrykkelig skilt fra gjestehavnen. 32 er en historisk planbeskrivelse av eksisterende båtplasser på en bestemt brygge, ikke sikkert antall i begge dagens brygger.",
+  "unc": true,
+  "basis": "Kommunens havneplan beskriver eksisterende båtplasser ved Kroksand; tydelige rekker av faste båtplasser ved stranden er synlige."
+ },
+ "C328": {
+  "action": "include",
+  "name": "Østre øyer – lang felles båtplassbrygge ved stranden",
+  "pixels": [
+   [
+    202,
+    112
+   ],
+   [
+    218,
+    110
+   ],
+   [
+    259,
+    212
+   ],
+   [
+    303,
+    292
+   ],
+   [
+    306,
+    301
+   ],
+   [
+    286,
+    307
+   ],
+   [
+    276,
+    286
+   ],
+   [
+    250,
+    257
+   ],
+   [
+    230,
+    211
+   ],
+   [
+    207,
+    163
+   ]
+  ],
+  "frame": "C328",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C328",
+  "note": "En lang felles brygge med tydelig båtplassmønster. Parallelle private brygger ved andre landfester er utelatt. Ukjent operatør.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C195": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C243": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C244": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C245": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C294": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C295": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C296": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: enkeltkai eller private separate landfester uten dokumentert felles anlegg med faste småbåtplasser. Naturhavn og molo alene kvalifiserer ikke."
+ },
+ "C164": {
+  "action": "include",
+  "name": "Vikerhavn – østre småbåtbrygger",
+  "pixels": [
+   [
+    146,
+    129
+   ],
+   [
+    178,
+    127
+   ],
+   [
+    178,
+    67
+   ],
+   [
+    188,
+    68
+   ],
+   [
+    191,
+    128
+   ],
+   [
+    228,
+    138
+   ],
+   [
+    256,
+    120
+   ],
+   [
+    275,
+    119
+   ],
+   [
+    282,
+    134
+   ],
+   [
+    276,
+    147
+   ],
+   [
+    276,
+    159
+   ],
+   [
+    284,
+    160
+   ],
+   [
+    298,
+    189
+   ],
+   [
+    322,
+    260
+   ],
+   [
+    355,
+    264
+   ],
+   [
+    356,
+    337
+   ],
+   [
+    348,
+    390
+   ],
+   [
+    341,
+    436
+   ],
+   [
+    324,
+    476
+   ],
+   [
+    298,
+    492
+   ],
+   [
+    286,
+    484
+   ],
+   [
+    296,
+    458
+   ],
+   [
+    304,
+    448
+   ],
+   [
+    306,
+    444
+   ],
+   [
+    251,
+    449
+   ],
+   [
+    245,
+    430
+   ],
+   [
+    204,
+    374
+   ],
+   [
+    186,
+    340
+   ],
+   [
+    157,
+    301
+   ],
+   [
+    145,
+    224
+   ]
+  ],
+  "frame": "C164",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+   "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 125,
+    "approximate": true,
+    "type": "historisk_publisert_batkapasitet",
+    "scope": "ostre_private_smabatanlegg",
+    "reference_period": "2018_havneplan_situasjonsbeskrivelse",
+    "source": "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf"
+   }
+  ],
+  "group": "C164",
+  "note": "Østre faste båtplassrekker og molo er avgrenset fra fiskeri-/utrustningskai på vestsiden. Kommunens 2018-beskrivelse oppga ca.125 båter i privat anlegg; ikke brukt som dagens kapasitet. Borg Havns gjeste-/utleieplasser på annen del av havnen er ikke overført til dette delpolygonet.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C246": {
+  "action": "include",
+  "name": "Kirkøy – felles båtplassbrygge ved jordet",
+  "pixels": [
+   [
+    299,
+    117
+   ],
+   [
+    323,
+    123
+   ],
+   [
+    329,
+    143
+   ],
+   [
+    277,
+    263
+   ],
+   [
+    249,
+    274
+   ],
+   [
+    227,
+    264
+   ],
+   [
+    251,
+    199
+   ]
+  ],
+  "frame": "C246",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C246",
+  "note": "En samlet felles brygge med tydelige utriggere og mange småbåtplasser, adskilt fra private naboanlegg. Beskrivende navn; operatør ukjent.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C223": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C224": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C284": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C285": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C286": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C287": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C288": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C289": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C290": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C292": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: natur-/bade-/anløpskai eller flere separate private landfester uten dokumentert felles båtplassanlegg. Private nabobrygger er ikke summert."
+ },
+ "C194": {
+  "action": "include",
+  "name": "Asmaløy – liten felles fingerbrygge innenfor molo",
+  "pixels": [
+   [
+    174,
+    344
+   ],
+   [
+    195,
+    337
+   ],
+   [
+    220,
+    379
+   ],
+   [
+    215,
+    400
+   ],
+   [
+    188,
+    401
+   ],
+   [
+    176,
+    363
+   ]
+  ],
+  "frame": "C194",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C194",
+  "note": "Kort felles fingerbrygge med flere båser innenfor lang molo; ti faste plasser eller organisert havnedrift må bekreftes. Moloen, slippen og servicekaien øst for brygga er ikke automatisk båtplassanlegg.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C242": {
+  "action": "include",
+  "name": "Kirkøy – tre felles båtplassrekker",
+  "pixels": [
+   [
+    239,
+    142
+   ],
+   [
+    340,
+    142
+   ],
+   [
+    345,
+    184
+   ],
+   [
+    271,
+    202
+   ],
+   [
+    286,
+    270
+   ],
+   [
+    207,
+    307
+   ],
+   [
+    183,
+    334
+   ],
+   [
+    127,
+    363
+   ],
+   [
+    85,
+    338
+   ],
+   [
+    73,
+    304
+   ],
+   [
+    156,
+    267
+   ],
+   [
+    157,
+    249
+   ],
+   [
+    216,
+    219
+   ],
+   [
+    222,
+    203
+   ]
+  ],
+  "frame": "C242",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C242",
+  "note": "Flere kortere båtplassrekker i samme vik. Faste plassers antall og felles organisering er ikke bekreftet; derfor mulig småbåthavn. Private nabobrygger og land/opplag utelatt.",
+  "unc": true,
+  "basis": "Flere kortere båtplassrekker i sammenhengende vik. Felles organisering og minst ti faste plasser må bekreftes."
+ },
+ "C293": {
+  "action": "include",
+  "name": "Kirkøy – to felles fingerbrygger i sundet",
+  "pixels": [
+   [
+    203,
+    171
+   ],
+   [
+    270,
+    181
+   ],
+   [
+    310,
+    209
+   ],
+   [
+    308,
+    238
+   ],
+   [
+    282,
+    237
+   ],
+   [
+    264,
+    257
+   ],
+   [
+    262,
+    295
+   ],
+   [
+    245,
+    301
+   ],
+   [
+    211,
+    290
+   ],
+   [
+    190,
+    281
+   ],
+   [
+    191,
+    254
+   ],
+   [
+    211,
+    242
+   ]
+  ],
+  "frame": "C293",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C293",
+  "note": "To samlede båtplassrekker på samme korte strandstrekning. Faste båser synlige, men eksklusivt operatøransvar og publisert kapasitet er ukjent.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C321": {
+  "action": "include",
+  "name": "Østre øyer – U-formet båtplassbasseng",
+  "pixels": [
+   [
+    226,
+    221
+   ],
+   [
+    288,
+    219
+   ],
+   [
+    312,
+    226
+   ],
+   [
+    321,
+    248
+   ],
+   [
+    327,
+    286
+   ],
+   [
+    324,
+    304
+   ],
+   [
+    269,
+    309
+   ],
+   [
+    245,
+    298
+   ],
+   [
+    237,
+    276
+   ]
+  ],
+  "frame": "C321",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C321",
+  "note": "Permanent U-formet brygge med plassmønster. Felles havneorganisering og faktisk antall faste plasser er ikke bekreftet; ikke utledet fra størrelse alene.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C077": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C078": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C079": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C157": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C158": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C159": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C160": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C161": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C162": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C189": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C190": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C191": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C192": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C193": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C208": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C209": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C210": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C211": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C212": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C213": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C214": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C215": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C218": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C221": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C278": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C279": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C280": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C281": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C282": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C283": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger eller adskilte landfester, bade-/anløpskai eller naturfortøyning. Ingen dokumentert sammenhengende småbåtanlegg med ti faste plasser. Ikke summert med nabobrygger."
+ },
+ "C080": {
+  "action": "exclude",
+  "reason": "Vestre molo ved Brattestø hører til fysisk havneanlegg C163. Den inngår i helhetsutsnitt V001 og vurderes der, ikke som egen havn."
+ },
+ "C186": {
+  "action": "include",
+  "name": "Skipstadsand – nordre båtplassrekke og kai",
+  "pixels": [
+   [
+    69,
+    273
+   ],
+   [
+    92,
+    274
+   ],
+   [
+    121,
+    296
+   ],
+   [
+    165,
+    300
+   ],
+   [
+    192,
+    304
+   ],
+   [
+    195,
+    290
+   ],
+   [
+    231,
+    290
+   ],
+   [
+    253,
+    289
+   ],
+   [
+    301,
+    277
+   ],
+   [
+    308,
+    263
+   ],
+   [
+    318,
+    267
+   ],
+   [
+    318,
+    287
+   ],
+   [
+    292,
+    304
+   ],
+   [
+    254,
+    317
+   ],
+   [
+    216,
+    332
+   ],
+   [
+    186,
+    344
+   ],
+   [
+    136,
+    343
+   ],
+   [
+    99,
+    330
+   ],
+   [
+    72,
+    317
+   ]
+  ],
+  "frame": "C186",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+   "https://www.havneweb.no/borg-havn/?mod=sokplass"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 19,
+    "type": "publiserte_utleieplasser",
+    "scope": "Borg_Havns_del_ikke_total",
+    "reference_period": "2024-01-01",
+    "source": "https://www.havneweb.no/borg-havn/?mod=sokplass"
+   }
+  ],
+  "group": "SKIP",
+  "note": "Borg Havns 19 plasser er en operatørdel fra 2024, ikke total kapasitet for hele havnen. Private hyttebrygger på nordsiden er utelatt.",
+  "unc": true,
+  "basis": "Dokumenterte kommunale utleieplasser ved Skipstadsand og synlig samlet båtplassrekke ved kaien."
+ },
+ "C188": {
+  "action": "include",
+  "name": "Skipstadsand – søndre fingerbrygger",
+  "pixels": [
+   [
+    184,
+    171
+   ],
+   [
+    205,
+    169
+   ],
+   [
+    244,
+    163
+   ],
+   [
+    388,
+    236
+   ],
+   [
+    384,
+    256
+   ],
+   [
+    354,
+    289
+   ],
+   [
+    359,
+    297
+   ],
+   [
+    346,
+    326
+   ],
+   [
+    331,
+    323
+   ],
+   [
+    310,
+    309
+   ],
+   [
+    238,
+    271
+   ],
+   [
+    186,
+    244
+   ],
+   [
+    167,
+    226
+   ]
+  ],
+  "frame": "C188",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "SKIP",
+  "note": "Søndre felles bryggerekker i samme fysiske havneområde. Operatørens 19 kommunale plasser er ikke overført eller doblet på denne delen.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C219": {
+  "action": "include",
+  "name": "Midtre Hvaler – felles fingerbrygger ved bebyggelsen",
+  "pixels": [
+   [
+    206,
+    224
+   ],
+   [
+    227,
+    228
+   ],
+   [
+    247,
+    230
+   ],
+   [
+    284,
+    243
+   ],
+   [
+    307,
+    249
+   ],
+   [
+    297,
+    285
+   ],
+   [
+    274,
+    326
+   ],
+   [
+    246,
+    334
+   ],
+   [
+    221,
+    321
+   ],
+   [
+    177,
+    312
+   ],
+   [
+    175,
+    302
+   ],
+   [
+    192,
+    272
+   ]
+  ],
+  "frame": "C219",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C219",
+  "note": "To tydelige felles båtplassrekker. Private nabobrygger og rene servicekaier er utelatt; nøyaktig lokalt navn og eksklusiv operatør må avklares.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C220": {
+  "action": "include",
+  "name": "Midtre Hvaler – liten felles fingerbrygge ved holmen",
+  "pixels": [
+   [
+    244,
+    199
+   ],
+   [
+    274,
+    214
+   ],
+   [
+    260,
+    238
+   ],
+   [
+    245,
+    276
+   ],
+   [
+    218,
+    289
+   ],
+   [
+    218,
+    277
+   ],
+   [
+    227,
+    252
+   ]
+  ],
+  "frame": "C220",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C220",
+  "note": "En felles fingerbrygge med tydelig plassmønster og mer enn ti båser på begge sider samlet. Separate private brygger i nærheten er ikke medregnet.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C222": {
+  "action": "include",
+  "name": "Midtre Hvaler – samlet fortøyningsrekke ved stranden",
+  "pixels": [
+   [
+    235,
+    211
+   ],
+   [
+    280,
+    205
+   ],
+   [
+    327,
+    200
+   ],
+   [
+    368,
+    211
+   ],
+   [
+    394,
+    232
+   ],
+   [
+    405,
+    249
+   ],
+   [
+    384,
+    258
+   ],
+   [
+    356,
+    239
+   ],
+   [
+    330,
+    236
+   ],
+   [
+    292,
+    241
+   ],
+   [
+    250,
+    260
+   ]
+  ],
+  "frame": "C222",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C222",
+  "note": "Bildegjennomgangen viser samlet rekke av mange småbåter uten fullstendige OSM-pirer. Faste plasser og felles organisering må bekreftes; ikke levert som sikker havn.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C163": {
+  "action": "include",
+  "name": "Brattestø – småbåt- og gjestehavn",
+  "pixels": [
+   [
+    263,
+    170
+   ],
+   [
+    425,
+    233
+   ],
+   [
+    381,
+    388
+   ],
+   [
+    164,
+    321
+   ],
+   [
+    170,
+    250
+   ],
+   [
+    189,
+    229
+   ],
+   [
+    220,
+    240
+   ]
+  ],
+  "frame": "V001",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+   "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C163",
+  "note": "Hele synlige fellesanlegget og moloer avgrenset fra land. Både marina og lokalt båtlag kan ha interesser; ingen eksklusiv operatørgrense. 2017/2018-planens nye plasser er ikke importert som dagens kapasitet. Omrisset følger de to felles fingerbryggene og sjøen mellom; ytre steinmoloer uten båtplasser er utelatt.",
+  "unc": true,
+  "basis": "Dokumentert småbåt-/gjestehavn med mange tydelige faste båtplasser i beskyttet bryggeanlegg."
+ },
+ "C001": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C028": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C029": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C030": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C031": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C032": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C033": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C035": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C036": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C037": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C038": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C039": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C066": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C067": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C068": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C069": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: adskilte private brygger, få plasser eller service-/anløpskai. Ingen dokumentert felles småbåtanlegg i disse landfestene. Større naboanlegg behandles separat."
+ },
+ "C024": {
+  "action": "include",
+  "name": "Vesterøy – felles V-formet fingerbrygge",
+  "pixels": [
+   [
+    149,
+    224
+   ],
+   [
+    197,
+    244
+   ],
+   [
+    211,
+    241
+   ],
+   [
+    273,
+    201
+   ],
+   [
+    284,
+    215
+   ],
+   [
+    262,
+    241
+   ],
+   [
+    218,
+    274
+   ],
+   [
+    200,
+    275
+   ],
+   [
+    151,
+    254
+   ]
+  ],
+  "frame": "C024",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C024",
+  "note": "Sammenhengende V-formet brygge med mange tydelige utriggere; deskriptivt navn, ukjent operatør.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C025": {
+  "action": "include",
+  "name": "Vesterøy – liten fingerbrygge i vestre vik",
+  "pixels": [
+   [
+    224,
+    211
+   ],
+   [
+    237,
+    203
+   ],
+   [
+    279,
+    270
+   ],
+   [
+    269,
+    288
+   ],
+   [
+    256,
+    275
+   ]
+  ],
+  "frame": "C025",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C025",
+  "note": "Kort felles fingerbrygge; ti faste plasser og organisering er ikke sikkert verifisert. Privat nabokai er utelatt.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C026": {
+  "action": "include",
+  "name": "Vesterøy – liten fingerbrygge på vestsiden av bukta",
+  "pixels": [
+   [
+    224,
+    264
+   ],
+   [
+    219,
+    254
+   ],
+   [
+    263,
+    208
+   ],
+   [
+    282,
+    213
+   ],
+   [
+    273,
+    235
+   ],
+   [
+    242,
+    271
+   ]
+  ],
+  "frame": "C026",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C026",
+  "note": "Samlet fingerbrygge ved én tilkomst. Plassantall og felles organisering må bekreftes; ikke slått sammen med brygga på andre siden av bukta.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C027": {
+  "action": "include",
+  "name": "Vesterøy – liten fingerbrygge på østsiden av bukta",
+  "pixels": [
+   [
+    225,
+    199
+   ],
+   [
+    241,
+    193
+   ],
+   [
+    271,
+    255
+   ],
+   [
+    260,
+    269
+   ],
+   [
+    248,
+    250
+   ]
+  ],
+  "frame": "C027",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C027",
+  "note": "En brygge med flere småbåtplasser. Ti faste plasser eller dokumentert felles drift er uavklart.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C034": {
+  "action": "include",
+  "name": "Utgårdskilen – østre småbåtbrygger",
+  "pixels": [
+   [
+    205,
+    158
+   ],
+   [
+    225,
+    159
+   ],
+   [
+    310,
+    212
+   ],
+   [
+    373,
+    287
+   ],
+   [
+    365,
+    308
+   ],
+   [
+    348,
+    319
+   ],
+   [
+    331,
+    302
+   ],
+   [
+    317,
+    306
+   ],
+   [
+    317,
+    330
+   ],
+   [
+    275,
+    369
+   ],
+   [
+    248,
+    395
+   ],
+   [
+    226,
+    394
+   ],
+   [
+    175,
+    359
+   ],
+   [
+    148,
+    323
+   ],
+   [
+    126,
+    321
+   ],
+   [
+    120,
+    299
+   ],
+   [
+    145,
+    278
+   ],
+   [
+    178,
+    293
+   ],
+   [
+    196,
+    263
+   ],
+   [
+    202,
+    244
+   ],
+   [
+    186,
+    230
+   ],
+   [
+    191,
+    197
+   ]
+  ],
+  "frame": "C034",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.xn--utgrdskilenbtforening-u2bj.no/om-oss-16647s.html",
+   "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 140,
+    "approximate": true,
+    "type": "publiserte_foreningsplasser",
+    "scope": "hele_Utgardskilen_Batforenings_anlegg_eksakt_delpolygonkobling_uavklart",
+    "reference_period": "ukjent",
+    "source": "https://www.xn--utgrdskilenbtforening-u2bj.no/om-oss-16647s.html"
+   }
+  ],
+  "group": "C034",
+  "note": "Faste fritidsbåtplasser adskilt fra fiskemottak/utrustningskai. Båtforeningens ca.140 plasser er opplysning om hele foreningsanlegget, ikke ny telling i dette polygonet; eksakt omfang mot vestre nabobrygger trenger avklaring.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C062": {
+  "action": "include",
+  "name": "Dypedal – nordre båtplassrekker",
+  "pixels": [
+   [
+    305,
+    94
+   ],
+   [
+    432,
+    171
+   ],
+   [
+    429,
+    209
+   ],
+   [
+    406,
+    263
+   ],
+   [
+    391,
+    283
+   ],
+   [
+    353,
+    328
+   ],
+   [
+    321,
+    367
+   ],
+   [
+    236,
+    375
+   ],
+   [
+    61,
+    316
+   ],
+   [
+    67,
+    283
+   ],
+   [
+    117,
+    208
+   ],
+   [
+    157,
+    133
+   ],
+   [
+    185,
+    124
+   ],
+   [
+    274,
+    167
+   ]
+  ],
+  "frame": "C062",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvalermarinesenter.no/omoss.html"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "DYPE",
+  "note": "Felles bryggerekker ved Dypedal/Hvaler Marinesenter. Verkstedbygg, bilparkering og landopplag utelatt. Eksklusivt operatøransvar for hvert delområde er ikke hevdet.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C063": {
+  "action": "include",
+  "name": "Dypedal – søndre felles båtplassbrygge",
+  "pixels": [
+   [
+    237,
+    200
+   ],
+   [
+    262,
+    193
+   ],
+   [
+    279,
+    219
+   ],
+   [
+    374,
+    305
+   ],
+   [
+    374,
+    321
+   ],
+   [
+    361,
+    325
+   ],
+   [
+    327,
+    300
+   ],
+   [
+    278,
+    263
+   ],
+   [
+    225,
+    219
+   ]
+  ],
+  "frame": "C063",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvalermarinesenter.no/omoss.html"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "DYPE",
+  "note": "Søndre båtplassbrygge ved samme fysiske havneområde. Private hyttebrygger vest for anlegget og opplag på land utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C065": {
+  "action": "include",
+  "name": "Spjærøy – liten fingerbrygge i sundet",
+  "pixels": [
+   [
+    240,
+    236
+   ],
+   [
+    259,
+    231
+   ],
+   [
+    270,
+    241
+   ],
+   [
+    251,
+    279
+   ],
+   [
+    230,
+    267
+   ]
+  ],
+  "frame": "C065",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C065",
+  "note": "Kort samlet brygge med utriggere. Antall faste plasser og forening/operatør må bekreftes.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C070": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C071": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C072": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C075": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C076": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C107": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C108": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C109": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C110": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C114": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C115": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C116": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C118": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C119": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C120": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C122": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C123": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private landfester, natur-/service-/anløpskai eller få båtplasser uten dokumentert felles havn. Større fingerbrygger uten OSM-pir ved siden av disse behandles særskilt ved gapkontroll."
+ },
+ "C073": {
+  "action": "include",
+  "name": "Vestre Hvaler – liten L-formet fingerbrygge",
+  "pixels": [
+   [
+    218,
+    235
+   ],
+   [
+    264,
+    247
+   ],
+   [
+    272,
+    236
+   ],
+   [
+    286,
+    237
+   ],
+   [
+    280,
+    259
+   ],
+   [
+    266,
+    263
+   ],
+   [
+    219,
+    249
+   ]
+  ],
+  "frame": "C073",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C073",
+  "note": "Samlet liten brygge med flere båser; ti faste plasser og felles organisering må bekreftes.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C074": {
+  "action": "include",
+  "name": "Vestre Hvaler – U-formet båtplassanlegg",
+  "pixels": [
+   [
+    92,
+    209
+   ],
+   [
+    114,
+    205
+   ],
+   [
+    133,
+    236
+   ],
+   [
+    132,
+    257
+   ],
+   [
+    111,
+    264
+   ],
+   [
+    120,
+    285
+   ],
+   [
+    129,
+    307
+   ],
+   [
+    120,
+    331
+   ],
+   [
+    110,
+    354
+   ],
+   [
+    92,
+    381
+   ],
+   [
+    106,
+    411
+   ],
+   [
+    129,
+    430
+   ],
+   [
+    151,
+    443
+   ],
+   [
+    144,
+    467
+   ],
+   [
+    123,
+    460
+   ],
+   [
+    95,
+    440
+   ],
+   [
+    69,
+    399
+   ],
+   [
+    53,
+    367
+   ],
+   [
+    48,
+    339
+   ],
+   [
+    54,
+    311
+   ],
+   [
+    62,
+    281
+   ],
+   [
+    73,
+    253
+   ]
+  ],
+  "frame": "C074",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C074",
+  "note": "Tydelig felles båtplassrekke langs molo med mange utriggere som mangler egne OSM-pirer. Private brygger på motsatt strand og land er utelatt. Ukjent operatør.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C106": {
+  "action": "include",
+  "name": "Midtre Hvaler – stort U-formet bryggeanlegg",
+  "pixels": [
+   [
+    134,
+    221
+   ],
+   [
+    185,
+    195
+   ],
+   [
+    274,
+    146
+   ],
+   [
+    287,
+    147
+   ],
+   [
+    291,
+    161
+   ],
+   [
+    368,
+    290
+   ],
+   [
+    374,
+    322
+   ],
+   [
+    366,
+    329
+   ],
+   [
+    352,
+    333
+   ],
+   [
+    352,
+    306
+   ],
+   [
+    317,
+    252
+   ],
+   [
+    290,
+    211
+   ],
+   [
+    270,
+    191
+   ],
+   [
+    210,
+    219
+   ],
+   [
+    290,
+    347
+   ],
+   [
+    313,
+    374
+   ],
+   [
+    331,
+    369
+   ],
+   [
+    339,
+    383
+   ],
+   [
+    311,
+    399
+   ],
+   [
+    298,
+    395
+   ],
+   [
+    270,
+    351
+   ],
+   [
+    214,
+    263
+   ],
+   [
+    198,
+    240
+   ],
+   [
+    165,
+    243
+   ],
+   [
+    144,
+    247
+   ]
+  ],
+  "frame": "C106",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C106",
+  "note": "Mange tydelige utriggere i ett sammenhengende felles båtplassanlegg. Ingen operatørtilordning ut fra nærhet til andre havner.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C111": {
+  "action": "include",
+  "name": "Midtre Hvaler – to lange felles båtplassrekker",
+  "pixels": [
+   [
+    170,
+    171
+   ],
+   [
+    202,
+    188
+   ],
+   [
+    211,
+    209
+   ],
+   [
+    276,
+    207
+   ],
+   [
+    280,
+    221
+   ],
+   [
+    267,
+    272
+   ],
+   [
+    239,
+    335
+   ],
+   [
+    227,
+    364
+   ],
+   [
+    208,
+    374
+   ],
+   [
+    180,
+    369
+   ],
+   [
+    153,
+    351
+   ],
+   [
+    124,
+    331
+   ],
+   [
+    108,
+    311
+   ]
+  ],
+  "frame": "C111",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C111",
+  "note": "To lange fingerbrygger med samme tilkomst. Privat kai nordvest og korte adskilte brygger på østsiden er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C112": {
+  "action": "include",
+  "name": "Midtre Hvaler – lang L-formet fingerbrygge",
+  "pixels": [
+   [
+    183,
+    296
+   ],
+   [
+    233,
+    319
+   ],
+   [
+    273,
+    259
+   ],
+   [
+    318,
+    161
+   ],
+   [
+    340,
+    157
+   ],
+   [
+    342,
+    178
+   ],
+   [
+    318,
+    235
+   ],
+   [
+    282,
+    303
+   ],
+   [
+    247,
+    336
+   ],
+   [
+    238,
+    341
+   ],
+   [
+    185,
+    318
+   ]
+  ],
+  "frame": "C112",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C112",
+  "note": "Sammenhengende L-formet båtplassbrygge med mange synlige utriggere. Andre små private landfester holdes utenfor.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C113": {
+  "action": "include",
+  "name": "Midtre Hvaler – liten T-formet båtplassbrygge",
+  "pixels": [
+   [
+    217,
+    231
+   ],
+   [
+    230,
+    224
+   ],
+   [
+    235,
+    232
+   ],
+   [
+    276,
+    238
+   ],
+   [
+    279,
+    249
+   ],
+   [
+    228,
+    251
+   ],
+   [
+    227,
+    266
+   ],
+   [
+    214,
+    267
+   ]
+  ],
+  "frame": "C113",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C113",
+  "note": "T-formet brygge med flere båser. Ti faste plasser og forenings-/havneorganisering er ikke verifisert.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C121": {
+  "action": "include",
+  "name": "Midtre Hvaler – tre felles fingerbrygger ved opplagsplassen",
+  "pixels": [
+   [
+    303,
+    126
+   ],
+   [
+    319,
+    129
+   ],
+   [
+    340,
+    150
+   ],
+   [
+    357,
+    174
+   ],
+   [
+    351,
+    184
+   ],
+   [
+    323,
+    199
+   ],
+   [
+    318,
+    215
+   ],
+   [
+    325,
+    225
+   ],
+   [
+    315,
+    249
+   ],
+   [
+    281,
+    268
+   ],
+   [
+    268,
+    285
+   ],
+   [
+    251,
+    303
+   ],
+   [
+    225,
+    339
+   ],
+   [
+    209,
+    352
+   ],
+   [
+    188,
+    339
+   ],
+   [
+    160,
+    314
+   ],
+   [
+    126,
+    276
+   ],
+   [
+    125,
+    263
+   ],
+   [
+    139,
+    254
+   ],
+   [
+    168,
+    237
+   ],
+   [
+    182,
+    219
+   ],
+   [
+    204,
+    199
+   ],
+   [
+    243,
+    176
+   ],
+   [
+    269,
+    153
+   ]
+  ],
+  "frame": "C121",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C121",
+  "note": "Tre felles båtplassrekker med mange utriggere. Parkerings-/opplagsareal på land og servicekaien nord for anlegget er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C124": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C125": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C126": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C127": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C128": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C129": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C130": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C131": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C132": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C133": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C135": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C136": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C137": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C139": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C142": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C143": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C144": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C146": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C147": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C148": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private brygger, anløpskai/molo eller få plasser. OSM-marinaetikett alene (bl.a. Falcon) er ikke uavhengig bevis på fast felles havneanlegg. Ingen summering av private landfester."
+ },
+ "C134": {
+  "action": "include",
+  "name": "Midtre Hvaler – nordre felles båtplassanlegg ved sundet",
+  "pixels": [
+   [
+    271,
+    108
+   ],
+   [
+    292,
+    125
+   ],
+   [
+    318,
+    114
+   ],
+   [
+    386,
+    105
+   ],
+   [
+    404,
+    104
+   ],
+   [
+    452,
+    151
+   ],
+   [
+    457,
+    163
+   ],
+   [
+    443,
+    174
+   ],
+   [
+    422,
+    173
+   ],
+   [
+    408,
+    192
+   ],
+   [
+    395,
+    206
+   ],
+   [
+    381,
+    224
+   ],
+   [
+    354,
+    243
+   ],
+   [
+    349,
+    252
+   ],
+   [
+    337,
+    263
+   ],
+   [
+    328,
+    262
+   ],
+   [
+    277,
+    209
+   ],
+   [
+    247,
+    177
+   ],
+   [
+    260,
+    148
+   ]
+  ],
+  "frame": "C134",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C134",
+  "note": "Flere tydelige felles fingerbrygger i samme anlegg. Adskilte private småbrygger vest og sør for hovedanlegget er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C138": {
+  "action": "split",
+  "reason": "Sand Marina nord for landtungen og separate søndre båtplassrekker får egne grupper. Ingen antatt felles operatør eller overføring av kapasitet ut fra nærhet."
+ },
+ "C138N": {
+  "action": "include",
+  "name": "Sand Marina – hovedanlegg",
+  "pixels": [
+   [
+    215,
+    78
+   ],
+   [
+    253,
+    53
+   ],
+   [
+    273,
+    53
+   ],
+   [
+    297,
+    29
+   ],
+   [
+    311,
+    28
+   ],
+   [
+    400,
+    222
+   ],
+   [
+    404,
+    238
+   ],
+   [
+    370,
+    260
+   ],
+   [
+    336,
+    285
+   ],
+   [
+    294,
+    305
+   ],
+   [
+    265,
+    284
+   ],
+   [
+    241,
+    281
+   ],
+   [
+    220,
+    278
+   ],
+   [
+    211,
+    264
+   ],
+   [
+    218,
+    249
+   ],
+   [
+    210,
+    238
+   ],
+   [
+    197,
+    228
+   ],
+   [
+    189,
+    169
+   ],
+   [
+    190,
+    139
+   ],
+   [
+    207,
+    133
+   ],
+   [
+    224,
+    166
+   ],
+   [
+    254,
+    205
+   ],
+   [
+    272,
+    197
+   ],
+   [
+    278,
+    180
+   ],
+   [
+    247,
+    125
+   ],
+   [
+    223,
+    113
+   ],
+   [
+    211,
+    103
+   ]
+  ],
+  "frame": "C138",
+  "classification": "smabathavn",
+  "sources": [
+   "https://sandmarina.no/"
+  ],
+  "capacity": 250,
+  "capacity_approximate": true,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "SAND-N",
+  "note": "250 gjelder operatørens hele anlegg, ikke hver brygge. Ingen antatt egen gjestekapasitet. Søndre naborekking og andre aktører i sundet får ikke tildelt tallet.",
+  "unc": true,
+  "basis": "Dokumentert marina med ca.250 publiserte båtplasser og gjesteplasser ved drivstoffbryggen; tydelig felles bryggesystem i bildet."
+ },
+ "C138S": {
+  "action": "include",
+  "name": "Sand – søndre felles båtplassrekker ved landtungen",
+  "pixels": [
+   [
+    196,
+    310
+   ],
+   [
+    213,
+    315
+   ],
+   [
+    215,
+    331
+   ],
+   [
+    202,
+    350
+   ],
+   [
+    184,
+    372
+   ],
+   [
+    159,
+    414
+   ],
+   [
+    148,
+    431
+   ],
+   [
+    125,
+    419
+   ],
+   [
+    124,
+    401
+   ],
+   [
+    150,
+    370
+   ],
+   [
+    166,
+    348
+   ],
+   [
+    163,
+    340
+   ],
+   [
+    176,
+    329
+   ]
+  ],
+  "frame": "C138",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "SAND-S",
+  "note": "Samlede båtplassrekker sør for marinaens hovedanlegg. Felles operatør med Sand Marina eller campingplass er ikke verifisert; ingen kapasitet overføres fra nabohavnen.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C140": {
+  "action": "include",
+  "name": "Asmalsundet – østre felles båtplassbrygger",
+  "pixels": [
+   [
+    190,
+    60
+   ],
+   [
+    210,
+    64
+   ],
+   [
+    224,
+    85
+   ],
+   [
+    276,
+    94
+   ],
+   [
+    301,
+    87
+   ],
+   [
+    311,
+    102
+   ],
+   [
+    316,
+    210
+   ],
+   [
+    326,
+    289
+   ],
+   [
+    332,
+    329
+   ],
+   [
+    320,
+    353
+   ],
+   [
+    291,
+    359
+   ],
+   [
+    164,
+    328
+   ],
+   [
+    154,
+    302
+   ],
+   [
+    146,
+    144
+   ],
+   [
+    156,
+    110
+   ],
+   [
+    177,
+    112
+   ]
+  ],
+  "frame": "C140",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C140",
+  "note": "Større samlet anlegg på østsiden av sundet. Gjennomgående farled, bebyggelse på land og private brygger sør for hovedanlegget er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C141": {
+  "action": "include",
+  "name": "Asmalsundet – liten båtplassbrygge sør for hovedanlegget",
+  "pixels": [
+   [
+    187,
+    223
+   ],
+   [
+    239,
+    226
+   ],
+   [
+    273,
+    239
+   ],
+   [
+    284,
+    253
+   ],
+   [
+    277,
+    274
+   ],
+   [
+    250,
+    273
+   ],
+   [
+    222,
+    264
+   ],
+   [
+    188,
+    260
+   ]
+  ],
+  "frame": "C141",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C141",
+  "note": "Kort fingerbrygge. Ti faste plasser og felles organisering er ikke bekreftet; ikke slått sammen med nordre naboanlegg bare på grunn av nærhet.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C149": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C150": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C151": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C152": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C155": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C156": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C175": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C177": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C178": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C180": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C181": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C182": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C185": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C187": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C196": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C197": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C198": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C199": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C200": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C201": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private brygger, bade-/anløpsbrygger eller få plasser uten dokumentert felles småbåthavn. Nabobrygger ved andre landfester er ikke summert."
+ },
+ "C153": {
+  "action": "include",
+  "name": "Asmaløy – felles fingerbrygge ved strandtilkomsten",
+  "pixels": [
+   [
+    130,
+    335
+   ],
+   [
+    149,
+    334
+   ],
+   [
+    237,
+    405
+   ],
+   [
+    231,
+    425
+   ],
+   [
+    213,
+    434
+   ],
+   [
+    177,
+    402
+   ],
+   [
+    142,
+    369
+   ]
+  ],
+  "frame": "C153",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C153",
+  "note": "En felles lang fingerbrygge med tydelige båser på begge sider. Private brygger nordover langs stranden er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C154": {
+  "action": "include",
+  "name": "Asmaløy – lang båtplassbrygge ved stranden",
+  "pixels": [
+   [
+    184,
+    277
+   ],
+   [
+    214,
+    286
+   ],
+   [
+    289,
+    329
+   ],
+   [
+    287,
+    345
+   ],
+   [
+    266,
+    339
+   ],
+   [
+    218,
+    312
+   ],
+   [
+    178,
+    289
+   ]
+  ],
+  "frame": "C154",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C154",
+  "note": "Samlet lang brygge med flere mulige båtplasser, men faste plasser og felles organisering er ikke bekreftet. Private nabobrygger holdes utenfor.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C183": {
+  "action": "include",
+  "name": "Asmaløy – campingtilknyttet båtplassrekke",
+  "pixels": [
+   [
+    174,
+    220
+   ],
+   [
+    198,
+    185
+   ],
+   [
+    232,
+    164
+   ],
+   [
+    254,
+    153
+   ],
+   [
+    295,
+    152
+   ],
+   [
+    305,
+    165
+   ],
+   [
+    290,
+    175
+   ],
+   [
+    257,
+    178
+   ],
+   [
+    237,
+    184
+   ],
+   [
+    217,
+    197
+   ],
+   [
+    193,
+    226
+   ]
+  ],
+  "frame": "C183",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C183",
+  "note": "Lang samlet buet fingerbrygge foran campingområde. Tydelig felles plassmønster; operatørnavn og total kapasitet er ikke sikkert verifisert. Private brygger på holmen sør for rekken utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C184": {
+  "action": "include",
+  "name": "Asmaløy – større felles bryggeanlegg i sundet",
+  "pixels": [
+   [
+    204,
+    79
+   ],
+   [
+    242,
+    85
+   ],
+   [
+    299,
+    83
+   ],
+   [
+    305,
+    110
+   ],
+   [
+    290,
+    120
+   ],
+   [
+    288,
+    128
+   ],
+   [
+    327,
+    141
+   ],
+   [
+    335,
+    211
+   ],
+   [
+    344,
+    260
+   ],
+   [
+    339,
+    292
+   ],
+   [
+    292,
+    315
+   ],
+   [
+    282,
+    331
+   ],
+   [
+    317,
+    317
+   ],
+   [
+    352,
+    353
+   ],
+   [
+    344,
+    368
+   ],
+   [
+    320,
+    351
+   ],
+   [
+    278,
+    380
+   ],
+   [
+    212,
+    409
+   ],
+   [
+    206,
+    393
+   ],
+   [
+    219,
+    363
+   ],
+   [
+    197,
+    328
+   ],
+   [
+    177,
+    292
+   ],
+   [
+    151,
+    229
+   ],
+   [
+    142,
+    170
+   ],
+   [
+    142,
+    130
+   ],
+   [
+    169,
+    115
+   ],
+   [
+    205,
+    101
+   ]
+  ],
+  "frame": "C184",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C184",
+  "note": "Flere lange felles fingerbrygger med sammenhengende landtilkomst. Land, bolig/hyttebebyggelse og private nabobrygger utelatt; eksklusivt operatøransvar og kapasitet må avklares.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C202": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C203": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C204": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C205": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C206": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C232": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C234": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C236": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C237": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C238": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C240": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C272": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C273": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C274": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C275": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C276": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C277": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C320": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C334": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C335": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, anløps-/servicekai eller få plasser uten verifisert felles havneorganisering. Separate nabobrygger er ikke summert."
+ },
+ "C233": {
+  "action": "include",
+  "name": "Kirkøy – felles båtplassbrygge i bukta",
+  "pixels": [
+   [
+    168,
+    261
+   ],
+   [
+    211,
+    237
+   ],
+   [
+    273,
+    215
+   ],
+   [
+    283,
+    225
+   ],
+   [
+    288,
+    240
+   ],
+   [
+    227,
+    274
+   ],
+   [
+    179,
+    292
+   ]
+  ],
+  "frame": "C233",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C233",
+  "note": "Lang samlet fingerbrygge med tydelige båser på begge sider. Separate private brygger nordvest i bukta er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C235": {
+  "action": "include",
+  "name": "Kirkøy – mindre båtplassanlegg ved strandkanten",
+  "pixels": [
+   [
+    144,
+    210
+   ],
+   [
+    165,
+    212
+   ],
+   [
+    231,
+    165
+   ],
+   [
+    250,
+    170
+   ],
+   [
+    253,
+    198
+   ],
+   [
+    229,
+    236
+   ],
+   [
+    207,
+    284
+   ],
+   [
+    177,
+    277
+   ]
+  ],
+  "frame": "C235",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C235",
+  "note": "Flere kortere brygger; ti faste plasser og felles organisering er ikke bekreftet.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C239": {
+  "action": "include",
+  "name": "Kirkøy – tre felles båtplassrekker",
+  "pixels": [
+   [
+    295,
+    118
+   ],
+   [
+    347,
+    125
+   ],
+   [
+    363,
+    150
+   ],
+   [
+    329,
+    179
+   ],
+   [
+    340,
+    200
+   ],
+   [
+    351,
+    209
+   ],
+   [
+    346,
+    240
+   ],
+   [
+    338,
+    263
+   ],
+   [
+    322,
+    314
+   ],
+   [
+    219,
+    304
+   ],
+   [
+    215,
+    267
+   ],
+   [
+    245,
+    247
+   ],
+   [
+    244,
+    229
+   ],
+   [
+    248,
+    189
+   ],
+   [
+    278,
+    175
+   ],
+   [
+    287,
+    160
+   ]
+  ],
+  "frame": "C239",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C239",
+  "note": "Tre sammenhengende rekker ved samme landtilkomst. Land/bebyggelse utelatt; kapasitet og operatør ikke sikkert verifisert.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C271": {
+  "action": "include",
+  "name": "Edholmen Marina – gjeste- og båtplassanlegg",
+  "pixels": [
+   [
+    221,
+    132
+   ],
+   [
+    288,
+    73
+   ],
+   [
+    303,
+    74
+   ],
+   [
+    356,
+    127
+   ],
+   [
+    356,
+    142
+   ],
+   [
+    351,
+    167
+   ],
+   [
+    336,
+    215
+   ],
+   [
+    327,
+    234
+   ],
+   [
+    312,
+    231
+   ],
+   [
+    286,
+    223
+   ],
+   [
+    274,
+    247
+   ],
+   [
+    251,
+    292
+   ],
+   [
+    247,
+    304
+   ],
+   [
+    280,
+    318
+   ],
+   [
+    281,
+    331
+   ],
+   [
+    255,
+    353
+   ],
+   [
+    213,
+    385
+   ],
+   [
+    178,
+    401
+   ],
+   [
+    140,
+    384
+   ],
+   [
+    126,
+    366
+   ],
+   [
+    190,
+    236
+   ],
+   [
+    208,
+    190
+   ],
+   [
+    195,
+    186
+   ],
+   [
+    187,
+    169
+   ]
+  ],
+  "frame": "C271",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.edholmenmarina.no/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C271",
+  "note": "Kapasitet ikke sikkert dokumentert. Service/opplag på land, private nabobrygger sør og åpent farvann utelatt.",
+  "unc": true,
+  "basis": "Operatøren dokumenterer gjestehavn; bildet viser permanent båtplassanlegg."
+ },
+ "C002": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C003": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C004": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C005": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C006": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C007": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C008": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C009": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C010": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C011": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C012": {
+  "action": "include",
+  "name": "Vestre Hvaler – molo- og båtplassområde ved sundet",
+  "pixels": [
+   [
+    202,
+    263
+   ],
+   [
+    218,
+    257
+   ],
+   [
+    243,
+    252
+   ],
+   [
+    246,
+    250
+   ],
+   [
+    269,
+    244
+   ],
+   [
+    280,
+    243
+   ],
+   [
+    283,
+    249
+   ],
+   [
+    268,
+    253
+   ],
+   [
+    262,
+    259
+   ],
+   [
+    259,
+    264
+   ],
+   [
+    245,
+    271
+   ],
+   [
+    224,
+    281
+   ],
+   [
+    213,
+    283
+   ]
+  ],
+  "frame": "V007",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C012",
+  "note": "Supplerende kystsøk viser samlet molo-/båtplassområde. Faste fritidsplasser og avgrensning mot servicekai må bekreftes. Papperhavn-navnet/36 Borg-plasser er ikke tilordnet uten sikker geografisk kobling.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C013": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C014": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C016": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C018": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C019": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C020": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C021": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C040": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C041": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private landfester, få plasser eller molo/servicekai uten sikker dokumentasjon på felles småbåthavn. Andre anlegg i utsnittet vurderes separat; private nabobrygger er ikke summert."
+ },
+ "C015": {
+  "action": "include",
+  "name": "Vestre Hvaler – langt U-formet båtplassanlegg",
+  "pixels": [
+   [
+    202,
+    84
+   ],
+   [
+    221,
+    78
+   ],
+   [
+    241,
+    282
+   ],
+   [
+    279,
+    297
+   ],
+   [
+    273,
+    196
+   ],
+   [
+    249,
+    58
+   ],
+   [
+    287,
+    53
+   ],
+   [
+    313,
+    204
+   ],
+   [
+    328,
+    438
+   ],
+   [
+    286,
+    450
+   ],
+   [
+    281,
+    318
+   ],
+   [
+    235,
+    301
+   ],
+   [
+    216,
+    295
+   ]
+  ],
+  "frame": "C015",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C015",
+  "note": "To lange sammenhengende båtplassrekker. Landparkering mellom rekkene er skåret ut; navn, operatør og kapasitet ikke verifisert.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C017": {
+  "action": "include",
+  "name": "Vestre Hvaler – kort felles brygge ved sundet",
+  "pixels": [
+   [
+    240,
+    223
+   ],
+   [
+    257,
+    220
+   ],
+   [
+    259,
+    255
+   ],
+   [
+    277,
+    271
+   ],
+   [
+    284,
+    311
+   ],
+   [
+    276,
+    320
+   ],
+   [
+    261,
+    319
+   ],
+   [
+    263,
+    291
+   ],
+   [
+    249,
+    269
+   ]
+  ],
+  "frame": "C017",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C017",
+  "note": "Kort felles fingerbrygge; ti faste båtplasser og organisering ikke sikkert verifisert.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C022": {
+  "action": "include",
+  "name": "Vestre Hvaler – to lange felles fingerbrygger",
+  "pixels": [
+   [
+    230,
+    253
+   ],
+   [
+    344,
+    253
+   ],
+   [
+    348,
+    301
+   ],
+   [
+    240,
+    304
+   ],
+   [
+    232,
+    322
+   ],
+   [
+    344,
+    321
+   ],
+   [
+    348,
+    360
+   ],
+   [
+    226,
+    364
+   ],
+   [
+    221,
+    346
+   ],
+   [
+    226,
+    299
+   ]
+  ],
+  "frame": "C022",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C022",
+  "note": "To tydelige felles båtplassrekker. Service-/anløpsbryggen sør og private brygger nord holdes utenfor.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C023": {
+  "action": "exclude",
+  "reason": "Søndre service-/anløpsbrygge holdes utenfor. De to felles fingerbryggene i utsnittet inngår én gang i C022."
+ },
+ "C043": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C045": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C046": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C047": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C048": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C049": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C050": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C052": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C053": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C054": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: separate private småbrygger, anløps-/badebrygger eller få båtplasser. Ingen sikker felles småbåthavn; nabobrygger ikke summert."
+ },
+ "C042": {
+  "action": "include",
+  "name": "Vestre Hvaler – kort fingerbrygge ved naustrekker",
+  "pixels": [
+   [
+    218,
+    249
+   ],
+   [
+    276,
+    234
+   ],
+   [
+    290,
+    257
+   ],
+   [
+    236,
+    278
+   ]
+  ],
+  "frame": "C042",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C042",
+  "note": "Kort fingerbrygge ved naustrekker. Naust/bebyggelse er utelatt. Ti faste båtplasser og felles organisering må avklares.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C044": {
+  "action": "include",
+  "name": "Vestre Hvaler – søndre fingerbrygge ved naustområdet",
+  "pixels": [
+   [
+    159,
+    350
+   ],
+   [
+    170,
+    326
+   ],
+   [
+    246,
+    283
+   ],
+   [
+    258,
+    294
+   ],
+   [
+    251,
+    307
+   ],
+   [
+    185,
+    347
+   ]
+  ],
+  "frame": "C044",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C044",
+  "note": "Separat søndre fingerbrygge ved naustområdet; fast kapasitet/organisering usikker. Bebyggelse og adskilte brygger ikke inkludert.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C055": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C056": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C058": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C059": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C061": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C081": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C082": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C083": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C084": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C085": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger og adskilte landfester. Felles fingerbrygger i naboutsnitt inngår separat; ingen summering av private plasser."
+ },
+ "C057": {
+  "action": "include",
+  "name": "Vestre Hvaler – liten fingerbrygge i vik",
+  "pixels": [
+   [
+    211,
+    229
+   ],
+   [
+    240,
+    206
+   ],
+   [
+    261,
+    216
+   ],
+   [
+    242,
+    243
+   ],
+   [
+    225,
+    260
+   ]
+  ],
+  "frame": "C057",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C057",
+  "note": "Kort fingerbrygge med faste båser, men ti plasser og felles organisering ikke sikkert verifisert. Den adskilte bryggen på østsiden utelatt.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ },
+ "C060": {
+  "action": "include",
+  "name": "Vestre Hvaler – to felles fingerbrygger i bukta",
+  "pixels": [
+   [
+    182,
+    154
+   ],
+   [
+    201,
+    150
+   ],
+   [
+    216,
+    223
+   ],
+   [
+    221,
+    269
+   ],
+   [
+    239,
+    260
+   ],
+   [
+    267,
+    224
+   ],
+   [
+    285,
+    234
+   ],
+   [
+    243,
+    294
+   ],
+   [
+    221,
+    301
+   ],
+   [
+    204,
+    288
+   ],
+   [
+    197,
+    242
+   ]
+  ],
+  "frame": "C060",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C060",
+  "note": "To sammenhengende felles fingerbrygger med mange faste båser. Private naboer og landareal utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C086": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C087": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C089": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C090": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C091": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C092": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C093": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C094": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C095": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C096": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C097": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, få plasser og separate landfester eller service-/transportkai. OSM-navnet småbåthavn alene er ikke bevis på båtplasser i servicekaien; det store bryggeanlegget vurderes separat i C088."
+ },
+ "C088": {
+  "action": "include",
+  "name": "Stokken – større felles båtplassanlegg",
+  "pixels": [
+   [
+    90,
+    57
+   ],
+   [
+    269,
+    47
+   ],
+   [
+    281,
+    125
+   ],
+   [
+    305,
+    204
+   ],
+   [
+    347,
+    290
+   ],
+   [
+    372,
+    350
+   ],
+   [
+    410,
+    444
+   ],
+   [
+    407,
+    482
+   ],
+   [
+    307,
+    485
+   ],
+   [
+    180,
+    451
+   ],
+   [
+    155,
+    375
+   ],
+   [
+    120,
+    296
+   ],
+   [
+    96,
+    205
+   ],
+   [
+    86,
+    134
+   ]
+  ],
+  "frame": "C088",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C088",
+  "note": "Stort felles bryggeanlegg på Stokken. Båtopplag, bygg og adskilte private landfester utelatt. Eksakt operatørfordeling mellom aktørene på Stokken må verifiseres; ingen overføring av Herføls kapasitet.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C098": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C099": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C101": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C102": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C103": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C166": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C167": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C168": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C169": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C170": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C171": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C172": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C174": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C176": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C179": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C319": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C333": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen dokumentert felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C100": {
+  "action": "include",
+  "name": "Nordre Hvaler – østre felles fingerbrygge i sundet",
+  "pixels": [
+   [
+    202,
+    312
+   ],
+   [
+    223,
+    321
+   ],
+   [
+    217,
+    355
+   ],
+   [
+    211,
+    373
+   ],
+   [
+    199,
+    372
+   ],
+   [
+    196,
+    360
+   ]
+  ],
+  "frame": "C100",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C100",
+  "note": "Bare den lange østre fingerbryggen med tydelige båser. Private brygger ved andre landfester i sundet og servicekai sør er utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C051": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C064": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C104": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C105": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C145": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C173": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C207": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C216": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C217": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C241": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C291": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C297": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C324": {
+  "action": "exclude",
+  "reason": "Visuelt kontrollert: private enkeltbrygger, bade-/anløpsbrygger eller få plasser ved separate landfester. Ingen sikker dokumentasjon på felles småbåthavn; private naboanlegg ikke summert."
+ },
+ "C117": {
+  "action": "split",
+  "reason": "To adskilte fingerbrygger får separate anleggsgrupper; felles operatør kan ikke utledes av nærhet. Midtre enkle L-brygge utelatt."
+ },
+ "C117N": {
+  "action": "include",
+  "name": "Nordre Hvaler – nordre fingerbrygge i bukta",
+  "pixels": [
+   [
+    293,
+    39
+   ],
+   [
+    306,
+    31
+   ],
+   [
+    361,
+    60
+   ],
+   [
+    359,
+    75
+   ],
+   [
+    349,
+    83
+   ],
+   [
+    291,
+    55
+   ]
+  ],
+  "frame": "C117",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C117N",
+  "note": "Én fingerbrygge med tydelig felles plassmønster og minst ti plasser. Andre landfester vurdert separat.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C117S": {
+  "action": "include",
+  "name": "Nordre Hvaler – søndre fingerbrygge i bukta",
+  "pixels": [
+   [
+    199,
+    242
+   ],
+   [
+    213,
+    239
+   ],
+   [
+    257,
+    287
+   ],
+   [
+    268,
+    313
+   ],
+   [
+    252,
+    321
+   ],
+   [
+    200,
+    266
+   ]
+  ],
+  "frame": "C117",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C117S",
+  "note": "Én lang fingerbrygge med tydelige båser på begge sider. Felles operatør med nordre brygge ikke verifisert.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C225": {
+  "action": "include",
+  "name": "Søndre Hvaler – to lange båtplassrekker",
+  "pixels": [
+   [
+    159,
+    211
+   ],
+   [
+    188,
+    205
+   ],
+   [
+    207,
+    211
+   ],
+   [
+    344,
+    221
+   ],
+   [
+    344,
+    238
+   ],
+   [
+    281,
+    238
+   ],
+   [
+    281,
+    263
+   ],
+   [
+    261,
+    286
+   ],
+   [
+    201,
+    276
+   ],
+   [
+    191,
+    270
+   ],
+   [
+    191,
+    235
+   ],
+   [
+    163,
+    230
+   ]
+  ],
+  "frame": "C225",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C225",
+  "note": "To sammenhengende rekker med mange tydelige båtplasser. Land, stier og resten av bukta utelatt.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C255": {
+  "action": "include",
+  "name": "Skjærhalden gjestehavn – hovedbrygge",
+  "pixels": [
+   [
+    77,
+    179
+   ],
+   [
+    96,
+    168
+   ],
+   [
+    145,
+    192
+   ],
+   [
+    155,
+    187
+   ],
+   [
+    163,
+    201
+   ],
+   [
+    204,
+    225
+   ],
+   [
+    218,
+    244
+   ],
+   [
+    254,
+    235
+   ],
+   [
+    279,
+    246
+   ],
+   [
+    295,
+    268
+   ],
+   [
+    275,
+    289
+   ],
+   [
+    309,
+    306
+   ],
+   [
+    316,
+    279
+   ],
+   [
+    345,
+    279
+   ],
+   [
+    351,
+    303
+   ],
+   [
+    344,
+    329
+   ],
+   [
+    371,
+    341
+   ],
+   [
+    382,
+    340
+   ],
+   [
+    378,
+    282
+   ],
+   [
+    399,
+    278
+   ],
+   [
+    432,
+    279
+   ],
+   [
+    439,
+    291
+   ],
+   [
+    432,
+    346
+   ],
+   [
+    450,
+    346
+   ],
+   [
+    451,
+    379
+   ],
+   [
+    359,
+    380
+   ],
+   [
+    288,
+    349
+   ],
+   [
+    228,
+    316
+   ],
+   [
+    168,
+    270
+   ],
+   [
+    126,
+    241
+   ],
+   [
+    96,
+    224
+   ],
+   [
+    81,
+    215
+   ]
+  ],
+  "frame": "C255",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.hvalergjestehavn.no/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 100,
+    "approximate": true,
+    "type": "gjestebaatkapasitet",
+    "scope": "hele_operatorens_gjestehavn_ikke_bare_dette_omrisset",
+    "reference_period": "ukjent_nettside_lest_2026-10-31",
+    "source": "https://www.hvalergjestehavn.no/"
+   },
+   {
+    "count": 37,
+    "type": "reserverbare_gjesteplasser",
+    "scope": "delmengde_av_100",
+    "reference_period": "ukjent_nettside_lest_2026-10-31",
+    "source": "https://www.hvalergjestehavn.no/"
+   }
+  ],
+  "group": "C255",
+  "note": "Operatørens ca.100 gjestebåter gjelder hele gjestehavnen; 37 reserverbare er en delmengde. Kun hovedbryggen er avgrenset her, øvrige kaiområder må avklares. Kapasiteten er ikke multiplisert per polygon.",
+  "unc": true,
+  "basis": "Operatør dokumenterer gjestehavn ved torget; permanent felles molo og fingerbrygger synlig."
+ },
+ "C257": {
+  "action": "split",
+  "reason": "Tre fysiske sjøområder holdes adskilt rundt land og vei. Eksakt operatørfordeling mellom båtforening og Lorentzenhavna må verifiseres; ingen antatt samlet kapasitet."
+ },
+ "C257N": {
+  "action": "include",
+  "name": "Skjærhalden – indre båtplassbasseng",
+  "pixels": [
+   [
+    236,
+    139
+   ],
+   [
+    278,
+    113
+   ],
+   [
+    312,
+    88
+   ],
+   [
+    375,
+    33
+   ],
+   [
+    393,
+    46
+   ],
+   [
+    402,
+    65
+   ],
+   [
+    385,
+    81
+   ],
+   [
+    368,
+    111
+   ],
+   [
+    337,
+    132
+   ],
+   [
+    323,
+    164
+   ],
+   [
+    305,
+    200
+   ],
+   [
+    322,
+    193
+   ],
+   [
+    327,
+    176
+   ],
+   [
+    337,
+    175
+   ],
+   [
+    346,
+    188
+   ],
+   [
+    334,
+    208
+   ],
+   [
+    300,
+    211
+   ],
+   [
+    280,
+    219
+   ],
+   [
+    272,
+    210
+   ],
+   [
+    260,
+    204
+   ],
+   [
+    254,
+    201
+   ],
+   [
+    249,
+    200
+   ],
+   [
+    246,
+    167
+   ]
+  ],
+  "frame": "C257",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C257N",
+  "note": "Samlede båtplassrekker i indre basseng. Landbebyggelse og parkering utelatt; operatørfordeling og kapasitet er en åpen avklaring.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C257W": {
+  "action": "include",
+  "name": "Skjærhalden – vestre fingerbrygger",
+  "pixels": [
+   [
+    88,
+    246
+   ],
+   [
+    150,
+    244
+   ],
+   [
+    162,
+    258
+   ],
+   [
+    189,
+    260
+   ],
+   [
+    207,
+    343
+   ],
+   [
+    224,
+    386
+   ],
+   [
+    215,
+    394
+   ],
+   [
+    209,
+    393
+   ],
+   [
+    209,
+    399
+   ],
+   [
+    171,
+    399
+   ],
+   [
+    161,
+    454
+   ],
+   [
+    79,
+    448
+   ],
+   [
+    55,
+    443
+   ],
+   [
+    61,
+    395
+   ],
+   [
+    58,
+    357
+   ],
+   [
+    70,
+    316
+   ],
+   [
+    71,
+    287
+   ]
+  ],
+  "frame": "C257",
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.havneweb.no/skjarhalden-bf/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [
+   {
+    "count": 300,
+    "approximate": true,
+    "type": "batforeningsplasser",
+    "scope": "hele_batforeningens_anlegg_eksakt_polygonfordeling_uavklart",
+    "reference_period": "ukjent_nettside_lest_2026-10-31",
+    "source": "https://www.havneweb.no/skjarhalden-bf/"
+   }
+  ],
+  "group": "C257W",
+  "note": "Tydelig felles fingerbryggeanlegg vest for landtungen. Land/opplag og private nabobrygger utelatt. Båtforeningens publiserte ca.300 gjelder dens hele anlegg; eksakt tilordning av andre sjøområder må avklares.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "C257E": {
+  "action": "include",
+  "name": "Skjærhalden – ytre østre båtplassbasseng",
+  "pixels": [
+   [
+    335,
+    253
+   ],
+   [
+    435,
+    267
+   ],
+   [
+    447,
+    284
+   ],
+   [
+    435,
+    385
+   ],
+   [
+    422,
+    454
+   ],
+   [
+    408,
+    456
+   ],
+   [
+    263,
+    337
+   ],
+   [
+    266,
+    323
+   ],
+   [
+    297,
+    343
+   ],
+   [
+    306,
+    328
+   ],
+   [
+    329,
+    309
+   ],
+   [
+    334,
+    294
+   ],
+   [
+    329,
+    283
+   ]
+  ],
+  "frame": "C257",
+  "classification": "smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "C257E",
+  "note": "Sammenhengende molo og båtplasser øst for landtungen; gjennomgående farvann, land og bygninger utelatt. Ingen antatt felles operatør/kapasitet med andre deler av Skjærhalden.",
+  "unc": true,
+  "basis": "Minst ti tydelige båtplasser i sammenhengende felles bryggeanlegg."
+ },
+ "G001": {
+  "action": "include",
+  "name": "Nordre Hvaler – liten fingerbrygge ved innerst i vik",
+  "pixels": [
+   [
+    239,
+    215
+   ],
+   [
+    258,
+    214
+   ],
+   [
+    268,
+    243
+   ],
+   [
+    261,
+    259
+   ],
+   [
+    248,
+    258
+   ],
+   [
+    241,
+    242
+   ]
+  ],
+  "frame": "V005",
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "capacity_scope": "hele_anlegget",
+  "capacity_components": [],
+  "group": "G001",
+  "note": "Oppdaget ved uavhengig bilde-/kystkontroll uten egen OSM-pir. Felles plassmønster plausibelt; ti faste plasser/organisering ikke bekreftet. Større nordre fingerbrygge vurdert separat.",
+  "unc": true,
+  "basis": "Felles båtplassanlegg er plausibelt, men ti faste plasser eller dokumentert havneorganisering er ikke sikkert verifisert."
+ }
+}

@@ -883,3 +883,19 @@ Operatørkart fra 2025 brukes til navne-/inndelingskontroll, ikke som bevis på 
 ### Vestby – godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente rev-01 og ba om commit, merge og PR. Alle 9 polygoner / 8 anleggsgrupper er innlemmet, inkludert 3 mulige. Samlet 502 polygoner fra 18 kommuner. De 493 tidligere features er kontrollert uendret med kanonisk SHA-256 i `approval.json`. Alle ni avgrensningers kontrollbehov, kapasitetskonflikter, fire åpne kildeavklaringer og ukjent bildeopptaksdato beholdes. Godkjenning er ikke verifikasjon av dagens drift, kapasitet eller fullstendighet. Nettstedets lokale kartdata og kommunestatus er oppdatert. Hvaler er ikke startet.
+
+
+### Hvaler – rev-01 til godkjenning 2026-10-31
+
+Etter merge av Vestby PR #8 ba brukeren om neste kommune. Hvaler (3110) er kartlagt på `data/hvaler-analysis` fra main `6a9fa50`. Leveransen i `data/kommuner/3110-hvaler/rev-01/` har 69 sjøpolygoner / 66 foreløpige fysiske anleggsgrupper, inkludert 20 mulige. 68 avgrensninger trenger kontroll mot daterte ortofoto; bildeopptaksdato og absolutt nøyaktighet er ukjent. Ingen påstand om fullstendighet eller verifisert antall operatører.
+
+Alle 335 OSM-bryggeklynger (948 pirer) har eksplisitte beslutninger. 274 kystfliser er gjennomgått uavhengig av OSM-klyngene, med 19 supplerende bilder; én ekstra mulig fingerbrygge er registrert. Private nabobrygger er ikke summert, og rene fiskeri-/ferge-/bade-/servicekaier er ikke inkludert som havner uten båtplassgrunnlag. Sju åpne kildeavklaringer beholdes.
+
+Kommunens havneside, Borg Havn og operatørkilder brukes til navn og bruk. Havneplan 2018–2028 er historisk; framtidige utvidelser er ikke kartlagt som bygget. Borgs 2024-liste gjelder delanlegg, inkludert næringsplasser. Kapasiteter for foreninger, fritidsplasser og gjesteplasser holdes atskilt. Skjærhaldens 37 reserverbare gjesteplasser er en delmengde av ca.100; operatørgrensene mellom gjestehavn, forening og Lorentzenhavna må avklares. Papperhavn, vestre Vikerhavn og Stokken/Listranda har også åpne geografiske koblinger.
+
+Alle eksporterte omriss er visuelt kontrollert etter eksport, og korrigerte omriss kontrollert på nytt. Teknisk kontroll av geometri, grense, ID-er, overlapp mot 502 godkjente polygoner, CSV og bildehash/dekoding består. Målt veggklokketid ligger i leveransen; tokenforbruk og pris er ikke målt. Samledata, manifest og nettsted er uendret. Hvaler venter på godkjenning; Sarpsborg er ikke startet.
+
+
+### Hvaler – godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-01 og ba om commit, push og PR. Alle 69 polygoner / 66 foreløpige anleggsgrupper er innlemmet, inkludert 20 mulige. Samlet 571 polygoner fra 19 kommuner. De 502 tidligere features er kontrollert uendret med kanonisk SHA-256 i `approval.json`. 68 avgrensningers kontrollbehov, sju åpne kildeavklaringer og ukjent bildeopptaksdato beholdes. Operatørgrenser, kapasitet og fullstendighet er ikke verifisert av godkjenningen. Nettstedets lokale kartdata og kommunestatus er oppdatert. Sarpsborg er ikke startet.

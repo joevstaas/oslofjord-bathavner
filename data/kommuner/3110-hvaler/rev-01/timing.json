@@ -1,0 +1,18 @@
+{
+ "started_utc": "2026-10-31T13:35:56.874463+00:00",
+ "started_unix": 1793453756.8744757,
+ "municipality": "Hvaler",
+ "code": "3110",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "45a9e192ddd25123b0c90b637675386ea404b749e9ae4b334ed4cb8233b49741",
+  "data/samlet/samlet-manifest.json": "e90f9fa8241ea6ee07671ac933888c9272710f1caef871bb749c01d936abf906"
+ },
+ "finished_utc": "2026-10-31T14:22:04+00:00",
+ "elapsed_wall_seconds": 2768,
+ "tokens_measured": null,
+ "cost_measured": null,
+ "note": "Målt veggklokketid inkl. tjenestefeil, venting og bilde-/kildekontroll; ikke ren prosessortid."
+}

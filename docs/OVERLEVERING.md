@@ -32,3 +32,10 @@ Lokalt valideringsskript kontrollerer antall, kommunevis samsvar, metadata, geom
 Moss har én mulig havn og 15 usikre avgrensninger. Sjekta og Refsnes småbåtforening er loggført uten sikker sjøpolygon. Larvik har også åpne navngitte kildekandidater. Se kommunenes kandidatlogger og metodikken. Brukergodkjenning beholdt disse begrensningene.
 
 Aktive tids-/tokenregnskap fra denne samtalen kan ikke overføres til Claude. Registrer ny tidsbruk separat; faktiske tokens/priser må komme fra verktøy som faktisk måler dem.
+
+
+## Hvaler rev-01 godkjent og innlemmet
+
+Hvaler ligger på branch `data/hvaler-analysis`, med 69 polygoner / 66 foreløpige anleggsgrupper, inkludert 20 mulige. Se `data/kommuner/3110-hvaler/rev-01/README.md` og `open-questions.json`. 68 avgrensninger har kontrollbehov. Brukeren har godkjent innlemming; usikkerhetene er beholdt. Godkjent grunnlag er nå 571 polygoner / 19 kommuner. De 502 tidligere polygonene er kontrollert uendret i `approval.json`. Sarpsborg er ikke startet.
+
+Lokal bilde-/råkildesamling ligger i `work/3110-hvaler/`, utenfor Git. Tekniske kontroller kan kjøres med `work/3110-hvaler/validate.py` når originalbildene finnes. `build.py`/`qa.py` gjenskaper avventende eksport og overlegg, men en godkjent revisjon må aldri overskrives. Hvaler er klargjort for commit/push/PR etter brukerens beskjed.
