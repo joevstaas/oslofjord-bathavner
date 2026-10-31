@@ -1,0 +1,111 @@
+[
+ {
+  "id": "Q01",
+  "candidate_ids": [
+   "M04S"
+  ],
+  "place": "Nye seilforeningsbrygger i 2025",
+  "need": "Operatøren sier at C/D-pirer er nye og satellittbildet foreldet. Skaff datert ortofoto eller havnekart før ny geometri tegnes. Omrissene viser bare det bevarte bildet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q02",
+  "candidate_ids": [
+   "C002",
+   "C013"
+  ],
+  "place": "Greåker – faste plasser eller service",
+  "need": "Avklar faktisk fritidsbåtutleie, antall faste plasser og sjøside hos operatørene. Landopplag er utelatt.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q03",
+  "candidate_ids": [
+   "C014",
+   "C029",
+   "C036",
+   "C040",
+   "M10E",
+   "M13E"
+  ],
+  "place": "Mulige lokale fellesbrygger",
+  "need": "Bekreft organisering og plasser per fysisk brygge. Ikke summer uavhengige hyttebrygger for å nå ti.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q04",
+  "candidate_ids": [
+   "C028",
+   "M17"
+  ],
+  "place": "Bukkholmen og Bukkenes",
+  "need": "Rapportens gamle fellesanlegg er stedfestet, men nåværende drift og detaljer er ikke bekreftet. Bukkenes-rapporten bygger selv på ubekreftede antagelser.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q05",
+  "candidate_ids": [
+   "C059"
+  ],
+  "place": "Røsnes ved Halden-grensen",
+  "need": "To brygge-/båtplasstupper ligger i Sarpsborg. Størstedelen og landfestene er i Halden. Kontroller presis geometri, operatør og sammenheng når Halden analyseres.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q06",
+  "candidate_ids": [
+   "C045",
+   "C024"
+  ],
+  "place": "Kapasitetsavvik og planstatus",
+  "need": "Skar: 33 i 2013 mot 18 i nyere plan; Olseng: 93 faste og 10–15 gjesteplasser mot rundt 110 totalt. Tall er ulike observasjoner, ikke additive. Fysisk brygge er ikke dokumentasjon av lovlighet.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q07",
+  "candidate_ids": [
+   "M03",
+   "M08N",
+   "M08S"
+  ],
+  "place": "Græsdal og Dusebukta – rapportområde er ikke én operatør",
+  "need": "Græsdal: bare nordlig større fellespir inkludert; små sørlige brygger er ikke summert inn. Dusebukta er delt i to foreløpige fysiske grupper. Driftsfellesskap uavklart.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q08",
+  "candidate_ids": [],
+  "place": "Innland og elvekyst",
+  "need": "OSM-kandidater ved Tunevannet, Eidet, Trøsken, Opsund og nedre Glomma er vurdert. Hele innlandets strandlinje er ikke systematisk bildesøkt; ingen fullstendighetspåstand for ferskvann.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q09",
+  "candidate_ids": [],
+  "place": "Bildedato og nøyaktighet",
+  "need": "Lokal opptaksdato, absolutt posisjonsnøyaktighet og dagens drift er ukjent. Bestilt pikselstørrelse eller omprojisering dokumenterer ikke opptaksoppløsning. Alle omriss trenger datert bildekontroll; 53 har ekstra avgrensningsforbehold.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q10",
+  "candidate_ids": [
+   "C025"
+  ],
+  "place": "Holmestrand – driftsgrenser",
+  "need": "Historisk rapportområde inneholder flere separate brygger. To store båtplassrekker er levert; eier-/driftsfellesskap og øvrige bryggers faktiske faste plasser må avklares.",
+  "status": "aapen"
+ },
+ {
+  "id": "Q11",
+  "candidate_ids": [
+   "U02N",
+   "U02S",
+   "U03M",
+   "U06N",
+   "U06S"
+  ],
+  "place": "Brukerfunn: plassantall, drift og bildedato",
+  "need": "Kontroller faste plasser og organisering per brygge. Skjermbildenes opptaksdato og nøyaktighet er ikke oppgitt; de er ikke uten videre nyere enn Esri. Ikke summer private brygger for å nå terskelen.",
+  "status": "aapen"
+ }
+]

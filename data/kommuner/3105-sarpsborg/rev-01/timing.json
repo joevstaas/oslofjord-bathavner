@@ -1,0 +1,8 @@
+{
+ "started_utc": "2026-10-31T14:47:33.454542+00:00",
+ "finished_utc": "2026-10-31T15:26:23+00:00",
+ "elapsed_wall_seconds": 2330,
+ "scope": "Hele Sarpsborg-kjøringen, inkludert kildehenting, nettverksventing, bildegransking, digitalisering og kontroll. Ingen venting på brukergodkjenning.",
+ "tokens_measured": false,
+ "cost_measured": false
+}

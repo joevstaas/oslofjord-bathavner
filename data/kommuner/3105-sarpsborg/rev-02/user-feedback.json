@@ -1,0 +1,102 @@
+[
+ {
+  "image": 1,
+  "place": "Holm",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-01.png",
+  "sha256": "026b59e639d2f20dbae2ab5047bf4603c75670e7781e0cf56a5095d098af6b5d",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "C003",
+   "C015",
+   "C016"
+  ],
+  "harbour_ids": [],
+  "decision": "Fredrikstad: allerede godkjent som 3107-H60-B01/B02; ikke duplisert i Sarpsborg."
+ },
+ {
+  "image": 2,
+  "place": "Øketangen",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-02.png",
+  "sha256": "ba5a8d1698c8e207935d8a2ce4f0c81ef54b4b89976ba0b984a8d07e5fc6bb3c",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "U02N",
+   "U02S"
+  ],
+  "harbour_ids": [
+   "3105-H40",
+   "3105-H41"
+  ],
+  "decision": "To separate mulige båtplasspirer. Kapasitet/drift uavklart, ikke aggregert for å nå terskelen."
+ },
+ {
+  "image": 3,
+  "place": "Materialgården",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-03.png",
+  "sha256": "2f9aa8282a2b485ed9c54d68484be53f29c1aa990ba1baaad9982b7972c7833b",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "U03M"
+  ],
+  "harbour_ids": [
+   "3105-H42"
+  ],
+  "decision": "L-formet båtplassanlegg inkludert som mulig; molo og små enkeltbrygger utelatt."
+ },
+ {
+  "image": 4,
+  "place": "Karlsøy bru",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-04.png",
+  "sha256": "be1e8002dda0f612b6c99577b1773670856c960b3f03668ac50a9f96c0b30670",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "U04K"
+  ],
+  "harbour_ids": [
+   "3105-H43"
+  ],
+  "decision": "To felles båtplasspirer ved sørenden inkludert."
+ },
+ {
+  "image": 5,
+  "place": "Bjerkenes",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-05.png",
+  "sha256": "49b7fbd4a29d07a42e3962706ad116eb3321f745c8bf20939f9e70d0d11bddac",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "U05J"
+  ],
+  "harbour_ids": [
+   "3105-H44"
+  ],
+  "decision": "Nordvestre tosidige fellespir inkludert; liten privat pir i øst ikke summert inn."
+ },
+ {
+  "image": 6,
+  "place": "Kapellanveien",
+  "source": "Brukerinnsendt skjermbilde i chatten 2026-10-31",
+  "local_snapshot": "work/3105-sarpsborg/raw/user-feedback-06.png",
+  "sha256": "f045e883413c6a1c444906409a18b5d86c57a970298547c4cd5be077b1405ff4",
+  "source_observation_date": null,
+  "georeferencing": "Skjermbildet har ikke koordinater/CRS. Stedfestet manuelt med samsvarende kystform, bygninger, veier og brygger i bevart EPSG:25833-bildegrunnlag. Polygonene er digitalisert på sistnevnte, ikke på en antatt skjermbildeprojeksjon.",
+  "candidate_ids": [
+   "U06N",
+   "U06S"
+  ],
+  "harbour_ids": [
+   "3105-H45",
+   "3105-H46"
+  ],
+  "decision": "To sørlige båtplasspirer inkludert som separate mulige grupper; små enkeltpirer nordover utelatt."
+ }
+]

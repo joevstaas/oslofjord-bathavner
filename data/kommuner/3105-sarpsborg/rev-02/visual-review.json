@@ -1,0 +1,53 @@
+{
+ "reviewed_utc": "2026-10-31T15:42:30+00:00",
+ "previous_unchanged_features": 54,
+ "previous_review": "data/kommuner/3105-sarpsborg/rev-01/visual-review.json",
+ "new_outline_panels": 8,
+ "new_outline_sheets": [
+  "qa-9.jpg",
+  "qa-10.jpg"
+ ],
+ "method": "Alle åtte nye eksportomriss kontrollert som georeferert GeoJSON-overlegg etter retting. Brukerbildene vurdert separat som detalj-/klassifikasjonsstøtte.",
+ "new_features": [
+  {
+   "id": "3105-H40-B01",
+   "geometry_sha256": "728351445cef82bd4cdf85cbde87d17472dbb303de99d7f347ceea665f7ed5fd",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H41-B01",
+   "geometry_sha256": "b86608111432439534febfff1fae8fa4ed49af33b51a26fc6cee0d259dbe003d",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H42-B01",
+   "geometry_sha256": "9f6b05e0b5cd768779429809e0e230d2594543df39e24d86a7c8c6c050faa643",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H43-B01",
+   "geometry_sha256": "014b2b48c47952010f8d5c41d3138fba0fec35f4d2d1a0f7f2c5bfbbc3a41046",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H43-B02",
+   "geometry_sha256": "67cc4fb504b1a73da16b76fbe29f4eb472d8fa5e725a619fe8b216b241bdf12f",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H44-B01",
+   "geometry_sha256": "b2aea277d581dbb1655c29d11fe8e8c02802ecf359142af0ea196640063ecaa1",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H45-B01",
+   "geometry_sha256": "0e004d62592b628331b855c0e5ea5180f1a55c77c2a9a46f4c67c9fffcecd1ab",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  },
+  {
+   "id": "3105-H46-B01",
+   "geometry_sha256": "b3f928f3d2fdf08c24ff5a2edfa49a1d2cfefdc487d338fb62e61b8e9ee824fc",
+   "result": "kontrollert_med_avgrensningsforbehold"
+  }
+ ]
+}

@@ -1,0 +1,531 @@
+[
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/borg-havn.provenance.json",
+  "metadata": {
+   "url": "https://www.borg-havn.no/sarpsborg/",
+   "retrieved_utc": "2026-10-31T15:23:26.196059+00:00",
+   "sha256": "04a00b7c594e646df9e0269f7b82f7da3a9411e8050e7a6d1c5ca6fd8a5d4eae"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/borg-utleie.provenance.json",
+  "metadata": {
+   "url": "https://www.borg-havn.no/utleie-batplasser/",
+   "retrieved_utc": "2026-10-31T15:23:26.719065+00:00",
+   "sha256": "ee31c800f53b9a64bff3d88d1fb4af5ce0ff561499e1b4686db59c04f3e23559"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/esri-service.json.provenance.json",
+  "metadata": {
+   "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+   "retrieved_utc": "2026-10-31T14:47:33.753881+00:00",
+   "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/grimsoy.provenance.json",
+  "metadata": {
+   "url": "https://seilbaatservice.no/batplass",
+   "retrieved_utc": "2026-10-31T14:59:56.430664+00:00",
+   "sha256": "1456617c90f59fe236cf39d31e6957b6b7e9ac57a28a9271ad6f176b1b4977c4"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/havner-2013.provenance.json",
+  "metadata": {
+   "url": "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "retrieved_utc": "2026-10-31T14:48:28.151603+00:00",
+   "sha256": "82efa81af9dd98ad13ff6f5b70a523579e381328dc2eac27c8f29c5c90b8e197"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/kommunegrense-4326.json.provenance.json",
+  "metadata": {
+   "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3105/omrade?utkoordsys=4326",
+   "retrieved_utc": "2026-10-31T14:47:33.627471+00:00",
+   "sha256": "488ac51b0dca7622abb6ba2cf134af2075052b29ce859222f257ee81bdde4af6"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/kystsoneplan-2025.provenance.json",
+  "metadata": {
+   "url": "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf",
+   "retrieved_utc": "2026-10-31T14:48:27.656771+00:00",
+   "sha256": "217034c59192d19454c9fc9dc160c5fb810967c70976b3e888b2ef870da08493"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/names.provenance.json",
+  "metadata": {
+   "urls": [
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6581110.196274621&ost=272585.3348583418&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6576467.0254305545&ost=275375.22135012597&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567638.813973747&ost=275946.3496464722&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6582152.197928525&ost=277733.4763297006&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6579692.287492522&ost=277090.0436311722&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6579685.719385097&ost=277342.73732997454&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6579663.667162085&ost=277486.76550139335&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6579460.030121572&ost=276698.54727709905&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6579368.227211586&ost=277167.8257329214&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6576907.364975908&ost=277316.72906253516&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6576751.827141079&ost=277552.88923498115&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6576484.175053137&ost=277860.44303923566&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6576449.459423009&ost=276106.57304584864&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6570057.123071019&ost=276102.49096703425&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567419.787025784&ost=276094.31700391264&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567306.511206898&ost=276170.2880473842&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566065.371429666&ost=277440.87062435003&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6578631.7326457435&ost=279841.2967253167&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6578220.078948555&ost=279751.96453992586&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6568229.953939808&ost=279702.450266801&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567950.786370626&ost=279855.2199565574&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567835.015593431&ost=279915.5086703063&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563923.230545662&ost=279980.4259359039&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563643.967524126&ost=279620.01409866544&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563446.96124371&ost=278968.1513760158&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562934.277610446&ost=278840.04048529925&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562846.804121689&ost=278759.97760489&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562798.740144773&ost=278584.3368159285&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562784.065388272&ost=278893.21973924123&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562469.745017778&ost=278687.35573958565&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562301.688522912&ost=278600.5786147035&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562076.810811301&ost=279300.6417278518&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561762.688580017&ost=278590.23571249685&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561677.567163981&ost=279167.0761937455&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6561221.83047693&ost=278756.4963791007&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567534.281815975&ost=280273.46501682606&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567480.332789574&ost=280905.11591618875&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567450.567598559&ost=281931.2251830334&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567177.802176198&ost=281404.18562054844&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566880.142122056&ost=280569.187894374&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566666.376043808&ost=280537.8912946099&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566300.747304213&ost=280554.88411093276&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6565993.900531031&ost=280710.3281569879&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6565480.356770078&ost=280752.62218944245&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6564611.260615093&ost=280794.19291171466&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563360.181101239&ost=281716.5476963029&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563234.617590663&ost=280144.7947253475&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6563078.0449328385&ost=280164.9705168869&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562810.468760937&ost=280059.4386313668&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560197.097556134&ost=281846.22721074824&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559480.488189098&ost=281896.0106892427&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567712.376420097&ost=282069.34031417343&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6567293.995728896&ost=282130.6897835589&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566882.249345866&ost=282109.896932235&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6566817.631390507&ost=282147.26457211067&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6562464.985025069&ost=282337.74037268624&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559473.092376202&ost=282158.3485095696&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6559294.978966831&ost=282085.7500793448&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/punkt?nord=6560767.614244481&ost=284126.54276988795&koordsys=25833&radius=350&utkoordsys=25833&treffPerSide=15"
+   ],
+   "sha256": "5f345de954e7383fb8a40136788913335ec171737fbc77c0b0ce4d4254446464",
+   "retrieved_utc": "2026-10-31T14:57:37.007110+00:00"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/olseng.provenance.json",
+  "metadata": {
+   "url": "https://olsengmarina.no/",
+   "retrieved_utc": "2026-10-31T14:59:55.685325+00:00",
+   "sha256": "d38671e485efc1d4f9bc5a1fdce0602fc2e41af34f33bebb0287589a20243915"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.060000%2C59.130000%2C11.120000%2C59.180000",
+   "bbox": [
+    11.059999999999999,
+    59.129999999999995,
+    11.12,
+    59.18
+   ],
+   "retrieved_utc": "2026-10-31T14:52:25.809242+00:00",
+   "sha256": "2fbc935be990ba59061983022a3a2b0067be96a9b5eb7bdf986bf2f4748582d9"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.060000%2C59.180000%2C11.120000%2C59.230000",
+   "bbox": [
+    11.059999999999999,
+    59.18,
+    11.12,
+    59.230000000000004
+   ],
+   "retrieved_utc": "2026-10-31T14:52:25.829384+00:00",
+   "sha256": "1310eaa0fef32c1b2c81bf9b4c0cbbce56811f5200bac49e79a26422fa262392"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-10.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=10.940000%2C59.280000%2C10.990000%2C59.330000",
+   "bbox": [
+    10.94,
+    59.279999999999994,
+    10.99,
+    59.33
+   ],
+   "retrieved_utc": "2026-10-31T14:52:34.630818+00:00",
+   "sha256": "f45c8857df8bd5a9c573553cb3630829c5f9cecd7cb57be3dc10b129e779de08"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-11-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=10.990000%2C59.230000%2C11.015000%2C59.255000",
+   "bbox": [
+    10.99,
+    59.23,
+    11.015,
+    59.254999999999995
+   ],
+   "retrieved_utc": "2026-10-31T14:52:36.710201+00:00",
+   "sha256": "bc3e863c6adeaa93ef6bc52ed760845a3fee0b235e1709c1a392426dc53cc6a8"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-11-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.015000%2C59.230000%2C11.040000%2C59.255000",
+   "bbox": [
+    11.015,
+    59.23,
+    11.040000000000001,
+    59.254999999999995
+   ],
+   "retrieved_utc": "2026-10-31T14:52:38.262636+00:00",
+   "sha256": "dad05e23efa920ccc184a4bcd0be84cf769c64d442ebc35f387a4817465e6619"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-11-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=10.990000%2C59.255000%2C11.015000%2C59.280000",
+   "bbox": [
+    10.99,
+    59.254999999999995,
+    11.015,
+    59.28
+   ],
+   "retrieved_utc": "2026-10-31T14:52:40.038354+00:00",
+   "sha256": "c9021fabf88d14594417a3428bcfba17cb01479191d1ebffdfe9f61c35e5e52c"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-11-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.015000%2C59.255000%2C11.040000%2C59.280000",
+   "bbox": [
+    11.015,
+    59.254999999999995,
+    11.040000000000001,
+    59.28
+   ],
+   "retrieved_utc": "2026-10-31T14:52:41.604194+00:00",
+   "sha256": "49d7c54422123a53fb613752edf8cd669f0f282ee8766b11e26ebe4cc3992beb"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-12.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=10.990000%2C59.280000%2C11.040000%2C59.330000",
+   "bbox": [
+    10.99,
+    59.279999999999994,
+    11.040000000000001,
+    59.33
+   ],
+   "retrieved_utc": "2026-10-31T14:52:37.393560+00:00",
+   "sha256": "75705b6a477248c7bc63502eb9cae91cd7a99e23c33f2a3250a465062d72fa85"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-13.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.040000%2C59.230000%2C11.090000%2C59.280000",
+   "bbox": [
+    11.04,
+    59.23,
+    11.09,
+    59.28
+   ],
+   "retrieved_utc": "2026-10-31T14:52:41.015613+00:00",
+   "sha256": "df20bc9e94f9bc09076b6519ed5560d2b1799fb66ce1a87e34a3efccab226a66"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-14.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.040000%2C59.280000%2C11.090000%2C59.330000",
+   "bbox": [
+    11.04,
+    59.279999999999994,
+    11.09,
+    59.33
+   ],
+   "retrieved_utc": "2026-10-31T14:52:44.126231+00:00",
+   "sha256": "e8eb83a9ad5b16fe51ef717776ad4dec1901c4525eb2030d10870e6e9e1a326a"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-15.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.090000%2C59.230000%2C11.140000%2C59.280000",
+   "bbox": [
+    11.09,
+    59.23,
+    11.14,
+    59.28
+   ],
+   "retrieved_utc": "2026-10-31T14:52:45.235002+00:00",
+   "sha256": "1d3dfa303c3dd436febb577d03f4e5f7c1de6c8ead2cee77380253525dc4b001"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-16-0.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.090000%2C59.280000%2C11.115000%2C59.305000",
+   "bbox": [
+    11.09,
+    59.279999999999994,
+    11.115,
+    59.30499999999999
+   ],
+   "retrieved_utc": "2026-10-31T14:52:48.871170+00:00",
+   "sha256": "0f943f8d11272c450fa4c10d7bf4013d52310ab2e2c23c99e6873c8c44e87032"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-16-1.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.115000%2C59.280000%2C11.140000%2C59.305000",
+   "bbox": [
+    11.115,
+    59.279999999999994,
+    11.14,
+    59.30499999999999
+   ],
+   "retrieved_utc": "2026-10-31T14:52:50.416531+00:00",
+   "sha256": "4ad379674bade157b6f2bafd8079cda5c4adfa177813bc3b4cc559848bdb6e68"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-16-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.090000%2C59.305000%2C11.115000%2C59.330000",
+   "bbox": [
+    11.09,
+    59.30499999999999,
+    11.115,
+    59.33
+   ],
+   "retrieved_utc": "2026-10-31T14:52:51.047456+00:00",
+   "sha256": "6e39b6ed7e3c7602f9a538e7a6bdaccf5936ba1521b184c5bce215b217c95c12"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-16-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.115000%2C59.305000%2C11.140000%2C59.330000",
+   "bbox": [
+    11.115,
+    59.30499999999999,
+    11.14,
+    59.33
+   ],
+   "retrieved_utc": "2026-10-31T14:52:51.643640+00:00",
+   "sha256": "f315d8915ae896e12dac9ecab4be9f141ebd2e9070394bd69c03551e28d71acd"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-2.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.120000%2C59.080000%2C11.180000%2C59.130000",
+   "bbox": [
+    11.12,
+    59.08,
+    11.18,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T14:52:26.412563+00:00",
+   "sha256": "4e2366094f87a2d17fbed38e08002bcc24cfeb6272056ea8314965d3463375ba"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-3.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.120000%2C59.130000%2C11.180000%2C59.180000",
+   "bbox": [
+    11.12,
+    59.129999999999995,
+    11.18,
+    59.18
+   ],
+   "retrieved_utc": "2026-10-31T14:52:27.668252+00:00",
+   "sha256": "891d3791649310961106a2f92a604e6634462989a863e4376759a0acf7f588d6"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-4.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.120000%2C59.180000%2C11.180000%2C59.230000",
+   "bbox": [
+    11.12,
+    59.18,
+    11.18,
+    59.230000000000004
+   ],
+   "retrieved_utc": "2026-10-31T14:52:27.776698+00:00",
+   "sha256": "e949ebee7f8b0a1376cf5f36d05511f59a96049fa5c69382534f5b74e58ec940"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-5.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.180000%2C59.080000%2C11.240000%2C59.130000",
+   "bbox": [
+    11.18,
+    59.08,
+    11.24,
+    59.13
+   ],
+   "retrieved_utc": "2026-10-31T14:52:30.474635+00:00",
+   "sha256": "698fcfe9033e4138e58b383f5e1a0aa0962745292bb33cc312f06888d09bf11d"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-6.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.180000%2C59.130000%2C11.240000%2C59.180000",
+   "bbox": [
+    11.18,
+    59.129999999999995,
+    11.24,
+    59.18
+   ],
+   "retrieved_utc": "2026-10-31T14:52:29.645825+00:00",
+   "sha256": "83ffa85dd8f2aa265b37564593aab7a3bb4ce195543ec8a95ce5fdf8ec8699bc"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-7.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.180000%2C59.180000%2C11.240000%2C59.230000",
+   "bbox": [
+    11.18,
+    59.18,
+    11.24,
+    59.230000000000004
+   ],
+   "retrieved_utc": "2026-10-31T14:52:31.983138+00:00",
+   "sha256": "25d4d791ff0b70ba404fc90294b454dff24425fc46265450eb16c8a487d1df91"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-8.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.240000%2C59.130000%2C11.300000%2C59.180000",
+   "bbox": [
+    11.24,
+    59.129999999999995,
+    11.3,
+    59.18
+   ],
+   "retrieved_utc": "2026-10-31T14:52:31.949650+00:00",
+   "sha256": "5d87a8b5c108f6f28dd6c64feccdfe492bbea597fb944762ad07c53ef0de8f34"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/osm-map-9.provenance.json",
+  "metadata": {
+   "url": "https://api.openstreetmap.org/api/0.6/map?bbox=11.240000%2C59.180000%2C11.300000%2C59.230000",
+   "bbox": [
+    11.24,
+    59.18,
+    11.3,
+    59.230000000000004
+   ],
+   "retrieved_utc": "2026-10-31T14:52:32.742244+00:00",
+   "sha256": "888e9b6d1af92d7886dd42d365af14e7e18045674124ccc73a093c0705bada72"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/sarpsborg-bf.provenance.json",
+  "metadata": {
+   "url": "https://www.havneweb.no/sarpsborg-bf/",
+   "retrieved_utc": "2026-10-31T14:59:55.690324+00:00",
+   "sha256": "c5b699f9a86af66d3af9f597c5aa37f2295f4bdea58e61ed41ecf8f6f7146de5"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/seilforening.provenance.json",
+  "metadata": {
+   "url": "https://www.sarpsborg-seilforening.no/brygger/",
+   "retrieved_utc": "2026-10-31T15:00:00.601510+00:00",
+   "sha256": "1549c299c505c88dc7720a5b853f3333bf19a106803e31f3390c5550f6990746"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/skjeberg-1250.provenance.json",
+  "metadata": {
+   "url": "https://www.sarpsborg.com/aktuelt/stor-interesse-for-marinaen",
+   "retrieved_utc": "2026-10-31T14:59:55.515308+00:00",
+   "sha256": "80dd10f5b154e061c9547b5683294a651b47fcf7656b0c8fc74bb3a2fa99d7a2"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/skjeberg.provenance.json",
+  "metadata": {
+   "url": "https://www.skjebergmarinesenter.no/",
+   "retrieved_utc": "2026-10-31T14:59:55.518626+00:00",
+   "sha256": "5183541d3594d6c770ce9ca237e8ec2120df86d4659e5fbf841204b9d7450301"
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/source-names.provenance.json",
+  "metadata": {
+   "retrieved_utc": "2026-10-31T14:59:27.374716+00:00",
+   "sha256": "ca393329fb781760e569c2006e745e29f6a854b8bdb75b38b88f44af5b37a082",
+   "urls": [
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=%C3%98rebekkenga&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Revebukta&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Helle&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Bukkholmen&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Liktangen&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Bukkenes&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=N%C3%B8tsund&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Holmestrand&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Olseng&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Merrapanna&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Skar&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Ravneng&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Skjebergkilens&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Falkensten&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Bryggen&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Walberg&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Gr%C3%A6sdal&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=L%C3%B8kkevika&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Knarrvika&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Seilerbakken&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Bussevika&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Grims%C3%B8y&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Dusebukta&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Bauen&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=K%C3%A5lvika&knr=3105&utkoordsys=25833&treffPerSide=15",
+    "https://api.kartverket.no/stedsnavn/v1/navn?sok=Inger%C3%B8y&knr=3105&utkoordsys=25833&treffPerSide=15"
+   ]
+  }
+ },
+ {
+  "local_metadata_path": "work/3105-sarpsborg/raw/user-names.json",
+  "metadata": {
+   "source": "Kartverket stedsnavn, navnesøk knr=3105",
+   "sha256": "2a211a9719461851afdfb40036528b89813c364b05b2fef95e3794d6155cbec4",
+   "note": "Eksakte forespørselsparametre i rereview-logg; Materialgården, Karlsøy bru, Øketangen, Bjerkenes, Kapellanveien. Tomt bronavnsøk erstattet med visuell stedfesting."
+  }
+ }
+]

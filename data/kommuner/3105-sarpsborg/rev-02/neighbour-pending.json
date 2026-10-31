@@ -1,0 +1,21 @@
+[
+ {
+  "name": "Holm brygge",
+  "municipality": "Fredrikstad",
+  "candidates": [
+   "C003",
+   "C015",
+   "C016"
+  ],
+  "decision": "Ingen ny Sarpsborg-geometri; hovedbryggene ligger i Fredrikstad, allerede 3107-H60-B01/B02."
+ },
+ {
+  "name": "Røsnes",
+  "municipality": "Halden",
+  "candidates": [
+   "C059"
+  ],
+  "decision": "To mindre sjøutklipp i Sarpsborg inkludert. Hovedanlegget i Halden avventer egen analyse; Halden er ikke startet.",
+  "cross_municipality_group_id": "ROSNES-3101-3105"
+ }
+]

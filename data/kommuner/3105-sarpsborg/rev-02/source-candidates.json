@@ -1,0 +1,383 @@
+[
+ {
+  "id": "S01",
+  "name": "Ørebekkenga",
+  "capacity_text": "46/0 (flyfoto viser 50) mest båter under 6 m (20 fot)",
+  "report_page": 18,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H04-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S02",
+  "name": "Revebukta",
+  "capacity_text": "58/0 (29 under 6 m og 29 6-9 m) Flyfoto viser 70",
+  "report_page": 20,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H21-B01",
+   "3105-H21-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S03",
+  "name": "Helle",
+  "capacity_text": "30/4 (22 under 6 m /20 fot og 8 6-9 m/20-30 fot)",
+  "report_page": 23,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H22-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S04",
+  "name": "Bukkholmen",
+  "capacity_text": "35/1 (29 under 6 m /20 fot og 6 6-9 m/20-30 fot)",
+  "report_page": 26,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H09-B01",
+   "3105-H09-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S05",
+  "name": "Liktangen",
+  "capacity_text": "62/1",
+  "report_page": 28,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H27-B01",
+   "3105-H27-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S06",
+  "name": "Bukkenes",
+  "capacity_text": "46 (vurdert ut fra flyfoto)",
+  "report_page": 31,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S07",
+  "name": "Nøtsund",
+  "capacity_text": "47/0 (oppgitt – flyfoto viser 41)",
+  "report_page": 34,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H26-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S08",
+  "name": "Vestjordets båtforening",
+  "capacity_text": "34/0",
+  "report_page": 37,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H38-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S09",
+  "name": "Holmestrand",
+  "capacity_text": "Ca 142/0",
+  "report_page": 39,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H08-B01",
+   "3105-H08-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S10",
+  "name": "Olseng marina",
+  "capacity_text": "Ca 93/10-15 (gjesteplasser bare longside)",
+  "report_page": 42,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H07-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S11",
+  "name": "Merrapanna",
+  "capacity_text": "Ca 60 (avhengig av utnyttelse av molobrygga)",
+  "report_page": 45,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H06-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S12",
+  "name": "Skar",
+  "capacity_text": "Ca 33/0",
+  "report_page": 47,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H15-B01",
+   "3105-H15-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S13",
+  "name": "Ravneng marina",
+  "capacity_text": "Ca 63/1 (30 båter under 20 ´og 30 båter 20-30´)",
+  "report_page": 50,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H14-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S14",
+  "name": "Skjebergkilens marina",
+  "capacity_text": "921/0 - 262/593/66 - båter under 20´, 20-30´, over 30´",
+  "report_page": 52,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H33-B01",
+   "3105-H33-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S15",
+  "name": "Falkensten båthavn",
+  "capacity_text": "Ca 114/0 (etter flyfoto)",
+  "report_page": 54,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H05-B01",
+   "3105-H05-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S16",
+  "name": "Bryggen båthavn",
+  "capacity_text": "Ca 77/0 (etter flyfoto)",
+  "report_page": 57,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H12-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S17",
+  "name": "Walberg marina",
+  "capacity_text": "Ca 208/0 (etter flyfoto)",
+  "report_page": 60,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H34-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S18",
+  "name": "Sarpsborg båtforening",
+  "capacity_text": "407/4",
+  "report_page": 62,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H35-B01",
+   "3105-H35-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S19",
+  "name": "Græsdal",
+  "capacity_text": "3 flytebrygger 6+6+16=28",
+  "report_page": 64,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H23-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S20",
+  "name": "Løkkevika",
+  "capacity_text": "2 brygger 8+34=42 (etter flyfoto)",
+  "report_page": 66,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H16-B01",
+   "3105-H16-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S21",
+  "name": "Knarrvika",
+  "capacity_text": "Syd 46/0 (fra spørreskjema), Nord 43/0 (etter flyfoto)",
+  "report_page": 68,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H24-B01",
+   "3105-H25-B01",
+   "3105-H25-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S22",
+  "name": "Seilerbakken",
+  "capacity_text": "50/0",
+  "report_page": 71,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H25-B01",
+   "3105-H25-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S23",
+  "name": "Bussevika",
+  "capacity_text": "NV: 38, NØ: ukjent (kun få), S: 7 (alt etter flyfoto)",
+  "report_page": 74,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H31-B01",
+   "3105-H32-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S24",
+  "name": "Grimsøy marina",
+  "capacity_text": "450/5",
+  "report_page": 76,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H36-B01",
+   "3105-H36-B02"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S25",
+  "name": "Dusebukta",
+  "capacity_text": "Syd: 26, Midt: 10, Nord: 2? (alt etter flyfoto)",
+  "report_page": 79,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H28-B01",
+   "3105-H29-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S26",
+  "name": "Bauen",
+  "capacity_text": "22/0",
+  "report_page": 81,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H18-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S27",
+  "name": "Kålvika",
+  "capacity_text": "42/0 (vurdert fra flyfoto og 3 m/plass)",
+  "report_page": 84,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H19-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ },
+ {
+  "id": "S28",
+  "name": "Ingerøy",
+  "capacity_text": "30/0 (talt opp fra flyfoto)",
+  "report_page": 86,
+  "source": "havner-2013.pdf",
+  "source_reference_period": "2013",
+  "decision": "stedfestet_og_vurdert",
+  "feature_ids": [
+   "3105-H30-B01"
+  ],
+  "scope_note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling."
+ }
+]
