@@ -170,3 +170,13 @@ modell-lenker bruker nå eksplisitt nettstedsti. Filteret faller tilbake til
 publisert kapasitet hvis tilleggsmodulen mangler. Regresjonstest dekker rutene
 uten skråstrek, med skråstrek og med index.html. Testserver må ha `site/` som rot;
 server fra selve labs-mappen gjenskaper ikke produksjonsrutingen.
+
+### Flyover-rute med alle kartlagte kommuner
+
+Rutens eldre liste manglet Porsgrunn, Bamble, Halden, Sarpsborg og Nordre Follo.
+Alle 23 er nå med; retur til Oslo vises separat og øker ikke kommunetelleren.
+Ruteutvalget hentes fra kommunedata med geografisk rekkefølge og automatisk
+inkludering av nye kommuner som ikke er ført opp i rekkefølgen. Aktivt
+kapasitetsfilter begrenser fortsatt turen til kommuner med treff, og telleren
+følger dette utvalget. Regresjonstest kjører faktisk rutebygging mot kartdata,
+kontrollerer 23 unike kommuner, retur, fremtidige kommuner og filtrert tur.
