@@ -33,7 +33,7 @@ window.EnvironmentCards = (() => {
     const menu = document.createElement('details'); menu.id = 'environment-menu'; menu.className = 'glass'; menu.innerHTML = '<summary>Miljøkort</summary><p>Laster miljøkort…</p>'; document.body.append(menu);
     document.addEventListener('click', e => { const button = e.target.closest('[data-environment-id]'); if (!button) return; menu.open = false; openCard(button.dataset.environmentId); });
     try {
-      const response = await fetch('data/environment-cards.json'); if (!response.ok) throw new Error('Unavailable');
+      const response = await fetch('/labs/oslofjord-bathavner/data/environment-cards.json'); if (!response.ok) throw new Error('Unavailable');
       const data = await response.json();
       if (data.schema_version !== 1 || data.type !== 'FeatureCollection' || !Array.isArray(data.features) || !data.features.length || !data.features.every(f => f.geometry?.type === 'Point' && f.geometry.coordinates.length === 2 && f.geometry.coordinates.every(Number.isFinite) && f.properties?.map_link && Array.isArray(f.properties.map_link.harbour_ids) && Array.isArray(f.properties.observations) && Array.isArray(f.properties.sources) && Array.isArray(f.properties.relations) && Array.isArray(f.properties.presentation?.rows) && typeof f.properties.presentation.next_question === 'string')) throw new Error('Invalid overlay');
       features = data.features; state = 'ready';

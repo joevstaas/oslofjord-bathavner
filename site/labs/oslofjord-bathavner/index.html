@@ -287,7 +287,7 @@ svg{display:block}
   <details style="font-size:11px;color:var(--dim);margin-bottom:10px"><summary>Om arealanslagene</summary>
     <p id="capacityModelInfo">Modell testet ved å holde hele kommuner utenfor beregningen. Spennet er veiledende, uten garantert dekning.</p>
     <p>Havnestørrelse og båtstørrelser varierer. Ukjent kapasitet er ikke det samme som under 200. Utenfor modellens arealområde og for mulige havner beholdes usikker status.</p>
-    <a href="data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a>
+    <a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a>
   </details>
   </div>
   <h4>Base map</h4>
@@ -405,8 +405,8 @@ svg{display:block}
   </div>
 </div>
 
-<script src="environment-cards.js"></script>
-<script src="capacity-filter.js"></script>
+<script src="/labs/oslofjord-bathavner/environment-cards.js"></script>
+<script src="/labs/oslofjord-bathavner/capacity-filter.js"></script>
 <script>
 (() => {
 'use strict';
@@ -485,7 +485,8 @@ Promise.all([
 
 let largeOnly = false, capacityMode = 'published';
 const effectiveCapacityMode = () => mobileViewport.matches ? 'published' : capacityMode;
-const hasLargeCapacity = h => window.CapacityFilter.matches(h.best.properties, effectiveCapacityMode());
+const matchesCapacity = p => window.CapacityFilter ? window.CapacityFilter.matches(p, effectiveCapacityMode()) : (p.capacity?.count ?? 0) >= 200;
+const hasLargeCapacity = h => matchesCapacity(h.best.properties);
 function applyCapacityFilter(on) {
   largeOnly = on;
   pause(); idx = -1;
@@ -643,7 +644,7 @@ function caption(s) {
   if (!s) { c.classList.remove('show'); return; }
   const k = $('capK');
   k.className = 'k' + (s.todo ? ' todo' : '');
-  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || window.CapacityFilter.matches(f.properties, effectiveCapacityMode())).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
+  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || matchesCapacity(f.properties)).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
   else if (s.todo) { k.textContent = 'Not yet mapped'; $('capH').textContent = s.name; $('capP').textContent = 'Part of the project scope. Harbours here will be added in the next batch.'; }
   else {
     k.textContent = `Stop ${idx + 1} of ${stops.length}`;
@@ -760,7 +761,7 @@ function select(fid, fly) {
     <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
     ${p.note ? `<p class="note">${p.mun === 'Moss' ? 'Earlier mapping note: ' : ''}${escapeHtml(p.note)}</p>` : ''}
     ${p.capacity ? `<p style="font-size:12px">Capacity: ${sourceLink(p.capacity.source, 'Source')} · ${escapeHtml(p.capacity.period)}</p>` : ''}${enrichmentCard(p)}
-    ${!p.capacity && p.capacity_estimate ? `<section class="enrichment capacity-advanced"><h4>Estimert · ikke publisert kapasitet</h4><p>${escapeHtml(window.CapacityFilter.labels[p.capacity_estimate.category])}. Beregnet fra hele anleggsgruppens kartlagte sjøareal (${fmt(p.capacity_estimate.area_m2)} m²), også på tvers av kommunegrenser.</p><p>${p.capacity_estimate.outside_training_range ? 'Arealet ligger utenfor modellens kalibreringsområde. Anslaget er ekstra usikkert. ' : ''}${p.capacity_estimate.possible_harbour ? 'Anlegget er klassifisert som mulig havn; antall faste plasser er uavklart. ' : ''}Veiledende spenn, uten garantert dekning. Landopplag er ikke beregnet.</p><a href="data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a></section>` : ''}
+    ${!p.capacity && p.capacity_estimate ? `<section class="enrichment capacity-advanced"><h4>Estimert · ikke publisert kapasitet</h4><p>${escapeHtml(window.CapacityFilter?.labels[p.capacity_estimate.category] || 'Usikkert arealanslag')}. Beregnet fra hele anleggsgruppens kartlagte sjøareal (${fmt(p.capacity_estimate.area_m2)} m²), også på tvers av kommunegrenser.</p><p>${p.capacity_estimate.outside_training_range ? 'Arealet ligger utenfor modellens kalibreringsområde. Anslaget er ekstra usikkert. ' : ''}${p.capacity_estimate.possible_harbour ? 'Anlegget er klassifisert som mulig havn; antall faste plasser er uavklart. ' : ''}Veiledende spenn, uten garantert dekning. Landopplag er ikke beregnet.</p><a href="/labs/oslofjord-bathavner/data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a></section>` : ''}
     ${window.EnvironmentCards?.links(p.hid) || ''}
     <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">Method ↗</a><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform ↗</a></div>`;
   $('card').scrollTop = 0;
@@ -884,6 +885,7 @@ function wireUI() {
     if (t === 'exag') { terrainExag = on ? 2.8 : 1.4; if (is3D) setTerrain(true); }
   });
 
+  $('capacityMode').disabled = !window.CapacityFilter;
   $('capacityMode').onchange = () => { capacityMode = $('capacityMode').value; applyCapacityFilter(true); };
   mobileViewport.addEventListener('change', () => {
     if (mobileViewport.matches) { capacityMode = 'published'; $('capacityMode').value = 'published'; }

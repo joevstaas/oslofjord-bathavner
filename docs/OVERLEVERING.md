@@ -160,3 +160,13 @@ Modellvalg og lange modellforklaringer vises bare på større skjermer.
 Havnekort kan fortsatt vise én kort linje med arealanslag og usikkerhetsspenn.
 Ved overgang fra stor til liten skjerm nullstilles modellvalget til publisert,
 slik at et skjult modellvalg ikke endrer mobilfilterets betydning.
+
+### Rettet oppstartsfeil på produksjonsadresse uten skråstrek
+
+Vercel bruker `/labs/oslofjord-bathavner` uten avsluttende skråstrek. Relative
+skriptstier løste derfor til `/labs/`, og manglende CapacityFilter ga en TypeError
+under init, feilaktig vist som «Could not load data». Skript, miljøkortdata og
+modell-lenker bruker nå eksplisitt nettstedsti. Filteret faller tilbake til
+publisert kapasitet hvis tilleggsmodulen mangler. Regresjonstest dekker rutene
+uten skråstrek, med skråstrek og med index.html. Testserver må ha `site/` som rot;
+server fra selve labs-mappen gjenskaper ikke produksjonsrutingen.
