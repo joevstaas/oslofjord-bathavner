@@ -108,7 +108,7 @@ svg{display:block}
 .ib:hover .tip{opacity:1}
 
 /* popovers */
-.pop{position:fixed;bottom:calc(76px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%) translateY(8px);z-index:7;padding:12px;width:290px;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s}
+.pop{max-height:calc(100dvh - 100px);overflow-y:auto;position:fixed;bottom:calc(76px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%) translateY(8px);z-index:7;padding:12px;width:290px;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s}
 .pop.open{opacity:1;pointer-events:auto;transform:translateX(-50%)}
 .pop h4{margin:0 0 8px;font-size:11px;letter-spacing:.8px;text-transform:uppercase;color:var(--dim)}
 .seg{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-bottom:12px}
@@ -125,6 +125,17 @@ svg{display:block}
 #results button:hover,#results button.act{background:rgba(70,211,198,.12)}
 #results small{color:var(--dim);white-space:nowrap}
 
+#environment-menu{position:fixed;left:14px;top:114px;z-index:6;max-width:min(320px,calc(100vw - 28px));padding:10px;font-size:12px}
+#environment-menu summary{cursor:pointer;font-weight:700}
+#environment-menu p{font-size:11px;color:var(--mist);margin:8px 0}
+#environment-menu button{display:block;text-align:left;padding:10px 4px;width:100%;color:var(--foam)}
+#card [data-environment-id]{color:var(--foam);text-decoration:underline;text-align:left;padding:8px 0}
+#card .enrichment summary{cursor:pointer;line-height:1.5}
+#card .environment-summary{display:grid;grid-template-columns:86px 1fr;gap:9px 10px;margin:14px 0;font-size:12px;line-height:1.45}
+#card .environment-summary dt{color:var(--dim)}
+#card .environment-summary dd{margin:0;color:var(--foam)}
+#card .environment-next{padding:10px 0;border-top:1px solid var(--line)}
+#card .environment-evidence{padding-top:8px;border-top:1px solid var(--line)}
 /* caption (tour) */
 #caption{position:fixed;left:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:5;padding:11px 14px;max-width:320px;opacity:0;transform:translateY(8px);transition:opacity .5s,transform .5s;pointer-events:none}
 #caption.show{opacity:1;transform:none}
@@ -192,7 +203,7 @@ svg{display:block}
 .maplibregl-ctrl-bottom-right{bottom:0}
 
 @media (max-width:720px){
-  .desktop-copy{display:none}
+  .desktop-copy,.capacity-advanced{display:none}
   .mobile-copy{display:inline}
   #intro .eyebrow,#intro .odp{display:none}
   #hud .read{display:none}
@@ -259,6 +270,26 @@ svg{display:block}
 <div id="tip"></div>
 
 <div id="layersPop" class="pop glass" role="dialog" aria-label="Map layers">
+  <h4>Filter</h4>
+  <div class="chk"><span>200+ båtplasser</span><button id="largeHarbours" class="sw" data-t="capacity" aria-label="Vis havner med minst 200 båtplasser" aria-pressed="false"></button></div>
+  <div class="capacity-advanced">
+  <label for="capacityMode" style="font-size:12px">Grunnlag</label>
+  <select id="capacityMode" style="width:100%;margin:6px 0;padding:7px;background:#102a3a;color:white;border:1px solid #547181;border-radius:6px">
+    <option value="published">Kun publisert kapasitet</option>
+    <option value="likely">Publisert + trolig ≥200 fra areal</option>
+    <option value="possible">Også mulig ≥200 (usikre anslag)</option>
+  </select>
+  </div>
+  <p id="capacityStatus" aria-live="polite" style="font-size:12px;color:var(--dim)"></p>
+  <p class="mobile-copy" style="font-size:11px;color:var(--dim)">Kun publiserte tall. Ukjent kapasitet utelates.</p>
+  <div class="capacity-advanced">
+  <p style="font-size:11px;color:var(--dim)">Publiserte tall kan være eldre. Arealanslag er grove og vises separat. Ingen vurdering av forskriftskrav.</p>
+  <details style="font-size:11px;color:var(--dim);margin-bottom:10px"><summary>Om arealanslagene</summary>
+    <p id="capacityModelInfo">Modell testet ved å holde hele kommuner utenfor beregningen. Spennet er veiledende, uten garantert dekning.</p>
+    <p>Havnestørrelse og båtstørrelser varierer. Ukjent kapasitet er ikke det samme som under 200. Utenfor modellens arealområde og for mulige havner beholdes usikker status.</p>
+    <a href="data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a>
+  </details>
+  </div>
   <h4>Base map</h4>
   <div class="seg" id="baseSeg"><button data-b="sat" class="on">Satellite</button><button data-b="chart">Sea chart</button><button data-b="topo">Topo</button></div>
   <h4>Overlays</h4>
@@ -374,6 +405,8 @@ svg{display:block}
   </div>
 </div>
 
+<script src="environment-cards.js"></script>
+<script src="capacity-filter.js"></script>
 <script>
 (() => {
 'use strict';
@@ -384,7 +417,8 @@ const ROUTE = ['Oslo', 'Bærum', 'Asker', 'Lier', 'Drammen', 'Holmestrand', 'Hor
   'Hvaler', 'Fredrikstad', 'Råde', 'Moss', 'Vestby', 'Frogn', 'Nesodden', '__home'];
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('en-US');
-const isMobile = matchMedia('(max-width:720px)').matches;
+const mobileViewport = matchMedia('(max-width:720px)');
+const isMobile = mobileViewport.matches;
 const touchMap = matchMedia('(pointer:coarse)').matches;
 
 const WMS_CHART = 'https://wms.geonorge.no/skwms1/wms.sjokartraster2?service=WMS&version=1.3.0&request=GetMap&layers=all&styles=&crs=EPSG:3857&bbox={bbox-epsg-3857}&width=512&height=512&format=image/png';
@@ -441,7 +475,7 @@ fetch(BASE + 'data/enrichment.json').then(r => {
   if (selId !== null) select(selId, false);
 });
 Promise.all([
-  fetch(BASE + 'data/harbours.geojson').then(r => r.json()),
+  fetch(BASE + 'data/harbours.geojson?v=capacity-estimates-1').then(r => r.json()),
   fetch(BASE + 'data/municipalities.geojson').then(r => r.json()),
   new Promise(res => map.on('load', res))
 ]).then(([h, m]) => { H = h; M = m; init(); }).catch(err => {
@@ -449,6 +483,27 @@ Promise.all([
   console.error(err);
 });
 
+let largeOnly = false, capacityMode = 'published';
+const effectiveCapacityMode = () => mobileViewport.matches ? 'published' : capacityMode;
+const hasLargeCapacity = h => window.CapacityFilter.matches(h.best.properties, effectiveCapacityMode());
+function applyCapacityFilter(on) {
+  largeOnly = on;
+  pause(); idx = -1;
+  $('largeHarbours').setAttribute('aria-pressed', String(on));
+  $('largeHarbours').classList.toggle('on', on);
+  const ids = [...new Set(Object.values(harbours).filter(hasLargeCapacity).map(h => h.best.properties.gid))];
+  for (const layer of ['h-glow', 'h-fill', 'h-line', 'hp-halo', 'hp', 'h-label'])
+    map.setFilter(layer, on ? ['in', ['get', 'gid'], ['literal', ids]] : null);
+  const selected = new Map(Object.values(harbours).filter(hasLargeCapacity).map(h => [h.best.properties.gid, h.best.properties]));
+  const published = [...selected.values()].filter(p => p.capacity).length;
+  const likely = [...selected.values()].filter(p => !p.capacity && p.capacity_estimate?.category === 'likely_ge_200').length;
+  const uncertain = ids.length - published - likely;
+  $('capacityStatus').innerHTML = `<span class="desktop-copy">${on ? 'Viser' : 'Filterutvalg:'} ${ids.length} havner · ${published} publisert${likely ? ` · ${likely} trolig fra areal` : ''}${uncertain ? ` · ${uncertain} usikre` : ''}</span><span class="mobile-copy">${published} ${on ? 'havner med publisert kapasitet ≥200' : 'kjente treff'}</span>`;
+  $('largeHarbours').title = on ? 'Slå av kapasitetsfilter' : 'Slå på kapasitetsfilter';
+  if (on) { pause(); stopAttract(); hideIntro(); caption(null); closeCard(); }
+  stops = []; buildTour();
+  $('q').dispatchEvent(new Event('input'));
+}
 function init() {
   // one point per harbour (largest polygon carries the label)
   for (const f of H.features) {
@@ -459,7 +514,7 @@ function init() {
   }
   const pts = { type: 'FeatureCollection', features: Object.values(harbours).map((h, i) => ({ type: 'Feature', id: i,
     geometry: { type: 'Point', coordinates: [h.best.properties.lon, h.best.properties.lat] },
-    properties: { hid: h.hid, name: h.name, cls: h.cls, area: h.area, fid: h.best.id } })) };
+    properties: { gid: h.best.properties.gid, hid: h.hid, name: h.name, cls: h.cls, area: h.area, fid: h.best.id } })) };
   const muniLabels = { type: 'FeatureCollection', features: M.features.map(f => ({ type: 'Feature',
     geometry: { type: 'Point', coordinates: [f.properties.lx, f.properties.ly] }, properties: f.properties })) };
 
@@ -510,6 +565,16 @@ function init() {
   $('dimTxt').textContent = is3D ? '3D' : '2D';
   buildTour();
   wireUI();
+  applyCapacityFilter(false);
+  window.EnvironmentCards?.init(map, {
+    open: (feature, html) => {
+      pause(); stopAttract(); hideIntro(); closePops(); caption(null); closeCard();
+      $('card').innerHTML = html; $('card').scrollTop = 0; $('card').classList.add('show');
+      $('environment-title').focus({preventScroll:true});
+      map.flyTo({center:feature.geometry.coordinates, zoom:16, duration:1600, essential:true});
+    },
+    ready: () => { if (selId !== null) select(selId, false); }
+  });
   $('loading').classList.add('hide');
   if (!touchMap) attract();
 }
@@ -554,7 +619,8 @@ function buildTour() {
     if (name === '__home') { stops.push({ name: 'Oslo', home: true, center: [10.72, 59.875], zoom: 10.9, pitch: 58 }); continue; }
     const m = byName[name]; if (!m) continue;
     if (m.state === 'remaining') { stops.push({ name, todo: true, center: [m.lx, m.ly], zoom: 12.1, pitch: 62 }); continue; }
-    const hs = Object.values(harbours).filter(h => h.mun === name);
+    const hs = Object.values(harbours).filter(h => h.mun === name && (!largeOnly || hasLargeCapacity(h)));
+    if (!hs.length) continue;
     // fly to the densest cluster of harbours (area-weighted within ~2.5 km), close enough to see the outlines
     const ll = h => maplibregl.LngLat.convert([h.best.properties.lon, h.best.properties.lat]);
     const score = h => hs.reduce((s, o) => s + (ll(h).distanceTo(ll(o)) < 2500 ? Math.sqrt(o.area) : 0), 0);
@@ -562,7 +628,7 @@ function buildTour() {
     const near = hs.filter(o => ll(hub).distanceTo(ll(o)) < 2500);
     const ctr = [near.reduce((s, o) => s + o.best.properties.lon, 0) / near.length, near.reduce((s, o) => s + o.best.properties.lat, 0) / near.length];
     const top = hs.slice().sort((a, c) => c.area - a.area)[0];
-    stops.push({ name, center: ctr, zoom: isMobile ? 12.2 : 12.7, pitch: 62, m, top,
+    stops.push({ name, filteredCount: new Set(hs.map(h => h.best.properties.gid)).size, center: ctr, zoom: isMobile ? 12.2 : 12.7, pitch: 62, m, top,
       possible: new Set(H.features.filter(f => f.properties.mun === name && f.properties.cls === 'mulig_smabathavn').map(f => f.properties.hid)).size });
   }
   stops.forEach((s, i) => {
@@ -577,12 +643,12 @@ function caption(s) {
   if (!s) { c.classList.remove('show'); return; }
   const k = $('capK');
   k.className = 'k' + (s.todo ? ' todo' : '');
-  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`; $('capP').textContent = HOME_TEXT; }
+  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || window.CapacityFilter.matches(f.properties, effectiveCapacityMode())).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
   else if (s.todo) { k.textContent = 'Not yet mapped'; $('capH').textContent = s.name; $('capP').textContent = 'Part of the project scope. Harbours here will be added in the next batch.'; }
   else {
     k.textContent = `Stop ${idx + 1} of ${stops.length}`;
     $('capH').textContent = s.name;
-    $('capP').innerHTML = `${s.m.harbours} harbours · ${s.m.polygons} polygons${s.possible ? ` · ${s.possible} possible` : ''}<br>Largest: ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
+    $('capP').innerHTML = `${largeOnly ? `${s.filteredCount} harbours in capacity filter` : `${s.m.harbours} harbours · ${s.m.polygons} polygons`}${!largeOnly && s.possible ? ` · ${s.possible} possible` : ''}<br>Largest: ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
   }
   c.classList.remove('show'); void c.offsetWidth; c.classList.add('show');
 }
@@ -681,7 +747,8 @@ function select(fid, fly) {
   const p = f.properties, h = harbours[p.hid];
   const rows = [
     ['Water area', `${fmt(p.area)} m²` + (h.n > 1 ? ` <span style="color:var(--dim)">(${h.n} parts)</span>` : '')],
-    p.berths != null && p.mun !== 'Moss' ? ['Published berths', fmt(p.berths)] : null,
+    p.capacity ? ['Published berths', `${p.capacity.approximate ? '~' : ''}${fmt(p.capacity.count)}`] : null,
+    !p.capacity && p.capacity_estimate ? ['Arealanslag', `≈${fmt(p.capacity_estimate.count)} plasser <span style="color:var(--possible)">(grovt spenn ${fmt(p.capacity_estimate.low)}–${fmt(p.capacity_estimate.high)})</span>`] : null,
     ['Basis', escapeHtml(p.basis)],
     ['Outline', p.method],
     ['Boundary', p.unc ? '<span style="color:var(--possible)">Uncertain</span>' : 'Provisional'],
@@ -692,7 +759,9 @@ function select(fid, fly) {
     <div class="meta"><span class="badge" style="background:${COLORS[p.cls]}">${CLS_LABEL[p.cls]}</span><span>${escapeHtml(p.mun)}</span><span class="mono" style="color:var(--dim)">${p.id}</span></div>
     <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
     ${p.note ? `<p class="note">${p.mun === 'Moss' ? 'Earlier mapping note: ' : ''}${escapeHtml(p.note)}</p>` : ''}
-    ${enrichmentCard(p)}
+    ${p.capacity ? `<p style="font-size:12px">Capacity: ${sourceLink(p.capacity.source, 'Source')} · ${escapeHtml(p.capacity.period)}</p>` : ''}${enrichmentCard(p)}
+    ${!p.capacity && p.capacity_estimate ? `<section class="enrichment capacity-advanced"><h4>Estimert · ikke publisert kapasitet</h4><p>${escapeHtml(window.CapacityFilter.labels[p.capacity_estimate.category])}. Beregnet fra hele anleggsgruppens kartlagte sjøareal (${fmt(p.capacity_estimate.area_m2)} m²), også på tvers av kommunegrenser.</p><p>${p.capacity_estimate.outside_training_range ? 'Arealet ligger utenfor modellens kalibreringsområde. Anslaget er ekstra usikkert. ' : ''}${p.capacity_estimate.possible_harbour ? 'Anlegget er klassifisert som mulig havn; antall faste plasser er uavklart. ' : ''}Veiledende spenn, uten garantert dekning. Landopplag er ikke beregnet.</p><a href="data/capacity-model.json" target="_blank" rel="noopener">Modellgrunnlag og testresultater ↗</a></section>` : ''}
+    ${window.EnvironmentCards?.links(p.hid) || ''}
     <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">Method ↗</a><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform ↗</a></div>`;
   $('card').scrollTop = 0;
   $('card').classList.add('show');
@@ -789,7 +858,8 @@ function wireUI() {
   $('howBtn').onclick = () => setMethod(true);
   $('toMethod').onclick = e => { e.preventDefault(); setMethod(true); };
   document.querySelectorAll('#method .toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-  fetch(BASE + 'data/meta.json').then(r => r.json()).then(m => {
+  fetch(BASE + 'data/meta.json?v=capacity-estimates-1').then(r => r.json()).then(m => {
+    if (m.capacity_model) $('capacityModelInfo').textContent = `Kalibrert på ${m.capacity_model.training_groups} havner i ${m.capacity_model.training_municipalities} kommuner. Medianavvik ${Math.round(m.capacity_model.evaluation.median_absolute_percentage_error * 100)} % når hele kommuner holdes utenfor. Enkelthavner kan avvike mye mer. Spennet har ingen garantert dekning.`;
     $('kpi').innerHTML = [[fmt(m.polygons), 'polygons'], [fmt(m.harbours), 'harbours'], [m.municipalities, 'municipalities approved'],
       [fmt(m.candidates_logged), `candidates logged (${m.ledger_municipalities} municipalities)`], [m.updated, 'last update']]
       .map(([v, l]) => `<div><b>${v}</b>${l}</div>`).join('');
@@ -808,9 +878,16 @@ function wireUI() {
   };
   document.querySelectorAll('.sw').forEach(sw => sw.onclick = () => {
     const on = sw.classList.toggle('on'), t = sw.dataset.t, v = on ? 'visible' : 'none';
+    if (t === 'capacity') applyCapacityFilter(on);
     if (t === 'muni') ['muni-line', 'muni-todo', 'muni-label'].forEach(l => map.setLayoutProperty(l, 'visibility', v));
     if (t === 'labels') map.setLayoutProperty('h-label', 'visibility', v);
     if (t === 'exag') { terrainExag = on ? 2.8 : 1.4; if (is3D) setTerrain(true); }
+  });
+
+  $('capacityMode').onchange = () => { capacityMode = $('capacityMode').value; applyCapacityFilter(true); };
+  mobileViewport.addEventListener('change', () => {
+    if (mobileViewport.matches) { capacityMode = 'published'; $('capacityMode').value = 'published'; }
+    applyCapacityFilter(largeOnly);
   });
 
   // search
@@ -818,7 +895,8 @@ function wireUI() {
   let act = 0;
   const render = () => {
     const q = $('q').value.trim().toLowerCase();
-    const hits = (q ? list.filter(h => h.name.toLowerCase().includes(q) || h.mun.toLowerCase().includes(q)) : list.slice().sort((a, b) => b.area - a.area)).slice(0, 40);
+    const eligible = list.filter(h => !largeOnly || hasLargeCapacity(h));
+    const hits = (q ? eligible.filter(h => h.name.toLowerCase().includes(q) || h.mun.toLowerCase().includes(q)) : eligible.slice().sort((a, b) => b.area - a.area)).slice(0, 40);
     act = 0;
     $('results').innerHTML = hits.length ? hits.map((h, i) => `<button data-f="${h.best.id}" class="${i ? '' : 'act'}"><span><i style="display:inline-block;width:7px;height:7px;border-radius:2px;margin-right:7px;background:${COLORS[h.cls]}"></i>${escapeHtml(h.name)}</span><small>${escapeHtml(h.mun)}</small></button>`).join('')
       : '<div style="padding:8px;color:var(--dim);font-size:12px">No harbours found</div>';

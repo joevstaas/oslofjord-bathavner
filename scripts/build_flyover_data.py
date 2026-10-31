@@ -1,6 +1,6 @@
 """Bygg kompakte data til flyover-siden (site/labs/oslofjord-bathavner/data/).
 Leser godkjent samlefil, status.json og separat Moss-berikelsespilot; kommunegrenser hentes fra Kartverket og caches i cache/."""
-import json, urllib.request
+import json, urllib.request, hashlib
 from pathlib import Path
 from pyproj import Transformer
 from shapely.geometry import shape, mapping
@@ -94,3 +94,24 @@ print(meta)
 # Separat kildeberikelse; endrer ikke godkjente geometrier eller kartklassifisering.
 from build_harbour_enrichment import main as build_enrichment
 build_enrichment()
+
+# Separat, kildebasert miljøkortlag; godkjente havnegrenser er uendret.
+from build_environment_cards import main as build_environment_cards
+build_environment_cards()
+
+# Capacity for the website only; retains sources and combines shared boundary groups.
+from harbour_capacity import capacities
+capacity = capacities(fc['features'], json.loads((OUT / 'enrichment.json').read_text()))
+for feature in feats:
+    feature['properties']['capacity'] = capacity.get(feature['properties']['gid'])
+from estimate_harbour_capacity import estimate
+estimates, capacity_report = estimate(feats)
+for feature in feats:
+    feature['properties']['capacity_estimate'] = estimates.get(feature['properties']['gid'])
+capacity_report['inputs_sha256'] = {str(path.relative_to(ROOT)): hashlib.sha256(path.read_bytes()).hexdigest() for path in [ROOT / 'data/samlet/oslofjorden-bathavner-samlet.geojson', OUT / 'enrichment.json', ROOT / 'scripts/estimate_harbour_capacity.py']}
+(OUT / 'capacity-model.json').write_text(json.dumps(capacity_report, ensure_ascii=False, indent=2) + '\n')
+meta['capacity_model'] = {k: capacity_report[k] for k in ('model', 'training_groups', 'training_municipalities', 'evaluation', 'estimated_groups', 'categories')}
+(OUT / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False))
+(OUT / 'harbours.geojson').write_text(json.dumps(dict(type='FeatureCollection', features=feats), ensure_ascii=False, separators=(',', ':')))
+print('Area capacity model:', meta['capacity_model'])
+print('Published capacity >=200:', sum(v['count'] >= 200 for v in capacity.values()))

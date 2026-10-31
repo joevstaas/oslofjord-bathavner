@@ -1033,3 +1033,24 @@ Brukeren ba eksplisitt om innlemming av begge nye polygoner. H08 (mulig småbåt
 - Historisk Clarity kan åpne skydekte kontrollområder, men gir ikke samtidighet eller nåtidsdrift. Skill service-/utgivelsesdato, bildeopptaksdato og nedlastingsdato; ett metadataoppslag bekrefter ikke alle bilder.
 - Kapasitetsdeler og eierskap kan omtales flere ganger i samme årsmøterapport. Ikke legg foreningseide plasser til det anlegget de allerede inngår i. Ventelistegrenser og antall utleiehendelser er ikke havnekapasitet.
 - Overlapp mellom håndtegnede sjøbelter ved samme pirrot kan fjernes med union av de manuelle delene. Dette skaper ikke ny arealavgrensning og erstatter ikke etterfølgende visuell kontroll.
+
+### Miljøkort – kildebasert berikelse 2026-10-31
+
+Miljøkort lagres separat fra godkjent geometri. Registrer påstand, fysisk omfang, utgiverrolle, dokumentdato, kontrolltidspunkt, avsnitt og kildeversjon. Plan, opplyst etablering, dokumentert drift og målt effekt er forskjellige nivåer. Ukjent er ikke manglende tiltak. Skillet mellom dokumentasjonshull, bekreftet tiltakshull og ikke relevant er nødvendig for sammenligning. Leverandørpåstander og gjengitt pressemelding er ikke uavhengig effektkontroll. Delte renseanlegg må modelleres som tjenester mellom steder; sjøpolygon viser ikke automatisk opplag eller spyleplass. Pilot og mal: data/miljokort/pilot-01/.
+
+### Miljøkort integrert i lokal kartvisning 2026-10-31
+
+Tre egne stedspunkter og miljøkort er koblet inn via environment-cards.js og data/environment-cards.json. Ni kilder totalt: fire om tiltak, fem om stedfesting. Kartverket gir Lille Herbern navnepunkt og Karenslysts besøksadresse; Revierhavnen oppgir grov egen posisjon. Tilknyttede havnegrupper H13/H02/H23 gir geografisk kontekst, ikke verifiserte driftsgrenser. Karenslysts spyleplass og Revierhavnens Østslippen er fortsatt ikke presist stedfestet. Kilder, datoer, dokumentasjonshull og delte tjenester vises i kortene. Ingen rå-HTML publiseres. Godkjente 816 sjøpolygoner er uendret; ingen publisering, commit eller PR er utført for dette arbeidet.
+
+### Opptelling av miljøkortgrunnlag
+
+Tell etter nettstedets gid, ikke polygoner, foreninger eller tjenestepunkter. Rapporter dokumentert nedre grense når søkedekningen ikke er uttømmende. Skill konkrete stedlige tiltak/tjenester/rutiner, kun eldre fellesplaner og uavklart. Nærmeste havnepolygon alene er ikke tilstrekkelig operatørkobling. Generelle regler og søkeordtreff teller ikke som dokumentert rensing. En stengt miljøcontainer er et relevant kildebelagt forhold; fravær av nettinformasjon er ikke bevis for manglende tiltak.
+
+### Eksperimentelle kapasitetsanslag fra areal
+
+Arealanslag er et separat, avledet nettstedslag og endrer ikke godkjent geometri
+eller publisert kapasitet. Modellen kalibreres på 97 fysiske grupper og testes
+med hele kommuner holdt utenfor (begge kommuner for delte grupper). Medianavvik
+26,4 %; grove spenn gir ingen garantert dekning. Eksisterende publiserte tall har
+forrang. Mulige havner og ekstrapolasjoner beholdes som usikre. Filterutvidelsen
+er valgfri og vurderer ikke forskriftskrav. Se docs/KAPASITETSANSLAG.md.

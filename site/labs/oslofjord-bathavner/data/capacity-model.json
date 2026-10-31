@@ -1,0 +1,2203 @@
+{
+  "model": "area-log-municipality-balanced-v1",
+  "purpose": "Exploratory prioritisation of capacity source research; not a berth inventory or regulatory assessment.",
+  "equation": "count = coefficient * total_group_area_m2 ** exponent",
+  "coefficient": 0.08927351508766625,
+  "exponent": 0.7810120024337718,
+  "training_groups": 97,
+  "training_municipalities": 15,
+  "training_distribution": {
+    "Asker": 2,
+    "Bamble": 2,
+    "Fredrikstad": 4,
+    "Frogn": 4,
+    "Færder": 2,
+    "Hvaler": 1,
+    "Larvik": 2,
+    "Moss": 8,
+    "Nesodden": 2,
+    "Nordre Follo": 1,
+    "Råde": 1,
+    "Sandefjord": 62,
+    "Sarpsborg": 3,
+    "Tønsberg": 3
+  },
+  "area_range_m2": [
+    962,
+    99555
+  ],
+  "validation": "Leave municipalities out; shared groups are excluded from training whenever either municipality is held out.",
+  "evaluation": {
+    "median_absolute_percentage_error": 0.2643282140274238,
+    "within_factor_two": 0.8865979381443299,
+    "mean_absolute_error": 45.152935957671595
+  },
+  "baseline_median_density_evaluation": {
+    "median_absolute_percentage_error": 0.27970812663618544,
+    "within_factor_two": 0.8041237113402062,
+    "mean_absolute_error": 47.05266880583404
+  },
+  "uncertainty": {
+    "multiplicative_factor": 2.075531464002719,
+    "calibration": "90th percentile of absolute municipality-balanced held-out log errors; descriptive, not a guaranteed 90% interval.",
+    "caveats": [
+      "Sparse, nonrandom sample; published counts may be old, approximate or differ in scope. Municipality weights use the first sorted municipality for shared groups.",
+      "Interval calibration reuses validation residuals and has no independent coverage test.",
+      "Geometry, boat sizes and layouts vary. Possible harbours and extrapolations stay uncertain.",
+      "No land-storage capacity is added. Published counts are never replaced."
+    ]
+  },
+  "estimated_groups": 567,
+  "categories": {
+    "likely_ge_200": 16,
+    "uncertain": 348,
+    "likely_lt_200": 203
+  },
+  "training": [
+    {
+      "gid": "3103-H01",
+      "name": "Fiske båthavn",
+      "area": 26784,
+      "count": 376,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.fiske-baatforening.no/index.php/om-fiske.html",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H02",
+      "name": "Fuglevik båthavn / Rygge båtforening",
+      "area": 27936,
+      "count": 409,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.havneweb.no/ryggebf/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H03",
+      "name": "Kambo båtforening",
+      "area": 6521,
+      "count": 100,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.havneweb.no/kambobf/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H04",
+      "name": "Kambo Marina",
+      "area": 32900,
+      "count": 300,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.kambomarina.no/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H05",
+      "name": "Moss motorbåtforening / Betongen",
+      "area": 25985,
+      "count": 360,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.betongen.no/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H10",
+      "name": "Søly båthavn / Moss Seilforening",
+      "area": 31438,
+      "count": 306,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.havneweb.no/moss-sf/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H11",
+      "name": "Vansjø båtforening",
+      "area": 12874,
+      "count": 168,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.havneweb.no/vansjo/?mod=sokplass",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3103-H21",
+      "name": "Sameiet Røedsstranda – molo og båtbrygge",
+      "area": 2254,
+      "count": 16,
+      "municipalities": [
+        "Moss"
+      ],
+      "municipality": "Moss",
+      "source": "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3105-H25",
+      "name": "Sarpsborg Seilforening – Knarrvika og Seilerbakken",
+      "area": 6298,
+      "count": 100,
+      "municipalities": [
+        "Sarpsborg"
+      ],
+      "municipality": "Sarpsborg",
+      "source": "https://www.sarpsborg-seilforening.no/brygger/",
+      "reference_period": "2025-05-01"
+    },
+    {
+      "gid": "3105-H33",
+      "name": "Skjebergkilens marina",
+      "area": 99555,
+      "count": 1250,
+      "municipalities": [
+        "Sarpsborg"
+      ],
+      "municipality": "Sarpsborg",
+      "source": "https://www.sarpsborg.com/aktuelt/stor-interesse-for-marinaen",
+      "reference_period": "2026-05-13"
+    },
+    {
+      "gid": "3105-H35",
+      "name": "Sarpsborg Baatforening",
+      "area": 29134,
+      "count": 400,
+      "municipalities": [
+        "Sarpsborg"
+      ],
+      "municipality": "Sarpsborg",
+      "source": "https://www.havneweb.no/sarpsborg-bf/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3107-H30",
+      "name": "Gressvik båtforening – Vesterelven",
+      "area": 15498,
+      "count": 220,
+      "municipalities": [
+        "Fredrikstad"
+      ],
+      "municipality": "Fredrikstad",
+      "source": "https://www.havneweb.no/gressvik-bf/?mod=omhavnen",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3107-H31",
+      "name": "Onsøy Båthavn – Østkilen",
+      "area": 40390,
+      "count": 300,
+      "municipalities": [
+        "Fredrikstad"
+      ],
+      "municipality": "Fredrikstad",
+      "source": "https://www.havneweb.no/onsoy-bathavn/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3107-H41",
+      "name": "Nøkledypet båthavn / Kråkerøy båtforening",
+      "area": 7628,
+      "count": 285,
+      "municipalities": [
+        "Fredrikstad"
+      ],
+      "municipality": "Fredrikstad",
+      "source": "https://www.nokledypet.no/gjestehavn-2",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3110-H28",
+      "name": "Sand Marina – hovedanlegg",
+      "area": 31326,
+      "count": 250,
+      "municipalities": [
+        "Hvaler"
+      ],
+      "municipality": "Hvaler",
+      "source": "https://sandmarina.no/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3112-H01",
+      "name": "Makrellrød båthavn / Råde båtforening",
+      "area": 30059,
+      "count": 402,
+      "municipalities": [
+        "Råde"
+      ],
+      "municipality": "Råde",
+      "source": "https://www.rbf.no/index.php/batplasser",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3203-H06",
+      "name": "Holmsbu havn",
+      "area": 26601,
+      "count": 250,
+      "municipalities": [
+        "Asker"
+      ],
+      "municipality": "Asker",
+      "source": "https://www.asker.kommune.no/friluftsliv/sjo-og-batliv/gjestehavner-og-smabatplasser/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3203-H49",
+      "name": "Filtvet / Ekrabukta – havn",
+      "area": 5027,
+      "count": 73,
+      "municipalities": [
+        "Asker"
+      ],
+      "municipality": "Asker",
+      "source": "https://www.asker.kommune.no/friluftsliv/sjo-og-batliv/gjestehavner-og-smabatplasser/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-29"
+    },
+    {
+      "gid": "3212-H02",
+      "name": "Spro Båthavn",
+      "area": 29252,
+      "count": 180,
+      "municipalities": [
+        "Nesodden"
+      ],
+      "municipality": "Nesodden",
+      "source": "https://sprobathavn.no/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3212-H07",
+      "name": "Oksval Båthavn",
+      "area": 22644,
+      "count": 290,
+      "municipalities": [
+        "Nesodden"
+      ],
+      "municipality": "Nesodden",
+      "source": "https://www.obh.no/omoss/historie/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3214-H03",
+      "name": "Tåjebukta, Håøya – gjestebrygger",
+      "area": 5874,
+      "count": 90,
+      "municipalities": [
+        "Frogn"
+      ],
+      "municipality": "Frogn",
+      "source": "https://sfmarina.com/sf-projects/haoya/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3214-H07",
+      "name": "Gylteholmen Brygger",
+      "area": 10319,
+      "count": 68,
+      "municipalities": [
+        "Frogn"
+      ],
+      "municipality": "Frogn",
+      "source": "https://www.gylteholmenbrygger.no/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3214-H08",
+      "name": "Oscarsborg Gjestehavn",
+      "area": 17713,
+      "count": 110,
+      "municipalities": [
+        "Frogn"
+      ],
+      "municipality": "Frogn",
+      "source": "https://oscarsborggjestehavn.no/",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3214-H11",
+      "name": "Drøbak Gjestehavn",
+      "area": 3566,
+      "count": 48,
+      "municipalities": [
+        "Frogn"
+      ],
+      "municipality": "Frogn",
+      "source": "https://visitgreateroslo.com/no/drobak-gjestehavn",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "3905-H14",
+      "name": "Jarlsø Vest",
+      "area": 31685,
+      "count": 170,
+      "municipalities": [
+        "Tønsberg"
+      ],
+      "municipality": "Tønsberg",
+      "source": "https://www.havneweb.no/jarlso-brygge/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3905-H20",
+      "name": "Klopp båthavn",
+      "area": 13589,
+      "count": 160,
+      "municipalities": [
+        "Tønsberg"
+      ],
+      "municipality": "Tønsberg",
+      "source": "https://www.kloppbat.com/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3905-H21",
+      "name": "Husøy Småbåthavn SA",
+      "area": 6202,
+      "count": 75,
+      "municipalities": [
+        "Tønsberg"
+      ],
+      "municipality": "Tønsberg",
+      "source": "https://www.hsbhavn.com/om-oss/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3907-H01",
+      "name": "Flautangen",
+      "area": 8104,
+      "count": 52,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H02",
+      "name": "Granholmen",
+      "area": 1982,
+      "count": 20,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H03",
+      "name": "Hesteskoen",
+      "area": 30988,
+      "count": 107,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H04",
+      "name": "Huvik båthavn",
+      "area": 4894,
+      "count": 10,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H06",
+      "name": "Kamfjordkilen",
+      "area": 3336,
+      "count": 18,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H07",
+      "name": "Langeby båthavn",
+      "area": 3469,
+      "count": 84,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H09",
+      "name": "Skjellvika båthavn",
+      "area": 3267,
+      "count": 65,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H10",
+      "name": "Stub båthavn",
+      "area": 2233,
+      "count": 30,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H11",
+      "name": "Tangen båthavn",
+      "area": 9003,
+      "count": 109,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H12",
+      "name": "Enge",
+      "area": 3331,
+      "count": 66,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H13",
+      "name": "Fjellvik båtforening",
+      "area": 8156,
+      "count": 157,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H14",
+      "name": "Havnebakken",
+      "area": 14462,
+      "count": 180,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H15",
+      "name": "Hjertnes båtforening",
+      "area": 12626,
+      "count": 195,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H16",
+      "name": "Kilen Brygge båtforening",
+      "area": 8223,
+      "count": 103,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H17",
+      "name": "Sandefjord motorbåtforening",
+      "area": 8088,
+      "count": 120,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H18",
+      "name": "Thorøya båthavn",
+      "area": 24710,
+      "count": 275,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H19",
+      "name": "Ulabrand båtforening",
+      "area": 19616,
+      "count": 115,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H20",
+      "name": "Bogen båthavn",
+      "area": 10035,
+      "count": 128,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H21",
+      "name": "Solnes båthavn",
+      "area": 31490,
+      "count": 208,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H22",
+      "name": "Melsomvik båtforening",
+      "area": 27686,
+      "count": 270,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H23",
+      "name": "Storevahr båthavn",
+      "area": 13075,
+      "count": 130,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H24",
+      "name": "Berganodden båthavn",
+      "area": 3102,
+      "count": 63,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H25",
+      "name": "Berganbukta båtforening",
+      "area": 6299,
+      "count": 111,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H26",
+      "name": "Enge båtforening",
+      "area": 5639,
+      "count": 80,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H27",
+      "name": "Engø båthavn",
+      "area": 3583,
+      "count": 83,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H28",
+      "name": "Framnæs båthavn AS",
+      "area": 10625,
+      "count": 50,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H29",
+      "name": "Gokstad kystlag",
+      "area": 7311,
+      "count": 50,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H30",
+      "name": "Lahellefjorden båtforening",
+      "area": 6286,
+      "count": 91,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H31",
+      "name": "Langeby bryggelag",
+      "area": 5272,
+      "count": 55,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H32",
+      "name": "Ormestad motorbåtforening",
+      "area": 4156,
+      "count": 92,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H33",
+      "name": "Hellanodden",
+      "area": 2308,
+      "count": 60,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H34",
+      "name": "York båtforening",
+      "area": 2883,
+      "count": 82,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H35",
+      "name": "Brunstad båtforening",
+      "area": 5611,
+      "count": 63,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H36",
+      "name": "OCC",
+      "area": 3885,
+      "count": 55,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H37",
+      "name": "Fellesbryggen Bentsrød",
+      "area": 9719,
+      "count": 45,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H38",
+      "name": "Eianbukta båthavn",
+      "area": 1622,
+      "count": 16,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H39",
+      "name": "Briskebakken Nordre Bryggelag",
+      "area": 962,
+      "count": 30,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H40",
+      "name": "Briskebakken Båtforening",
+      "area": 2244,
+      "count": 31,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H41",
+      "name": "Nordre Holtan bryggelag",
+      "area": 2894,
+      "count": 24,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H42",
+      "name": "Lofterødveien vel-lag",
+      "area": 1933,
+      "count": 38,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H43",
+      "name": "Lystad fellesbrygge",
+      "area": 1532,
+      "count": 14,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H44",
+      "name": "Hystadveien 189",
+      "area": 1438,
+      "count": 14,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H45",
+      "name": "Natholmen brygge AS",
+      "area": 3112,
+      "count": 42,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H46",
+      "name": "Verven brygge",
+      "area": 2431,
+      "count": 35,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H47",
+      "name": "Solløkkasvingen vel-lag",
+      "area": 2900,
+      "count": 40,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H48",
+      "name": "Solløkka båtforening",
+      "area": 3067,
+      "count": 47,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H49",
+      "name": "Stub brygger AS",
+      "area": 2625,
+      "count": 22,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H50",
+      "name": "Thorsholmen",
+      "area": 1683,
+      "count": 29,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H51",
+      "name": "Årøtangen 26",
+      "area": 2181,
+      "count": 27,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H52",
+      "name": "Natholmsundet flytebrygge",
+      "area": 1424,
+      "count": 34,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H53",
+      "name": "Natholmen 5 bryggeanlegg",
+      "area": 2043,
+      "count": 30,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H54",
+      "name": "Nedre Solnes brygge",
+      "area": 1833,
+      "count": 30,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H55",
+      "name": "Hagaløkka",
+      "area": 2361,
+      "count": 38,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H56",
+      "name": "Søndre Lofterød bryggelag",
+      "area": 1292,
+      "count": 16,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H57",
+      "name": "Østre Nes",
+      "area": 4835,
+      "count": 102,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H58",
+      "name": "Mefjorden båtforening",
+      "area": 4128,
+      "count": 57,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H59",
+      "name": "Hummelvika",
+      "area": 1529,
+      "count": 28,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H60",
+      "name": "Mefjordveien båthavn",
+      "area": 1603,
+      "count": 22,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H61",
+      "name": "Namløs",
+      "area": 1083,
+      "count": 41,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H62",
+      "name": "Djupsund",
+      "area": 1143,
+      "count": 31,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H63",
+      "name": "Herreportveien",
+      "area": 2586,
+      "count": 48,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+      "reference_period": "ukjent; kommunalt kartlag hentet 2026-10-29"
+    },
+    {
+      "gid": "3907-H64",
+      "name": "Huvik Eiendom AS – båthavn",
+      "area": 8801,
+      "count": 32,
+      "municipalities": [
+        "Sandefjord"
+      ],
+      "municipality": "Sandefjord",
+      "source": "https://www.huvik.no/b%C3%A5tplasser",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3909-H11",
+      "name": "Bjønnesstranda båthavn",
+      "area": 5342,
+      "count": 143,
+      "municipalities": [
+        "Larvik"
+      ],
+      "municipality": "Larvik",
+      "source": "https://www.havneweb.no/bjonnesstranda-bh/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3909-H18",
+      "name": "Agnes båtforening – nordre basseng",
+      "area": 12351,
+      "count": 100,
+      "municipalities": [
+        "Larvik"
+      ],
+      "municipality": "Larvik",
+      "source": "https://www.agnesbaat.no/b%C3%A5thavna",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3911-H14",
+      "name": "Østre Bolæren gjestehavn – nordre brygger",
+      "area": 14632,
+      "count": 100,
+      "municipalities": [
+        "Færder"
+      ],
+      "municipality": "Færder",
+      "source": "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "3911-H15",
+      "name": "Verdens Ende gjestehavn",
+      "area": 31326,
+      "count": 100,
+      "municipalities": [
+        "Færder"
+      ],
+      "municipality": "Færder",
+      "source": "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+      "reference_period": "Reference year unknown"
+    },
+    {
+      "gid": "4012-H03",
+      "name": "Valle gjestehavn / Sjøbua Marina",
+      "area": 13646,
+      "count": 120,
+      "municipalities": [
+        "Bamble"
+      ],
+      "municipality": "Bamble",
+      "source": "https://lokalhistoriewiki.no/wiki/Valle_(Bamble)",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "4012-H14",
+      "name": "Stathelle Marina",
+      "area": 35854,
+      "count": 445,
+      "municipalities": [
+        "Bamble"
+      ],
+      "municipality": "Bamble",
+      "source": "https://lokalhistoriewiki.no/wiki/%C3%85senbakken",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "X-HVERVEN-0301-3207",
+      "name": "Hvervenbukta / Fiskevollen – småbåthavn (Oslo-del)",
+      "area": 33834,
+      "count": 350,
+      "municipalities": [
+        "Nordre Follo",
+        "Oslo"
+      ],
+      "municipality": "Nordre Follo",
+      "source": "https://oppegaard-baatforening.no/foreningen.aspx",
+      "reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31"
+    },
+    {
+      "gid": "X-SALTHOLMEN-3112-3107",
+      "name": "Saltholmen båthavn / Saltnes båtforening – Råde-del",
+      "area": 12866,
+      "count": 220,
+      "municipalities": [
+        "Fredrikstad",
+        "Råde"
+      ],
+      "municipality": "Fredrikstad",
+      "source": "https://saltnesbf.no/?page_id=19",
+      "reference_period": "foreningen_oppgir_tall_med_medlemstall_pr_2021-01-01"
+    }
+  ],
+  "held_out_predictions": [
+    {
+      "gid": "3103-H01",
+      "observed": 376,
+      "predicted": 251.31495026578557,
+      "absolute_percentage_error": 0.3316091748250384,
+      "log_residual": 0.4028822089036397,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H02",
+      "observed": 409,
+      "predicted": 259.41539398319776,
+      "absolute_percentage_error": 0.36573253304841624,
+      "log_residual": 0.4552845413445711,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H03",
+      "observed": 100,
+      "predicted": 86.69751379068887,
+      "absolute_percentage_error": 0.13302486209311126,
+      "log_residual": 0.14274497861404137,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H04",
+      "observed": 300,
+      "predicted": 293.43084078416797,
+      "absolute_percentage_error": 0.02189719738610677,
+      "log_residual": 0.022140499324399515,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H05",
+      "observed": 360,
+      "predicted": 245.64619498819857,
+      "absolute_percentage_error": 0.3176494583661151,
+      "log_residual": 0.382211762521111,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H10",
+      "observed": 306,
+      "predicted": 283.5530719286696,
+      "absolute_percentage_error": 0.07335597408931495,
+      "log_residual": 0.07618579373452544,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H11",
+      "observed": 168,
+      "predicted": 144.72336232646185,
+      "absolute_percentage_error": 0.13855141472344135,
+      "log_residual": 0.1491399052634038,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3103-H21",
+      "observed": 16,
+      "predicted": 38.945017698177374,
+      "absolute_percentage_error": 1.4340636061360859,
+      "log_residual": -0.8895621265723246,
+      "held_out_municipalities": [
+        "Moss"
+      ]
+    },
+    {
+      "gid": "3105-H25",
+      "observed": 100,
+      "predicted": 83.54350873260464,
+      "absolute_percentage_error": 0.16456491267395365,
+      "log_residual": 0.17980262717136983,
+      "held_out_municipalities": [
+        "Sarpsborg"
+      ]
+    },
+    {
+      "gid": "3105-H33",
+      "observed": 1250,
+      "predicted": 644.06579053869,
+      "absolute_percentage_error": 0.484747367569048,
+      "log_residual": 0.6630979501883228,
+      "held_out_municipalities": [
+        "Sarpsborg"
+      ]
+    },
+    {
+      "gid": "3105-H35",
+      "observed": 400,
+      "predicted": 259.4666834178895,
+      "absolute_percentage_error": 0.35133329145527625,
+      "log_residual": 0.4328362403440871,
+      "held_out_municipalities": [
+        "Sarpsborg"
+      ]
+    },
+    {
+      "gid": "3107-H30",
+      "observed": 220,
+      "predicted": 161.84779291396677,
+      "absolute_percentage_error": 0.2643282140274238,
+      "log_residual": 0.30697120268744177,
+      "held_out_municipalities": [
+        "Fredrikstad"
+      ]
+    },
+    {
+      "gid": "3107-H31",
+      "observed": 300,
+      "predicted": 351.264650185977,
+      "absolute_percentage_error": 0.17088216728659006,
+      "log_residual": -0.15775745383649556,
+      "held_out_municipalities": [
+        "Fredrikstad"
+      ]
+    },
+    {
+      "gid": "3107-H41",
+      "observed": 285,
+      "predicted": 91.21264047589642,
+      "absolute_percentage_error": 0.679955647452995,
+      "log_residual": 1.1392956910833036,
+      "held_out_municipalities": [
+        "Fredrikstad"
+      ]
+    },
+    {
+      "gid": "3110-H28",
+      "observed": 250,
+      "predicted": 295.2203449546652,
+      "absolute_percentage_error": 0.1808813798186609,
+      "log_residual": -0.16626109171237113,
+      "held_out_municipalities": [
+        "Hvaler"
+      ]
+    },
+    {
+      "gid": "3112-H01",
+      "observed": 402,
+      "predicted": 267.79950090356084,
+      "absolute_percentage_error": 0.33383208730457503,
+      "log_residual": 0.40621351905464587,
+      "held_out_municipalities": [
+        "Råde"
+      ]
+    },
+    {
+      "gid": "3203-H06",
+      "observed": 250,
+      "predicted": 255.17865697964174,
+      "absolute_percentage_error": 0.020714627918566975,
+      "log_residual": -0.02050299758607899,
+      "held_out_municipalities": [
+        "Asker"
+      ]
+    },
+    {
+      "gid": "3203-H49",
+      "observed": 73,
+      "predicted": 69.02879244461039,
+      "absolute_percentage_error": 0.054400103498487826,
+      "log_residual": 0.05593574178302494,
+      "held_out_municipalities": [
+        "Asker"
+      ]
+    },
+    {
+      "gid": "3212-H02",
+      "observed": 180,
+      "predicted": 277.8870562352175,
+      "absolute_percentage_error": 0.5438169790845419,
+      "log_residual": -0.434257907714192,
+      "held_out_municipalities": [
+        "Nesodden"
+      ]
+    },
+    {
+      "gid": "3212-H07",
+      "observed": 290,
+      "predicted": 227.0331108439344,
+      "absolute_percentage_error": 0.21712720398643312,
+      "log_residual": 0.24478505338744375,
+      "held_out_municipalities": [
+        "Nesodden"
+      ]
+    },
+    {
+      "gid": "3214-H03",
+      "observed": 90,
+      "predicted": 80.74263454351717,
+      "absolute_percentage_error": 0.10285961618314256,
+      "log_residual": 0.10854292547104413,
+      "held_out_municipalities": [
+        "Frogn"
+      ]
+    },
+    {
+      "gid": "3214-H07",
+      "observed": 68,
+      "predicted": 124.79919273169202,
+      "absolute_percentage_error": 0.8352822460542944,
+      "log_residual": -0.6071982822422421,
+      "held_out_municipalities": [
+        "Frogn"
+      ]
+    },
+    {
+      "gid": "3214-H08",
+      "observed": 110,
+      "predicted": 189.47615752796014,
+      "absolute_percentage_error": 0.7225105229814558,
+      "log_residual": -0.5437828330199365,
+      "held_out_municipalities": [
+        "Frogn"
+      ]
+    },
+    {
+      "gid": "3214-H11",
+      "observed": 48,
+      "predicted": 54.90284542578067,
+      "absolute_percentage_error": 0.14380927970376392,
+      "log_residual": -0.13436416551369743,
+      "held_out_municipalities": [
+        "Frogn"
+      ]
+    },
+    {
+      "gid": "3905-H14",
+      "observed": 170,
+      "predicted": 298.46767873378036,
+      "absolute_percentage_error": 0.7556922278457668,
+      "log_residual": -0.5628632109709969,
+      "held_out_municipalities": [
+        "Tønsberg"
+      ]
+    },
+    {
+      "gid": "3905-H20",
+      "observed": 160,
+      "predicted": 152.86828410223825,
+      "absolute_percentage_error": 0.044573224361010945,
+      "log_residual": 0.04559715283913453,
+      "held_out_municipalities": [
+        "Tønsberg"
+      ]
+    },
+    {
+      "gid": "3905-H21",
+      "observed": 75,
+      "predicted": 82.24032740365229,
+      "absolute_percentage_error": 0.09653769871536383,
+      "log_residual": -0.09215766923815857,
+      "held_out_municipalities": [
+        "Tønsberg"
+      ]
+    },
+    {
+      "gid": "3907-H01",
+      "observed": 52,
+      "predicted": 103.06706570895817,
+      "absolute_percentage_error": 0.9820589559415033,
+      "log_residual": -0.6841361811472908,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H02",
+      "observed": 20,
+      "predicted": 35.05192834242865,
+      "absolute_percentage_error": 0.7525964171214327,
+      "log_residual": -0.5610983553156206,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H03",
+      "observed": 107,
+      "predicted": 287.89861162629313,
+      "absolute_percentage_error": 1.6906412301522722,
+      "log_residual": -0.9897795407281083,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H04",
+      "observed": 10,
+      "predicted": 70.04310330624946,
+      "absolute_percentage_error": 6.004310330624946,
+      "log_residual": -1.946525721069828,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H06",
+      "observed": 18,
+      "predicted": 52.22689056222944,
+      "absolute_percentage_error": 1.9014939201238579,
+      "log_residual": -1.0652257492211565,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H07",
+      "observed": 84,
+      "predicted": 53.81426969183535,
+      "absolute_percentage_error": 0.35935393224005535,
+      "log_residual": 0.4452781309366794,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H09",
+      "observed": 65,
+      "predicted": 51.39754348206753,
+      "absolute_percentage_error": 0.20926856181434564,
+      "log_residual": 0.23479689075427462,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H10",
+      "observed": 30,
+      "predicted": 38.40369251411428,
+      "absolute_percentage_error": 0.28012308380380946,
+      "log_residual": -0.24695623253025034,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H11",
+      "observed": 109,
+      "predicted": 111.71493176588307,
+      "absolute_percentage_error": 0.02490763087966115,
+      "log_residual": -0.024602492314696765,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H12",
+      "observed": 66,
+      "predicted": 52.16692882744295,
+      "absolute_percentage_error": 0.20959198746298557,
+      "log_residual": 0.23520599528076408,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H13",
+      "observed": 157,
+      "predicted": 103.57319114818077,
+      "absolute_percentage_error": 0.34029814555298876,
+      "log_residual": 0.41596728171131586,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H14",
+      "observed": 180,
+      "predicted": 160.60552505405724,
+      "absolute_percentage_error": 0.10774708303301533,
+      "log_residual": 0.1140056473911147,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H15",
+      "observed": 195,
+      "predicted": 144.74458362245068,
+      "absolute_percentage_error": 0.2577200839874324,
+      "log_residual": 0.29802886165391773,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H16",
+      "observed": 103,
+      "predicted": 104.22420216156075,
+      "absolute_percentage_error": 0.011885457879230623,
+      "log_residual": -0.011815380545687565,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H17",
+      "observed": 120,
+      "predicted": 102.91118200220296,
+      "absolute_percentage_error": 0.14240681664830865,
+      "log_residual": 0.15362543721434005,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H18",
+      "observed": 275,
+      "predicted": 242.068228782685,
+      "absolute_percentage_error": 0.11975189533569092,
+      "log_residual": 0.1275514741281525,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H19",
+      "observed": 115,
+      "predicted": 202.83788272972433,
+      "absolute_percentage_error": 0.7638076759106464,
+      "log_residual": -0.5674749243791574,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H20",
+      "observed": 128,
+      "predicted": 121.39678084394014,
+      "absolute_percentage_error": 0.05158764965671769,
+      "log_residual": 0.052965902582042215,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H21",
+      "observed": 208,
+      "predicted": 291.46386703125165,
+      "absolute_percentage_error": 0.40126859149640215,
+      "log_residual": -0.33737796311025886,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H22",
+      "observed": 270,
+      "predicted": 264.09646501709886,
+      "absolute_percentage_error": 0.021864944381115317,
+      "log_residual": 0.02210752480153294,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H23",
+      "observed": 130,
+      "predicted": 148.67064474843306,
+      "absolute_percentage_error": 0.14362034421871586,
+      "log_residual": -0.13419897093590422,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H24",
+      "observed": 63,
+      "predicted": 49.397443867506865,
+      "absolute_percentage_error": 0.21591358940465294,
+      "log_residual": 0.24323604710913624,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H25",
+      "observed": 111,
+      "predicted": 84.97897836990312,
+      "absolute_percentage_error": 0.2344236182891611,
+      "log_residual": 0.26712628870425137,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H26",
+      "observed": 80,
+      "predicted": 78.07214355016686,
+      "absolute_percentage_error": 0.024098205622914294,
+      "log_residual": 0.02439331814690917,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H27",
+      "observed": 83,
+      "predicted": 55.163562398158355,
+      "absolute_percentage_error": 0.3353787662872487,
+      "log_residual": 0.40853797395909425,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H28",
+      "observed": 50,
+      "predicted": 126.82644222571959,
+      "absolute_percentage_error": 1.5365288445143919,
+      "log_residual": -0.9307965497377503,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H29",
+      "observed": 50,
+      "predicted": 95.25061790948602,
+      "absolute_percentage_error": 0.9050123581897205,
+      "log_residual": -0.6444884957963206,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H30",
+      "observed": 91,
+      "predicted": 84.84462515361582,
+      "absolute_percentage_error": 0.06764148182839755,
+      "log_residual": 0.07003786211565914,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H31",
+      "observed": 55,
+      "predicted": 74.15014604799471,
+      "absolute_percentage_error": 0.34818447359990384,
+      "log_residual": -0.2987588529785893,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H32",
+      "observed": 92,
+      "predicted": 61.80119568543651,
+      "absolute_percentage_error": 0.32824787298438574,
+      "log_residual": 0.3978658651117738,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H33",
+      "observed": 60,
+      "predicted": 39.387743720173674,
+      "absolute_percentage_error": 0.3435376046637721,
+      "log_residual": 0.42088986740352174,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H34",
+      "observed": 82,
+      "predicted": 46.70374703129283,
+      "absolute_percentage_error": 0.4304421093744777,
+      "log_residual": 0.5628948495920341,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H35",
+      "observed": 63,
+      "predicted": 77.77506948500697,
+      "absolute_percentage_error": 0.23452491246042803,
+      "log_residual": -0.2106862098023375,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H36",
+      "observed": 55,
+      "predicted": 58.69059327841,
+      "absolute_percentage_error": 0.06710169597109089,
+      "log_residual": -0.06494627796635266,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H37",
+      "observed": 45,
+      "predicted": 118.45807789115918,
+      "absolute_percentage_error": 1.6324017309146484,
+      "log_residual": -0.9678966351420241,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H38",
+      "observed": 16,
+      "predicted": 30.063535737507536,
+      "absolute_percentage_error": 0.878970983594221,
+      "log_residual": -0.6307242778396179,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H39",
+      "observed": 30,
+      "predicted": 20.150266728463386,
+      "absolute_percentage_error": 0.3283244423845538,
+      "log_residual": 0.3979798562124887,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H40",
+      "observed": 31,
+      "predicted": 38.54849858225224,
+      "absolute_percentage_error": 0.24349995426620138,
+      "log_residual": -0.21792994748303568,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H41",
+      "observed": 24,
+      "predicted": 46.84016320806084,
+      "absolute_percentage_error": 0.9516734670025349,
+      "log_residual": -0.6686871927491308,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H42",
+      "observed": 38,
+      "predicted": 34.38629949224008,
+      "absolute_percentage_error": 0.09509738178315585,
+      "log_residual": 0.09992794525223873,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H43",
+      "observed": 14,
+      "predicted": 28.77745173159163,
+      "absolute_percentage_error": 1.0555322665422593,
+      "log_residual": -0.7205348248936249,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H44",
+      "observed": 14,
+      "predicted": 27.415159108826117,
+      "absolute_percentage_error": 0.958225650630437,
+      "log_residual": -0.6720387829381601,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H45",
+      "observed": 42,
+      "predicted": 49.5193593319888,
+      "absolute_percentage_error": 0.17903236504735243,
+      "log_residual": -0.16469407244847367,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H46",
+      "observed": 35,
+      "predicted": 40.98557323839633,
+      "absolute_percentage_error": 0.17101637823989507,
+      "log_residual": -0.15787207105909748,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H47",
+      "observed": 40,
+      "predicted": 46.91452085149382,
+      "absolute_percentage_error": 0.1728630212873455,
+      "log_residual": -0.15944778645631924,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H48",
+      "observed": 47,
+      "predicted": 48.970012430435105,
+      "absolute_percentage_error": 0.041915158094363934,
+      "log_residual": -0.04106051784189512,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H49",
+      "observed": 22,
+      "predicted": 43.467907090305964,
+      "absolute_percentage_error": 0.9758139586502711,
+      "log_residual": -0.6809804444126093,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H50",
+      "observed": 29,
+      "predicted": 30.925703533983896,
+      "absolute_percentage_error": 0.06640357013737572,
+      "log_residual": -0.06429183771750781,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H51",
+      "observed": 27,
+      "predicted": 37.7168753184727,
+      "absolute_percentage_error": 0.39692130809158155,
+      "log_residual": -0.3342707494768089,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H52",
+      "observed": 34,
+      "predicted": 27.210506915859884,
+      "absolute_percentage_error": 0.1996909730629446,
+      "log_residual": 0.22275734223122023,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H53",
+      "observed": 30,
+      "predicted": 35.87521290630735,
+      "absolute_percentage_error": 0.1958404302102449,
+      "log_residual": -0.17884922707060782,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H54",
+      "observed": 30,
+      "predicted": 33.015440393315615,
+      "absolute_percentage_error": 0.10051467977718716,
+      "log_residual": -0.09577796108413379,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H55",
+      "observed": 38,
+      "predicted": 40.07862414954835,
+      "absolute_percentage_error": 0.054700635514430176,
+      "log_residual": -0.05325696885493871,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H56",
+      "observed": 16,
+      "predicted": 25.256909240180565,
+      "absolute_percentage_error": 0.5785568275112853,
+      "log_residual": -0.45651102932530896,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H57",
+      "observed": 102,
+      "predicted": 69.39547061797258,
+      "absolute_percentage_error": 0.3196522488434061,
+      "log_residual": 0.38515121277206876,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H58",
+      "observed": 57,
+      "predicted": 61.48205474510966,
+      "absolute_percentage_error": 0.07863253938788872,
+      "log_residual": -0.07569407163568619,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H59",
+      "observed": 28,
+      "predicted": 28.734282505250107,
+      "absolute_percentage_error": 0.02622437518750382,
+      "log_residual": -0.025886412106138755,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H60",
+      "observed": 22,
+      "predicted": 29.793450637287823,
+      "absolute_percentage_error": 0.3542477562403556,
+      "log_residual": -0.30324613872625833,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H61",
+      "observed": 41,
+      "predicted": 22.064182189471516,
+      "absolute_percentage_error": 0.4618492148909386,
+      "log_residual": 0.6196164883691285,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H62",
+      "observed": 31,
+      "predicted": 22.994448714315787,
+      "absolute_percentage_error": 0.25824358986078105,
+      "log_residual": 0.29873437793520835,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H63",
+      "observed": 48,
+      "predicted": 42.972430477847546,
+      "absolute_percentage_error": 0.10474103171150946,
+      "log_residual": 0.11064225251792578,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3907-H64",
+      "observed": 32,
+      "predicted": 109.79013459506719,
+      "absolute_percentage_error": 2.4309417060958496,
+      "log_residual": -1.2328347733780984,
+      "held_out_municipalities": [
+        "Sandefjord"
+      ]
+    },
+    {
+      "gid": "3909-H11",
+      "observed": 143,
+      "predicted": 68.89801599259815,
+      "absolute_percentage_error": 0.5181956923594535,
+      "log_residual": 0.7302172481179083,
+      "held_out_municipalities": [
+        "Larvik"
+      ]
+    },
+    {
+      "gid": "3909-H18",
+      "observed": 100,
+      "predicted": 136.60310563055435,
+      "absolute_percentage_error": 0.36603105630554356,
+      "log_residual": -0.31190949610651403,
+      "held_out_municipalities": [
+        "Larvik"
+      ]
+    },
+    {
+      "gid": "3911-H14",
+      "observed": 100,
+      "predicted": 169.0825153626914,
+      "absolute_percentage_error": 0.690825153626914,
+      "log_residual": -0.5252166663604939,
+      "held_out_municipalities": [
+        "Færder"
+      ]
+    },
+    {
+      "gid": "3911-H15",
+      "observed": 100,
+      "predicted": 314.1659953496807,
+      "absolute_percentage_error": 2.141659953496807,
+      "log_residual": -1.1447513078456895,
+      "held_out_municipalities": [
+        "Færder"
+      ]
+    },
+    {
+      "gid": "4012-H03",
+      "observed": 120,
+      "predicted": 151.27367432917916,
+      "absolute_percentage_error": 0.2606139527431596,
+      "log_residual": -0.23159886637066557,
+      "held_out_municipalities": [
+        "Bamble"
+      ]
+    },
+    {
+      "gid": "4012-H14",
+      "observed": 445,
+      "predicted": 317.06604339000086,
+      "absolute_percentage_error": 0.2874920373258408,
+      "log_residual": 0.33896419121874843,
+      "held_out_municipalities": [
+        "Bamble"
+      ]
+    },
+    {
+      "gid": "X-HVERVEN-0301-3207",
+      "observed": 350,
+      "predicted": 302.3028518230296,
+      "absolute_percentage_error": 0.13627756621991546,
+      "log_residual": 0.14650381899120618,
+      "held_out_municipalities": [
+        "Nordre Follo",
+        "Oslo"
+      ]
+    },
+    {
+      "gid": "X-SALTHOLMEN-3112-3107",
+      "observed": 220,
+      "predicted": 135.6423457506959,
+      "absolute_percentage_error": 0.3834438829513822,
+      "log_residual": 0.48360593529949086,
+      "held_out_municipalities": [
+        "Fredrikstad",
+        "Råde"
+      ]
+    }
+  ],
+  "inputs_sha256": {
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "f69bc92577d030b782c80e58af6d9b0c02f577e1c3dd3219a820896f2ac2258b",
+    "site/labs/oslofjord-bathavner/data/enrichment.json": "99cf17c6cd8d1ace6700e2094965426c885d9e42f211d5d034349ae4eac8d0d1",
+    "scripts/estimate_harbour_capacity.py": "b277661506268f20777eb3a08c2972d54d1750909471c66e415b76d57d56030e"
+  }
+}

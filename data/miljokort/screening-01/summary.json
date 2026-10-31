@@ -1,0 +1,24 @@
+{
+  "reviewed_date": "2026-10-31",
+  "denominator": 664,
+  "polygons": 816,
+  "eligible_lower_bound": 69,
+  "counts": {
+    "uavklart": 595,
+    "kortgrunnlag": 50,
+    "historisk_kortgrunnlag": 19
+  },
+  "evidence": 77,
+  "source_requests": 306,
+  "source_access_errors": 24,
+  "source_parse_errors": 6,
+  "all_groups_in_inventory": true,
+  "all_groups_individually_web_searched": false,
+  "full_ecological_assessment": false,
+  "baseline_sha256": "f69bc92577d030b782c80e58af6d9b0c02f577e1c3dd3219a820896f2ac2258b",
+  "method": "Minst ett konkret stedskoblet miljøtiltak, tjeneste, rutine eller datert historisk plan. Søkeordtreff eller generelle regler alene teller ikke. Telles per offentlig gid, aldri per polygon eller operatør.",
+  "outside_denominator_cards": [
+    "MK-06 Bispebrygga: kartkobling til de 664 uavklart"
+  ],
+  "note": "Dette er en dokumentert nedre grense, ikke en endelig øvre grense for hvor mange som kan få kort. Kortgrunnlag betyr ikke bekreftet drift eller positiv miljøprestasjon."
+}

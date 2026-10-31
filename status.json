@@ -533,5 +533,50 @@
    "combined_unchanged": false,
    "approved_utc": "2026-10-31T16:57:52Z"
   }
- ]
+ ],
+ "environment_card_pilots": [
+  {
+   "path": "data/miljokort/pilot-01",
+   "status": "kildegjennomgang_ferdig_til_vurdering",
+   "cards": 6,
+   "observations": 25,
+   "sources": 19,
+   "reviewed_date": "2026-10-31",
+   "geometry_changed": false,
+   "website_changed": true,
+   "website_data": "site/labs/oslofjord-bathavner/data/environment-cards.json",
+   "map_link_status": "geografisk_kontekst_eller_adressepunkt_driftsgrenser_uavklart"
+  }
+ ],
+ "environment_card_screening": {
+  "path": "data/miljokort/screening-01",
+  "status": "kildescreening_ferdig_nedre_grense",
+  "reviewed_date": "2026-10-31",
+  "groups": 664,
+  "documented_lower_bound": 69,
+  "concrete_sources": 50,
+  "historical_plan_only": 19,
+  "unresolved": 595,
+  "all_groups_individually_web_searched": false,
+  "geometry_changed": false,
+  "website_changed": false
+ },
+ "capacity_estimation": {
+  "status": "experimental_local",
+  "model": "area-log-municipality-balanced-v1",
+  "documentation": "docs/KAPASITETSANSLAG.md",
+  "report": "site/labs/oslofjord-bathavner/data/capacity-model.json",
+  "training_groups": 97,
+  "training_municipalities": 15,
+  "estimated_groups": 567,
+  "median_absolute_percentage_error": 0.2643282140274238,
+  "categories": {
+   "likely_ge_200": 16,
+   "likely_lt_200": 203,
+   "uncertain": 348
+  },
+  "published_capacity_preserved": true,
+  "approved_geometry_unchanged": true,
+  "regulatory_applicability_assessed": false
+ }
 }

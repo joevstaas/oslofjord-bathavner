@@ -1,0 +1,1124 @@
+{
+  "type": "FeatureCollection",
+  "schema_version": 1,
+  "status": "source_review_pilot",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.69403,
+          59.89899
+        ]
+      },
+      "properties": {
+        "id": "MK-01",
+        "slug": "lille-herbern",
+        "name": "Lille Herbern – Oslo Seilforening",
+        "place": "Lille Herbern, Oslo",
+        "operator": "Oslo Seilforening",
+        "source_ids": [
+          "S01"
+        ],
+        "map_link": {
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "0301-H13"
+          ],
+          "coordinates": [
+            10.69403,
+            59.89899
+          ],
+          "coordinate_kind": "navnepunkt",
+          "source_ids": [
+            "L02",
+            "L04"
+          ],
+          "note": "Kartverkets navnepunkt på øya. Tilknyttet nærliggende kartgruppe 0301-H13 som geografisk kontekst; det generiske gruppenavnet er ikke endret. Punktet angir ikke spyleplass.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [
+          {
+            "type": "felles_rensetjeneste",
+            "target": "Axon-anlegg på Hovedøya",
+            "status": "opplyst_av_operatør",
+            "source_ids": [
+              "S01"
+            ],
+            "note": "Samarbeid med Arbeidernes båtforening. Ikke likestilt med Revierhavnens eget tiltak."
+          }
+        ],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "opplyst_etablert",
+            "claim": "Foreningen beskriver oppsamling via sandfang/pumpekum og tankflåte, med transport til felles rensing på Hovedøya.",
+            "source_ids": [
+              "S01"
+            ],
+            "source_locator": "Høytrykkspyling av båter og rensing av spylevann",
+            "scope": "Oppsamling på Lille Herbern; rensing på Hovedøya.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Driftsbekreftelse for 2026, mengder, kapasitet og behandlingskvitteringer.",
+            "next_action": "Be operatøren om siste driftslogg og dokumentasjon fra mottak/rensing.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-01-01",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Slipestøv",
+            "status": "rutine_publisert",
+            "claim": "Plastunderlag eller støvsuging foreskrives; rester leveres til miljøstasjonen.",
+            "source_ids": [
+              "S01"
+            ],
+            "source_locator": "Håndtering av avfall ved båtpuss",
+            "scope": "Båtpuss på land.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Etterlevelse og hvor mye som faktisk fanges opp.",
+            "next_action": "Kontroller rutine og gjennomføring ved neste vedlikeholdssesong.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-01-02",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Farlig avfall",
+            "status": "opplyst_etablert",
+            "claim": "Miljøstasjon og levering med kvittering/deklarasjon beskrives.",
+            "source_ids": [
+              "S01"
+            ],
+            "source_locator": "Avfallsplan / miljøstasjonen",
+            "scope": "Miljøstasjon og levering fra Lille Herbern.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Nyeste leveringsbilag og mengder; offentlig plan viser også eldre innsendingsdato.",
+            "next_action": "Be om siste deklarasjoner og avklar planens revisjons-/godkjenningshistorikk.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-01-03",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Renseeffekt og naturtilstand",
+            "status": "ukjent",
+            "claim": "Ingen anleggsspesifikke analyser eller naturmålinger funnet i gjennomgått kilde.",
+            "source_ids": [
+              "S01"
+            ],
+            "source_locator": "HMS plan, gjennomgått side",
+            "scope": "Ingen effekt overføres fra renseprodukt til havn.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Innløps-/utløpsprøver, vannmengder og separat naturundersøkelse.",
+            "next_action": "Innhent prøver med metode, dato og driftsforhold; vurder behov for naturfaglig oppfølging.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-01-04",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T19:01:23.719439+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Oppsamling og felles rensing opplyst etablert."
+            ],
+            [
+              "Båtpuss",
+              "Rutine for støvoppsamling publisert."
+            ],
+            [
+              "Arbeidsavfall",
+              "Levering med kvittering/deklarasjon beskrevet."
+            ]
+          ],
+          "next_question": "Bekreft drift i 2026 og innhent renseprøver."
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L02",
+            "url": "https://www.osloseilforening.no/next/p/13956/havnereglement",
+            "title": "Oslo Seilforening – havnereglement",
+            "publisher": "Oslo Seilforening",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T20:47:00.297656+00:00"
+          },
+          {
+            "id": "L04",
+            "url": "https://ws.geonorge.no/stedsnavn/v1/navn?sok=Lille%20Herbern&fuzzy=false&utkoordsys=4258",
+            "title": "Kartverket – Lille Herbern navnepunkt",
+            "publisher": "Kartverket",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T20:47:00.297656+00:00"
+          },
+          {
+            "id": "S01",
+            "url": "https://www.osloseilforening.no/next/p/14151/hms",
+            "title": "HMS plan",
+            "publisher": "Oslo Seilforening",
+            "source_type": "operatør",
+            "published_or_updated": "2025-11",
+            "retrieved_utc": "2026-10-31T19:00:19.009839+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.675050922071431,
+          59.92046236659484
+        ]
+      },
+      "properties": {
+        "id": "MK-02",
+        "slug": "karenslyst",
+        "name": "Karenslyst båtopplag / Sjølyst",
+        "place": "Skøyen, Oslo",
+        "operator": "Karenslyst båtopplag / Sjølyst Marina (omtalt i kildene; juridisk ansvar må avklares)",
+        "source_ids": [
+          "S03",
+          "S04"
+        ],
+        "map_link": {
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "0301-H02"
+          ],
+          "coordinates": [
+            10.675050922071431,
+            59.92046236659484
+          ],
+          "coordinate_kind": "adressepunkt",
+          "source_ids": [
+            "L03",
+            "L05"
+          ],
+          "note": "Publisert besøksadresse, kontrollert mot Kartverkets adressepunkt. Dette er et landpunkt, ikke nøyaktig plassering av spyleplass. Sjølyst-gruppen er geografisk kontekst; brukere og ansvarsgrenser er ikke kartlagt. Kartverket oppgir stedfestingverifisert=false.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [
+          {
+            "type": "mobil_rensetjeneste",
+            "target": "Toxiclean",
+            "status": "opplyst_av_leverandør",
+            "source_ids": [
+              "S03"
+            ]
+          }
+        ],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "opplyst_etablert",
+            "claim": "Leverandøren beskriver tett oppsamling til tank og mobil rensing på stedet.",
+            "source_ids": [
+              "S03"
+            ],
+            "source_locator": "Beskrivelse av spyleplass og oppsamlingstank",
+            "scope": "Spyleplass ved Karenslyst; ikke alle havne- eller opplagsarealer.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Oppdatert drift, dekningsgrad og driftsavvik.",
+            "next_action": "Be operatøren om driftslogg og tegning av området som samles opp.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-02-01",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Renseeffekt",
+            "status": "påstand_uten_målerapport",
+            "claim": "Presseomtalen gjengir høy rensegrad, men tilgjengelig omtale inneholder ikke prøveresultater for anlegget.",
+            "source_ids": [
+              "S04",
+              "S03"
+            ],
+            "source_locator": "Fjerner 95 prosent av miljøgiftene / Offisiell åpning",
+            "scope": "Produkt-/pressepåstand er ikke målt lokal effekt.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Analyser, prøvetakingsmetode, vannmengder og driftsbetingelser.",
+            "next_action": "Be Bymiljøetaten/operatør om rapportene fra omtalt prøvetaking.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-02-02",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Tidslinje",
+            "status": "kildeavvik",
+            "claim": "Leverandøren omtaler åpning i oktober 2025; presseomtalen oppgir en åpning i juni 2026.",
+            "source_ids": [
+              "S03",
+              "S04"
+            ],
+            "source_locator": "Offisiell åpning / bildetekst og ingress",
+            "scope": "Datoene beholdes hver for seg.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Om dette er ulike trinn, ny åpning eller feil i omtalen.",
+            "next_action": "Be operatøren avklare idriftsettelse og senere oppgraderinger.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-02-03",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Slipestøv, avfall og naturtilstand",
+            "status": "ukjent",
+            "claim": "Spylevannsomtalen gir ikke et fullstendig bilde av støvoppsamling, avfallsleveranser eller naturtilstand.",
+            "source_ids": [
+              "S03",
+              "S04"
+            ],
+            "source_locator": "Gjennomgåtte artikler",
+            "scope": "Ikke en konklusjon om at tiltak mangler.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Rutiner og leveringsbilag samt eventuell miljøovervåking.",
+            "next_action": "Innhent miljø-/avfallsplan og siste leveringsbilag.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-02-04",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T19:01:23.719439+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Oppsamling og mobil rensing opplyst etablert."
+            ],
+            [
+              "Båtpuss",
+              "Støvoppsamling er ikke avklart."
+            ],
+            [
+              "Arbeidsavfall",
+              "Leveringsordning er ikke avklart."
+            ]
+          ],
+          "next_question": "Avklar oppstartsdato og innhent prøverapport."
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L03",
+            "url": "https://baterisjoen.no/utstillerinformasjon/",
+            "title": "Båter i Sjøen – adresse til Karenslyst båtopplag",
+            "publisher": "Båter i Sjøen",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T20:47:00.297656+00:00"
+          },
+          {
+            "id": "L05",
+            "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Drammensveien%20164%20Oslo&treffPerSide=5",
+            "title": "Kartverket – Drammensveien 164 adressepunkt",
+            "publisher": "Kartverket",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T20:47:00.297656+00:00"
+          },
+          {
+            "id": "S03",
+            "url": "https://toxiclean.no/karenslyst-batopplag-med-nytt-toxiclean-anlegg/",
+            "title": "Karenslyst båtopplag – nytt anlegg",
+            "publisher": "Toxiclean",
+            "source_type": "leverandør",
+            "published_or_updated": "2025-10-28",
+            "retrieved_utc": "2026-10-31T19:00:19.656372+00:00"
+          },
+          {
+            "id": "S04",
+            "url": "https://b-v.no/artikkel/-pnet-nytt-renseanlegg-i-hovedstaden",
+            "title": "Åpnet nytt renseanlegg i hovedstaden",
+            "publisher": "Båtens Verden",
+            "source_type": "presse; bygger på pressemelding fra foreningen",
+            "published_or_updated": "2026-06-13",
+            "retrieved_utc": "2026-10-31T19:00:20.329297+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.733333333333333,
+          59.89972222222222
+        ]
+      },
+      "properties": {
+        "id": "MK-03",
+        "slug": "revierhavnen",
+        "name": "Revierhavnens Baatforening",
+        "place": "Hovedøya, Oslo",
+        "operator": "Revierhavnens Baatforening",
+        "source_ids": [
+          "S02"
+        ],
+        "map_link": {
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "0301-H23"
+          ],
+          "coordinates": [
+            10.733333333333333,
+            59.89972222222222
+          ],
+          "coordinate_kind": "publisert_omtrentlig_posisjon",
+          "source_ids": [
+            "L01"
+          ],
+          "note": "Foreningens publiserte posisjon; lengdegrad oppgitt med hele minutter og derfor grov. Hovedøya-gruppen omfatter flere foreninger. Kortet gjelder Revierhavnen, ikke hele kartgruppen. Østslippen er ikke presist stedfestet.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "under_etablering_opplyst",
+            "claim": "Foreningen beskriver en mobil oppsamlings-/renseløsning med Østslippen som første etablering høsten 2026.",
+            "source_ids": [
+              "S02"
+            ],
+            "source_locator": "Etablering av spyleplass med oppsamling og rensing",
+            "scope": "Østslippen; ikke automatisk hele havnen.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Bekreftet ferdigstillelse og faktisk drift.",
+            "next_action": "Be om datert idriftsettelsesbekreftelse og første driftslogg.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-03-01",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Farlig avfall",
+            "status": "opplyst_etablert",
+            "claim": "Foreningen beskriver miljøcontainer og sortert, deklarert levering.",
+            "source_ids": [
+              "S02"
+            ],
+            "source_locator": "Avfallshåndtering og farlig avfall",
+            "scope": "Foreningens miljøcontainer.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Aktuelle bilag og mengder.",
+            "next_action": "Be om siste leveringsbekreftelser og avfallsplan.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-03-02",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Organisering",
+            "status": "opplyst_etablert",
+            "claim": "Miljøgruppe og øremerket miljøavgift beskrives.",
+            "source_ids": [
+              "S02"
+            ],
+            "source_locator": "Miljøgruppe",
+            "scope": "Organisering er ikke dokumentasjon av miljøeffekt.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Gjeldende tiltaksplan, ansvar og fremdrift.",
+            "next_action": "Be om årets tiltaksplan med ansvarlig funksjon.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-03-03",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Septik",
+            "status": "opplyst_tilgang",
+            "claim": "Foreningen viser til kommunalt tømmepunkt i bukta og mobil tjeneste.",
+            "source_ids": [
+              "S02"
+            ],
+            "source_locator": "Kloakktømming/septik",
+            "scope": "Tilgang i nærområdet, ikke eget anlegg bekreftet.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Eksakt mottakssted, eier, tilgjengelighet og driftsstatus.",
+            "next_action": "Kontroller hos kommunen; registrer mottaket som separat tjeneste.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-03-04",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          },
+          {
+            "topic": "Renseeffekt og naturtilstand",
+            "status": "ukjent",
+            "claim": "Gjennomgått side inneholder ikke måleresultater for renseeffekt eller lokal naturtilstand.",
+            "source_ids": [
+              "S02"
+            ],
+            "source_locator": "Miljøtiltak, gjennomgått side",
+            "scope": "Ingen effekt beregnet.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Prøveopplegg og eventuelle naturmålinger.",
+            "next_action": "Avklar prøvetaking etter idriftsettelse og behov for naturfaglig oppfølging.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "id": "MK-03-05",
+            "reviewed_utc": "2026-10-31T19:01:23.719439+00:00"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T19:01:23.719439+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Under etablering ifølge foreningen."
+            ],
+            [
+              "Båtpuss",
+              "Støvoppsamling er ikke avklart."
+            ],
+            [
+              "Arbeidsavfall",
+              "Miljøcontainer og deklarert levering oppgitt."
+            ]
+          ],
+          "next_question": "Er spyleplassen på Østslippen satt i drift?"
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L01",
+            "url": "https://1853.no/omradekart",
+            "title": "Revierhavnen – eget områdekart og publisert posisjon",
+            "publisher": "Revierhavnen",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T20:47:00.297656+00:00"
+          },
+          {
+            "id": "S02",
+            "url": "https://1853.no/miljotiltak",
+            "title": "Miljøtiltak",
+            "publisher": "Revierhavnens Baatforening",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T19:00:19.370251+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.684867749738906,
+          59.52579571005924
+        ]
+      },
+      "properties": {
+        "id": "MK-04",
+        "slug": "sonskilen",
+        "name": "Sonskilen Båthavn",
+        "place": "Son, Vestby",
+        "operator": "Sonskilen Båthavn",
+        "source_ids": [
+          "S05"
+        ],
+        "map_link": {
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "3216-H02"
+          ],
+          "coordinates": [
+            10.684867749738906,
+            59.52579571005924
+          ],
+          "coordinate_kind": "adressepunkt",
+          "source_ids": [
+            "L06",
+            "L09"
+          ],
+          "note": "Publisert besøksadresse Kolåsveien 30 kontrollert mot Kartverkets adressepunkt. Punktet viser ikke nøyaktig spyleplass. Kartgruppen 3216-H02 omfatter flere aktører; kortet gjelder Sonskilen, ikke alle brygger i gruppen.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "opplyst_etablert",
+            "claim": "Operatøren beskriver en spyleplass med sandfang og filter, samt levering av oppsamlet avfall.",
+            "source_ids": [
+              "S05"
+            ],
+            "source_locator": "Rensing av spylevann",
+            "scope": "Sonskilens spyleplass; ikke hele Son havn.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Datert driftsbekreftelse, dekningsgrad og vedlikeholdslogg.",
+            "next_action": "Be om siste drifts- og vedlikeholdslogg.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-04-01"
+          },
+          {
+            "topic": "Båtpuss",
+            "status": "rutine_publisert",
+            "claim": "Underlag og oppsamling ved skraping beskrives; sand- og tørrisblåsing tillates ikke.",
+            "source_ids": [
+              "S05"
+            ],
+            "source_locator": "Fjerning av bunnstoff",
+            "scope": "Bunnstoffarbeid hos Sonskilen.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Etterlevelse i praksis.",
+            "next_action": "Kontroller gjennomføring ved vedlikehold.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-04-02"
+          },
+          {
+            "topic": "Farlig avfall",
+            "status": "opplyst_etablert",
+            "claim": "Mottak for utvalgte avfallstyper og levering av bunnstoffrester til avfallsmottaker beskrives.",
+            "source_ids": [
+              "S05"
+            ],
+            "source_locator": "Mottaksstasjon for Farlig Avfall / Fjerning av bunnstoff",
+            "scope": "Utvalgte avfallstyper; siden henviser andre fraksjoner til eksternt mottak.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Nyeste deklarasjoner og mottaksbilag.",
+            "next_action": "Be om avfallsplan og leveringsbilag.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-04-03"
+          },
+          {
+            "topic": "Renseeffekt og naturtilstand",
+            "status": "ukjent",
+            "claim": "Ingen lokal målerapport eller naturundersøkelse følger miljøbeskrivelsen.",
+            "source_ids": [
+              "S05"
+            ],
+            "source_locator": "Miljøfokus i havna",
+            "scope": "Ingen utslippsreduksjon eller økologisk effekt er beregnet.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Prøver med dato, metode og vannmengder.",
+            "next_action": "Innhent representative prøver før og etter rensing.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-04-04"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Sandfang og filterrensing opplyst etablert."
+            ],
+            [
+              "Båtpuss",
+              "Oppsamling av bunnstoff beskrevet."
+            ],
+            [
+              "Arbeidsavfall",
+              "Levering av bunnstoffrester beskrevet."
+            ]
+          ],
+          "next_question": "Bekreft dagens drift og innhent renseprøver."
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L06",
+            "url": "https://www.sonskilen.no/kontakt",
+            "title": "Kontakt",
+            "publisher": "Sonskilen Båthavn",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          },
+          {
+            "id": "L09",
+            "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Kol%C3%A5sveien+30+Son&treffPerSide=5",
+            "title": "Adresseoppslag: Kolåsveien 30 Son",
+            "publisher": "Kartverket",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          },
+          {
+            "id": "S05",
+            "url": "https://www.sonskilen.no/miljo",
+            "title": "Miljøfokus i havna",
+            "publisher": "Sonskilen Båthavn",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.157463815471349,
+          59.17775246766717
+        ]
+      },
+      "properties": {
+        "id": "MK-05",
+        "slug": "skjebergkilen",
+        "name": "Skjebergkilens Marina",
+        "place": "Skjeberg, Sarpsborg",
+        "operator": "Skjebergkilens Marina / Skjeberg Marinesenter (omtalt på nettstedet)",
+        "source_ids": [
+          "S06"
+        ],
+        "map_link": {
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "3105-H33"
+          ],
+          "coordinates": [
+            11.157463815471349,
+            59.17775246766717
+          ],
+          "coordinate_kind": "adressepunkt",
+          "source_ids": [
+            "L07",
+            "L10"
+          ],
+          "note": "Operatørens besøksadresse Ullerøyveien 338 kontrollert mot Kartverkets adressepunkt. Sjøpolygonene 3105-H33 gir geografisk kontekst. Punktet viser ikke eksakt vaskestasjon, septikmottak eller driftsgrenser.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "opplyst_etablert",
+            "claim": "Operatøren omtaler vaskestasjon med rensing av vann og spyleavfall.",
+            "source_ids": [
+              "S06"
+            ],
+            "source_locator": "Først i Norge",
+            "scope": "Marinaens vaskestasjon; påstanden om å være først er ikke kontrollert.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Teknisk løsning, idriftsettelse og aktuell drift.",
+            "next_action": "Be om anleggsbeskrivelse og datert driftslogg.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-05-01"
+          },
+          {
+            "topic": "Farlig avfall",
+            "status": "opplyst_etablert",
+            "claim": "Miljøcontainere og samarbeid med Norsk Gjenvinning omtales.",
+            "source_ids": [
+              "S06"
+            ],
+            "source_locator": "Norsk Gjenvinning / Kildesortering",
+            "scope": "Marinaens avfallsordning.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Avfallsplan og siste leveringsbilag.",
+            "next_action": "Innhent dokumentasjon av levering og avfallstyper.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-05-02"
+          },
+          {
+            "topic": "Septik",
+            "status": "opplyst_etablert",
+            "claim": "Operatøren oppgir eget tømmesystem for fritidsbåt og bobil.",
+            "source_ids": [
+              "S06"
+            ],
+            "source_locator": "Først i Norge",
+            "scope": "Tjenestetilbud; ikke tilgjengelighetsbekreftelse for dagens dato.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Eksakt punkt, tilgjengelighet og aktuell driftsstatus.",
+            "next_action": "Kontroller mottakssted og drift med operatøren.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-05-03"
+          },
+          {
+            "topic": "Renseeffekt og naturtilstand",
+            "status": "ukjent",
+            "claim": "Omtalen av full rensing ledsages ikke av målerapporter.",
+            "source_ids": [
+              "S06"
+            ],
+            "source_locator": "Høy miljøprofil",
+            "scope": "Full rensing er en operatørpåstand, ikke et verifisert måleresultat.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Representative analyser og eventuelle naturmålinger.",
+            "next_action": "Innhent renseprøver med metode, dato og driftsbetingelser.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-05-04"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Vaskestasjon med rensing opplyst etablert."
+            ],
+            [
+              "Båtpuss",
+              "Støvoppsamling er ikke avklart."
+            ],
+            [
+              "Arbeidsavfall",
+              "Avfallsavtale oppgitt; renseavfall uavklart."
+            ]
+          ],
+          "next_question": "Avklar dagens renseløsning og innhent prøverapport."
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L07",
+            "url": "https://www.skjebergmarinesenter.no/kontakt-oss",
+            "title": "Kontakt oss",
+            "publisher": "Skjeberg Marinesenter",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          },
+          {
+            "id": "L10",
+            "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Uller%C3%B8yveien+338+Skjeberg&treffPerSide=5",
+            "title": "Adresseoppslag: Ullerøyveien 338 Skjeberg",
+            "publisher": "Kartverket",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          },
+          {
+            "id": "S06",
+            "url": "https://www.skjebergmarinesenter.no/aktuelt/hoy-miljoprofil",
+            "title": "Høy miljøprofil",
+            "publisher": "Skjeberg Marinesenter",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.76582525671992,
+          59.8794448030807
+        ]
+      },
+      "properties": {
+        "id": "MK-06",
+        "slug": "bispebrygga",
+        "name": "Bispebrygga båtforening",
+        "place": "Ormsund, Oslo",
+        "operator": "Bispebrygga båtforening",
+        "source_ids": [
+          "S07",
+          "S08"
+        ],
+        "map_link": {
+          "status": "registeradresse_havnekobling_uavklart",
+          "harbour_ids": [],
+          "coordinates": [
+            10.76582525671992,
+            59.8794448030807
+          ],
+          "coordinate_kind": "adressepunkt",
+          "source_ids": [
+            "L08",
+            "L11"
+          ],
+          "note": "Kartpunktet viser registrert forretningsadresse Grønsundveien 16, kontrollert mot Kartverket. En registeradresse er ikke bevis for havneposisjon. Ingen sikker kobling til godkjent sjøpolygon er etablert; punktet angir ikke renseanlegg eller spyleplass.",
+          "operating_boundaries_verified": false
+        },
+        "relations": [],
+        "observations": [
+          {
+            "topic": "Spylevann",
+            "status": "opplyst_etablert",
+            "claim": "Datert melding fra juni 2023 beskriver ferdigstilt spyle- og renseanlegg med bilder av første båtvask.",
+            "source_ids": [
+              "S07"
+            ],
+            "source_locator": "Nytt spyleanlegg for båter ferdigstilt, 6. juni 2023",
+            "scope": "Foreningens eget anlegg; historisk ferdigmelding.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Bekreftelse på drift i 2026 og vedlikehold.",
+            "next_action": "Be om aktuell driftsstatus og vedlikeholdslogg.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-06-01"
+          },
+          {
+            "topic": "Farlig avfall",
+            "status": "rutine_publisert",
+            "claim": "Foreningen oppgir håndtering av flytende miljøfarlige stoffer; fast miljøfarlig avfall er den enkelte brukers ansvar.",
+            "source_ids": [
+              "S08"
+            ],
+            "source_locator": "Om havnen",
+            "scope": "Ikke et bekreftet mottak for alle typer farlig avfall.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Hvilke væsker tas imot og hvor fast avfall skal leveres.",
+            "next_action": "Avklar avfallstyper og leveringsordning.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-06-02"
+          },
+          {
+            "topic": "Renseeffekt",
+            "status": "ukjent",
+            "claim": "Foreningen oppgir rensing før utslipp, men publiserer ingen analyser i de gjennomgåtte kildene.",
+            "source_ids": [
+              "S07",
+              "S08"
+            ],
+            "source_locator": "Ferdigmelding / Om havnen",
+            "scope": "Ingen renseprosent er overført fra produkt eller presseomtale.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Prøver og vannmengder for anlegget.",
+            "next_action": "Innhent representative renseprøver og opplysninger om filtervedlikehold.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-06-03"
+          },
+          {
+            "topic": "Naturtilstand",
+            "status": "ukjent",
+            "claim": "Ingen målt endring i naturtilstand er dokumentert i sidene som er gjennomgått.",
+            "source_ids": [
+              "S07",
+              "S08"
+            ],
+            "source_locator": "Gjennomgåtte operatørsider",
+            "scope": "Etablert utstyr dokumenterer ikke økologisk effekt.",
+            "gap_type": "dokumentasjonshull",
+            "missing_evidence": "Eventuelle lokale miljøundersøkelser.",
+            "next_action": "Avklar om det foreligger naturfaglig oppfølging.",
+            "confirmed_measure_gap": false,
+            "measured_effect": null,
+            "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+            "id": "MK-06-04"
+          }
+        ],
+        "reviewed_utc": "2026-10-31T21:06:09.505783+00:00",
+        "review_method": "Offentlige nettsider; ingen befaring, direkte operatørbekreftelse eller innhentede driftsbilag.",
+        "independent_operation_verified": false,
+        "ecological_effect_verified": false,
+        "presentation": {
+          "rows": [
+            [
+              "Spylevann",
+              "Renseanlegg opplyst ferdigstilt i 2023."
+            ],
+            [
+              "Båtpuss",
+              "Støvoppsamling er ikke avklart."
+            ],
+            [
+              "Arbeidsavfall",
+              "Flytende avfall håndteres; fast avfall er brukeransvar."
+            ]
+          ],
+          "next_question": "Bekreft dagens drift, vedlikehold og renseprøver."
+        },
+        "regulatory_context": {
+          "checked_date": "2026-10-31",
+          "status": "forslag_under_revisjon",
+          "latest_official_status_date": "2026-10-16",
+          "applicability_assessed": false,
+          "compliance_assessed": false,
+          "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+          "sources": [
+            {
+              "publisher": "Miljødirektoratet",
+              "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+              "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+            },
+            {
+              "publisher": "Stortinget",
+              "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+              "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+            }
+          ]
+        },
+        "sources": [
+          {
+            "id": "L08",
+            "url": "https://data.brreg.no/enhetsregisteret/api/enheter?navn=Bispebrygga",
+            "title": "Bispebrygga – registrert forretningsadresse",
+            "publisher": "Brønnøysundregistrene",
+            "source_type": "registeradresse_ikke_havnegrense",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:05:19.228050+00:00"
+          },
+          {
+            "id": "L11",
+            "url": "https://ws.geonorge.no/adresser/v1/sok?sok=Gr%C3%B8nsundveien+16+Oslo&treffPerSide=5",
+            "title": "Adresseoppslag: Grønsundveien 16 Oslo",
+            "publisher": "Kartverket",
+            "source_type": "stedfestingskilde",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:05:31.861332+00:00"
+          },
+          {
+            "id": "S07",
+            "url": "https://www.havneweb.no/bispebrygga/?id=2090&mod=nyheter",
+            "title": "Nytt spyleanlegg for båter ferdigstilt",
+            "publisher": "Bispebrygga båtforening",
+            "source_type": "operatør",
+            "published_or_updated": "2023-06-06",
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          },
+          {
+            "id": "S08",
+            "url": "https://www.havneweb.no/bispebrygga/?mod=omhavnen",
+            "title": "Om havnen",
+            "publisher": "Bispebrygga båtforening",
+            "source_type": "operatør",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-10-31T21:04:48.497429+00:00"
+          }
+        ]
+      }
+    }
+  ]
+}

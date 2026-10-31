@@ -1,0 +1,3021 @@
+[
+  {
+    "id": "bc01c834de64db96",
+    "url": "https://1853.no/miljotiltak",
+    "retrieved_utc": "2026-10-31T21:11:32.896073+00:00",
+    "cache": true,
+    "sha256": "0395eba899f93c675818675baba853e9c062ebcd92e4f960265b7ad447b4fcb4",
+    "snapshot": "work/miljokort-screening/raw/bc01c834de64db96.bin",
+    "text_path": "work/miljokort-screening/raw/bc01c834de64db96.txt",
+    "text_chars": 5796
+  },
+  {
+    "id": "dcf1d290b675eaa9",
+    "url": "https://abf-teibern.no/baat/",
+    "retrieved_utc": "2026-10-31T21:11:32.896382+00:00",
+    "cache": true,
+    "sha256": "f52530b5653aa048489d82632cd6f1fca8b9160a7680429c83a1e60a14b8010d",
+    "snapshot": "work/miljokort-screening/raw/dcf1d290b675eaa9.bin",
+    "text_path": "work/miljokort-screening/raw/dcf1d290b675eaa9.txt",
+    "text_chars": 1980
+  },
+  {
+    "id": "3b2a36e336c572a2",
+    "url": "https://app.havneweb.no/havner/knarberg-bf",
+    "retrieved_utc": "2026-10-31T21:11:32.896475+00:00",
+    "cache": true,
+    "sha256": "815b9be9b60c8c6b4327ad83f1ff44ea3bc76708710409bbebdc299ac603568e",
+    "snapshot": "work/miljokort-screening/raw/3b2a36e336c572a2.bin",
+    "text_path": "work/miljokort-screening/raw/3b2a36e336c572a2.txt",
+    "text_chars": 313
+  },
+  {
+    "id": "7e224aaf9db3c124",
+    "url": "https://araas.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.896560+00:00",
+    "cache": true,
+    "sha256": "e1cbb8b36ff2982376435ba2983151c9567895d6247e1d900f41a1ddb6b32c2c",
+    "snapshot": "work/miljokort-screening/raw/7e224aaf9db3c124.bin",
+    "text_path": "work/miljokort-screening/raw/7e224aaf9db3c124.txt",
+    "text_chars": 7156
+  },
+  {
+    "id": "3c69e322723ebfa2",
+    "url": "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/ostfold/2026_rsrapport_for_2025_Styrebehandlet_25_04_13_de612f92-3582-4593-a7dd-c34959dafd5b.pdf",
+    "retrieved_utc": "2026-10-31T21:11:32.896647+00:00",
+    "cache": true,
+    "sha256": "9413ec63cbbe23a4fb027b1306f9ec97b7d083a3c4a97e6a1b4e43108389e626",
+    "snapshot": "work/miljokort-screening/raw/3c69e322723ebfa2.bin",
+    "text_path": "work/miljokort-screening/raw/3c69e322723ebfa2.txt",
+    "text_chars": 84751
+  },
+  {
+    "id": "66722d7457fd9de1",
+    "url": "https://b-v.no/artikkel/-pnet-nytt-renseanlegg-i-hovedstaden",
+    "retrieved_utc": "2026-10-31T21:11:32.896697+00:00",
+    "cache": true,
+    "sha256": "716d86d7ee27d24ec96edc588f647f4950f8cadd0770070a4bdd43d9e43240fb",
+    "snapshot": "work/miljokort-screening/raw/66722d7457fd9de1.bin",
+    "text_path": "work/miljokort-screening/raw/66722d7457fd9de1.txt",
+    "text_chars": 4101
+  },
+  {
+    "id": "f04b69f2b57c9fe1",
+    "url": "https://brevikseilforening.no/seivall/",
+    "retrieved_utc": "2026-10-31T21:11:32.896755+00:00",
+    "cache": true,
+    "sha256": "b11582fd4fa90add6d6cbae2e2235286454acefdf9be8c6e00e3f89b5e225ff7",
+    "snapshot": "work/miljokort-screening/raw/f04b69f2b57c9fe1.bin",
+    "text_path": "work/miljokort-screening/raw/f04b69f2b57c9fe1.txt",
+    "text_chars": 5870
+  },
+  {
+    "id": "89962e07e58c6a6c",
+    "url": "https://dssf.no/dssf/gylteholmen-brygger",
+    "retrieved_utc": "2026-10-31T21:11:32.896835+00:00",
+    "cache": true,
+    "sha256": "570d9a54050e17c461355950f844efff36f231c85ed23eb3ee46d3507b3f6e0f",
+    "snapshot": "work/miljokort-screening/raw/89962e07e58c6a6c.bin",
+    "text_path": "work/miljokort-screening/raw/89962e07e58c6a6c.txt",
+    "text_chars": 1839,
+    "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+  },
+  {
+    "id": "53d37437d583dd94",
+    "url": "https://elvoghav.no/prosjekter/kystlotteriet/her-kan-du-levere-hente-sekk/",
+    "retrieved_utc": "2026-10-31T21:11:32.898658+00:00",
+    "final_url": "https://elvoghav.no/prosjekter/kystlotteriet/her-kan-du-levere-hente-sekk/",
+    "http_status": 200,
+    "sha256": "6cc18cb37992a7aeb7bcc9d8c64a522aa04818c48747f597034320d77f82f2bf",
+    "snapshot": "work/miljokort-screening/raw/53d37437d583dd94.bin",
+    "text_path": "work/miljokort-screening/raw/53d37437d583dd94.txt",
+    "text_chars": 23841
+  },
+  {
+    "id": "880dc8faa2f8816e",
+    "url": "https://en.visitoestfold.com/listing/gjestebrygge-nedstr%C3%B8ms-brekke-sluser/538833306/",
+    "retrieved_utc": "2026-10-31T21:11:32.898980+00:00",
+    "cache": true,
+    "sha256": "8db65c5c826e72e01397cf787e0742737c545d09114ea4af915a41db3846d169",
+    "snapshot": "work/miljokort-screening/raw/880dc8faa2f8816e.bin",
+    "text_path": "work/miljokort-screening/raw/880dc8faa2f8816e.txt",
+    "text_chars": 722
+  },
+  {
+    "id": "244b9a8a293e549a",
+    "url": "https://faerder.kommune.no/tjenester/vei-og-havn/gjestehavner/",
+    "retrieved_utc": "2026-10-31T21:11:32.900276+00:00",
+    "cache": true,
+    "sha256": "793bf43aa567ff32795ddf9f3898b7aced46b2cf415254b2f484f328879e9ac3",
+    "snapshot": "work/miljokort-screening/raw/244b9a8a293e549a.bin",
+    "text_path": "work/miljokort-screening/raw/244b9a8a293e549a.txt",
+    "text_chars": 10206
+  },
+  {
+    "id": "b4cd5ad1529bf226",
+    "url": "https://faerder.kommune.no/tjenester/vei-og-havn/kommunale-smabathavner/",
+    "retrieved_utc": "2026-10-31T21:11:32.910903+00:00",
+    "cache": true,
+    "sha256": "c3f55e70c619dae3c7b132f486d9b83fad11c49d9534b7c28f9353e18f86fdd4",
+    "snapshot": "work/miljokort-screening/raw/b4cd5ad1529bf226.bin",
+    "text_path": "work/miljokort-screening/raw/b4cd5ad1529bf226.txt",
+    "text_chars": 2390
+  },
+  {
+    "id": "804846d70cab173b",
+    "url": "https://friluftsliv.oslofjorden.org/hytteoversikt/bergholmen-befalsboligen",
+    "retrieved_utc": "2026-10-31T21:11:32.912255+00:00",
+    "cache": true,
+    "sha256": "aaae438a9f43312588dc3c0cddfe7500c267dc0a42a6a8bf01017dbc31f23fdd",
+    "snapshot": "work/miljokort-screening/raw/804846d70cab173b.bin",
+    "text_path": "work/miljokort-screening/raw/804846d70cab173b.txt",
+    "text_chars": 9
+  },
+  {
+    "id": "b5adb2518f1c94d9",
+    "url": "https://gjevikvel.no/2018/11/27/bilder/",
+    "retrieved_utc": "2026-10-31T21:11:32.923973+00:00",
+    "cache": true,
+    "sha256": "a2c3c953bb2325a7074bb542e4c9656d1a5d9470bfad3adb64ad2e43410e58c6",
+    "snapshot": "work/miljokort-screening/raw/b5adb2518f1c94d9.bin",
+    "text_path": "work/miljokort-screening/raw/b5adb2518f1c94d9.txt",
+    "text_chars": 3904
+  },
+  {
+    "id": "7215e6973bdfea27",
+    "url": "https://grimestad.net/havnereglement/",
+    "retrieved_utc": "2026-10-31T21:11:32.932776+00:00",
+    "cache": true,
+    "sha256": "9dcdef24973a295792481a83cc259b11f6bbf47b7b8ffb1d49fd482110fd00a2",
+    "snapshot": "work/miljokort-screening/raw/7215e6973bdfea27.bin",
+    "text_path": "work/miljokort-screening/raw/7215e6973bdfea27.txt",
+    "text_chars": 3300
+  },
+  {
+    "id": "ffff13dde5b185e1",
+    "url": "https://holmestrand.kommune.no/_f/p1/iab4e779d-804c-4437-8bff-00434dfab166/annleggsplan-for-idrett-friluftsliv-og-kultur-2020-2028-392438.pdf",
+    "retrieved_utc": "2026-10-31T21:11:32.933731+00:00",
+    "cache": true,
+    "sha256": "aa5010f7330c1d2b1ab9ac39e81b5b999cb75568c60a4ad3cd11a915d10abc67",
+    "snapshot": "work/miljokort-screening/raw/ffff13dde5b185e1.bin",
+    "text_path": "work/miljokort-screening/raw/ffff13dde5b185e1.txt",
+    "text_chars": 56410
+  },
+  {
+    "id": "f9645c3063ee1401",
+    "url": "https://holmestrand.kommune.no/innbyggerhjelpen/eie-eller-bygge-bolig/vann-og-avlop/vann/badeplasser/",
+    "retrieved_utc": "2026-10-31T21:11:32.935250+00:00",
+    "cache": true,
+    "sha256": "11cb3184ce26ffd5b16a2f81acc84031b4557870329e01802423b9bf92357f75",
+    "snapshot": "work/miljokort-screening/raw/f9645c3063ee1401.bin",
+    "text_path": "work/miljokort-screening/raw/f9645c3063ee1401.txt",
+    "text_chars": 5683
+  },
+  {
+    "id": "7d1e6fad6ed2c961",
+    "url": "https://holmestrandsmabathavn.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.935546+00:00",
+    "cache": true,
+    "sha256": "58d208f20acc21aaef3e234155453185cf11789afbd33b1ebf2295eb62c68500",
+    "snapshot": "work/miljokort-screening/raw/7d1e6fad6ed2c961.bin",
+    "text_path": "work/miljokort-screening/raw/7d1e6fad6ed2c961.txt",
+    "text_chars": 6658
+  },
+  {
+    "id": "a2b2a5e1a5f39c81",
+    "url": "https://husoyhavn.no/wp-content/uploads/2019/08/HusoyHavn_Prospekt_HUS_3_oppslag.pdf",
+    "retrieved_utc": "2026-10-31T21:11:32.936382+00:00",
+    "cache": true,
+    "sha256": "c91c4704517629974268bc84075e50bb1276f763098b2e31f5da848b62b00cf1",
+    "snapshot": "work/miljokort-screening/raw/a2b2a5e1a5f39c81.bin",
+    "parse_error": "Invalid object in /Pages",
+    "text_path": "work/miljokort-screening/raw/a2b2a5e1a5f39c81.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "a93950fcdf375179",
+    "url": "https://jarlsoe.no/servicetilbud/",
+    "retrieved_utc": "2026-10-31T21:11:32.940630+00:00",
+    "cache": true,
+    "sha256": "657601ffbacc84db6d50d4cdde6aea1af5e4d6bfd25c50bc1d77a9fdcdd3c0c6",
+    "snapshot": "work/miljokort-screening/raw/a93950fcdf375179.bin",
+    "text_path": "work/miljokort-screening/raw/a93950fcdf375179.txt",
+    "text_chars": 5168
+  },
+  {
+    "id": "fee97d715b2bd077",
+    "url": "https://kaldnesbatforening.wordpress.com/kontakt/",
+    "retrieved_utc": "2026-10-31T21:11:32.941226+00:00",
+    "cache": true,
+    "sha256": "d662cd383d02c0712b8d844469797cd996284266b58a397ed3363a9c9da03429",
+    "snapshot": "work/miljokort-screening/raw/fee97d715b2bd077.bin",
+    "text_path": "work/miljokort-screening/raw/fee97d715b2bd077.txt",
+    "text_chars": 979
+  },
+  {
+    "id": "4c07c88ace559cdc",
+    "url": "https://kambobf.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.948359+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'kambobf.no'. (_ssl.c:1010)>"
+  },
+  {
+    "id": "b1e5515480778db6",
+    "url": "https://knutvika.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.952601+00:00",
+    "cache": true,
+    "sha256": "caf8bb2234a27bbe09eab8758e1d7b67c0fb68078f8f86e2dfc7d1a74dd5ddfe",
+    "snapshot": "work/miljokort-screening/raw/b1e5515480778db6.bin",
+    "text_path": "work/miljokort-screening/raw/b1e5515480778db6.txt",
+    "text_chars": 3778
+  },
+  {
+    "id": "106827d364cbd88c",
+    "url": "https://larvik.havn.no/vare-tjenester/fritidsbater/bathavner-faste-batplasser/",
+    "retrieved_utc": "2026-10-31T21:11:32.954859+00:00",
+    "cache": true,
+    "sha256": "9cec1a55899bbe57b3c610e19693d84e012ae7a4b2e8d432f2cdd356dfda9333",
+    "snapshot": "work/miljokort-screening/raw/106827d364cbd88c.bin",
+    "text_path": "work/miljokort-screening/raw/106827d364cbd88c.txt",
+    "text_chars": 1879
+  },
+  {
+    "id": "48bb44a5cb984e59",
+    "url": "https://larvikseilforening.no/gjesteplasser/",
+    "retrieved_utc": "2026-10-31T21:11:32.954923+00:00",
+    "cache": true,
+    "sha256": "80ad2940fb6af90dee55af2c37eac7660ef72c3145c42943d38db4f4b9d4f373",
+    "snapshot": "work/miljokort-screening/raw/48bb44a5cb984e59.bin",
+    "text_path": "work/miljokort-screening/raw/48bb44a5cb984e59.txt",
+    "text_chars": 1680
+  },
+  {
+    "id": "c8524f3b85891b53",
+    "url": "https://larvikseilforening.no/havneinormasjon/",
+    "retrieved_utc": "2026-10-31T21:11:32.961073+00:00",
+    "cache": true,
+    "sha256": "6de4a8e2c3eb2c4edd50fbd5b32ed30b0174cc8d83e84b33bc4d6f6f2df0c565",
+    "snapshot": "work/miljokort-screening/raw/c8524f3b85891b53.bin",
+    "text_path": "work/miljokort-screening/raw/c8524f3b85891b53.txt",
+    "text_chars": 1378
+  },
+  {
+    "id": "a97b9ff8c445f45c",
+    "url": "https://lokalhistoriewiki.no/wiki/%C3%85senbakken",
+    "retrieved_utc": "2026-10-31T21:11:32.964824+00:00",
+    "cache": true,
+    "sha256": "428808c86687bbf988575b2dd86bd53d31137f989330c5d35f444ff8d9125d2d",
+    "snapshot": "work/miljokort-screening/raw/a97b9ff8c445f45c.bin",
+    "text_path": "work/miljokort-screening/raw/a97b9ff8c445f45c.txt",
+    "text_chars": 1623
+  },
+  {
+    "id": "c114eef057956d7b",
+    "url": "https://lokalhistoriewiki.no/wiki/Båthavner_i_Asker",
+    "retrieved_utc": "2026-10-31T21:11:32.965710+00:00",
+    "error": "'ascii' codec can't encode character '\\xe5' in position 11: ordinal not in range(128)"
+  },
+  {
+    "id": "c1cb0d73a2cf5e85",
+    "url": "https://lokalhistoriewiki.no/wiki/Båthavner_i_Bærum",
+    "retrieved_utc": "2026-10-31T21:11:32.966400+00:00",
+    "error": "'ascii' codec can't encode character '\\xe5' in position 11: ordinal not in range(128)"
+  },
+  {
+    "id": "7cdb884c0877f80d",
+    "url": "https://lokalhistoriewiki.no/wiki/Karistranda_(Larvik",
+    "retrieved_utc": "2026-10-31T21:11:32.966521+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "cc036c94d7b8cf68",
+    "url": "https://lokalhistoriewiki.no/wiki/Valle_(Bamble",
+    "retrieved_utc": "2026-10-31T21:11:32.968802+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "b37c2e535ae493d9",
+    "url": "https://lovoyaoslofjord.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.969158+00:00",
+    "cache": true,
+    "sha256": "4003b36697103356a66c4d51bef23e514d0acd2b2dd694a9847b93a050f04d15",
+    "snapshot": "work/miljokort-screening/raw/b37c2e535ae493d9.bin",
+    "text_path": "work/miljokort-screening/raw/b37c2e535ae493d9.txt",
+    "text_chars": 4768
+  },
+  {
+    "id": "49807dedf01f6cf0",
+    "url": "https://moss-seilforening.no/havn-og-klubbhus",
+    "retrieved_utc": "2026-10-31T21:11:32.971213+00:00",
+    "cache": true,
+    "sha256": "b06fc09aa0dc901dd68675404104f747d45dfcc97c70f309e6f8354593d63912",
+    "snapshot": "work/miljokort-screening/raw/49807dedf01f6cf0.bin",
+    "text_path": "work/miljokort-screening/raw/49807dedf01f6cf0.txt",
+    "text_chars": 2512
+  },
+  {
+    "id": "452d95422128b369",
+    "url": "https://naslebrygge.wordpress.com/",
+    "retrieved_utc": "2026-10-31T21:11:32.973356+00:00",
+    "cache": true,
+    "sha256": "2d836bffaaf86491a03712c7fbfdbcfba1b2881f83575a9d02abec05d00d23d0",
+    "snapshot": "work/miljokort-screening/raw/452d95422128b369.bin",
+    "text_path": "work/miljokort-screening/raw/452d95422128b369.txt",
+    "text_chars": 2022
+  },
+  {
+    "id": "e07d3e405240792f",
+    "url": "https://naturvernforbundet.no/osloogakershus/oslofjorden/",
+    "retrieved_utc": "2026-10-31T21:11:32.973729+00:00",
+    "final_url": "https://naturvernforbundet.no/osloogakershus/oslofjorden/",
+    "http_status": 200,
+    "sha256": "c7c3b268aa92415164cfa8529e400624ddded7e48403b074abafd98202637b6f",
+    "snapshot": "work/miljokort-screening/raw/e07d3e405240792f.bin",
+    "text_path": "work/miljokort-screening/raw/e07d3e405240792f.txt",
+    "text_chars": 7155
+  },
+  {
+    "id": "c25bd1601613bc73",
+    "url": "https://nesoddenseilforening.no/next/p/97799/havna",
+    "retrieved_utc": "2026-10-31T21:11:32.978296+00:00",
+    "cache": true,
+    "sha256": "9142f87ba816fd739386759c5076d879a5e3e9f9ea3f53d879644a690ba96b47",
+    "snapshot": "work/miljokort-screening/raw/c25bd1601613bc73.bin",
+    "text_path": "work/miljokort-screening/raw/c25bd1601613bc73.txt",
+    "text_chars": 2981
+  },
+  {
+    "id": "da4fec83c54428b3",
+    "url": "https://njb.no/bathavna/",
+    "retrieved_utc": "2026-10-31T21:11:32.981620+00:00",
+    "cache": true,
+    "sha256": "25b42b3828c399da0a8ed1582555a2e2dda35f9ef6d4400bfcbd9543a04b1a1f",
+    "snapshot": "work/miljokort-screening/raw/da4fec83c54428b3.bin",
+    "text_path": "work/miljokort-screening/raw/da4fec83c54428b3.txt",
+    "text_chars": 1739
+  },
+  {
+    "id": "3e88867d4b6d3cb1",
+    "url": "https://nystrandbf.org/",
+    "retrieved_utc": "2026-10-31T21:11:32.995083+00:00",
+    "cache": true,
+    "sha256": "f30713d227457f7387869d022209554aaaca06a6276d21e6cd44f6dd94507eba",
+    "snapshot": "work/miljokort-screening/raw/3e88867d4b6d3cb1.bin",
+    "text_path": "work/miljokort-screening/raw/3e88867d4b6d3cb1.txt",
+    "text_chars": 1434
+  },
+  {
+    "id": "16aa530dee43ef56",
+    "url": "https://obat.no/obu-havner/",
+    "retrieved_utc": "2026-10-31T21:11:32.995537+00:00",
+    "cache": true,
+    "sha256": "bbeedf99582527f82dcb9308c44c0065cd9c734ea5dc421034622a35bd205005",
+    "snapshot": "work/miljokort-screening/raw/16aa530dee43ef56.bin",
+    "text_path": "work/miljokort-screening/raw/16aa530dee43ef56.txt",
+    "text_chars": 2074
+  },
+  {
+    "id": "a7cbb893d52a00d9",
+    "url": "https://olsengmarina.no/",
+    "retrieved_utc": "2026-10-31T21:11:32.995851+00:00",
+    "cache": true,
+    "sha256": "d38671e485efc1d4f9bc5a1fdce0602fc2e41af34f33bebb0287589a20243915",
+    "snapshot": "work/miljokort-screening/raw/a7cbb893d52a00d9.bin",
+    "text_path": "work/miljokort-screening/raw/a7cbb893d52a00d9.txt",
+    "text_chars": 1174
+  },
+  {
+    "id": "e123ec58aaf71e08",
+    "url": "https://oppegaard-baatforening.no/foreningen.aspx",
+    "retrieved_utc": "2026-10-31T21:11:32.996452+00:00",
+    "cache": true,
+    "sha256": "0917313f2d1e0a4562c7a31f4becae461f8d01e72d13137d4748baedfa47cd17",
+    "snapshot": "work/miljokort-screening/raw/e123ec58aaf71e08.bin",
+    "text_path": "work/miljokort-screening/raw/e123ec58aaf71e08.txt",
+    "text_chars": 3090
+  },
+  {
+    "id": "ba59ce69f38616fb",
+    "url": "https://oscarsborggjestehavn.no/",
+    "retrieved_utc": "2026-10-31T21:11:33.001809+00:00",
+    "cache": true,
+    "sha256": "ededa572b64ebf33b7f55dd11ca4332fb9621dece4a89be0c7f085981d0d13de",
+    "snapshot": "work/miljokort-screening/raw/ba59ce69f38616fb.bin",
+    "text_path": "work/miljokort-screening/raw/ba59ce69f38616fb.txt",
+    "text_chars": 4984
+  },
+  {
+    "id": "072e647e16665aea",
+    "url": "https://pequod.nesodd1.no/?page_id=5509",
+    "retrieved_utc": "2026-10-31T21:11:33.004350+00:00",
+    "cache": true,
+    "sha256": "87c52b5e8712738e9de2c84a0202e7f0a787b4dd4d2f2bf309e3a0910579a016",
+    "snapshot": "work/miljokort-screening/raw/072e647e16665aea.bin",
+    "text_path": "work/miljokort-screening/raw/072e647e16665aea.txt",
+    "text_chars": 18444
+  },
+  {
+    "id": "ce83659f991666c0",
+    "url": "https://pequod.nesodd1.no/?page_id=9244",
+    "retrieved_utc": "2026-10-31T21:11:33.004542+00:00",
+    "cache": true,
+    "sha256": "d5aab60dfaa54ebbc316759798024ba7659f4063be5600c7cd5f195c2cc8b791",
+    "snapshot": "work/miljokort-screening/raw/ce83659f991666c0.bin",
+    "text_path": "work/miljokort-screening/raw/ce83659f991666c0.txt",
+    "text_chars": 17317
+  },
+  {
+    "id": "139e63ee9c0f9011",
+    "url": "https://saltnesbf.no/?page_id=19",
+    "retrieved_utc": "2026-10-31T21:11:33.005093+00:00",
+    "cache": true,
+    "sha256": "e6ad285e826304748117c3ebec3279a79438fcbc3df93d36f1db88de10e21692",
+    "snapshot": "work/miljokort-screening/raw/139e63ee9c0f9011.bin",
+    "text_path": "work/miljokort-screening/raw/139e63ee9c0f9011.txt",
+    "text_chars": 1492
+  },
+  {
+    "id": "dfb79efdf6f66bbe",
+    "url": "https://saltnesbf.no/wp-content/uploads/2013/06/Milj%C3%B8ogAvfallsplan.pdf",
+    "retrieved_utc": "2026-10-31T21:11:33.020022+00:00",
+    "final_url": "https://saltnesbf.no/wp-content/uploads/2013/06/Milj%C3%B8ogAvfallsplan.pdf",
+    "http_status": 200,
+    "sha256": "9e903a8d1920c29cd516bb35c8ce21362fe09e2bcb0a8c2ca4e133ca59097ff0",
+    "snapshot": "work/miljokort-screening/raw/dfb79efdf6f66bbe.bin",
+    "text_path": "work/miljokort-screening/raw/dfb79efdf6f66bbe.txt",
+    "text_chars": 1578
+  },
+  {
+    "id": "7e9329197ad5c4eb",
+    "url": "https://sandmarina.no/",
+    "retrieved_utc": "2026-10-31T21:11:33.035023+00:00",
+    "cache": true,
+    "sha256": "bacd97aacb15692106498cfc4f6edfa8c79bfe6a55590986221225d359d9be06",
+    "snapshot": "work/miljokort-screening/raw/7e9329197ad5c4eb.bin",
+    "text_path": "work/miljokort-screening/raw/7e9329197ad5c4eb.txt",
+    "text_chars": 2430
+  },
+  {
+    "id": "5aff43bd7f8adcf2",
+    "url": "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf",
+    "retrieved_utc": "2026-10-31T21:11:33.037413+00:00",
+    "cache": true,
+    "sha256": "217034c59192d19454c9fc9dc160c5fb810967c70976b3e888b2ef870da08493",
+    "snapshot": "work/miljokort-screening/raw/5aff43bd7f8adcf2.bin",
+    "text_path": "work/miljokort-screening/raw/5aff43bd7f8adcf2.txt",
+    "text_chars": 84418
+  },
+  {
+    "id": "b1d024f94a97b9af",
+    "url": "https://seilbaatservice.no/batplass",
+    "retrieved_utc": "2026-10-31T21:11:33.037804+00:00",
+    "cache": true,
+    "sha256": "85f1eaba16b9fe4ff2826330a03423c4c18df3ac93d6b00449afcbe5243512ef",
+    "snapshot": "work/miljokort-screening/raw/b1d024f94a97b9af.bin",
+    "text_path": "work/miljokort-screening/raw/b1d024f94a97b9af.txt",
+    "text_chars": 2518
+  },
+  {
+    "id": "21a23b9557373999",
+    "url": "https://service.skager.no/home/harbour",
+    "retrieved_utc": "2026-10-31T21:11:33.042673+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "3f8ed02ebcfe118e",
+    "url": "https://services3.arcgis.com/dLSgnt8bVopEJNp3/arcgis/rest/services/B%C3%A5thavner/FeatureServer/0",
+    "retrieved_utc": "2026-10-31T21:11:33.043076+00:00",
+    "cache": true,
+    "sha256": "bbe8551f075ce76d1ba439c7a87562bb276976a4901844b966ca67d90cc45749",
+    "snapshot": "work/miljokort-screening/raw/3f8ed02ebcfe118e.bin",
+    "text_path": "work/miljokort-screening/raw/3f8ed02ebcfe118e.txt",
+    "text_chars": 5408
+  },
+  {
+    "id": "c4c9af78971d12f3",
+    "url": "https://sfmarina.com/sf-projects/haoya/",
+    "retrieved_utc": "2026-10-31T21:11:33.044802+00:00",
+    "cache": true,
+    "sha256": "c0aa9a81e21e5064e371465a00cf335cb074e66b72a4ea2a0f3a0ab004f9bc9e",
+    "snapshot": "work/miljokort-screening/raw/c4c9af78971d12f3.bin",
+    "text_path": "work/miljokort-screening/raw/c4c9af78971d12f3.txt",
+    "text_chars": 3092
+  },
+  {
+    "id": "4a9a635c1dbe30b3",
+    "url": "https://sjoparken.no/wp-content/uploads/240530-Sjoparken-BL3DE-prospekt-web-.pdf",
+    "retrieved_utc": "2026-10-31T21:11:33.051980+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "id": "e3354e20a3ae67f4",
+    "url": "https://solviken.no/wp-content/uploads/2023/01/Havneinstruks_Nov_2022.pdf",
+    "retrieved_utc": "2026-10-31T21:11:33.053846+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "38f0380778724b09",
+    "url": "https://spir.no/prosjekter/husoy-havn",
+    "retrieved_utc": "2026-10-31T21:11:33.116808+00:00",
+    "cache": true,
+    "sha256": "05dcbd066e1b671c82f1fd58f8026a08fc52c1351dc14e833d3522f5d01d0145",
+    "snapshot": "work/miljokort-screening/raw/38f0380778724b09.bin",
+    "text_path": "work/miljokort-screening/raw/38f0380778724b09.txt",
+    "text_chars": 2035
+  },
+  {
+    "id": "9185bd097423b483",
+    "url": "https://sprobathavn.no/",
+    "retrieved_utc": "2026-10-31T21:11:33.119871+00:00",
+    "cache": true,
+    "sha256": "1ce2a34610a898f2fd3511eac47130d1a1580f7059ed043d39041155e23a916b",
+    "snapshot": "work/miljokort-screening/raw/9185bd097423b483.bin",
+    "text_path": "work/miljokort-screening/raw/9185bd097423b483.txt",
+    "text_chars": 3074
+  },
+  {
+    "id": "57f44b6167276a86",
+    "url": "https://stotvighotel.com/",
+    "retrieved_utc": "2026-10-31T21:11:33.124915+00:00",
+    "cache": true,
+    "sha256": "f457d41fb54b8be6013fc13d0a210d02a62ac9841e6805ea9896f4daae223cdf",
+    "snapshot": "work/miljokort-screening/raw/57f44b6167276a86.bin",
+    "text_path": "work/miljokort-screening/raw/57f44b6167276a86.txt",
+    "text_chars": 6189
+  },
+  {
+    "id": "3425d44162c737e7",
+    "url": "https://thorrudcamping.no/fasiliteter/",
+    "retrieved_utc": "2026-10-31T21:11:33.133262+00:00",
+    "cache": true,
+    "sha256": "724c74f3e27611862769c1ffd95456024f83075adcdea493b186232894e97d0d",
+    "snapshot": "work/miljokort-screening/raw/3425d44162c737e7.bin",
+    "text_path": "work/miljokort-screening/raw/3425d44162c737e7.txt",
+    "text_chars": 2028
+  },
+  {
+    "id": "2690eaac2653a8a0",
+    "url": "https://thorrudcamping.no/informasjon/",
+    "retrieved_utc": "2026-10-31T21:11:33.230128+00:00",
+    "cache": true,
+    "sha256": "b77c4401553924554d51679f53072c3f2f98d9f2437420ef2733268e9c146a0a",
+    "snapshot": "work/miljokort-screening/raw/2690eaac2653a8a0.bin",
+    "text_path": "work/miljokort-screening/raw/2690eaac2653a8a0.txt",
+    "text_chars": 2397
+  },
+  {
+    "id": "14271654d3d94fe9",
+    "url": "https://toxiclean.no/karenslyst-batopplag-med-nytt-toxiclean-anlegg/",
+    "retrieved_utc": "2026-10-31T21:11:33.328530+00:00",
+    "cache": true,
+    "sha256": "97628d32ccf13a45fc1313697ef05fc86563572ee8c70b7a28fdaff31ce5db94",
+    "snapshot": "work/miljokort-screening/raw/14271654d3d94fe9.bin",
+    "text_path": "work/miljokort-screening/raw/14271654d3d94fe9.txt",
+    "text_chars": 5352
+  },
+  {
+    "id": "c01e87ad7efcbbd0",
+    "url": "https://ursvik.inngangen.com/2024/forslag.html",
+    "retrieved_utc": "2026-10-31T21:11:33.341281+00:00",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'ursvik.inngangen.com'. (_ssl.c:1010)>"
+  },
+  {
+    "id": "280b3209776a43d1",
+    "url": "https://velihavn.no/gjestehavner/vestfold/lovoya-bathavn",
+    "retrieved_utc": "2026-10-31T21:11:33.367859+00:00",
+    "cache": true,
+    "sha256": "e45978d71f8741d9bab02799ab6ac56c815ca2d66cd2d6a269cc099f2646efbe",
+    "snapshot": "work/miljokort-screening/raw/280b3209776a43d1.bin",
+    "text_path": "work/miljokort-screening/raw/280b3209776a43d1.txt",
+    "text_chars": 1864,
+    "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+  },
+  {
+    "id": "904ffe933f2b77a9",
+    "url": "https://visitfredrikstadhvaler.com/no/sted/engelsviken-gjestehavn-fredrikstad",
+    "retrieved_utc": "2026-10-31T21:11:33.568524+00:00",
+    "cache": true,
+    "sha256": "cb170016fa4679c4cbe7fc24643e18715b04ffd57e5224e5a10bf79e9d931383",
+    "snapshot": "work/miljokort-screening/raw/904ffe933f2b77a9.bin",
+    "text_path": "work/miljokort-screening/raw/904ffe933f2b77a9.txt",
+    "text_chars": 1241
+  },
+  {
+    "id": "ef2e47b952216314",
+    "url": "https://visitgreateroslo.com/no/drobak-gjestehavn",
+    "retrieved_utc": "2026-10-31T21:11:33.583779+00:00",
+    "cache": true,
+    "sha256": "82aba65297848ebe1ed10020fd02472a66435b73539d67c883d2d6e1fc44d172",
+    "snapshot": "work/miljokort-screening/raw/ef2e47b952216314.bin",
+    "text_path": "work/miljokort-screening/raw/ef2e47b952216314.txt",
+    "text_chars": 2018
+  },
+  {
+    "id": "94904cc54635f685",
+    "url": "https://www-bib.hive.no/tekster/tunsberg/tbghavn/kap08.html",
+    "retrieved_utc": "2026-10-31T21:11:33.613222+00:00",
+    "cache": true,
+    "sha256": "816584e35f2bd553b3d19e4a0009789adebb85cce11c270e9645a9a38d6437e1",
+    "snapshot": "work/miljokort-screening/raw/94904cc54635f685.bin",
+    "text_path": "work/miljokort-screening/raw/94904cc54635f685.txt",
+    "text_chars": 14974
+  },
+  {
+    "id": "e5acffc1cbc585ec",
+    "url": "https://www.agnesbaat.no/b%C3%A5thavna",
+    "retrieved_utc": "2026-10-31T21:11:33.744173+00:00",
+    "cache": true,
+    "sha256": "877543cccc8434b3f320dea0460e72447d3b1a6b043c72be41db77b21743fb41",
+    "snapshot": "work/miljokort-screening/raw/e5acffc1cbc585ec.bin",
+    "text_path": "work/miljokort-screening/raw/e5acffc1cbc585ec.txt",
+    "text_chars": 1473
+  },
+  {
+    "id": "8fa967bff0d2b730",
+    "url": "https://www.asker.kommune.no/friluftsliv/sjo-og-batliv/gjestehavner-og-smabatplasser/",
+    "retrieved_utc": "2026-10-31T21:11:33.763751+00:00",
+    "cache": true,
+    "sha256": "559355a46eb197eb597b913f9bec1896aa2b451f530f0b6232b57763f076b679",
+    "snapshot": "work/miljokort-screening/raw/8fa967bff0d2b730.bin",
+    "text_path": "work/miljokort-screening/raw/8fa967bff0d2b730.txt",
+    "text_chars": 5083
+  },
+  {
+    "id": "da13a1fb808316d2",
+    "url": "https://www.bamble.kommune.no/vei-vann-havn-og-renovasjon/havn/gjestehavner-og-uthavner/",
+    "retrieved_utc": "2026-10-31T21:11:33.816423+00:00",
+    "cache": true,
+    "sha256": "d3ade7a09fb761b895fb1a82cff146621a8b647f30e17625b5a227034dc42ca5",
+    "snapshot": "work/miljokort-screening/raw/da13a1fb808316d2.bin",
+    "text_path": "work/miljokort-screening/raw/da13a1fb808316d2.txt",
+    "text_chars": 4383
+  },
+  {
+    "id": "0a21bd4f00775af9",
+    "url": "https://www.bamble.kommune.no/vei-vann-havn-og-renovasjon/havn/havner-og-havneeiendommer-i-bamble-kommune/",
+    "retrieved_utc": "2026-10-31T21:11:33.953442+00:00",
+    "cache": true,
+    "sha256": "8370c2da29dd624435f8639f82a7bb1eda0f39ba12c6633ae7b9b955fdaa2530",
+    "snapshot": "work/miljokort-screening/raw/0a21bd4f00775af9.bin",
+    "text_path": "work/miljokort-screening/raw/0a21bd4f00775af9.txt",
+    "text_chars": 3203
+  },
+  {
+    "id": "9d5d8be08e5712c8",
+    "url": "https://www.batforening.com/wp-content/uploads/2023/04/PMF-lov-rev.10.03.23.pdf",
+    "retrieved_utc": "2026-10-31T21:11:33.953852+00:00",
+    "cache": true,
+    "sha256": "c2ed17603363794c54e75ff23a0a07211f3354cb744f72b16af9e18b62748d07",
+    "snapshot": "work/miljokort-screening/raw/9d5d8be08e5712c8.bin",
+    "text_path": "work/miljokort-screening/raw/9d5d8be08e5712c8.txt",
+    "text_chars": 31273
+  },
+  {
+    "id": "a2903f58b97e18ac",
+    "url": "https://www.batmagasinet.no/batforeninger-bathavn/bitter-nabostrid-i-idyllisk-batforening-pa-tjome/830954",
+    "retrieved_utc": "2026-10-31T21:11:33.972222+00:00",
+    "cache": true,
+    "sha256": "cf557ec7c0be9820329da0bdc76c72665f59e4a4327c1ee11ed0505a6d2ce803",
+    "snapshot": "work/miljokort-screening/raw/a2903f58b97e18ac.bin",
+    "text_path": "work/miljokort-screening/raw/a2903f58b97e18ac.txt",
+    "text_chars": 7103
+  },
+  {
+    "id": "5ed3989b521be01e",
+    "url": "https://www.betongen.no/",
+    "retrieved_utc": "2026-10-31T21:11:33.986298+00:00",
+    "cache": true,
+    "sha256": "99adbed059721aa25c770eda6b6c5ae047ed063458b9033d38128ac30457781d",
+    "snapshot": "work/miljokort-screening/raw/5ed3989b521be01e.bin",
+    "text_path": "work/miljokort-screening/raw/5ed3989b521be01e.txt",
+    "text_chars": 1065
+  },
+  {
+    "id": "7d43fab925c323de",
+    "url": "https://www.bolaerne.no/",
+    "retrieved_utc": "2026-10-31T21:11:34.009880+00:00",
+    "cache": true,
+    "sha256": "4cf04c9db030df98feb5aa2e4df5f30193c876d3a0e7af263b78fd9e8c3f7d5c",
+    "snapshot": "work/miljokort-screening/raw/7d43fab925c323de.bin",
+    "text_path": "work/miljokort-screening/raw/7d43fab925c323de.txt",
+    "text_chars": 3536
+  },
+  {
+    "id": "31cb08b2b971f93e",
+    "url": "https://www.bolaerne.no/gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:34.034782+00:00",
+    "cache": true,
+    "sha256": "2d5594d4fd90648c5916de82bb543944105d598bd74e8bfa80af7f03e7835c58",
+    "snapshot": "work/miljokort-screening/raw/31cb08b2b971f93e.bin",
+    "text_path": "work/miljokort-screening/raw/31cb08b2b971f93e.txt",
+    "text_chars": 7477
+  },
+  {
+    "id": "f388d0a87edf657b",
+    "url": "https://www.borg-havn.no/utleie-batplasser/",
+    "retrieved_utc": "2026-10-31T21:11:34.170164+00:00",
+    "cache": true,
+    "sha256": "29be081ce36c57c20d87d64779da2077b0cd8901f20fc366471fe28bc339ad22",
+    "snapshot": "work/miljokort-screening/raw/f388d0a87edf657b.bin",
+    "text_path": "work/miljokort-screening/raw/f388d0a87edf657b.txt",
+    "text_chars": 5956
+  },
+  {
+    "id": "7b349177b748eb06",
+    "url": "https://www.dbf-porsgrunn.com/",
+    "retrieved_utc": "2026-10-31T21:11:34.216007+00:00",
+    "cache": true,
+    "sha256": "20444459ad47cf2669a4d3ce359d8ee1571d253ab692870c9ad9ace7e4030b83",
+    "snapshot": "work/miljokort-screening/raw/7b349177b748eb06.bin",
+    "text_path": "work/miljokort-screening/raw/7b349177b748eb06.txt",
+    "text_chars": 4869
+  },
+  {
+    "id": "0be1e16b9281fd07",
+    "url": "https://www.dbf-porsgrunn.com/wordpress/wp-content/uploads/2025/03/ARSMOTEDOMUMENT-2025_09.03.25.pdf",
+    "retrieved_utc": "2026-10-31T21:11:34.237438+00:00",
+    "cache": true,
+    "sha256": "eb73627bd0ed5c4e1316198e1f18dd7fb6f25ce04d0894efb3a0611341bd5765",
+    "snapshot": "work/miljokort-screening/raw/0be1e16b9281fd07.bin",
+    "text_path": "work/miljokort-screening/raw/0be1e16b9281fd07.txt",
+    "text_chars": 15573
+  },
+  {
+    "id": "106fd75d341d8f86",
+    "url": "https://www.dssf.no/dssf/dssf-bryggeanlegg",
+    "retrieved_utc": "2026-10-31T21:11:34.266723+00:00",
+    "cache": true,
+    "sha256": "8182d4c5ab04ffa4795ecaeeca3443b74cd694bffcbbbdc95ff2e6d16f1a2a50",
+    "snapshot": "work/miljokort-screening/raw/106fd75d341d8f86.bin",
+    "text_path": "work/miljokort-screening/raw/106fd75d341d8f86.txt",
+    "text_chars": 3301,
+    "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+  },
+  {
+    "id": "48e023e1c9096480",
+    "url": "https://www.edholmenmarina.no/",
+    "retrieved_utc": "2026-10-31T21:11:34.273224+00:00",
+    "cache": true,
+    "sha256": "1a2b625a7d1c25e89101de18b3c6fe935cd7ef65f962bd4f9648508b312119cf",
+    "snapshot": "work/miljokort-screening/raw/48e023e1c9096480.bin",
+    "text_path": "work/miljokort-screening/raw/48e023e1c9096480.txt",
+    "text_chars": 702
+  },
+  {
+    "id": "9e390010d0ba8971",
+    "url": "https://www.finn.no/385649027",
+    "retrieved_utc": "2026-10-31T21:11:34.275010+00:00",
+    "cache": true,
+    "sha256": "372cd90e57f2bfde3be5834e2f730f21e24629e60b9c2679b4f319ceaf3a1e0a",
+    "snapshot": "work/miljokort-screening/raw/9e390010d0ba8971.bin",
+    "text_path": "work/miljokort-screening/raw/9e390010d0ba8971.txt",
+    "text_chars": 5837
+  },
+  {
+    "id": "23ab52313d5b0048",
+    "url": "https://www.finn.no/realestate/plots/ad.html?finnkode=464346697",
+    "retrieved_utc": "2026-10-31T21:11:34.338716+00:00",
+    "cache": true,
+    "sha256": "c327c4aa8646a87620728f078863d50298e65ba8f190dc9d6bf4252e7da864f1",
+    "snapshot": "work/miljokort-screening/raw/23ab52313d5b0048.bin",
+    "text_path": "work/miljokort-screening/raw/23ab52313d5b0048.txt",
+    "text_chars": 23508
+  },
+  {
+    "id": "147aa29d42f67eeb",
+    "url": "https://www.fiske-baatforening.no/",
+    "retrieved_utc": "2026-10-31T21:11:34.417545+00:00",
+    "cache": true,
+    "sha256": "07b7075baa633a9daad8540cc68a64c6ba785f5e6716d7e85bba7e79ee2660b0",
+    "snapshot": "work/miljokort-screening/raw/147aa29d42f67eeb.bin",
+    "text_path": "work/miljokort-screening/raw/147aa29d42f67eeb.txt",
+    "text_chars": 959
+  },
+  {
+    "id": "e2092353f65ab9df",
+    "url": "https://www.framnes-maritime.no/",
+    "retrieved_utc": "2026-10-31T21:11:34.522964+00:00",
+    "cache": true,
+    "sha256": "f3e34468e17d59a7e46a04627e29fcb1599111203a2f6526c09112a2f9305fe6",
+    "snapshot": "work/miljokort-screening/raw/e2092353f65ab9df.bin",
+    "text_path": "work/miljokort-screening/raw/e2092353f65ab9df.txt",
+    "text_chars": 2467
+  },
+  {
+    "id": "c8244c4cf98d1083",
+    "url": "https://www.fredrikstad-seilforening.no/wp-content/uploads/2023/02/Godkjent-30.03.2022-Felles-avfallsplan-for-smabathavner-i-Fredrikstad-kommune-2022-versjon-II.docx.pdf",
+    "retrieved_utc": "2026-10-31T21:12:01.481486+00:00",
+    "final_url": "https://www.fredrikstad-seilforening.no/wp-content/uploads/2023/02/Godkjent-30.03.2022-Felles-avfallsplan-for-smabathavner-i-Fredrikstad-kommune-2022-versjon-II.docx.pdf",
+    "http_status": 200,
+    "sha256": "b881dab467da8773fd6d321e46383a18f57c4975d00b6dac09ee38f2fdf72905",
+    "snapshot": "work/miljokort-screening/raw/c8244c4cf98d1083.bin",
+    "text_path": "work/miljokort-screening/raw/c8244c4cf98d1083.txt",
+    "text_chars": 120062
+  },
+  {
+    "id": "51a6df62ce578175",
+    "url": "https://www.gylteholmenbrygger.no/",
+    "retrieved_utc": "2026-10-31T21:11:34.578103+00:00",
+    "cache": true,
+    "sha256": "ddef5833c02afb7419c574aa0b72c947fe469799dea1ef256f1f6e3a7cab13d9",
+    "snapshot": "work/miljokort-screening/raw/51a6df62ce578175.bin",
+    "text_path": "work/miljokort-screening/raw/51a6df62ce578175.txt",
+    "text_chars": 530
+  },
+  {
+    "id": "7eb09f65d84f5838",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/batplasser/",
+    "retrieved_utc": "2026-10-31T21:11:34.594543+00:00",
+    "cache": true,
+    "sha256": "f76b0f5acba127181330d8a39db4aa1b128d424e702caeec9ba02fc293541629",
+    "snapshot": "work/miljokort-screening/raw/7eb09f65d84f5838.bin",
+    "text_path": "work/miljokort-screening/raw/7eb09f65d84f5838.txt",
+    "text_chars": 3538
+  },
+  {
+    "id": "1247ceed5e02779b",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/havn/gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:34.639330+00:00",
+    "cache": true,
+    "sha256": "a630ac58e8eb9cbf43c317075097362366cc90dae5a28839541e7ddd48e63fe1",
+    "snapshot": "work/miljokort-screening/raw/1247ceed5e02779b.bin",
+    "text_path": "work/miljokort-screening/raw/1247ceed5e02779b.txt",
+    "text_chars": 3740
+  },
+  {
+    "id": "4bb0af693578defa",
+    "url": "https://www.havneweb.no/batforening/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:34.644764+00:00",
+    "cache": true,
+    "sha256": "499aa6e4c5396b879e0972e0fdc9637f953c2a34e22de2a2f1d78aa8de4d2e03",
+    "snapshot": "work/miljokort-screening/raw/4bb0af693578defa.bin",
+    "text_path": "work/miljokort-screening/raw/4bb0af693578defa.txt",
+    "text_chars": 376
+  },
+  {
+    "id": "ce6bdf62b23d7574",
+    "url": "https://www.havneweb.no/bispebrygga/?id=2090&mod=nyheter",
+    "retrieved_utc": "2026-10-31T21:11:34.682184+00:00",
+    "cache": true,
+    "sha256": "900b25f0731811f16f68af3684445735fb84f8500c547d971e6364978e4a2709",
+    "snapshot": "work/miljokort-screening/raw/ce6bdf62b23d7574.bin",
+    "text_path": "work/miljokort-screening/raw/ce6bdf62b23d7574.txt",
+    "text_chars": 646
+  },
+  {
+    "id": "d0221016520e96d9",
+    "url": "https://www.havneweb.no/bispebrygga/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:34.791647+00:00",
+    "cache": true,
+    "sha256": "eaf51c79833c8b319059dde9b3b08159368892de1c6e10381324c7ad7165d28a",
+    "snapshot": "work/miljokort-screening/raw/d0221016520e96d9.bin",
+    "text_path": "work/miljokort-screening/raw/d0221016520e96d9.txt",
+    "text_chars": 1047
+  },
+  {
+    "id": "696cfa7aeef01d12",
+    "url": "https://www.havneweb.no/bjonnesstranda-bh/",
+    "retrieved_utc": "2026-10-31T21:11:34.917412+00:00",
+    "cache": true,
+    "sha256": "ed527942ecd0a536547d4a29f533188247b33c347f5e45e1a1071f1db2de4f4f",
+    "snapshot": "work/miljokort-screening/raw/696cfa7aeef01d12.bin",
+    "text_path": "work/miljokort-screening/raw/696cfa7aeef01d12.txt",
+    "text_chars": 725
+  },
+  {
+    "id": "353269db26f22a2d",
+    "url": "https://www.havneweb.no/borg-havn/?mod=sokplass",
+    "retrieved_utc": "2026-10-31T21:11:34.936672+00:00",
+    "cache": true,
+    "sha256": "8c53b94ebc705b6f6157b36b4d675c700e2827739dcaa1f314d22c0bd8336bda",
+    "snapshot": "work/miljokort-screening/raw/353269db26f22a2d.bin",
+    "text_path": "work/miljokort-screening/raw/353269db26f22a2d.txt",
+    "text_chars": 1676
+  },
+  {
+    "id": "8b05ced3c5016722",
+    "url": "https://www.havneweb.no/brevik-bf/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:34.941947+00:00",
+    "cache": true,
+    "sha256": "2efb9ca506741dd84f786df120a881505c92f317d6e407ea33de7ef7c33b0988",
+    "snapshot": "work/miljokort-screening/raw/8b05ced3c5016722.bin",
+    "text_path": "work/miljokort-screening/raw/8b05ced3c5016722.txt",
+    "text_chars": 3172
+  },
+  {
+    "id": "a8cf83eff991ccdb",
+    "url": "https://www.havneweb.no/drobak-bf/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:34.979056+00:00",
+    "cache": true,
+    "sha256": "8a1d9883ccd1b6e0a0a0755fe4fb48833678abbf634799a46514ff8ab2c77139",
+    "snapshot": "work/miljokort-screening/raw/a8cf83eff991ccdb.bin",
+    "text_path": "work/miljokort-screening/raw/a8cf83eff991ccdb.txt",
+    "text_chars": 2905
+  },
+  {
+    "id": "3ccecbd65f508d8d",
+    "url": "https://www.havneweb.no/fabat/?mod=startsiden",
+    "retrieved_utc": "2026-10-31T21:11:34.986210+00:00",
+    "cache": true,
+    "sha256": "39e5dddc1542c6ff26c435b3e235c89da9bf90eebf2cff913d0a7cf1d2c42ceb",
+    "snapshot": "work/miljokort-screening/raw/3ccecbd65f508d8d.bin",
+    "text_path": "work/miljokort-screening/raw/3ccecbd65f508d8d.txt",
+    "text_chars": 2510
+  },
+  {
+    "id": "48d50333c555b717",
+    "url": "https://www.havneweb.no/gressvik-bf/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.006866+00:00",
+    "cache": true,
+    "sha256": "fc55fc15b0dda535e2e1007a0c8e938102c896e6b0a7405ff76b4a78c010fc0c",
+    "snapshot": "work/miljokort-screening/raw/48d50333c555b717.bin",
+    "text_path": "work/miljokort-screening/raw/48d50333c555b717.txt",
+    "text_chars": 669
+  },
+  {
+    "id": "05e96967a1ee4b81",
+    "url": "https://www.havneweb.no/heistad-mbf/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.021109+00:00",
+    "cache": true,
+    "sha256": "c14a8ae97765426eca4f896f0e844e94718c4930e0c8d49dbe47befcb78a1945",
+    "snapshot": "work/miljokort-screening/raw/05e96967a1ee4b81.bin",
+    "text_path": "work/miljokort-screening/raw/05e96967a1ee4b81.txt",
+    "text_chars": 1454
+  },
+  {
+    "id": "5b14f746739f6e5b",
+    "url": "https://www.havneweb.no/hellahavn/?mod=startsiden",
+    "retrieved_utc": "2026-10-31T21:11:35.092585+00:00",
+    "cache": true,
+    "sha256": "86e05c52c184ebce9dfd554a45432f6a40bf5c9f8bcc76146317e5a4640de5ad",
+    "snapshot": "work/miljokort-screening/raw/5b14f746739f6e5b.bin",
+    "text_path": "work/miljokort-screening/raw/5b14f746739f6e5b.txt",
+    "text_chars": 5016
+  },
+  {
+    "id": "75b3d9cc8daa7090",
+    "url": "https://www.havneweb.no/heroya/",
+    "retrieved_utc": "2026-10-31T21:11:35.094165+00:00",
+    "cache": true,
+    "sha256": "838bda4057ba8a3ef6acd78f663a0712ed1d355da6d987cb1c9aaecc997c8aae",
+    "snapshot": "work/miljokort-screening/raw/75b3d9cc8daa7090.bin",
+    "text_path": "work/miljokort-screening/raw/75b3d9cc8daa7090.txt",
+    "text_chars": 382
+  },
+  {
+    "id": "5124d90fb29632ee",
+    "url": "https://www.havneweb.no/jarlso-brygge/",
+    "retrieved_utc": "2026-10-31T21:11:35.100370+00:00",
+    "cache": true,
+    "sha256": "7d682a1931978ebcb945a5630c5de2410bfa44a06917310ab61c5ea3b543135b",
+    "snapshot": "work/miljokort-screening/raw/5124d90fb29632ee.bin",
+    "text_path": "work/miljokort-screening/raw/5124d90fb29632ee.txt",
+    "text_chars": 642
+  },
+  {
+    "id": "27483051aeef97b6",
+    "url": "https://www.havneweb.no/kjopmannskjar-bf/",
+    "retrieved_utc": "2026-10-31T21:11:35.163768+00:00",
+    "cache": true,
+    "sha256": "507ab4ad45c206b0de4ba0a7b74583d88a8c1d97da12cecc2b1cddae8287ba89",
+    "snapshot": "work/miljokort-screening/raw/27483051aeef97b6.bin",
+    "text_path": "work/miljokort-screening/raw/27483051aeef97b6.txt",
+    "text_chars": 1220
+  },
+  {
+    "id": "509260f14965ce8e",
+    "url": "https://www.havneweb.no/nesoddenseilforening/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.173451+00:00",
+    "cache": true,
+    "sha256": "89467aa4586c9252f48bc9f0401ac9a4085d07c82a25ac0d9debd39c3c2ddcaa",
+    "snapshot": "work/miljokort-screening/raw/509260f14965ce8e.bin",
+    "text_path": "work/miljokort-screening/raw/509260f14965ce8e.txt",
+    "text_chars": 562
+  },
+  {
+    "id": "9855bdb650749e3e",
+    "url": "https://www.havneweb.no/onsoy-bathavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.189450+00:00",
+    "cache": true,
+    "sha256": "612a9215f16a795b365244cb9db7829e0b06d669dc1327caa38998301f6ae053",
+    "snapshot": "work/miljokort-screening/raw/9855bdb650749e3e.bin",
+    "text_path": "work/miljokort-screening/raw/9855bdb650749e3e.txt",
+    "text_chars": 995
+  },
+  {
+    "id": "267892f36b29569b",
+    "url": "https://www.havneweb.no/orabat/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.234694+00:00",
+    "cache": true,
+    "sha256": "0842147f64c8d351f702a353a925eba93f733b73c89d785a3dab0b8fd0042557",
+    "snapshot": "work/miljokort-screening/raw/267892f36b29569b.bin",
+    "text_path": "work/miljokort-screening/raw/267892f36b29569b.txt",
+    "text_chars": 740
+  },
+  {
+    "id": "143c396c55118532",
+    "url": "https://www.havneweb.no/ryggebf/",
+    "retrieved_utc": "2026-10-31T21:11:35.234893+00:00",
+    "cache": true,
+    "sha256": "dc74bf7fa0a2570914884b68323f9325498fc93dad0ed4595f9063ba2e5a7c66",
+    "snapshot": "work/miljokort-screening/raw/143c396c55118532.bin",
+    "text_path": "work/miljokort-screening/raw/143c396c55118532.txt",
+    "text_chars": 862
+  },
+  {
+    "id": "042bb9f25891911a",
+    "url": "https://www.havneweb.no/sandehavnabf/",
+    "retrieved_utc": "2026-10-31T21:11:35.243132+00:00",
+    "cache": true,
+    "sha256": "8bf28e8c355e33172d1bc33c1c392fe9073cf47162245379d5c2975ee5da45bf",
+    "snapshot": "work/miljokort-screening/raw/042bb9f25891911a.bin",
+    "text_path": "work/miljokort-screening/raw/042bb9f25891911a.txt",
+    "text_chars": 328
+  },
+  {
+    "id": "9b9ed0e21e52828a",
+    "url": "https://www.havneweb.no/sandoyabatforening/",
+    "retrieved_utc": "2026-10-31T21:11:35.251337+00:00",
+    "cache": true,
+    "sha256": "61a7eb77288c9d804fb375c146c36bc65e63e8a29fa48565954ab6ab3cd095d2",
+    "snapshot": "work/miljokort-screening/raw/9b9ed0e21e52828a.bin",
+    "text_path": "work/miljokort-screening/raw/9b9ed0e21e52828a.txt",
+    "text_chars": 2046
+  },
+  {
+    "id": "42eb5624f8179c95",
+    "url": "https://www.havneweb.no/sarpsborg-bf/",
+    "retrieved_utc": "2026-10-31T21:11:35.309693+00:00",
+    "cache": true,
+    "sha256": "c5b699f9a86af66d3af9f597c5aa37f2295f4bdea58e61ed41ecf8f6f7146de5",
+    "snapshot": "work/miljokort-screening/raw/42eb5624f8179c95.bin",
+    "text_path": "work/miljokort-screening/raw/42eb5624f8179c95.txt",
+    "text_chars": 981
+  },
+  {
+    "id": "3ff6e8c6734172fe",
+    "url": "https://www.havneweb.no/sjosenteretnesodden/",
+    "retrieved_utc": "2026-10-31T21:11:35.315965+00:00",
+    "cache": true,
+    "sha256": "e84b59eb2d08fd8b8d9a024434ce32606ef5616e57625d972763489cfda200bf",
+    "snapshot": "work/miljokort-screening/raw/3ff6e8c6734172fe.bin",
+    "text_path": "work/miljokort-screening/raw/3ff6e8c6734172fe.txt",
+    "text_chars": 945
+  },
+  {
+    "id": "42cf0a8177dac5e2",
+    "url": "https://www.havneweb.no/skjarhalden-bf/",
+    "retrieved_utc": "2026-10-31T21:11:35.317129+00:00",
+    "cache": true,
+    "sha256": "cacbf332421c581aae70a175ca3f2e22c3e16228a03e32d9de8cdc4440ff3295",
+    "snapshot": "work/miljokort-screening/raw/42cf0a8177dac5e2.bin",
+    "text_path": "work/miljokort-screening/raw/42cf0a8177dac5e2.txt",
+    "text_chars": 571
+  },
+  {
+    "id": "75dfb52a786dd7b9",
+    "url": "https://www.havneweb.no/skjelsvik-bf/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.317514+00:00",
+    "cache": true,
+    "sha256": "f476073d339d47c1ccc887e1219eb61c8389882b4204c8aead662cc17994b401",
+    "snapshot": "work/miljokort-screening/raw/75dfb52a786dd7b9.bin",
+    "text_path": "work/miljokort-screening/raw/75dfb52a786dd7b9.txt",
+    "text_chars": 2299
+  },
+  {
+    "id": "e12379fe0cefd0f0",
+    "url": "https://www.havneweb.no/sonbaat/?mod=omhavnen",
+    "retrieved_utc": "2026-10-31T21:11:35.331533+00:00",
+    "cache": true,
+    "sha256": "72869c6dfbfdfa87d39b9e9a4c569b637181c5c1f998cfe014fe040fe2f6ffdf",
+    "snapshot": "work/miljokort-screening/raw/e12379fe0cefd0f0.bin",
+    "text_path": "work/miljokort-screening/raw/e12379fe0cefd0f0.txt",
+    "text_chars": 1046
+  },
+  {
+    "id": "dbe3237be8c70cc8",
+    "url": "https://www.havneweb.no/stavern-bf/index.php",
+    "retrieved_utc": "2026-10-31T21:11:35.332173+00:00",
+    "cache": true,
+    "sha256": "751f4610341f2dc9a6c2aab1ff171a9652220f3b4b6c1922dc1f4305a3f5e0db",
+    "snapshot": "work/miljokort-screening/raw/dbe3237be8c70cc8.bin",
+    "text_path": "work/miljokort-screening/raw/dbe3237be8c70cc8.txt",
+    "text_chars": 895
+  },
+  {
+    "id": "c3e75252f75dbcda",
+    "url": "https://www.havneweb.no/strand-bf/",
+    "retrieved_utc": "2026-10-31T21:11:35.339095+00:00",
+    "cache": true,
+    "sha256": "1bc11807c7ecf63348e730f62bb020360b799bcc751c91232e5d620f062dcbe9",
+    "snapshot": "work/miljokort-screening/raw/c3e75252f75dbcda.bin",
+    "text_path": "work/miljokort-screening/raw/c3e75252f75dbcda.txt",
+    "text_chars": 1907
+  },
+  {
+    "id": "21ea4ddd23139775",
+    "url": "https://www.havneweb.no/teiebat/?mod=startsiden",
+    "retrieved_utc": "2026-10-31T21:11:35.339325+00:00",
+    "cache": true,
+    "sha256": "6ca3406843abff247aa856ea97eb2f6b43860525ac51bb135bbfb026283149cf",
+    "snapshot": "work/miljokort-screening/raw/21ea4ddd23139775.bin",
+    "text_path": "work/miljokort-screening/raw/21ea4ddd23139775.txt",
+    "text_chars": 485
+  },
+  {
+    "id": "d4237c93f2a8e9af",
+    "url": "https://www.havneweb.no/tenvikbrygge/?mod=kontaktinfo",
+    "retrieved_utc": "2026-10-31T21:11:35.352567+00:00",
+    "cache": true,
+    "sha256": "1cb03f4e140544ee327943295922e67104c41b933d984a4c6efdc39ee7de7996",
+    "snapshot": "work/miljokort-screening/raw/d4237c93f2a8e9af.bin",
+    "text_path": "work/miljokort-screening/raw/d4237c93f2a8e9af.txt",
+    "text_chars": 4250
+  },
+  {
+    "id": "0efd70e2b375e3af",
+    "url": "https://www.herfoelmarina.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.355632+00:00",
+    "cache": true,
+    "sha256": "16311217c55231e72ddfe9f81968885535ddd1f6dd8d7a903c33241aebd1e709",
+    "snapshot": "work/miljokort-screening/raw/0efd70e2b375e3af.bin",
+    "text_path": "work/miljokort-screening/raw/0efd70e2b375e3af.txt",
+    "text_chars": 1855
+  },
+  {
+    "id": "db7c1c4ed1868981",
+    "url": "https://www.hersleth.no/eiendom/utviklingsomrader/spro-havn-nesodden",
+    "retrieved_utc": "2026-10-31T21:11:35.356336+00:00",
+    "cache": true,
+    "sha256": "844a4cabd01c88e438cf636c528533db14dd6644b5373273a30c855f4a971f06",
+    "snapshot": "work/miljokort-screening/raw/db7c1c4ed1868981.bin",
+    "text_path": "work/miljokort-screening/raw/db7c1c4ed1868981.txt",
+    "text_chars": 3459
+  },
+  {
+    "id": "47d0bda589c843dd",
+    "url": "https://www.holmbrygge.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.356617+00:00",
+    "cache": true,
+    "sha256": "6d13f7ae23cc9a57975e61998d1c4c4ebea80d040ec3a46876df797000057c8b",
+    "snapshot": "work/miljokort-screening/raw/47d0bda589c843dd.bin",
+    "text_path": "work/miljokort-screening/raw/47d0bda589c843dd.txt",
+    "text_chars": 679
+  },
+  {
+    "id": "f6bdf5badbbf6024",
+    "url": "https://www.holmestrandseil.no/havna/",
+    "retrieved_utc": "2026-10-31T21:11:35.356781+00:00",
+    "cache": true,
+    "sha256": "d489836fb8d3c8c051069a6a24d3fab2198dac0793d42f0ff3d1874267951ea6",
+    "snapshot": "work/miljokort-screening/raw/f6bdf5badbbf6024.bin",
+    "text_path": "work/miljokort-screening/raw/f6bdf5badbbf6024.txt",
+    "text_chars": 2661
+  },
+  {
+    "id": "8a2b7b974664f1a2",
+    "url": "https://www.hortenhavn.no/fritidsbaat/",
+    "retrieved_utc": "2026-10-31T21:11:35.357712+00:00",
+    "cache": true,
+    "sha256": "0b8ced57c3804161695787bbe94214e8c86474654db249ba639fbc02e989012a",
+    "snapshot": "work/miljokort-screening/raw/8a2b7b974664f1a2.bin",
+    "text_path": "work/miljokort-screening/raw/8a2b7b974664f1a2.txt",
+    "text_chars": 4041
+  },
+  {
+    "id": "0791e78cbfd2b449",
+    "url": "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.392217+00:00",
+    "cache": true,
+    "sha256": "e999d96f214f4b9acee98b4409c873e53a2cb10b48979e2cbea03f5941760a11",
+    "snapshot": "work/miljokort-screening/raw/0791e78cbfd2b449.bin",
+    "text_path": "work/miljokort-screening/raw/0791e78cbfd2b449.txt",
+    "text_chars": 5781
+  },
+  {
+    "id": "374c5c5bc717b7f0",
+    "url": "https://www.hortenhavn.no/fritidsbaat/aasgaardstrand-smaabaathavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.392651+00:00",
+    "cache": true,
+    "sha256": "a25d90e33f6f33147d84407374c2e7f16238ed0858edcf680744d01817811630",
+    "snapshot": "work/miljokort-screening/raw/374c5c5bc717b7f0.bin",
+    "text_path": "work/miljokort-screening/raw/374c5c5bc717b7f0.txt",
+    "text_chars": 5043
+  },
+  {
+    "id": "110460eff200dd2c",
+    "url": "https://www.hortenhavn.no/fritidsbaat/bankloekka-baathavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.400725+00:00",
+    "cache": true,
+    "sha256": "a458bd45ea821d8420585a1b469730ea4811aca3bd6329f94e73aa909f8e0459",
+    "snapshot": "work/miljokort-screening/raw/110460eff200dd2c.bin",
+    "text_path": "work/miljokort-screening/raw/110460eff200dd2c.txt",
+    "text_chars": 5365
+  },
+  {
+    "id": "18800e4d41b3ac6a",
+    "url": "https://www.hortenhavn.no/fritidsbaat/horten-gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.413521+00:00",
+    "cache": true,
+    "sha256": "3c84ea80a60765ca50128096f1ad2de8537a02bff0747e2cf9973d2c481db351",
+    "snapshot": "work/miljokort-screening/raw/18800e4d41b3ac6a.bin",
+    "text_path": "work/miljokort-screening/raw/18800e4d41b3ac6a.txt",
+    "text_chars": 8019
+  },
+  {
+    "id": "0b84199d7528250e",
+    "url": "https://www.hortenhavn.no/fritidsbaat/sykehusbrygga-gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:35.437951+00:00",
+    "cache": true,
+    "sha256": "fd775bc44b84c8843f89d0cc6bfeef539e1e66d195ac678e55d0e861a676c230",
+    "snapshot": "work/miljokort-screening/raw/0b84199d7528250e.bin",
+    "text_path": "work/miljokort-screening/raw/0b84199d7528250e.txt",
+    "text_chars": 4621
+  },
+  {
+    "id": "ca90eb090ec2d6df",
+    "url": "https://www.hortenhavn.no/hvor-er-hva/",
+    "retrieved_utc": "2026-10-31T21:11:35.438177+00:00",
+    "cache": true,
+    "sha256": "9c602b9f59f7a9fa6b36dd06c0252a4bbf58c7a5209d14ad0d6066e8334ea9bb",
+    "snapshot": "work/miljokort-screening/raw/ca90eb090ec2d6df.bin",
+    "text_path": "work/miljokort-screening/raw/ca90eb090ec2d6df.txt",
+    "text_chars": 1656
+  },
+  {
+    "id": "e8d9556853d1252b",
+    "url": "https://www.hsbhavn.com/om-oss/",
+    "retrieved_utc": "2026-10-31T21:11:35.438731+00:00",
+    "cache": true,
+    "sha256": "64ff2ce549c499068c73674d20000bcc18aa195be5457f9a9658607670cbfc01",
+    "snapshot": "work/miljokort-screening/raw/e8d9556853d1252b.bin",
+    "text_path": "work/miljokort-screening/raw/e8d9556853d1252b.txt",
+    "text_chars": 1268
+  },
+  {
+    "id": "e523bddcc3d92c2a",
+    "url": "https://www.huvik.no/b%C3%A5tplasser",
+    "retrieved_utc": "2026-10-31T21:11:35.439141+00:00",
+    "cache": true,
+    "sha256": "56e728722a368f5bd176de40c959965463f7545a83e3417789d0a7ddc8598926",
+    "snapshot": "work/miljokort-screening/raw/e523bddcc3d92c2a.bin",
+    "text_path": "work/miljokort-screening/raw/e523bddcc3d92c2a.txt",
+    "text_chars": 1139
+  },
+  {
+    "id": "72f312540f435d72",
+    "url": "https://www.hvaler.kommune.no/contentassets/df50af304dee4936bd3685c41fbe7412/strategisk-havneplan-2018-2028.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.470787+00:00",
+    "cache": true,
+    "sha256": "7273e4c2d2d2215da6f058144d895b3b18087bda251b4f86da4bdeaeac745706",
+    "snapshot": "work/miljokort-screening/raw/72f312540f435d72.bin",
+    "text_path": "work/miljokort-screening/raw/72f312540f435d72.txt",
+    "text_chars": 97376
+  },
+  {
+    "id": "2b82539f20b87549",
+    "url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/havner/",
+    "retrieved_utc": "2026-10-31T21:11:35.524146+00:00",
+    "cache": true,
+    "sha256": "5f1e8ded193f66551259ba665dbe0e41c0388ccbd8d609fa707d5feffd3e25ba",
+    "snapshot": "work/miljokort-screening/raw/2b82539f20b87549.bin",
+    "text_path": "work/miljokort-screening/raw/2b82539f20b87549.txt",
+    "text_chars": 2249
+  },
+  {
+    "id": "ffb80698e6e0fa4f",
+    "url": "https://www.hvalergjestehavn.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.525960+00:00",
+    "cache": true,
+    "sha256": "209eca44af578c842c1fe12d7f2c38cd5cd678ba7e58f985d5d10c824aa88ca4",
+    "snapshot": "work/miljokort-screening/raw/ffb80698e6e0fa4f.bin",
+    "text_path": "work/miljokort-screening/raw/ffb80698e6e0fa4f.txt",
+    "text_chars": 4189
+  },
+  {
+    "id": "83d69a757c857e2e",
+    "url": "https://www.hvalermarinesenter.no/omoss.html",
+    "retrieved_utc": "2026-10-31T21:11:35.533444+00:00",
+    "cache": true,
+    "sha256": "d55f13f26a8192972d8750ba524c5088e18d3d16541d3576e5db4d163ea35bd3",
+    "snapshot": "work/miljokort-screening/raw/83d69a757c857e2e.bin",
+    "text_path": "work/miljokort-screening/raw/83d69a757c857e2e.txt",
+    "text_chars": 2985
+  },
+  {
+    "id": "464fef5429fda58c",
+    "url": "https://www.hvitstenvel.no/Hvitsten-Vel",
+    "retrieved_utc": "2026-10-31T21:11:35.534638+00:00",
+    "cache": true,
+    "sha256": "88261e9ffaa78eb4e76f95885e90a83c90e1fa27f89420a84fffc925b7897be7",
+    "snapshot": "work/miljokort-screening/raw/464fef5429fda58c.bin",
+    "text_path": "work/miljokort-screening/raw/464fef5429fda58c.txt",
+    "text_chars": 6878
+  },
+  {
+    "id": "107f949fcfa1f3c1",
+    "url": "https://www.hydro.com/globalassets/07-media/nabo-info-porsgrunn-juni2019.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.535442+00:00",
+    "cache": true,
+    "sha256": "700a1a56249304ddf6b4b301e3e44302d046c05a9ab63566c3afbf1d07d62778",
+    "snapshot": "work/miljokort-screening/raw/107f949fcfa1f3c1.bin",
+    "text_path": "work/miljokort-screening/raw/107f949fcfa1f3c1.txt",
+    "text_chars": 1572
+  },
+  {
+    "id": "b598bc78ff97f6d3",
+    "url": "https://www.kambomarina.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.535834+00:00",
+    "cache": true,
+    "sha256": "e0db793015c6fc044e541379ad62b1cce310924d1019acc65dcb8452954d1174",
+    "snapshot": "work/miljokort-screening/raw/b598bc78ff97f6d3.bin",
+    "text_path": "work/miljokort-screening/raw/b598bc78ff97f6d3.txt",
+    "text_chars": 4533
+  },
+  {
+    "id": "9b2e7cfd240bc437",
+    "url": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+    "retrieved_utc": "2026-10-31T21:11:35.536207+00:00",
+    "cache": true,
+    "sha256": "6a62aabe3b33a4b63e9ce5d198e74319695dcd32447e13ba4b5fe07341a5742a",
+    "snapshot": "work/miljokort-screening/raw/9b2e7cfd240bc437.bin",
+    "text_path": "work/miljokort-screening/raw/9b2e7cfd240bc437.txt",
+    "text_chars": 17408
+  },
+  {
+    "id": "3a336df96d801cac",
+    "url": "https://www.kloppbat.com/",
+    "retrieved_utc": "2026-10-31T21:11:35.542708+00:00",
+    "cache": true,
+    "sha256": "c349e974be8ca27eb93214ba598b6e106a02f14368700319948a63ab46b44034",
+    "snapshot": "work/miljokort-screening/raw/3a336df96d801cac.bin",
+    "text_path": "work/miljokort-screening/raw/3a336df96d801cac.txt",
+    "text_chars": 1549
+  },
+  {
+    "id": "272de3a19571a81f",
+    "url": "https://www.knbf.no/2024/06/05/info-om-forbud-for-fritidsbater-om-a-slippe-ut-kloakk-i-oslofjorden-fra-1-juli-i-ar/",
+    "retrieved_utc": "2026-10-31T21:11:35.582267+00:00",
+    "final_url": "https://www.knbf.no/2024/06/05/info-om-forbud-for-fritidsbater-om-a-slippe-ut-kloakk-i-oslofjorden-fra-1-juli-i-ar/",
+    "http_status": 200,
+    "sha256": "163622042f624b1b4bbc11226b8ff3022b8de8630a578032aeadc0838f34ce90",
+    "snapshot": "work/miljokort-screening/raw/272de3a19571a81f.bin",
+    "text_path": "work/miljokort-screening/raw/272de3a19571a81f.txt",
+    "text_chars": 9964
+  },
+  {
+    "id": "f68b5210afa62a89",
+    "url": "https://www.lagaholet.no/dokumenter/Bl%C3%A5boka%202022.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.609882+00:00",
+    "final_url": "https://www.lagaholet.no/dokumenter/Bl%C3%A5boka%202022.pdf",
+    "http_status": 200,
+    "sha256": "1750731483726cdbcebef25dcc7a182d6b8ac9bc1b1376a7bdd5e6421ff51f36",
+    "snapshot": "work/miljokort-screening/raw/f68b5210afa62a89.bin",
+    "text_path": "work/miljokort-screening/raw/f68b5210afa62a89.txt",
+    "text_chars": 57718
+  },
+  {
+    "id": "2ca3f10f897062b2",
+    "url": "https://www.larvikbaatforening.com/files/220420_2BINNKALLING_2BSAKSPAPIRER_2BSISTE.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.610164+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "6b4747253e945bd8",
+    "url": "https://www.lmbf.info/",
+    "retrieved_utc": "2026-10-31T21:11:35.612455+00:00",
+    "cache": true,
+    "sha256": "1bd3433a02673e1ed3d68f63acadc2d9b32b102e7d82b34cd15e7ab3775e5d83",
+    "snapshot": "work/miljokort-screening/raw/6b4747253e945bd8.bin",
+    "text_path": "work/miljokort-screening/raw/6b4747253e945bd8.txt",
+    "text_chars": 2412
+  },
+  {
+    "id": "688dec5c08f176e3",
+    "url": "https://www.lmbf.info/_files/ugd/421622_19dbd11086724b41aea788ae64f5e20c.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.612744+00:00",
+    "cache": true,
+    "sha256": "5a144dfb675249d65615cb72250b74832bea8870cafbff0982ecd274bc5f6731",
+    "snapshot": "work/miljokort-screening/raw/688dec5c08f176e3.bin",
+    "text_path": "work/miljokort-screening/raw/688dec5c08f176e3.txt",
+    "text_chars": 13911
+  },
+  {
+    "id": "2194f7a1c0576f1c",
+    "url": "https://www.lmbf.info/_files/ugd/421622_326c2f97576a4b5aae01d6c6ea3f8699.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.614125+00:00",
+    "cache": true,
+    "sha256": "6abfc7c161920d34d431d7a97e61fd39daeb30b7d3877c1cc84fe125209254c2",
+    "snapshot": "work/miljokort-screening/raw/2194f7a1c0576f1c.bin",
+    "text_path": "work/miljokort-screening/raw/2194f7a1c0576f1c.txt",
+    "text_chars": 11298
+  },
+  {
+    "id": "864b076cee96be6b",
+    "url": "https://www.moss-havn.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.615206+00:00",
+    "cache": true,
+    "sha256": "ea834de504b2e44330ca729df7777b9fad4dfc812a4b22a4bad79cca2c674bd2",
+    "snapshot": "work/miljokort-screening/raw/864b076cee96be6b.bin",
+    "text_path": "work/miljokort-screening/raw/864b076cee96be6b.txt",
+    "text_chars": 4338
+  },
+  {
+    "id": "5eca2dac3ce6d0c0",
+    "url": "https://www.no17.no/3228/",
+    "retrieved_utc": "2026-10-31T21:11:35.615611+00:00",
+    "final_url": "https://www.no17.no/3228/",
+    "http_status": 200,
+    "sha256": "b85e6ad9e5804fc9e41bee1db5a4e20fb879b0c9ba9a24f45c4427149eba57f0",
+    "snapshot": "work/miljokort-screening/raw/5eca2dac3ce6d0c0.bin",
+    "text_path": "work/miljokort-screening/raw/5eca2dac3ce6d0c0.txt",
+    "text_chars": 7654
+  },
+  {
+    "id": "cd652054898bd629",
+    "url": "https://www.no17.no/vi-oppfordrer-kommunene-stott-renselosninger-i-bathavnene-for-fjordens-fremtid/",
+    "retrieved_utc": "2026-10-31T21:11:35.622983+00:00",
+    "final_url": "https://www.no17.no/vi-oppfordrer-kommunene-stott-renselosninger-i-bathavnene-for-fjordens-fremtid/",
+    "http_status": 200,
+    "sha256": "3bb7ccb9a3a066e716e738253340a6a9cb77f89770a705fca30f282665e93a5c",
+    "snapshot": "work/miljokort-screening/raw/cd652054898bd629.bin",
+    "text_path": "work/miljokort-screening/raw/cd652054898bd629.txt",
+    "text_chars": 5633
+  },
+  {
+    "id": "37850871e3f7327d",
+    "url": "https://www.nokledypet.no/gjestehavn-2",
+    "retrieved_utc": "2026-10-31T21:11:35.725758+00:00",
+    "cache": true,
+    "sha256": "306085dddd60f26a8cdcd7196f0302cecb2ae43fbfaca75322516781422a9aeb",
+    "snapshot": "work/miljokort-screening/raw/37850871e3f7327d.bin",
+    "text_path": "work/miljokort-screening/raw/37850871e3f7327d.txt",
+    "text_chars": 2628
+  },
+  {
+    "id": "fd5de7faea6a5c27",
+    "url": "https://www.obh.no/omoss/historie/",
+    "retrieved_utc": "2026-10-31T21:11:35.775102+00:00",
+    "cache": true,
+    "sha256": "a16cdae1a36700de09e45f250084f97d63da7cad9b9acc6dece3c6b55ed2b80d",
+    "snapshot": "work/miljokort-screening/raw/fd5de7faea6a5c27.bin",
+    "text_path": "work/miljokort-screening/raw/fd5de7faea6a5c27.txt",
+    "text_chars": 854
+  },
+  {
+    "id": "30af058eed24f548",
+    "url": "https://www.ollebukta.no/",
+    "retrieved_utc": "2026-10-31T21:11:35.796047+00:00",
+    "cache": true,
+    "sha256": "a21cd81e1bfb975a4eeb3f63ccc7f439e2242ae8c5b14051c46c9298dbfc9074",
+    "snapshot": "work/miljokort-screening/raw/30af058eed24f548.bin",
+    "text_path": "work/miljokort-screening/raw/30af058eed24f548.txt",
+    "text_chars": 243
+  },
+  {
+    "id": "8739d600e7938686",
+    "url": "https://www.oslofjorden.org/bygningene-pa-bergholmen/",
+    "retrieved_utc": "2026-10-31T21:11:35.831125+00:00",
+    "cache": true,
+    "sha256": "1f01a6f307613848650adbfbd0e6424e35dfea8f00ea859eb88aca5dbf386a04",
+    "snapshot": "work/miljokort-screening/raw/8739d600e7938686.bin",
+    "text_path": "work/miljokort-screening/raw/8739d600e7938686.txt",
+    "text_chars": 6028
+  },
+  {
+    "id": "ad6ac54cabc6519c",
+    "url": "https://www.oslofjorden.org/telting-pa-haoya/",
+    "retrieved_utc": "2026-10-31T21:11:35.855032+00:00",
+    "cache": true,
+    "sha256": "d9eb57babc60eb9e5818fb198f14b519f9f0c9590a8ab8b6c571bad177073990",
+    "snapshot": "work/miljokort-screening/raw/ad6ac54cabc6519c.bin",
+    "text_path": "work/miljokort-screening/raw/ad6ac54cabc6519c.txt",
+    "text_chars": 7328
+  },
+  {
+    "id": "cb9af07478ac8c64",
+    "url": "https://www.osloseilforening.no/next/p/14151/hms",
+    "retrieved_utc": "2026-10-31T21:11:35.876180+00:00",
+    "cache": true,
+    "sha256": "68ba1d595ca94521a96adeab044cb64284aab2720b5fe310abd46e5e0475964f",
+    "snapshot": "work/miljokort-screening/raw/cb9af07478ac8c64.bin",
+    "text_path": "work/miljokort-screening/raw/cb9af07478ac8c64.txt",
+    "text_chars": 16636
+  },
+  {
+    "id": "4fa3f975a06e5fde",
+    "url": "https://www.porsgrunn.kommune.no/media/2416/8-mottatte-merknader-i-hoeringsperioden-planid-257-200420.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.876372+00:00",
+    "cache": true,
+    "sha256": "6bbb770a4223a58b6f8a2b3e842c30695d6ea9cf5133ecd21ddd56d5bf337164",
+    "snapshot": "work/miljokort-screening/raw/4fa3f975a06e5fde.bin",
+    "parse_error": "Stream has ended unexpectedly",
+    "text_path": "work/miljokort-screening/raw/4fa3f975a06e5fde.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "73be866c212035ca",
+    "url": "https://www.porsgrunn.kommune.no/media/idefyybu/4-planbeskrivelse.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.878617+00:00",
+    "cache": true,
+    "sha256": "955c60ea1c574d6bca5729d6b33569c7ecb975d490d9328f6fef4958d945b263",
+    "snapshot": "work/miljokort-screening/raw/73be866c212035ca.bin",
+    "parse_error": "Cannot find Root object in pdf",
+    "text_path": "work/miljokort-screening/raw/73be866c212035ca.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "75c399a51e2c9f67",
+    "url": "https://www.rade.kommune.no/_f/p1/i1db1d7e1-c08e-4118-a0e8-f70e09a26638/kommunedelplan_for_saltnesomraadet-vedtatt_210607.pdf",
+    "retrieved_utc": "2026-10-31T21:11:35.891642+00:00",
+    "cache": true,
+    "sha256": "306fa792b90001d8a135783b59b6084b4c6a13354d67b26906667e684b4dba43",
+    "snapshot": "work/miljokort-screening/raw/75c399a51e2c9f67.bin",
+    "text_path": "work/miljokort-screening/raw/75c399a51e2c9f67.txt",
+    "text_chars": 128314
+  },
+  {
+    "id": "7351f91c5dd43e1f",
+    "url": "https://www.rbf.no/index.php/batplasser",
+    "retrieved_utc": "2026-10-31T21:11:35.935080+00:00",
+    "cache": true,
+    "sha256": "ab800ffc23a1f023d9966b48790c25183e82c07aeb44ccf5ef94b9ea6ded7d9a",
+    "snapshot": "work/miljokort-screening/raw/7351f91c5dd43e1f.bin",
+    "text_path": "work/miljokort-screening/raw/7351f91c5dd43e1f.txt",
+    "text_chars": 6909
+  },
+  {
+    "id": "f07674b3b4fd8678",
+    "url": "https://www.rs-noatun.no/nb",
+    "retrieved_utc": "2026-10-31T21:11:35.936141+00:00",
+    "cache": true,
+    "sha256": "732bac02c763eb4138614fe89dd58d0b319006269e8854c5053fdb15e6aea2c6",
+    "snapshot": "work/miljokort-screening/raw/f07674b3b4fd8678.bin",
+    "text_path": "work/miljokort-screening/raw/f07674b3b4fd8678.txt",
+    "text_chars": 2433
+  },
+  {
+    "id": "da795403dfb5f0b3",
+    "url": "https://www.sandefjord.kommune.no/engasjer-deg/planer/miljo-naring-landbruk/smabathavnutredning/",
+    "retrieved_utc": "2026-10-31T21:11:36.047609+00:00",
+    "cache": true,
+    "sha256": "5ab650929b78f05e7fa68af69d25084cf7ec8e39b4b05a4ca974c11bc9d758db",
+    "snapshot": "work/miljokort-screening/raw/da795403dfb5f0b3.bin",
+    "parse_error": "Stream has ended unexpectedly",
+    "text_path": "work/miljokort-screening/raw/da795403dfb5f0b3.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "73b5bea15384514e",
+    "url": "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/gjeste-og-fiskerihavner/",
+    "retrieved_utc": "2026-10-31T21:11:36.151092+00:00",
+    "cache": true,
+    "sha256": "f20b5683ff1670b8cadb128c861aaebcec81f0c23fb8d49e5bcfaf954988a26c",
+    "snapshot": "work/miljokort-screening/raw/73b5bea15384514e.bin",
+    "text_path": "work/miljokort-screening/raw/73b5bea15384514e.txt",
+    "text_chars": 3261
+  },
+  {
+    "id": "0957d4c6bb9a96a4",
+    "url": "https://www.sandefjord.kommune.no/miljo-naring-landbruk/sandefjord-havn/leie-batplass/",
+    "retrieved_utc": "2026-10-31T21:11:36.251270+00:00",
+    "cache": true,
+    "sha256": "c2c67a5f26cafdce66014ef832aa75cda3d6a88315b7580b03f4d3f2e353a7e2",
+    "snapshot": "work/miljokort-screening/raw/0957d4c6bb9a96a4.bin",
+    "text_path": "work/miljokort-screening/raw/0957d4c6bb9a96a4.txt",
+    "text_chars": 2187
+  },
+  {
+    "id": "4ab208d0cc51e260",
+    "url": "https://www.sarpsborg-seilforening.no/brygger/",
+    "retrieved_utc": "2026-10-31T21:11:36.585967+00:00",
+    "cache": true,
+    "sha256": "ef71f4462ba5d8698eaef34c39fac87978a1ee2b2590de1f06df2595ee4be9c3",
+    "snapshot": "work/miljokort-screening/raw/4ab208d0cc51e260.bin",
+    "text_path": "work/miljokort-screening/raw/4ab208d0cc51e260.txt",
+    "text_chars": 1695
+  },
+  {
+    "id": "a4d488b2e6b00933",
+    "url": "https://www.sarpsborg.com/aktuelt/stor-interesse-for-marinaen",
+    "retrieved_utc": "2026-10-31T21:11:36.740186+00:00",
+    "cache": true,
+    "sha256": "84d26866ac38022633de4ad12517eb12720ff9f16b9132fc241db0a5c91e49b8",
+    "snapshot": "work/miljokort-screening/raw/a4d488b2e6b00933.bin",
+    "text_path": "work/miljokort-screening/raw/a4d488b2e6b00933.txt",
+    "text_chars": 3080
+  },
+  {
+    "id": "c12c9a6cb733ba4e",
+    "url": "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+    "retrieved_utc": "2026-10-31T21:11:36.940352+00:00",
+    "cache": true,
+    "sha256": "321b8b26fbc25a72c9e04ebb4f9c292eb8be987e9e905fa9de1bded069d9f0d8",
+    "snapshot": "work/miljokort-screening/raw/c12c9a6cb733ba4e.bin",
+    "parse_error": "Cannot find Root object in pdf",
+    "text_path": "work/miljokort-screening/raw/c12c9a6cb733ba4e.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "b393429d278124dc",
+    "url": "https://www.selvaagbolig.no/vestfold/kaldnes-brygge/batplass/dokumenter-batplass/oversikt-batplasser-kaldnes-brygge/",
+    "retrieved_utc": "2026-10-31T21:11:36.956856+00:00",
+    "cache": true,
+    "sha256": "d68b32897f230aee7b262803408f304785d9dd5f9f4083affbb63ebbe671020f",
+    "snapshot": "work/miljokort-screening/raw/b393429d278124dc.bin",
+    "text_path": "work/miljokort-screening/raw/b393429d278124dc.txt",
+    "text_chars": 534
+  },
+  {
+    "id": "d46380b14d1569bb",
+    "url": "https://www.sjoloftet.no/sjloftet-marina",
+    "retrieved_utc": "2026-10-31T21:11:36.957234+00:00",
+    "final_url": "https://www.sjoloftet.no/sjloftet-marina",
+    "http_status": 200,
+    "sha256": "2f94bcc0a84456b01736fed2e8e857987b044cdce5cd02ea726944c94aa42494",
+    "snapshot": "work/miljokort-screening/raw/d46380b14d1569bb.bin",
+    "text_path": "work/miljokort-screening/raw/d46380b14d1569bb.txt",
+    "text_chars": 2089
+  },
+  {
+    "id": "db6f933ce184dc93",
+    "url": "https://www.skjebergmarinesenter.no/",
+    "retrieved_utc": "2026-10-31T21:11:36.970154+00:00",
+    "cache": true,
+    "sha256": "5183541d3594d6c770ce9ca237e8ec2120df86d4659e5fbf841204b9d7450301",
+    "snapshot": "work/miljokort-screening/raw/db6f933ce184dc93.bin",
+    "text_path": "work/miljokort-screening/raw/db6f933ce184dc93.txt",
+    "text_chars": 4365
+  },
+  {
+    "id": "8ec206421e881e82",
+    "url": "https://www.skjebergmarinesenter.no/aktuelt/hoy-miljoprofil",
+    "retrieved_utc": "2026-10-31T21:11:37.080550+00:00",
+    "cache": true,
+    "sha256": "e943c143d3a08595c98a8a0becaabd29a15b960c03a3739b6f7357d99b875d42",
+    "snapshot": "work/miljokort-screening/raw/8ec206421e881e82.bin",
+    "text_path": "work/miljokort-screening/raw/8ec206421e881e82.txt",
+    "text_chars": 1627
+  },
+  {
+    "id": "0ae19d13bfec1cd4",
+    "url": "https://www.sonbaat.no/havnas-fasiliteter/",
+    "retrieved_utc": "2026-10-31T21:11:37.167154+00:00",
+    "cache": true,
+    "sha256": "ead22a2116632fca90facfc300de07f783429c3bcfc6c7a1ddb878c9de6be745",
+    "snapshot": "work/miljokort-screening/raw/0ae19d13bfec1cd4.bin",
+    "text_path": "work/miljokort-screening/raw/0ae19d13bfec1cd4.txt",
+    "text_chars": 1851
+  },
+  {
+    "id": "ab8299f714c3ae05",
+    "url": "https://www.sonbaat.no/havnereglement/",
+    "retrieved_utc": "2026-10-31T21:11:37.181288+00:00",
+    "cache": true,
+    "sha256": "96fcf2fbb0f073f2a77dea4d566ae9ca5c477a19d6b8e5e5a28b2b0d3a246e6c",
+    "snapshot": "work/miljokort-screening/raw/ab8299f714c3ae05.bin",
+    "text_path": "work/miljokort-screening/raw/ab8299f714c3ae05.txt",
+    "text_chars": 11585
+  },
+  {
+    "id": "d50779341cc504d7",
+    "url": "https://www.sonhavn.no/smaabaathavn/",
+    "retrieved_utc": "2026-10-31T21:11:37.248044+00:00",
+    "cache": true,
+    "sha256": "2bb0ac7b501808e3eb973db4fd12ef64dd64bd649b325e6171758a73d0dc882a",
+    "snapshot": "work/miljokort-screening/raw/d50779341cc504d7.bin",
+    "text_path": "work/miljokort-screening/raw/d50779341cc504d7.txt",
+    "text_chars": 1415
+  },
+  {
+    "id": "cd87f69cbd18cd0c",
+    "url": "https://www.sonhavn.no/smaabaathavn/gjestehavnkartflyfoto/",
+    "retrieved_utc": "2026-10-31T21:11:37.448829+00:00",
+    "cache": true,
+    "sha256": "b7b37f62cfcdfc2490aff25206dae0138154d2de0dc9ab0333af5d8bd3343981",
+    "snapshot": "work/miljokort-screening/raw/cd87f69cbd18cd0c.bin",
+    "text_path": "work/miljokort-screening/raw/cd87f69cbd18cd0c.txt",
+    "text_chars": 1173
+  },
+  {
+    "id": "3adcd9e2879d4262",
+    "url": "https://www.sonhavn.no/son-gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:37.526414+00:00",
+    "cache": true,
+    "sha256": "73ce32418077e56f18d54c807ad3c0f55477cac7b20346d4d0925111489bdfc3",
+    "snapshot": "work/miljokort-screening/raw/3adcd9e2879d4262.bin",
+    "text_path": "work/miljokort-screening/raw/3adcd9e2879d4262.txt",
+    "text_chars": 2476
+  },
+  {
+    "id": "4306a7c5d571c51e",
+    "url": "https://www.sonskilen.no/batplass",
+    "retrieved_utc": "2026-10-31T21:11:37.526833+00:00",
+    "cache": true,
+    "sha256": "9388ac15434800f33f91002bc40829329d28b7b84ab5c47a705fc766d1f1f11d",
+    "snapshot": "work/miljokort-screening/raw/4306a7c5d571c51e.bin",
+    "text_path": "work/miljokort-screening/raw/4306a7c5d571c51e.txt",
+    "text_chars": 1799
+  },
+  {
+    "id": "363c3875fbaf1462",
+    "url": "https://www.sonskilen.no/miljo",
+    "retrieved_utc": "2026-10-31T21:11:37.573958+00:00",
+    "cache": true,
+    "sha256": "2f4cdd1886bf6da0cec8889c1e283e19921947f22837ad5e40705b066e2943c1",
+    "snapshot": "work/miljokort-screening/raw/363c3875fbaf1462.bin",
+    "text_path": "work/miljokort-screening/raw/363c3875fbaf1462.txt",
+    "text_chars": 7150
+  },
+  {
+    "id": "49b2d337e4ae5078",
+    "url": "https://www.sonskilen.no/om-oss",
+    "retrieved_utc": "2026-10-31T21:11:37.575586+00:00",
+    "cache": true,
+    "sha256": "a4b7078a1553311b3fe1ddea55761ea158dc74f53febd4b16c575eac4de3dca7",
+    "snapshot": "work/miljokort-screening/raw/49b2d337e4ae5078.bin",
+    "text_path": "work/miljokort-screening/raw/49b2d337e4ae5078.txt",
+    "text_chars": 3028
+  },
+  {
+    "id": "a2c9f28d727cc95e",
+    "url": "https://www.sonskilen.no/vi-tilbyr",
+    "retrieved_utc": "2026-10-31T21:11:37.580901+00:00",
+    "cache": true,
+    "sha256": "f2d8e3a3c79bf0f5e4866d8de9d978ec5fd5b8b1a829158ffc59574716cec6db",
+    "snapshot": "work/miljokort-screening/raw/a2c9f28d727cc95e.bin",
+    "text_path": "work/miljokort-screening/raw/a2c9f28d727cc95e.txt",
+    "text_chars": 1329
+  },
+  {
+    "id": "3057574ff2a76b3f",
+    "url": "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/klima-og-miljovern/berger-batforening/2021.0238.t.pdf",
+    "retrieved_utc": "2026-10-31T21:11:37.581128+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "bf3054007489ac1f",
+    "url": "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/horinger-og-kunngjoringer/refsnes-bryggeforening/vedtak-om-tillatelse-etter-forurensningsloven-til-mudring-ved-felles-batanlegg---1_2864---moss-kommune.pdf",
+    "retrieved_utc": "2026-10-31T21:11:37.582278+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "acf5e3237a65ef04",
+    "url": "https://www.statsforvalteren.no/siteassets/fm-oslo-og-viken/miljo-og-klima/forurensning/mudring-ved-mosseveien-15/fredrikstad-motobatforening-tillatelse.pdf",
+    "retrieved_utc": "2026-10-31T21:11:37.605014+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "da159803af8471ca",
+    "url": "https://www.telemarkskanalen.no/fritidsbat/strekning-for-strekning/fra-kysten-til-skien",
+    "retrieved_utc": "2026-10-31T21:11:37.605655+00:00",
+    "cache": true,
+    "sha256": "aa0fde1f0c947184ee48e2955e83fe6ac6548274279288fb841cfadae90c4e49",
+    "snapshot": "work/miljokort-screening/raw/da159803af8471ca.bin",
+    "text_path": "work/miljokort-screening/raw/da159803af8471ca.txt",
+    "text_chars": 9877
+  },
+  {
+    "id": "bca02f0f191d8fa2",
+    "url": "https://www.tonsberg.kommune.no/tjenester/kultur-idrett-og-fritid/turist-i-tonsberg/gjestehavna/",
+    "retrieved_utc": "2026-10-31T21:11:37.606571+00:00",
+    "cache": true,
+    "sha256": "82b84fed71f30b87d8aa039e1eb0412aa8784992fbf312ca14916c7dc4ae4c2a",
+    "snapshot": "work/miljokort-screening/raw/bca02f0f191d8fa2.bin",
+    "text_path": "work/miljokort-screening/raw/bca02f0f191d8fa2.txt",
+    "text_chars": 5993
+  },
+  {
+    "id": "f4652d05d5d85b82",
+    "url": "https://www.ursvikbukten.no/",
+    "retrieved_utc": "2026-10-31T21:11:37.607151+00:00",
+    "cache": true,
+    "sha256": "cce8781be927cca3104a36f4b98236562e2982e32fd376d7dff4cb197c12175b",
+    "snapshot": "work/miljokort-screening/raw/f4652d05d5d85b82.bin",
+    "text_path": "work/miljokort-screening/raw/f4652d05d5d85b82.txt",
+    "text_chars": 797
+  },
+  {
+    "id": "321ec0e498a93c01",
+    "url": "https://www.vallobaatforening.no/index.php/vallo-batforening/vallo-sin-historie",
+    "retrieved_utc": "2026-10-31T21:11:37.607519+00:00",
+    "cache": true,
+    "sha256": "3b00ccd734ef25c5a3efba780275a6ce9a5979c26b6a14c8d18057c2a195e1a6",
+    "snapshot": "work/miljokort-screening/raw/321ec0e498a93c01.bin",
+    "text_path": "work/miljokort-screening/raw/321ec0e498a93c01.txt",
+    "text_chars": 10764
+  },
+  {
+    "id": "cbf6035ad2b1d21b",
+    "url": "https://www.veierland.org/veierland",
+    "retrieved_utc": "2026-10-31T21:11:37.613375+00:00",
+    "cache": true,
+    "sha256": "423db0072f9753af0ef62569961c9874a1587d6e96dc87784d841e44808e6b5d",
+    "snapshot": "work/miljokort-screening/raw/cbf6035ad2b1d21b.bin",
+    "text_path": "work/miljokort-screening/raw/cbf6035ad2b1d21b.txt",
+    "text_chars": 5308
+  },
+  {
+    "id": "5c950d8324e8a25e",
+    "url": "https://www.verketmoss.no/",
+    "retrieved_utc": "2026-10-31T21:11:37.618377+00:00",
+    "cache": true,
+    "sha256": "0a5f4d4346b3c8dbb3f68a342456cd4fa3612fea047d37b0fe8d4dd1aa128f33",
+    "snapshot": "work/miljokort-screening/raw/5c950d8324e8a25e.bin",
+    "text_path": "work/miljokort-screening/raw/5c950d8324e8a25e.txt",
+    "text_chars": 15542
+  },
+  {
+    "id": "6b4d26ba98a3c349",
+    "url": "https://www.vindfangerbukta.no/havna/",
+    "retrieved_utc": "2026-10-31T21:11:37.623217+00:00",
+    "cache": true,
+    "sha256": "75b7ed7b7ee0f17f0c4556ce28c79085c09cb43c44e3f1eea0e5fd8f2fb0f1c6",
+    "snapshot": "work/miljokort-screening/raw/6b4d26ba98a3c349.bin",
+    "text_path": "work/miljokort-screening/raw/6b4d26ba98a3c349.txt",
+    "text_chars": 1034
+  },
+  {
+    "id": "7731c6be93c03442",
+    "url": "https://www.visitoestfold.com/listing/tangen-brygge-gjestebrygge-i-tistedal/538810306/",
+    "retrieved_utc": "2026-10-31T21:11:37.625702+00:00",
+    "cache": true,
+    "sha256": "bc2a31ebbf5ea52840277a1dd8c56e4ab1114672ddff8d90d24a2fadba9e5191",
+    "snapshot": "work/miljokort-screening/raw/7731c6be93c03442.bin",
+    "text_path": "work/miljokort-screening/raw/7731c6be93c03442.txt",
+    "text_chars": 780
+  },
+  {
+    "id": "0cf5f3dc3133171a",
+    "url": "https://www.visittelemark.no/produkter/down-town-gjestebrygge",
+    "retrieved_utc": "2026-10-31T21:11:37.631497+00:00",
+    "cache": true,
+    "sha256": "175f5b9aa6094348f4420e2f7bc180efce29281cc7d8d859b10abd20c7dbdfde",
+    "snapshot": "work/miljokort-screening/raw/0cf5f3dc3133171a.bin",
+    "text_path": "work/miljokort-screening/raw/0cf5f3dc3133171a.txt",
+    "text_chars": 18343
+  },
+  {
+    "id": "a1aabbbe31eb05f9",
+    "url": "https://www.vsmarina.no/kontakt/",
+    "retrieved_utc": "2026-10-31T21:11:37.640422+00:00",
+    "cache": true,
+    "sha256": "17729eaa9905eb77be30aa25e505eecd7cb4918b4980f07ec0f5e7d6ef470fdd",
+    "snapshot": "work/miljokort-screening/raw/a1aabbbe31eb05f9.bin",
+    "text_path": "work/miljokort-screening/raw/a1aabbbe31eb05f9.txt",
+    "text_chars": 709
+  },
+  {
+    "id": "3bbcc3d89418f212",
+    "url": "https://www.xn--btplassvall-x8a1x.no/",
+    "retrieved_utc": "2026-10-31T21:11:37.647670+00:00",
+    "cache": true,
+    "sha256": "fb9daa60bd8f3e60cbc5e9da5c114e060902e57da2e4a9e112da533e70043fa4",
+    "snapshot": "work/miljokort-screening/raw/3bbcc3d89418f212.bin",
+    "text_path": "work/miljokort-screening/raw/3bbcc3d89418f212.txt",
+    "text_chars": 2779
+  },
+  {
+    "id": "6a5b9a1fa713c8c7",
+    "url": "https://www.xn--farrisbtforening-job.no/start/informasjon",
+    "retrieved_utc": "2026-10-31T21:11:37.649312+00:00",
+    "cache": true,
+    "sha256": "4af82f60710b40ad8947dccf72130babd625a40b195535535f00871de9f1a6fb",
+    "snapshot": "work/miljokort-screening/raw/6a5b9a1fa713c8c7.bin",
+    "text_path": "work/miljokort-screening/raw/6a5b9a1fa713c8c7.txt",
+    "text_chars": 1544
+  },
+  {
+    "id": "e6d64ec19edd4ac6",
+    "url": "https://www.xn--farrisbtforening-job.no/start/kontakt-oss",
+    "retrieved_utc": "2026-10-31T21:11:37.655287+00:00",
+    "cache": true,
+    "sha256": "928a0a54b18e26429f9cafafd9430a10f15ed5c0306c8c079aa3a9f7f30d0671",
+    "snapshot": "work/miljokort-screening/raw/e6d64ec19edd4ac6.bin",
+    "text_path": "work/miljokort-screening/raw/e6d64ec19edd4ac6.txt",
+    "text_chars": 772
+  },
+  {
+    "id": "c1f2d857ab176b76",
+    "url": "https://www.xn--utgrdskilenbtforening-u2bj.no/nyheter-og-aktuelt-16702s.html",
+    "retrieved_utc": "2026-10-31T21:11:37.670705+00:00",
+    "final_url": "https://www.xn--utgrdskilenbtforening-u2bj.no/nyheter-og-aktuelt-16702s.html",
+    "http_status": 200,
+    "sha256": "cbb420e58476670ec751506908b062a95df45fa3c9c3dbe87b053f18ef6ea105",
+    "snapshot": "work/miljokort-screening/raw/c1f2d857ab176b76.bin",
+    "text_path": "work/miljokort-screening/raw/c1f2d857ab176b76.txt",
+    "text_chars": 8573
+  },
+  {
+    "id": "025ef06e60876d05",
+    "url": "https://www.xn--utgrdskilenbtforening-u2bj.no/om-oss-16647s.html",
+    "retrieved_utc": "2026-10-31T21:11:37.682589+00:00",
+    "cache": true,
+    "sha256": "409c1994ad574d899fe45974f2f880761a507552138a0593cde839e0641522df",
+    "snapshot": "work/miljokort-screening/raw/025ef06e60876d05.bin",
+    "text_path": "work/miljokort-screening/raw/025ef06e60876d05.txt",
+    "text_chars": 1353
+  },
+  {
+    "id": "615ff9092652eb6b",
+    "url": "http://osloseilforening.no/p/17778/avviksrapport-skjema-hms",
+    "retrieved_utc": "2026-10-31T21:11:38.565122+00:00",
+    "cache": true,
+    "sha256": "17570504198f5772439ba206db70296e5363bab4f628e117499690b2bf8a13bd",
+    "snapshot": "work/miljokort-screening/raw/615ff9092652eb6b.bin",
+    "text_path": "work/miljokort-screening/raw/615ff9092652eb6b.txt",
+    "text_chars": 1535
+  },
+  {
+    "id": "0f4aecd9a650cc84",
+    "url": "http://www.halden.kommune.no:80/tjenester/miljo-og-teknisk/havn/batplasser/",
+    "retrieved_utc": "2026-10-31T21:11:38.565199+00:00",
+    "cache": true,
+    "sha256": "a5399d6d76d527745365bedd5ab60daa9ef8c1f97f7f9038a0c8043cdebe2dd3",
+    "snapshot": "work/miljokort-screening/raw/0f4aecd9a650cc84.bin",
+    "text_path": "work/miljokort-screening/raw/0f4aecd9a650cc84.txt",
+    "text_chars": 3538
+  },
+  {
+    "id": "a50eb3c1695de893",
+    "url": "https://1853.no/medlemsinstrukser#avfallshandtering",
+    "retrieved_utc": "2026-10-31T21:11:38.565323+00:00",
+    "cache": true,
+    "sha256": "5ce2f65cdb73fbbe0a3d58a16d5f75f637c7a914f0a2d9c34970d3cef321efda",
+    "snapshot": "work/miljokort-screening/raw/a50eb3c1695de893.bin",
+    "text_path": "work/miljokort-screening/raw/a50eb3c1695de893.txt",
+    "text_chars": 62624
+  },
+  {
+    "id": "9e73de220a3e0a17",
+    "url": "https://abf-teibern.no/wp-content/uploads/2026/03/Havnereglement.pdf",
+    "retrieved_utc": "2026-10-31T21:11:38.565407+00:00",
+    "cache": true,
+    "sha256": "f0a3d4105dd25e3d531abf7288bdfee4139ac2eac635e7fde4d8a0edb892955c",
+    "snapshot": "work/miljokort-screening/raw/9e73de220a3e0a17.bin",
+    "text_path": "work/miljokort-screening/raw/9e73de220a3e0a17.txt",
+    "text_chars": 2922
+  },
+  {
+    "id": "b79acaa0c8d96d30",
+    "url": "https://araas.no/wp-content/uploads/2024/03/2024.03.24-Reglement-vedtatt-av-styret.pdf",
+    "retrieved_utc": "2026-10-31T21:11:38.565473+00:00",
+    "cache": true,
+    "sha256": "2189c0efb166cef15a7b92d18b25923c9e32432817a3d0273df5309f15c912a7",
+    "snapshot": "work/miljokort-screening/raw/b79acaa0c8d96d30.bin",
+    "parse_error": "Stream has ended unexpectedly",
+    "text_path": "work/miljokort-screening/raw/b79acaa0c8d96d30.txt",
+    "text_chars": 0
+  },
+  {
+    "id": "5fe5bdcf360e15eb",
+    "url": "https://b-v.no/artikkel/ruller-ut-mobil-renselosning-for-spylevann",
+    "retrieved_utc": "2026-10-31T21:11:38.565620+00:00",
+    "cache": true,
+    "sha256": "4c2bbc4a62844d93d0ce56328a60028322d1f721398bebe801cdc5528d6a224e",
+    "snapshot": "work/miljokort-screening/raw/5fe5bdcf360e15eb.bin",
+    "text_path": "work/miljokort-screening/raw/5fe5bdcf360e15eb.txt",
+    "text_chars": 2073
+  },
+  {
+    "id": "355a72263c5d1609",
+    "url": "https://b-v.no/kategorier?tag=Miljø",
+    "retrieved_utc": "2026-10-31T21:11:38.565700+00:00",
+    "error": "'ascii' codec can't encode character '\\xf8' in position 24: ordinal not in range(128)"
+  },
+  {
+    "id": "fb67926ea238a9ab",
+    "url": "https://experience.arcgis.com/experience/b2e7ea9782cc456083442e9535b5cc2d/?draft=true&org=miljodirektoratet",
+    "retrieved_utc": "2026-10-31T21:11:38.565771+00:00",
+    "cache": true,
+    "sha256": "d183d08124a3215b7d102a980bd27ab2d198233375ce2b9d085ee37511f9a184",
+    "snapshot": "work/miljokort-screening/raw/fb67926ea238a9ab.bin",
+    "text_path": "work/miljokort-screening/raw/fb67926ea238a9ab.txt",
+    "text_chars": 10
+  },
+  {
+    "id": "e8c4b3269959d74c",
+    "url": "https://faerder.kommune.no/tjenester/vann-avlop-renovasjon-natur-klima-og-forurensing/miljo-og-forurensing/",
+    "retrieved_utc": "2026-10-31T21:11:38.565905+00:00",
+    "cache": true,
+    "sha256": "d0746804c7500cf102fa0a0856de858f997b537b856f692199a53aa385c6e583",
+    "snapshot": "work/miljokort-screening/raw/e8c4b3269959d74c.bin",
+    "text_path": "work/miljokort-screening/raw/e8c4b3269959d74c.txt",
+    "text_chars": 2266
+  },
+  {
+    "id": "c980f42019999c3b",
+    "url": "https://faerder.kommune.no/tjenester/vann-avlop-renovasjon-natur-klima-og-forurensing/vann-og-avlop/avlop/septiktomming-for-bat/",
+    "retrieved_utc": "2026-10-31T21:11:38.565982+00:00",
+    "cache": true,
+    "sha256": "dce2e9247fc7f7f9b024b4b96e968b012563455526c600f3dc1d95405a4d9a0b",
+    "snapshot": "work/miljokort-screening/raw/c980f42019999c3b.bin",
+    "text_path": "work/miljokort-screening/raw/c980f42019999c3b.txt",
+    "text_chars": 3428
+  },
+  {
+    "id": "36dc812fbd64954d",
+    "url": "https://jarlsoe.no/naermiljo/",
+    "retrieved_utc": "2026-10-31T21:11:38.566114+00:00",
+    "cache": true,
+    "sha256": "06378cb90c8d1b3b08c34be48e0b2e6573e1235c26c445c4ec4927d7d21afb84",
+    "snapshot": "work/miljokort-screening/raw/36dc812fbd64954d.bin",
+    "text_path": "work/miljokort-screening/raw/36dc812fbd64954d.txt",
+    "text_chars": 3046
+  },
+  {
+    "id": "d8946b0dac300788",
+    "url": "https://kaldnesbatforening.wordpress.com/reglement/",
+    "retrieved_utc": "2026-10-31T21:11:38.568988+00:00",
+    "cache": true,
+    "sha256": "c0bf19ded35d5e1cc601af16f389cdc9bff5437ec800d5ba9963149a39493d6b",
+    "snapshot": "work/miljokort-screening/raw/d8946b0dac300788.bin",
+    "text_path": "work/miljokort-screening/raw/d8946b0dac300788.txt",
+    "text_chars": 2586
+  },
+  {
+    "id": "a7fc6a9231c76611",
+    "url": "https://lovoyaoslofjord.no/plassregler",
+    "retrieved_utc": "2026-10-31T21:11:38.569176+00:00",
+    "cache": true,
+    "sha256": "2d4b268ed3e3496affd5f37461d0e3dc587c6b93d7e5e570820a75b88713b4c7",
+    "snapshot": "work/miljokort-screening/raw/a7fc6a9231c76611.bin",
+    "text_path": "work/miljokort-screening/raw/a7fc6a9231c76611.txt",
+    "text_chars": 5042
+  },
+  {
+    "id": "21bc996c59c88080",
+    "url": "https://marinemiljo.com/",
+    "retrieved_utc": "2026-10-31T21:11:38.622407+00:00",
+    "cache": true,
+    "sha256": "e175cb5b9538c9317a4f807d1098907cf3c946b3582885994fb6d37554aae94d",
+    "snapshot": "work/miljokort-screening/raw/21bc996c59c88080.bin",
+    "text_path": "work/miljokort-screening/raw/21bc996c59c88080.txt",
+    "text_chars": 3292
+  },
+  {
+    "id": "e8dce4ffd20cbdab",
+    "url": "https://miljohavn.no/",
+    "retrieved_utc": "2026-10-31T21:11:38.623336+00:00",
+    "cache": true,
+    "sha256": "e00fff90b6446eaca726a46a4e7ebbe2513aacc1773ad585f5bcab33bbe688cf",
+    "snapshot": "work/miljokort-screening/raw/e8dce4ffd20cbdab.bin",
+    "text_path": "work/miljokort-screening/raw/e8dce4ffd20cbdab.txt",
+    "text_chars": 2502,
+    "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+  },
+  {
+    "id": "2c4e32096beedf6b",
+    "url": "https://miljohavn.no/blogg/samarbeid-med-norenvi-as-og-axon-miljoteknik-ab",
+    "retrieved_utc": "2026-10-31T21:11:38.626300+00:00",
+    "cache": true,
+    "sha256": "827d5c0fac96a22798932ac607f6e8fbcab86c12f87d3c82e78f079e7c4952bb",
+    "snapshot": "work/miljokort-screening/raw/2c4e32096beedf6b.bin",
+    "text_path": "work/miljokort-screening/raw/2c4e32096beedf6b.txt",
+    "text_chars": 1458,
+    "error": "unsupported operand type(s) for +: 'NoneType' and 'str'"
+  },
+  {
+    "id": "a2e6d421c5feecaa",
+    "url": "https://moss-seilforening.no/s/ordensregler_moss_seilforening.pdf",
+    "retrieved_utc": "2026-10-31T21:11:38.628574+00:00",
+    "cache": true,
+    "sha256": "5752cc5319151bb3e0e5ab3e68233b8f91374ef229052934c35feb8886b26754",
+    "snapshot": "work/miljokort-screening/raw/a2e6d421c5feecaa.bin",
+    "text_path": "work/miljokort-screening/raw/a2e6d421c5feecaa.txt",
+    "text_chars": 9265
+  },
+  {
+    "id": "38f6f31f4cbd2ea6",
+    "url": "https://naturvernforbundet.no/osloogakershus/overvann-fra-tette-flater-forurenser-oslofjorden-med-miljogifter/",
+    "retrieved_utc": "2026-10-31T21:11:38.628836+00:00",
+    "final_url": "https://naturvernforbundet.no/osloogakershus/overvann-fra-tette-flater-forurenser-oslofjorden-med-miljogifter/",
+    "http_status": 200,
+    "sha256": "fa02663368c8f6d1a958166ed0abda21c65097dd95456fabf6a39a447bc29cdb",
+    "snapshot": "work/miljokort-screening/raw/38f6f31f4cbd2ea6.bin",
+    "text_path": "work/miljokort-screening/raw/38f6f31f4cbd2ea6.txt",
+    "text_chars": 6659
+  },
+  {
+    "id": "653489c76c26a582",
+    "url": "https://njb.no/wp-content/uploads/2023/11/Ordensregler_2018.pdf",
+    "retrieved_utc": "2026-10-31T21:11:38.629631+00:00",
+    "cache": true,
+    "sha256": "347239f8e77e0abf548b83c62e9bdf37806b0dd493090edfe4a7c72218adac7e",
+    "snapshot": "work/miljokort-screening/raw/653489c76c26a582.bin",
+    "text_path": "work/miljokort-screening/raw/653489c76c26a582.txt",
+    "text_chars": 2138
+  },
+  {
+    "id": "162aeda55f226e77",
+    "url": "https://oscarsborggjestehavn.no/?page_id=308",
+    "retrieved_utc": "2026-10-31T21:11:38.699618+00:00",
+    "cache": true,
+    "sha256": "30af1b7c85bcd91b64ce634d03571d2aa4730e68399e605643f5bf05938c6333",
+    "snapshot": "work/miljokort-screening/raw/162aeda55f226e77.bin",
+    "text_path": "work/miljokort-screening/raw/162aeda55f226e77.txt",
+    "text_chars": 4376
+  },
+  {
+    "id": "88150299f86f4d4b",
+    "url": "https://oscarsborggjestehavn.no/?page_id=569",
+    "retrieved_utc": "2026-10-31T21:11:38.707769+00:00",
+    "cache": true,
+    "sha256": "2e954ffeea2b45323d408faedfa31f078715182166843ab4063a1a1d3cec0393",
+    "snapshot": "work/miljokort-screening/raw/88150299f86f4d4b.bin",
+    "text_path": "work/miljokort-screening/raw/88150299f86f4d4b.txt",
+    "text_chars": 5420
+  },
+  {
+    "id": "e1a4535d41c7d247",
+    "url": "https://oscarsborggjestehavn.no/?page_id=614",
+    "retrieved_utc": "2026-10-31T21:11:38.715438+00:00",
+    "cache": true,
+    "sha256": "41c251115717a100c0b7216738b5fc096dde73b8f189312653f0d6e7c39af769",
+    "snapshot": "work/miljokort-screening/raw/e1a4535d41c7d247.bin",
+    "text_path": "work/miljokort-screening/raw/e1a4535d41c7d247.txt",
+    "text_chars": 3727
+  },
+  {
+    "id": "be2aa798cb377e38",
+    "url": "https://pequod.nesodd1.no/?page_id=21527",
+    "retrieved_utc": "2026-10-31T21:11:38.729137+00:00",
+    "cache": true,
+    "sha256": "6b1df490fffbe91e2e068bacc6393c3b29d0794d8a40386916524704738678fd",
+    "snapshot": "work/miljokort-screening/raw/be2aa798cb377e38.bin",
+    "text_path": "work/miljokort-screening/raw/be2aa798cb377e38.txt",
+    "text_chars": 17704
+  },
+  {
+    "id": "b76534255524fc53",
+    "url": "https://saltnesbf.no/?page_id=233",
+    "retrieved_utc": "2026-10-31T21:11:38.736321+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/b76534255524fc53.bin",
+    "text_path": "work/miljokort-screening/raw/b76534255524fc53.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "4e81b06bf8eedcbd",
+    "url": "https://saltnesbf.no/?page_id=233#comment-1239",
+    "retrieved_utc": "2026-10-31T21:11:38.845484+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/4e81b06bf8eedcbd.bin",
+    "text_path": "work/miljokort-screening/raw/4e81b06bf8eedcbd.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "593ec42b42be87b6",
+    "url": "https://saltnesbf.no/?page_id=233#comment-468",
+    "retrieved_utc": "2026-10-31T21:11:38.898644+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/593ec42b42be87b6.bin",
+    "text_path": "work/miljokort-screening/raw/593ec42b42be87b6.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "8e58ff5e2a813366",
+    "url": "https://saltnesbf.no/?page_id=233#comment-469",
+    "retrieved_utc": "2026-10-31T21:11:38.957669+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/8e58ff5e2a813366.bin",
+    "text_path": "work/miljokort-screening/raw/8e58ff5e2a813366.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "99df92b43bea75dc",
+    "url": "https://saltnesbf.no/?page_id=233#comment-495",
+    "retrieved_utc": "2026-10-31T21:11:38.977964+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/99df92b43bea75dc.bin",
+    "text_path": "work/miljokort-screening/raw/99df92b43bea75dc.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "60b0f1db71da1311",
+    "url": "https://saltnesbf.no/?page_id=233#comment-683",
+    "retrieved_utc": "2026-10-31T21:11:38.978685+00:00",
+    "cache": true,
+    "sha256": "37006d5c176a0b63212b451e7d3512432e79aa4757309d8a23e32948292756d0",
+    "snapshot": "work/miljokort-screening/raw/60b0f1db71da1311.bin",
+    "text_path": "work/miljokort-screening/raw/60b0f1db71da1311.txt",
+    "text_chars": 5729
+  },
+  {
+    "id": "abd9bb40f5b3ae17",
+    "url": "https://toxiclean.no/havners-plikt-og-ansvar-nar-spylevann-blir-farlig-avfall/",
+    "retrieved_utc": "2026-10-31T21:11:38.993362+00:00",
+    "cache": true,
+    "sha256": "96a4bf8b192184683e30de6bd8b5e012f406cb19b85261756fa6ba3c904d5ef0",
+    "snapshot": "work/miljokort-screening/raw/abd9bb40f5b3ae17.bin",
+    "text_path": "work/miljokort-screening/raw/abd9bb40f5b3ae17.txt",
+    "text_chars": 5280
+  },
+  {
+    "id": "decd287f5a58d1d6",
+    "url": "https://toxiclean.no/hvorfor-valgte-en-av-ostlandets-storste-marinaer-en-ny-losning-for-rensing-avspylevann/",
+    "retrieved_utc": "2026-10-31T21:11:39.000233+00:00",
+    "cache": true,
+    "sha256": "68d548586bd5a5c495ec82523915067761c4841720374116b4750dd41f1f331d",
+    "snapshot": "work/miljokort-screening/raw/decd287f5a58d1d6.bin",
+    "text_path": "work/miljokort-screening/raw/decd287f5a58d1d6.txt",
+    "text_chars": 6028
+  },
+  {
+    "id": "423138c07864d597",
+    "url": "https://toxiclean.no/stor-interesse-for-enkel-rensing-av-spylevann-pa-bater-i-sjoen/",
+    "retrieved_utc": "2026-10-31T21:11:39.036533+00:00",
+    "cache": true,
+    "sha256": "0d5a631e437bde77c57298d1a7cbafc691d4795d731ff0a297e8194a34284afe",
+    "snapshot": "work/miljokort-screening/raw/423138c07864d597.bin",
+    "text_path": "work/miljokort-screening/raw/423138c07864d597.txt",
+    "text_chars": 5466
+  },
+  {
+    "id": "1b276384c0a5d87c",
+    "url": "https://visitgreateroslo.com/no/info/om-oss/milfjofyrtarn-sertifisering",
+    "retrieved_utc": "2026-10-31T21:11:39.064695+00:00",
+    "cache": true,
+    "sha256": "c8f9bf19d2d1c29d1b376fee9f93d6798e88742b697ef50a8b34e2c6cb634930",
+    "snapshot": "work/miljokort-screening/raw/1b276384c0a5d87c.bin",
+    "text_path": "work/miljokort-screening/raw/1b276384c0a5d87c.txt",
+    "text_chars": 2471
+  },
+  {
+    "id": "6a523db80ca042b7",
+    "url": "https://www.agnesbaat.no/nærmiljøet",
+    "retrieved_utc": "2026-10-31T21:11:39.065369+00:00",
+    "error": "'ascii' codec can't encode character '\\xe6' in position 6: ordinal not in range(128)"
+  },
+  {
+    "id": "a488c91422ba9666",
+    "url": "https://www.agnesbaat.no/om-foreningen/vedtekter-og-reglement",
+    "retrieved_utc": "2026-10-31T21:11:39.065457+00:00",
+    "cache": true,
+    "sha256": "7a61d18f702248c7bc019fd9e34a70ec5e87b65b5529f8cda52ba1bb342a6045",
+    "snapshot": "work/miljokort-screening/raw/a488c91422ba9666.bin",
+    "text_path": "work/miljokort-screening/raw/a488c91422ba9666.txt",
+    "text_chars": 1248
+  },
+  {
+    "id": "c5c12d021eaa4f25",
+    "url": "https://www.araas.no/avfallshandtering/",
+    "retrieved_utc": "2026-10-31T21:11:39.076049+00:00",
+    "cache": true,
+    "sha256": "ceece628b4f05ac4c21ab84ad6ec772cf88aa243cbed534fda5f349d0931b987",
+    "snapshot": "work/miljokort-screening/raw/c5c12d021eaa4f25.bin",
+    "text_path": "work/miljokort-screening/raw/c5c12d021eaa4f25.txt",
+    "text_chars": 8677
+  },
+  {
+    "id": "c4ec544494053107",
+    "url": "https://www.araas.no/hms-og-sikkerhet-i-bathavna/",
+    "retrieved_utc": "2026-10-31T21:11:39.126344+00:00",
+    "cache": true,
+    "sha256": "3f7d294afc891096068155ce8ed09c8b2c0488b40ff7bc9ecff5faf0db2ac2e7",
+    "snapshot": "work/miljokort-screening/raw/c4ec544494053107.bin",
+    "text_path": "work/miljokort-screening/raw/c4ec544494053107.txt",
+    "text_chars": 7700
+  },
+  {
+    "id": "db2270582afa1870",
+    "url": "https://www.araas.no/spyleplass/",
+    "retrieved_utc": "2026-10-31T21:11:39.127244+00:00",
+    "cache": true,
+    "sha256": "7d7cbdd20725a73195129bb4a0a2d8f5720a4e3ea90e5387c7ca92249a2dd968",
+    "snapshot": "work/miljokort-screening/raw/db2270582afa1870.bin",
+    "text_path": "work/miljokort-screening/raw/db2270582afa1870.txt",
+    "text_chars": 7253
+  },
+  {
+    "id": "66dc9747a661dc57",
+    "url": "https://www.asker.kommune.no/avfall-og-gjenvinning/",
+    "retrieved_utc": "2026-10-31T21:11:39.161813+00:00",
+    "cache": true,
+    "sha256": "7a252758cf23b948b2d2b36be282e95c7000d9ee0fcb66a64d01ec5c754d6f72",
+    "snapshot": "work/miljokort-screening/raw/66dc9747a661dc57.bin",
+    "text_path": "work/miljokort-screening/raw/66dc9747a661dc57.txt",
+    "text_chars": 3659
+  },
+  {
+    "id": "427b9f1b7998e6e9",
+    "url": "https://www.asker.kommune.no/friluftsliv/sjo-og-batliv/gjestehavner-og-smabatplasser/reglement-for-drift-av-havnene/",
+    "retrieved_utc": "2026-10-31T21:11:39.162205+00:00",
+    "cache": true,
+    "sha256": "a013eb53a5112a35b4512d322841c6bd1ada274871de54ff0542d35ecf7809a7",
+    "snapshot": "work/miljokort-screening/raw/427b9f1b7998e6e9.bin",
+    "text_path": "work/miljokort-screening/raw/427b9f1b7998e6e9.txt",
+    "text_chars": 7577
+  },
+  {
+    "id": "a9ee28d4c8aff68d",
+    "url": "https://www.asker.kommune.no/friluftsliv/sjo-og-batliv/septikmottak/",
+    "retrieved_utc": "2026-10-31T21:11:39.163185+00:00",
+    "cache": true,
+    "sha256": "5da3acfa300d56fe2ef4165b4182324291bde2ec6c9925aafe291aa6c9157fb1",
+    "snapshot": "work/miljokort-screening/raw/a9ee28d4c8aff68d.bin",
+    "text_path": "work/miljokort-screening/raw/a9ee28d4c8aff68d.txt",
+    "text_chars": 2218
+  },
+  {
+    "id": "80540cad556dc14a",
+    "url": "https://www.bamble.kommune.no/natur-klima-og-miljo/",
+    "retrieved_utc": "2026-10-31T21:11:39.169278+00:00",
+    "cache": true,
+    "sha256": "e9750ac75023a59c1c4383223806290e9cef2fca03a0a219881857d2fe7f4e25",
+    "snapshot": "work/miljokort-screening/raw/80540cad556dc14a.bin",
+    "text_path": "work/miljokort-screening/raw/80540cad556dc14a.txt",
+    "text_chars": 1943
+  },
+  {
+    "id": "d5019aa04fa2c9f1",
+    "url": "https://www.bolaerne.no/ny-tommestasjon-for-batseptik-pa-ostre-bolaeren/",
+    "retrieved_utc": "2026-10-31T21:11:39.181346+00:00",
+    "cache": true,
+    "sha256": "746476f4db8efde11cc89a4d29e31e5325bf63aab8a3175bc6b58a6cfdb0f52c",
+    "snapshot": "work/miljokort-screening/raw/d5019aa04fa2c9f1.bin",
+    "text_path": "work/miljokort-screening/raw/d5019aa04fa2c9f1.txt",
+    "text_chars": 866
+  },
+  {
+    "id": "98c294dac966f8b8",
+    "url": "https://www.borg-havn.no/hms/",
+    "retrieved_utc": "2026-10-31T21:11:39.197264+00:00",
+    "cache": true,
+    "sha256": "f492b24fc5d8f6aa0f867fb57899da7d9648ef5f4170511dd5bcc04d9476e65e",
+    "snapshot": "work/miljokort-screening/raw/98c294dac966f8b8.bin",
+    "text_path": "work/miljokort-screening/raw/98c294dac966f8b8.txt",
+    "text_chars": 2999
+  },
+  {
+    "id": "cd9d6cbee0ccf600",
+    "url": "https://www.borg-havn.no/miljosatsning/",
+    "retrieved_utc": "2026-10-31T21:11:39.204925+00:00",
+    "cache": true,
+    "sha256": "bdd56950afc776f7cb374a2b8ace155e02348215c9486ae31783b65c4d033d88",
+    "snapshot": "work/miljokort-screening/raw/cd9d6cbee0ccf600.bin",
+    "text_path": "work/miljokort-screening/raw/cd9d6cbee0ccf600.txt",
+    "text_chars": 5384
+  },
+  {
+    "id": "31d72230d1d216f9",
+    "url": "https://www.borg-havn.no/skipsavfall/",
+    "retrieved_utc": "2026-10-31T21:11:39.207445+00:00",
+    "cache": true,
+    "sha256": "19b96b97d87afbb88c104b1b7291f870befce9630707fb5fc21d72696bf3bcbe",
+    "snapshot": "work/miljokort-screening/raw/31d72230d1d216f9.bin",
+    "text_path": "work/miljokort-screening/raw/31d72230d1d216f9.txt",
+    "text_chars": 1582
+  },
+  {
+    "id": "aed851ab1f8dfb28",
+    "url": "https://www.dbf-porsgrunn.com/?p=1738",
+    "retrieved_utc": "2026-10-31T21:11:39.207979+00:00",
+    "cache": true,
+    "sha256": "cc34cb7f762f99ad07b79f54bb5ff903366e774a010188c5af7d0ecf3738d83c",
+    "snapshot": "work/miljokort-screening/raw/aed851ab1f8dfb28.bin",
+    "text_path": "work/miljokort-screening/raw/aed851ab1f8dfb28.txt",
+    "text_chars": 867
+  },
+  {
+    "id": "ffd8c27e8beb962a",
+    "url": "https://www.halden.kommune.no/tjenester/helse-og-mestring/",
+    "retrieved_utc": "2026-10-31T21:11:39.209481+00:00",
+    "cache": true,
+    "sha256": "a2dca213ca529a23aeae32aeec0de97df8c75453b8dfd78cb5071a16e2da0859",
+    "snapshot": "work/miljokort-screening/raw/ffd8c27e8beb962a.bin",
+    "text_path": "work/miljokort-screening/raw/ffd8c27e8beb962a.txt",
+    "text_chars": 2823
+  },
+  {
+    "id": "66170edbc161b1b2",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/",
+    "retrieved_utc": "2026-10-31T21:11:39.210956+00:00",
+    "cache": true,
+    "sha256": "165b7571ad49ced55ea9b48ce668022f0e465859e4b74078bbdbfd509839f88d",
+    "snapshot": "work/miljokort-screening/raw/66170edbc161b1b2.bin",
+    "text_path": "work/miljokort-screening/raw/66170edbc161b1b2.txt",
+    "text_chars": 2306
+  },
+  {
+    "id": "b2fed6406dfa13b7",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/kart-og-oppmaling/kart/",
+    "retrieved_utc": "2026-10-31T21:11:39.214724+00:00",
+    "cache": true,
+    "sha256": "9be2eefb7b55c74b924904d2f442c43162822ac04915b0bea92b127a758e89aa",
+    "snapshot": "work/miljokort-screening/raw/b2fed6406dfa13b7.bin",
+    "text_path": "work/miljokort-screening/raw/b2fed6406dfa13b7.txt",
+    "text_chars": 3267
+  },
+  {
+    "id": "2d108aeab9e12fd4",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/renovasjon/",
+    "retrieved_utc": "2026-10-31T21:11:39.220258+00:00",
+    "cache": true,
+    "sha256": "c95e83edf39ff6681a36b493bb37fbc680fa39291caae54de361a9323467433a",
+    "snapshot": "work/miljokort-screening/raw/2d108aeab9e12fd4.bin",
+    "text_path": "work/miljokort-screening/raw/2d108aeab9e12fd4.txt",
+    "text_chars": 2110
+  },
+  {
+    "id": "e0510cffb58b6c55",
+    "url": "https://www.halden.kommune.no/tjenester/miljo-og-teknisk/renovasjon/rokke-avfallsanlegg/",
+    "retrieved_utc": "2026-10-31T21:11:39.220686+00:00",
+    "cache": true,
+    "sha256": "728fde21c0a5a5ad620e91db05b66b2dd610fe1c3056c9c16c7c37fdbbf33693",
+    "snapshot": "work/miljokort-screening/raw/e0510cffb58b6c55.bin",
+    "text_path": "work/miljokort-screening/raw/e0510cffb58b6c55.txt",
+    "text_chars": 2033
+  },
+  {
+    "id": "a1ffa2e8b4cb7ea6",
+    "url": "https://www.halden.kommune.no:443/tjenester/miljo-og-teknisk/",
+    "retrieved_utc": "2026-10-31T21:11:39.221232+00:00",
+    "cache": true,
+    "sha256": "66560a8367c9a0a9974ff60df79fa99a18eb74f86fe23852dc6832a6a8130e65",
+    "snapshot": "work/miljokort-screening/raw/a1ffa2e8b4cb7ea6.bin",
+    "text_path": "work/miljokort-screening/raw/a1ffa2e8b4cb7ea6.txt",
+    "text_chars": 2306
+  },
+  {
+    "id": "3b9fcd1fbaab97a9",
+    "url": "https://www.halden.kommune.no:443/tjenester/miljo-og-teknisk/havn/",
+    "retrieved_utc": "2026-10-31T21:11:39.231262+00:00",
+    "cache": true,
+    "sha256": "514d9ca54dd30e1da2c1c6cfa082098ca4ebfaad8c69750b9d7d41c23443e42d",
+    "snapshot": "work/miljokort-screening/raw/3b9fcd1fbaab97a9.bin",
+    "text_path": "work/miljokort-screening/raw/3b9fcd1fbaab97a9.txt",
+    "text_chars": 1337
+  },
+  {
+    "id": "2f0737494e29056f",
+    "url": "https://www.halden.kommune.no:443/tjenester/miljo-og-teknisk/havn/gjestehavn/",
+    "retrieved_utc": "2026-10-31T21:11:39.236550+00:00",
+    "cache": true,
+    "sha256": "a5c503ed83e95600b66c4d7814f76df6d09a9af173f355d918cbe497ba774f5e",
+    "snapshot": "work/miljokort-screening/raw/2f0737494e29056f.bin",
+    "text_path": "work/miljokort-screening/raw/2f0737494e29056f.txt",
+    "text_chars": 3740
+  },
+  {
+    "id": "51d4a92ee22001fb",
+    "url": "https://www.havneweb.no/skjarhalden-bf/?mod=osv",
+    "retrieved_utc": "2026-10-31T21:11:39.242126+00:00",
+    "cache": true,
+    "sha256": "833144537b36eafe36d0b46890492428a06cb6e1b49047a40ed29e346ae39d5f",
+    "snapshot": "work/miljokort-screening/raw/51d4a92ee22001fb.bin",
+    "text_path": "work/miljokort-screening/raw/51d4a92ee22001fb.txt",
+    "text_chars": 253
+  },
+  {
+    "id": "e3546198e41f38e6",
+    "url": "https://www.hersleth.no/miljo-og-baerekraft",
+    "retrieved_utc": "2026-10-31T21:11:39.243130+00:00",
+    "cache": true,
+    "sha256": "6bcfff233bbb421258594d67b33871ba76437f4e50ea6b1d776848d08babf3ea",
+    "snapshot": "work/miljokort-screening/raw/e3546198e41f38e6.bin",
+    "text_path": "work/miljokort-screening/raw/e3546198e41f38e6.txt",
+    "text_chars": 3502
+  },
+  {
+    "id": "a0d3d378cd9024b5",
+    "url": "https://www.hersleth.no/miljo-og-baerekraft#apenhetsloven",
+    "retrieved_utc": "2026-10-31T21:11:39.245247+00:00",
+    "cache": true,
+    "sha256": "6bcfff233bbb421258594d67b33871ba76437f4e50ea6b1d776848d08babf3ea",
+    "snapshot": "work/miljokort-screening/raw/a0d3d378cd9024b5.bin",
+    "text_path": "work/miljokort-screening/raw/a0d3d378cd9024b5.txt",
+    "text_chars": 3502
+  },
+  {
+    "id": "0a515f5b93e0be96",
+    "url": "https://www.hortenhavn.no/media/ag1dktkq/nytt-reglement-for-bankloekka-baathavn-2025.pdf",
+    "retrieved_utc": "2026-10-31T21:11:39.245766+00:00",
+    "cache": true,
+    "sha256": "d08e05960c8af86b8addef50a11d213bf3d600d5d9a92ae319116ac823a7bbab",
+    "snapshot": "work/miljokort-screening/raw/0a515f5b93e0be96.bin",
+    "text_path": "work/miljokort-screening/raw/0a515f5b93e0be96.txt",
+    "text_chars": 7341
+  },
+  {
+    "id": "38ba4be5c009ef09",
+    "url": "https://www.hortenhavn.no/media/lfkfpcps/reglement-for-vinteropplag-i-horten-gjestehavn.pdf",
+    "retrieved_utc": "2026-10-31T21:11:39.246016+00:00",
+    "cache": true,
+    "sha256": "178baa1b27bdb3512974889d1d5b9f586c12155347548e20fd96293cce232bd3",
+    "snapshot": "work/miljokort-screening/raw/38ba4be5c009ef09.bin",
+    "text_path": "work/miljokort-screening/raw/38ba4be5c009ef09.txt",
+    "text_chars": 7586
+  },
+  {
+    "id": "37b0c975460a7df3",
+    "url": "https://www.hortenhavn.no/media/pg3osx4h/nytt-reglement-for-aasgaardstrand-smaabaathavn-2025.pdf",
+    "retrieved_utc": "2026-10-31T21:11:39.246729+00:00",
+    "cache": true,
+    "sha256": "e4d44b944ca4b32c694fe3eef9804db802f9a161d38c97ed1305a073cc9e97c7",
+    "snapshot": "work/miljokort-screening/raw/37b0c975460a7df3.bin",
+    "text_path": "work/miljokort-screening/raw/37b0c975460a7df3.txt",
+    "text_chars": 8807
+  },
+  {
+    "id": "40e91854efe64d3f",
+    "url": "https://www.hortenhavn.no/om-horten-havn/miljoearbeid/",
+    "retrieved_utc": "2026-10-31T21:11:39.247166+00:00",
+    "cache": true,
+    "sha256": "0e0e6a8071d11efecba98c490328e9f33a0dee09c7c1affea3e2f746295d2cab",
+    "snapshot": "work/miljokort-screening/raw/40e91854efe64d3f.bin",
+    "text_path": "work/miljokort-screening/raw/40e91854efe64d3f.txt",
+    "text_chars": 5253
+  },
+  {
+    "id": "5579e5c71f30f86a",
+    "url": "https://www.hsbhavn.com/havnereglement/",
+    "retrieved_utc": "2026-10-31T21:11:39.247758+00:00",
+    "cache": true,
+    "sha256": "ad475ac3eb822847a09ff726b10e594ab9be0c71140b6532c39b08f5cd30c723",
+    "snapshot": "work/miljokort-screening/raw/5579e5c71f30f86a.bin",
+    "text_path": "work/miljokort-screening/raw/5579e5c71f30f86a.txt",
+    "text_chars": 9875
+  },
+  {
+    "id": "3c59e56e27f9d541",
+    "url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/renovasjon/sandbakken-miljostasjon/",
+    "retrieved_utc": "2026-10-31T21:11:39.248988+00:00",
+    "final_url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/renovasjon/sandbakken-miljostasjon/",
+    "http_status": 200,
+    "sha256": "00f436cf7a4c696bfe1252adace4eff877bcfda7422e603f195252da932177cd",
+    "snapshot": "work/miljokort-screening/raw/3c59e56e27f9d541.bin",
+    "text_path": "work/miljokort-screening/raw/3c59e56e27f9d541.txt",
+    "text_chars": 11084
+  },
+  {
+    "id": "72d57f141efb7299",
+    "url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/skjargardstjenesten/",
+    "retrieved_utc": "2026-10-31T21:11:39.249478+00:00",
+    "final_url": "https://www.hvaler.kommune.no/innhold/bygg-miljo-og-naring/skjargardstjenesten/",
+    "http_status": 200,
+    "sha256": "793cb6398024adb7e3db531fa23e37ba29f179c10fbff309d5f0861bea1752ea",
+    "snapshot": "work/miljokort-screening/raw/72d57f141efb7299.bin",
+    "text_path": "work/miljokort-screening/raw/72d57f141efb7299.txt",
+    "text_chars": 5885
+  },
+  {
+    "id": "ef024708395bf490",
+    "url": "https://www.hvalergjestehavn.no/ordensregler",
+    "retrieved_utc": "2026-10-31T21:11:39.249988+00:00",
+    "cache": true,
+    "sha256": "1e12f83484882b726c9423410a69bcff483b1a900a2c797c3668976a4898c7b5",
+    "snapshot": "work/miljokort-screening/raw/ef024708395bf490.bin",
+    "text_path": "work/miljokort-screening/raw/ef024708395bf490.txt",
+    "text_chars": 5090
+  },
+  {
+    "id": "95770979620ad15a",
+    "url": "https://www.kambomarina.no/kambo_marina/avfallsplan/",
+    "retrieved_utc": "2026-10-31T21:11:39.252856+00:00",
+    "cache": true,
+    "sha256": "6a62aabe3b33a4b63e9ce5d198e74319695dcd32447e13ba4b5fe07341a5742a",
+    "snapshot": "work/miljokort-screening/raw/95770979620ad15a.bin",
+    "text_path": "work/miljokort-screening/raw/95770979620ad15a.txt",
+    "text_chars": 17408
+  },
+  {
+    "id": "c7add9a55e092543",
+    "url": "https://www.kloppbat.com/havnereglement.html",
+    "retrieved_utc": "2026-10-31T21:11:39.310740+00:00",
+    "cache": true,
+    "sha256": "82309a94a4823cb604bc4542e0575d4b3984a7e1cab2418e0fab624fb2fd9150",
+    "snapshot": "work/miljokort-screening/raw/c7add9a55e092543.bin",
+    "text_path": "work/miljokort-screening/raw/c7add9a55e092543.txt",
+    "text_chars": 8057
+  },
+  {
+    "id": "8cf6ce568cd7c227",
+    "url": "https://www.knbf.no/category/miljohjornet/",
+    "retrieved_utc": "2026-10-31T21:11:39.348637+00:00",
+    "final_url": "https://www.knbf.no/category/miljohjornet/",
+    "http_status": 200,
+    "sha256": "91a14e47252b2964f6583975a3c1e40da496384a60f050ede58ce71ccb27df9e",
+    "snapshot": "work/miljokort-screening/raw/8cf6ce568cd7c227.bin",
+    "text_path": "work/miljokort-screening/raw/8cf6ce568cd7c227.txt",
+    "text_chars": 9616
+  },
+  {
+    "id": "b470076827222099",
+    "url": "https://www.knbf.no/tag/batseptik/",
+    "retrieved_utc": "2026-10-31T21:11:39.362570+00:00",
+    "final_url": "https://www.knbf.no/tag/batseptik/",
+    "http_status": 200,
+    "sha256": "8e91f6443bb4eeb4653428d6bf3ecb64defabd5a6a11fde2bb20032ad57770c3",
+    "snapshot": "work/miljokort-screening/raw/b470076827222099.bin",
+    "text_path": "work/miljokort-screening/raw/b470076827222099.txt",
+    "text_chars": 4658
+  },
+  {
+    "id": "f14ba584359188f8",
+    "url": "https://www.knbf.no/tag/miljo/",
+    "retrieved_utc": "2026-10-31T21:11:39.363207+00:00",
+    "final_url": "https://www.knbf.no/tag/miljo/",
+    "http_status": 200,
+    "sha256": "c5a831438f748c45f6fb9095db8a51ca0231972be1a5a325ed0a754d21ca9501",
+    "snapshot": "work/miljokort-screening/raw/f14ba584359188f8.bin",
+    "text_path": "work/miljokort-screening/raw/f14ba584359188f8.txt",
+    "text_chars": 6418
+  },
+  {
+    "id": "0cffaf94fc0d3981",
+    "url": "https://www.knbf.no/tag/miljoprisen/",
+    "retrieved_utc": "2026-10-31T21:11:39.374070+00:00",
+    "final_url": "https://www.knbf.no/tag/miljoprisen/",
+    "http_status": 200,
+    "sha256": "f34bbf7121efaf3408f994c9cc1c3aefe5a5e49816f1ebd7a5c889cd9b1bf36f",
+    "snapshot": "work/miljokort-screening/raw/0cffaf94fc0d3981.bin",
+    "text_path": "work/miljokort-screening/raw/0cffaf94fc0d3981.txt",
+    "text_chars": 6118
+  },
+  {
+    "id": "57e4a43265b4981f",
+    "url": "https://www.knbf.no/tag/septikforbud/",
+    "retrieved_utc": "2026-10-31T21:11:39.394469+00:00",
+    "final_url": "https://www.knbf.no/tag/septikforbud/",
+    "http_status": 200,
+    "sha256": "a776ad5aa0878273c441a66baeaf82eb26c5da1d97518b410024c8a30bcf1cf4",
+    "snapshot": "work/miljokort-screening/raw/57e4a43265b4981f.bin",
+    "text_path": "work/miljokort-screening/raw/57e4a43265b4981f.txt",
+    "text_chars": 4623
+  },
+  {
+    "id": "f8c6b0c853857178",
+    "url": "https://www.mhvivestfold.no/",
+    "retrieved_utc": "2026-10-31T21:11:39.410638+00:00",
+    "cache": true,
+    "sha256": "e9998ea3d194483fd2c77f81fc398032624b0c78540b5bd9408acfec25841349",
+    "snapshot": "work/miljokort-screening/raw/f8c6b0c853857178.bin",
+    "text_path": "work/miljokort-screening/raw/f8c6b0c853857178.txt",
+    "text_chars": 2982
+  },
+  {
+    "id": "778de00dcadffc70",
+    "url": "https://www.miljodirektoratet.no/ansvarsomrader/avfall/vrakpant/vrakpant-pa-bat/ ",
+    "retrieved_utc": "2026-10-31T21:11:39.427559+00:00",
+    "cache": true,
+    "sha256": "729e2f6eee56582c3e9bccbe00abca970c7b492006802401e18b204ea28a63c8",
+    "snapshot": "work/miljokort-screening/raw/778de00dcadffc70.bin",
+    "text_path": "work/miljokort-screening/raw/778de00dcadffc70.txt",
+    "text_chars": 4144
+  },
+  {
+    "id": "8fca1e714905f355",
+    "url": "https://www.miljodirektoratet.no/ansvarsomrader/friluftsliv/friluftsliv-og-allemannsretten/fiske/",
+    "retrieved_utc": "2026-10-31T21:11:39.433994+00:00",
+    "cache": true,
+    "sha256": "622f8a64464692d673f559573541e9fb5325650eefee3c330ae6cdd691f6caa2",
+    "snapshot": "work/miljokort-screening/raw/8fca1e714905f355.bin",
+    "text_path": "work/miljokort-screening/raw/8fca1e714905f355.txt",
+    "text_chars": 5547
+  },
+  {
+    "id": "a072bae2c88c0e88",
+    "url": "https://www.miljodirektoratet.no/ansvarsomrader/vann-hav-og-kyst/vann-hav-kyst-forvaltning/oslofjorden/",
+    "retrieved_utc": "2026-10-31T21:11:39.441187+00:00",
+    "final_url": "https://www.miljodirektoratet.no:443/ansvarsomrader/vann-hav-og-kyst/oslofjorden/",
+    "http_status": 200,
+    "sha256": "e6c4e7f8e05a0e094def121e358cd18a9a55fa7664561d21506aae64582362f3",
+    "snapshot": "work/miljokort-screening/raw/a072bae2c88c0e88.bin",
+    "text_path": "work/miljokort-screening/raw/a072bae2c88c0e88.txt",
+    "text_chars": 2227
+  },
+  {
+    "id": "244235a4fb9d63d7",
+    "url": "https://www.miljofyrtarn.no/",
+    "retrieved_utc": "2026-10-31T21:11:39.442185+00:00",
+    "cache": true,
+    "sha256": "fc57ee02d0ffd4675b7614bdacc5c6f6ca19f16d7bc8446a53117ccc05c2fdc7",
+    "snapshot": "work/miljokort-screening/raw/244235a4fb9d63d7.bin",
+    "text_path": "work/miljokort-screening/raw/244235a4fb9d63d7.txt",
+    "text_chars": 7452
+  },
+  {
+    "id": "6b405164f9bee7bb",
+    "url": "https://www.moss-havn.no/hms",
+    "retrieved_utc": "2026-10-31T21:11:39.454256+00:00",
+    "cache": true,
+    "sha256": "b8026120a6372f216f647c11623d2e8b687027b93c80c8729a60ca92616f1824",
+    "snapshot": "work/miljokort-screening/raw/6b405164f9bee7bb.bin",
+    "text_path": "work/miljokort-screening/raw/6b405164f9bee7bb.txt",
+    "text_chars": 3446
+  },
+  {
+    "id": "89b68c1679af1508",
+    "url": "https://www.moss-havn.no/miljo",
+    "retrieved_utc": "2026-10-31T21:11:39.454909+00:00",
+    "cache": true,
+    "sha256": "1279e00cf48e8dfd812fcdbc7520ee20daeddd48554679da9520ae1118771394",
+    "snapshot": "work/miljokort-screening/raw/89b68c1679af1508.bin",
+    "text_path": "work/miljokort-screening/raw/89b68c1679af1508.txt",
+    "text_chars": 5699
+  },
+  {
+    "id": "e22b73f4bf45b319",
+    "url": "https://www.moss-havn.no/skipsavfall",
+    "retrieved_utc": "2026-10-31T21:11:39.467093+00:00",
+    "cache": true,
+    "sha256": "afd2748225fcf421931246d8139f1c6e9e46e5cdffd27ffe7263e4e7fc018551",
+    "snapshot": "work/miljokort-screening/raw/e22b73f4bf45b319.bin",
+    "text_path": "work/miljokort-screening/raw/e22b73f4bf45b319.txt",
+    "text_chars": 2486
+  },
+  {
+    "id": "c1014f801215547b",
+    "url": "https://www.niva.no/",
+    "retrieved_utc": "2026-10-31T21:11:39.467798+00:00",
+    "final_url": "https://www.niva.no/",
+    "http_status": 200,
+    "sha256": "0fc97871b0fc60a1553bbde042ef3c66f86d782ec1afd2719df23ecb75c1250b",
+    "snapshot": "work/miljokort-screening/raw/c1014f801215547b.bin",
+    "text_path": "work/miljokort-screening/raw/c1014f801215547b.txt",
+    "text_chars": 4444
+  },
+  {
+    "id": "207a50899c244d95",
+    "url": "https://www.no17.no/2025/03/14/stillehavosters/",
+    "retrieved_utc": "2026-10-31T21:11:39.473979+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "a712ca3e5734b65a",
+    "url": "https://www.no17.no/stillehavosters/",
+    "retrieved_utc": "2026-10-31T21:11:39.474836+00:00",
+    "final_url": "https://www.no17.no/stillehavosters/",
+    "http_status": 200,
+    "sha256": "49ec5aed002b602573e4bc1c5fdd6cdc1d8cb9f6e8b670aa56c17f6ccde157c9",
+    "snapshot": "work/miljokort-screening/raw/a712ca3e5734b65a.bin",
+    "text_path": "work/miljokort-screening/raw/a712ca3e5734b65a.txt",
+    "text_chars": 22649
+  },
+  {
+    "id": "b20f097d7c10d7ab",
+    "url": "https://www.obh.no/havna/fortoyningsregler/",
+    "retrieved_utc": "2026-10-31T21:11:39.475580+00:00",
+    "cache": true,
+    "sha256": "67d963a65da2edfd4febe91ead3a77f0f92803a601b0447a95a4ab286f55a31e",
+    "snapshot": "work/miljokort-screening/raw/b20f097d7c10d7ab.bin",
+    "text_path": "work/miljokort-screening/raw/b20f097d7c10d7ab.txt",
+    "text_chars": 1869
+  },
+  {
+    "id": "730b8de614366f42",
+    "url": "https://www.oslofjorden.org/plastsmarte-bathavner/ ",
+    "retrieved_utc": "2026-10-31T21:11:39.477297+00:00",
+    "cache": true,
+    "sha256": "4ddb1c42c96e5fc6b11c392e6bb59ec9fd1ae7c169e949b767f927079e5275ad",
+    "snapshot": "work/miljokort-screening/raw/730b8de614366f42.bin",
+    "text_path": "work/miljokort-screening/raw/730b8de614366f42.txt",
+    "text_chars": 2562
+  },
+  {
+    "id": "d410d980b79f803f",
+    "url": "https://www.oslofjorden.org/statsbudsjettet-positiv-videreforing-for-oslofjorden-men-viktige-miljoordninger-svekkes/",
+    "retrieved_utc": "2026-10-31T21:11:39.481604+00:00",
+    "cache": true,
+    "sha256": "f36afd38a2079ec4887a3609061eeb0817b55427e5ff81f85b9e6b8d31f64135",
+    "snapshot": "work/miljokort-screening/raw/d410d980b79f803f.bin",
+    "text_path": "work/miljokort-screening/raw/d410d980b79f803f.txt",
+    "text_chars": 10451
+  },
+  {
+    "id": "35a3a3b8dfcbc726",
+    "url": "https://www.oslohavn.no/no/meny/tjenester/skjemaer/skjema-for-gratis-bortkjoring-av-marint-avfall/",
+    "retrieved_utc": "2026-10-31T21:11:39.487766+00:00",
+    "final_url": "https://www.oslohavn.no/no/meny/tjenester/skjemaer/skjema-for-gratis-bortkjoring-av-marint-avfall/",
+    "http_status": 200,
+    "sha256": "fffa7a4c27400c2480732e8cafc519dbbe665288d59de5e308fbef6b6722d88b",
+    "snapshot": "work/miljokort-screening/raw/35a3a3b8dfcbc726.bin",
+    "text_path": "work/miljokort-screening/raw/35a3a3b8dfcbc726.txt",
+    "text_chars": 2369
+  },
+  {
+    "id": "d332da227f893153",
+    "url": "https://www.osloseilforening.no/next/p/13956/havnereglement",
+    "retrieved_utc": "2026-10-31T21:11:39.629133+00:00",
+    "cache": true,
+    "sha256": "ff801d1fe95d69bdce4a4d097bd8dc101b5aa416a12323681849b8fb4dbdce3f",
+    "snapshot": "work/miljokort-screening/raw/d332da227f893153.bin",
+    "text_path": "work/miljokort-screening/raw/d332da227f893153.txt",
+    "text_chars": 12180
+  },
+  {
+    "id": "73aa60e36de0d32f",
+    "url": "https://www.regjeringen.no/no/aktuelt/batseptik-i-oslofjorden/id3041276/",
+    "retrieved_utc": "2026-10-31T21:11:39.639980+00:00",
+    "cache": true,
+    "sha256": "17f71cf416f4e59791c0de8664e3c25579b90a7b76928a5e58e40fcd73214c59",
+    "snapshot": "work/miljokort-screening/raw/73aa60e36de0d32f.bin",
+    "text_path": "work/miljokort-screening/raw/73aa60e36de0d32f.txt",
+    "text_chars": 9473
+  },
+  {
+    "id": "4e0b6c865bfb9bda",
+    "url": "https://www.sandefjord.kommune.no/_f/p1/i84381964-6cfc-4159-8df5-9e70e1c2c3d9/avtale-leiebetingelser-shv.pdf",
+    "retrieved_utc": "2026-10-31T21:11:39.649189+00:00",
+    "cache": true,
+    "sha256": "e574cb0239c628a8d17b98556bcb8b470d3fe617dfcbade3ae34d67bae3adc6c",
+    "snapshot": "work/miljokort-screening/raw/4e0b6c865bfb9bda.bin",
+    "text_path": "work/miljokort-screening/raw/4e0b6c865bfb9bda.txt",
+    "text_chars": 7785
+  },
+  {
+    "id": "17fbf0e29d944853",
+    "url": "https://www.sandefjord.kommune.no/parkering-vei-vann-renovasjon/renovasjon-og-avfall/kildesortering/",
+    "retrieved_utc": "2026-10-31T21:11:39.704037+00:00",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "5af47696cdd6f130",
+    "url": "https://www.sandefjord.kommune.no:443/miljo-naring-landbruk/",
+    "retrieved_utc": "2026-10-31T21:11:39.713997+00:00",
+    "cache": true,
+    "sha256": "280e9ade802c4a85fe23832e95b73d611dfcb79f3d1eecb3aa145ca559d69bb6",
+    "snapshot": "work/miljokort-screening/raw/5af47696cdd6f130.bin",
+    "text_path": "work/miljokort-screening/raw/5af47696cdd6f130.txt",
+    "text_chars": 1010
+  },
+  {
+    "id": "98324c0094b46eb2",
+    "url": "https://www.sandefjord.kommune.no:443/miljo-naring-landbruk/sandefjord-havn/",
+    "retrieved_utc": "2026-10-31T21:11:39.718423+00:00",
+    "cache": true,
+    "sha256": "59eed24b48e8f09078fd15af2de312d2b843ae2dc93c821782b1d6ea814b87b4",
+    "snapshot": "work/miljokort-screening/raw/98324c0094b46eb2.bin",
+    "text_path": "work/miljokort-screening/raw/98324c0094b46eb2.txt",
+    "text_chars": 1429
+  },
+  {
+    "id": "7ff1cea858bd4f33",
+    "url": "https://www.sandefjord.kommune.no:443/miljo-naring-landbruk/sandefjord-havn/gjeste-og-fiskerihavner/",
+    "retrieved_utc": "2026-10-31T21:11:39.718816+00:00",
+    "cache": true,
+    "sha256": "688c7ab77ee661fda71f37abc1d9c09e9439e26acaef0c877553b2c592172dca",
+    "snapshot": "work/miljokort-screening/raw/7ff1cea858bd4f33.bin",
+    "text_path": "work/miljokort-screening/raw/7ff1cea858bd4f33.txt",
+    "text_chars": 3261
+  },
+  {
+    "id": "435d74cd8a384496",
+    "url": "https://www.sandefjord.kommune.no:443/miljo-naring-landbruk/sandefjord-havn/leie-batplass/",
+    "retrieved_utc": "2026-10-31T21:11:39.724711+00:00",
+    "cache": true,
+    "sha256": "7c63eb34ba1626d16575946d613851cd4f35072138769ef0bc444d6712fae0a4",
+    "snapshot": "work/miljokort-screening/raw/435d74cd8a384496.bin",
+    "text_path": "work/miljokort-screening/raw/435d74cd8a384496.txt",
+    "text_chars": 2187
+  },
+  {
+    "id": "c235d17fd6ef2324",
+    "url": "https://www.simas.no/alle-miljostasjonar",
+    "retrieved_utc": "2026-10-31T21:11:39.729301+00:00",
+    "final_url": "https://www.simas.no/alle-miljostasjonar",
+    "http_status": 200,
+    "sha256": "bf1b1b55f056c280ba776fa47ca63b62e82aa1a06d7453ba7854fcc63c1e166c",
+    "snapshot": "work/miljokort-screening/raw/c235d17fd6ef2324.bin",
+    "text_path": "work/miljokort-screening/raw/c235d17fd6ef2324.txt",
+    "text_chars": 4764
+  },
+  {
+    "id": "aabcd26e370c904a",
+    "url": "https://www.sonbaat.no/avfallshandtering/",
+    "retrieved_utc": "2026-10-31T21:11:39.730021+00:00",
+    "cache": true,
+    "sha256": "4fc205647e5c7b04052a967e733d3353e2afcf96fc351c69bcaeb66d45f81a36",
+    "snapshot": "work/miljokort-screening/raw/aabcd26e370c904a.bin",
+    "text_path": "work/miljokort-screening/raw/aabcd26e370c904a.txt",
+    "text_chars": 3706
+  },
+  {
+    "id": "f89f61fa71ebd66c",
+    "url": "https://www.sonbaat.no/hms/",
+    "retrieved_utc": "2026-10-31T21:11:39.734944+00:00",
+    "cache": true,
+    "sha256": "7ec55abbf87ffff3ae87c503f78333f59aac2700637e262641ebb40832526e1b",
+    "snapshot": "work/miljokort-screening/raw/f89f61fa71ebd66c.bin",
+    "text_path": "work/miljokort-screening/raw/f89f61fa71ebd66c.txt",
+    "text_chars": 6391
+  },
+  {
+    "id": "84683c6aedc196e9",
+    "url": "https://www.sonhavn.no/gjestehavn/septiktomming/",
+    "retrieved_utc": "2026-10-31T21:11:39.738452+00:00",
+    "cache": true,
+    "sha256": "c5228deb476bd6ba9750939e7fe0074b0e4f1d4714ed01e6dbf623f86436eeb8",
+    "snapshot": "work/miljokort-screening/raw/84683c6aedc196e9.bin",
+    "text_path": "work/miljokort-screening/raw/84683c6aedc196e9.txt",
+    "text_chars": 1120
+  },
+  {
+    "id": "e531683d30f3a937",
+    "url": "https://www.sonhavn.no/son-gjestehavn/priser-2/",
+    "retrieved_utc": "2026-10-31T21:11:39.742137+00:00",
+    "cache": true,
+    "sha256": "3a0edea229d4539d6b97e1d7fb566b58ddf9d344a8189642308ae521966db743",
+    "snapshot": "work/miljokort-screening/raw/e531683d30f3a937.bin",
+    "text_path": "work/miljokort-screening/raw/e531683d30f3a937.txt",
+    "text_chars": 1571
+  },
+  {
+    "id": "f2e1db8cdb4494b3",
+    "url": "https://www.sonhavn.no/wp-content/uploads/2020/02/Oversiktskart-miljøfarlig-avfall_januar-2020.jpg",
+    "retrieved_utc": "2026-10-31T21:11:39.745228+00:00",
+    "error": "'ascii' codec can't encode character '\\xf8' in position 50: ordinal not in range(128)"
+  },
+  {
+    "id": "6490aeb32df1330e",
+    "url": "https://www.sonhavn.no/wp-content/uploads/2021/12/Oversikt-tømmestasjoner-2021.jpg",
+    "retrieved_utc": "2026-10-31T21:11:39.745303+00:00",
+    "error": "'ascii' codec can't encode character '\\xf8' in position 42: ordinal not in range(128)"
+  },
+  {
+    "id": "08ea2206c8a01218",
+    "url": "https://www.tonsberg.kommune.no/tjenester/vann-avlop-og-renovasjon/",
+    "retrieved_utc": "2026-10-31T21:11:39.745344+00:00",
+    "cache": true,
+    "sha256": "75e757f38a7f7cba1b948fc7324c58dd77fd8a7dcc81ffe7b4db87c2876266d1",
+    "snapshot": "work/miljokort-screening/raw/08ea2206c8a01218.bin",
+    "text_path": "work/miljokort-screening/raw/08ea2206c8a01218.txt",
+    "text_chars": 2806
+  },
+  {
+    "id": "ffefd1add8281dfa",
+    "url": "https://www.vallobaatforening.no/index.php/vallo-batforening/hms2025",
+    "retrieved_utc": "2026-10-31T21:11:39.745552+00:00",
+    "cache": true,
+    "sha256": "ad73711862e8ec8b042605d641b6724fb74bb3637f7296142be749b001712ccd",
+    "snapshot": "work/miljokort-screening/raw/ffefd1add8281dfa.bin",
+    "text_path": "work/miljokort-screening/raw/ffefd1add8281dfa.txt",
+    "text_chars": 4619
+  },
+  {
+    "id": "caf9d12117c8cf22",
+    "url": "https://www.vesar.no/levering-av-avfall/gjenvinningsstasjoner/?id=1214",
+    "retrieved_utc": "2026-10-31T21:11:39.748293+00:00",
+    "final_url": "https://vesar.no/levering-av-avfall/gjenvinningsstasjoner/?id=1214",
+    "http_status": 200,
+    "sha256": "42fad9dc48aa54de98bafd8533f7cb390813396404f6d0accc75fa66423aa4b8",
+    "snapshot": "work/miljokort-screening/raw/caf9d12117c8cf22.bin",
+    "text_path": "work/miljokort-screening/raw/caf9d12117c8cf22.txt",
+    "text_chars": 4262
+  },
+  {
+    "id": "cd759a122c3962d4",
+    "url": "https://www.xn--utgrdskilenbtforening-u2bj.no/lover-og-reglement-31252s.html?show=9",
+    "retrieved_utc": "2026-10-31T21:11:39.755440+00:00",
+    "cache": true,
+    "sha256": "4376026713f094013366ad78a95b6193a513c1ed908c3fe18bc9f36f5db92741",
+    "snapshot": "work/miljokort-screening/raw/cd759a122c3962d4.bin",
+    "text_path": "work/miljokort-screening/raw/cd759a122c3962d4.txt",
+    "text_chars": 851
+  },
+  {
+    "id": "0de7a4e3d9cfd807",
+    "url": "https://sarbis.no/wp-content/uploads/2024/02/Avfalls-og-beredskapsplan-for-Sarbuvollen-Batforening-Rev.-2.-09.01.2024.pdf",
+    "retrieved_utc": "2026-10-31T21:15:27.495810+00:00",
+    "final_url": "https://sarbis.no/wp-content/uploads/2024/02/Avfalls-og-beredskapsplan-for-Sarbuvollen-Batforening-Rev.-2.-09.01.2024.pdf",
+    "http_status": 200,
+    "sha256": "2d09f259863ffc0dcf923d7739ca45460e37186d7121d547bdafcfb000f15115",
+    "snapshot": "work/miljokort-screening/raw/0de7a4e3d9cfd807.bin",
+    "text_path": "work/miljokort-screening/raw/0de7a4e3d9cfd807.txt",
+    "text_chars": 10136
+  },
+  {
+    "id": "cb20a97378c63aa2",
+    "url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/bat/tommestasjoner-for-batseptik/",
+    "retrieved_utc": "2026-10-31T21:15:27.496151+00:00",
+    "final_url": "https://www.oslo.kommune.no/natur-kultur-og-fritid/tur-og-friluftsliv/bat/tommestasjoner-for-batseptik/",
+    "http_status": 200,
+    "sha256": "857212ad3923fdd961ca320339740ec188f3a7d860b459c428a7e0047a561e9f",
+    "snapshot": "work/miljokort-screening/raw/cb20a97378c63aa2.bin",
+    "text_path": "work/miljokort-screening/raw/cb20a97378c63aa2.txt",
+    "text_chars": 2024
+  },
+  {
+    "id": "official-Septik_(ny)",
+    "url": "https://services1.arcgis.com/ThExf1r1eIhz35uv/arcgis/rest/services/Septik_(ny)/FeatureServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&f=json&returnGeometry=true",
+    "retrieved_utc": "2026-10-31T21:15:27.992421+00:00",
+    "snapshot": "work/miljokort-screening/septic-Septik_(ny).json",
+    "sha256": "c1929cd4ce1fd944b70ec8504091ef86383c0dc82983b59217ae35327418f8fa",
+    "http_status": 200,
+    "source_type": "Miljødirektoratets offentlige kartlag"
+  },
+  {
+    "id": "official-Septik_(ny_og_gammel)",
+    "url": "https://services1.arcgis.com/ThExf1r1eIhz35uv/arcgis/rest/services/Septik_(ny_og_gammel)/FeatureServer/0/query?where=1%3D1&outFields=%2A&outSR=4326&f=json&returnGeometry=true",
+    "retrieved_utc": "2026-10-31T21:15:27.993044+00:00",
+    "snapshot": "work/miljokort-screening/septic-Septik_(ny_og_gammel).json",
+    "sha256": "09b11231a6064dadbd54c5523f9e5c5d01a63153713cb537bb658fb81afe2b9b",
+    "http_status": 200,
+    "source_type": "Miljødirektoratets offentlige kartlag"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "checked_date": "2026-10-31",
+  "status": "forslag_under_revisjon",
+  "latest_official_status_date": "2026-10-16",
+  "applicability_assessed": false,
+  "compliance_assessed": false,
+  "scope_note": "Kortet viser kildeopplysninger om båtvedlikehold. Det fastslår ikke om anlegget omfattes av eller oppfyller regelverk.",
+  "sources": [
+    {
+      "publisher": "Miljødirektoratet",
+      "title": "Opprinnelig forskriftsutkast (§§ XX-5–7)",
+      "url": "https://hoering.miljodirektoratet.no/Hoering/LastNedVedlegg/37910"
+    },
+    {
+      "publisher": "Stortinget",
+      "title": "Status 16. oktober 2026: revidert forslag og ny høring",
+      "url": "https://www.stortinget.no/no/Saker-og-publikasjoner/Sporsmal/Skriftlige-sporsmal-og-svar/Skriftlig-sporsmal/?qnid=127667"
+    }
+  ]
+}

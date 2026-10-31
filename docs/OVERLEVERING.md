@@ -107,3 +107,56 @@ Råpakken på omtrent540 MB er lokalt i `work/4001-porsgrunn/`, utenfor Git. Bev
 Brukeren godkjente 56 polygoner / 28 foreløpige anleggsgrupper, inkludert 3 mulige havner. Samlefilen og nettstedets lokale kartdata inneholder nå 816 polygoner fra 23 godkjente kommuner. Alle 760 tidligere godkjente feature-objekter er bevart uendret; SHA-256 og godkjenningstidspunkt er registrert i data/kommuner/4001-porsgrunn/rev-01/approval.json. Førkontrollen er bevart i validation-before-approval.json.
 
 Alle 56 usikre avgrensninger, tolv åpne avklaringer, ukjente bildedatoer og ufullstendig innlandsgjennomgang beholdes. Godkjenningen gjør ikke disse sikre. Brukeren har senere bestilt commit, push og PR. Ingen publisering er bestilt. Ingen neste kommune startet; Ås står fortsatt som uavklart kystkommune.
+
+## Miljøkort – pilot 31. oktober 2026
+
+På brukerens bestilling er tre kildebaserte miljøkort laget for Lille Herbern, Karenslyst og Revierhavnen i data/miljokort/pilot-01/. Tretten observasjoner, fire kildearkiver med SHA-256, CSV/JSON og felles mal er bevart. Ingen kontakt eller befaring er utført. Tiltaksstatus skilles fra bevisstyrke og målt effekt. Karenslysts åpningstidspunkter spriker; Revierhavnens idriftsettelse er uavklart. Hullene er dokumentasjonshull, ikke bekreftet fravær av tiltak. Kartkoblinger trenger kontroll; delte tjenester og landarealer skal ikke tilordnes automatisk til sjøpolygon. Samlefilens 816 polygoner og nettstedet er uendret. Validering av kildereferanser, snapshot-hasher og CSV/JSON-samsvar er bestått. Ingen commit, push eller PR er bestilt for miljøkortpiloten.
+
+### Miljøkort integrert i lokal kartvisning 2026-10-31
+
+Tre egne stedspunkter og miljøkort er koblet inn via environment-cards.js og data/environment-cards.json. Ni kilder totalt: fire om tiltak, fem om stedfesting. Kartverket gir Lille Herbern navnepunkt og Karenslysts besøksadresse; Revierhavnen oppgir grov egen posisjon. Tilknyttede havnegrupper H13/H02/H23 gir geografisk kontekst, ikke verifiserte driftsgrenser. Karenslysts spyleplass og Revierhavnens Østslippen er fortsatt ikke presist stedfestet. Kilder, datoer, dokumentasjonshull og delte tjenester vises i kortene. Ingen rå-HTML publiseres. Godkjente 816 sjøpolygoner er uendret; ingen publisering, commit eller PR er utført for dette arbeidet.
+
+Miljøkortene er etter brukerinnspill forenklet til 3–4 korte statuslinjer og én neste avklaring. Detaljer og kildeliste er samlet under «Kilder og grunnlag». Alle opprinnelige observasjoner er bevart; ingen ny miljøvurdering er lagt til. Nettleserkontroll av kortvisning og åpning av kildegrunnlag er bestått.
+
+### Tre nye miljøkort 2026-10-31
+
+Sonskilen (MK-04), Skjebergkilens Marina (MK-05) og Bispebrygga (MK-06) er lagt til i samme enkle kortvisning. Totalt seks kort, 25 observasjoner og 19 kildeoppslag i data/miljokort/pilot-01/. Alle nye kort er kontrollert i nettleseren. Besøks-/registeradresser fra Kartverket er tydelig skilt fra nøyaktig spyleplass; Bispebrygga har ingen bekreftet kobling til godkjent sjøpolygon. Ingen nye geometrier eller miljøeffekter godkjent. Lokalt nettsted oppdatert; ikke publisert. Validering av kilder, CSV/JSON og uendret samlefil samt 13 automatiske tester er bestått.
+
+### Kildescreening av miljøkortgrunnlag 2026-10-31
+
+Alle 664 offentlige anleggsgrupper er inventert. Minst 69 har begrunnet kortgrunnlag: 50 med konkrete tiltak/tjenester/rutiner og 19 med kun eldre fellesplaner. 595 er uavklart. 306 kildeoppslag, 77 vurderte evidensposter; 24 tilgangsfeil og seks gjenværende PDF-lesefeil. Fullstendig individuelt nettsøk for alle navn er ikke utført; dette er en nedre grense, ikke endelig totalt antall mulige kort. Delte tjenester og grensekryssende grupper telles uten duplikater. Bispebrygga holdes utenfor de 664 inntil sikker kobling foreligger. Se data/miljokort/screening-01/README.md, assessment.csv, kilde- og punktkontroller. Godkjente data og nettsted er uendret av screeningen.
+
+### Miljøkort med vekt på båtvedlikehold
+
+Etter brukerens tilslutning er de seks korte miljøkortene innrettet mot spylevann, båtpuss og arbeidsavfall. Én neste avklaring beholdes. Øvrige tiltak og alle opprinnelige observasjoner er bevart under kildegrunnlaget. Regelverkskontekst henviser til høringsutkastet og statsrådens status 16.10.2026 om revisjon og ny høring. Ingen anlegg er klassifisert som omfattet eller i samsvar med forskriften. Screeningtallet 69 gjelder fortsatt bredt miljøkortgrunnlag, ikke forskriftsomfang eller etterlevelse.
+
+### Kapasitetsfilter i kartet
+
+Under Layers → Filter finnes «200+ båtplasser». Filteret gjelder kartflater,
+punkter, navn, havnesøk og turens havneutvalg. Dagens kilder gir 20 fysiske
+havnegrupper med publisert kapasitet ≥200; dette er ingen fullstendig opptelling
+av store havner. Ukjente og motstridende tall utelates, omtrentlige og eldre tall
+merkes i havnekortet med kilde og referanseperiode. Moss bruker siste separate
+kildegjennomgang; kommunegrensedelte grupper får felles kapasitet uten summering.
+Filteret sier ingenting om forskriftsvirkeområde eller etterlevelse.
+Bygges med `scripts/harbour_capacity.py` via `scripts/build_flyover_data.py`.
+
+### Arealanslag for kapasitet
+
+Etter brukerbestilling er arealmodell v1 testet og lagt til lokalt. 97 publiserte
+kapasiteter, 15 berørte kommuner; 62 treningsgrupper i Sandefjord. Kommunebalansert
+logmodell har medianavvik 26,4 % ved kommuneblokkert validering. 567 ukjente får
+grove anslag: 16 trolig ≥200, 203 trolig under 200, 348 usikre. Utenfor
+kalibreringsarealet og mulige havner beholdes som usikre; ingen sannsynlighet
+eller intervallgaranti hevdes. Standardfilteret er fortsatt publisert kapasitet.
+Valgfritt inkluderes trolige, eller også mulige treff fra øvre spenn. Kart, søk
+og tur bruker samme filterfunksjon. Publiserte tall og godkjente geometrier er
+bevart. Modellgrunnlag, kilde-ID-er og holdte prediksjoner publiseres i separat
+capacity-model.json. Se docs/KAPASITETSANSLAG.md for reproduksjon og begrensninger.
+
+Mobilvisningen (≤720 px) er begrenset til én bryter for 200+ med publisert
+kapasitet, kort treffantall og beskjed om at ukjent kapasitet utelates.
+Modellvalg og lange modellforklaringer vises bare på større skjermer.
+Havnekort kan fortsatt vise én kort linje med arealanslag og usikkerhetsspenn.
+Ved overgang fra stor til liten skjerm nullstilles modellvalget til publisert,
+slik at et skjult modellvalg ikke endrer mobilfilterets betydning.
