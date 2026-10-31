@@ -1,0 +1,16 @@
+{
+ "href": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map29f2feee9ce14dac81feea26557f61cc.jpg",
+ "width": 1981,
+ "height": 1981,
+ "extent": {
+  "xmin": 1139273.559021859,
+  "ymin": 8300608.353131915,
+  "xmax": 1140959.2440115106,
+  "ymax": 8302294.038121567,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "scale": 3216.0929490602016
+}
