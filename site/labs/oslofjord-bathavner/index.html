@@ -25,6 +25,8 @@
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:var(--abyss);color:var(--foam);font:14px/1.4 Manrope,system-ui,sans-serif;overflow:hidden}
 #map{position:fixed;inset:0}
+/* Keep map gestures on the canvas, including in iPhone Safari. */
+#map .maplibregl-canvas-container,#map .maplibregl-canvas{touch-action:none}
 button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0}
 .glass{background:var(--glass);backdrop-filter:blur(14px) saturate(1.3);-webkit-backdrop-filter:blur(14px) saturate(1.3);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
 .mobile-copy{display:none}
@@ -168,6 +170,7 @@ svg{display:block}
 #intro{position:fixed;inset:0;z-index:5;pointer-events:none;display:grid;place-items:end center;padding:0 16px calc(110px + env(safe-area-inset-bottom));background:radial-gradient(ellipse at 50% 120%,rgba(4,17,30,.85),rgba(4,17,30,0) 65%);transition:opacity .6s}
 #intro.hide{opacity:0;pointer-events:none}
 #intro .box{text-align:center;max-width:520px;pointer-events:auto}
+#intro.hide .box{pointer-events:none;visibility:hidden}
 #intro .eyebrow{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--harbour);font-weight:700}
 #intro h2{font-size:clamp(28px,5vw,44px);line-height:1.05;margin:8px 0 10px;font-weight:800;letter-spacing:-1px;text-shadow:0 4px 30px rgba(0,0,0,.5)}
 #intro p{margin:0 auto 18px;color:var(--mist);max-width:430px;font-size:14px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
@@ -414,7 +417,8 @@ const style = {
 
 const map = new maplibregl.Map({
   container: 'map', style, center: [10.735, 59.905], zoom: 11.6, pitch: 62, bearing: 215, maxPitch: 80,
-  attributionControl: false, canvasContextAttributes: { antialias: true }, fadeDuration: 150
+  attributionControl: false, canvasContextAttributes: { antialias: true }, fadeDuration: 150,
+  dragPan: true, touchZoomRotate: true, cooperativeGestures: false
 });
 map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Harbours: <a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank">oslofjord-bathavner</a> by Jo Øvstaas (OSM © contributors, Enhetsregisteret) · Powered by the <a href="https://app.hubocean.earth/" target="_blank">Ocean Data Platform</a>' }), 'bottom-right');
 
@@ -618,7 +622,14 @@ function step(dir) {
   if (was) { playing = true; (async () => { for (let i = target; i < stops.length; i++) if (!await goTo(i, t)) return; playing = false; setPlayIcon(); })(); }
   else goTo(target, t);
 }
-['dragstart', 'wheel', 'touchstart', 'dblclick'].forEach(ev => map.on(ev, e => { if (e.originalEvent) { pause(); stopAttract(); } }));
+function takeMapControl(e) {
+  if (!e.originalEvent) return;
+  pause(); stopAttract(); hideIntro();
+  // Also cancel flights started by a harbour selection or the step buttons.
+  map.stop();
+  if (flyOn) setFly(false);
+}
+['dragstart', 'wheel', 'touchstart', 'dblclick'].forEach(ev => map.on(ev, takeMapControl));
 
 /* ---------- attract mode (slow orbit behind intro) ---------- */
 let attractOn = false;
