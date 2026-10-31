@@ -1,0 +1,11 @@
+{
+  "started_unix": 1793432563.0619888,
+  "started_utc": "2026-10-31T07:42:43.061995+00:00",
+  "files": {
+    "data/kommuner/3903-holmestrand/rev-01/bathavner.geojson": "070912b671259e3aaa3c17e491fd528b368b1ae2a0504aa8d1f3770e7aea172a",
+    "data/kommuner/3903-holmestrand/rev-01/metadata.csv": "432183034dbb390a948f524a01049ee3035d2f791eafe8af79bfed43ade0c354",
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "94d6be45daf90c16679329850650690d4b071f2576d00923dba79d6fb7f32775",
+    "data/samlet/samlet-manifest.json": "86f571e5ec0557da04d8e095988c32e96bcc2cb6634697f24de34c330b8dff87",
+    "archive/original/horten-pilot/suppleringsfunn-holmestrand.geojson": "cbbfb38eb0a95ce767754ceaecf1dae6d90b498242c236ac9656bcf0bc55e6a1"
+  }
+}

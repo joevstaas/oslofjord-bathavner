@@ -1,0 +1,150 @@
+[
+  {
+    "issue_id": "HOLMESTRAND-E-01",
+    "harbour_ids": [
+      "3903-H01",
+      "3903-H02"
+    ],
+    "kind": "shared_capacity",
+    "status": "open",
+    "description": "Kommunen oppgir ca. 1100 faste plasser for operatørens samlede tilbud. Omfanget er ikke fordelt på byhavnas to bassenger og Hagemann.",
+    "next_step": "Bevar tallet én gang som gruppeobservasjon; avklar fordeling før anleggsvis publisering.",
+    "source_ids": [
+      "HS01",
+      "HS02"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-02",
+    "harbour_ids": [
+      "3903-H01",
+      "3903-H02"
+    ],
+    "kind": "operator_legal_form",
+    "status": "open",
+    "description": "Kommunesidene viser fortsatt DA; operatøren oppgir AS. Enhetsregisteret viser AS 936760600 og gammel DA 985747970 under avvikling.",
+    "next_step": "Bruk kildebelagt AS-identitet i berikelsen, men behold avviket og ikke utled alle juridiske overdragelsesvilkår.",
+    "source_ids": [
+      "HS01",
+      "HS02",
+      "BR936760600",
+      "BR985747970"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-03",
+    "harbour_ids": [
+      "3903-H01"
+    ],
+    "kind": "guest_scope",
+    "status": "open",
+    "description": "Gjestehavna beskrives som ca. 50 båter langs 450 meter longsidekai. Eksakt polygonkobling og forhold til faste plasser er ikke kontrollert.",
+    "next_step": "Ikke registrer 450 båtplasser eller summer 50 med 1100 uten belegg.",
+    "source_ids": [
+      "HS03"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-04",
+    "harbour_ids": [
+      "3903-H03"
+    ],
+    "kind": "capacity_conflict",
+    "status": "open",
+    "description": "NJBs nettside oppgir 450, mens operatørens Havneweb oppgir 397 båtplasser.",
+    "next_step": "Behold begge kildetall og la entydig kapasitet stå null til referanseperiode og omfang er avklart.",
+    "source_ids": [
+      "HS04",
+      "HS05"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-05",
+    "harbour_ids": [
+      "3903-H05"
+    ],
+    "kind": "capacity_categories_and_expansion",
+    "status": "open",
+    "description": "155 andelsplasser og 62 utleieplasser beskrives av operatøren, mens katalogen viser 155. Bryggeutvidelse omtales også.",
+    "next_step": "Bevar kategorier; kontroller om dagens fysiske anlegg avviker fra pilotens topografiske omriss.",
+    "source_ids": [
+      "HS07",
+      "HS08",
+      "HS16"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-06",
+    "harbour_ids": [
+      "3903-K01",
+      "3903-K02",
+      "3903-K03",
+      "3903-K04"
+    ],
+    "kind": "unresolved_baseline_candidates",
+    "status": "open",
+    "description": "Bekkebrygga, Sandvika, Mathisodden og Holmsåsen har fortsatt uavklart operatør, klasse og kapasitet. Stedssøk gir også navnelikhet med andre kommuner og badeanlegg.",
+    "next_step": "Kontroller stedsspesifikt mot datert bilde og primærkilde; ikke overfør naboanleggenes kapasitet eller operatør.",
+    "source_ids": []
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-07",
+    "harbour_ids": [
+      "3903-K05"
+    ],
+    "kind": "freshwater_and_camping",
+    "status": "open",
+    "description": "Torrud-gruppen ligger ved Eikeren. Thorrud annonserer båtplasser, men to bryggegruppers operatørkobling er uavklart; 130 plasser gjelder camping og 1000 er pris.",
+    "next_step": "Behold ferskvann som egen dimensjon. Ikke tilordne 130 eller 1000 som båtplasskapasitet.",
+    "source_ids": [
+      "HS11",
+      "HS12",
+      "HS13"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-08",
+    "harbour_ids": [],
+    "kind": "unapproved_supplement",
+    "status": "open",
+    "description": "Våle/Frebergsvik ligger allerede som et ikke-godkjent suppleringsfunn fra Horten-gjennomgangen.",
+    "next_step": "Bevar C-VALE separat; ingen automatisk innlemming i Holmestrand eller samlefilen.",
+    "source_ids": [
+      "BR915094821"
+    ]
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-09",
+    "harbour_ids": [
+      "3903-H01",
+      "3903-H02",
+      "3903-H03",
+      "3903-H04",
+      "3903-H05",
+      "3903-H06",
+      "3903-H07",
+      "3903-K01",
+      "3903-K02",
+      "3903-K03",
+      "3903-K04",
+      "3903-K05"
+    ],
+    "kind": "topographic_pilot_geometry",
+    "status": "open",
+    "description": "Alle 14 polygoner er eldre topografiske pilotomriss. Denne kildegjennomgangen gir ikke ny ortofoto- eller geometrikontroll.",
+    "next_step": "Behold eksisterende usikkerhet og behov for ortofotokontroll; eventuelle geometriendringer krever ny revisjon og godkjenning.",
+    "source_ids": []
+  },
+  {
+    "issue_id": "HOLMESTRAND-E-10",
+    "harbour_ids": [],
+    "kind": "unavailable_primary_documents",
+    "status": "open",
+    "description": "Kommunens kunnskapsgrunnlag-URL og Langøya-planinitiativ kunne ikke hentes direkte.",
+    "next_step": "Søkesnutter er bare spor til videre undersøkelse. Ingen nye kapasiteter eller eksisterende Langøya-havn er utledet fra dem.",
+    "source_ids": [
+      "HS14",
+      "HS19"
+    ]
+  }
+]
