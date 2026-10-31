@@ -40,8 +40,9 @@ for f in fc['features']:
     g = shape(f['geometry'])
     feats.append(dict(type='Feature', id=len(feats), geometry=dict(type='Polygon', coordinates=rnd(f['geometry']['coordinates'])), properties=dict(
         id=p['id'], hid=p['harbour_id'], name=p['name'], mun=p['municipality'], cls=cls,
-        basis=basis_en(p.get('classification_basis')), area=round(p.get('area_m2') or 0),
-        berths=p.get('berth_count_published'), method=meth,
+        basis=('Shared boat jetty; permanent berth count and operator link unclear' if p.get('candidate_id') == 'NF002' and p.get('municipality_code') == '3207' else basis_en(p.get('classification_basis'))), area=round(p.get('area_m2') or 0),
+        berths=(None if p.get('cross_municipality_group_id') else p.get('berth_count_published')), method=meth,
+        gid=p.get('cross_municipality_group_id') or p['harbour_id'],
         unc=bool(p.get('needs_orthophoto_review')), clip=bool(p.get('municipality_clipped')),
         osm=osm[0] if osm else None, nosm=len(osm), note=(p.get('note') or '')[:220],
         lon=round(g.representative_point().x, 6), lat=round(g.representative_point().y, 6))))
@@ -54,19 +55,26 @@ muns += [(r.split()[-1], ' '.join(r.split()[:-1]), 'remaining') for r in st['rem
 # kystnære etikettpunkter for kommuner som ikke er kartlagt ennå
 LABEL = {'3216': (10.70, 59.53), '3214': (10.62, 59.665), '3212': (10.64, 59.80), '3207': (10.79, 59.80),
          '3110': (10.98, 59.07), '3105': (11.08, 59.25), '3101': (11.37, 59.12), '4001': (9.66, 59.11), '4012': (9.72, 59.00)}
+existing_path = OUT / 'municipalities.geojson'
+existing = {f['properties']['code']: f for f in json.loads(existing_path.read_text())['features']} if existing_path.exists() else {}
 bfeats = []
 for code, name, state in muns:
     cf = CACHE / f'{code}.json'
-    if not cf.exists():
+    if not cf.exists() and code not in existing:
         req = urllib.request.Request(f'https://api.kartverket.no/kommuneinfo/v1/kommuner/{code}/omrade?utkoordsys=4326', headers={'User-Agent': 'oslofjord-bathavner'})
         cf.write_bytes(urllib.request.urlopen(req, timeout=60).read())
-    j = json.loads(cf.read_text()); geom = j.get('omrade') or j
-    g = ops.transform(F, shape(geom)).simplify(40).buffer(0)
+    if code in existing:
+        # Bevar publiserte kommuneomriss; bare status/tellinger endres.
+        geom = existing[code]['geometry']
+        g = ops.transform(F, shape(geom))
+    else:
+        j = json.loads(cf.read_text()); geom = j.get('omrade') or j
+        g = ops.transform(F, shape(geom)).simplify(40).buffer(0)
     n = sum(1 for x in feats if x['properties']['mun'] == name)
     h = len({x['properties']['hid'] for x in feats if x['properties']['mun'] == name})
     pts = [(x['properties']['lon'], x['properties']['lat']) for x in feats if x['properties']['mun'] == name]
     lx, ly = (sum(a for a, _ in pts) / len(pts), sum(b for _, b in pts) / len(pts)) if pts else LABEL.get(code, B(*g.representative_point().coords[0]))
-    bfeats.append(dict(type='Feature', geometry=json.loads(json.dumps(mapping(ops.transform(B, g)))),
+    bfeats.append(dict(type='Feature', geometry=(existing[code]['geometry'] if code in existing else json.loads(json.dumps(mapping(ops.transform(B, g))))),
                        properties=dict(code=code, name=name, state=state, polygons=n, harbours=h, lx=round(lx, 5), ly=round(ly, 5))))
 for b in bfeats: b['geometry']['coordinates'] = rnd(b['geometry']['coordinates'])
 (OUT / 'municipalities.geojson').write_text(json.dumps(dict(type='FeatureCollection', features=bfeats), ensure_ascii=False, separators=(',', ':')))
@@ -76,7 +84,7 @@ print(len(feats), 'polygoner;', len(bfeats), 'kommuner;', {p.name: f'{p.stat().s
 appr = [m for m in st['municipalities'] if m['status'] != 'til_godkjenning']
 ledgers = [json.loads((ROOT / m['candidate_ledger']).read_text()) for m in appr if m.get('candidate_ledger')]
 timed = [m['elapsed_wall_seconds'] for m in appr if m.get('elapsed_wall_seconds')]
-meta = dict(polygons=len(feats), harbours=len({f['properties']['hid'] for f in feats}), municipalities=len(appr),
+meta = dict(polygons=len(feats), harbours=len({f['properties']['gid'] for f in feats}), municipalities=len(appr),
             candidates_logged=sum(len(l) for l in ledgers), ledger_municipalities=len(ledgers),
             wall_hours=round(sum(timed) / 3600, 1), timed_municipalities=len(timed),
             updated=json.loads((ROOT / 'data/samlet/samlet-manifest.json').read_text())['updated_date'])

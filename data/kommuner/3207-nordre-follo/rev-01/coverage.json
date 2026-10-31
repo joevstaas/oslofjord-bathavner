@@ -1,0 +1,34 @@
+{
+ "scope": "Hele kommunens OSM-kystlinje med 20 m grensemargin dekket av 14 sammenhengende, overlappende bildefliser. Kontaktark gjennomgått uavhengig av kandidater; 58 kartlagte brygger detaljkontrollert. 17 bildefliser rundt innlandsbrygger er en kandidatsjekk, ikke fullstendig innsjøkartlegging.",
+ "coastal_review_sheets": [
+  "work/3207-nordre-follo/qa/coast-sheet-0.jpg",
+  "work/3207-nordre-follo/qa/coast-sheet-1.jpg",
+  "work/3207-nordre-follo/qa/coast-sheet-2.jpg"
+ ],
+ "inland_review_sheets": [
+  "work/3207-nordre-follo/qa/inland-sheet-0.jpg",
+  "work/3207-nordre-follo/qa/inland-sheet-1.jpg",
+  "work/3207-nordre-follo/qa/inland-sheet-2.jpg"
+ ],
+ "pier_review_sheets": [
+  "work/3207-nordre-follo/qa/piers-00.jpg",
+  "work/3207-nordre-follo/qa/piers-01.jpg",
+  "work/3207-nordre-follo/qa/piers-02.jpg",
+  "work/3207-nordre-follo/qa/piers-03.jpg",
+  "work/3207-nordre-follo/qa/piers-04.jpg",
+  "work/3207-nordre-follo/qa/piers-05.jpg",
+  "work/3207-nordre-follo/qa/piers-06.jpg",
+  "work/3207-nordre-follo/qa/piers-07.jpg",
+  "work/3207-nordre-follo/qa/piers-08.jpg",
+  "work/3207-nordre-follo/qa/piers-09.jpg"
+ ],
+ "final_outline_review": "work/3207-nordre-follo/qa/qa-0.jpg",
+ "reviewed_utc": "2026-10-31T10:56:52+00:00",
+ "limitations": [
+  "OSM-kystlinjen er et søkegrunnlag, ikke bevis på fullstendighet.",
+  "Flybildenes opptaksdato er ukjent; innhentingsdato er ikke opptaksdato.",
+  "Ingen feltbefaring, operatørkontakt eller uavhengig kapasitetsmåling.",
+  "Foreningsregister gir organisasjonsidentitet, ikke havneposisjon.",
+  "Bildene er beholdt lokalt sammen med georeferering og sjekksum. De er ikke publisert i Git; tilsvarende ny nedlasting garanterer ikke samme mosaikk."
+ ]
+}
