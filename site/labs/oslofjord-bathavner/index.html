@@ -385,6 +385,7 @@ const ROUTE = ['Oslo', 'Bærum', 'Asker', 'Lier', 'Drammen', 'Holmestrand', 'Hor
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('en-US');
 const isMobile = matchMedia('(max-width:720px)').matches;
+const touchMap = matchMedia('(pointer:coarse)').matches;
 
 const WMS_CHART = 'https://wms.geonorge.no/skwms1/wms.sjokartraster2?service=WMS&version=1.3.0&request=GetMap&layers=all&styles=&crs=EPSG:3857&bbox={bbox-epsg-3857}&width=512&height=512&format=image/png';
 const style = {
@@ -417,7 +418,8 @@ const style = {
 
 const map = new maplibregl.Map({
   container: 'map', style, center: [10.735, 59.905], zoom: 11.6, pitch: 62, bearing: 215, maxPitch: 80,
-  attributionControl: false, canvasContextAttributes: { antialias: true }, fadeDuration: 150,
+  pixelRatio: touchMap ? Math.min(devicePixelRatio || 1, 1.5) : devicePixelRatio || 1,
+  attributionControl: false, canvasContextAttributes: { antialias: !touchMap }, fadeDuration: touchMap ? 0 : 150,
   dragPan: true, touchZoomRotate: true, cooperativeGestures: false
 });
 map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Harbours: <a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank">oslofjord-bathavner</a> by Jo Øvstaas (OSM © contributors, Enhetsregisteret) · Powered by the <a href="https://app.hubocean.earth/" target="_blank">Ocean Data Platform</a>' }), 'bottom-right');
@@ -504,17 +506,18 @@ function init() {
       'text-opacity': ['interpolate', ['linear'], ['zoom'], 10.8, 1, 11.5, 0] } });
 
   document.querySelector('.maplibregl-ctrl-attrib')?.classList.remove('maplibregl-compact-show');
-  setTerrain(true);
+  setTerrain(is3D);
+  $('dimTxt').textContent = is3D ? '3D' : '2D';
   buildTour();
   wireUI();
   $('loading').classList.add('hide');
-  attract();
+  if (!touchMap) attract();
 }
 
 /* ---------- terrain / 2D-3D ---------- */
 function setTerrain(on) {
   map.setTerrain(on ? { source: 'dem', exaggeration: terrainExag } : null);
-  map.setLayoutProperty('hs', 'visibility', on ? 'visible' : 'none');
+  map.setLayoutProperty('hs', 'visibility', on && !touchMap ? 'visible' : 'none');
 }
 function set3D(on) {
   is3D = on; $('dimTxt').textContent = on ? '3D' : '2D';
@@ -623,13 +626,15 @@ function step(dir) {
   else goTo(target, t);
 }
 function takeMapControl(e) {
-  if (!e.originalEvent) return;
+  // A second finger must join the current gesture without resetting it.
+  if (e.type === 'touchstart' && e.touches.length > 1) return;
   pause(); stopAttract(); hideIntro();
-  // Also cancel flights started by a harbour selection or the step buttons.
-  map.stop();
+  // Cancel flights before MapLibre handles the input; never stop an active drag.
+  if (map.isEasing()) map.stop();
   if (flyOn) setFly(false);
 }
-['dragstart', 'wheel', 'touchstart', 'dblclick'].forEach(ev => map.on(ev, takeMapControl));
+['mousedown', 'wheel', 'touchstart'].forEach(ev =>
+  map.getCanvasContainer().addEventListener(ev, takeMapControl, { capture: true, passive: true }));
 
 /* ---------- attract mode (slow orbit behind intro) ---------- */
 let attractOn = false;
