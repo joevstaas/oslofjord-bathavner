@@ -1,0 +1,2348 @@
+[
+ {
+  "candidate_id": "C001",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/839763552"
+  ],
+  "image_id": "detail-C001",
+  "review_bbox": [
+   272455.3337582699,
+   6580980.198119609,
+   272715.3337582699,
+   6581240.198119609
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C002",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/739831210"
+  ],
+  "image_id": "detail-C002",
+  "review_bbox": [
+   275245.22135012597,
+   6576337.0254305545,
+   275505.22135012597,
+   6576597.0254305545
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Omtrent ti båter rundt næringskai og pontong; servicebruk kontra faste plasser må avklares.",
+  "feature_ids": [
+   "3105-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C003",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/812629307"
+  ],
+  "image_id": "coast-274500-6567000",
+  "review_bbox": [
+   275816.34964647214,
+   6567508.813973747,
+   276076.34964647214,
+   6567768.813973747
+  ],
+  "decision": "utelatt",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C004",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/360789403"
+  ],
+  "image_id": "detail-C004",
+  "review_bbox": [
+   277603.4763315611,
+   6582022.197927992,
+   277863.4763315611,
+   6582282.197927992
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C005",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/190884425",
+   "way/190884426"
+  ],
+  "image_id": "detail-C005",
+  "review_bbox": [
+   276961.4515959288,
+   6579550.741265412,
+   277221.4515959288,
+   6579810.741265412
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C006",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1227157771"
+  ],
+  "image_id": "detail-C006",
+  "review_bbox": [
+   277212.73732997454,
+   6579555.719385097,
+   277472.73732997454,
+   6579815.719385097
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C007",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/842001007"
+  ],
+  "image_id": "detail-C007",
+  "review_bbox": [
+   277356.76550139335,
+   6579533.667162085,
+   277616.76550139335,
+   6579793.667162085
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C008",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/190884486",
+   "way/190884487",
+   "way/190884488"
+  ],
+  "image_id": "detail-C008",
+  "review_bbox": [
+   276568.64241706906,
+   6579331.130820636,
+   276828.64241706906,
+   6579591.130820636
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C009",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/190884424"
+  ],
+  "image_id": "detail-C009",
+  "review_bbox": [
+   277037.8257329214,
+   6579238.227211585,
+   277297.8257329214,
+   6579498.227211585
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C010",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1524029328"
+  ],
+  "image_id": "detail-C010",
+  "review_bbox": [
+   277186.6671120372,
+   6576777.331479463,
+   277446.6671120372,
+   6577037.331479463
+  ],
+  "decision": "utelatt",
+  "reason": "Byens Brygge: Borg Havn beskriver allmennkai for av-/påstigning og landligge etter avtale; bildet dokumenterer ikke selvstendig gjestehavn eller ti faste båtplasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C011",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/841753753"
+  ],
+  "image_id": "detail-C011",
+  "review_bbox": [
+   277422.79020663846,
+   6576622.063974067,
+   277682.79020663846,
+   6576882.063974067
+  ],
+  "decision": "utelatt",
+  "reason": "Kort pontong ved Tollbodbrygga med få fartøy. Faste fellesplasser eller gjestehavn ikke dokumentert.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C012",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/841753752"
+  ],
+  "image_id": "detail-C012",
+  "review_bbox": [
+   277732.5587621951,
+   6576356.840349184,
+   277992.5587621951,
+   6576616.840349184
+  ],
+  "decision": "utelatt",
+  "reason": "Industrikai med næringsfartøy/industrianlegg; ikke småbåthavn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C013",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/739831208",
+   "way/739831209"
+  ],
+  "image_id": "detail-C013",
+  "review_bbox": [
+   275977.5106695633,
+   6576319.629682619,
+   276237.5106695633,
+   6576579.629682619
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Kun småbåter langs sjøvendt kai er avgrenset; landbasert opplag utelatt. Fast plassutleie kontra servicebruk må avklares.",
+  "feature_ids": [
+   "3105-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C014",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/847497052"
+  ],
+  "image_id": "detail-C014",
+  "review_bbox": [
+   275972.49096703425,
+   6569927.123071019,
+   276232.49096703425,
+   6570187.123071019
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Omtrent 6–10 plasser kan skilles i bildet; ingen bekreftet operatør.",
+  "feature_ids": [
+   "3105-H03-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C015",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/812629314",
+   "way/812629315",
+   "way/812629316"
+  ],
+  "image_id": "coast-276000-6567000",
+  "review_bbox": [
+   275965.0929950337,
+   6567287.58221599,
+   276225.0929950337,
+   6567547.58221599
+  ],
+  "decision": "utelatt",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C016",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/812629317",
+   "way/812629318"
+  ],
+  "image_id": "coast-276000-6567000",
+  "review_bbox": [
+   276041.97398563684,
+   6567178.9228238985,
+   276301.97398563684,
+   6567438.9228238985
+  ],
+  "decision": "utelatt",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C017",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/55636603"
+  ],
+  "image_id": "coast-276000-6565500",
+  "review_bbox": [
+   277310.87062435003,
+   6565935.371429667,
+   277570.87062435003,
+   6566195.371429667
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Historisk kommunerapport 2013 oppgir 46 faste plasser, fotoanslag 50. Tallene er ikke nåtidskapasitet.",
+  "feature_ids": [
+   "3105-H04-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C018",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/94117871",
+   "way/94117888"
+  ],
+  "image_id": "detail-C018",
+  "review_bbox": [
+   279711.88329311693,
+   6578500.989153739,
+   279971.88329311693,
+   6578760.989153739
+  ],
+  "decision": "utelatt",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C019",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/733109781",
+   "way/733109782",
+   "way/733109783"
+  ],
+  "image_id": "detail-C019",
+  "review_bbox": [
+   279622.1884326259,
+   6578093.415063547,
+   279882.1884326259,
+   6578353.415063547
+  ],
+  "decision": "utelatt",
+  "reason": "Industrikai med næringsfartøy/industrianlegg; ikke småbåthavn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C020",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/733239520"
+  ],
+  "image_id": "coast-279000-6567000",
+  "review_bbox": [
+   279572.450266801,
+   6568099.953939808,
+   279832.450266801,
+   6568359.953939808
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C021",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/534537308"
+  ],
+  "image_id": "coast-279000-6567000",
+  "review_bbox": [
+   279725.2199565574,
+   6567820.786370626,
+   279985.2199565574,
+   6568080.786370626
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C022",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/532925623",
+   "way/534537310"
+  ],
+  "image_id": "detail-M19",
+  "review_bbox": [
+   279786.4279589958,
+   6567706.584919104,
+   280046.4279589958,
+   6567966.584919104
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To hovedbrygger. Små isolerte nordbrygger ikke summert inn. Kommunal fotoanslått kapasitet 114 er historisk og ikke målt nå.",
+  "feature_ids": [
+   "3105-H05-B01",
+   "3105-H05-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C023",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/25961885",
+   "way/25961886",
+   "way/25961887",
+   "way/25961888"
+  ],
+  "image_id": "coast-279000-6562500",
+  "review_bbox": [
+   279842.9108375838,
+   6563804.690551667,
+   280102.9108375838,
+   6564064.690551667
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Brygge og båtplassiden av molo; ikke hele vika.",
+  "feature_ids": [
+   "3105-H06-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C024",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/55605745",
+   "way/55605758"
+  ],
+  "image_id": "coast-279000-6562500",
+  "review_bbox": [
+   279495.7308656768,
+   6563510.033325014,
+   279755.7308656768,
+   6563770.033325014
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Stedfestet mot operatørens koordinat og kommunefoto. Publiserte historiske kapasitetstall varierer mellom 93 faste og rundt 110 totalt; ikke lagt sammen.",
+  "feature_ids": [
+   "3105-H07-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C025",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/57688251",
+   "way/57688258",
+   "way/57688259",
+   "way/57688266",
+   "way/522374378",
+   "way/522374379"
+  ],
+  "image_id": "detail-M20",
+  "review_bbox": [
+   278839.0297524186,
+   6563326.43406075,
+   279103.3044081947,
+   6563590.708716526
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To tydelige båtplassrekker i historisk rapportområde. Øvrige tomme/små enkeltbrygger utelatt. Historisk kapasitet 142 gjelder større rapportområde og er ikke kapasitet for de to omrissene.",
+  "feature_ids": [
+   "3105-H08-B01",
+   "3105-H08-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C026",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/57718415"
+  ],
+  "image_id": "coast-277500-6562500",
+  "review_bbox": [
+   278710.04048529925,
+   6562804.277610446,
+   278970.04048529925,
+   6563064.277610446
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C027",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/57718425"
+  ],
+  "image_id": "coast-277500-6562500",
+  "review_bbox": [
+   278629.97760489,
+   6562716.804121689,
+   278889.97760489,
+   6562976.804121689
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C028",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/57718423"
+  ],
+  "image_id": "coast-277500-6562500",
+  "review_bbox": [
+   278454.3368159285,
+   6562668.740144773,
+   278714.3368159285,
+   6562928.740144773
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Privat fellesanlegg med faste plasser dokumentert i 2013; færre båter synlige i nåværende bildemosaikk. Avgrensning og fortsatt drift må kontrolleres.",
+  "feature_ids": [
+   "3105-H09-B01",
+   "3105-H09-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C029",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141772"
+  ],
+  "image_id": "coast-277500-6562500",
+  "review_bbox": [
+   278763.21973924123,
+   6562654.065388272,
+   279023.21973924123,
+   6562914.065388272
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Egen brygge på vestsiden, fysisk skilt fra dokumentert Nøtsund-anlegg i øst. Kapasitet og organisering uklare.",
+  "feature_ids": [
+   "3105-H10-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C030",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141734"
+  ],
+  "image_id": "detail-M15",
+  "review_bbox": [
+   278557.5354396461,
+   6562340.517605664,
+   278817.5354396461,
+   6562600.517605664
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Inngår i supplerende detaljramme M17 Bukkenes; ikke telt som egen havn.",
+  "note": "",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C031",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/504088278"
+  ],
+  "image_id": "coast-277500-6561000",
+  "review_bbox": [
+   278470.5786147035,
+   6562171.688522912,
+   278730.5786147035,
+   6562431.688522912
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Inngår i supplerende detaljramme M17 Bukkenes; ikke telt som egen havn.",
+  "note": "",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C032",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141784"
+  ],
+  "image_id": "coast-279000-6561000",
+  "review_bbox": [
+   279170.6417278518,
+   6561946.8108113,
+   279430.6417278518,
+   6562206.8108113
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C033",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141745",
+   "way/1535141746"
+  ],
+  "image_id": "coast-277500-6561000",
+  "review_bbox": [
+   278461.5479197584,
+   6561634.850301959,
+   278721.5479197584,
+   6561894.850301959
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C034",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141781"
+  ],
+  "image_id": "coast-279000-6561000",
+  "review_bbox": [
+   279037.84095142584,
+   6561546.502644282,
+   279297.84095142584,
+   6561806.502644282
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C035",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1535141753"
+  ],
+  "image_id": "coast-277500-6561000",
+  "review_bbox": [
+   278626.4963791007,
+   6561091.83047693,
+   278886.4963791007,
+   6561351.83047693
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C036",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/124901848"
+  ],
+  "image_id": "detail-U06",
+  "review_bbox": [
+   280144.23494623275,
+   6567411.780769996,
+   280404.23494623275,
+   6567671.780769996
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Lang brygge med flere småbåter; faste plasser og organisering uklare.",
+  "feature_ids": [
+   "3105-H11-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C037",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/56084486"
+  ],
+  "image_id": "coast-280500-6567000",
+  "review_bbox": [
+   280775.11591618875,
+   6567350.332789574,
+   281035.11591618875,
+   6567610.332789574
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C038",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/845848895",
+   "way/845848896",
+   "way/845848897",
+   "way/845848898"
+  ],
+  "image_id": "coast-280500-6567000",
+  "review_bbox": [
+   281799.7198606668,
+   6567316.015195722,
+   282059.7198606668,
+   6567576.015195722
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Fire brygger på vestbredden sør for Walberg, sikkert koblet mot kommunerapportens foto side 56. Holdes adskilt fra Walberg marina.",
+  "feature_ids": [
+   "3105-H12-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C039",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/733239541"
+  ],
+  "image_id": "coast-280500-6567000",
+  "review_bbox": [
+   281274.18562054844,
+   6567047.802176198,
+   281534.18562054844,
+   6567307.802176198
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C040",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/124994900"
+  ],
+  "image_id": "coast-280500-6565500",
+  "review_bbox": [
+   280439.187894374,
+   6566750.142122056,
+   280699.187894374,
+   6567010.142122056
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Plassrekke plausibel, men antall og drift uklare i bildet.",
+  "feature_ids": [
+   "3105-H13-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C041",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/124994902"
+  ],
+  "image_id": "detail-C041",
+  "review_bbox": [
+   280408.2607800261,
+   6566537.717320427,
+   280668.2607800261,
+   6566797.717320427
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C042",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/55700015",
+   "way/55700016",
+   "way/55700018",
+   "way/55700025",
+   "way/55700029",
+   "way/55700030",
+   "way/55700035",
+   "way/55700036",
+   "way/55700038",
+   "way/55700041",
+   "way/527963569",
+   "way/527963570",
+   "way/527978215"
+  ],
+  "image_id": "detail-M11",
+  "review_bbox": [
+   280386.657012874,
+   6566103.388664205,
+   280770.65034140716,
+   6566487.381992739
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Samme fysiske marina; avgrenset komplett i M11.",
+  "note": "",
+  "feature_ids": [
+   "3105-H33-B01",
+   "3105-H33-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C043",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/537737189",
+   "way/537737190"
+  ],
+  "image_id": "coast-280500-6565500",
+  "review_bbox": [
+   280571.4550219503,
+   6565861.394360959,
+   280857.3245194098,
+   6566147.263858418
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Samme fysiske marina; avgrenset komplett i M11.",
+  "note": "",
+  "feature_ids": [
+   "3105-H33-B01",
+   "3105-H33-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C044",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/25960580"
+  ],
+  "image_id": "detail-C044",
+  "review_bbox": [
+   280622.62218944245,
+   6565350.356770078,
+   280882.62218944245,
+   6565610.356770078
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Kommunerapportens Ravneng (SSR Ramneng); hovedpir og ytre bølgebryter rundt båtplasser.",
+  "feature_ids": [
+   "3105-H14-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C045",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/55920713"
+  ],
+  "image_id": "coast-280500-6564000",
+  "review_bbox": [
+   280664.19291171466,
+   6564481.260615092,
+   280924.19291171466,
+   6564741.260615092
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "2013 anslår 33 plasser, revidert plan oppgir 18 eksisterende; avvik beholdes. Fysisk kartlegging bekrefter ikke byggesaks-/planstatus.",
+  "feature_ids": [
+   "3105-H15-B01",
+   "3105-H15-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C046",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1135447973",
+   "way/1135447974"
+  ],
+  "image_id": "coast-280500-6562500",
+  "review_bbox": [
+   281587.49196691706,
+   6563232.745328745,
+   281847.49196691706,
+   6563492.745328745
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To brygger vist i kommunerapporten; den minste er delpolygon, ikke egen havn.",
+  "feature_ids": [
+   "3105-H16-B01",
+   "3105-H16-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C047",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/966388885",
+   "way/966388886"
+  ],
+  "image_id": "detail-U05",
+  "review_bbox": [
+   280014.100174843,
+   6563105.008691855,
+   280274.100174843,
+   6563365.008691855
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C048",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/966383050",
+   "way/966383051"
+  ],
+  "image_id": "coast-279000-6562500",
+  "review_bbox": [
+   280035.85314498737,
+   6562960.513184642,
+   280295.85314498737,
+   6563220.513184642
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Tydelig plassmønster med over ti plasser på fellesbrygge; beskrivende navn, drift ukjent.",
+  "feature_ids": [
+   "3105-H17-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C049",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/504088283"
+  ],
+  "image_id": "coast-279000-6562500",
+  "review_bbox": [
+   279929.4386313668,
+   6562680.4687609365,
+   280189.4386313668,
+   6562940.4687609365
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C050",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/842141451"
+  ],
+  "image_id": "coast-280500-6559500",
+  "review_bbox": [
+   281715.4499118462,
+   6560068.708415465,
+   281975.4499118462,
+   6560328.708415465
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Båtplassiden av felles landfast brygge; servicekai og boligland holdt utenfor.",
+  "feature_ids": [
+   "3105-H18-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C051",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1090504315"
+  ],
+  "image_id": "detail-C051",
+  "review_bbox": [
+   281766.0106892427,
+   6559350.4881890975,
+   282026.0106892427,
+   6559610.4881890975
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C052",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/365405179",
+   "way/365405189",
+   "way/365405360",
+   "way/365405359",
+   "way/527896790",
+   "way/527896791",
+   "way/527896793",
+   "way/527896795",
+   "way/527917811",
+   "way/527890139",
+   "way/527917812",
+   "way/527917816",
+   "way/527917817"
+  ],
+  "image_id": "detail-M12",
+  "review_bbox": [
+   281859.655268221,
+   6567508.130958786,
+   282230.1482570691,
+   6567878.623947633
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "OSM-klyngen omfatter to dokumenterte marinaer. Delt etter fysisk sjøside i M12W/M12E; kapasitet ikke dobbeltført.",
+  "note": "",
+  "feature_ids": [
+   "3105-H34-B01",
+   "3105-H35-B01",
+   "3105-H35-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C053",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/109585925"
+  ],
+  "image_id": "coast-282000-6567000",
+  "review_bbox": [
+   282001.11295061803,
+   6567165.499553244,
+   282261.11295061803,
+   6567425.499553244
+  ],
+  "decision": "utelatt",
+  "reason": "Høysand: allmenn-/tenderkai ifølge Borg Havn; ikke selvstendig småbåthavn ut fra bildet.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C054",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/365597681"
+  ],
+  "image_id": "coast-282000-6565500",
+  "review_bbox": [
+   281980.0266573619,
+   6566752.125949368,
+   282240.0266573619,
+   6567012.125949368
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C055",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/1081995275"
+  ],
+  "image_id": "coast-282000-6565500",
+  "review_bbox": [
+   282017.6010942971,
+   6566687.549429381,
+   282277.6010942971,
+   6566947.549429381
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C056",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/287542977",
+   "way/287542978",
+   "way/287542980",
+   "way/287542982",
+   "way/287542983",
+   "way/287542990",
+   "way/287542991"
+  ],
+  "image_id": "detail-M13",
+  "review_bbox": [
+   282156.89331188274,
+   6562277.160532792,
+   282518.2190576984,
+   6562638.4862786075
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Hovedmarina avgrenset komplett i M13; egen østre brygge registrert separat.",
+  "note": "",
+  "feature_ids": [
+   "3105-H36-B01",
+   "3105-H36-B02",
+   "3105-H37-B01",
+   "3105-H37-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C057",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/365098557"
+  ],
+  "image_id": "detail-C057",
+  "review_bbox": [
+   282033.40316948877,
+   6559350.060236194,
+   282293.40316948877,
+   6559610.060236194
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Bare tydelig båtplassrekke; øvrige moloer og private enkeltbrygger ikke inkludert.",
+  "feature_ids": [
+   "3105-H19-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C058",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/940971871"
+  ],
+  "image_id": "coast-282000-6558000",
+  "review_bbox": [
+   281955.5009084797,
+   6559165.021112574,
+   282215.5009084797,
+   6559425.021112574
+  ],
+  "decision": "utelatt",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C059",
+  "kind": "osm_klynge",
+  "osm_ids": [
+   "way/655067238",
+   "way/655067239",
+   "way/655067240",
+   "way/655067241",
+   "way/655067242"
+  ],
+  "image_id": "coast-283500-6559500",
+  "review_bbox": [
+   284001.0074249334,
+   6560636.613669548,
+   284261.0074249334,
+   6560896.613669548
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Størstedelen av anlegget og landfestene ligger i Halden. Bare bryggetupper/båtplassareal på Sarpsborg-siden leveres. Felles drift og presis grense må kontrolleres; krysskommunegruppe ROSNES-3101-3105.",
+  "feature_ids": [
+   "3105-H20-B01",
+   "3105-H20-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M01",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M01",
+  "review_bbox": [
+   277580.0,
+   6565540.0,
+   277880.0,
+   6565840.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To båtplassrekker i samme kartlagte havn; landfestene beholdt som smale bryggedeler, strandarealet mellom tas ikke med.",
+  "feature_ids": [
+   "3105-H21-B01",
+   "3105-H21-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M02",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M02",
+  "review_bbox": [
+   277800.0,
+   6564630.0,
+   278200.0,
+   6565030.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Hovedbrygge. Små separate hyttebrygger lenger sør utelates.",
+  "feature_ids": [
+   "3105-H22-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M03",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M03",
+  "review_bbox": [
+   281300.0,
+   6564450.0,
+   281800.0,
+   6564950.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Nordlig dobbeltsidig brygge med omtrent 16 historiske plasser. Kommunens 28 omfatter tre brygger; små sørbrygger med seks plasser hver summeres ikke for å nå terskelen.",
+  "feature_ids": [
+   "3105-H23-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M04",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M04",
+  "review_bbox": [
+   281825.0,
+   6562925.0,
+   282375.0,
+   6563475.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H24-B01",
+   "3105-H25-B01",
+   "3105-H25-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M05",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M05",
+  "review_bbox": [
+   278790.0,
+   6562680.0,
+   279210.0,
+   6563100.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Østre fellespir sikkert koblet mot rapportfoto side 33; øvrige private brygger i sundet holdes adskilt.",
+  "feature_ids": [
+   "3105-H26-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M06",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M06",
+  "review_bbox": [
+   279290.0,
+   6562070.0,
+   279670.0,
+   6562450.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To fellesbrygger, tidligere oppgitt 62 faste plasser og én gjesteplass. Ikke nåtidsopptelling.",
+  "feature_ids": [
+   "3105-H27-B01",
+   "3105-H27-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M07",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M07",
+  "review_bbox": [
+   281705.0,
+   6562260.0,
+   281965.0,
+   6562520.0
+  ],
+  "decision": "utelatt",
+  "reason": "Lite kaianlegg med få fortøyde båter ved vestre Grimsøy; under ti tydelige plasser, ingen dokumentert felles drift.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M08",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M08",
+  "review_bbox": [
+   281150.0,
+   6561200.0,
+   281650.0,
+   6561700.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H28-B01",
+   "3105-H29-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M09",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M09",
+  "review_bbox": [
+   283620,
+   6560460,
+   283920,
+   6560760
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Fellespir koblet mot historisk kommunerapport, anslag 30 plasser fra 2013.",
+  "feature_ids": [
+   "3105-H30-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M10",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M10",
+  "review_bbox": [
+   282195.0,
+   6562665.0,
+   282545.0,
+   6563015.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H31-B01",
+   "3105-H32-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M11",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M11",
+  "review_bbox": [
+   280275.0,
+   6565875.0,
+   281125.0,
+   6566725.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "1250 plasser oppgitt av kommunen i mai 2026 gjelder hele marinaen, ikke delpolygonet. Eldre rapport oppga 921. Avgrenset synlig bryggesjø; parkering/opplag ikke med.",
+  "feature_ids": [
+   "3105-H33-B01",
+   "3105-H33-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M12",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M12",
+  "review_bbox": [
+   281775.0,
+   6567405.0,
+   282325.0,
+   6567955.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H34-B01",
+   "3105-H35-B01",
+   "3105-H35-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M13",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M13",
+  "review_bbox": [
+   282040.0,
+   6562100.0,
+   282740.0,
+   6562800.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Hovedanlegg og vestre service-/båtplasspir. Operatøren opplyser oppgradering i 2022. Historisk kapasitet 450/5 ikke presentert som nåtidskapasitet.",
+  "feature_ids": [
+   "3105-H36-B01",
+   "3105-H36-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M14",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M14",
+  "review_bbox": [
+   278950.0,
+   6562930.0,
+   279250.0,
+   6563230.0
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Koblet mot kommunefoto side 36: lang pir på østsiden nord for Nøtsund. Fellesanlegg og 34 faste plasser dokumentert i 2013.",
+  "feature_ids": [
+   "3105-H38-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M15",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M15",
+  "review_bbox": [
+   278530.0,
+   6562210.0,
+   278930.0,
+   6562610.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Supplerende lokalisering av Bukkenes; de samme bryggene vurdert i komplett ramme M17.",
+  "note": "",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M16",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M16",
+  "review_bbox": [
+   278225,
+   6562405,
+   278675,
+   6562855
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Detaljramme Bukkholmen; inkludert via C028.",
+  "note": "",
+  "feature_ids": [
+   "3105-H09-B01",
+   "3105-H09-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M17",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M17",
+  "review_bbox": [
+   278500,
+   6562430,
+   278920,
+   6562850
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Rapporten omtaler fellesanlegg/sameie, men presiserer at spørreskjema ikke er besvart og beregninger/antagelser ikke verifisert. Tre historiske båtplassbrygger beholder usikker klasse, ikke aggregert med andre hyttebrygger.",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M18",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M18",
+  "review_bbox": [
+   281730.0,
+   6567130.0,
+   282130.0,
+   6567530.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme for Bryggen båthavn, sikkert koblet til rapportfoto side 56.",
+  "note": "",
+  "feature_ids": [
+   "3105-H12-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M19",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M19",
+  "review_bbox": [
+   279710.0,
+   6567580.0,
+   280130.0,
+   6568000.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H05-B01",
+   "3105-H05-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M20",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M20",
+  "review_bbox": [
+   278740.0,
+   6563240.0,
+   279160.0,
+   6563660.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "note": "",
+  "feature_ids": [
+   "3105-H08-B01",
+   "3105-H08-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "M21",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-M21",
+  "review_bbox": [
+   282590,
+   6562250,
+   282850,
+   6562510
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Detaljramme for separat østre bryggegruppe, inkludert gjennom M13E.",
+  "note": "",
+  "feature_ids": [
+   "3105-H37-B01",
+   "3105-H37-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02A",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02A",
+  "review_bbox": [
+   281340.0,
+   6559250.0,
+   281840.0,
+   6559750.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02B",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02B",
+  "review_bbox": [
+   282579.0,
+   6561021.0,
+   283079.0,
+   6561521.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U03",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U03",
+  "review_bbox": [
+   279500.0,
+   6562330.0,
+   280100.0,
+   6562930.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U04",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U04",
+  "review_bbox": [
+   278885.0,
+   6562975.0,
+   279535.0,
+   6563625.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U05",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U05",
+  "review_bbox": [
+   279970.0,
+   6563060.0,
+   280320.0,
+   6563410.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U06",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U06",
+  "review_bbox": [
+   280000.0,
+   6567259.0,
+   280550.0,
+   6567809.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02C",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02C",
+  "review_bbox": [
+   281275.0,
+   6559625.0,
+   281725.0,
+   6560075.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02D",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02D",
+  "review_bbox": [
+   282425.0,
+   6561275.0,
+   282875.0,
+   6561725.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U03B",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U03B",
+  "review_bbox": [
+   279550.0,
+   6562230.0,
+   279950.0,
+   6562630.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Stedfestet kontrollramme for brukerinnspill; se relaterte sjøpolygoner.",
+  "note": "",
+  "feature_ids": [
+   "3105-H42-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U04B",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U04B",
+  "review_bbox": [
+   279375.0,
+   6563305.0,
+   279725.0,
+   6563655.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Stedfestet kontrollramme for brukerinnspill; se relaterte sjøpolygoner.",
+  "note": "",
+  "feature_ids": [
+   "3105-H43-B01",
+   "3105-H43-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U05B",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U05B",
+  "review_bbox": [
+   279575.0,
+   6563190.0,
+   280025.0,
+   6563640.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Stedfestet kontrollramme for brukerinnspill; se relaterte sjøpolygoner.",
+  "note": "",
+  "feature_ids": [
+   "3105-H44-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U06B",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U06B",
+  "review_bbox": [
+   279800.0,
+   6568150.0,
+   280500.0,
+   6568850.0
+  ],
+  "decision": "utelatt",
+  "reason": "Søke-/lokaliseringsramme for brukerinnspill. Ikke et selvstendig havnefunn.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02E",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02E",
+  "review_bbox": [
+   281655.0,
+   6559735.0,
+   282005.0,
+   6560085.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Stedfestet kontrollramme for brukerinnspill; se relaterte sjøpolygoner.",
+  "note": "",
+  "feature_ids": [
+   "3105-H40-B01",
+   "3105-H41-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U06C",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U06C",
+  "review_bbox": [
+   280180.0,
+   6567700.0,
+   280680.0,
+   6568200.0
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Stedfestet kontrollramme for brukerinnspill; se relaterte sjøpolygoner.",
+  "note": "",
+  "feature_ids": [
+   "3105-H45-B01",
+   "3105-H46-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "U02F",
+  "kind": "bildefunn_eller_kontrollramme",
+  "osm_ids": [],
+  "image_id": "detail-U02F",
+  "review_bbox": [
+   281775,
+   6559960,
+   281995,
+   6560180
+  ],
+  "decision": "dekket_av_annen_kandidat",
+  "reason": "Detaljramme for nordre Øketangen-pir; U02N.",
+  "note": "",
+  "feature_ids": [
+   "3105-H40-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S01",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Ørebekkenga; rapport side 18",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H04-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S02",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Revebukta; rapport side 20",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H21-B01",
+   "3105-H21-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S03",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Helle; rapport side 23",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H22-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S04",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Bukkholmen; rapport side 26",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H09-B01",
+   "3105-H09-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S05",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Liktangen; rapport side 28",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H27-B01",
+   "3105-H27-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S06",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Bukkenes; rapport side 31",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H39-B01",
+   "3105-H39-B02",
+   "3105-H39-B03"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S07",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Nøtsund; rapport side 34",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H26-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S08",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Vestjordets båtforening; rapport side 37",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H38-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S09",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Holmestrand; rapport side 39",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H08-B01",
+   "3105-H08-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S10",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Olseng marina; rapport side 42",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H07-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S11",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Merrapanna; rapport side 45",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H06-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S12",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Skar; rapport side 47",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H15-B01",
+   "3105-H15-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S13",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Ravneng marina; rapport side 50",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H14-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S14",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Skjebergkilens marina; rapport side 52",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H33-B01",
+   "3105-H33-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S15",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Falkensten båthavn; rapport side 54",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H05-B01",
+   "3105-H05-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S16",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Bryggen båthavn; rapport side 57",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H12-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S17",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Walberg marina; rapport side 60",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H34-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S18",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Sarpsborg båtforening; rapport side 62",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H35-B01",
+   "3105-H35-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S19",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Græsdal; rapport side 64",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H23-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S20",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Løkkevika; rapport side 66",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H16-B01",
+   "3105-H16-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S21",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Knarrvika; rapport side 68",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H24-B01",
+   "3105-H25-B01",
+   "3105-H25-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S22",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Seilerbakken; rapport side 71",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H25-B01",
+   "3105-H25-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S23",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Bussevika; rapport side 74",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H31-B01",
+   "3105-H32-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S24",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Grimsøy marina; rapport side 76",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H36-B01",
+   "3105-H36-B02"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S25",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Dusebukta; rapport side 79",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H28-B01",
+   "3105-H29-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S26",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Bauen; rapport side 81",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H18-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S27",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Kålvika; rapport side 84",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H19-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S28",
+  "kind": "kommunal_kildekandidat",
+  "osm_ids": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "stedfestet_og_vurdert",
+  "reason": "Ingerøy; rapport side 86",
+  "note": "Historisk område kan omfatte flere fysiske anlegg eller småbrygger som er utelatt etter dagens prosjektregel. Kapasitet er ikke nåtidsmåling.",
+  "feature_ids": [
+   "3105-H30-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ }
+]

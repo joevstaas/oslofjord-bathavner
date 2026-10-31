@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-10-31T14:47:33.454542+00:00",
+  "started_unix": 1793458053.454664,
+  "municipality": "Sarpsborg",
+  "code": "3105",
+  "revision": 1,
+  "method_version": "1.2",
+  "schema_version": "1.1",
+  "approved_baseline_sha256": {
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "04b8075866a55c5cbdd40d48fde21f6e748bad4d5bbfb62b062a8177696e47fe",
+    "data/samlet/samlet-manifest.json": "42a15ed04a37bc56a0c1c2f7179672363fa47050370fcc28869079f97d7a1b36"
+  }
+}

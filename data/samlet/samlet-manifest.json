@@ -185,20 +185,30 @@
    "delivery_status": "godkjent_av_bruker",
    "method_version": "1.2",
    "schema_version": "1.1"
+  },
+  {
+   "name": "Sarpsborg",
+   "kommunenummer": "3105",
+   "features": 62,
+   "harbours": 46,
+   "revision": 2,
+   "delivery_status": "godkjent_av_bruker",
+   "method_version": "1.2",
+   "schema_version": "1.1"
   }
  ],
- "features": 630,
+ "features": 692,
  "classification_counts": {
   "kart_og_kilde": 22,
   "ma_avklares": 8,
-  "smabathavn": 477,
-  "mulig_smabathavn": 123
+  "smabathavn": 519,
+  "mulig_smabathavn": 143
  },
  "all_geometries_valid": true,
  "unique_ids": true,
  "crs": "WGS84 / EPSG:4326; longitude, latitude",
  "scope": "Kun godkjente kommuneleveranser. Ikke alle Oslofjordkommuner er kartlagt. Godkjenning fjerner ikke klassifiserings- og geometriusikkerhet.",
- "method_note": "Holmestrand/Horten: eldre kartbaserte piloter. Tønsberg: godkjent revisjon 2 med Esri-kontroll. Klassifiseringsfelt er ikke fullt harmonisert. Færder: godkjent revisjon 2, 31 anlegg / 35 polygoner; kjente usikkerheter beholdt. Sandefjord: godkjent revisjon 1, 65 anlegg / 67 polygoner, metode/skjema 1.1; kjente usikkerheter beholdt. Larvik: godkjent revisjon 1, 23 anlegg / 32 polygoner; 15 usikre avgrensninger og uavklarte kandidater beholdt. Moss: godkjent revisjon 1, 22 anlegg / 26 polygoner; én mulig havn, 15 usikre avgrensninger og åpne kildekandidater beholdt. Råde: godkjent revisjon 1, 11 anlegg / 11 polygoner; 4 mulige havner, 7 usikre avgrensninger, Saltholmen klippet ved grensen mot Fredrikstad; kjente usikkerheter beholdt. Fredrikstad: godkjent revisjon 1, metode 1.2 (OSM-pir-baserte utkast med visuell vurdering), 61 anlegg / 69 polygoner; 18 mulige havner, 56 usikre avgrensninger, svakt bildegrunnlag i sørøst; kjente usikkerheter beholdt. Batch Bærum/Asker/Lier/Drammen/Oslo: godkjent samlet som revisjon 1, metode 1.2; Bærum 42/49, Asker 53/60, Lier 2/2, Drammen 17/19, Oslo 32/36 anlegg/polygoner; grenseanlegg klippet med cross_municipality_group_id; åpne kandidater i neighbour-pending beholdt. Nordre Follo rev-01 godkjent: 2 polygoner, én saltvannshavn og én mulig ferskvannshavn; Ljansbruket koblet til Oslo med X-HVERVEN-0301-3207. 350 plasser gjelder hele grenseanlegget og skal ikke dobbelttelles. Nesodden rev-01 godkjent: 11 anleggsgrupper / 11 polygoner, inkludert 3 mulige og 5 usikre avgrensninger. Bomansvik og øvrige avklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Frogn rev-01 godkjent: 18 anleggsgrupper / 24 polygoner, inkludert én mulig og 10 usikre avgrensninger. Solbukta, operatørgrenser og øvrige avklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Vestby rev-01 godkjent: 8 anleggsgrupper / 9 polygoner, inkludert 3 mulige og 9 avgrensninger med kontrollbehov. Kapasitetsavvik, Hølenselva og operatøravklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Hvaler rev-01 godkjent: 66 foreløpige anleggsgrupper / 69 polygoner, inkludert 20 mulige og 68 avgrensninger med kontrollbehov. Sju åpne kildeavklaringer, ukjent bildeopptaksdato og operatøravklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Bamble rev-02 godkjent etter detaljgjennomgang: 53 anleggsgrupper / 59 polygoner, inkludert 13 mulige og 33 usikre avgrensninger. Skydekte kontrollhull ved industrikysten, ukjent bildedato/drift og åpne avklaringer beholdes. Kapasitetstall er kildeopplysninger, ikke målinger.",
+ "method_note": "Holmestrand/Horten: eldre kartbaserte piloter. Tønsberg: godkjent revisjon 2 med Esri-kontroll. Klassifiseringsfelt er ikke fullt harmonisert. Færder: godkjent revisjon 2, 31 anlegg / 35 polygoner; kjente usikkerheter beholdt. Sandefjord: godkjent revisjon 1, 65 anlegg / 67 polygoner, metode/skjema 1.1; kjente usikkerheter beholdt. Larvik: godkjent revisjon 1, 23 anlegg / 32 polygoner; 15 usikre avgrensninger og uavklarte kandidater beholdt. Moss: godkjent revisjon 1, 22 anlegg / 26 polygoner; én mulig havn, 15 usikre avgrensninger og åpne kildekandidater beholdt. Råde: godkjent revisjon 1, 11 anlegg / 11 polygoner; 4 mulige havner, 7 usikre avgrensninger, Saltholmen klippet ved grensen mot Fredrikstad; kjente usikkerheter beholdt. Fredrikstad: godkjent revisjon 1, metode 1.2 (OSM-pir-baserte utkast med visuell vurdering), 61 anlegg / 69 polygoner; 18 mulige havner, 56 usikre avgrensninger, svakt bildegrunnlag i sørøst; kjente usikkerheter beholdt. Batch Bærum/Asker/Lier/Drammen/Oslo: godkjent samlet som revisjon 1, metode 1.2; Bærum 42/49, Asker 53/60, Lier 2/2, Drammen 17/19, Oslo 32/36 anlegg/polygoner; grenseanlegg klippet med cross_municipality_group_id; åpne kandidater i neighbour-pending beholdt. Nordre Follo rev-01 godkjent: 2 polygoner, én saltvannshavn og én mulig ferskvannshavn; Ljansbruket koblet til Oslo med X-HVERVEN-0301-3207. 350 plasser gjelder hele grenseanlegget og skal ikke dobbelttelles. Nesodden rev-01 godkjent: 11 anleggsgrupper / 11 polygoner, inkludert 3 mulige og 5 usikre avgrensninger. Bomansvik og øvrige avklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Frogn rev-01 godkjent: 18 anleggsgrupper / 24 polygoner, inkludert én mulig og 10 usikre avgrensninger. Solbukta, operatørgrenser og øvrige avklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Vestby rev-01 godkjent: 8 anleggsgrupper / 9 polygoner, inkludert 3 mulige og 9 avgrensninger med kontrollbehov. Kapasitetsavvik, Hølenselva og operatøravklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Hvaler rev-01 godkjent: 66 foreløpige anleggsgrupper / 69 polygoner, inkludert 20 mulige og 68 avgrensninger med kontrollbehov. Sju åpne kildeavklaringer, ukjent bildeopptaksdato og operatøravklaringer beholdes. Plasstall er kildeopplysninger, ikke målinger. Bamble rev-02 godkjent etter detaljgjennomgang: 53 anleggsgrupper / 59 polygoner, inkludert 13 mulige og 33 usikre avgrensninger. Skydekte kontrollhull ved industrikysten, ukjent bildedato/drift og åpne avklaringer beholdes. Kapasitetstall er kildeopplysninger, ikke målinger. Sarpsborg rev-02 godkjent etter seks brukerinnspill: 46 anleggsgrupper / 62 polygoner, inkludert 16 mulige og 61 usikre avgrensninger. Ukjent bildedato/drift, seilforeningens 2025-utvidelse og elleve åpne avklaringer beholdes. Kapasitetstall er kildeopplysninger, ikke målinger.",
  "excluded": "Ikke godkjent suppleringsfunn Våle båthavn i Holmestrand er ikke inkludert.",
  "methodology": "METODIKK.md",
  "methodology_version": "1.2",

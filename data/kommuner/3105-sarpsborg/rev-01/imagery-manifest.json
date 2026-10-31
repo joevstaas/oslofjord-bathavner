@@ -1,0 +1,3437 @@
+[
+ {
+  "id": "coast-274500-6567000",
+  "bbox": [
+   274400.0,
+   6566900.0,
+   276100.0,
+   6568600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   274400.0,
+   6566900.0,
+   276100.0,
+   6568600.0
+  ],
+  "actual_bbox": [
+   274400.0,
+   6566900.0,
+   276100.0,
+   6568600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1229999.0122490788%2C8219635.719071476%2C1233498.51717817%2C8223141.4113912815&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbb4d8da9877a42e8b359e047ed471cd8.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:20.973048+00:00",
+  "source_observation_date": null,
+  "sha256": "07c60904158333166a8cc2db123404b67f7b30caa4acdad45eef2fba1fc31bf3",
+  "source_image": "raw/coast-274500-6567000-native3857.jpg",
+  "source_image_sha256": "386a883ee45641726f1254362cea1aa3f6fbc2c21b3b402ed75f1b27be525962",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1229995.9185537216,
+   "ymin": 8219635.719071475,
+   "xmax": 1233501.6108735274,
+   "ymax": 8223141.411391281,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-274500-6568500",
+  "bbox": [
+   274400.0,
+   6568400.0,
+   276100.0,
+   6570100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   274400.0,
+   6568400.0,
+   276100.0,
+   6570100.0
+  ],
+  "actual_bbox": [
+   274400.0,
+   6568400.0,
+   276100.0,
+   6570100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1229825.948740898%2C8222556.259037146%2C1233326.9260990147%2C8226063.42152067&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2e1ccffc197d4406a111e5ea26f7fa74.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:40.293549+00:00",
+  "source_observation_date": null,
+  "sha256": "53daf418a7d34285c05f39e4bf514cfc4ac628af988735b91ccac357d0dc06ed",
+  "source_image": "raw/coast-274500-6568500-native3857.jpg",
+  "source_image_sha256": "b3c4a656c45c7b9d2d40bf67192b1f103908f433046c93aea5bb58e845e2d259",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1229822.856178195,
+   "ymin": 8222556.259037147,
+   "xmax": 1233330.0186617186,
+   "ymax": 8226063.421520671,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-276000-6564000",
+  "bbox": [
+   275900.0000000001,
+   6563900.000000002,
+   277600.0000000001,
+   6565600.000000002
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=275900.0%2C6563900.0%2C277600.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapfb90a28ddd3f4b5194aec1364b3bed70.jpg",
+  "requested_bbox": [
+   275900.0,
+   6563900.0,
+   277600.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   275900.0000000001,
+   6563900.000000002,
+   277600.0000000001,
+   6565600.000000002
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:46+00:00",
+  "source_observation_date": null,
+  "sha256": "db5b2dc6e70339d5ef79b2b1a28faa1a0e1dffde18d3e12cb264d369492d4d21",
+  "elapsed_seconds": 29.64,
+  "bytes": 1374381
+ },
+ {
+  "id": "coast-276000-6565500",
+  "bbox": [
+   275900.0,
+   6565400.0,
+   277600.0,
+   6567100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   275900.0,
+   6565400.0,
+   277600.0,
+   6567100.0
+  ],
+  "actual_bbox": [
+   275900.0,
+   6565400.0,
+   277600.0,
+   6567100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1233086.9625975084%2C8216888.693913458%2C1236583.886216244%2C8220391.804936458&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapaa27d604bc984f948404c2f6188bb39d.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:15.768087+00:00",
+  "source_observation_date": null,
+  "sha256": "5f7f9429d140fd4fc476c77015de2463c03606978665b2d1f67a394994ed5c02",
+  "source_image": "raw/coast-276000-6565500-native3857.jpg",
+  "source_image_sha256": "6dd7ea05194f9c555922777c5fc45fc2ae88e4aa5afea52221196addda9ab46a",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1233083.8688953756,
+   "ymin": 8216888.693913458,
+   "xmax": 1236586.979918376,
+   "ymax": 8220391.804936458,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-276000-6567000",
+  "bbox": [
+   275900.0,
+   6566900.0,
+   277600.0,
+   6568600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   275900.0,
+   6566900.0,
+   277600.0,
+   6568600.0
+  ],
+  "actual_bbox": [
+   275900.0,
+   6566900.0,
+   277600.0,
+   6568600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232915.198430863%2C8219808.256630277%2C1236413.5921086941%2C8223312.835447067&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa140e13f9f8e49b9b8f3a220538502d4.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:25.397885+00:00",
+  "source_observation_date": null,
+  "sha256": "83db09a5d436bc9680f90581006e4739a0c9c14aa9df0d3d97ccd3f050b7e36d",
+  "source_image": "raw/coast-276000-6567000-native3857.jpg",
+  "source_image_sha256": "7130e3013dd538edc453b393bc812376e3814ac48f8002479fc230832a06ac4e",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232912.1058613835,
+   "ymin": 8219808.25663028,
+   "xmax": 1236416.6846781736,
+   "ymax": 8223312.83544707,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-276000-6568500",
+  "bbox": [
+   275900.0,
+   6568400.0,
+   277600.0,
+   6570100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   275900.0,
+   6568400.0,
+   277600.0,
+   6570100.0
+  ],
+  "actual_bbox": [
+   275900.0,
+   6568400.0,
+   277600.0,
+   6570100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232743.2752578605%2C8222728.956036851%2C1236243.1404121665%2C8226235.004064475&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapd199865e549b40be8698adc95928d650.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:39.565766+00:00",
+  "source_observation_date": null,
+  "sha256": "71b22502daf284b4307baa429868183f58dda2b95ead10b261e2e8e38aef091b",
+  "source_image": "raw/coast-276000-6568500-native3857.jpg",
+  "source_image_sha256": "5ad0d5ab5fad9c4541354255a47cd2cd32624fc6b516791fae58463fad3f4808",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232740.1838212013,
+   "ymin": 8222728.956036849,
+   "xmax": 1236246.2318488257,
+   "ymax": 8226235.004064473,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-277500-6559500",
+  "bbox": [
+   277400,
+   6559400.000000001,
+   279100,
+   6561100.000000001
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=277400.0%2C6559400.0%2C279100.0%2C6561100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4fdfd0378c1d4a4aa52642d80c60d2c3.jpg",
+  "requested_bbox": [
+   277400.0,
+   6559400.0,
+   279100.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   277400,
+   6559400.000000001,
+   279100,
+   6561100.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:52:11+00:00",
+  "source_observation_date": null,
+  "sha256": "71bfa9b236a268401542f1106b02c6b868fbc101687b5f0eef5b2c35d9ff570a",
+  "elapsed_seconds": 24.19,
+  "bytes": 1486017
+ },
+ {
+  "id": "coast-277500-6561000",
+  "bbox": [
+   277400,
+   6560899.999999999,
+   279100,
+   6562599.999999999
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=277400.0%2C6560900.0%2C279100.0%2C6562600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape08d476d6fab4af1bcfab675297b869c.jpg",
+  "requested_bbox": [
+   277400.0,
+   6560900.0,
+   279100.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   277400,
+   6560899.999999999,
+   279100,
+   6562599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:11+00:00",
+  "source_observation_date": null,
+  "sha256": "f0d13b47958908a9657b29c6ec6d5cd78b32f02e927a7fc79d47e9290cadb2bd",
+  "elapsed_seconds": 59.1,
+  "bytes": 1634749
+ },
+ {
+  "id": "coast-277500-6562500",
+  "bbox": [
+   277400,
+   6562400,
+   279100,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=277400.0%2C6562400.0%2C279100.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map8b20633c0b434de99486fbad20d15f79.jpg",
+  "requested_bbox": [
+   277400.0,
+   6562400.0,
+   279100.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   277400,
+   6562400,
+   279100,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:23+00:00",
+  "source_observation_date": null,
+  "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c",
+  "elapsed_seconds": 29.79,
+  "bytes": 1823977
+ },
+ {
+  "id": "coast-277500-6564000",
+  "bbox": [
+   277400.0,
+   6563900.0,
+   279100.0,
+   6565600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   277400.0,
+   6563900.0,
+   279100.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   277400.0,
+   6563900.0,
+   279100.0,
+   6565600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1236172.6352072058%2C8214141.347466596%2C1239666.9794192738%2C8217641.87909642&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map40700cb446cc4a51bb763465f8078d3b.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:07.204217+00:00",
+  "source_observation_date": null,
+  "sha256": "03de3dc29dbe3291abfc9de7f5bad26b50f3b1ea97a66c98f8cabed6336329ef",
+  "source_image": "raw/coast-277500-6564000-native3857.jpg",
+  "source_image_sha256": "4ed2cd24830a7c3dacdd6b8d68bb196b45206ed7a1aeb3c92d9af564b5aa67b3",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1236169.541498328,
+   "ymin": 8214141.347466596,
+   "xmax": 1239670.0731281512,
+   "ymax": 8217641.87909642,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-277500-6565500",
+  "bbox": [
+   277400,
+   6565400,
+   279100,
+   6567100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=277400.0%2C6565400.0%2C279100.0%2C6567100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map905b608c48694f618183fc8c3d390a7c.jpg",
+  "requested_bbox": [
+   277400.0,
+   6565400.0,
+   279100.0,
+   6567100.0
+  ],
+  "actual_bbox": [
+   277400,
+   6565400,
+   279100,
+   6567100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:20+00:00",
+  "source_observation_date": null,
+  "sha256": "56db4af467eb43f7225bcdf276e073d9a0227b38c0b1d7087eb56868b5aad63c",
+  "elapsed_seconds": 90.94,
+  "bytes": 1781515
+ },
+ {
+  "id": "coast-279000-6558000",
+  "bbox": [
+   278900,
+   6557900.000000001,
+   280600,
+   6559600.000000001
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=278900.0%2C6557900.0%2C280600.0%2C6559600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map6201848c844244ee9bf2c37fd79051a4.jpg",
+  "requested_bbox": [
+   278900.0,
+   6557900.0,
+   280600.0,
+   6559600.0
+  ],
+  "actual_bbox": [
+   278900,
+   6557900.000000001,
+   280600,
+   6559600.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:52:12+00:00",
+  "source_observation_date": null,
+  "sha256": "74784705026a41d32e10783dbc077e0e5c7ccaf8c43ef56ea1d5b1745889c50c",
+  "elapsed_seconds": 25.66,
+  "bytes": 1685344
+ },
+ {
+  "id": "coast-279000-6559500",
+  "bbox": [
+   278900,
+   6559400.000000001,
+   280600,
+   6561100.000000001
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=278900.0%2C6559400.0%2C280600.0%2C6561100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapd14775df9e484cf0a8797a1a47782b8f.jpg",
+  "requested_bbox": [
+   278900.0,
+   6559400.0,
+   280600.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   278900,
+   6559400.000000001,
+   280600,
+   6561100.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:52:14+00:00",
+  "source_observation_date": null,
+  "sha256": "62b33614a2af4ee0530609895fea4c45a7338f7f0e7aa681677c073ca9097510",
+  "elapsed_seconds": 27.59,
+  "bytes": 1618596
+ },
+ {
+  "id": "coast-279000-6561000",
+  "bbox": [
+   278900,
+   6560899.999999999,
+   280600,
+   6562599.999999999
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=278900.0%2C6560900.0%2C280600.0%2C6562600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map07d2b18bfe9c44309557cd83c49f8d25.jpg",
+  "requested_bbox": [
+   278900.0,
+   6560900.0,
+   280600.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   278900,
+   6560899.999999999,
+   280600,
+   6562599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:44+00:00",
+  "source_observation_date": null,
+  "sha256": "0f22390a742f5c115036f2e34ae3cfaa7bb684256d7f2d406d12c051634aabbc",
+  "elapsed_seconds": 90.1,
+  "bytes": 1595920
+ },
+ {
+  "id": "coast-279000-6562500",
+  "bbox": [
+   278900,
+   6562400,
+   280600,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=278900.0%2C6562400.0%2C280600.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map706123ff80a544988091e9c696a61541.jpg",
+  "requested_bbox": [
+   278900.0,
+   6562400.0,
+   280600.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   278900,
+   6562400,
+   280600,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:56:52+00:00",
+  "source_observation_date": null,
+  "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744",
+  "elapsed_seconds": 118.58,
+  "bytes": 1636642
+ },
+ {
+  "id": "coast-279000-6564000",
+  "bbox": [
+   278900,
+   6563900.000000001,
+   280600,
+   6565600.000000001
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=278900.0%2C6563900.0%2C280600.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map020dd6beb93e49baa186b951e10aa58d.jpg",
+  "requested_bbox": [
+   278900.0,
+   6563900.0,
+   280600.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   278900,
+   6563900.000000001,
+   280600,
+   6565600.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:45+00:00",
+  "source_observation_date": null,
+  "sha256": "5dd984096fe5dbbef5999f2a8cd936b39087e7b4928b378b1925c2c903ab932e",
+  "elapsed_seconds": 22.26,
+  "bytes": 1572591
+ },
+ {
+  "id": "coast-279000-6565500",
+  "bbox": [
+   278900.0,
+   6565400.0,
+   280600.0,
+   6567100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   278900.0,
+   6565400.0,
+   280600.0,
+   6567100.0
+  ],
+  "actual_bbox": [
+   278900.0,
+   6565400.0,
+   280600.0,
+   6567100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1238917.5317396836%2C8217230.031215075%2C1242412.2305135105%2C8220730.912889113&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map120f5fd66c2c4611a4d91d68ceb8c874.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:15.476868+00:00",
+  "source_observation_date": null,
+  "sha256": "ed59f3ac696a46632802f7346abaffad4c107fe49f5659b42ab9b7a16befac42",
+  "source_image": "raw/coast-279000-6565500-native3857.jpg",
+  "source_image_sha256": "2fffc56973c3be6c3c3407b47322994c11d322c2f0f0c7880b862f3b4bb79260",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1238914.4402895789,
+   "ymin": 8217230.031215079,
+   "xmax": 1242415.3219636162,
+   "ymax": 8220730.912889116,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-279000-6567000",
+  "bbox": [
+   278900.0,
+   6566900.0,
+   280600.0,
+   6568600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   278900.0,
+   6566900.0,
+   280600.0,
+   6568600.0
+  ],
+  "actual_bbox": [
+   278900.0,
+   6566900.0,
+   280600.0,
+   6568600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1238748.046766855%2C8220149.909267975%2C1242244.213691142%2C8223652.256826492&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map13e5d5fc71b34039b66a4229787f3164.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:24.370412+00:00",
+  "source_observation_date": null,
+  "sha256": "f8364e1aec855f8965ae6a6e6d0095f23a294b3d2a32a335546d572c6eaa1d14",
+  "source_image": "raw/coast-279000-6567000-native3857.jpg",
+  "source_image_sha256": "0b2c139d5675bc172803c04b2c9bc8c6d4956090b7672405b001047c1c18413a",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1238744.9564497399,
+   "ymin": 8220149.909267975,
+   "xmax": 1242247.3040082569,
+   "ymax": 8223652.256826492,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-279000-6568500",
+  "bbox": [
+   278900.0,
+   6568400.0,
+   280600.0,
+   6570100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   278900.0,
+   6568400.0,
+   280600.0,
+   6570100.0
+  ],
+  "actual_bbox": [
+   278900.0,
+   6568400.0,
+   280600.0,
+   6570100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1238578.4048809665%2C8223070.92441882%2C1242076.0413708626%2C8226574.739276631&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapff18895bb71f437d980642cd28d022dd.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:55.452259+00:00",
+  "source_observation_date": null,
+  "sha256": "53713d8037015175bc45b825c829d91f9eb8fa327682d0e8bd582a8caff93bb4",
+  "source_image": "raw/coast-279000-6568500-native3857.jpg",
+  "source_image_sha256": "c0875be10ece8d68475bb521edc1d0745dbd2a8f24b537b9c653951f8717ea62",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1238575.3156970092,
+   "ymin": 8223070.924418821,
+   "xmax": 1242079.13055482,
+   "ymax": 8226574.739276632,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-280500-6556500",
+  "bbox": [
+   280400,
+   6556400.000000002,
+   282100,
+   6558100.000000002
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=280400.0%2C6556400.0%2C282100.0%2C6558100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf0fdac89b6484ba4943476d46755cbbc.jpg",
+  "requested_bbox": [
+   280400.0,
+   6556400.0,
+   282100.0,
+   6558100.0
+  ],
+  "actual_bbox": [
+   280400,
+   6556400.000000002,
+   282100,
+   6558100.000000002
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:52:12+00:00",
+  "source_observation_date": null,
+  "sha256": "4a1411837ad2d63634baf70e3d25242bd1bcce5d2a858fc7bfd8718371cb839d",
+  "elapsed_seconds": 24.87,
+  "bytes": 1013075
+ },
+ {
+  "id": "coast-280500-6558000",
+  "bbox": [
+   280400.0,
+   6557900.0,
+   282100.0,
+   6559600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   280400.0,
+   6557900.0,
+   282100.0,
+   6559600.0
+  ],
+  "actual_bbox": [
+   280400.0,
+   6557900.0,
+   282100.0,
+   6559600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1242672.4463098932%2C8202815.841993612%2C1246158.7157180854%2C8206308.303375976&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb121cb989c8445a684c72b7f825f180c.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:55.185020+00:00",
+  "source_observation_date": null,
+  "sha256": "3277ec41b9fc5ac6660b5a4580df2208304a6eceb8ff0346dd9ec116eebb2be5",
+  "source_image": "raw/coast-280500-6558000-native3857.jpg",
+  "source_image_sha256": "2cb6bdb06049938615954dc71bfe9673ec52409760553fa35cd215a4b6c22ae2",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1242669.3503228072,
+   "ymin": 8202815.841993616,
+   "xmax": 1246161.8117051711,
+   "ymax": 8206308.30337598,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-280500-6559500",
+  "bbox": [
+   280400.0,
+   6559400.0,
+   282100.0,
+   6561100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   280400.0,
+   6559400.0,
+   282100.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   280400.0,
+   6559400.0,
+   282100.0,
+   6561100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1242504.8775506613%2C8205730.20529363%2C1245992.6071106156%2C8209224.1245631&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5bdce7eb95324440bcb72e5f876250d7.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:56.908516+00:00",
+  "source_observation_date": null,
+  "sha256": "47a18eac0228066b82837d2ceff1ab7575f7dc5bb166cfe369e7b890075c1b63",
+  "source_image": "raw/coast-280500-6559500-native3857.jpg",
+  "source_image_sha256": "e42a73e741e1ce04b20be7cf21710e6cd6454e3fde0617ba672692979807d1bd",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1242501.7826959037,
+   "ymin": 8205730.205293631,
+   "xmax": 1245995.7019653732,
+   "ymax": 8209224.124563101,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-280500-6561000",
+  "bbox": [
+   280400,
+   6560899.999999999,
+   282100,
+   6562599.999999999
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=280400.0%2C6560900.0%2C282100.0%2C6562600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0f2e007f63964bc48d47238c3b2d24f0.jpg",
+  "requested_bbox": [
+   280400.0,
+   6560900.0,
+   282100.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   280400,
+   6560899.999999999,
+   282100,
+   6562599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:39+00:00",
+  "source_observation_date": null,
+  "sha256": "1b5f211beb546e5146b5c75c48db520016239e23c27a01eb20ab0fb8895dec5a",
+  "elapsed_seconds": 27.58,
+  "bytes": 1550693
+ },
+ {
+  "id": "coast-280500-6562500",
+  "bbox": [
+   280400,
+   6562400,
+   282100,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=280400.0%2C6562400.0%2C282100.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map28d1f5dd87ea47e8bf26297d2defa264.jpg",
+  "requested_bbox": [
+   280400.0,
+   6562400.0,
+   282100.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   280400,
+   6562400,
+   282100,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:17+00:00",
+  "source_observation_date": null,
+  "sha256": "893b0edd85ebd9cb36323707d74df3fd7990b49afedf2776cdb62fac91a5da1e",
+  "elapsed_seconds": 23.43,
+  "bytes": 1531595
+ },
+ {
+  "id": "coast-280500-6564000",
+  "bbox": [
+   280400.0,
+   6563900.0,
+   282100.0,
+   6565600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   280400.0,
+   6563900.0,
+   282100.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   280400.0,
+   6563900.0,
+   282100.0,
+   6565600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1242001.2413050537%2C8214480.091886686%2C1245493.3597548653%2C8217978.393250057&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map36b45b057bd44514ab409466a8856c69.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:13.609741+00:00",
+  "source_observation_date": null,
+  "sha256": "c06610f3a60b4d63b2e73e9aa7828fda7ce5cbbcb972af775e6335375680bfd9",
+  "source_image": "raw/coast-280500-6564000-native3857.jpg",
+  "source_image_sha256": "b68878bfc13509b755b3c690a94bb4a67a9319a2bdcab5919c76cb0ae10699b5",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1241998.1498482744,
+   "ymin": 8214480.091886686,
+   "xmax": 1245496.4512116448,
+   "ymax": 8217978.393250057,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-280500-6565500",
+  "bbox": [
+   280400,
+   6565400,
+   282100,
+   6567100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=280400.0%2C6565400.0%2C282100.0%2C6567100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map446d7989f2e64711b0696607ef13a1fa.jpg",
+  "requested_bbox": [
+   280400.0,
+   6565400.0,
+   282100.0,
+   6567100.0
+  ],
+  "actual_bbox": [
+   280400,
+   6565400,
+   282100,
+   6567100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:02+00:00",
+  "source_observation_date": null,
+  "sha256": "1db808121bdcea52cd5e256cfc7b78f4fd49835b98b8434fdfbc223d7145f4f7",
+  "elapsed_seconds": 59.4,
+  "bytes": 986810
+ },
+ {
+  "id": "coast-280500-6567000",
+  "bbox": [
+   280400.0,
+   6566900.0,
+   282100.0,
+   6568600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   280400.0,
+   6566900.0,
+   282100.0,
+   6568600.0
+  ],
+  "actual_bbox": [
+   280400.0,
+   6566900.0,
+   282100.0,
+   6568600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1241664.706827765%2C8220319.023938485%2C1245159.758251999%2C8223820.253743971&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapaec98a97e0974f4d8bc4ed2806f4f92c.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:31.734899+00:00",
+  "source_observation_date": null,
+  "sha256": "b9ef4690c2659d6eb581938c68dd65defacf3a0aa38b27a8153abb4c8b1b9932",
+  "source_image": "raw/coast-280500-6567000-native3857.jpg",
+  "source_image_sha256": "3c64cd1960fa45aa5e16cfe31e7b1c3b208dbecadc3487ef0c5ba27311757e15",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1241661.6176371393,
+   "ymin": 8220319.023938486,
+   "xmax": 1245162.8474426246,
+   "ymax": 8223820.253743972,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-282000-6558000",
+  "bbox": [
+   281900.0,
+   6557900.0,
+   283600.0,
+   6559600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   281900.0,
+   6557900.0,
+   283600.0,
+   6559600.0
+  ],
+  "actual_bbox": [
+   281900.0,
+   6557900.0,
+   283600.0,
+   6559600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245582.4372803892%2C8202982.88796355%2C1249067.5955123324%2C8206474.235918307&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map357748cb9be44aa88b372f15bb65af75.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:56.719240+00:00",
+  "source_observation_date": null,
+  "sha256": "054436ace234e17e8895f0664797071bf945494ab6f65b8b3d048507bea85eaa",
+  "source_image": "raw/coast-282000-6558000-native3857.jpg",
+  "source_image_sha256": "d012a493304d3d4c05d579d19ddc0a0b2605f3518996d50360eaa0d00cb7ee3e",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245579.3424189826,
+   "ymin": 8202982.88796355,
+   "xmax": 1249070.6903737392,
+   "ymax": 8206474.235918307,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-282000-6559500",
+  "bbox": [
+   281900.00000000006,
+   6559400.000000001,
+   283600.00000000006,
+   6561100.000000001
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=281900.0%2C6559400.0%2C283600.0%2C6561100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map20d5e7cf14dd4ce69bcb069b1f346921.jpg",
+  "requested_bbox": [
+   281900.0,
+   6559400.0,
+   283600.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   281900.00000000006,
+   6559400.000000001,
+   283600.00000000006,
+   6561100.000000001
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:37+00:00",
+  "source_observation_date": null,
+  "sha256": "8ac546f15cae53195e58a44b08fd00fcd97bbf5fded82d5b248fa3b20be684a7",
+  "elapsed_seconds": 86.08,
+  "bytes": 1618025
+ },
+ {
+  "id": "coast-282000-6561000",
+  "bbox": [
+   281900.0,
+   6560900.0,
+   283600.0,
+   6562600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   281900.0,
+   6560900.0,
+   283600.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   281900.0,
+   6560900.0,
+   283600.0,
+   6562600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245249.4157139466%2C8208813.054964682%2C1248737.4937457708%2C8212307.318189006&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7d213d8336444e4583a5820b0bbba502.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:05.864218+00:00",
+  "source_observation_date": null,
+  "sha256": "bbe428b318fd61b1cbdaeb6437947bad92098c59d503aad2ac7cf2b2d4aac24a",
+  "source_image": "raw/coast-282000-6561000-native3857.jpg",
+  "source_image_sha256": "f02d9376473cda2f285df92d53a4a3df34e97da4ae3b14d899560299e3cd6aba",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245246.3231176971,
+   "ymin": 8208813.054964684,
+   "xmax": 1248740.5863420214,
+   "ymax": 8212307.318189008,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-282000-6562500",
+  "bbox": [
+   281900.00000000006,
+   6562400,
+   283600.00000000006,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=281900.0%2C6562400.0%2C283600.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape54b63362288474f90f8d03153f5db20.jpg",
+  "requested_bbox": [
+   281900.0,
+   6562400.0,
+   283600.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   281900.00000000006,
+   6562400,
+   283600.00000000006,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:56:24+00:00",
+  "source_observation_date": null,
+  "sha256": "ac77e9aebc870da889c309a40fd16fa10d3dab10a08969b344ac7f37bd081676",
+  "elapsed_seconds": 90.54,
+  "bytes": 1537879
+ },
+ {
+  "id": "coast-282000-6565500",
+  "bbox": [
+   281900.00000000006,
+   6565400,
+   283600.00000000006,
+   6567100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=281900.0%2C6565400.0%2C283600.0%2C6567100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc62b53b961d64cc19f32e1a1a44c5769.jpg",
+  "requested_bbox": [
+   281900.0,
+   6565400.0,
+   283600.0,
+   6567100.0
+  ],
+  "actual_bbox": [
+   281900.00000000006,
+   6565400,
+   283600.00000000006,
+   6567100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:32+00:00",
+  "source_observation_date": null,
+  "sha256": "e83790f2a67f2da33577b6237c122ff4bd7b4d67131ea9186fcbc3dbc61f4728",
+  "elapsed_seconds": 30.24,
+  "bytes": 1540178
+ },
+ {
+  "id": "coast-282000-6567000",
+  "bbox": [
+   281900.0,
+   6566900.0,
+   283600.0,
+   6568600.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   281900.0,
+   6566900.0,
+   283600.0,
+   6568600.0
+  ],
+  "actual_bbox": [
+   281900.0,
+   6566900.0,
+   283600.0,
+   6568600.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1244581.5227544948%2C8220486.997240076%2C1248075.457264648%2C8223987.107878091&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2099c7f5819c4fb5aa00640d28b9295d.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:36.719758+00:00",
+  "source_observation_date": null,
+  "sha256": "2a938ce1ac0e94a3d956b9229ac03dfa8fce06f88da1e0c552cb2eef1959fa93",
+  "source_image": "raw/coast-282000-6567000-native3857.jpg",
+  "source_image_sha256": "bd109d07de224366d80819e10116b6480b2c318ecb8f7c6972ef1cf296568eaa",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1244578.434690564,
+   "ymin": 8220486.997240075,
+   "xmax": 1248078.545328579,
+   "ymax": 8223987.10787809,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-283500-6559500",
+  "bbox": [
+   283400.0,
+   6559400.0,
+   285100.0,
+   6561100.0
+  ],
+  "width": 2320,
+  "height": 2320,
+  "requested_bbox": [
+   283400.0,
+   6559400.0,
+   285100.0,
+   6561100.0
+  ],
+  "actual_bbox": [
+   283400.0,
+   6559400.0,
+   285100.0,
+   6561100.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1248327.2830840833%2C8206063.468992576%2C1251812.7869811384%2C8209555.158095341&bboxSR=3857&imageSR=3857&size=2552%2C2552&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map2f88fd79445b4712927c79350ec7a9de.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:02.741009+00:00",
+  "source_observation_date": null,
+  "sha256": "8fe93a58ba055db1ff1586d5385fd450026e92983322c5055f7d90ca7e649c68",
+  "source_image": "raw/coast-283500-6559500-native3857.jpg",
+  "source_image_sha256": "56e2f777ee7252634effd6040f7fffe0ec0a21d8f4fedb8c49d216fb891daa2f",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1248324.1904812285,
+   "ymin": 8206063.468992576,
+   "xmax": 1251815.8795839937,
+   "ymax": 8209555.158095341,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 2552,
+  "source_height": 2552,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "coast-283500-6561000",
+  "bbox": [
+   283400.00000000006,
+   6560899.999999999,
+   285100.00000000006,
+   6562599.999999999
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=283400.0%2C6560900.0%2C285100.0%2C6562600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map302ddcc0d99d49588e1a6290bc4b1772.jpg",
+  "requested_bbox": [
+   283400.0,
+   6560900.0,
+   285100.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   283400.00000000006,
+   6560899.999999999,
+   285100.00000000006,
+   6562599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:11+00:00",
+  "source_observation_date": null,
+  "sha256": "e9b710e9e2d468f3ef3cf16a4fd75acd46bdb7162a08db308fb659541de0d556",
+  "elapsed_seconds": 91.49,
+  "bytes": 1475856
+ },
+ {
+  "id": "coast-283500-6562500",
+  "bbox": [
+   283400.00000000006,
+   6562400,
+   285100.00000000006,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=283400.0%2C6562400.0%2C285100.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map48bf3d7bb01a41b992f60f73d7da41b9.jpg",
+  "requested_bbox": [
+   283400.0,
+   6562400.0,
+   285100.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   283400.00000000006,
+   6562400,
+   285100.00000000006,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:56:07+00:00",
+  "source_observation_date": null,
+  "sha256": "6869ad777d6c57623bada41aff4e1e079128178e941b7696f037db620c67f212",
+  "elapsed_seconds": 56.83,
+  "bytes": 1568394
+ },
+ {
+  "id": "coast-283500-6564000",
+  "bbox": [
+   283400.00000000006,
+   6563900.000000002,
+   285100.00000000006,
+   6565600.000000002
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=283400.0%2C6563900.0%2C285100.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map7ac1b890d1ea4e338dd2b8b2734d0f0d.jpg",
+  "requested_bbox": [
+   283400.0,
+   6563900.0,
+   285100.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   283400.00000000006,
+   6563900.000000002,
+   285100.00000000006,
+   6565600.000000002
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:57:03+00:00",
+  "source_observation_date": null,
+  "sha256": "f041824ce3fa2e62d2db26ab47d3446ff06bc3e2d25a51d08ee5962553f4dfa6",
+  "elapsed_seconds": 55.25,
+  "bytes": 1526346
+ },
+ {
+  "id": "coast-285000-6561000",
+  "bbox": [
+   284900.00000000006,
+   6560899.999999999,
+   286600.00000000006,
+   6562599.999999999
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=284900.0%2C6560900.0%2C286600.0%2C6562600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapcd57438f50eb487fb54a2cbc32d280b1.jpg",
+  "requested_bbox": [
+   284900.0,
+   6560900.0,
+   286600.0,
+   6562600.0
+  ],
+  "actual_bbox": [
+   284900.00000000006,
+   6560899.999999999,
+   286600.00000000006,
+   6562599.999999999
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:55:17+00:00",
+  "source_observation_date": null,
+  "sha256": "48e609ee04c59875d3b726c3bd557d807c49bca37bdff3c6ff81f204eec18707",
+  "elapsed_seconds": 92.3,
+  "bytes": 1121657
+ },
+ {
+  "id": "coast-285000-6562500",
+  "bbox": [
+   284900.00000000006,
+   6562400,
+   286600.00000000006,
+   6564100
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=284900.0%2C6562400.0%2C286600.0%2C6564100.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map68988de4712e4b3c996042829859d769.jpg",
+  "requested_bbox": [
+   284900.0,
+   6562400.0,
+   286600.0,
+   6564100.0
+  ],
+  "actual_bbox": [
+   284900.00000000006,
+   6562400,
+   286600.00000000006,
+   6564100
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:58:20+00:00",
+  "source_observation_date": null,
+  "sha256": "18f9d44d16ae075a21f0c924b4ae48aac9c58599639f96bda0ceeff3a8be63e3",
+  "elapsed_seconds": 183.72,
+  "bytes": 1454137
+ },
+ {
+  "id": "coast-285000-6564000",
+  "bbox": [
+   284900.00000000006,
+   6563900.000000002,
+   286600.00000000006,
+   6565600.000000002
+  ],
+  "width": 2320,
+  "height": 2320,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=284900.0%2C6563900.0%2C286600.0%2C6565600.0&bboxSR=25833&imageSR=25833&size=2320%2C2320&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9e1cd2962ed346e8b77e46c265126e26.jpg",
+  "requested_bbox": [
+   284900.0,
+   6563900.0,
+   286600.0,
+   6565600.0
+  ],
+  "actual_bbox": [
+   284900.00000000006,
+   6563900.000000002,
+   286600.00000000006,
+   6565600.000000002
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:56:49+00:00",
+  "source_observation_date": null,
+  "sha256": "85314ff2bac29d3726928d9e1cbc188db51c6e475d0221b6a01712e65e4194e5",
+  "elapsed_seconds": 24.98,
+  "bytes": 1737474
+ },
+ {
+  "id": "coast-gap-north",
+  "bbox": [
+   275723.07164891047,
+   6569766.01443139,
+   276723.07164891047,
+   6570766.01443139
+  ],
+  "width": 1400,
+  "height": 1400,
+  "requested_bbox": [
+   275723.07164891047,
+   6569766.01443139,
+   276723.07164891047,
+   6570766.01443139
+  ],
+  "actual_bbox": [
+   275723.07164891047,
+   6569766.01443139,
+   276723.07164891047,
+   6570766.01443139
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232322.7154388214%2C8225369.429833496%2C1234382.276425777%2C8227432.62744598&bboxSR=3857&imageSR=3857&size=1541%2C1541&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0155fa60c272480fa40f5a211402f540.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T15:00:01.189545+00:00",
+  "source_observation_date": null,
+  "sha256": "7745b26c13421331aeafa452eac2ac940de60d346f000e5a7b6ba567eb9be35a",
+  "source_image": "raw/coast-gap-north-native3857.jpg",
+  "source_image_sha256": "9c5b535b3b805bed999caf05e1f765c510a7bf0ff99222476c96677962c9bcb7",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232320.8971260567,
+   "ymin": 8225369.429833495,
+   "xmax": 1234384.0947385407,
+   "ymax": 8227432.627445979,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 1541,
+  "source_height": 1541,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C001",
+  "bbox": [
+   272435.3348583418,
+   6580960.196274621,
+   272735.3348583418,
+   6581260.196274621
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   272435.3348583418,
+   6580960.196274621,
+   272735.3348583418,
+   6581260.196274621
+  ],
+  "actual_bbox": [
+   272435.3348583418,
+   6580960.196274621,
+   272735.3348583418,
+   6581260.196274621
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1224701.3305445125%2C8246826.344380745%2C1225321.563833539%2C8247447.666741327&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc332975d7ca24e25a80389d80da416db.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:40.731993+00:00",
+  "source_observation_date": null,
+  "sha256": "c99e68bc90323383dc8cbba550450560002a56f3f6a3968026839122f939d95f",
+  "source_image": "raw/detail-C001-native3857.jpg",
+  "source_image_sha256": "011f3b886eb819f14a771a2e4ecee04a98a17d413ada930c1a9185cbf68d4cd9",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1224700.7860087343,
+   "ymin": 8246826.344380744,
+   "xmax": 1225322.108369317,
+   "ymax": 8247447.666741326,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C002",
+  "bbox": [
+   275225.22135012597,
+   6576317.0254305545,
+   275525.22135012597,
+   6576617.0254305545
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   275225.22135012597,
+   6576317.0254305545,
+   275525.22135012597,
+   6576617.0254305545
+  ],
+  "actual_bbox": [
+   275225.22135012597,
+   6576317.0254305545,
+   275525.22135012597,
+   6576617.0254305545
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1230679.8517241168%2C8238085.405158018%2C1231298.9084909877%2C8238705.551495267&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5552467a5b1842a8a824f83fff01134f.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:42.275655+00:00",
+  "source_observation_date": null,
+  "sha256": "d6b61c5108194b6b4b8729b6c5a38da8bdc679f396b597538f882f7c19f42440",
+  "source_image": "raw/detail-C002-native3857.jpg",
+  "source_image_sha256": "5b281cb26e1b998aa723edecf16793041627acb72591f17ffc8684cc0a1bce10",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1230679.3069389276,
+   "ymin": 8238085.405158015,
+   "xmax": 1231299.453276177,
+   "ymax": 8238705.551495264,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C004",
+  "bbox": [
+   277583.4763297006,
+   6582002.197928525,
+   277883.4763297006,
+   6582302.197928525
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277583.4763297006,
+   6582002.197928525,
+   277883.4763297006,
+   6582302.197928525
+  ],
+  "actual_bbox": [
+   277583.4763297006,
+   6582002.197928525,
+   277883.4763297006,
+   6582302.197928525
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1234623.594273542%2C8249460.392500397%2C1235243.3316827414%2C8250081.217337823&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map0bfb7d8774d84a16a5157a1c0911178c.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:42.663545+00:00",
+  "source_observation_date": null,
+  "sha256": "fc3918e7227bcabd71cc7127eeac4bdf6af03c152303e3ee15766def0b638afb",
+  "source_image": "raw/detail-C004-native3857.jpg",
+  "source_image_sha256": "09f526defe47edae7bd00433091d52cff2f23b53ac01976506a3ef19fe0efca5",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1234623.050559429,
+   "ymin": 8249460.392500396,
+   "xmax": 1235243.8753968547,
+   "ymax": 8250081.217337822,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C005",
+  "bbox": [
+   276940.0436311722,
+   6579542.287492522,
+   277240.0436311722,
+   6579842.287492522
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   276940.0436311722,
+   6579542.287492522,
+   277240.0436311722,
+   6579842.287492522
+  ],
+  "actual_bbox": [
+   276940.0436311722,
+   6579542.287492522,
+   277240.0436311722,
+   6579842.287492522
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1233650.786188776%2C8244580.04839415%2C1234270.1793131756%2C8245200.529773899&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4041d8f60fe34e12932b4ee82622dff1.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:44.250162+00:00",
+  "source_observation_date": null,
+  "sha256": "86c520a0b890f3783fd8952f73ba02046095d22eadcdeb53b162c13b7d66e031",
+  "source_image": "raw/detail-C005-native3857.jpg",
+  "source_image_sha256": "2cb16ea74bf43542e39b0455e130d1fb1f958145f0e9a7db6aa20e8332d0199c",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1233650.2420611011,
+   "ymin": 8244580.04839415,
+   "xmax": 1234270.7234408504,
+   "ymax": 8245200.529773899,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C006",
+  "bbox": [
+   277192.73732997454,
+   6579535.719385097,
+   277492.73732997454,
+   6579835.719385097
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277192.73732997454,
+   6579535.719385097,
+   277492.73732997454,
+   6579835.719385097
+  ],
+  "actual_bbox": [
+   277192.73732997454,
+   6579535.719385097,
+   277492.73732997454,
+   6579835.719385097
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1234144.2860995617%2C8244596.265342401%2C1234763.644782054%2C8245216.712214973&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdfabe657c9524a2e9fde024df7806666.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:45.212816+00:00",
+  "source_observation_date": null,
+  "sha256": "5941369ab0143ee2c5bccd5ff36872557647bddf2865e49df27f8cccf47e7c12",
+  "source_image": "raw/detail-C006-native3857.jpg",
+  "source_image_sha256": "e18d9192b5e25686f6a46cc6a7dfb7da94912134eabbd0ef9b2f00dbf264ad40",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1234143.7420045217,
+   "ymin": 8244596.2653424,
+   "xmax": 1234764.1888770931,
+   "ymax": 8245216.712214972,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C007",
+  "bbox": [
+   277336.76550139335,
+   6579513.667162085,
+   277636.76550139335,
+   6579813.667162085
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277336.76550139335,
+   6579513.667162085,
+   277636.76550139335,
+   6579813.667162085
+  ],
+  "actual_bbox": [
+   277336.76550139335,
+   6579513.667162085,
+   277636.76550139335,
+   6579813.667162085
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1234427.6668314373%2C8244569.732446256%2C1235047.002688592%2C8245190.156461177&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3b16e0b2dd544be988987a504f3d57f2.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:45.933455+00:00",
+  "source_observation_date": null,
+  "sha256": "a2d791c44aa7af04d35e1d2662bde1a938f20ee1ddf71c069202c6d28aee722c",
+  "source_image": "raw/detail-C007-native3857.jpg",
+  "source_image_sha256": "06e2c99e57160de59eae1a1864e0f1d38500b71224e430ba1eab9e67f50619fb",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1234427.1227525538,
+   "ymin": 8244569.732446255,
+   "xmax": 1235047.546767475,
+   "ymax": 8245190.156461176,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C008",
+  "bbox": [
+   276548.54727709905,
+   6579310.030121572,
+   276848.54727709905,
+   6579610.030121572
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   276548.54727709905,
+   6579310.030121572,
+   276848.54727709905,
+   6579610.030121572
+  ],
+  "actual_bbox": [
+   276548.54727709905,
+   6579310.030121572,
+   276848.54727709905,
+   6579610.030121572
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232914.1014462863%2C8244081.34889585%2C1233533.5056475014%2C8244701.841518212&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map49c573f52a8e4c3daaa3de75a03c9ce0.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:46.370412+00:00",
+  "source_observation_date": null,
+  "sha256": "08782b6f0629a9ff1e6820fda7a008f523b679a61e055521e99c99e2f0b53201",
+  "source_image": "raw/detail-C008-native3857.jpg",
+  "source_image_sha256": "92d225229cc80e906153935af72c675bf32f8e38da59a9d031766b5b0f5e6a89",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232913.5572357127,
+   "ymin": 8244081.348895849,
+   "xmax": 1233534.049858075,
+   "ymax": 8244701.841518211,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C009",
+  "bbox": [
+   277017.8257329214,
+   6579218.227211586,
+   277317.8257329214,
+   6579518.227211586
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277017.8257329214,
+   6579218.227211586,
+   277317.8257329214,
+   6579518.227211586
+  ],
+  "actual_bbox": [
+   277017.8257329214,
+   6579218.227211586,
+   277317.8257329214,
+   6579518.227211586
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1233839.6542201114%2C8243956.050180652%2C1234458.980607027%2C8244576.464888756&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf357dc6c0db64cd1908ab9bd9a79ce21.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:47.961315+00:00",
+  "source_observation_date": null,
+  "sha256": "348de1bb28e32c105a4aa35ce7c2c0cac9a55983d46b84b44100f4b956998888",
+  "source_image": "raw/detail-C009-native3857.jpg",
+  "source_image_sha256": "229e259f22152d5e8972026160b4057d0866556e490f7e30fe1eb5b788675ec1",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1233839.1100595172,
+   "ymin": 8243956.050180653,
+   "xmax": 1234459.5247676212,
+   "ymax": 8244576.464888757,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C010",
+  "bbox": [
+   277166.72906253516,
+   6576757.364975908,
+   277466.72906253516,
+   6577057.364975908
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277166.72906253516,
+   6576757.364975908,
+   277466.72906253516,
+   6577057.364975908
+  ],
+  "actual_bbox": [
+   277166.72906253516,
+   6576757.364975908,
+   277466.72906253516,
+   6577057.364975908
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1234412.013158389%2C8239168.414204329%2C1235030.891371167%2C8239788.381355327&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map4cc0f0dee4d94162a69216ab8cc6ea34.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:47.735110+00:00",
+  "source_observation_date": null,
+  "sha256": "c29d9256e78f2d0089400bdddf109a2df701e81c3e8b64f137a8969c97f1c273",
+  "source_image": "raw/detail-C010-native3857.jpg",
+  "source_image_sha256": "11ea9141ae7dfd115068d7d2b73ff17c422bbfb0fa7293efa2fc27daeff4f4b5",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1234411.4686892792,
+   "ymin": 8239168.414204329,
+   "xmax": 1235031.4358402765,
+   "ymax": 8239788.381355327,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C011",
+  "bbox": [
+   277402.88923498115,
+   6576601.827141079,
+   277702.88923498115,
+   6576901.827141079
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277402.88923498115,
+   6576601.827141079,
+   277702.88923498115,
+   6576901.827141079
+  ],
+  "actual_bbox": [
+   277402.88923498115,
+   6576601.827141079,
+   277702.88923498115,
+   6576901.827141079
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1234889.9802959352%2C8238891.905698358%2C1235508.800372998%2C8239511.814692508&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9d842be61a8b41ab9f4216c6423204ef.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:49.399278+00:00",
+  "source_observation_date": null,
+  "sha256": "8141d43e0e737050b76199acb5780652bd1909f77e16297d22e1c8f77b177fab",
+  "source_image": "raw/detail-C011-native3857.jpg",
+  "source_image_sha256": "ca9cfd45472e895794fec7d2cc8a54f368c70b6565d23975a0d480543119a0e1",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1234889.4358373913,
+   "ymin": 8238891.905698358,
+   "xmax": 1235509.3448315416,
+   "ymax": 8239511.814692508,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C012",
+  "bbox": [
+   277710.44303923566,
+   6576334.175053137,
+   278010.44303923566,
+   6576634.175053137
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   277710.44303923566,
+   6576334.175053137,
+   278010.44303923566,
+   6576634.175053137
+  ],
+  "actual_bbox": [
+   277710.44303923566,
+   6576334.175053137,
+   278010.44303923566,
+   6576634.175053137
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1235519.8235440368%2C8238404.732096683%2C1236138.5565918759%2C8239024.554051458&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapbc7578be22504724ae62f98c3adb92a3.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:50.920846+00:00",
+  "source_observation_date": null,
+  "sha256": "908633da9ac2d6811f6430f2d4c68dec94fb01a217c11652eb2b50d98ce12a1f",
+  "source_image": "raw/detail-C012-native3857.jpg",
+  "source_image_sha256": "843989d32085d4a4989ef074f862fc2e9c052d8570eb048f1a6df5ca2ff6d712",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1235519.279090569,
+   "ymin": 8238404.732096681,
+   "xmax": 1236139.1010453436,
+   "ymax": 8239024.554051456,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C013",
+  "bbox": [
+   275956.57304584864,
+   6576299.459423009,
+   276256.57304584864,
+   6576599.459423009
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   275956.57304584864,
+   6576299.459423009,
+   276256.57304584864,
+   6576599.459423009
+  ],
+  "actual_bbox": [
+   275956.57304584864,
+   6576299.459423009,
+   276256.57304584864,
+   6576599.459423009
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232106.7126189293%2C8238135.573717991%2C1232725.6702584096%2C8238755.620738665&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapa900014729564a0a82336c66c807adb0.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:50.913063+00:00",
+  "source_observation_date": null,
+  "sha256": "85e05aae03c2d034d0125b243a22518172d606de362f4698aa15ffe7aec2df5d",
+  "source_image": "raw/detail-C013-native3857.jpg",
+  "source_image_sha256": "cf4dbaee38cf5978203e8c9c3007172b1883746f0dce0007eedf16d3c6114a2f",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232106.167928332,
+   "ymin": 8238135.573717991,
+   "xmax": 1232726.2149490057,
+   "ymax": 8238755.620738665,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C014",
+  "bbox": [
+   275952.49096703425,
+   6569907.123071019,
+   276252.49096703425,
+   6570207.123071019
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   275952.49096703425,
+   6569907.123071019,
+   276252.49096703425,
+   6570207.123071019
+  ],
+  "actual_bbox": [
+   275952.49096703425,
+   6569907.123071019,
+   276252.49096703425,
+   6570207.123071019
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1232833.0858111775%2C8225670.69913636%2C1233450.9336796617%2C8226289.638091478&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map75d2bb3579304554bceebf68c111e831.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:52.667038+00:00",
+  "source_observation_date": null,
+  "sha256": "919cadd5d60a93fdaf92cc06b3b247eec6282ce2acf1d3af996517e5e9a21c7b",
+  "source_image": "raw/detail-C014-native3857.jpg",
+  "source_image_sha256": "b40aa5eaeacf79f87b100f5171b2c3069c897b54ccdfb53a2c486c6afde40772",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1232832.5402678603,
+   "ymin": 8225670.69913636,
+   "xmax": 1233451.4792229782,
+   "ymax": 8226289.638091478,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C018",
+  "bbox": [
+   279691.2967253167,
+   6578481.7326457435,
+   279991.2967253167,
+   6578781.7326457435
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   279691.2967253167,
+   6578481.7326457435,
+   279991.2967253167,
+   6578781.7326457435
+  ],
+  "actual_bbox": [
+   279691.2967253167,
+   6578481.7326457435,
+   279991.2967253167,
+   6578781.7326457435
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1239136.1609527045%2C8242823.100138729%2C1239755.0065499363%2C8243443.033544552&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mape17707701ece4d9f9ef4267027791225.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:52.182130+00:00",
+  "source_observation_date": null,
+  "sha256": "fc30775fbc1ba3aef5dc71e35afb9bf0a207de96e9483e36dbaabc47c96021eb",
+  "source_image": "raw/detail-C018-native3857.jpg",
+  "source_image_sha256": "19e24e338f3cd89346ca346802d25204483037a2ded7f0589db65082caa655ce",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1239135.6170484098,
+   "ymin": 8242823.100138732,
+   "xmax": 1239755.550454232,
+   "ymax": 8243443.033544554,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C019",
+  "bbox": [
+   279601.96453992586,
+   6578070.078948555,
+   279901.96453992586,
+   6578370.078948555
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   279601.96453992586,
+   6578070.078948555,
+   279901.96453992586,
+   6578370.078948555
+  ],
+  "actual_bbox": [
+   279601.96453992586,
+   6578070.078948555,
+   279901.96453992586,
+   6578370.078948555
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1239008.6719785554%2C8242009.08594473%2C1239627.4577389825%2C8242628.959647298&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapaeeb0e87c7b34ed1887a9694a8e94558.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:55.074636+00:00",
+  "source_observation_date": null,
+  "sha256": "9c216f000befee4896c9e14f8f697b14d60eff028441629f6ca707de865ee930",
+  "source_image": "raw/detail-C019-native3857.jpg",
+  "source_image_sha256": "d4b9e07f5b29e79e6cd6cd7ebd5e1603599d0b059eda5248a30af9d5472eeec2",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1239008.1280074846,
+   "ymin": 8242009.08594473,
+   "xmax": 1239628.0017100526,
+   "ymax": 8242628.959647298,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C025",
+  "bbox": [
+   278818.1513760158,
+   6563296.96124371,
+   279118.1513760158,
+   6563596.96124371
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   278818.1513760158,
+   6563296.96124371,
+   279118.1513760158,
+   6563596.96124371
+  ],
+  "actual_bbox": [
+   278818.1513760158,
+   6563296.96124371,
+   279118.1513760158,
+   6563596.96124371
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1239153.792028628%2C8213128.959261603%2C1239770.1223320505%2C8213746.381654152&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapb4974f8cbc224d0897e5e07949bf8d20.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:54.108812+00:00",
+  "source_observation_date": null,
+  "sha256": "31e1f7b31b36cb7b3a6e5866835de9794fa5bd151ac5de9e55ab99cbd53b06bb",
+  "source_image": "raw/detail-C025-native3857.jpg",
+  "source_image_sha256": "71602b177909f3c0ad7a3af4fced35830d3ca6c90cbac8d466827a3e363235ed",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1239153.245984065,
+   "ymin": 8213128.9592616055,
+   "xmax": 1239770.668376614,
+   "ymax": 8213746.3816541545,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C030",
+  "bbox": [
+   278537.35573958565,
+   6562319.745017778,
+   278837.35573958565,
+   6562619.745017778
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   278537.35573958565,
+   6562319.745017778,
+   278837.35573958565,
+   6562619.745017778
+  ],
+  "actual_bbox": [
+   278537.35573958565,
+   6562319.745017778,
+   278837.35573958565,
+   6562619.745017778
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1238718.8039981565%2C8211196.671145346%2C1239335.0025807822%2C8211813.9621518245&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapda827c12fb4f46a1ad09fd318b25fdfe.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:55.824551+00:00",
+  "source_observation_date": null,
+  "sha256": "a3ba8a55520e08675df4f8063a1f9af3a31069410769f0eeb87e7da026d83e6f",
+  "source_image": "raw/detail-C030-native3857.jpg",
+  "source_image_sha256": "88f2cd508ca76cf2a9c9e55dac3f9934fd9f50935c659f92b63bdfe7fcac60f6",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1238718.25778623,
+   "ymin": 8211196.671145346,
+   "xmax": 1239335.5487927084,
+   "ymax": 8211813.9621518245,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C041",
+  "bbox": [
+   280387.8912946099,
+   6566516.376043808,
+   280687.8912946099,
+   6566816.376043808
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   280387.8912946099,
+   6566516.376043808,
+   280687.8912946099,
+   6566816.376043808
+  ],
+  "actual_bbox": [
+   280387.8912946099,
+   6566516.376043808,
+   280687.8912946099,
+   6566816.376043808
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1241841.3311877076%2C8219570.758757184%2C1242458.011307509%2C8220188.529692265&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map410ff96e1f7f437189caf7829f6125d2.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:56.570878+00:00",
+  "source_observation_date": null,
+  "sha256": "f0c3bb4720fb2fef5dea63199322e0ea3ed3d46bec8777026114ef2c9e0af51c",
+  "source_image": "raw/detail-C041-native3857.jpg",
+  "source_image_sha256": "a5f78a5774c7f274d8cb5c2a57747dd01fc5f403827a42a27c850ec945f62a9f",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1241840.7857800678,
+   "ymin": 8219570.758757184,
+   "xmax": 1242458.5567151487,
+   "ymax": 8220188.529692265,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C042",
+  "bbox": [
+   280357.8874466662,
+   6566103.750639945,
+   280751.88077519933,
+   6566497.743968478
+  ],
+  "width": 606,
+  "height": 606,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=280357.8874466662%2C6566103.750639947%2C280751.88077519933%2C6566497.743968479&bboxSR=25833&imageSR=25833&size=606%2C606&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapf6ea821495344d8ba03f4ed5bb218e84.jpg",
+  "requested_bbox": [
+   280357.8874466662,
+   6566103.750639947,
+   280751.88077519933,
+   6566497.743968479
+  ],
+  "actual_bbox": [
+   280357.8874466662,
+   6566103.750639945,
+   280751.88077519933,
+   6566497.743968478
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:43+00:00",
+  "source_observation_date": null,
+  "sha256": "905ffd7886eae5b322f52da3f019cc64970a4ffd43adbc231c36ca6f1e407603",
+  "elapsed_seconds": 3.91,
+  "bytes": 112279
+ },
+ {
+  "id": "detail-C044",
+  "bbox": [
+   280602.62218944245,
+   6565330.356770078,
+   280902.62218944245,
+   6565630.356770078
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   280602.62218944245,
+   6565330.356770078,
+   280902.62218944245,
+   6565630.356770078
+  ],
+  "actual_bbox": [
+   280602.62218944245,
+   6565330.356770078,
+   280902.62218944245,
+   6565630.356770078
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1242391.5329896535%2C8217286.178433335%2C1243007.9803007366%2C8217903.716818945&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9bf51bacbdd6464d8866b2ca751b08ef.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:56.613210+00:00",
+  "source_observation_date": null,
+  "sha256": "cfb185afcc8ba640790c892b58f01a71c43e7cc675c3f535587b5e76b3e232de",
+  "source_image": "raw/detail-C044-native3857.jpg",
+  "source_image_sha256": "e87f4632276becd89b6a8f8e1b2d72b2784051d2420cbdc510e7bc136d5b18a6",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1242390.9874523901,
+   "ymin": 8217286.178433334,
+   "xmax": 1243008.5258379993,
+   "ymax": 8217903.716818944,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C051",
+  "bbox": [
+   281746.0106892427,
+   6559330.488189098,
+   282046.0106892427,
+   6559630.488189098
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   281746.0106892427,
+   6559330.488189098,
+   282046.0106892427,
+   6559630.488189098
+  ],
+  "actual_bbox": [
+   281746.0106892427,
+   6559330.488189098,
+   282046.0106892427,
+   6559630.488189098
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245280.308169075%2C8205745.206445931%2C1245895.57316331%2C8206361.563810673&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapca18edfc2219477b95238ec7fafefdcc.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:57.674884+00:00",
+  "source_observation_date": null,
+  "sha256": "2fabcf0cee434b16c6d76451760d0738df4835f202d8a360901005c7380da6ad",
+  "source_image": "raw/detail-C051-native3857.jpg",
+  "source_image_sha256": "51045e26074412e3cfc5a72e491d9b43e02d4dcc2781959f47d713bb1153d4fc",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245279.7619838219,
+   "ymin": 8205745.20644593,
+   "xmax": 1245896.119348563,
+   "ymax": 8206361.563810671,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-C052",
+  "bbox": [
+   281879.09381974937,
+   6567522.129925673,
+   282259.5868085975,
+   6567902.622914521
+  ],
+  "width": 600,
+  "height": 600,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=281879.09381974937%2C6567522.129925674%2C282259.5868085975%2C6567902.622914521&bboxSR=25833&imageSR=25833&size=600%2C600&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map3b303e73c00a4882af768d2ecdee70cd.jpg",
+  "requested_bbox": [
+   281879.09381974937,
+   6567522.129925674,
+   282259.5868085975,
+   6567902.622914521
+  ],
+  "actual_bbox": [
+   281879.09381974937,
+   6567522.129925673,
+   282259.5868085975,
+   6567902.622914521
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:43+00:00",
+  "source_observation_date": null,
+  "sha256": "2f832848cf280343fbe0b5c6506bf365319d78ffd46c31ea7be8c06f90f02172",
+  "elapsed_seconds": 3.77,
+  "bytes": 106834
+ },
+ {
+  "id": "detail-C056",
+  "bbox": [
+   282152.0774997784,
+   6562279.322152162,
+   282523.40324559406,
+   6562650.647897977
+  ],
+  "width": 600,
+  "height": 600,
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=282152.0774997784%2C6562279.322152161%2C282523.40324559406%2C6562650.647897976&bboxSR=25833&imageSR=25833&size=600%2C600&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map98c9094232174186990de84bc5f285c2.jpg",
+  "requested_bbox": [
+   282152.0774997784,
+   6562279.322152161,
+   282523.40324559406,
+   6562650.647897976
+  ],
+  "actual_bbox": [
+   282152.0774997784,
+   6562279.322152162,
+   282523.40324559406,
+   6562650.647897977
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:53:42+00:00",
+  "source_observation_date": null,
+  "sha256": "61a65d03fde97fc8a88c0685b69f24540f998730138d7b994c88a2eba6c2af43",
+  "elapsed_seconds": 2.25,
+  "bytes": 89761
+ },
+ {
+  "id": "detail-C057",
+  "bbox": [
+   282008.3485095696,
+   6559323.092376202,
+   282308.3485095696,
+   6559623.092376202
+  ],
+  "width": 600,
+  "height": 600,
+  "requested_bbox": [
+   282008.3485095696,
+   6559323.092376202,
+   282308.3485095696,
+   6559623.092376202
+  ],
+  "actual_bbox": [
+   282008.3485095696,
+   6559323.092376202,
+   282308.3485095696,
+   6559623.092376202
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245790.0788887837%2C8205759.978064587%2C1246405.308303414%2C8206376.299782222&bboxSR=3857&imageSR=3857&size=660%2C660&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapdfd118ab84ef44b0a88db4a1bdf17231.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T14:59:58.420570+00:00",
+  "source_observation_date": null,
+  "sha256": "4c2af9dd57dffbc3503d48a502fa10befaf0061f60280f8903bd3dbdc648e738",
+  "source_image": "raw/detail-C057-native3857.jpg",
+  "source_image_sha256": "07b67788aaaf2548f2d707fec54a598d74aed30e8efcbc0e20d93eac8a409ec6",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245789.5327372814,
+   "ymin": 8205759.978064589,
+   "xmax": 1246405.8544549162,
+   "ymax": 8206376.299782224,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 660,
+  "source_height": 660,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-M01",
+  "bbox": [
+   277580.0,
+   6565540.0,
+   277880.0,
+   6565840.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "0d896c20dcf3ab4f594ec396fc9602f0350344f0ca38a5ca648ca00082127371",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-276000-6565500",
+    "sha256": "5f7f9429d140fd4fc476c77015de2463c03606978665b2d1f67a394994ed5c02"
+   },
+   {
+    "image_id": "coast-277500-6564000",
+    "sha256": "03de3dc29dbe3291abfc9de7f5bad26b50f3b1ea97a66c98f8cabed6336329ef"
+   },
+   {
+    "image_id": "coast-277500-6565500",
+    "sha256": "56db4af467eb43f7225bcdf276e073d9a0227b38c0b1d7087eb56868b5aad63c"
+   },
+   {
+    "image_id": "coast-276000-6564000",
+    "sha256": "db5b2dc6e70339d5ef79b2b1a28faa1a0e1dffde18d3e12cb264d369492d4d21"
+   }
+  ]
+ },
+ {
+  "id": "detail-M02",
+  "bbox": [
+   277800.0,
+   6564630.0,
+   278200.0,
+   6565030.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "a6c88518cea21b92e343a7e2bb392db281ca3b7de63618a8d5152752be6b0ee9",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6564000",
+    "sha256": "03de3dc29dbe3291abfc9de7f5bad26b50f3b1ea97a66c98f8cabed6336329ef"
+   }
+  ]
+ },
+ {
+  "id": "detail-M03",
+  "bbox": [
+   281300.0,
+   6564450.0,
+   281800.0,
+   6564950.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "12524e0c7b35fb8378975b47429a973eb9781853164fcf555e70e5c8a0ff74a3",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-280500-6564000",
+    "sha256": "c06610f3a60b4d63b2e73e9aa7828fda7ce5cbbcb972af775e6335375680bfd9"
+   }
+  ]
+ },
+ {
+  "id": "detail-M04",
+  "bbox": [
+   281825.0,
+   6562925.0,
+   282375.0,
+   6563475.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "requested_bbox": [
+   281825.0,
+   6562925.0,
+   282375.0,
+   6563475.0
+  ],
+  "actual_bbox": [
+   281825.0,
+   6562925.0,
+   282375.0,
+   6563475.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245006.51853154%2C8212742.628821409%2C1246135.6277993787%2C8213873.738847481&bboxSR=3857&imageSR=3857&size=1761%2C1761&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc870da7524f74530a9cc286471addc5b.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T15:09:33.297177+00:00",
+  "source_observation_date": null,
+  "sha256": "d795e05964b940b1b194456b508a977f10a2ed0c6a4230a746ee14186eaea5f8",
+  "source_image": "raw/detail-M04-native3857.jpg",
+  "source_image_sha256": "81e0051ed6e5bf89ed54c2ae430c5065ecfb1efbed3152148e5f8d8bd8e6928d",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245005.518152424,
+   "ymin": 8212742.628821409,
+   "xmax": 1246136.6281784957,
+   "ymax": 8213873.738847481,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 1761,
+  "source_height": 1761,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-M05",
+  "bbox": [
+   278790.0,
+   6562680.0,
+   279210.0,
+   6563100.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "d65b442faed7e7914cbf7e81ac1e003427bb2621fa729032492b8ecb3af4398d",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   }
+  ]
+ },
+ {
+  "id": "detail-M06",
+  "bbox": [
+   279290.0,
+   6562070.0,
+   279670.0,
+   6562450.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "94cbf30e2db3e67ec0b52c1e23bf6213103397029b066bae9644fa7430cc2cef",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-279000-6561000",
+    "sha256": "0f22390a742f5c115036f2e34ae3cfaa7bb684256d7f2d406d12c051634aabbc"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   }
+  ]
+ },
+ {
+  "id": "detail-M07",
+  "bbox": [
+   281705.0,
+   6562260.0,
+   281965.0,
+   6562520.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "ed28b643bef8626da32522922e64dd6b5dac000cfdd08dc7453df5660737de4d",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-282000-6561000",
+    "sha256": "bbe428b318fd61b1cbdaeb6437947bad92098c59d503aad2ac7cf2b2d4aac24a"
+   },
+   {
+    "image_id": "coast-280500-6562500",
+    "sha256": "893b0edd85ebd9cb36323707d74df3fd7990b49afedf2776cdb62fac91a5da1e"
+   },
+   {
+    "image_id": "coast-280500-6561000",
+    "sha256": "1b5f211beb546e5146b5c75c48db520016239e23c27a01eb20ab0fb8895dec5a"
+   },
+   {
+    "image_id": "coast-282000-6562500",
+    "sha256": "ac77e9aebc870da889c309a40fd16fa10d3dab10a08969b344ac7f37bd081676"
+   }
+  ]
+ },
+ {
+  "id": "detail-M08",
+  "bbox": [
+   281150.0,
+   6561200.0,
+   281650.0,
+   6561700.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "07a01681be38fc6cdfef83ad97ea0e8b14dfaed7e79168bd44cb5067346de374",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-280500-6561000",
+    "sha256": "1b5f211beb546e5146b5c75c48db520016239e23c27a01eb20ab0fb8895dec5a"
+   }
+  ]
+ },
+ {
+  "id": "detail-M09",
+  "bbox": [
+   283620,
+   6560460,
+   283920,
+   6560760
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "709f157c07de8b2a26a3798c5902bb188920f5e2c2ab632bd1a861403650f989",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-283500-6559500",
+    "sha256": "8fe93a58ba055db1ff1586d5385fd450026e92983322c5055f7d90ca7e649c68"
+   }
+  ]
+ },
+ {
+  "id": "detail-M10",
+  "bbox": [
+   282195.0,
+   6562665.0,
+   282545.0,
+   6563015.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "33a4f65db47c8249d229c3102d56a4e1cf41253a1b517d7fb46dc410dfe42199",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-282000-6562500",
+    "sha256": "ac77e9aebc870da889c309a40fd16fa10d3dab10a08969b344ac7f37bd081676"
+   }
+  ]
+ },
+ {
+  "id": "detail-M11",
+  "bbox": [
+   280275.0,
+   6565875.0,
+   281125.0,
+   6566725.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "requested_bbox": [
+   280275.0,
+   6565875.0,
+   281125.0,
+   6566725.0
+  ],
+  "actual_bbox": [
+   280275.0,
+   6565875.0,
+   281125.0,
+   6566725.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1241632.1715989003%2C8218309.503846423%2C1243379.1925385322%2C8220059.615561929&bboxSR=3857&imageSR=3857&size=1761%2C1761&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map5f37429aca804c3d905d2eb477113a44.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T15:09:49.878572+00:00",
+  "source_observation_date": null,
+  "sha256": "50755dd56eac334a2b207a9b6063b8aa0fa1ecbc832445971d4b930f31ca48e5",
+  "source_image": "raw/detail-M11-native3857.jpg",
+  "source_image_sha256": "2d49f088c9f7fce4644c9c939fc562347fd114e5c2d848f493c30c6dccdcf026",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1241630.6262109634,
+   "ymin": 8218309.503846426,
+   "xmax": 1243380.7379264692,
+   "ymax": 8220059.615561931,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 1761,
+  "source_height": 1761,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-M12",
+  "bbox": [
+   281775.0,
+   6567405.0,
+   282325.0,
+   6567955.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "requested_bbox": [
+   281775.0,
+   6567405.0,
+   282325.0,
+   6567955.0
+  ],
+  "actual_bbox": [
+   281775.0,
+   6567405.0,
+   282325.0,
+   6567955.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1244410.406797758%2C8221456.424982187%2C1245540.9438796618%2C8222588.960657092&bboxSR=3857&imageSR=3857&size=1761%2C1761&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_mapc685f7fd9ba644d6b1cf605b4ff5e489.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T15:09:35.351432+00:00",
+  "source_observation_date": null,
+  "sha256": "4af71a4fe4c553a458aec76d033069e77df4b206658ca31f96f6bdb00d8881e7",
+  "source_image": "raw/detail-M12-native3857.jpg",
+  "source_image_sha256": "761c838de46ed3110056a8f2c50cf15f062730f9c1a960c34ab3c5a787e5b83e",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1244409.4075012573,
+   "ymin": 8221456.4249821855,
+   "xmax": 1245541.9431761617,
+   "ymax": 8222588.96065709,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 1761,
+  "source_height": 1761,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-M13",
+  "bbox": [
+   282040.0,
+   6562100.0,
+   282740.0,
+   6562800.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "requested_bbox": [
+   282040.0,
+   6562100.0,
+   282740.0,
+   6562800.0
+  ],
+  "actual_bbox": [
+   282040.0,
+   6562100.0,
+   282740.0,
+   6562800.0
+  ],
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "attribution": "Source: Esri, Vantor, Earthstar Geographics, and the GIS User Community",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=1245499.025507802%2C8211161.963818673%2C1246935.68385609%2C8212601.168868195&bboxSR=3857&imageSR=3857&size=1761%2C1761&format=jpg",
+  "image_url": "https://server.arcgisonline.com/arcgis/rest/directories/arcgisoutput/World_Imagery_MapServer/_ags_map9c023ad320624e63bf4a0d8b290ccc09.jpg",
+  "retrieved_date": "2026-10-31",
+  "retrieved_utc": "2026-10-31T15:09:40.609937+00:00",
+  "source_observation_date": null,
+  "sha256": "7792ada89f21d5585bc116e0b2af462087ee9bc48c222e8695602851f921a4c7",
+  "source_image": "raw/detail-M13-native3857.jpg",
+  "source_image_sha256": "c7fbaf9e09294f2697b8b5412631fffda5c4ec5054a6d603a8d2fc51c8c46aea",
+  "source_crs": "EPSG:3857",
+  "source_extent": {
+   "xmin": 1245497.7521571848,
+   "ymin": 8211161.963818673,
+   "xmax": 1246936.957206707,
+   "ymax": 8212601.168868195,
+   "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+   }
+  },
+  "source_width": 1761,
+  "source_height": 1761,
+  "processing": "Deterministisk omprojisering med pyproj og PIL MESH, rutenett 32 utpiksler; original bevares. Ikke nytt opptak."
+ },
+ {
+  "id": "detail-M14",
+  "bbox": [
+   278950.0,
+   6562930.0,
+   279250.0,
+   6563230.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "b40a8a71fbd88d3734a8df50cd2fc9fcccd14c443da3b08b013524beeaa1e31c",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   }
+  ]
+ },
+ {
+  "id": "detail-M15",
+  "bbox": [
+   278530.0,
+   6562210.0,
+   278930.0,
+   6562610.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "49166c978f791442dccb2e37e00048b82bdc14e164d2d49d1bb82a84b354994d",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-279000-6561000",
+    "sha256": "0f22390a742f5c115036f2e34ae3cfaa7bb684256d7f2d406d12c051634aabbc"
+   },
+   {
+    "image_id": "coast-277500-6561000",
+    "sha256": "f0d13b47958908a9657b29c6ec6d5cd78b32f02e927a7fc79d47e9290cadb2bd"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   },
+   {
+    "image_id": "detail-C030",
+    "sha256": "a3ba8a55520e08675df4f8063a1f9af3a31069410769f0eeb87e7da026d83e6f"
+   }
+  ]
+ },
+ {
+  "id": "detail-M16",
+  "bbox": [
+   278225,
+   6562405,
+   278675,
+   6562855
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "e1fab92e80d530675012e862379da6a2a061585cef6ebf67c0f8fc31ce4218f4",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-277500-6561000",
+    "sha256": "f0d13b47958908a9657b29c6ec6d5cd78b32f02e927a7fc79d47e9290cadb2bd"
+   },
+   {
+    "image_id": "detail-C030",
+    "sha256": "a3ba8a55520e08675df4f8063a1f9af3a31069410769f0eeb87e7da026d83e6f"
+   }
+  ]
+ },
+ {
+  "id": "detail-M17",
+  "bbox": [
+   278500,
+   6562430,
+   278920,
+   6562850
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "377ae2c0682604ed34bf3c17c06155fe7b7b6523c06bc413a65ca72b1c943a47",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-279000-6561000",
+    "sha256": "0f22390a742f5c115036f2e34ae3cfaa7bb684256d7f2d406d12c051634aabbc"
+   },
+   {
+    "image_id": "coast-277500-6561000",
+    "sha256": "f0d13b47958908a9657b29c6ec6d5cd78b32f02e927a7fc79d47e9290cadb2bd"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   },
+   {
+    "image_id": "detail-C030",
+    "sha256": "a3ba8a55520e08675df4f8063a1f9af3a31069410769f0eeb87e7da026d83e6f"
+   }
+  ]
+ },
+ {
+  "id": "detail-M18",
+  "bbox": [
+   281730.0,
+   6567130.0,
+   282130.0,
+   6567530.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "757789dceafdc29f850eb15a56230f01946f6aa82fb666827f712db9630d4305",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-282000-6567000",
+    "sha256": "2a938ce1ac0e94a3d956b9229ac03dfa8fce06f88da1e0c552cb2eef1959fa93"
+   },
+   {
+    "image_id": "coast-280500-6567000",
+    "sha256": "b9ef4690c2659d6eb581938c68dd65defacf3a0aa38b27a8153abb4c8b1b9932"
+   },
+   {
+    "image_id": "detail-C052",
+    "sha256": "2f832848cf280343fbe0b5c6506bf365319d78ffd46c31ea7be8c06f90f02172"
+   }
+  ]
+ },
+ {
+  "id": "detail-M19",
+  "bbox": [
+   279710.0,
+   6567580.0,
+   280130.0,
+   6568000.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "6ee52189eb9f7de3f63a97f320d7c3a489203c13e4fddd517b9b1162f3c56d36",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-279000-6567000",
+    "sha256": "f8364e1aec855f8965ae6a6e6d0095f23a294b3d2a32a335546d572c6eaa1d14"
+   }
+  ]
+ },
+ {
+  "id": "detail-M20",
+  "bbox": [
+   278740.0,
+   6563240.0,
+   279160.0,
+   6563660.0
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "77aff91f82ba73d3a513f18c8a0fa6773663fd386571920d3417127dcbc3f436",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-277500-6562500",
+    "sha256": "3998343d914f9e3abb0687412e4f9b4f53f2c7cbe3f4e9de045d37530595831c"
+   },
+   {
+    "image_id": "coast-279000-6562500",
+    "sha256": "59210ab28348c71a241569aadb1f19f559804ef1a0d257d509c81ddae8370744"
+   },
+   {
+    "image_id": "detail-C025",
+    "sha256": "31e1f7b31b36cb7b3a6e5866835de9794fa5bd151ac5de9e55ab99cbd53b06bb"
+   }
+  ]
+ },
+ {
+  "id": "detail-M21",
+  "bbox": [
+   282590,
+   6562250,
+   282850,
+   6562510
+  ],
+  "width": 1600,
+  "height": 1600,
+  "crs": "EPSG:25833",
+  "source": "Esri World Imagery",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+  "retrieved_date": "2026-10-31",
+  "sha256": "291ae098925ac807792535e46624507772a2ba214bbb4a0be5626e12f388ff70",
+  "processing": "Mosaikk/utsnitt av bevarte georefererte bilder; ingen ny informasjon.",
+  "mosaic_sources": [
+   {
+    "image_id": "coast-282000-6561000",
+    "sha256": "bbe428b318fd61b1cbdaeb6437947bad92098c59d503aad2ac7cf2b2d4aac24a"
+   },
+   {
+    "image_id": "coast-282000-6562500",
+    "sha256": "ac77e9aebc870da889c309a40fd16fa10d3dab10a08969b344ac7f37bd081676"
+   }
+  ]
+ }
+]

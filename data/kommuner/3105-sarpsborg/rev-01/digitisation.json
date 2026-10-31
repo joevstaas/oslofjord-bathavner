@@ -1,0 +1,2339 @@
+{
+ "C001": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C002": {
+  "action": "include",
+  "name": "Greåker – brygger ved Havnebakken",
+  "group": "C002",
+  "parts": [
+   {
+    "frame": "C002",
+    "pixels": [
+     [
+      345,
+      330
+     ],
+     [
+      390,
+      325
+     ],
+     [
+      515,
+      320
+     ],
+     [
+      530,
+      460
+     ],
+     [
+      475,
+      475
+     ],
+     [
+      345,
+      465
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Omtrent ti båter rundt næringskai og pontong; servicebruk kontra faste plasser må avklares.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C003": {
+  "action": "exclude",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "related": []
+ },
+ "C004": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C005": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C006": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C007": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C008": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C009": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C010": {
+  "action": "exclude",
+  "reason": "Byens Brygge: Borg Havn beskriver allmennkai for av-/påstigning og landligge etter avtale; bildet dokumenterer ikke selvstendig gjestehavn eller ti faste båtplasser.",
+  "related": []
+ },
+ "C011": {
+  "action": "exclude",
+  "reason": "Kort pontong ved Tollbodbrygga med få fartøy. Faste fellesplasser eller gjestehavn ikke dokumentert.",
+  "related": []
+ },
+ "C012": {
+  "action": "exclude",
+  "reason": "Industrikai med næringsfartøy/industrianlegg; ikke småbåthavn.",
+  "related": []
+ },
+ "C013": {
+  "action": "include",
+  "name": "Greåker – Helleskjær, kai med småbåter",
+  "group": "C013",
+  "parts": [
+   {
+    "frame": "C013",
+    "pixels": [
+     [
+      295,
+      435
+     ],
+     [
+      465,
+      345
+     ],
+     [
+      475,
+      375
+     ],
+     [
+      315,
+      465
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Kun småbåter langs sjøvendt kai er avgrenset; landbasert opplag utelatt. Fast plassutleie kontra servicebruk må avklares.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C014": {
+  "action": "include",
+  "name": "Skivika – fellesbrygge",
+  "group": "C014",
+  "parts": [
+   {
+    "frame": "C014",
+    "pixels": [
+     [
+      340,
+      315
+     ],
+     [
+      455,
+      390
+     ],
+     [
+      435,
+      425
+     ],
+     [
+      325,
+      370
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Omtrent 6–10 plasser kan skilles i bildet; ingen bekreftet operatør.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C015": {
+  "action": "exclude",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "related": []
+ },
+ "C016": {
+  "action": "exclude",
+  "reason": "Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.",
+  "related": []
+ },
+ "C017": {
+  "action": "include",
+  "name": "Ørebekkenga",
+  "group": "C017",
+  "parts": [
+   {
+    "frame": "C017",
+    "pixels": [
+     [
+      285,
+      430
+     ],
+     [
+      465,
+      365
+     ],
+     [
+      570,
+      325
+     ],
+     [
+      575,
+      340
+     ],
+     [
+      485,
+      385
+     ],
+     [
+      495,
+      420
+     ],
+     [
+      320,
+      480
+     ],
+     [
+      285,
+      465
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Historisk kommunerapport 2013 oppgir 46 faste plasser, fotoanslag 50. Tallene er ikke nåtidskapasitet.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S01"
+  ],
+  "unc": true
+ },
+ "C018": {
+  "action": "exclude",
+  "reason": "Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.",
+  "related": []
+ },
+ "C019": {
+  "action": "exclude",
+  "reason": "Industrikai med næringsfartøy/industrianlegg; ikke småbåthavn.",
+  "related": []
+ },
+ "C020": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C021": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C022": {
+  "action": "include",
+  "name": "Falkensten båthavn",
+  "group": "C022",
+  "parts": [
+   {
+    "frame": "M19",
+    "pixels": [
+     [
+      230,
+      330
+     ],
+     [
+      480,
+      190
+     ],
+     [
+      520,
+      245
+     ],
+     [
+      270,
+      385
+     ],
+     [
+      235,
+      370
+     ]
+    ]
+   },
+   {
+    "frame": "M19",
+    "pixels": [
+     [
+      300,
+      385
+     ],
+     [
+      550,
+      270
+     ],
+     [
+      590,
+      320
+     ],
+     [
+      360,
+      415
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To hovedbrygger. Små isolerte nordbrygger ikke summert inn. Kommunal fotoanslått kapasitet 114 er historisk og ikke målt nå.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S15"
+  ],
+  "unc": true
+ },
+ "C023": {
+  "action": "include",
+  "name": "Merrapanna",
+  "group": "C023",
+  "parts": [
+   {
+    "frame": "C023",
+    "pixels": [
+     [
+      245,
+      360
+     ],
+     [
+      430,
+      375
+     ],
+     [
+      465,
+      390
+     ],
+     [
+      460,
+      500
+     ],
+     [
+      260,
+      485
+     ],
+     [
+      250,
+      445
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Brygge og båtplassiden av molo; ikke hele vika.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S11"
+  ],
+  "unc": true
+ },
+ "C024": {
+  "action": "include",
+  "name": "Olseng marina",
+  "group": "C024",
+  "parts": [
+   {
+    "frame": "C024",
+    "pixels": [
+     [
+      190,
+      295
+     ],
+     [
+      625,
+      290
+     ],
+     [
+      635,
+      380
+     ],
+     [
+      595,
+      390
+     ],
+     [
+      570,
+      470
+     ],
+     [
+      215,
+      470
+     ],
+     [
+      190,
+      395
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://olsengmarina.no/",
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Stedfestet mot operatørens koordinat og kommunefoto. Publiserte historiske kapasitetstall varierer mellom 93 faste og rundt 110 totalt; ikke lagt sammen.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S10"
+  ],
+  "unc": false
+ },
+ "C025": {
+  "action": "include",
+  "name": "Holmestrand båthavn i Sarpsborg",
+  "group": "C025",
+  "parts": [
+   {
+    "frame": "M20",
+    "pixels": [
+     [
+      390,
+      325
+     ],
+     [
+      565,
+      365
+     ],
+     [
+      560,
+      420
+     ],
+     [
+      380,
+      370
+     ]
+    ]
+   },
+   {
+    "frame": "M20",
+    "pixels": [
+     [
+      360,
+      410
+     ],
+     [
+      530,
+      455
+     ],
+     [
+      520,
+      500
+     ],
+     [
+      350,
+      455
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To tydelige båtplassrekker i historisk rapportområde. Øvrige tomme/små enkeltbrygger utelatt. Historisk kapasitet 142 gjelder større rapportområde og er ikke kapasitet for de to omrissene.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S09"
+  ],
+  "unc": true
+ },
+ "C026": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C027": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C028": {
+  "action": "include",
+  "name": "Bukkholmen",
+  "group": "C028",
+  "parts": [
+   {
+    "frame": "M16",
+    "pixels": [
+     [
+      395,
+      205
+     ],
+     [
+      420,
+      195
+     ],
+     [
+      445,
+      225
+     ],
+     [
+      420,
+      245
+     ]
+    ]
+   },
+   {
+    "frame": "M16",
+    "pixels": [
+     [
+      440,
+      185
+     ],
+     [
+      465,
+      175
+     ],
+     [
+      485,
+      205
+     ],
+     [
+      460,
+      225
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Privat fellesanlegg med faste plasser dokumentert i 2013; færre båter synlige i nåværende bildemosaikk. Avgrensning og fortsatt drift må kontrolleres.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S04"
+  ],
+  "unc": true
+ },
+ "C029": {
+  "action": "include",
+  "name": "Nøtsund vest – brygge ved odden",
+  "group": "C029",
+  "parts": [
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      280,
+      450
+     ],
+     [
+      315,
+      425
+     ],
+     [
+      355,
+      475
+     ],
+     [
+      345,
+      535
+     ],
+     [
+      330,
+      540
+     ],
+     [
+      320,
+      485
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Egen brygge på vestsiden, fysisk skilt fra dokumentert Nøtsund-anlegg i øst. Kapasitet og organisering uklare.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C030": {
+  "action": "exclude",
+  "reason": "Inngår i supplerende detaljramme M17 Bukkenes; ikke telt som egen havn.",
+  "related": [
+   "M17"
+  ]
+ },
+ "C031": {
+  "action": "exclude",
+  "reason": "Inngår i supplerende detaljramme M17 Bukkenes; ikke telt som egen havn.",
+  "related": [
+   "M17"
+  ]
+ },
+ "C032": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C033": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C034": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C035": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C036": {
+  "action": "include",
+  "name": "Komperødlandet nord – lang brygge",
+  "group": "C036",
+  "parts": [
+   {
+    "frame": "C036",
+    "pixels": [
+     [
+      355,
+      255
+     ],
+     [
+      410,
+      255
+     ],
+     [
+      420,
+      485
+     ],
+     [
+      365,
+      480
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Lang brygge med flere småbåter; faste plasser og organisering uklare.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C037": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C038": {
+  "action": "include",
+  "name": "Bryggen båthavn",
+  "group": "C038",
+  "parts": [
+   {
+    "frame": "M18",
+    "pixels": [
+     [
+      350,
+      50
+     ],
+     [
+      425,
+      50
+     ],
+     [
+      455,
+      105
+     ],
+     [
+      450,
+      285
+     ],
+     [
+      350,
+      265
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Fire brygger på vestbredden sør for Walberg, sikkert koblet mot kommunerapportens foto side 56. Holdes adskilt fra Walberg marina.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S16"
+  ],
+  "unc": true
+ },
+ "C039": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C040": {
+  "action": "include",
+  "name": "Komperødlandet sør – båtplassbrygge",
+  "group": "C040",
+  "parts": [
+   {
+    "frame": "C040",
+    "pixels": [
+     [
+      350,
+      375
+     ],
+     [
+      475,
+      375
+     ],
+     [
+      485,
+      445
+     ],
+     [
+      355,
+      425
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Plassrekke plausibel, men antall og drift uklare i bildet.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C041": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C042": {
+  "action": "exclude",
+  "reason": "Samme fysiske marina; avgrenset komplett i M11.",
+  "related": [
+   "M11"
+  ]
+ },
+ "C043": {
+  "action": "exclude",
+  "reason": "Samme fysiske marina; avgrenset komplett i M11.",
+  "related": [
+   "M11"
+  ]
+ },
+ "C044": {
+  "action": "include",
+  "name": "Ravneng marina",
+  "group": "C044",
+  "parts": [
+   {
+    "frame": "C044",
+    "pixels": [
+     [
+      240,
+      325
+     ],
+     [
+      635,
+      350
+     ],
+     [
+      640,
+      505
+     ],
+     [
+      600,
+      525
+     ],
+     [
+      600,
+      445
+     ],
+     [
+      260,
+      410
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Kommunerapportens Ravneng (SSR Ramneng); hovedpir og ytre bølgebryter rundt båtplasser.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S13"
+  ],
+  "unc": true
+ },
+ "C045": {
+  "action": "include",
+  "name": "Skar båthavn",
+  "group": "C045",
+  "parts": [
+   {
+    "frame": "C045",
+    "pixels": [
+     [
+      305,
+      380
+     ],
+     [
+      485,
+      370
+     ],
+     [
+      500,
+      450
+     ],
+     [
+      350,
+      465
+     ],
+     [
+      350,
+      505
+     ],
+     [
+      310,
+      505
+     ]
+    ]
+   },
+   {
+    "frame": "C045",
+    "pixels": [
+     [
+      510,
+      335
+     ],
+     [
+      535,
+      335
+     ],
+     [
+      535,
+      485
+     ],
+     [
+      510,
+      485
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "2013 anslår 33 plasser, revidert plan oppgir 18 eksisterende; avvik beholdes. Fysisk kartlegging bekrefter ikke byggesaks-/planstatus.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S12"
+  ],
+  "unc": true
+ },
+ "C046": {
+  "action": "include",
+  "name": "Løkkevika",
+  "group": "C046",
+  "parts": [
+   {
+    "frame": "C046",
+    "pixels": [
+     [
+      315,
+      295
+     ],
+     [
+      395,
+      275
+     ],
+     [
+      415,
+      310
+     ],
+     [
+      345,
+      350
+     ]
+    ]
+   },
+   {
+    "frame": "C046",
+    "pixels": [
+     [
+      335,
+      425
+     ],
+     [
+      485,
+      325
+     ],
+     [
+      520,
+      355
+     ],
+     [
+      375,
+      480
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To brygger vist i kommunerapporten; den minste er delpolygon, ikke egen havn.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S20"
+  ],
+  "unc": true
+ },
+ "C047": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C048": {
+  "action": "include",
+  "name": "Ørnekuppa nord – fellesbrygge",
+  "group": "C048",
+  "parts": [
+   {
+    "frame": "C048",
+    "pixels": [
+     [
+      315,
+      490
+     ],
+     [
+      455,
+      390
+     ],
+     [
+      485,
+      440
+     ],
+     [
+      395,
+      515
+     ],
+     [
+      325,
+      510
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Tydelig plassmønster med over ti plasser på fellesbrygge; beskrivende navn, drift ukjent.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "C049": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C050": {
+  "action": "include",
+  "name": "Bauen",
+  "group": "C050",
+  "parts": [
+   {
+    "frame": "C050",
+    "pixels": [
+     [
+      235,
+      320
+     ],
+     [
+      475,
+      380
+     ],
+     [
+      485,
+      420
+     ],
+     [
+      265,
+      395
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Båtplassiden av felles landfast brygge; servicekai og boligland holdt utenfor.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S26"
+  ],
+  "unc": true
+ },
+ "C051": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C052": {
+  "action": "exclude",
+  "reason": "OSM-klyngen omfatter to dokumenterte marinaer. Delt etter fysisk sjøside i M12W/M12E; kapasitet ikke dobbeltført.",
+  "related": [
+   "M12W",
+   "M12E"
+  ]
+ },
+ "C053": {
+  "action": "exclude",
+  "reason": "Høysand: allmenn-/tenderkai ifølge Borg Havn; ikke selvstendig småbåthavn ut fra bildet.",
+  "related": []
+ },
+ "C054": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C055": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C056": {
+  "action": "exclude",
+  "reason": "Hovedmarina avgrenset komplett i M13; egen østre brygge registrert separat.",
+  "related": [
+   "M13",
+   "M13E"
+  ]
+ },
+ "C057": {
+  "action": "include",
+  "name": "Kålvika",
+  "group": "C057",
+  "parts": [
+   {
+    "frame": "C057",
+    "pixels": [
+     [
+      295,
+      310
+     ],
+     [
+      350,
+      300
+     ],
+     [
+      420,
+      490
+     ],
+     [
+      375,
+      520
+     ],
+     [
+      340,
+      445
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Bare tydelig båtplassrekke; øvrige moloer og private enkeltbrygger ikke inkludert.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S27"
+  ],
+  "unc": true
+ },
+ "C058": {
+  "action": "exclude",
+  "reason": "Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.",
+  "related": []
+ },
+ "C059": {
+  "action": "include",
+  "name": "Røsnes – deler av grensekryssende båtanlegg",
+  "group": "C059",
+  "parts": [
+   {
+    "frame": "C059",
+    "pixels": [
+     [
+      315,
+      300
+     ],
+     [
+      460,
+      390
+     ],
+     [
+      450,
+      425
+     ],
+     [
+      305,
+      335
+     ]
+    ]
+   },
+   {
+    "frame": "C059",
+    "pixels": [
+     [
+      240,
+      405
+     ],
+     [
+      385,
+      470
+     ],
+     [
+      370,
+      510
+     ],
+     [
+      225,
+      440
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Størstedelen av anlegget og landfestene ligger i Halden. Bare bryggetupper/båtplassareal på Sarpsborg-siden leveres. Felles drift og presis grense må kontrolleres; krysskommunegruppe ROSNES-3101-3105.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "M01": {
+  "action": "include",
+  "name": "Revebukta",
+  "group": "M01",
+  "parts": [
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      430,
+      420
+     ],
+     [
+      555,
+      400
+     ],
+     [
+      570,
+      460
+     ],
+     [
+      445,
+      485
+     ]
+    ]
+   },
+   {
+    "frame": "M01",
+    "pixels": [
+     [
+      400,
+      525
+     ],
+     [
+      560,
+      485
+     ],
+     [
+      570,
+      535
+     ],
+     [
+      410,
+      575
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To båtplassrekker i samme kartlagte havn; landfestene beholdt som smale bryggedeler, strandarealet mellom tas ikke med.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S02"
+  ],
+  "unc": true
+ },
+ "M02": {
+  "action": "include",
+  "name": "Helle",
+  "group": "M02",
+  "parts": [
+   {
+    "frame": "M02",
+    "pixels": [
+     [
+      155,
+      230
+     ],
+     [
+      205,
+      260
+     ],
+     [
+      250,
+      330
+     ],
+     [
+      215,
+      355
+     ],
+     [
+      170,
+      285
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Hovedbrygge. Små separate hyttebrygger lenger sør utelates.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S03"
+  ],
+  "unc": true
+ },
+ "M03": {
+  "action": "include",
+  "name": "Græsdal nord – fellesbrygge",
+  "group": "M03",
+  "parts": [
+   {
+    "frame": "M03",
+    "pixels": [
+     [
+      335,
+      350
+     ],
+     [
+      400,
+      365
+     ],
+     [
+      395,
+      400
+     ],
+     [
+      335,
+      385
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Nordlig dobbeltsidig brygge med omtrent 16 historiske plasser. Kommunens 28 omfatter tre brygger; små sørbrygger med seks plasser hver summeres ikke for å nå terskelen.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S19"
+  ],
+  "unc": true
+ },
+ "M04N": {
+  "action": "include",
+  "name": "Knarrvika nord",
+  "group": "M04N",
+  "parts": [
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      298,
+      285
+     ],
+     [
+      385,
+      260
+     ],
+     [
+      405,
+      325
+     ],
+     [
+      330,
+      345
+     ],
+     [
+      300,
+      345
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Egen nordlig bryggegruppe, adskilt fra seilforeningens sørlige pir. Kommunen anslo 43 plasser i nord i 2013.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S21"
+  ],
+  "unc": true
+ },
+ "M04S": {
+  "action": "include",
+  "name": "Sarpsborg Seilforening – Knarrvika og Seilerbakken",
+  "group": "M04S",
+  "parts": [
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      325,
+      385
+     ],
+     [
+      480,
+      395
+     ],
+     [
+      485,
+      435
+     ],
+     [
+      325,
+      425
+     ]
+    ]
+   },
+   {
+    "frame": "M04",
+    "pixels": [
+     [
+      500,
+      640
+     ],
+     [
+      580,
+      660
+     ],
+     [
+      525,
+      790
+     ],
+     [
+      490,
+      780
+     ],
+     [
+      530,
+      700
+     ],
+     [
+      485,
+      690
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg-seilforening.no/brygger/",
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Ca. 100 gjelder hele foreningens anlegg samlet, ikke hvert delpolygon. Operatøren oppgir nye C/D-pirer i 2025 og at satellittbildet er foreldet. Omriss følger bare synlig bilde; nyere utvidelse er ikke konstruert.",
+  "capacity": 100,
+  "capacity_reference_period": "2025-05-01",
+  "source_ids": [
+   "S21",
+   "S22"
+  ],
+  "unc": true
+ },
+ "M05": {
+  "action": "include",
+  "name": "Nøtsund",
+  "group": "M05",
+  "parts": [
+   {
+    "frame": "M05",
+    "pixels": [
+     [
+      500,
+      445
+     ],
+     [
+      605,
+      530
+     ],
+     [
+      600,
+      555
+     ],
+     [
+      490,
+      475
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Østre fellespir sikkert koblet mot rapportfoto side 33; øvrige private brygger i sundet holdes adskilt.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S07"
+  ],
+  "unc": true
+ },
+ "M06": {
+  "action": "include",
+  "name": "Liktangen",
+  "group": "M06",
+  "parts": [
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      275,
+      430
+     ],
+     [
+      370,
+      415
+     ],
+     [
+      375,
+      450
+     ],
+     [
+      275,
+      475
+     ]
+    ]
+   },
+   {
+    "frame": "M06",
+    "pixels": [
+     [
+      270,
+      510
+     ],
+     [
+      375,
+      465
+     ],
+     [
+      395,
+      490
+     ],
+     [
+      295,
+      550
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "To fellesbrygger, tidligere oppgitt 62 faste plasser og én gjesteplass. Ikke nåtidsopptelling.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S05"
+  ],
+  "unc": true
+ },
+ "M07": {
+  "action": "exclude",
+  "reason": "Lite kaianlegg med få fortøyde båter ved vestre Grimsøy; under ti tydelige plasser, ingen dokumentert felles drift.",
+  "related": []
+ },
+ "M08N": {
+  "action": "include",
+  "name": "Dusebukta – midtre brygge",
+  "group": "M08N",
+  "parts": [
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      465,
+      300
+     ],
+     [
+      505,
+      300
+     ],
+     [
+      505,
+      335
+     ],
+     [
+      465,
+      340
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Historisk anslag ti plasser. Små utsnitt og få synlige båter gir usikker klassifisering; ikke summert med søndre brygge.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S25"
+  ],
+  "unc": true
+ },
+ "M08S": {
+  "action": "include",
+  "name": "Dusebukta – søndre fellesbrygge",
+  "group": "M08S",
+  "parts": [
+   {
+    "frame": "M08",
+    "pixels": [
+     [
+      450,
+      405
+     ],
+     [
+      510,
+      420
+     ],
+     [
+      505,
+      460
+     ],
+     [
+      440,
+      445
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf",
+   "https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Søndre fellespir, historisk anslått 26 plasser; behandlet som egen fysisk gruppe.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S25"
+  ],
+  "unc": true
+ },
+ "M09": {
+  "action": "include",
+  "name": "Ingerøy",
+  "group": "M09",
+  "parts": [
+   {
+    "frame": "M09",
+    "pixels": [
+     [
+      345,
+      395
+     ],
+     [
+      450,
+      365
+     ],
+     [
+      470,
+      420
+     ],
+     [
+      365,
+      455
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Fellespir koblet mot historisk kommunerapport, anslag 30 plasser fra 2013.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S28"
+  ],
+  "unc": true
+ },
+ "M10N": {
+  "action": "include",
+  "name": "Bussevika – nordvestre brygge",
+  "group": "M10N",
+  "parts": [
+   {
+    "frame": "M10",
+    "pixels": [
+     [
+      260,
+      145
+     ],
+     [
+      325,
+      85
+     ],
+     [
+      355,
+      105
+     ],
+     [
+      285,
+      185
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Egen båtplassbrygge med tydelig tosiding; historisk nordvestre fellesbrygge.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S23"
+  ],
+  "unc": true
+ },
+ "M10E": {
+  "action": "include",
+  "name": "Bussevika – østre brygge",
+  "group": "M10E",
+  "parts": [
+   {
+    "frame": "M10",
+    "pixels": [
+     [
+      505,
+      295
+     ],
+     [
+      570,
+      225
+     ],
+     [
+      595,
+      245
+     ],
+     [
+      540,
+      340
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Nåværende bilde viser flere plasser enn rapportens få historiske plasser i nordøst. Operatør og eventuell endring må kontrolleres. Søndre småbrygge med omtrent sju plasser utelates.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S23"
+  ],
+  "unc": true
+ },
+ "M11": {
+  "action": "include",
+  "name": "Skjebergkilens marina",
+  "group": "M11",
+  "parts": [
+   {
+    "frame": "M11",
+    "pixels": [
+     [
+      170,
+      305
+     ],
+     [
+      470,
+      315
+     ],
+     [
+      470,
+      350
+     ],
+     [
+      455,
+      375
+     ],
+     [
+      455,
+      650
+     ],
+     [
+      350,
+      655
+     ],
+     [
+      310,
+      640
+     ],
+     [
+      310,
+      600
+     ],
+     [
+      250,
+      585
+     ],
+     [
+      250,
+      565
+     ],
+     [
+      200,
+      555
+     ],
+     [
+      200,
+      495
+     ],
+     [
+      160,
+      485
+     ]
+    ]
+   },
+   {
+    "frame": "M11",
+    "pixels": [
+     [
+      300,
+      680
+     ],
+     [
+      350,
+      675
+     ],
+     [
+      420,
+      680
+     ],
+     [
+      465,
+      690
+     ],
+     [
+      510,
+      685
+     ],
+     [
+      510,
+      695
+     ],
+     [
+      465,
+      700
+     ],
+     [
+      415,
+      690
+     ],
+     [
+      350,
+      685
+     ],
+     [
+      300,
+      690
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/aktuelt/stor-interesse-for-marinaen",
+   "https://www.skjebergmarinesenter.no/",
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "1250 plasser oppgitt av kommunen i mai 2026 gjelder hele marinaen, ikke delpolygonet. Eldre rapport oppga 921. Avgrenset synlig bryggesjø; parkering/opplag ikke med.",
+  "capacity": 1250,
+  "capacity_reference_period": "2026-05-13",
+  "source_ids": [
+   "S14"
+  ],
+  "unc": true
+ },
+ "M12W": {
+  "action": "include",
+  "name": "Walberg marina",
+  "group": "M12W",
+  "parts": [
+   {
+    "frame": "M12",
+    "pixels": [
+     [
+      185,
+      295
+     ],
+     [
+      355,
+      295
+     ],
+     [
+      365,
+      455
+     ],
+     [
+      185,
+      460
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Vestlig anlegg nord for Bryggen båthavn, koblet mot kommunerapportens foto side 59. Ikke slått sammen med sørlige nabobrygger.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S17"
+  ],
+  "unc": true
+ },
+ "M12E": {
+  "action": "include",
+  "name": "Sarpsborg Baatforening",
+  "group": "M12E",
+  "parts": [
+   {
+    "frame": "M12",
+    "pixels": [
+     [
+      445,
+      120
+     ],
+     [
+      610,
+      185
+     ],
+     [
+      575,
+      285
+     ],
+     [
+      545,
+      405
+     ],
+     [
+      395,
+      370
+     ],
+     [
+      410,
+      285
+     ]
+    ]
+   },
+   {
+    "frame": "M12",
+    "pixels": [
+     [
+      425,
+      415
+     ],
+     [
+      525,
+      420
+     ],
+     [
+      525,
+      595
+     ],
+     [
+      390,
+      595
+     ],
+     [
+      390,
+      540
+     ],
+     [
+      410,
+      455
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.havneweb.no/sarpsborg-bf/",
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "400 plasser publisert for hele foreningen; registreres én gang. Nordre og søndre sjøanlegg i øst knyttet mot kommunefoto side 61.",
+  "capacity": 400,
+  "capacity_reference_period": "ukjent_referanseperiode_nettside_lest_2026-10-31",
+  "source_ids": [
+   "S18"
+  ],
+  "unc": true
+ },
+ "M13": {
+  "action": "include",
+  "name": "Grimsøy marina",
+  "group": "M13",
+  "parts": [
+   {
+    "frame": "M13",
+    "pixels": [
+     [
+      185,
+      270
+     ],
+     [
+      270,
+      270
+     ],
+     [
+      600,
+      365
+     ],
+     [
+      560,
+      505
+     ],
+     [
+      455,
+      485
+     ],
+     [
+      305,
+      450
+     ],
+     [
+      180,
+      420
+     ]
+    ]
+   },
+   {
+    "frame": "M13",
+    "pixels": [
+     [
+      20,
+      390
+     ],
+     [
+      70,
+      375
+     ],
+     [
+      120,
+      520
+     ],
+     [
+      85,
+      540
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://seilbaatservice.no/batplass",
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Hovedanlegg og vestre service-/båtplasspir. Operatøren opplyser oppgradering i 2022. Historisk kapasitet 450/5 ikke presentert som nåtidskapasitet.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S24"
+  ],
+  "unc": true
+ },
+ "M13E": {
+  "action": "include",
+  "name": "Grimsøy øst – separat båtplassbrygge",
+  "group": "M13E",
+  "parts": [
+   {
+    "frame": "M21",
+    "pixels": [
+     [
+      280,
+      390
+     ],
+     [
+      315,
+      380
+     ],
+     [
+      345,
+      460
+     ],
+     [
+      310,
+      475
+     ]
+    ]
+   },
+   {
+    "frame": "M21",
+    "pixels": [
+     [
+      355,
+      350
+     ],
+     [
+      395,
+      340
+     ],
+     [
+      450,
+      435
+     ],
+     [
+      415,
+      455
+     ]
+    ]
+   }
+  ],
+  "sources": [],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "To fysisk adskilte båtplasspirer øst for Grimsøy marina. Felles drift og plassantall per pir er usikre; ingen summering av private brygger som terskelbevis. Foreløpig mulig gruppe, ikke kapasitetstillegg til hovedmarinaen.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [],
+  "unc": true
+ },
+ "M14": {
+  "action": "include",
+  "name": "Vestjordets båtforening",
+  "group": "M14",
+  "parts": [
+   {
+    "frame": "M14",
+    "pixels": [
+     [
+      280,
+      380
+     ],
+     [
+      450,
+      405
+     ],
+     [
+      445,
+      450
+     ],
+     [
+      280,
+      430
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "smabathavn",
+  "basis": "Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.",
+  "note": "Koblet mot kommunefoto side 36: lang pir på østsiden nord for Nøtsund. Fellesanlegg og 34 faste plasser dokumentert i 2013.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S08"
+  ],
+  "unc": true
+ },
+ "M15": {
+  "action": "exclude",
+  "reason": "Supplerende lokalisering av Bukkenes; de samme bryggene vurdert i komplett ramme M17.",
+  "related": [
+   "M17"
+  ]
+ },
+ "M16": {
+  "action": "exclude",
+  "reason": "Detaljramme Bukkholmen; inkludert via C028.",
+  "related": [
+   "C028"
+  ]
+ },
+ "M17": {
+  "action": "include",
+  "name": "Bukkenes",
+  "group": "M17",
+  "parts": [
+   {
+    "frame": "M17",
+    "pixels": [
+     [
+      500,
+      195
+     ],
+     [
+      550,
+      220
+     ],
+     [
+      520,
+      260
+     ],
+     [
+      480,
+      230
+     ]
+    ]
+   },
+   {
+    "frame": "M17",
+    "pixels": [
+     [
+      445,
+      260
+     ],
+     [
+      485,
+      275
+     ],
+     [
+      475,
+      300
+     ],
+     [
+      435,
+      285
+     ]
+    ]
+   },
+   {
+    "frame": "M17",
+    "pixels": [
+     [
+      385,
+      385
+     ],
+     [
+      455,
+      400
+     ],
+     [
+      445,
+      435
+     ],
+     [
+      380,
+      420
+     ]
+    ]
+   }
+  ],
+  "sources": [
+   "https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf"
+  ],
+  "classification": "mulig_smabathavn",
+  "basis": "Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.",
+  "note": "Rapporten omtaler fellesanlegg/sameie, men presiserer at spørreskjema ikke er besvart og beregninger/antagelser ikke verifisert. Tre historiske båtplassbrygger beholder usikker klasse, ikke aggregert med andre hyttebrygger.",
+  "capacity": null,
+  "capacity_reference_period": null,
+  "source_ids": [
+   "S06"
+  ],
+  "unc": true
+ },
+ "M04": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "M04N",
+   "M04S"
+  ]
+ },
+ "M08": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "M08N",
+   "M08S"
+  ]
+ },
+ "M10": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "M10N",
+   "M10E"
+  ]
+ },
+ "M12": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "M12W",
+   "M12E"
+  ]
+ },
+ "M18": {
+  "action": "exclude",
+  "reason": "Kontrollramme for Bryggen båthavn, sikkert koblet til rapportfoto side 56.",
+  "related": [
+   "C038"
+  ]
+ },
+ "M19": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "C022"
+  ]
+ },
+ "M20": {
+  "action": "exclude",
+  "reason": "Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.",
+  "related": [
+   "C025"
+  ]
+ },
+ "M21": {
+  "action": "exclude",
+  "reason": "Detaljramme for separat østre bryggegruppe, inkludert gjennom M13E.",
+  "related": [
+   "M13E"
+  ]
+ }
+}

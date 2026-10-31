@@ -1,0 +1,90 @@
+"""Manuelle 800-pikselomriss; terskel vurderes per fysisk fellesbrygge, ikke ved summering av private brygger."""
+D={}
+REPORT='https://www.sarpsborg.com/globalassets/dokumenter/politikk-og-planer/arealplanlegging/arealplan-dokumenter-2/smabathavnrapport-sarpsborg-kommunen-051213.pdf'
+PLAN='https://sarpsborg.com/globalassets/dokumenter/politikk-og-planer/kunngjoringer/2025.11.27.--kystsoneplan-mindre-endring---vedtatt/vedlegg-2---revidert-planbeskrivelse.pdf'
+def omit(cid,reason,related=None):D[cid]=dict(action='exclude',reason=reason,related=related or [])
+def inc(cid,name,parts,src=None,possible=False,note='',basis=None,capacity=None,period=None,source_ids=None,unc=True,group=None):
+ D[cid]=dict(action='include',name=name,group=group or cid,parts=[dict(frame=f,pixels=p) for f,p in parts],sources=src or [],classification='mulig_smabathavn' if possible else 'smabathavn',basis=basis or ('Sammenhengende båtplassbrygge; fast kapasitet/felles drift ikke sikkert dokumentert.' if possible else 'Tydelig samlet båtplassanlegg med minst ti plasser, støttet av synlig plassmønster og/eller stedfestet kommunal havnekartlegging.'),note=note,capacity=capacity,capacity_reference_period=period,source_ids=source_ids or [],unc=unc)
+for i in range(1,60):omit(f'C{i:03}','Separat kort privat brygge, bade-/roanlegg eller servicekai; ikke dokumentert felles småbåtanlegg med minst ti faste plasser.')
+for i in [1,4,5,6,7,8,9,18]:omit(f'C{i:03}','Innlandsfunn kontrollert i bilde: bade-/ro-/enkeltbrygge uten påvist kvalifiserende småbåthavn. Innlandet er ikke fullkartlagt.')
+for i in [3,15,16]:omit(f'C{i:03}','Holm brygge: båtplassene i dette utsnittet ligger på Fredrikstad-siden. Sammenholdt med 3107-H60-B01/B02; ikke duplisert i Sarpsborg.')
+for i in [12,19]:omit(f'C{i:03}','Industrikai med næringsfartøy/industrianlegg; ikke småbåthavn.')
+omit('C010','Byens Brygge: Borg Havn beskriver allmennkai for av-/påstigning og landligge etter avtale; bildet dokumenterer ikke selvstendig gjestehavn eller ti faste båtplasser.')
+omit('C011','Kort pontong ved Tollbodbrygga med få fartøy. Faste fellesplasser eller gjestehavn ikke dokumentert.')
+inc('C002','Greåker – brygger ved Havnebakken',[('C002',[(345,330),(390,325),(515,320),(530,460),(475,475),(345,465)])],possible=True,note='Omtrent ti båter rundt næringskai og pontong; servicebruk kontra faste plasser må avklares.')
+inc('C013','Greåker – Helleskjær, kai med småbåter',[('C013',[(250,365),(325,320),(470,385),(535,435),(505,490),(395,440),(300,410)])],possible=True,note='Båtplassbruk er plausibel, men nærings-/servicebruk og plassantall er usikre.')
+inc('C014','Skivika – fellesbrygge',[('C014',[(340,315),(455,390),(435,425),(325,370)])],possible=True,note='Omtrent 6–10 plasser kan skilles i bildet; ingen bekreftet operatør.')
+inc('C017','Ørebekkenga',[('C017',[(300,410),(465,355),(490,410),(320,475),(285,465)]),('C017',[(460,365),(575,325),(580,345),(480,390)])],[REPORT],source_ids=['S01'],note='Historisk kommunerapport 2013 oppgir 46 faste plasser, fotoanslag 50. Tallene er ikke nåtidskapasitet.')
+inc('C022','Falkensten båthavn',[('M19',[(230,330),(480,190),(520,245),(270,385),(235,370)]),('M19',[(300,385),(550,270),(590,320),(360,415)])],[REPORT,PLAN],source_ids=['S15'],note='To hovedbrygger. Små isolerte nordbrygger ikke summert inn. Kommunal fotoanslått kapasitet 114 er historisk og ikke målt nå.')
+inc('C023','Merrapanna',[('C023',[(245,360),(430,375),(465,390),(460,500),(260,485),(250,445)])],[REPORT,PLAN],source_ids=['S11'],note='Brygge og båtplassiden av molo; ikke hele vika.')
+inc('C024','Olseng marina',[('C024',[(190,295),(625,290),(635,380),(595,390),(570,470),(215,470),(190,395)])],['https://olsengmarina.no/',REPORT,PLAN],source_ids=['S10'],unc=False,note='Stedfestet mot operatørens koordinat og kommunefoto. Publiserte historiske kapasitetstall varierer mellom 93 faste og rundt 110 totalt; ikke lagt sammen.')
+inc('C025','Holmestrand båthavn i Sarpsborg',[('M20',[(390,325),(565,365),(560,420),(380,370)]),('M20',[(360,410),(530,455),(520,500),(350,455)]),('M20',[(350,485),(475,520),(470,540),(340,510)])],[REPORT,PLAN],source_ids=['S09'],note='Foreløpig historisk havnegruppe; dagens driftsgrenser ikke bekreftet. Tre synlige båtplassrekker tas med; tomme enkeltbrygger lenger sør/nord utelates.')
+inc('C028','Bukkholmen',[('M16',[(385,235),(425,205),(450,225),(410,260)]),('M16',[(440,195),(470,180),(485,210),(455,230)])],[REPORT,PLAN],source_ids=['S04'],note='Privat fellesanlegg med faste plasser dokumentert i 2013; færre båter synlige i nåværende bildemosaikk. Avgrensning og fortsatt drift må kontrolleres.')
+inc('C029','Nøtsund vest – brygge ved odden',[('M05',[(280,450),(315,425),(355,475),(345,500)])],possible=True,note='Egen brygge på vestsiden, fysisk skilt fra dokumentert Nøtsund-anlegg i øst. Kapasitet og organisering uklare.')
+for i in [30,31]:omit(f'C{i:03}','Inngår i supplerende detaljramme M17 Bukkenes; ikke telt som egen havn.', ['M17'])
+inc('C036','Komperødlandet nord – lang brygge',[('C036',[(355,255),(410,255),(420,485),(365,480)])],possible=True,note='Lang brygge med flere småbåter; faste plasser og organisering uklare.')
+inc('C038','Bryggen båthavn',[('C038',[(335,250),(440,235),(475,335),(465,560),(345,560),(330,500)]),('C038',[(330,215),(425,215),(440,260),(335,275)])],[REPORT,PLAN],source_ids=['S16'],note='Stedfestet mot kommunefoto; bryggerekker adskilt fra parkering.')
+inc('C040','Komperødlandet sør – båtplassbrygge',[('C040',[(350,375),(475,375),(485,445),(355,425)])],possible=True,note='Plassrekke plausibel, men antall og drift uklare i bildet.')
+for i in [42,43]:omit(f'C{i:03}','Samme fysiske marina; avgrenset komplett i M11.', ['M11'])
+inc('C044','Ravneng marina',[('C044',[(240,325),(635,350),(640,505),(600,525),(600,445),(260,410)])],[REPORT],source_ids=['S13'],note='Kommunerapportens Ravneng (SSR Ramneng); hovedpir og ytre bølgebryter rundt båtplasser.')
+inc('C045','Skar båthavn',[('C045',[(305,380),(485,370),(500,450),(350,465),(350,505),(310,505)]),('C045',[(510,335),(535,335),(535,485),(510,485)])],[REPORT,PLAN],source_ids=['S12'],note='2013 anslår 33 plasser, revidert plan oppgir 18 eksisterende; avvik beholdes. Fysisk kartlegging bekrefter ikke byggesaks-/planstatus.')
+inc('C046','Løkkevika',[('C046',[(315,295),(395,275),(415,310),(345,350)]),('C046',[(335,425),(485,325),(520,355),(375,480)])],[REPORT,PLAN],source_ids=['S20'],note='To brygger vist i kommunerapporten; den minste er delpolygon, ikke egen havn.')
+inc('C048','Ørnekuppa nord – fellesbrygge',[('C048',[(365,465),(455,390),(485,440),(395,515)]),('C048',[(315,490),(395,450),(405,475),(325,510)])],note='Tydelig plassmønster med over ti plasser på fellesbrygge; beskrivende navn, drift ukjent.')
+inc('C050','Bauen',[('C050',[(235,320),(475,380),(485,420),(265,395)])],[REPORT],source_ids=['S26'],note='Båtplassiden av felles landfast brygge; servicekai og boligland holdt utenfor.')
+omit('C052','OSM-klyngen omfatter to dokumenterte marinaer. Delt etter fysisk sjøside i M12W/M12E; kapasitet ikke dobbeltført.', ['M12W','M12E'])
+omit('C053','Høysand: allmenn-/tenderkai ifølge Borg Havn; ikke selvstendig småbåthavn ut fra bildet.')
+omit('C056','Hovedmarina avgrenset komplett i M13; egen østre brygge registrert separat.', ['M13','M13E'])
+inc('C057','Kålvika',[('C057',[(295,310),(350,300),(420,490),(375,520),(340,445)])],[REPORT,PLAN],source_ids=['S27'],note='Bare tydelig båtplassrekke; øvrige moloer og private enkeltbrygger ikke inkludert.')
+inc('C059','Røsnes – deler av grensekryssende båtanlegg',[('C059',[(315,300),(460,390),(450,425),(305,335)]),('C059',[(240,405),(385,470),(370,510),(225,440)])],possible=True,note='Størstedelen av anlegget og landfestene ligger i Halden. Bare bryggetupper/båtplassareal på Sarpsborg-siden leveres. Felles drift og presis grense må kontrolleres; krysskommunegruppe ROSNES-3101-3105.')
+inc('M01','Revebukta',[('M01',[(445,420),(555,400),(565,455),(455,480)]),('M01',[(485,490),(555,485),(570,545),(500,560)])],[REPORT,PLAN],source_ids=['S02'],note='To båtplassrekker i samme kartlagte havn; landfestene beholdt som smale bryggedeler, strandarealet mellom tas ikke med.')
+inc('M02','Helle',[('M02',[(155,230),(205,260),(250,330),(215,355),(170,285)])],[REPORT,PLAN],source_ids=['S03'],note='Hovedbrygge. Små separate hyttebrygger lenger sør utelates.')
+inc('M03','Græsdal nord – fellesbrygge',[('M03',[(335,350),(400,365),(395,400),(335,385)])],[REPORT,PLAN],source_ids=['S19'],note='Nordlig dobbeltsidig brygge med omtrent 16 historiske plasser. Kommunens 28 omfatter tre brygger; små sørbrygger med seks plasser hver summeres ikke for å nå terskelen.')
+inc('M04N','Knarrvika nord',[('M04',[(310,280),(385,260),(405,325),(330,345)])],[REPORT],source_ids=['S21'],note='Egen nordlig bryggegruppe, adskilt fra seilforeningens sørlige pir. Kommunen anslo 43 plasser i nord i 2013.')
+inc('M04S','Sarpsborg Seilforening – Knarrvika og Seilerbakken',[('M04',[(325,375),(480,390),(480,430),(325,415)]),('M04',[(485,640),(575,665),(520,785),(485,780),(535,675),(475,660)])],['https://www.sarpsborg-seilforening.no/brygger/',REPORT],source_ids=['S21','S22'],capacity=100,period='2025-05-01',note='Ca. 100 gjelder hele foreningens anlegg samlet, ikke hvert delpolygon. Operatøren oppgir nye C/D-pirer i 2025 og at satellittbildet er foreldet. Omriss følger bare synlig bilde; nyere utvidelse er ikke konstruert.')
+inc('M05','Nøtsund',[('M05',[(500,445),(605,530),(600,555),(490,475)])],[REPORT],source_ids=['S07'],note='Østre fellespir sikkert koblet mot rapportfoto side 33; øvrige private brygger i sundet holdes adskilt.')
+inc('M06','Liktangen',[('M06',[(275,430),(370,415),(375,450),(275,475)]),('M06',[(280,490),(365,455),(390,480),(295,540)])],[REPORT,PLAN],source_ids=['S05'],note='To fellesbrygger, tidligere oppgitt 62 faste plasser og én gjesteplass. Ikke nåtidsopptelling.')
+omit('M07','Lite kaianlegg med få fortøyde båter ved vestre Grimsøy; under ti tydelige plasser, ingen dokumentert felles drift.')
+inc('M08N','Dusebukta – midtre brygge',[('M08',[(465,300),(505,300),(505,335),(465,340)])],[REPORT,PLAN],possible=True,source_ids=['S25'],note='Historisk anslag ti plasser. Små utsnitt og få synlige båter gir usikker klassifisering; ikke summert med søndre brygge.')
+inc('M08S','Dusebukta – søndre fellesbrygge',[('M08',[(450,405),(510,420),(505,460),(440,445)])],[REPORT,PLAN],source_ids=['S25'],note='Søndre fellespir, historisk anslått 26 plasser; behandlet som egen fysisk gruppe.')
+inc('M09','Ingerøy',[('M09',[(345,395),(450,365),(470,420),(365,455)])],[REPORT],source_ids=['S28'],note='Fellespir koblet mot historisk kommunerapport, anslag 30 plasser fra 2013.')
+inc('M10N','Bussevika – nordvestre brygge',[('M10',[(260,145),(325,85),(355,105),(285,185)])],[REPORT],source_ids=['S23'],note='Egen båtplassbrygge med tydelig tosiding; historisk nordvestre fellesbrygge.')
+inc('M10E','Bussevika – østre brygge',[('M10',[(505,295),(570,225),(595,245),(540,340)])],[REPORT],possible=True,source_ids=['S23'],note='Nåværende bilde viser flere plasser enn rapportens få historiske plasser i nordøst. Operatør og eventuell endring må kontrolleres. Søndre småbrygge med omtrent sju plasser utelates.')
+inc('M11','Skjebergkilens marina',[('M11',[(170,300),(475,300),(480,550),(450,650),(320,665),(210,590),(175,475)]),('M11',[(210,595),(265,585),(330,635),(450,685),(450,705),(315,670),(225,625)])],['https://www.sarpsborg.com/aktuelt/stor-interesse-for-marinaen','https://www.skjebergmarinesenter.no/',REPORT],capacity=1250,period='2026-05-13',source_ids=['S14'],note='1250 plasser oppgitt av kommunen i mai 2026 gjelder hele marinaen, ikke delpolygonet. Eldre rapport oppga 921. Avgrenset synlig bryggesjø; parkering/opplag ikke med.')
+inc('M12W','Walberg marina',[('M12',[(185,295),(355,295),(365,455),(185,460)]),('M18',[(350,50),(425,50),(455,105),(450,285),(350,265)])],[REPORT],source_ids=['S17'],note='Vestlig anlegg etter kommunerapportens foto side 59. Søndre brygger foreløpig knyttet til samme sjøfront; dagens driftsgrense må bekreftes.')
+inc('M12E','Sarpsborg Baatforening',[('M12',[(445,120),(610,185),(575,285),(540,390),(400,350),(420,260)]),('M12',[(425,415),(525,420),(525,595),(390,595),(390,540),(410,455)])],['https://www.havneweb.no/sarpsborg-bf/',REPORT],capacity=400,period='ukjent_referanseperiode_nettside_lest_2026-10-31',source_ids=['S18'],note='400 plasser publisert for hele foreningen; registreres én gang. Nordre og søndre sjøanlegg i øst knyttet mot kommunefoto side 61.')
+inc('M13','Grimsøy marina',[('M13',[(185,270),(570,350),(530,480),(450,510),(300,455),(180,430)]),('M13',[(145,385),(200,515),(185,530),(125,390)])],['https://seilbaatservice.no/batplass',REPORT],source_ids=['S24'],note='Hovedanlegg og vestre service-/båtplasspir. Operatøren opplyser oppgradering i 2022. Historisk kapasitet 450/5 ikke presentert som nåtidskapasitet.')
+inc('M13E','Grimsøy øst – separat båtplassbrygge',[('M13',[(740,445),(785,480),(780,515),(735,475)])],possible=True,note='Separat fellespir øst for hovedmarinaen, over ti mulige plasser. Driftsmessig tilknytning til Grimsøy marina er ikke dokumentert; egen foreløpig gruppe.')
+inc('M14','Vestjordets båtforening',[('M14',[(280,380),(450,405),(445,450),(280,430)])],[REPORT],source_ids=['S08'],note='Koblet mot kommunefoto side 36: lang pir på østsiden nord for Nøtsund. Fellesanlegg og 34 faste plasser dokumentert i 2013.')
+omit('M15','Supplerende lokalisering av Bukkenes; de samme bryggene vurdert i komplett ramme M17.', ['M17'])
+omit('M16','Detaljramme Bukkholmen; inkludert via C028.', ['C028'])
+inc('M17','Bukkenes',[('M17',[(500,195),(550,220),(520,260),(480,230)]),('M17',[(445,260),(485,275),(475,300),(435,285)]),('M17',[(385,385),(455,400),(445,435),(380,420)])],[REPORT],possible=True,source_ids=['S06'],note='Rapporten omtaler fellesanlegg/sameie, men presiserer at spørreskjema ikke er besvart og beregninger/antagelser ikke verifisert. Tre historiske båtplassbrygger beholder usikker klasse, ikke aggregert med andre hyttebrygger.')
+for cid,related in [('M04',['M04N','M04S']),('M08',['M08N','M08S']),('M10',['M10N','M10E']),('M12',['M12W','M12E']),('M18',['M12W']),('M19',['C022']),('M20',['C025'])]:omit(cid,'Kontrollramme; delt eller inkludert gjennom angitte kandidater uten dobbelttelling.',related)
+# Presiseringer etter kontroll av eksportert GeoJSON lagt tilbake på kildebildene.
+def rep(cid,parts):D[cid]['parts']=[dict(frame=f,pixels=p) for f,p in parts]
+rep('C013',[('C013',[(200,335),(235,325),(285,435),(265,480),(225,475)]),('C013',[(295,435),(465,345),(475,375),(315,465)])])
+rep('C017',[('C017',[(285,430),(465,365),(570,325),(575,340),(485,385),(495,420),(320,480),(285,465)])])
+D['C025']['parts']=D['C025']['parts'][:2];D['C025']['note']='To tydelige båtplassrekker i historisk rapportområde. Øvrige tomme/små enkeltbrygger utelatt. Historisk kapasitet 142 gjelder større rapportområde og er ikke kapasitet for de to omrissene.'
+rep('C028',[('M16',[(395,205),(420,195),(445,225),(420,245)]),('M16',[(440,185),(465,175),(485,205),(460,225)])])
+rep('C029',[('M05',[(280,450),(315,425),(355,475),(345,535),(330,540),(320,485)])])
+rep('C038',[('M18',[(350,50),(425,50),(455,105),(450,285),(350,265)])])
+D['C038']['note']='Fire brygger på vestbredden sør for Walberg, sikkert koblet mot kommunerapportens foto side 56. Holdes adskilt fra Walberg marina.'
+rep('C048',[('C048',[(315,490),(455,390),(485,440),(395,515),(325,510)])])
+rep('M01',[('M01',[(445,420),(555,400),(565,455),(455,480)]),('M01',[(400,525),(560,485),(570,535),(410,575)])])
+rep('M04N',[('M04',[(298,285),(385,260),(405,325),(330,345),(300,345)])])
+rep('M04S',[('M04',[(325,385),(480,395),(485,435),(325,425)]),('M04',[(500,640),(580,660),(525,790),(490,780),(530,700),(485,690)])])
+rep('M06',[('M06',[(275,430),(370,415),(375,450),(275,475)]),('M06',[(270,510),(375,465),(395,490),(295,550)])])
+rep('M11',[('M11',[(170,305),(470,315),(470,350),(455,375),(455,650),(350,655),(310,640),(310,600),(250,585),(250,565),(200,555),(200,495),(160,485)]),('M11',[(300,680),(350,675),(420,680),(465,690),(510,685),(510,695),(465,700),(415,690),(350,685),(300,690)])])
+D['M12W']['parts']=D['M12W']['parts'][:1];D['M12W']['note']='Vestlig anlegg nord for Bryggen båthavn, koblet mot kommunerapportens foto side 59. Ikke slått sammen med sørlige nabobrygger.'
+D['M18']['related']=['C038'];D['M18']['reason']='Kontrollramme for Bryggen båthavn, sikkert koblet til rapportfoto side 56.'
+rep('M13',[('M13',[(185,270),(270,270),(600,365),(560,505),(455,485),(305,450),(180,420)]),('M13',[(20,390),(70,375),(120,520),(85,540)])])
+omit('M21','Detaljramme for separat østre bryggegruppe, inkludert gjennom M13E.', ['M13E'])
+rep('M13E',[('M21',[(280,390),(315,380),(345,460),(310,475)]),('M21',[(355,350),(395,340),(450,435),(415,455)])])
+D['M13E']['note']='To fysisk adskilte båtplasspirer øst for Grimsøy marina. Felles drift og plassantall per pir er usikre; ingen summering av private brygger som terskelbevis. Foreløpig mulig gruppe, ikke kapasitetstillegg til hovedmarinaen.'
+rep('M12E',[('M12',[(445,120),(610,185),(575,285),(545,405),(395,370),(410,285)]),('M12',[(425,415),(525,420),(525,595),(390,595),(390,540),(410,455)])])
+# Landbaserte opplagsbåter ved Helleskjær er ikke båtplasser i sjøen.
+D['C013']['parts']=D['C013']['parts'][1:]
+D['C013']['note']='Kun småbåter langs sjøvendt kai er avgrenset; landbasert opplag utelatt. Fast plassutleie kontra servicebruk må avklares.'
+rep('M01',[('M01',[(430,420),(555,400),(570,460),(445,485)]),('M01',[(400,525),(560,485),(570,535),(410,575)])])
+D['C059']['parts'].append(dict(frame='C059',pixels=[(185,500),(330,550),(315,585),(175,535)]))
+# Sørligste pir er på Halden-siden; et tomt sjøutklipp skal ikke eksporteres.
+D['C059']['parts']=D['C059']['parts'][:2]

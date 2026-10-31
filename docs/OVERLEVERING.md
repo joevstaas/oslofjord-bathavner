@@ -44,3 +44,21 @@ Lokal bilde-/råkildesamling ligger i `work/3110-hvaler/`, utenfor Git. Tekniske
 ### Bamble – revisjon 2 godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente rev-02 og ba om commit, push og PR. Alle 59 polygoner / 53 anleggsgrupper er innlemmet, inkludert 13 mulige havner og 33 usikre avgrensninger. Samlet 630 polygoner fra 20 kommuner. De 571 tidligere godkjente features, inkludert Frogn, Vestby og Hvaler fra siste main, er bevart med kanonisk SHA-256 i `data/kommuner/4012-bamble/rev-02/approval.json`. Rev-01 er bevart som historisk, ikke-godkjent leveranse. Skydekte deler av industrikysten, ukjent bildedato/drift og øvrige åpne avklaringer beholdes. Godkjenning verifiserer ikke fullstendighet eller antall operatører. Nettstedets kartdata og kommunestatus er oppdatert. Ingen neste kommune er startet.
+
+### Sarpsborg rev-01 – ferdig til godkjenning 2026-10-31
+
+Gjeldende avventende leveranse: `data/kommuner/3105-sarpsborg/rev-01/`, 54 polygoner / 39 foreløpige anleggsgrupper, inkludert 11 mulige. 53 avgrensninger har ekstra kontrollbehov, alle har ukjent bildedato. Ti åpne punkter er bevart. Samledata/nettsted er fortsatt 630 polygoner / 20 godkjente kommuner; Sarpsborg er ikke innlemmet og Halden er ikke startet.
+
+Se kommune-README, `coverage.json`, `validation.json`, `visual-review.json`, `source-candidates.json` og `open-questions.json`. Særlig viktig: seilforeningens nye pirer fra 2025 er ikke avbildet sikkert; historiske kapasiteter fra 2013 er ikke nåtidsmålinger. Bryggen og Walberg er skilt, og Røsnes er klippet ved Halden-grensen. Kysten er systematisk bildesøkt i 137 celler / 35 ark, innlandet bare kandidatvis.
+
+Arbeidsmappe `work/3105-sarpsborg/` har originalbilder, omprojiserte utsnitt/mosaikker, rå XML/PDF/HTML og QA utenfor Git. Disse må bevares separat for identisk visuell kontroll. `analysis-config/` bevarer lette innganger; `restore_config.py` kopierer dem tilbake uten overskriving. `build.py` og `finalize.py` stopper ved godkjent revisjon. Nye råuttak kan endre bildet og må ikke fremstilles som identisk rekonstruksjon. Gjeldende gren: `codex/sarpsborg-analysis`; ingen commit/push/PR bestilt for denne analysen.
+
+### Sarpsborg rev-02 – rettet etter brukerinnspill
+
+Gjeldende avventende revisjon er nå `data/kommuner/3105-sarpsborg/rev-02/`: 62 polygoner / 46 foreløpige grupper, 16 mulige, 61 usikre avgrensninger. Åtte polygoner / sju grupper er lagt til etter seks stedfestede brukerbilder. Holm er allerede kartlagt i Fredrikstad; Øketangen, Materialgården, Karlsøy bru, Bjerkenes og Kapellanveien ga tillegg. Alle 54 tidligere geometrier og ID-er er uendret; rev-01 er bevart. Se `user-feedback.json`, `revision-changes.json` og kommune-README. Elleve åpne avklaringer beholdes. Godkjente samledata/nettsted er uendret, og Halden er ikke startet.
+
+Bruk `rereview_build.py`, `rereview_qa.py`, `rereview_validate.py` og `rereview_finish.py` for rev-02. Nye omriss og bildehenvisninger ligger i `rereview_decisions.py`. Brukeroriginaler, søkeutsnitt og QA ligger lokalt utenfor Git. De tidligere generiske skriptene bygger rev-01 og skal ikke brukes som erstatning for rev-02. Ingen commit, push eller PR er bestilt for denne rettingen.
+
+### Sarpsborg rev-02 godkjent og innlemmet
+
+Brukeren har godkjent Sarpsborg rev-02 og bestilt commit, push og PR. Samlefil og nettsted inneholder nå 692 polygoner / 21 godkjente kommuner. Sarpsborg bidrar med 62 polygoner / 46 foreløpige grupper, inkludert 16 mulige og 61 usikre avgrensninger. Elleve åpne avklaringer er beholdt. De 630 tidligere features er kontrollert uendret; se `data/kommuner/3105-sarpsborg/rev-02/approval.json`. Halden er ikke startet. Kjør `rereview_validate.py` for godkjent rev-02; byggeskriptene stopper ved godkjent revisjon.

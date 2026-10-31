@@ -1,0 +1,12 @@
+{
+ "polygons": 54,
+ "harbours": 39,
+ "possible_harbours": 11,
+ "uncertain_geometries": 53,
+ "osm_piers": 121,
+ "osm_clusters": 59,
+ "image_review_frames": 21,
+ "municipal_source_candidates": 28,
+ "published_capacity_harbours": 3,
+ "open_questions": 10
+}
