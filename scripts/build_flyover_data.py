@@ -40,7 +40,7 @@ for f in fc['features']:
     g = shape(f['geometry'])
     feats.append(dict(type='Feature', id=len(feats), geometry=dict(type='Polygon', coordinates=rnd(f['geometry']['coordinates'])), properties=dict(
         id=p['id'], hid=p['harbour_id'], name=p['name'], mun=p['municipality'], cls=cls,
-        basis=('Shared visitor jetties; permanent berth count unclear' if p.get('municipality_code') == '3214' and cls == 'mulig_smabathavn' else 'Shared boat jetty; permanent berth count and operator link unclear' if (p.get('candidate_id') == 'NF002' and p.get('municipality_code') == '3207') or (p.get('municipality_code') == '3212' and cls == 'mulig_smabathavn') else basis_en(p.get('classification_basis'))), area=round(p.get('area_m2') or 0),
+        basis=('Shared jetties; permanent berth count or organisation unclear' if p.get('municipality_code') == '3216' and cls == 'mulig_smabathavn' else 'Shared visitor jetties; permanent berth count unclear' if p.get('municipality_code') == '3214' and cls == 'mulig_smabathavn' else 'Shared boat jetty; permanent berth count and operator link unclear' if (p.get('candidate_id') == 'NF002' and p.get('municipality_code') == '3207') or (p.get('municipality_code') == '3212' and cls == 'mulig_smabathavn') else basis_en(p.get('classification_basis'))), area=round(p.get('area_m2') or 0),
         berths=(None if p.get('cross_municipality_group_id') else p.get('berth_count_published')), method=meth,
         gid=p.get('cross_municipality_group_id') or p['harbour_id'],
         unc=bool(p.get('needs_orthophoto_review')), clip=bool(p.get('municipality_clipped')),

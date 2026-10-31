@@ -1,0 +1,18 @@
+{
+ "started_utc": "2026-10-31T13:12:12.582998+00:00",
+ "started_unix": 1793452332.5830128,
+ "municipality": "Vestby",
+ "code": "3216",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "3892b2f5f69697eb67f1a5b23b30adff0a1f933d2016b4e3c674f919f077898b",
+  "data/samlet/samlet-manifest.json": "35797edbc7c97bc394ed76566461d49ac41f63083bff5f9283af5e6c24bc28fb"
+ },
+ "finished_utc": "2026-10-31T13:28:59+00:00",
+ "elapsed_wall_seconds": 1007,
+ "tokens_measured": null,
+ "cost_measured": null,
+ "note": "Målt veggklokketid inkl. venting og gjentatte tjenestefeil; ikke ren prosessortid."
+}

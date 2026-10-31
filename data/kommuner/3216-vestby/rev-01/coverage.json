@@ -1,0 +1,42 @@
+{
+ "scope": "Systematisk kystsøk fra Solbergelva til grensen mot Moss, inkludert øyene ved Son, Sauholmene og Gjøva. Innlandet ikke systematisk bildesøkt.",
+ "osm_queries": "Fire komplette delruter. Sørøstlig innlandsrute feilet gjentatte ganger, men lyktes til slutt på overpass-api.de med fire elementer. Tidligere delvise merges er erstattet av komplett svar.",
+ "osm_coast_length_m": 28147.0,
+ "coast_outside_image_coverage_m": 0.0,
+ "coast_tiles": 31,
+ "additional_images": 1,
+ "coast_contact_sheets": [
+  "work/3216-vestby/qa/coast-sheet-0.jpg",
+  "work/3216-vestby/qa/coast-sheet-1.jpg",
+  "work/3216-vestby/qa/coast-sheet-2.jpg",
+  "work/3216-vestby/qa/coast-sheet-3.jpg",
+  "work/3216-vestby/qa/coast-sheet-4.jpg",
+  "work/3216-vestby/qa/coast-sheet-5.jpg"
+ ],
+ "osm_piers": 68,
+ "osm_clusters_reviewed": 16,
+ "extra_gap_candidates": [
+  "G001",
+  "G002"
+ ],
+ "gap_sweep": "Alle 31 kystfliser gjennomgått uavhengig av OSM-klyngene. G001 ved Hvitsten og G002 ved Kjøvangen mangler egne OSM-pirer. G002 beholdes mulig fordi felles organisering ikke er dokumentert.",
+ "additional_review_frames": [
+  "V001",
+  "V002"
+ ],
+ "final_outline_qa": [
+  "work/3216-vestby/qa/qa-0.jpg",
+  "work/3216-vestby/qa/qa-1.jpg"
+ ],
+ "final_outline_qa_reviewed": true,
+ "limitations": [
+  "Opptaksdato og absolutt posisjonsnøyaktighet ukjent. Eksportoppløsning er ikke målenøyaktighet.",
+  "Nye bryggetegninger og operatørkart fra 2025 er ikke bevis på bygget geometri eller dagens drift.",
+  "Sonskilen/Hølenselva og Søndre Brevik har motstridende kapasitetstall; kildeverdier beholdes separat uten sum eller entydig kapasitet.",
+  "65 reserverbare gjesteplasser er ikke total kapasitet og er ikke sikkert stedfestet bare til gjestehavnspolygonet.",
+  "Bade-/service-/anløpskaier og private enkeltbrygger summeres ikke til felles havn.",
+  "Originalbilder, operatørkart og råkilder holdes lokalt, utenfor Git. To filer merket Havnekart 2018/2019 viste kun et kartikon og er ikke brukt som kartbelegg.",
+  "Ingen fullstendighetspåstand; Hølenselva oppstrøms og innlandet trenger supplerende kontroll."
+ ],
+ "reviewed_utc": "2026-10-31T13:28:59+00:00"
+}

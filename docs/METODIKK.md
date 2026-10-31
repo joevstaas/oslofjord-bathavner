@@ -869,3 +869,17 @@ Gyldighet, unike ID-er, kommunegrense, overlapp mot alle 469 godkjente polygoner
 ### Frogn – godkjent og innlemmet 2026-10-31
 
 Brukeren godkjente rev-01 og ba om commit, push og PR. Alle 24 polygoner / 18 anleggsgrupper er innlemmet, inkludert mulig Bergholmen. Samlefilen har 493 polygoner fra 17 kommuner. De 469 tidligere features er bevart uendret, kontrollert med kanonisk SHA-256 i `approval.json`. Ti usikre avgrensninger, ukjent opptaksdato/posisjonsnøyaktighet og fem åpne kildeavklaringer beholdes, inkludert Solbukta uten nåtidspolygon og uavklarte operatørgrenser. Godkjenning er ikke verifikasjon av dagens kapasitet, drift eller fullstendighet. Nettstedets lokale kartdata og kommunestatus er oppdatert; publisering krever merge/utrulling. Vestby er ikke startet.
+
+
+### Vestby – rev-01 til godkjenning 2026-10-31
+
+Brukeren ba om neste kommune etter merge av PR #7. Vestby (3216) er kartlagt på egen branch fra main 0463f63. Leveransen i `data/kommuner/3216-vestby/rev-01/` har 9 sjøpolygoner / 8 anleggsgrupper, inkludert 3 mulige (Andersbrygga, Sonsbuktas vestside og Kjøvangen). Alle ni avgrensninger har kontrollbehov. Fire komplette Overpass-delruter ga 68 grensenære pirer i 16 klynger. Alle ble visuelt kontrollert, sammen med uavhengig gjennomgang av 31 kystfliser og ett detaljbilde; Hvitsten nord og Kjøvangen er ekstra bildekandidater uten egne OSM-pirer. Son-hovedbassenget og molobrygga ble samlet i ett sjøpolygon etter overlappskontroll.
+
+Kapasitet bevares feltvis: Sonskilens 679 og 775 står i konflikt, og Søndre Breviks 141 andelsplasser står mot Havnewebs 150–200 båter ekskl. joller. Son Gjestehavns 65 forhåndsreserverbare plasser er en delmengde, ikke total. Ingen entydig scalar kapasitet påføres; komponentenes omfang og ukjente referanseperiode følger dataene. Son havn nord/Sonskilen behandles som fysisk fleroperatørgruppe; SC ved Son Spa unntas uttrykkelig fra kommunalt operatøransvar uten at det skaper en udokumentert eiendomsgrense.
+
+Operatørkart fra 2025 brukes til navne-/inndelingskontroll, ikke som bevis på bygget geometri. Datert ortofoto trengs ved omtalte bryggeendringer. Båtplasser oppstrøms i Hølenselva/Såna er beholdt som åpen avklaring uten ekstra polygon. Bade-/anløpskaier og separate private brygger er utelatt. Alle endelige omriss er visuelt kontrollert etter eksport; teknisk kontroll av geometri, grense, unike ID-er, overlapp mot 493 godkjente polygoner, CSV og bildehash/dekoding bestått. Samledata, manifest og nettsted er uendret. Vestby venter på godkjenning; Hvaler er ikke startet. Målt veggklokketid ligger i leveransen; ingen målt token-/kostnadspåstand.
+
+
+### Vestby – godkjent og innlemmet 2026-10-31
+
+Brukeren godkjente rev-01 og ba om commit, merge og PR. Alle 9 polygoner / 8 anleggsgrupper er innlemmet, inkludert 3 mulige. Samlet 502 polygoner fra 18 kommuner. De 493 tidligere features er kontrollert uendret med kanonisk SHA-256 i `approval.json`. Alle ni avgrensningers kontrollbehov, kapasitetskonflikter, fire åpne kildeavklaringer og ukjent bildeopptaksdato beholdes. Godkjenning er ikke verifikasjon av dagens drift, kapasitet eller fullstendighet. Nettstedets lokale kartdata og kommunestatus er oppdatert. Hvaler er ikke startet.

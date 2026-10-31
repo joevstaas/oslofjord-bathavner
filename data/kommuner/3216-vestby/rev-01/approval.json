@@ -1,0 +1,11 @@
+{
+ "approved_utc": "2026-10-31T13:32:03Z",
+ "authorization": "Bruker: Godkjent",
+ "revision": 1,
+ "polygons": 9,
+ "known_uncertainties_retained": true,
+ "previous_features": 493,
+ "previous_features_sha256": "cfe8e38f4bf4aa7412187f2304c577757df475ed6df60d237a1f564c9f17462c",
+ "combined_features": 502,
+ "municipalities": 18
+}
