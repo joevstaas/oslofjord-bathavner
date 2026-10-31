@@ -414,7 +414,16 @@ const BASE = location.pathname.replace(/index\.html?$/, '').replace(/\/?$/, '/')
 const COLORS = { smabathavn: '#46d3c6', mulig_smabathavn: '#ffb547', pilot: '#e9dcb8' };
 const CLS_LABEL = { smabathavn: 'Harbour', mulig_smabathavn: 'Possible harbour', pilot: 'Pilot (map-based)' };
 const ROUTE = ['Oslo', 'Bærum', 'Asker', 'Lier', 'Drammen', 'Holmestrand', 'Horten', 'Tønsberg', 'Færder', 'Sandefjord', 'Larvik',
-  'Hvaler', 'Fredrikstad', 'Råde', 'Moss', 'Vestby', 'Frogn', 'Nesodden', '__home'];
+  'Porsgrunn', 'Bamble', 'Halden', 'Hvaler', 'Fredrikstad', 'Sarpsborg', 'Råde', 'Moss', 'Vestby', 'Frogn', 'Nesodden', 'Nordre Follo'];
+function tourMunicipalities(municipalities) {
+  const names = new Set(municipalities.map(m => m.name));
+  // Preserve the coastal route; newly mapped municipalities must never silently disappear.
+  return [...ROUTE.filter(name => names.has(name)), ...[...names].filter(name => !ROUTE.includes(name)).sort((a, b) => a.localeCompare(b, 'nb'))];
+}
+function tourProgress(stops, index) {
+  const total = stops.filter(stop => !stop.home).length;
+  return { total, current: Math.min(Math.max(index + 1, 0), total) };
+}
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('en-US');
 const mobileViewport = matchMedia('(max-width:720px)');
@@ -616,7 +625,7 @@ function bearingTo(a, b) {
 }
 function buildTour() {
   const byName = Object.fromEntries(M.features.map(f => [f.properties.name, f.properties]));
-  for (const name of ROUTE) {
+  for (const name of [...tourMunicipalities(M.features.map(f => f.properties)), '__home']) {
     if (name === '__home') { stops.push({ name: 'Oslo', home: true, center: [10.72, 59.875], zoom: 10.9, pitch: 58 }); continue; }
     const m = byName[name]; if (!m) continue;
     if (m.state === 'remaining') { stops.push({ name, todo: true, center: [m.lx, m.ly], zoom: 12.1, pitch: 62 }); continue; }
@@ -644,10 +653,10 @@ function caption(s) {
   if (!s) { c.classList.remove('show'); return; }
   const k = $('capK');
   k.className = 'k' + (s.todo ? ' todo' : '');
-  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || matchesCapacity(f.properties)).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${M.features.filter(f => f.properties.state === 'mapped').length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
+  if (s.home) { k.textContent = 'Journey complete'; $('capH').textContent = `${fmt(new Set(H.features.filter(f => !largeOnly || matchesCapacity(f.properties)).map(f => f.properties.gid || f.properties.hid)).size)} harbours, ${stops.filter(stop => !stop.home && !stop.todo).length} municipalities`; $('capP').textContent = largeOnly ? 'Capacity-filtered tour. Published counts and optional area estimates are shown separately in each harbour card.' : HOME_TEXT; }
   else if (s.todo) { k.textContent = 'Not yet mapped'; $('capH').textContent = s.name; $('capP').textContent = 'Part of the project scope. Harbours here will be added in the next batch.'; }
   else {
-    k.textContent = `Stop ${idx + 1} of ${stops.length}`;
+    k.textContent = `Stop ${idx + 1} of ${tourProgress(stops, idx).total}`;
     $('capH').textContent = s.name;
     $('capP').innerHTML = `${largeOnly ? `${s.filteredCount} harbours in capacity filter` : `${s.m.harbours} harbours · ${s.m.polygons} polygons`}${!largeOnly && s.possible ? ` · ${s.possible} possible` : ''}<br>Largest: ${escapeHtml(s.top.name)} (${fmt(Math.round(s.top.area))} m²)`;
   }
@@ -655,9 +664,10 @@ function caption(s) {
 }
 function updateProg() {
   const s = stops[idx];
-  $('progName').textContent = s ? s.name : 'Flyover tour';
-  $('progN').textContent = `${Math.max(idx + 1, 0)}/${stops.length}`;
-  $('bar').firstElementChild.style.width = `${stops.length ? (Math.max(idx + 1, 0) / stops.length) * 100 : 0}%`;
+  const progress = tourProgress(stops, idx);
+  $('progName').textContent = s?.home ? 'Back in Oslo' : s ? s.name : 'Flyover tour';
+  $('progN').textContent = `${progress.current}/${progress.total}`;
+  $('bar').firstElementChild.style.width = `${progress.total ? (progress.current / progress.total) * 100 : 0}%`;
 }
 const wait = (ms, t) => new Promise(res => setTimeout(() => res(t === token), ms));
 function moveEnd(t) { return new Promise(res => map.once('moveend', () => res(t === token))); }
