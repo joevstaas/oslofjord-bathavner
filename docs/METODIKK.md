@@ -840,3 +840,18 @@ Læring: behold ferskvannskandidater eksplisitt atskilt fra fjordhavner. En gren
 #### Godkjenning og innlemming av Nordre Follo
 
 Brukeren godkjente revisjon 1 med «Godkjent» 2026-10-31. Begge polygonene er innlemmet; samlet 458 polygoner fra 15 godkjente kommuner. Alle 456 eldre features er bevart uendret. Mulig-klasse for Gjevika, ferskvannsmerking, ukjent bildedato, åpne kildekandidater og grensegruppe er beholdt. Nettstedets lokale kartdata og kommunestatus er oppdatert; publisering skjer først ved senere utrulling. Globale havnetall bruker grensegruppe som felles nøkkel (også den eksisterende Gyssestad-gruppen), mens kommunekort beholder lokale ID-er. Dette gir 402 anleggsgrupper inkludert mulige havner, ikke 404 kommunale grupper telt hver for seg. Publiserte 350 plasser er fortsatt bare en hel-havn-opplysning i primærdata; de vises ikke som kapasitet for Nordre Follo-delen. Ingen neste kommune er startet.
+
+
+### Nesodden – revisjon 1 til godkjenning, 2026-10-31
+
+Brukeren ba om neste kommune; Nesodden (3212) ble valgt fra rekkefølgen i status.json. Leveransen ligger i `data/kommuner/3212-nesodden/rev-01/`: 11 anleggsgrupper / 11 polygoner, inkludert tre mulige (to på Ildjernet og ett ved Kavringstrand). Fem har eksplisitt usikker avgrensning. Alle venter på godkjenning; godkjent samlefil og nettsted er uendret, fortsatt 458 polygoner / 15 kommuner. Ingen neste kommune startet.
+
+Metode 1.2 / skjema 1.1. Alle omriss er manuelt digitalisert i georefererte bilder. 65 kystfliser dekker ca. 55,15 km OSM-kystlinje innen kommunen med grensemargin, inkludert øyer. Kontaktark er gjennomgått uavhengig av kandidatsøket; 310 kartlagte bryggeobjekter er vurdert i 84 klynger. Totalt 72 vellykkede originalbilder, hvorav seks ekstra detaljbilder og ett supplerende innlandsutsnitt. Innlandet er ikke systematisk fullkartlagt. Alle 11 eksportomriss er kontrollert visuelt; geometri, grense, ID-er, CSV og overlapp er validert uten funn.
+
+Oksvals ca. 290 ordinære plasser og Spros ca. 180 publiserte plasser bevares med kilde og ukjent referanseperiode. Medlemmer og tilgjengelige gjesteplasser er ikke brukt som total kapasitet. Spro vises med fysisk molo og brygger; publiserte 2026-tilbud og omtalt ferdigstillelse/fornyelse daterer ikke selve bildet. Steilene krever også kontroll mot datert ortofoto etter fornyelse. Bomansvik beholdes som åpen kildekandidat uten polygon; manglende sikker geometri er ikke fravær av havn. Kavringstrands operatørkobling og mulig felles fysisk havnegruppe med Kavringen er uavklart. Industri-/treningskaier ved Svestad, rutebåt-/frilufts-/badebrygger og separate private landfester kvalifiserer ikke alene.
+
+Læring: et OSM-marina-merke i nærheten av en privat brygge eller servicekai beviser ikke havnetilhørighet. Pirklynger er bare søkehjelp, ikke ferdige havnegrupper. Nye utbygginger kan finnes i bildet selv om landarealene fortsatt fremstår under arbeid; kildeoppgitt ferdigstillelse og bildeopptaksdato må holdes adskilt. Se README, åpne spørsmål og kildeproveniens. Tidsbruk er målt veggklokketid inkludert nettventing; tokens/pris er ikke målt.
+
+#### Godkjenning og innlemming av Nesodden
+
+Brukeren godkjente revisjon 1 med «Godkjent» 2026-10-31. Alle 11 polygoner er innlemmet, inkludert de tre mulige havnene; samlet 469 polygoner fra 16 godkjente kommuner. De 458 tidligere godkjente features er kontrollert uendret med kanonisk SHA-256. Fem usikre avgrensninger, ukjent bildeopptaksdato og åpne spørsmål om Bomansvik, Kavringstrand, Ildjernet og Steilene beholdes. Godkjenning er ikke verifikasjon av fullstendighet, dagens kapasitet eller operatørgrenser. Nettstedets lokale kartdata/kommunestatus er oppdatert; publisering krever senere utrulling. Ingen neste kommune er startet.

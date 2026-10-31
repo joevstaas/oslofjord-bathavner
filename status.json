@@ -1,5 +1,5 @@
 {
- "updated_utc": "2026-10-31T11:00:18Z",
+ "updated_utc": "2026-10-31T12:06:46Z",
  "approval_required_before_next": true,
  "municipalities": [
   {
@@ -274,6 +274,26 @@
    "work_dir": "work/3207-nordre-follo",
    "approved_utc": "2026-10-31T11:00:18Z",
    "candidate_ledger": "data/kommuner/3207-nordre-follo/rev-01/candidate-ledger.json"
+  },
+  {
+   "name": "Nesodden",
+   "code": "3212",
+   "status": "godkjent_av_bruker",
+   "revision": 1,
+   "method_version": "1.2",
+   "schema_version": "1.1",
+   "started_utc": "2026-10-31T11:23:12.088375+00:00",
+   "finished_utc": "2026-10-31T11:48:48+00:00",
+   "elapsed_wall_seconds": 1537,
+   "result": "data/kommuner/3212-nesodden/rev-01/bathavner.geojson",
+   "metadata": "data/kommuner/3212-nesodden/rev-01/metadata.csv",
+   "candidate_ledger": "data/kommuner/3212-nesodden/rev-01/candidate-ledger.json",
+   "polygons": 11,
+   "harbours": 11,
+   "possible_harbours": 3,
+   "uncertain_geometries": 5,
+   "approved_utc": "2026-10-31T12:06:46Z",
+   "work_dir": "work/3212-nesodden"
   }
  ],
  "next_municipality_started": false,
@@ -293,9 +313,8 @@
   "finished_utc": "2026-10-30T00:04:27Z",
   "approved_utc": "2026-10-30T05:46:52Z"
  },
- "in_progress": "Nordre Follo rev-01 godkjent og innlemmet. Samlet 458 polygoner / 15 kommuner. Ingen neste kommune startet.",
+ "in_progress": "Nesodden rev-01 godkjent og innlemmet. Samlet 469 polygoner / 16 kommuner. Ingen neste kommune startet.",
  "remaining_after_batch": [
-  "Nesodden 3212",
   "Frogn 3214",
   "Vestby 3216",
   "Hvaler 3110",

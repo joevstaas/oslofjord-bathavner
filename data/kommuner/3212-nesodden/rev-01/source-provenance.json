@@ -1,0 +1,150 @@
+[
+ {
+  "local_source": "work/3212-nesodden/raw/alvaern-turisme-provenance.json",
+  "url": "https://opplevnesodden.no/featured_item/alvaern/",
+  "retrieved_utc": "2026-10-31T11:32:48.517097+00:00",
+  "sha256": "d2a2e5259ede8eb12a87c96d1077e1e3830efa3b0af7e4bdf5728ce1cf380c11"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/brreg-818992912-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/818992912",
+  "sha256": "d92d02b356f60fe44035a71056539ae77dbc1de90f5ebfb7d44e2cb53a0fccea",
+  "retrieved_utc": "2026-10-31T11:45:00.142319+00:00"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/brreg-976720563-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/976720563",
+  "sha256": "67a9e4e11f9bb64272e3c314ae2e7186ea7fb3f68b0fc6b82c2420742cad29c0",
+  "retrieved_utc": "2026-10-31T11:44:59.966532+00:00"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/brreg-983764940-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/983764940",
+  "sha256": "5c66bf563594e219a472026a8b2a53a0b4acb4841443172e6f2f85d6819f852b",
+  "retrieved_utc": "2026-10-31T11:45:00.464682+00:00"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/brreg-996179508-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter/996179508",
+  "sha256": "8948deb8565f1eb6f53d5ab88545cd8485c1ca46bb35b2ed1f5966e543d4ee7c",
+  "retrieved_utc": "2026-10-31T11:45:00.089577+00:00"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/brreg-bat-provenance.json",
+  "url": "https://data.brreg.no/enhetsregisteret/api/enheter?kommunenummer=3212&navn=b%C3%A5t&size=100",
+  "retrieved_utc": "2026-10-31T11:32:46.659239+00:00",
+  "sha256": "35705b6541a9d5c9bed05b174a8cffc8343303a679d647a76a1112c7864dda1f"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/esri-service.json.provenance.json",
+  "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=pjson",
+  "retrieved_utc": "2026-10-31T11:23:13.775868+00:00",
+  "sha256": "3c41ca79d7ddc2267fa1ac60c43263acbfed04915e3b2433e6b8e5d30378e2dc"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/fagerstrand-provenance.json",
+  "url": "https://www.havneweb.no/fabat/?mod=startsiden",
+  "retrieved_utc": "2026-10-31T11:24:18.167418+00:00",
+  "sha256": "39e5dddc1542c6ff26c435b3e235c89da9bf90eebf2cff913d0a7cf1d2c42ceb"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/fjellstrand-turisme-provenance.json",
+  "url": "https://opplevnesodden.no/featured_item/fjellstrand/",
+  "retrieved_utc": "2026-10-31T11:32:48.640664+00:00",
+  "sha256": "e80da1b030a2567400c4d66beda0bb9b42b23e8ac5c039d89486080a1f0bb986"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/kavringen-provenance.json",
+  "url": "https://www.havneweb.no/sjosenteretnesodden/",
+  "retrieved_utc": "2026-10-31T11:24:18.937432+00:00",
+  "sha256": "e84b59eb2d08fd8b8d9a024434ce32606ef5616e57625d972763489cfda200bf"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/knbf-provenance.json",
+  "url": "https://www.knbf.no/regioner/ost/medlemsforeninger-ost/",
+  "sha256": "d36437aebfb20d93925712698286f4f3c506c58e6a7a88c786d83cfb312f9112",
+  "retrieved_utc": "2026-10-31T11:45:03.937840+00:00"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/kommunegrense-4326.json.provenance.json",
+  "url": "https://api.kartverket.no/kommuneinfo/v1/kommuner/3212/omrade?utkoordsys=4326",
+  "retrieved_utc": "2026-10-31T11:23:13.402322+00:00",
+  "sha256": "d86ab1bf3ca8e15bacf26ffa2355e6f07b43b08a24a6b2e3506c2eb250aeb109"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/obu-provenance.json",
+  "url": "https://obat.no/obu-havner/",
+  "retrieved_utc": "2026-10-31T11:32:47.997049+00:00",
+  "sha256": "bbeedf99582527f82dcb9308c44c0065cd9c734ea5dc421034622a35bd205005"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/oksval-provenance.json",
+  "url": "https://www.obh.no/omoss/historie/",
+  "retrieved_utc": "2026-10-31T11:24:18.318866+00:00",
+  "sha256": "a16cdae1a36700de09e45f250084f97d63da7cad9b9acc6dece3c6b55ed2b80d"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/overpass-tile-0.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);nwr[\"mooring\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);nwr[\"harbour\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);nwr[\"leisure\"=\"slipway\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);way[\"man_made\"=\"pier\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);way[\"man_made\"=\"breakwater\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115);way[\"natural\"=\"coastline\"](59.7221195145921,10.542100572867433,59.80326499956863,10.643060120503115););out geom tags;",
+  "retrieved_utc": "2026-10-31T11:28:06.212008+00:00",
+  "sha256": "6795a3297a785208ce2f19a2c43cb25d2e3de8c2c8fad0ce37f10d17bea8df3a"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/overpass-tile-1.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);nwr[\"mooring\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);nwr[\"harbour\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);nwr[\"leisure\"=\"slipway\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);way[\"man_made\"=\"pier\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);way[\"man_made\"=\"breakwater\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796);way[\"natural\"=\"coastline\"](59.7221195145921,10.643060120503115,59.80326499956863,10.744019668138796););out geom tags;",
+  "retrieved_utc": "2026-10-31T11:28:06.793570+00:00",
+  "sha256": "ef954151b0d480f9782540a51bcd652d1a782c0f3757fefdf32a16716c300c3e"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/overpass-tile-2.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter?data=%5Bout%3Ajson%5D%5Btimeout%3A30%5D%3B%28nwr%5B%22leisure%22%3D%22marina%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bnwr%5B%22mooring%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bnwr%5B%22harbour%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bnwr%5B%22leisure%22%3D%22slipway%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bway%5B%22man_made%22%3D%22pier%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bway%5B%22man_made%22%3D%22breakwater%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3Bway%5B%22natural%22%3D%22coastline%22%5D%2859.80326499956863%2C10.542100572867433%2C59.884410484545164%2C10.643060120503115%29%3B%29%3Bout+geom+tags%3B",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);nwr[\"mooring\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);nwr[\"harbour\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);nwr[\"leisure\"=\"slipway\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);way[\"man_made\"=\"pier\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);way[\"man_made\"=\"breakwater\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115);way[\"natural\"=\"coastline\"](59.80326499956863,10.542100572867433,59.884410484545164,10.643060120503115););out geom tags;",
+  "retrieved_utc": "2026-10-31T11:27:09.960515+00:00",
+  "sha256": "3378191d0cb34ea1b276fe9a89f7d3cc34d7ee2ec0af722734b935b742e8668f"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/overpass-tile-3.provenance.json",
+  "url": "https://maps.mail.ru/osm/tools/overpass/api/interpreter",
+  "query": "[out:json][timeout:30];(nwr[\"leisure\"=\"marina\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);nwr[\"mooring\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);nwr[\"harbour\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);nwr[\"leisure\"=\"slipway\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);way[\"man_made\"=\"pier\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);way[\"man_made\"=\"breakwater\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796);way[\"natural\"=\"coastline\"](59.80326499956863,10.643060120503115,59.884410484545164,10.744019668138796););out geom tags;",
+  "retrieved_utc": "2026-10-31T11:26:55.609815+00:00",
+  "sha256": "4fe202cbda9c5f1bb9b956149a6a89c29311054e9e2b15edc2cee02c668430ee"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/spro-provenance.json",
+  "url": "https://sprobathavn.no/",
+  "retrieved_utc": "2026-10-31T11:24:19.131423+00:00",
+  "sha256": "e1e5803476333c63bf19ed8bbde219d82eb64bcc0ae2c3ed84fdf51992c56ca2"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/spro-utbygger-provenance.json",
+  "url": "https://www.hersleth.no/eiendom/utviklingsomrader/spro-havn-nesodden",
+  "retrieved_utc": "2026-10-31T11:32:48.859126+00:00",
+  "sha256": "844a4cabd01c88e438cf636c528533db14dd6644b5373273a30c855f4a971f06"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/steilene-provenance.json",
+  "url": "https://nesoddenseilforening.no/next/p/97799/havna",
+  "retrieved_utc": "2026-10-31T11:24:19.317073+00:00",
+  "sha256": "84ce73a5b775d0f9eb8b97e98fcbccaf2f333e5d252506a14836f195d37c506b"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/turisme-provenance.json",
+  "url": "https://opplevnesodden.no/overnatting/",
+  "retrieved_utc": "2026-10-31T11:24:21.149434+00:00",
+  "sha256": "52b6a6cd4a83e440b4c42cb33879ad23e0cac607a1178006a432cbbc1a989772"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/ursvik-provenance.json",
+  "url": "https://www.ursvikbukten.no/",
+  "retrieved_utc": "2026-10-31T11:24:18.672491+00:00",
+  "sha256": "cce8781be927cca3104a36f4b98236562e2982e32fd376d7dff4cb197c12175b"
+ },
+ {
+  "local_source": "work/3212-nesodden/raw/ursvik-vel-provenance.json",
+  "url": "https://ursvik.inngangen.com/2024/forslag.html",
+  "retrieved_utc": "2026-10-31T11:32:46.338884+00:00",
+  "sha256": "fa71f3ec62abed0ca7d4c9ac13a39e3a8429ea964665b0079c0fdb612b43dffb"
+ }
+]

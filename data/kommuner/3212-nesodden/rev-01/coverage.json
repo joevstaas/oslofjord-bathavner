@@ -1,0 +1,37 @@
+{
+ "scope": "Systematisk kystsøk, også Steilene, Ildjernet, Langøyene og småøyer i kommunegrensen. Ett supplerende innlandsutsnitt er ikke komplett ferskvannskartlegging.",
+ "coastline_source": "Fire fullstendige OSM-delruter, lagret separat med spørring, svar og proveniens.",
+ "osm_coast_length_m": 55147.7,
+ "coast_tiles": 65,
+ "additional_images": 7,
+ "coast_outside_image_coverage_m": 0.0,
+ "coast_contact_sheets": [
+  "work/3212-nesodden/qa/coast-sheet-0.jpg",
+  "work/3212-nesodden/qa/coast-sheet-1.jpg",
+  "work/3212-nesodden/qa/coast-sheet-2.jpg",
+  "work/3212-nesodden/qa/coast-sheet-3.jpg",
+  "work/3212-nesodden/qa/coast-sheet-4.jpg",
+  "work/3212-nesodden/qa/coast-sheet-5.jpg",
+  "work/3212-nesodden/qa/coast-sheet-6.jpg",
+  "work/3212-nesodden/qa/coast-sheet-7.jpg",
+  "work/3212-nesodden/qa/coast-sheet-8.jpg",
+  "work/3212-nesodden/qa/coast-sheet-9.jpg",
+  "work/3212-nesodden/qa/coast-sheet-10.jpg"
+ ],
+ "cluster_review_index": "cluster-review-index.json",
+ "clusters_reviewed": 84,
+ "piers_in_clusters": 310,
+ "independent_gap_sweep": "Alle 65 kystfliser er gjennomgått på kontaktark uavhengig av kandidatlisten; ingen ekstra sikker havnepolygon utenfor kandidatene påvist. Dette er ikke bevis på fullstendighet.",
+ "final_outline_qa": [
+  "work/3212-nesodden/qa/qa-0.jpg",
+  "work/3212-nesodden/qa/qa-1.jpg"
+ ],
+ "limitations": [
+  "Ukjent opptaksdato og posisjonsnøyaktighet; eksportoppløsning er ikke målenøyaktighet.",
+  "Gjesteplasser, medlemmer og total kapasitet holdes atskilt.",
+  "Industri-, service-, rutebåt- og badebrygger kvalifiserer ikke alene.",
+  "Ett mislykket ekstra detaljutsnitt C007 ble erstattet med kontroll i eksisterende georeferert kystflis.",
+  "Originalbilder og råkilder er beholdt lokalt; ikke publisert i Git. Ny nedlasting kan gi en annen mosaikk."
+ ],
+ "reviewed_utc": "2026-10-31T11:48:48+00:00"
+}

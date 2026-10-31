@@ -1,0 +1,18 @@
+{
+ "started_utc": "2026-10-31T11:23:12.088375+00:00",
+ "started_unix": 1793445792.0883873,
+ "municipality": "Nesodden",
+ "code": "3212",
+ "revision": 1,
+ "method_version": "1.2",
+ "schema_version": "1.1",
+ "approved_baseline_sha256": {
+  "data/samlet/oslofjorden-bathavner-samlet.geojson": "7822bf7fee607a432b3096ee86872cba90ce6f8fdb663ee2fdca37eb333466f0",
+  "data/samlet/samlet-manifest.json": "dfa71b097d8ca3bb33542d95a0f2bc635770547d3dd73221e8762bcad248206c"
+ },
+ "finished_utc": "2026-10-31T11:48:48+00:00",
+ "elapsed_wall_seconds": 1537,
+ "tokens_measured": null,
+ "cost_measured": null,
+ "note": "Målt veggklokketid fra oppstart, inkludert nettventing og gjentatte tjenestefeil. Ikke ren prosessortid."
+}

@@ -1,0 +1,33 @@
+[
+ {
+  "id": "S001",
+  "place": "Bomansvik",
+  "need": "Operatørkilde eller datert bilde som stedfester faste båtplasser og gjør sjøomrisset etterprøvbart.",
+  "polygon_exported": false
+ },
+ {
+  "id": "S002",
+  "place": "Kavringstrand",
+  "need": "Avklar om de mulige bryggene øst for Kavringen er eget felles anlegg, hvem som driver dem og om de hører til samme fysiske havnegruppe som Kavringen.",
+  "polygon_exported": true,
+  "candidate_id": "C053E"
+ },
+ {
+  "id": "S003",
+  "place": "Steilene østlige kaier",
+  "need": "Avklar faste plasser/gjestebruk kontra jolle-/service-/anløpsbruk og fysisk omfang etter ombygging.",
+  "polygon_exported": false
+ },
+ {
+  "id": "S004",
+  "place": "Ildjernet",
+  "need": "Bekreft felles organisering og antall faste plasser i C024/C028; kandidatenes klassifisering forblir mulig.",
+  "polygon_exported": true
+ },
+ {
+  "id": "S005",
+  "place": "Spro og Steilene",
+  "need": "Datert ortofoto etter omtalt ferdigstillelse/fornyelse for å kontrollere at bildet viser dagens utstrekning.",
+  "polygon_exported": true
+ }
+]
