@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "harbours": 22,
+  "polygons": 26,
+  "observations": 91,
+  "candidates": 2,
+  "source_snapshots_checked": 38,
+  "checks": [
+    "All baseline harbour and polygon IDs covered exactly once",
+    "Each promoted value has a field-level sourced observation",
+    "Evidence references valid; available local snapshot locators and hashes checked",
+    "CSV/JSON round trip consistent",
+    "Candidate geometries remain absent",
+    "Reference export preserves every approved property and geometry",
+    "Approved municipality and combined files byte-for-byte unchanged"
+  ]
+}

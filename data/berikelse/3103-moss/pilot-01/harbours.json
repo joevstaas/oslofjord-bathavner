@@ -1,0 +1,1153 @@
+[
+  {
+    "harbour_id": "3103-H01",
+    "name_baseline": "Fiske båthavn",
+    "polygon_ids": [
+      "3103-H01-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Fiske Båtforening",
+    "operator_org_no": null,
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 376,
+    "berths_approximate": false,
+    "berths_scope": "published_berth_capacity_guest_inclusion_unknown",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H01-B01",
+        "value": 384,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S01"
+    ],
+    "observation_ids": [
+      "OBS-001",
+      "OBS-002",
+      "OBS-003",
+      "OBS-004",
+      "OBS-065"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H02",
+    "name_baseline": "Fuglevik båthavn / Rygge båtforening",
+    "polygon_ids": [
+      "3103-H02-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Rygge Båtforening",
+    "operator_org_no": null,
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 409,
+    "berths_approximate": false,
+    "berths_scope": "operator_published_berths_separately_lists_7_guest",
+    "guest_berths_published": 7,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H02-B01",
+        "value": 409,
+        "source": "https://www.havneweb.no/ryggebf/",
+        "reference_period": null,
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Operatøren oppgir 409 båtplasser og 7 faste gjesteplasser. Avfallsplanens eldre tall er 412 og 10; gjesteplasser er ikke lagt til kapasitetstallet. Båtplassbassenget følger alle synlige rekker; opplag og parkering nordøst er utelatt."
+    ],
+    "source_ids": [
+      "S14",
+      "S02"
+    ],
+    "observation_ids": [
+      "OBS-005",
+      "OBS-006",
+      "OBS-007",
+      "OBS-008",
+      "OBS-066"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H03",
+    "name_baseline": "Kambo båtforening",
+    "polygon_ids": [
+      "3103-H03-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Kambo Båtforening",
+    "operator_org_no": "996958663",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 100,
+    "berths_approximate": true,
+    "berths_scope": "published_berth_capacity_guest_inclusion_unknown",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": true,
+    "lifting_reported": true,
+    "ramp_reported": true,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H03-B01",
+        "value": 97,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Båt-/fortøyningsrekke langs buet strand i nordre havnebasseng. Indre siv-/landområde er utelatt. OSM-omriss er ikke brukt som sjøfasit. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S03",
+      "BR996958663"
+    ],
+    "observation_ids": [
+      "OBS-009",
+      "OBS-010",
+      "OBS-011",
+      "OBS-012",
+      "OBS-013",
+      "OBS-014",
+      "OBS-015",
+      "OBS-067"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "some_services_published_reference_date_unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H04",
+    "name_baseline": "Kambo Marina",
+    "polygon_ids": [
+      "3103-H04-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Kambo Marina AS",
+    "operator_org_no": "958467362",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 300,
+    "berths_approximate": false,
+    "berths_scope": "published_berth_capacity_guest_inclusion_unknown",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": true,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H04-B01",
+        "value": 300,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "300 båtplasser i eldre avfallsplan; andre kilder kan oppgi nyere kapasitet. Ingen nåtelling fra bildet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S04",
+      "BR958467362"
+    ],
+    "observation_ids": [
+      "OBS-016",
+      "OBS-017",
+      "OBS-018",
+      "OBS-019",
+      "OBS-068"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "some_services_published_reference_date_unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H05",
+    "name_baseline": "Moss motorbåtforening / Betongen",
+    "polygon_ids": [
+      "3103-H05-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Moss Motorbåtforening",
+    "operator_org_no": "883336402",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 360,
+    "berths_approximate": true,
+    "berths_scope": "boats_afloat_capacity",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": 200,
+    "land_storage_reported": true,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H05-B01",
+        "value": 360,
+        "source": "https://www.betongen.no/",
+        "reference_period": null,
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Operatøren oppgir ca. 360 båter på vann; 200 opplagsplasser på land inngår ikke i havnepolygon eller kapasitet. OSM-omrissets land-/opplagsdel er utelatt."
+    ],
+    "source_ids": [
+      "S14",
+      "S05",
+      "BR883336402"
+    ],
+    "observation_ids": [
+      "OBS-020",
+      "OBS-021",
+      "OBS-022",
+      "OBS-023",
+      "OBS-024",
+      "OBS-069"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "some_services_published_reference_date_unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H06",
+    "name_baseline": "Rørvika – vestre nordre båtbrygger",
+    "polygon_ids": [
+      "3103-H06-B01",
+      "3103-H06-B02"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "To navngitte bryggeaktører og fiskermolo i Rørvika omtales i avfallsplanen. Interne grenser er uavklart. Fysiske småbåtdeler, ikke hele bukta.",
+      ""
+    ],
+    "source_ids": [
+      "S14",
+      "BR913241045",
+      "BR917198616"
+    ],
+    "observation_ids": [
+      "OBS-025",
+      "OBS-026",
+      "OBS-070",
+      "OBS-071",
+      "OBS-072"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H07",
+    "name_baseline": "Nasle bryggesameie – Rørvika øst",
+    "polygon_ids": [
+      "3103-H07-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Nasle Bryggesameie",
+    "operator_org_no": "985441464",
+    "operator_link_status": "historical_operator_baseline_geographic_link",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "historical_website_2010_2011_only",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H07-B01",
+        "value": 123,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Navnekobling basert på stedsnavn Nasle og fellesanlegget øst i Rørvika. Eldre kapasitet fra avfallsplan; interne operatørgrenser ikke landmålt. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S06",
+      "BR985441464"
+    ],
+    "observation_ids": [
+      "OBS-027",
+      "OBS-028",
+      "OBS-029",
+      "OBS-073"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "historical_operator_baseline_geographic_link",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "historical_2010_2011"
+  },
+  {
+    "harbour_id": "3103-H08",
+    "name_baseline": "Støtvig – indre båthavn",
+    "polygon_ids": [
+      "3103-H08-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "hotel_service_published_extent_unverified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H08-B01",
+        "value": 70,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Fische AS – Støtvig i avfallsplanen. Geografisk navnekobling til havnebassenget; kapasitet fra eldre plan. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S16",
+      "BR990894116"
+    ],
+    "observation_ids": [
+      "OBS-030",
+      "OBS-074"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H09",
+    "name_baseline": "Støtvig – østre felles brygge",
+    "polygon_ids": [
+      "3103-H09-B01"
+    ],
+    "classification_baseline": "mulig_smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Tydelig brygge med båter. Kan være knyttet til Lersbauen, men navnekobling og minst ti faste plasser er ikke bekreftet."
+    ],
+    "source_ids": [
+      "S14"
+    ],
+    "observation_ids": [
+      "OBS-075"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H10",
+    "name_baseline": "Søly båthavn / Moss Seilforening",
+    "polygon_ids": [
+      "3103-H10-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Moss Seilforening",
+    "operator_org_no": "882921662",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 306,
+    "berths_approximate": false,
+    "berths_scope": "operator_published_berths_guest_use_of_members_places",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": true,
+    "lifting_reported": true,
+    "ramp_reported": true,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Operatøren oppgir litt over 300 faste plasser; den eldre avfallsplanen oppgir 380. Ingen presis oppdatert kapasitet er satt. OSM-omrissets parkering og klubbhus er utelatt."
+    ],
+    "source_ids": [
+      "S14",
+      "S07",
+      "BR882921662",
+      "S08"
+    ],
+    "observation_ids": [
+      "OBS-031",
+      "OBS-032",
+      "OBS-033",
+      "OBS-034",
+      "OBS-035",
+      "OBS-036",
+      "OBS-037",
+      "OBS-038",
+      "OBS-076"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "some_services_published_reference_date_unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H11",
+    "name_baseline": "Vansjø båtforening",
+    "polygon_ids": [
+      "3103-H11-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "freshwater",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Vansjø Båtforening",
+    "operator_org_no": "983392229",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": 168,
+    "berths_approximate": false,
+    "berths_scope": "ordinary_berths_excluding_separately_reported_dinghy_berths",
+    "guest_berths_published": null,
+    "dinghy_berths_published": 16,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H11-B01",
+        "value": 185,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      " Parkering/opplag på land utelatt fra OSM-kandidaten. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling. Vannmiljø: ferskvann."
+    ],
+    "source_ids": [
+      "S14",
+      "S09",
+      "BR983392229"
+    ],
+    "observation_ids": [
+      "OBS-039",
+      "OBS-040",
+      "OBS-041",
+      "OBS-042",
+      "OBS-077"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H12",
+    "name_baseline": "Verket – småbåt- og gjestehavn",
+    "polygon_ids": [
+      "3103-H12-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Verket Havn AS",
+    "operator_org_no": "918686878",
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Tre nærliggende OSM-flater beskriver samme fysiske bryggegruppe i bildene. Ikke tre selvstendige havner. Fordeling mellom fast-/gjestebruk og intern operatørgrense er ikke bekreftet."
+    ],
+    "source_ids": [
+      "S10",
+      "BR918686878"
+    ],
+    "observation_ids": [
+      "OBS-043",
+      "OBS-044",
+      "OBS-045",
+      "OBS-046"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H13",
+    "name_baseline": "Kippenes hyttegrend – felles båtbrygge",
+    "polygon_ids": [
+      "3103-H13-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H13-B01",
+        "value": 33,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      " Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "BR995878321"
+    ],
+    "observation_ids": [
+      "OBS-047",
+      "OBS-078"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H14",
+    "name_baseline": "Sildebaugen – nordre båtbrygge",
+    "polygon_ids": [
+      "3103-H14-B01",
+      "3103-H14-B02"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H14-B01",
+        "value": 38,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Sameiet Sildebaugen Båtbrygge i avfallsplanen; navnekoblingen er geografisk. To hovedbrygger, men interne rettigheter er ikke kartlagt. Kapasiteten gjelder begge delpolygoner samlet. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling.",
+      "Andre del av samme fysiske anlegg. Kapasitet er bare oppgitt på nordre delrad."
+    ],
+    "source_ids": [
+      "S14",
+      "BR922347034"
+    ],
+    "observation_ids": [
+      "OBS-048",
+      "OBS-079"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H15",
+    "name_baseline": "Refsnes Gods / Refsnes bryggeforening – båtbrygge",
+    "polygon_ids": [
+      "3103-H15-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H15-B01",
+        "value": 18,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "18 plasser i avfallsplan. Mudringsvedtak 05.06.2024 beskriver eksisterende fellesanlegg og adkomst til hotellet. Ikke samme kandidat som Refsnes småbåtforening. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "BR930391204"
+    ],
+    "observation_ids": [
+      "OBS-049",
+      "OBS-080"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H16",
+    "name_baseline": "Knutvika / Teibern – felles havneområde",
+    "polygon_ids": [
+      "3103-H16-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Vindsteg AS; Arbeidernes Båtforening Moss; tredje utleier uavklart",
+    "operator_org_no": null,
+    "operator_link_status": "multiple_operators_internal_boundaries_unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": true,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Knutvika har tre utleiere ifølge Vindstegs operatørside. ABF-Teibern og Vindsteg omtaler samme bukt. Fysisk havnegruppe; ingen konstruerte interne operatørgrenser og ingen summerte kildekapasiteter."
+    ],
+    "source_ids": [
+      "S14",
+      "S11",
+      "BR991373721",
+      "S12",
+      "BR979250029"
+    ],
+    "observation_ids": [
+      "OBS-053",
+      "OBS-054",
+      "OBS-055",
+      "OBS-056",
+      "OBS-057",
+      "OBS-058",
+      "OBS-059",
+      "OBS-081",
+      "OBS-082"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "multiple_operators_internal_boundaries_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "some_services_published_reference_date_unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H17",
+    "name_baseline": "Mossesundet vest – Moss Marina / Værftsgata brygger",
+    "polygon_ids": [
+      "3103-H17-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Tydelig felles båtplassanlegg. Foreløpig kobling til Moss Marina; registrert adresse alene fastslår ikke operatørgrensen. Kapasiteten 125 fra avfallsplanen er derfor ikke satt på dette omrisset."
+    ],
+    "source_ids": [
+      "S14",
+      "BR982743354"
+    ],
+    "observation_ids": [
+      "OBS-050",
+      "OBS-083"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H18",
+    "name_baseline": "Mossesundet øst – Fleischer Brygge-området",
+    "polygon_ids": [
+      "3103-H18-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Felles brygger på østsiden av Mossesundet ved Fleischer Brygge. Navnekoblingen og intern avgrensning er foreløpig; planens 34 plasser er ikke automatisk kapasitet for hele dette polygonet. Den separate gjestepontongen ved Tollbodbrygga er utelatt."
+    ],
+    "source_ids": [
+      "S14",
+      "BR912159515"
+    ],
+    "observation_ids": [
+      "OBS-051",
+      "OBS-084"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H19",
+    "name_baseline": "Moss gjestehavn – søndre kanal øst",
+    "polygon_ids": [
+      "3103-H19-B01",
+      "3103-H19-B02",
+      "3103-H19-B03"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Moss Havn KF",
+    "operator_org_no": null,
+    "operator_link_status": "operator_published_baseline_location",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Foreløpig sjøbelte langs gjestekai; ferjekaier og seilingsleden er utelatt. Sesong-/anleggsrestriksjoner må kontrolleres hos operatøren.",
+      "",
+      "Tollbodbryggas sjø-/bryggefelt og østre kanalkai. Fast-/gjestefordeling er ikke landmålt."
+    ],
+    "source_ids": [
+      "S13"
+    ],
+    "observation_ids": [
+      "OBS-060",
+      "OBS-061"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "operator_published_baseline_location",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H20",
+    "name_baseline": "Rørvika – nordre skråbrygge",
+    "polygon_ids": [
+      "3103-H20-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [],
+    "baseline_notes": [
+      "Samlet rekke av småbåter langs en felles brygge. Operatør-/navnekobling til avfallsplanens aktører er ikke avklart."
+    ],
+    "source_ids": [],
+    "observation_ids": [],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  },
+  {
+    "harbour_id": "3103-H21",
+    "name_baseline": "Sameiet Røedsstranda – molo og båtbrygge",
+    "polygon_ids": [
+      "3103-H21-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": "Sameiet Røedsstranda",
+    "operator_org_no": "993100544",
+    "operator_link_status": "sales_listing_and_baseline_location",
+    "berths_published": 16,
+    "berths_approximate": false,
+    "berths_scope": "whole_shared_facility",
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "operator_service_published_date_unknown",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H21-B01",
+        "value": 16,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Stedfestet ved Rødstranda/Billmannsbakken. Sameiebeskrivelse angir steinmolo med trebrygge ytterst og 16 plasser. Kildekapasitet fra avfallsplan; nøyaktig fortøyningsutstrekning er usikker. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "S17",
+      "BR993100544"
+    ],
+    "observation_ids": [
+      "OBS-062",
+      "OBS-063",
+      "OBS-064",
+      "OBS-085"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "sales_listing_and_baseline_location",
+    "capacity_quality": "source_published_reference_date_unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "accessed_2026-10-31_reference_date_unknown"
+  },
+  {
+    "harbour_id": "3103-H22",
+    "name_baseline": "Fuglevikbryggen – Jeløya",
+    "polygon_ids": [
+      "3103-H22-B01"
+    ],
+    "classification_baseline": "smabathavn",
+    "water_environment": "marine",
+    "pilot_status": "reviewed_not_approved",
+    "reviewed_date": "2026-10-31",
+    "operator_name": null,
+    "operator_org_no": null,
+    "operator_link_status": "unresolved",
+    "berths_published": null,
+    "berths_approximate": null,
+    "berths_scope": null,
+    "guest_berths_published": null,
+    "dinghy_berths_published": null,
+    "winter_storage_berths_published": null,
+    "land_storage_reported": null,
+    "lifting_reported": null,
+    "ramp_reported": null,
+    "wash_area_reported": null,
+    "wastewater_treatment_current": null,
+    "operation_evidence_status": "not_verified",
+    "current_operation_verified": null,
+    "reference_date": null,
+    "baseline_berth_values": [
+      {
+        "polygon_id": "3103-H22-B01",
+        "value": 54,
+        "source": "https://www.kambomarina.no/kambo_marina/avfallsplan",
+        "reference_period": "ca_2020_ikke_bekreftet",
+        "scope": "hele_havnegruppen"
+      }
+    ],
+    "baseline_notes": [
+      "Geografisk kobling til Fuglevik gård/Jeløya og synlig båt-/molorekke i sørvestre Fuglevika. Ikke samme anlegg som Fuglevik båthavn i tidligere Rygge. Sjø-/bryggebelte, ikke hele det grunne strandbassenget. Kapasitetstallet er et historisk kildetall fra avfallsplanen, ikke en aktuell telling."
+    ],
+    "source_ids": [
+      "S14",
+      "BR920520111"
+    ],
+    "observation_ids": [
+      "OBS-052",
+      "OBS-086"
+    ],
+    "geometry_review_status": "not_reassessed",
+    "identity_quality": "register_entity_found_geographic_link_unresolved",
+    "capacity_quality": "unknown",
+    "function_quality": "unknown",
+    "temporal_quality": "unknown"
+  }
+]

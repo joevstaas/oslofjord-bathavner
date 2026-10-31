@@ -21,3 +21,6 @@ work/*/*
 archive/original/*/images/
 archive/original/*/raw/
 archive/original/*/*-kart.html
+
+# Lokale tredjeparts kildeuttrekk for berikelsespiloter; publiserte fakta har egne kildehenvisninger.
+data/berikelse/*/*/sources/

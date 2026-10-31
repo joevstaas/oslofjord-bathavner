@@ -800,3 +800,20 @@ Alle fem er laget med metode 1.2 og skjema 1.1. Arbeidsmappene ligger i `work/<k
 #### Godkjenning av batchen
 
 Brukeren godkjente hele batchen samlet: 146 anlegg og 166 polygoner. Godkjenningsstatus er oppdatert i GeoJSON og CSV i `work/`. Kommuneuttrekk, beslutningsfiler og kontrollgrunnlag ligger i `data/kommuner/<kode>-<navn>/rev-01/`. Samlefilen har nå 456 polygoner fra 14 kommuner. Før innlemming ble ID-kollisjon og overlapp kontrollert mot samlefilen, uten funn. Følgende er beholdt uendret: mulige havner, usikre avgrensninger, åpne kandidater i `neighbour-pending.json` (blant annet Gilhusbukta, Sjursøya, Sørenga, Ulvøya og Nordre Follo-delen av Hvervenbukta) og grensegruppene. Innlemmingen ble gjort med `work/approve_batch.py`. Klassifiseringstellingen i manifestet ble fullført i et eget steg, fordi Holmestrand- og Horten-pilotene ikke har feltet `classification`. Ingen neste kommune er startet. Godkjenning registrert 2026-10-30T05:46:52Z.
+
+
+### Moss – separat berikelsespilot 2026-10-31
+
+Brukeren ba om en berikelsespilot i Moss etter sammenligning med Mepex-rapporten «Utslipp til Oslofjorden fra småbåthavner» (30.10.2024). Piloten ligger i `data/berikelse/3103-moss/pilot-01/`, med arbeids-/reproduksjonsskript i `work/3103-moss/`.
+
+Omfang: 22 eksisterende anlegg / 26 godkjente polygoner samt åpne kandidater Sjekta og Refsnes småbåtforening. Eksisterende kommuneleveranse, CSV, godkjenningsstatus og samlefil er ikke endret. Metodeversjon for geometrien og ti-plassregelen er uendret. Berikelsen er til vurdering og ikke innlemmet i godkjente leveranser.
+
+Pilotpraksis: én rad per anlegg og egne observasjoner per felt, med kilde-URL, tidspunkt for innhenting, eksplisitt kildeomfang, eventuell referansedato og linjehenvisning til lagret tekstuttrekk. Kildeverdier fra eldre avfallsplan bevares som historiske komponenter, også når nye kilder oppgir andre tall. Faste/ordinære plasser, jolleplasser, gjestebruk og opplag på land holdes adskilt. Organisasjonsidentitet er ikke alene bevis på stedfesting eller aktuell drift; fleroperatørgrupper splittes ikke uten belegg. Ukjent funksjon registreres som null, ikke nei.
+
+Resultat: 91 observasjoner; åtte anlegg med tallfestede kapasitetsopplysninger kontrollert i tilgjengelige nettkilder; fire med publisert landopplagsfunksjon, med ulik bevisstyrke. Dette er ikke åtte nyoppdagede kapasiteter eller uavhengig verifiserte kapasitetsmålinger. 10 avklaringsbehov er registrert. Ingen nye landpolygoner, bildebaserte tellinger eller direkte operatørhenvendelser er utført. Tidsfestet dokumentasjon på aktuell fysisk drift og dagens rensing er fortsatt ukjent. Ingen fullstendighetspåstand mot Mepex/SALT fremsettes.
+
+Se pilotens README for feltskjema, avvik, gjenstående kontrollbehov og reproduksjon. Berikelsesmetoden skal vurderes etter piloten før eventuell anvendelse på andre kommuner.
+
+### Moss – berikelse i nettstedets havnekort, 2026-10-31
+
+Brukeren har bedt om at piloten kobles til nettstedet. Bare kildebelagte opplysninger eksporteres til en separat `enrichment.json`, koblet med `harbour_id`. Kildehenvisning, innhentingsdato, ukjent referansedato og feltets omfang følger visningen. Eldre kapasitet beholdes som sammenleggbar historikk. Ukjent drift og rensing merkes som ikke verifisert. Ingen nye kandidater eller geometriske endringer innlemmes. Primærdatasettets tidligere godkjenning og metodeversjon er uendret.

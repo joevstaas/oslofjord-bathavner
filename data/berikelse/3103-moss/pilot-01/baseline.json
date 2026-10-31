@@ -1,0 +1,18 @@
+{
+  "started_unix": 1793430089.6821597,
+  "started_utc": "2026-10-31T07:01:29Z",
+  "files": {
+    "data/kommuner/3103-moss/rev-01/bathavner.geojson": "e9d51d4d1bfa42a6125df9307bf8327b69afa16499a5ce25f7ac71105fe45f40",
+    "data/kommuner/3103-moss/rev-01/metadata.csv": "c1db8b88a4e4e699582c4716115cb9efa571e451133c84fc31152dc712df6a9f",
+    "data/kommuner/3103-moss/rev-01/candidate-ledger.json": "6ed7003d6ec2d75325d764be72bc2b0dddaf92755fa90995ec162dcb65485e54",
+    "data/kommuner/3103-moss/rev-01/coverage.json": "ad2b4d4540a5a90e04fca425c13d92390f38054b8686662e523ad874773d8a72",
+    "data/kommuner/3103-moss/rev-01/timing.json": "4ac7b91d6276bdc3f2a42ae6c6ba1e627ee9b90968792533adaaab9b0b705b76",
+    "data/kommuner/3103-moss/rev-01/validation.json": "c2892f9b2273cb5d2d85842eb851496b18accce031651e85fd68be40867cca6a",
+    "data/kommuner/3103-moss/rev-01/sector-review.json": "4c138687e0845122b34b41828732b8ea97f2a7a3969c09e7341ce644cb4f4926",
+    "data/kommuner/3103-moss/rev-01/candidate-ledger.csv": "4b08dfaf5de449f566ce4de4f25709a4789c4ca8e9020f9f1430ea77bfd79d6a",
+    "data/kommuner/3103-moss/rev-01/summary.json": "a4feb168502d059b958ad75f20d7f0819b0829d06818351b5f687e464fd717fd",
+    "data/kommuner/3103-moss/rev-01/source-notes.json": "6b66de7ce27408bcbf33b1bb650b52d12ab7930b95b49c3491b05941959e4f12",
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "94d6be45daf90c16679329850650690d4b071f2576d00923dba79d6fb7f32775",
+    "data/samlet/samlet-manifest.json": "86f571e5ec0557da04d8e095988c32e96bcc2cb6634697f24de34c330b8dff87"
+  }
+}

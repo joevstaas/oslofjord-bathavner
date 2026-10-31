@@ -1,0 +1,6 @@
+{
+  "started_utc": "2026-10-31T07:01:29Z",
+  "finished_utc": "2026-10-31T07:06:34.303189+00:00",
+  "elapsed_wall_seconds": 304.6,
+  "scope": "Baseline capture through last build; excludes initial reconnaissance before baseline capture. No token or cost measurement."
+}

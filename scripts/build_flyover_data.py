@@ -1,5 +1,5 @@
 """Bygg kompakte data til flyover-siden (site/labs/oslofjord-bathavner/data/).
-Leser bare godkjent samlefil og status.json; kommunegrenser hentes fra Kartverket og caches i cache/."""
+Leser godkjent samlefil, status.json og separat Moss-berikelsespilot; kommunegrenser hentes fra Kartverket og caches i cache/."""
 import json, urllib.request
 from pathlib import Path
 from pyproj import Transformer
@@ -82,3 +82,7 @@ meta = dict(polygons=len(feats), harbours=len({f['properties']['hid'] for f in f
             updated=json.loads((ROOT / 'data/samlet/samlet-manifest.json').read_text())['updated_date'])
 (OUT / 'meta.json').write_text(json.dumps(meta, ensure_ascii=False))
 print(meta)
+
+# Separat kildeberikelse; endrer ikke godkjente geometrier eller kartklassifisering.
+from build_harbour_enrichment import main as build_enrichment
+build_enrichment()

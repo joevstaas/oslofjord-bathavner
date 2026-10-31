@@ -131,7 +131,7 @@ svg{display:block}
 #caption p{margin:0;font-size:12.5px;color:var(--mist)}
 
 /* harbour card */
-#card{position:fixed;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:6;width:300px;padding:12px 13px 11px;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
+#card{position:fixed;right:14px;bottom:calc(84px + env(safe-area-inset-bottom));z-index:6;width:300px;max-height:calc(100dvh - 112px);overflow-y:auto;padding:12px 13px 11px;opacity:0;transform:translateY(8px);transition:opacity .2s,transform .2s;pointer-events:none}
 #card.show{opacity:1;transform:none;pointer-events:auto}
 #card .top{display:flex;gap:8px;align-items:flex-start}
 #card h3{margin:0;font-size:14.5px;font-weight:800;line-height:1.25;flex:1}
@@ -144,6 +144,15 @@ svg{display:block}
 #card .note{margin:8px 0 0;font-size:11.5px;color:var(--mist);font-style:italic;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 #card .links{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:8px;font-size:11.5px}#card .links a{white-space:nowrap}
 #card a{color:var(--harbour);text-decoration:none}#card a:hover{text-decoration:underline}
+#card .enrichment{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);overflow-wrap:anywhere}
+#card .enrichment h4{margin:0 0 4px;font-size:12px;color:var(--harbour)}
+#card .enrichment p{margin:4px 0;font-size:11.5px;color:var(--mist)}
+#card .enrichment .fact{margin:9px 0}
+#card .enrichment .fact-label{display:block;font-size:11px;color:var(--dim)}
+#card .enrichment .fact-value{font-size:12px;font-weight:700}
+#card .enrichment small{display:block;font-size:10.5px;color:var(--mist);margin-top:2px}
+#card .enrichment details{margin-top:8px;font-size:11px;color:var(--mist)}
+#card .enrichment summary{cursor:pointer;color:var(--harbour)}
 
 /* hover tip */
 #tip{position:fixed;z-index:8;pointer-events:none;padding:4px 8px;border-radius:7px;font-size:12px;font-weight:700;background:var(--glass-strong);border:1px solid var(--line);transform:translate(12px,-50%);opacity:0;transition:opacity .1s;white-space:nowrap}
@@ -404,8 +413,21 @@ const map = new maplibregl.Map({
 map.addControl(new maplibregl.AttributionControl({ compact: true, customAttribution: 'Harbours: <a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank">oslofjord-bathavner</a> by Jo Øvstaas (OSM © contributors, Enhetsregisteret) · Powered by the <a href="https://app.hubocean.earth/" target="_blank">Ocean Data Platform</a>' }), 'bottom-right');
 
 let H = null, M = null, harbours = {}, is3D = true, terrainExag = 1.4;
+let enrichment = { status: 'loading', records: {} };
 
 /* ---------- data ---------- */
+// Optional overlay: a failure must not prevent the base map or other municipalities loading.
+fetch(BASE + 'data/enrichment.json').then(r => {
+  if (!r.ok) throw new Error('Harbour enrichment unavailable');
+  return r.json();
+}).then(data => {
+  if (data.schema_version !== 1 || data.status !== 'source_review_pilot' || !data.records || typeof data.records !== 'object' || Array.isArray(data.records)) throw new Error('Invalid harbour enrichment');
+  const valid = Object.values(data.records).every(record => record && Array.isArray(record.facts) && Array.isArray(record.baseline_capacities) && record.facts.every(fact => fact && typeof fact.label === 'string' && Array.isArray(fact.sources) && fact.sources.every(source => source && typeof source.url === 'string' && typeof source.accessed_date === 'string')));
+  if (!valid) throw new Error('Invalid harbour enrichment records');
+  enrichment = { status: 'ready', records: data.records };
+}).catch(() => { enrichment = { status: 'unavailable', records: {} }; }).finally(() => {
+  if (selId !== null) select(selId, false);
+});
 Promise.all([
   fetch(BASE + 'data/harbours.geojson').then(r => r.json()),
   fetch(BASE + 'data/municipalities.geojson').then(r => r.json()),
@@ -606,6 +628,30 @@ function hideIntro() { $('intro').classList.add('hide'); }
 /* ---------- harbour card ---------- */
 let selId = null, hoverId = null;
 function escapeHtml(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+function sourceLink(url, label, title = '') {
+  try {
+    const target = new URL(url);
+    if (target.protocol !== 'https:') return escapeHtml(label);
+    return `<a href="${escapeHtml(target.href)}" target="_blank" rel="noopener" title="${escapeHtml(title)}">${escapeHtml(label)} ↗</a>`;
+  } catch { return escapeHtml(label); }
+}
+function enrichmentCard(p) {
+  if (p.mun !== 'Moss') return '';
+  const e = enrichment.records[p.hid];
+  if (!e) {
+    const message = enrichment.status === 'loading' ? 'Additional source information is loading…' : 'Additional source information is unavailable. Try reloading the page.';
+    const earlier = p.berths != null ? `<p>Earlier dataset: ${fmt(p.berths)} reported boat places; reference year unknown.</p>` : '';
+    return `<section class="enrichment"><h4>Moss · source review</h4><p>${message}</p>${earlier}</section>`;
+  }
+  const facts = e.facts.map(f => {
+    const value = typeof f.value === 'number' ? `${f.approximate === true ? '≈ ' : ''}${fmt(f.value)}` : typeof f.value === 'boolean' ? (f.value ? 'Reported' : 'Reported unavailable') : f.value;
+    const links = f.sources.map(s => sourceLink(s.url, s.type, s.title)).join(' · ');
+    const dates = [...new Set(f.sources.map(s => s.accessed_date))].map(escapeHtml).join(', ');
+    return `<div class="fact"><span class="fact-label">${escapeHtml(f.label)}</span><span class="fact-value">${escapeHtml(value)}</span>${f.qualifier ? `<small>${escapeHtml(f.qualifier)}</small>` : ''}<small>${links}</small><small>${f.reference_date ? `Reference: ${escapeHtml(f.reference_date)}` : 'Reference date unknown'} · Checked ${dates}</small></div>`;
+  }).join('');
+  const earlier = e.baseline_capacities.map(c => `<p>${fmt(c.value)} reported boat places · reference period ${escapeHtml(c.reference_period === 'ca_2020_ikke_bekreftet' ? 'approximately 2020 (unconfirmed)' : c.reference_period || 'unknown')}${c.source ? ` · ${sourceLink(c.source, 'Earlier source')}` : ''}</p>`).join('');
+  return `<section class="enrichment"><h4>Moss · source review</h4><p>Reviewed ${escapeHtml(e.reviewed_date)}. Source-reported information; not independently verified. Harbour outline unchanged.</p>${e.water_environment === 'freshwater' ? '<p><b>Freshwater harbour · Vansjø</b></p>' : ''}${facts || '<p>No additional operator, capacity or service information could be established for this harbour.</p>'}${!e.facts.some(f => f.field === 'berths_published') ? '<p>Boat-place capacity: not established in this review.</p>' : ''}<p>Current operation and wastewater treatment: not verified. Unlisted services are unknown.</p>${earlier ? `<details><summary>Earlier dataset capacity</summary>${earlier}<p>Historical or undated values. Categories and scopes may differ; do not add these to the figures above.</p></details>` : ''}</section>`;
+}
 function select(fid, fly) {
   const f = H.features[fid]; if (!f) return;
   if (selId !== null) map.setFeatureState({ source: 'h', id: selId }, { sel: false });
@@ -613,7 +659,7 @@ function select(fid, fly) {
   const p = f.properties, h = harbours[p.hid];
   const rows = [
     ['Water area', `${fmt(p.area)} m²` + (h.n > 1 ? ` <span style="color:var(--dim)">(${h.n} parts)</span>` : '')],
-    p.berths ? ['Published berths', fmt(p.berths)] : null,
+    p.berths != null && p.mun !== 'Moss' ? ['Published berths', fmt(p.berths)] : null,
     ['Basis', escapeHtml(p.basis)],
     ['Outline', p.method],
     ['Boundary', p.unc ? '<span style="color:var(--possible)">Uncertain</span>' : 'Provisional'],
@@ -623,8 +669,10 @@ function select(fid, fly) {
     <div class="top"><h3>${escapeHtml(p.name)}</h3><button class="x" aria-label="Close" onclick="window.__closeCard()"><svg width="14" height="14" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
     <div class="meta"><span class="badge" style="background:${COLORS[p.cls]}">${CLS_LABEL[p.cls]}</span><span>${escapeHtml(p.mun)}</span><span class="mono" style="color:var(--dim)">${p.id}</span></div>
     <dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>
-    ${p.note ? `<p class="note">${escapeHtml(p.note)}</p>` : ''}
+    ${p.note ? `<p class="note">${p.mun === 'Moss' ? 'Earlier mapping note: ' : ''}${escapeHtml(p.note)}</p>` : ''}
+    ${enrichmentCard(p)}
     <div class="links">${p.osm ? `<a href="https://www.openstreetmap.org/${p.osm}" target="_blank" rel="noopener">OpenStreetMap ↗</a>` : ''}<a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener">Method ↗</a><a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform ↗</a></div>`;
+  $('card').scrollTop = 0;
   $('card').classList.add('show');
   if (fly) {
     const b = new maplibregl.LngLatBounds();
