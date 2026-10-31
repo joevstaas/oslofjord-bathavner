@@ -1,0 +1,2168 @@
+[
+ {
+  "candidate_id": "C001",
+  "osm_ids": [
+   "way/1369686985"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1063208754",
+    "tags": {
+     "capacity": "180",
+     "image": "https://photos.app.goo.gl/v3QwKCge9BdtbtAs6",
+     "leisure": "marina",
+     "name": "Spro båthavn",
+     "panoramax": "6f377f73-4ffe-479c-b4e7-5fe53b6aae75",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "https://sprobathavn.no"
+    }
+   }
+  ],
+  "image_id": "coast-251100-6633000",
+  "review_bbox": [
+   251837.32353696617,
+   6633129.409750657,
+   252057.32353696617,
+   6633349.409750657
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C002",
+  "osm_ids": [
+   "way/1308415784",
+   "way/1369686983",
+   "way/1369686987",
+   "way/1369686984",
+   "way/1369686988"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6633000",
+  "review_bbox": [
+   251873.96694822662,
+   6633011.467491552,
+   252093.96694822662,
+   6633231.467491552
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C003",
+  "osm_ids": [
+   "way/1308431584"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-251100-6630300",
+  "review_bbox": [
+   251632.58465989772,
+   6630845.053636415,
+   251852.58465989772,
+   6631065.053636415
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C004",
+  "osm_ids": [
+   "way/10221482",
+   "way/10221513"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/795229501",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-251100-6629400",
+  "review_bbox": [
+   251762.63142232472,
+   6630045.842966454,
+   252048.24686039766,
+   6630331.458404528
+  ],
+  "decision": "utelatt",
+  "reason": "Lang kai ved industri/opplag; bildet viser ikke et avgrenset småbåtplassanlegg. Opplag på land og servicekai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C005",
+  "osm_ids": [
+   "way/148738587"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6638400",
+  "review_bbox": [
+   253393.8124128962,
+   6639165.107124679,
+   253613.8124128962,
+   6639385.107124679
+  ],
+  "decision": "utelatt",
+  "reason": "Steilene: enkeltkai/strandbrygge uten selvstendig fast båtplassanlegg; nærhet til seilforeningens havn er ikke tilstrekkelig.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C006",
+  "osm_ids": [
+   "way/148738547",
+   "way/148738588",
+   "way/148738640",
+   "way/1496234647"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1535052334",
+    "tags": {
+     "leisure": "marina",
+     "name": "Steilene Seilhavn",
+     "phone": "+47993 00 095",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "https://www.nesoddenseilforening.no/next/p/97799/havna"
+    }
+   }
+  ],
+  "image_id": "coast-253800-6638400",
+  "review_bbox": [
+   253835.11336469295,
+   6639050.169567739,
+   254055.11336469295,
+   6639270.169567739
+  ],
+  "decision": "utelatt",
+  "reason": "Steilene øst for seilforeningens hovedhavn: kaier/jolle-/servicepregede brygger, uten sikker avgrensning av faste plasser. Ikke egen havn; beholdt som kontrollbehov for mulig tilhørende delanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C007",
+  "osm_ids": [
+   "way/148738600",
+   "way/148738649",
+   "way/148738603",
+   "way/148738648",
+   "way/154723566"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1535052334",
+    "tags": {
+     "leisure": "marina",
+     "name": "Steilene Seilhavn",
+     "phone": "+47993 00 095",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "https://www.nesoddenseilforening.no/next/p/97799/havna"
+    }
+   }
+  ],
+  "image_id": "coast-253800-6638400",
+  "review_bbox": [
+   253702.6364810014,
+   6639010.049393016,
+   253922.6364810014,
+   6639230.049393016
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Faste medlemsplasser og gjesteplasser dokumentert. Operatørens minst 20 normalt tilgjengelige gjesteplasser er ikke lagt inn som total kapasitet; ledige faste plasser kan inngå. Omtalt bryggefornyelse i 2025 gjør datert ortofotokontroll særlig relevant.",
+  "feature_ids": [
+   "3212-H01-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C008",
+  "osm_ids": [
+   "way/148738599"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1535052334",
+    "tags": {
+     "leisure": "marina",
+     "name": "Steilene Seilhavn",
+     "phone": "+47993 00 095",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "https://www.nesoddenseilforening.no/next/p/97799/havna"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6638400",
+  "review_bbox": [
+   253628.93483944796,
+   6638906.883038208,
+   253848.93483944796,
+   6639126.883038208
+  ],
+  "decision": "utelatt",
+  "reason": "Steilene: enkeltkai/strandbrygge uten selvstendig fast båtplassanlegg; nærhet til seilforeningens havn er ikke tilstrekkelig.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C009",
+  "osm_ids": [
+   "way/284080850"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/816482281",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6637500",
+  "review_bbox": [
+   253511.51393369574,
+   6637604.003669632,
+   253731.51393369574,
+   6637824.003669632
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C010",
+  "osm_ids": [
+   "way/1195585913"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/816482281",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-252900-6637500",
+  "review_bbox": [
+   253628.90702285746,
+   6637427.309882261,
+   253848.90702285746,
+   6637647.309882261
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C011",
+  "osm_ids": [
+   "way/792704509"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6636600",
+  "review_bbox": [
+   253435.5402384929,
+   6636544.073131712,
+   253655.5402384929,
+   6636764.073131712
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C012",
+  "osm_ids": [
+   "way/1546822190"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6635700",
+  "review_bbox": [
+   253651.8098796495,
+   6635913.061761206,
+   253871.8098796495,
+   6636133.061761206
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C013",
+  "osm_ids": [
+   "way/1546822188",
+   "way/1546822189"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6635700",
+  "review_bbox": [
+   253564.83798581333,
+   6635890.8774323035,
+   253784.83798581333,
+   6636110.8774323035
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C014",
+  "osm_ids": [
+   "way/1546822191"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6635700",
+  "review_bbox": [
+   253664.17216142942,
+   6635801.8975572735,
+   253884.17216142942,
+   6636021.8975572735
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C015",
+  "osm_ids": [
+   "way/1205180749",
+   "way/1205180750"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6635700",
+  "review_bbox": [
+   252868.95348818222,
+   6635768.551791042,
+   253088.95348818222,
+   6635988.551791042
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C016",
+  "osm_ids": [
+   "way/1205180748"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6635700",
+  "review_bbox": [
+   252826.05611643058,
+   6635618.127143862,
+   253046.05611643058,
+   6635838.127143862
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C017",
+  "osm_ids": [
+   "way/1205180746",
+   "way/1205180747"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252900-6634800",
+  "review_bbox": [
+   252800.75191334746,
+   6635466.90698726,
+   253020.75191334746,
+   6635686.90698726
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C018",
+  "osm_ids": [
+   "way/792691598"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6634800",
+  "review_bbox": [
+   252775.7938190008,
+   6635382.353757621,
+   252995.7938190008,
+   6635602.353757621
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C019",
+  "osm_ids": [
+   "way/792691599",
+   "way/792704510"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6634800",
+  "review_bbox": [
+   252653.93415913376,
+   6635117.910852844,
+   252873.93415913376,
+   6635337.910852844
+  ],
+  "decision": "utelatt",
+  "reason": "Stor kai ved industri-/treningsområde Svestad. Ingen tydelige faste fritidsbåtplasser; kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C020",
+  "osm_ids": [
+   "way/792691600",
+   "way/792691601",
+   "way/792691602"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-252000-6634800",
+  "review_bbox": [
+   252564.01079469087,
+   6634844.5801854255,
+   252868.2887551217,
+   6635148.858145856
+  ],
+  "decision": "utelatt",
+  "reason": "Kaier og maritime trenings-/serviceinstallasjoner ved Svestad. Ingen dokumentert småbåthavn med faste plasser i det avbildede anlegget.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C021",
+  "osm_ids": [
+   "way/1063208752",
+   "way/1535049592",
+   "way/1535049581",
+   "way/1535049584",
+   "way/1535049585",
+   "way/1535049586",
+   "way/1535049587",
+   "way/1535049588",
+   "way/1535049589",
+   "way/1535049596"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1063208754",
+    "tags": {
+     "capacity": "180",
+     "image": "https://photos.app.goo.gl/v3QwKCge9BdtbtAs6",
+     "leisure": "marina",
+     "name": "Spro båthavn",
+     "panoramax": "6f377f73-4ffe-479c-b4e7-5fe53b6aae75",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour",
+     "website": "https://sprobathavn.no"
+    }
+   }
+  ],
+  "image_id": "coast-252000-6633000",
+  "review_bbox": [
+   251900.63826880525,
+   6633291.507148351,
+   252266.95233146768,
+   6633657.821211013
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Operatøren dokumenterer båtplasser i 2026; bildet viser fysisk molo og flere monterte brygger med utriggere.",
+  "note": "Ca. 180 plasser er operatørens publiserte kapasitet for hele havnen, ikke en bildetelling. Bildet viser bryggeanlegg mens landarealene delvis fremstår under arbeid. Opptaksdato og aktuell ferdigstillelse er ikke uavhengig verifisert. Tjenester hos Skjæløy Slipp er ikke bevis på lokale opplags-/renseanlegg her.",
+  "feature_ids": [
+   "3212-H02-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C022",
+  "osm_ids": [
+   "way/10221428",
+   "way/10221449",
+   "way/10221455",
+   "way/10221463",
+   "way/10221469",
+   "way/176983412",
+   "way/1425045804"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/1874560310",
+    "tags": {
+     "leisure": "marina",
+     "name": "Grisebukta",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   },
+   {
+    "id": "way/795229501",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-252000-6629400",
+  "review_bbox": [
+   251901.6802311045,
+   6629733.768976487,
+   252245.23845017632,
+   6630077.327195559
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Grisebukta/Fagerstrand. Ingen dedikerte gjesteplasser ifølge operatøren; ledige medlemsplasser kan leies av gjester. Medlemstall fra KNBF er ikke brukt som kapasitet.",
+  "feature_ids": [
+   "3212-H03-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C023",
+  "osm_ids": [
+   "way/1425045807",
+   "way/1545825513",
+   "way/1545825514"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/1874560310",
+    "tags": {
+     "leisure": "marina",
+     "name": "Grisebukta",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-252000-6629400",
+  "review_bbox": [
+   252116.2090509897,
+   6629598.24280641,
+   252336.2090509897,
+   6629818.24280641
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C024",
+  "osm_ids": [
+   "way/148726986",
+   "way/148726996",
+   "way/148727006",
+   "way/148727011"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   255572.13943868957,
+   6642235.768542723,
+   255792.6295222813,
+   6642456.258626315
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "Bare nordre L-brygge med flere båser. Sørlige separat festede brygger er utelatt. Eksakt antall faste plasser og organisering er uavklart.",
+  "feature_ids": [
+   "3212-H04-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C025",
+  "osm_ids": [
+   "way/148726997"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   255726.33600140555,
+   6642167.77023747,
+   255946.33600140555,
+   6642387.77023747
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C026",
+  "osm_ids": [
+   "way/148727005",
+   "way/1253923584"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6642000",
+  "review_bbox": [
+   255432.99680412008,
+   6642120.120539642,
+   255652.99680412008,
+   6642340.120539642
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C027",
+  "osm_ids": [
+   "way/148727021"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6642000",
+  "review_bbox": [
+   255351.3695051178,
+   6642067.832059971,
+   255571.3695051178,
+   6642287.832059971
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C028",
+  "osm_ids": [
+   "way/148726990",
+   "way/148727013",
+   "way/148727012",
+   "way/148727016",
+   "way/148727018",
+   "way/148726999",
+   "way/148727023",
+   "way/148727047",
+   "way/1253923588",
+   "way/1253923589",
+   "way/1253923590",
+   "way/1253923592",
+   "way/1253923593",
+   "way/1253923594",
+   "way/1253923595",
+   "way/1253923596",
+   "way/1253923597",
+   "way/1253923598",
+   "way/1253923599"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   255685.16529836998,
+   6641982.061090333,
+   255921.236182255,
+   6642218.131974218
+  ],
+  "decision": "inkludert_mulig_smabathavn",
+  "reason": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert.",
+  "note": "En samlet rekke med båser, men ti faste plasser og felles drift er ikke sikkert dokumentert. Brygger lenger sør har separate landfester og er utelatt.",
+  "feature_ids": [
+   "3212-H05-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C029",
+  "osm_ids": [
+   "way/148727027"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6642000",
+  "review_bbox": [
+   255265.73124467582,
+   6641977.074465691,
+   255485.73124467582,
+   6642197.074465691
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C030",
+  "osm_ids": [
+   "way/148727004"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   255870.9276643804,
+   6641905.570699915,
+   256090.9276643804,
+   6642125.570699915
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C031",
+  "osm_ids": [
+   "way/148726991",
+   "way/148726998",
+   "way/148727015",
+   "way/148727017"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-254700-6641100",
+  "review_bbox": [
+   255268.5107537955,
+   6641858.883588127,
+   255488.5107537955,
+   6642078.883588127
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C032",
+  "osm_ids": [
+   "way/148726995",
+   "way/148727001",
+   "way/148727008",
+   "way/148727014"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6641100",
+  "review_bbox": [
+   255646.7503020422,
+   6641862.568289438,
+   255866.7503020422,
+   6642082.568289438
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C033",
+  "osm_ids": [
+   "way/148726993",
+   "way/148727007",
+   "way/148727019",
+   "way/148727022"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C033",
+  "review_bbox": [
+   255481.76335587245,
+   6641847.71810122,
+   255701.76335587245,
+   6642067.71810122
+  ],
+  "decision": "utelatt",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C034",
+  "osm_ids": [
+   "way/148727052"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6641100",
+  "review_bbox": [
+   255764.32780489075,
+   6641709.415192177,
+   255984.32780489075,
+   6641929.415192177
+  ],
+  "decision": "utelatt",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C035",
+  "osm_ids": [
+   "way/190769773",
+   "way/295757777"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6639300",
+  "review_bbox": [
+   254406.22015169694,
+   6639496.835411284,
+   254626.22015169694,
+   6639716.835411284
+  ],
+  "decision": "utelatt",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C036",
+  "osm_ids": [
+   "way/171834644",
+   "way/171834645"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1535052325",
+    "tags": {
+     "area": "yes",
+     "leisure": "marina",
+     "name": "Alværn Marina",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "detail-C036",
+  "review_bbox": [
+   254247.6700548968,
+   6639185.314577194,
+   254467.6700548968,
+   6639405.314577194
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Lang brygge med tydelig rekke av minst ti båser/utriggerplasser i bildet. Operatør og nøyaktig kapasitet er ukjent. Strandbrygge/badeplass og ferge-/servicekai lenger nord inngår ikke.",
+  "feature_ids": [
+   "3212-H06-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C037",
+  "osm_ids": [
+   "way/148738602"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-253800-6638400",
+  "review_bbox": [
+   253946.08788574015,
+   6639084.438207837,
+   254166.08788574015,
+   6639304.438207837
+  ],
+  "decision": "utelatt",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C038",
+  "osm_ids": [
+   "way/1544666507"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/1535052325",
+    "tags": {
+     "area": "yes",
+     "leisure": "marina",
+     "name": "Alværn Marina",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-253800-6638400",
+  "review_bbox": [
+   254088.2081717624,
+   6639043.954150289,
+   254308.2081717624,
+   6639263.954150289
+  ],
+  "decision": "utelatt",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C039",
+  "osm_ids": [
+   "way/670700644",
+   "way/1031969612",
+   "way/1031969615",
+   "way/1031969616",
+   "way/1031969619"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-256500-6644700",
+  "review_bbox": [
+   256842.1066984909,
+   6644884.900757911,
+   257062.1066984909,
+   6645104.900757911
+  ],
+  "decision": "utelatt",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C040",
+  "osm_ids": [
+   "way/1191747816",
+   "way/1191747819",
+   "way/1191747820"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/293400193",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "coast-256500-6644700",
+  "review_bbox": [
+   257136.96333609856,
+   6644684.792080928,
+   257356.96333609856,
+   6644904.792080928
+  ],
+  "decision": "utelatt",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C041",
+  "osm_ids": [
+   "way/1191651927",
+   "way/1191651928",
+   "way/1191651929",
+   "way/1191651930",
+   "way/1191651931",
+   "way/1191651932",
+   "way/1191651933",
+   "way/1191651934",
+   "way/1191651935",
+   "way/1191651936",
+   "way/1191651937",
+   "way/1191651938",
+   "way/1191651939",
+   "way/1191651940",
+   "way/1191651941",
+   "way/1191651942",
+   "way/1191651943",
+   "way/1191651944",
+   "way/1191651945",
+   "way/1191748022"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/293028404",
+    "tags": {
+     "fixme": "Unøyaktig plassering. Dette kartet er oppgitt å ikke ha nøyaktig plassering: https://experience.arcgis.com/experience/b2e7ea9782cc456083442e9535b5cc2d/?draft=true&org=miljodirektoratet\n\nReferert herfra: https://www.sdir.no/fritidsbat/oslofjorden/",
+     "leisure": "marina",
+     "name": "Oksval",
+     "operator": "Nesodden kommune",
+     "sanitary_dump_station": "yes",
+     "seamark:harbour:category": "marina",
+     "seamark:small_craft_facility:category": "pump-out",
+     "seamark:type": "harbour",
+     "waterway": "sanitary_dump_station"
+    }
+   },
+   {
+    "id": "node/293400193",
+    "tags": {
+     "leisure": "marina"
+    }
+   }
+  ],
+  "image_id": "detail-C041",
+  "review_bbox": [
+   257122.7503708656,
+   6644177.434076073,
+   257681.83356370954,
+   6644736.517268917
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C042",
+  "osm_ids": [
+   "way/1195019183",
+   "way/1195019184",
+   "way/1195019187"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-256500-6643800",
+  "review_bbox": [
+   256630.55658076075,
+   6644153.175718619,
+   256850.55658076075,
+   6644373.175718619
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C043",
+  "osm_ids": [
+   "way/43787125",
+   "way/43787126",
+   "way/43787127",
+   "way/176983416",
+   "way/176983418",
+   "way/176983420",
+   "way/1191651952",
+   "way/1191651946",
+   "way/1191651947",
+   "way/1191651948",
+   "way/1191651949",
+   "way/1191651950",
+   "way/1191651951",
+   "way/1191651953",
+   "way/1191651954",
+   "way/1191651955",
+   "way/1191651956",
+   "way/1191651957",
+   "way/1191651958"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/293028404",
+    "tags": {
+     "fixme": "Unøyaktig plassering. Dette kartet er oppgitt å ikke ha nøyaktig plassering: https://experience.arcgis.com/experience/b2e7ea9782cc456083442e9535b5cc2d/?draft=true&org=miljodirektoratet\n\nReferert herfra: https://www.sdir.no/fritidsbat/oslofjorden/",
+     "leisure": "marina",
+     "name": "Oksval",
+     "operator": "Nesodden kommune",
+     "sanitary_dump_station": "yes",
+     "seamark:harbour:category": "marina",
+     "seamark:small_craft_facility:category": "pump-out",
+     "seamark:type": "harbour",
+     "waterway": "sanitary_dump_station"
+    }
+   },
+   {
+    "id": "node/14065761602",
+    "tags": {
+     "capacity": "6",
+     "check_date": "2026-08-01",
+     "fee": "yes",
+     "leisure": "marina",
+     "name": "Oksval guest harbour",
+     "name:no": "Oksval Gjestehavn",
+     "power_supply": "yes",
+     "sanitary_dump_station": "yes",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-257400-6643800",
+  "review_bbox": [
+   257542.3732724433,
+   6643957.44508885,
+   257873.01934411132,
+   6644288.091160519
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Operatøren dokumenterer ca. 290 faste plasser i tillegg til gjesteplasser; bildet viser samlet marina med mange utriggere.",
+  "note": "Ca. 290 ordinære plasser ifølge operatørens udaterte historieside; gjesteplasser kommer i tillegg. 450 medlemmer er ikke kapasitet. Ingen garanti for dagens kapasitet. OSMs marina-/septikpunkt har unøyaktig-posisjon-merknad; polygonet er tegnet etter synlige brygger, ikke punktet.",
+  "feature_ids": [
+   "3212-H07-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C044",
+  "osm_ids": [
+   "way/1195019189",
+   "way/1195545682",
+   "way/1195019190",
+   "way/1195019191",
+   "way/1195019192"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-256500-6643800",
+  "review_bbox": [
+   256580.17848770792,
+   6643927.82239585,
+   256800.17848770792,
+   6644147.82239585
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C045",
+  "osm_ids": [
+   "way/1195019193"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-256500-6643800",
+  "review_bbox": [
+   256530.43910106027,
+   6643781.294138933,
+   256750.43910106027,
+   6644001.294138933
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C046",
+  "osm_ids": [
+   "way/1191746479",
+   "way/1191746480",
+   "way/1191746481",
+   "way/1191746482",
+   "way/1191746483",
+   "way/1191746484",
+   "way/1191746485",
+   "way/1191746486",
+   "way/1191746487"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/14065761602",
+    "tags": {
+     "capacity": "6",
+     "check_date": "2026-08-01",
+     "fee": "yes",
+     "leisure": "marina",
+     "name": "Oksval guest harbour",
+     "name:no": "Oksval Gjestehavn",
+     "power_supply": "yes",
+     "sanitary_dump_station": "yes",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-257400-6643800",
+  "review_bbox": [
+   257669.47203610718,
+   6643773.943820598,
+   257889.47203610718,
+   6643993.943820598
+  ],
+  "decision": "utelatt",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C047",
+  "osm_ids": [
+   "way/1191746488",
+   "way/1191746489",
+   "way/1191746490",
+   "way/1191746491",
+   "way/1191746492",
+   "way/1191746493",
+   "way/1191746494",
+   "way/1191746495",
+   "way/1191746496",
+   "way/1191746497",
+   "way/1191746501"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-257400-6642900",
+  "review_bbox": [
+   257875.43577081876,
+   6643363.922036208,
+   258095.43577081876,
+   6643583.922036208
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C048",
+  "osm_ids": [
+   "way/1195019196",
+   "way/1195019197",
+   "way/1195019198",
+   "way/1195019199",
+   "way/1195545683",
+   "way/1195019200",
+   "way/1195019734",
+   "way/1195019733",
+   "way/1195545684",
+   "way/1195545685",
+   "way/1195550397",
+   "way/1195019732",
+   "way/1195550398",
+   "way/1195550399",
+   "way/1195550400",
+   "way/1195550401",
+   "way/1195550402",
+   "way/1195617118",
+   "way/1195553963",
+   "way/1195617117"
+  ],
+  "osm_marks": [],
+  "image_id": "detail-C048",
+  "review_bbox": [
+   256063.5093622776,
+   6642971.57975769,
+   256963.55613805357,
+   6643871.626533467
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C049",
+  "osm_ids": [
+   "way/1195545686",
+   "way/1195553965",
+   "way/1195553964"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6642900",
+  "review_bbox": [
+   256246.35472240546,
+   6642803.706352947,
+   256466.35472240546,
+   6643023.706352947
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C050",
+  "osm_ids": [
+   "way/1195617119"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   256223.16020880517,
+   6642675.30495655,
+   256443.16020880517,
+   6642895.30495655
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C051",
+  "osm_ids": [
+   "way/1195617120",
+   "way/1195617121",
+   "way/1195617122"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   256192.60319475667,
+   6642523.888123367,
+   256412.60319475667,
+   6642743.888123367
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C052",
+  "osm_ids": [
+   "way/148727040",
+   "way/148727057",
+   "way/1195617132",
+   "way/1195617123",
+   "way/1195617124",
+   "way/1195617125",
+   "way/1195617126",
+   "way/1195617127",
+   "way/1195617128",
+   "way/1195617129",
+   "way/1195617130",
+   "way/1195617131",
+   "way/1195617133"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   256031.15193957253,
+   6642233.455977941,
+   256376.4340318765,
+   6642578.738070244
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C053",
+  "osm_ids": [
+   "way/148726994",
+   "way/148727002",
+   "way/148727028",
+   "way/148727033",
+   "way/148727003",
+   "way/148727010",
+   "way/1196709615",
+   "way/1196709616",
+   "way/1301721031"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6642000",
+  "review_bbox": [
+   255893.82586634095,
+   6642014.2032514615,
+   256237.31021943624,
+   6642357.687604557
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Kavringen-operatøren dokumenterer båtplasser og vinteropplag. Bare sjøanlegget vest/sør for øya; opplag på land er utelatt. Utriggere og brygger øst for sundet får eget beskrivende kandidatnavn; operatør er uavklart.",
+  "feature_ids": [
+   "3212-H08-B01",
+   "3212-H09-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C054",
+  "osm_ids": [
+   "way/1196724691",
+   "way/1196724692",
+   "way/1196724693",
+   "way/1196724694",
+   "way/1196724695",
+   "way/1196724696",
+   "way/1196724697",
+   "way/1196724698"
+  ],
+  "osm_marks": [
+   {
+    "id": "way/161106297",
+    "tags": {
+     "leisure": "marina",
+     "name": "Småbåtshavn",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "coast-255600-6641100",
+  "review_bbox": [
+   255907.3158243426,
+   6641827.754238822,
+   256127.95893915807,
+   6642048.397353638
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C055",
+  "osm_ids": [
+   "way/1191746502"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-257400-6642900",
+  "review_bbox": [
+   257953.41121652006,
+   6643109.039902312,
+   258173.41121652006,
+   6643329.039902312
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C056",
+  "osm_ids": [
+   "way/1166216848",
+   "way/1166216850",
+   "way/1166216851",
+   "way/1166216852",
+   "way/1166216853",
+   "way/1166216855",
+   "way/1166216856",
+   "way/1166216857",
+   "way/1191651959",
+   "way/1166216858",
+   "way/1166216859",
+   "way/1191651960",
+   "way/1191651961"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/293400188",
+    "tags": {
+     "leisure": "marina",
+     "name": "Ursvikbukta",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "detail-C056",
+  "review_bbox": [
+   257951.66036716232,
+   6642759.134695338,
+   258292.12124560436,
+   6643099.595573781
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C057",
+  "osm_ids": [
+   "way/176983409",
+   "way/176983410",
+   "way/176983421",
+   "way/176983426",
+   "way/176983422",
+   "way/176983424",
+   "way/176983428",
+   "way/176983432"
+  ],
+  "osm_marks": [
+   {
+    "id": "node/293400188",
+    "tags": {
+     "leisure": "marina",
+     "name": "Ursvikbukta",
+     "seamark:harbour:category": "marina",
+     "seamark:type": "harbour"
+    }
+   }
+  ],
+  "image_id": "detail-C057",
+  "review_bbox": [
+   258061.86755486397,
+   6642556.040852502,
+   258408.8322716924,
+   6642903.005569331
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Flere lokale aktører og vel har bryggeinteresser i Ursvikbukta. Fysisk sammenhengende båtplassanlegg er én gruppe her; ingen kapasitet eller eksklusiv operatørgrense er overført fra eldre vel-dokumenter. Badehus-/strandbryggen sør for båtplassene er utelatt.",
+  "feature_ids": [
+   "3212-H10-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C058",
+  "osm_ids": [
+   "way/1167950993"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6642000",
+  "review_bbox": [
+   258468.2515312924,
+   6642505.000397423,
+   258688.2515312924,
+   6642725.000397423
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C059",
+  "osm_ids": [
+   "way/1283203487"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6642000",
+  "review_bbox": [
+   258467.98543132487,
+   6642419.319023769,
+   258687.98543132487,
+   6642639.319023769
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C060",
+  "osm_ids": [
+   "way/1283202822",
+   "way/1283202823",
+   "way/1283202824",
+   "way/1283202825"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6642000",
+  "review_bbox": [
+   258535.54966787744,
+   6642092.700878164,
+   258771.12465039204,
+   6642328.275860678
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C061",
+  "osm_ids": [
+   "way/1148451699",
+   "way/1148451700",
+   "way/1148454573",
+   "way/1148454574",
+   "way/1283202820",
+   "way/1283202821"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6641100",
+  "review_bbox": [
+   258542.83796903916,
+   6641778.324778331,
+   258823.206851441,
+   6642058.693660734
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C062",
+  "osm_ids": [
+   "way/1283530208"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6641100",
+  "review_bbox": [
+   258706.8660642602,
+   6641151.123973506,
+   258926.8660642602,
+   6641371.123973506
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C063",
+  "osm_ids": [
+   "way/1283530209"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6641100",
+  "review_bbox": [
+   258730.43972751813,
+   6641010.870527451,
+   258950.43972751813,
+   6641230.870527451
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C064",
+  "osm_ids": [
+   "way/126446945",
+   "way/1161627499"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6640200",
+  "review_bbox": [
+   258727.39832247404,
+   6640515.164019724,
+   258947.39832247404,
+   6640735.164019724
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C065",
+  "osm_ids": [
+   "way/126446913"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6640200",
+  "review_bbox": [
+   258704.2555082932,
+   6640191.786246885,
+   258924.2555082932,
+   6640411.786246885
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C066",
+  "osm_ids": [
+   "way/1190002405"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6638400",
+  "review_bbox": [
+   258793.95779655298,
+   6639102.467756797,
+   259013.95779655298,
+   6639322.467756797
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C067",
+  "osm_ids": [
+   "way/126446948",
+   "way/1189888696",
+   "way/1189888697"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6638400",
+  "review_bbox": [
+   258834.01035637793,
+   6638671.060026942,
+   259054.01035637793,
+   6638891.060026942
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C068",
+  "osm_ids": [
+   "way/1151913676",
+   "way/1189888695"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6638400",
+  "review_bbox": [
+   258835.74742843147,
+   6638533.618399425,
+   259055.74742843147,
+   6638753.618399425
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C069",
+  "osm_ids": [
+   "way/1148482622"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6637500",
+  "review_bbox": [
+   258781.39656403277,
+   6638120.797574062,
+   259001.39656403277,
+   6638340.797574062
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C070",
+  "osm_ids": [
+   "way/1187312202"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6636600",
+  "review_bbox": [
+   259018.13083344026,
+   6637185.572884481,
+   259238.13083344026,
+   6637405.572884481
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C071",
+  "osm_ids": [
+   "way/1299781034"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6636600",
+  "review_bbox": [
+   258997.9026984902,
+   6637103.344757595,
+   259217.9026984902,
+   6637323.344757595
+  ],
+  "decision": "utelatt",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C072",
+  "osm_ids": [
+   "way/1164362236",
+   "way/1164362237",
+   "way/1164362238",
+   "way/1164362239",
+   "way/1164362240",
+   "way/1164362241",
+   "way/1305536048"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6635700",
+  "review_bbox": [
+   258917.7221783506,
+   6636252.893724784,
+   259137.7221783506,
+   6636472.893724784
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C073",
+  "osm_ids": [
+   "way/1187312201"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6635700",
+  "review_bbox": [
+   258943.7120907214,
+   6636115.678883739,
+   259163.7120907214,
+   6636335.678883739
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C074",
+  "osm_ids": [
+   "way/126446942"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6635700",
+  "review_bbox": [
+   258976.1958336702,
+   6635875.482763033,
+   259196.1958336702,
+   6636095.482763033
+  ],
+  "decision": "utelatt",
+  "reason": "Bomansvik: eksisterende steinkai synlig, men ingen sikker utstrekning av foreningens faste båtplasser i dette bildet. Beholdes som åpent kontrollbehov i tillegg til utelatt kaiomriss.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C075",
+  "osm_ids": [
+   "way/1186323331"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-258300-6634800",
+  "review_bbox": [
+   259041.13999105326,
+   6635427.41067799,
+   259261.13999105326,
+   6635647.41067799
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C076",
+  "osm_ids": [
+   "way/126446947"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633900",
+  "review_bbox": [
+   259103.53688827367,
+   6634510.1717812065,
+   259323.53688827367,
+   6634730.1717812065
+  ],
+  "decision": "utelatt",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C077",
+  "osm_ids": [
+   "way/114708766",
+   "way/114708769"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-259200-6633900",
+  "review_bbox": [
+   259105.7173379453,
+   6634288.777075978,
+   259325.7173379453,
+   6634508.777075978
+  ],
+  "decision": "inkludert_smabathavn",
+  "reason": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser.",
+  "note": "Blylaget-navn støttet av OBU-havnelistens koordinat og synlige faste båtplasser. Sørgrensen mot Frogn går sør for bryggene; ingen Frogn-geometri innlemmes. Eksakt antall plasser ikke målt.",
+  "feature_ids": [
+   "3212-H11-B01"
+  ],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C078",
+  "osm_ids": [
+   "way/139882964"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6644700",
+  "review_bbox": [
+   260381.659958266,
+   6645090.011901906,
+   260601.659958266,
+   6645310.011901906
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C079",
+  "osm_ids": [
+   "way/504695760"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6644700",
+  "review_bbox": [
+   260504.8074502255,
+   6644800.807294901,
+   260724.8074502255,
+   6645020.807294901
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C080",
+  "osm_ids": [
+   "way/1163312161",
+   "way/1188519187"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6644700",
+  "review_bbox": [
+   260656.39588096584,
+   6644711.276881003,
+   260876.39588096584,
+   6644931.276881003
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C081",
+  "osm_ids": [
+   "way/1546500233",
+   "way/1546500234"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6644700",
+  "review_bbox": [
+   260115.03672093782,
+   6644619.652550081,
+   260335.03672093782,
+   6644839.652550081
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C082",
+  "osm_ids": [
+   "way/155185785"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6643800",
+  "review_bbox": [
+   260208.56592393722,
+   6644506.805354617,
+   260428.56592393722,
+   6644726.805354617
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C083",
+  "osm_ids": [
+   "way/146077208",
+   "way/155185780"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6643800",
+  "review_bbox": [
+   260122.8443027964,
+   6643914.842045641,
+   260342.8443027964,
+   6644134.842045641
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "C084",
+  "osm_ids": [
+   "way/146077201"
+  ],
+  "osm_marks": [],
+  "image_id": "coast-260100-6642900",
+  "review_bbox": [
+   260806.71526335133,
+   6642808.199483672,
+   261026.71526335133,
+   6643028.199483672
+  ],
+  "decision": "utelatt",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke.",
+  "note": "",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S001",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Bomansvik Båtforening: Forening oppført i KNBF; bildet viser steinkai, men sikker fysisk avgrensning av faste båtplasser mangler. Ikke mistolk manglende polygon som fravær av havn.",
+  "note": "Kilder: https://www.knbf.no/regioner/ost/medlemsforeninger-ost/",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S002",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Kavringstrand Båtforening: Organisasjonsnavn finnes, men eksklusiv kobling til delbryggene øst for Kavringen er ikke verifisert. Mulig fysisk kandidat C053E beholdes med geografisk navn.",
+  "note": "Kilder: https://data.brreg.no/enhetsregisteret/api/enheter/976720563",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ },
+ {
+  "candidate_id": "S003",
+  "osm_ids": [],
+  "osm_marks": [],
+  "image_id": null,
+  "review_bbox": null,
+  "decision": "aapen_kildekandidat",
+  "reason": "Steilene østlige kaier: C006 kan være tilhørende jolle-/service-/gjesteanlegg; fast bruk og utstrekning må avklares før ekstra polygon.",
+  "note": "Kilder: https://nesoddenseilforening.no/next/p/97799/havna",
+  "feature_ids": [],
+  "reviewed_date": "2026-10-31"
+ }
+]

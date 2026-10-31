@@ -1,0 +1,1169 @@
+{
+ "C001": {
+  "action": "exclude",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling."
+ },
+ "C002": {
+  "action": "exclude",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling."
+ },
+ "C003": {
+  "action": "exclude",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling."
+ },
+ "C023": {
+  "action": "exclude",
+  "reason": "Enkeltbrygge eller spredte private brygger med adskilte landfester; ikke dokumentert felles havn eller ti faste plasser. Nærhet til marina-merke gir ikke operatørkobling."
+ },
+ "C004": {
+  "action": "exclude",
+  "reason": "Lang kai ved industri/opplag; bildet viser ikke et avgrenset småbåtplassanlegg. Opplag på land og servicekai alene kvalifiserer ikke."
+ },
+ "C022": {
+  "action": "include",
+  "name": "Fagerstrand Båtforening",
+  "pixels": [
+   [
+    153,
+    80
+   ],
+   [
+    214,
+    94
+   ],
+   [
+    233,
+    129
+   ],
+   [
+    283,
+    142
+   ],
+   [
+    340,
+    160
+   ],
+   [
+    399,
+    206
+   ],
+   [
+    450,
+    318
+   ],
+   [
+    433,
+    340
+   ],
+   [
+    388,
+    307
+   ],
+   [
+    330,
+    263
+   ],
+   [
+    291,
+    233
+   ],
+   [
+    279,
+    266
+   ],
+   [
+    272,
+    306
+   ],
+   [
+    270,
+    337
+   ],
+   [
+    256,
+    352
+   ],
+   [
+    270,
+    377
+   ],
+   [
+    254,
+    415
+   ],
+   [
+    226,
+    441
+   ],
+   [
+    209,
+    461
+   ],
+   [
+    219,
+    484
+   ],
+   [
+    207,
+    498
+   ],
+   [
+    195,
+    489
+   ],
+   [
+    142,
+    418
+   ],
+   [
+    77,
+    313
+   ],
+   [
+    40,
+    264
+   ],
+   [
+    35,
+    241
+   ],
+   [
+    43,
+    200
+   ],
+   [
+    76,
+    145
+   ],
+   [
+    114,
+    96
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.havneweb.no/fabat/?mod=startsiden"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C022",
+  "note": "Grisebukta/Fagerstrand. Ingen dedikerte gjesteplasser ifølge operatøren; ledige medlemsplasser kan leies av gjester. Medlemstall fra KNBF er ikke brukt som kapasitet.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ },
+ "C012": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C013": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C014": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C015": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C016": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C017": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C018": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C072": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C073": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C075": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C076": {
+  "action": "exclude",
+  "reason": "Enkeltbrygger/spredte private brygger, ikke dokumentert felles anlegg med ti plasser. Ingen summering mellom boligene."
+ },
+ "C019": {
+  "action": "exclude",
+  "reason": "Stor kai ved industri-/treningsområde Svestad. Ingen tydelige faste fritidsbåtplasser; kai alene kvalifiserer ikke."
+ },
+ "C020": {
+  "action": "exclude",
+  "reason": "Kaier og maritime trenings-/serviceinstallasjoner ved Svestad. Ingen dokumentert småbåthavn med faste plasser i det avbildede anlegget."
+ },
+ "C074": {
+  "action": "exclude",
+  "reason": "Bomansvik: eksisterende steinkai synlig, men ingen sikker utstrekning av foreningens faste båtplasser i dette bildet. Beholdes som åpent kontrollbehov i tillegg til utelatt kaiomriss."
+ },
+ "C077": {
+  "action": "include",
+  "name": "Blylaget – felles båtplassanlegg",
+  "pixels": [
+   [
+    196,
+    192
+   ],
+   [
+    324,
+    214
+   ],
+   [
+    321,
+    235
+   ],
+   [
+    300,
+    234
+   ],
+   [
+    302,
+    302
+   ],
+   [
+    243,
+    302
+   ],
+   [
+    215,
+    282
+   ],
+   [
+    176,
+    275
+   ],
+   [
+    179,
+    246
+   ],
+   [
+    190,
+    224
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://obat.no/obu-havner/",
+   "https://data.brreg.no/enhetsregisteret/api/enheter/818992912"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C077",
+  "note": "Blylaget-navn støttet av OBU-havnelistens koordinat og synlige faste båtplasser. Sørgrensen mot Frogn går sør for bryggene; ingen Frogn-geometri innlemmes. Eksakt antall plasser ikke målt.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ },
+ "C021": {
+  "action": "include",
+  "name": "Spro Båthavn",
+  "pixels": [
+   [
+    300,
+    26
+   ],
+   [
+    317,
+    62
+   ],
+   [
+    340,
+    108
+   ],
+   [
+    335,
+    153
+   ],
+   [
+    335,
+    235
+   ],
+   [
+    318,
+    266
+   ],
+   [
+    281,
+    326
+   ],
+   [
+    244,
+    368
+   ],
+   [
+    223,
+    393
+   ],
+   [
+    183,
+    394
+   ],
+   [
+    174,
+    382
+   ],
+   [
+    164,
+    379
+   ],
+   [
+    108,
+    365
+   ],
+   [
+    103,
+    358
+   ],
+   [
+    126,
+    316
+   ],
+   [
+    143,
+    266
+   ],
+   [
+    151,
+    236
+   ],
+   [
+    150,
+    221
+   ],
+   [
+    164,
+    216
+   ],
+   [
+    168,
+    178
+   ],
+   [
+    175,
+    129
+   ],
+   [
+    174,
+    106
+   ],
+   [
+    180,
+    84
+   ],
+   [
+    193,
+    64
+   ],
+   [
+    207,
+    53
+   ],
+   [
+    245,
+    39
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://sprobathavn.no/",
+   "https://www.hersleth.no/eiendom/utviklingsomrader/spro-havn-nesodden"
+  ],
+  "capacity": 180,
+  "capacity_approximate": true,
+  "group": "C021",
+  "note": "Ca. 180 plasser er operatørens publiserte kapasitet for hele havnen, ikke en bildetelling. Bildet viser bryggeanlegg mens landarealene delvis fremstår under arbeid. Opptaksdato og aktuell ferdigstillelse er ikke uavhengig verifisert. Tjenester hos Skjæløy Slipp er ikke bevis på lokale opplags-/renseanlegg her.",
+  "basis": "Operatøren dokumenterer båtplasser i 2026; bildet viser fysisk molo og flere monterte brygger med utriggere."
+ },
+ "C005": {
+  "action": "exclude",
+  "reason": "Steilene: enkeltkai/strandbrygge uten selvstendig fast båtplassanlegg; nærhet til seilforeningens havn er ikke tilstrekkelig."
+ },
+ "C008": {
+  "action": "exclude",
+  "reason": "Steilene: enkeltkai/strandbrygge uten selvstendig fast båtplassanlegg; nærhet til seilforeningens havn er ikke tilstrekkelig."
+ },
+ "C009": {
+  "action": "exclude",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig."
+ },
+ "C010": {
+  "action": "exclude",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig."
+ },
+ "C011": {
+  "action": "exclude",
+  "reason": "Enkeltkaier og private/badepregede brygger; ingen dokumentert felles havn med faste plasser. Marina-merke i nærheten er ikke tilstrekkelig."
+ },
+ "C024": {
+  "action": "include",
+  "name": "Ildjernet nordvest – mulig felles brygge",
+  "pixels": [
+   [
+    299,
+    193
+   ],
+   [
+    326,
+    206
+   ],
+   [
+    327,
+    253
+   ],
+   [
+    316,
+    278
+   ],
+   [
+    279,
+    270
+   ],
+   [
+    263,
+    250
+   ],
+   [
+    264,
+    229
+   ]
+  ],
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C024",
+  "note": "Bare nordre L-brygge med flere båser. Sørlige separat festede brygger er utelatt. Eksakt antall faste plasser og organisering er uavklart.",
+  "basis": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert."
+ },
+ "C028": {
+  "action": "include",
+  "name": "Ildjernet øst – mulig felles båtplassanlegg",
+  "pixels": [
+   [
+    215,
+    181
+   ],
+   [
+    323,
+    190
+   ],
+   [
+    327,
+    213
+   ],
+   [
+    332,
+    226
+   ],
+   [
+    317,
+    234
+   ],
+   [
+    276,
+    227
+   ],
+   [
+    233,
+    222
+   ],
+   [
+    209,
+    210
+   ]
+  ],
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C028",
+  "note": "En samlet rekke med båser, men ti faste plasser og felles drift er ikke sikkert dokumentert. Brygger lenger sør har separate landfester og er utelatt.",
+  "basis": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert."
+ },
+ "C025": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C026": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C027": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C029": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C030": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C031": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C032": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C034": {
+  "action": "exclude",
+  "reason": "Ildjernet/omkringliggende skjær: private enkeltbrygger eller små separate landfester. Ikke grunnlag for å summere til ett felles havneanlegg."
+ },
+ "C035": {
+  "action": "exclude",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia."
+ },
+ "C037": {
+  "action": "exclude",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia."
+ },
+ "C038": {
+  "action": "exclude",
+  "reason": "Bade-/strand-/enkeltkai ved Alværn/Steilene; ingen dokumentert selvstendig småbåthavn i det konkrete omrisset. Et marina-merke i nærheten beviser ikke bruk av kaia."
+ },
+ "C041": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C042": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C044": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C045": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C047": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C048": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C049": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C050": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C051": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C052": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C054": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C055": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C056": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C058": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C059": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C060": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C061": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C062": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C063": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C064": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C065": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C066": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C067": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C068": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C069": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C070": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C071": {
+  "action": "exclude",
+  "reason": "Spredte private brygger/enkeltkaier eller bade-/serviceanlegg med separate landfester. Ingen dokumentert sammenhengende felles båthavn; marina-merker nær større nabohavn overføres ikke til hele klyngen."
+ },
+ "C078": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C079": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C080": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C081": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C082": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C083": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C084": {
+  "action": "exclude",
+  "reason": "Øy-/friluftsbrygge, badeanlegg eller anløpskai uten dokumenterte faste småbåtplasser. Stor kai alene kvalifiserer ikke."
+ },
+ "C053": {
+  "action": "include",
+  "name": "Kavringen / Sjøsenteret Nesodden – marina",
+  "pixels": [
+   [
+    207,
+    39
+   ],
+   [
+    221,
+    57
+   ],
+   [
+    228,
+    103
+   ],
+   [
+    244,
+    145
+   ],
+   [
+    269,
+    173
+   ],
+   [
+    287,
+    193
+   ],
+   [
+    282,
+    219
+   ],
+   [
+    258,
+    246
+   ],
+   [
+    231,
+    289
+   ],
+   [
+    210,
+    335
+   ],
+   [
+    176,
+    319
+   ],
+   [
+    173,
+    296
+   ],
+   [
+    135,
+    282
+   ],
+   [
+    134,
+    264
+   ],
+   [
+    199,
+    200
+   ],
+   [
+    123,
+    215
+   ],
+   [
+    116,
+    192
+   ],
+   [
+    193,
+    149
+   ],
+   [
+    124,
+    159
+   ],
+   [
+    116,
+    141
+   ],
+   [
+    203,
+    88
+   ],
+   [
+    174,
+    61
+   ],
+   [
+    107,
+    118
+   ],
+   [
+    96,
+    108
+   ],
+   [
+    143,
+    65
+   ],
+   [
+    182,
+    41
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.havneweb.no/sjosenteretnesodden/"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C053",
+  "note": "Kavringen-operatøren dokumenterer båtplasser og vinteropplag. Bare sjøanlegget vest/sør for øya; opplag på land er utelatt. Utriggere og brygger øst for sundet får eget beskrivende kandidatnavn; operatør er uavklart.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ },
+ "C053E": {
+  "action": "include",
+  "name": "Kavringstrand – mulig felles brygge øst for Kavringen",
+  "pixels": [
+   [
+    329,
+    181
+   ],
+   [
+    390,
+    194
+   ],
+   [
+    374,
+    239
+   ],
+   [
+    368,
+    272
+   ],
+   [
+    303,
+    267
+   ],
+   [
+    311,
+    230
+   ]
+  ],
+  "classification": "mulig_smabathavn",
+  "sources": [],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "KAVRINGSTRAND",
+  "note": "Øvre flytebrygge med flere båter. Kobling til Kavringstrand Båtforening er ikke verifisert; navn er geografisk beskrivende. Nedre brygge med tomme båser inngår; individuelle strandbrygger inngår ikke. Kan være del av større operatørgruppe; ikke summert med Kavringens kapasitet.",
+  "basis": "Samlet båtplassanlegg er plausibelt, men ti faste plasser og felles drift er ikke sikkert dokumentert."
+ },
+ "C006": {
+  "action": "exclude",
+  "reason": "Steilene øst for seilforeningens hovedhavn: kaier/jolle-/servicepregede brygger, uten sikker avgrensning av faste plasser. Ikke egen havn; beholdt som kontrollbehov for mulig tilhørende delanlegg."
+ },
+ "C033": {
+  "action": "exclude",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger."
+ },
+ "C039": {
+  "action": "exclude",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger."
+ },
+ "C040": {
+  "action": "exclude",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger."
+ },
+ "C046": {
+  "action": "exclude",
+  "reason": "Private strandbrygger eller rutebåt-/servicekai (Nesoddtangen). Ingen dokumentert selvstendig felles småbåthavn i dette konkrete anlegget. Oksval-merkets gjesteplasskapasitet overføres ikke til private nabobrygger."
+ },
+ "C043": {
+  "action": "include",
+  "name": "Oksval Båthavn",
+  "pixels": [
+   [
+    211,
+    56
+   ],
+   [
+    436,
+    226
+   ],
+   [
+    302,
+    401
+   ],
+   [
+    276,
+    388
+   ],
+   [
+    232,
+    435
+   ],
+   [
+    210,
+    443
+   ],
+   [
+    200,
+    425
+   ],
+   [
+    246,
+    398
+   ],
+   [
+    238,
+    393
+   ],
+   [
+    186,
+    375
+   ],
+   [
+    178,
+    352
+   ],
+   [
+    193,
+    330
+   ],
+   [
+    181,
+    320
+   ],
+   [
+    180,
+    308
+   ],
+   [
+    215,
+    270
+   ],
+   [
+    207,
+    259
+   ],
+   [
+    193,
+    252
+   ],
+   [
+    201,
+    225
+   ],
+   [
+    213,
+    210
+   ],
+   [
+    216,
+    197
+   ],
+   [
+    212,
+    188
+   ],
+   [
+    204,
+    176
+   ],
+   [
+    210,
+    164
+   ],
+   [
+    199,
+    154
+   ],
+   [
+    204,
+    143
+   ],
+   [
+    217,
+    141
+   ],
+   [
+    190,
+    123
+   ],
+   [
+    178,
+    120
+   ],
+   [
+    186,
+    105
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.obh.no/omoss/historie/"
+  ],
+  "capacity": 290,
+  "capacity_approximate": true,
+  "group": "C043",
+  "note": "Ca. 290 ordinære plasser ifølge operatørens udaterte historieside; gjesteplasser kommer i tillegg. 450 medlemmer er ikke kapasitet. Ingen garanti for dagens kapasitet. OSMs marina-/septikpunkt har unøyaktig-posisjon-merknad; polygonet er tegnet etter synlige brygger, ikke punktet.",
+  "basis": "Operatøren dokumenterer ca. 290 faste plasser i tillegg til gjesteplasser; bildet viser samlet marina med mange utriggere."
+ },
+ "C057": {
+  "action": "include",
+  "name": "Ursvikbukta – felles båtplassanlegg",
+  "pixels": [
+   [
+    103,
+    246
+   ],
+   [
+    270,
+    193
+   ],
+   [
+    300,
+    194
+   ],
+   [
+    300,
+    129
+   ],
+   [
+    293,
+    127
+   ],
+   [
+    295,
+    112
+   ],
+   [
+    310,
+    114
+   ],
+   [
+    312,
+    82
+   ],
+   [
+    278,
+    77
+   ],
+   [
+    280,
+    56
+   ],
+   [
+    391,
+    73
+   ],
+   [
+    386,
+    91
+   ],
+   [
+    330,
+    84
+   ],
+   [
+    329,
+    190
+   ],
+   [
+    328,
+    219
+   ],
+   [
+    270,
+    219
+   ],
+   [
+    238,
+    232
+   ],
+   [
+    104,
+    261
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.ursvikbukten.no/",
+   "https://ursvik.inngangen.com/2024/forslag.html"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C057",
+  "note": "Flere lokale aktører og vel har bryggeinteresser i Ursvikbukta. Fysisk sammenhengende båtplassanlegg er én gruppe her; ingen kapasitet eller eksklusiv operatørgrense er overført fra eldre vel-dokumenter. Badehus-/strandbryggen sør for båtplassene er utelatt.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ },
+ "C007": {
+  "action": "include",
+  "name": "Steilene – Nesodden Seilforenings havn",
+  "pixels": [
+   [
+    74,
+    184
+   ],
+   [
+    186,
+    135
+   ],
+   [
+    252,
+    95
+   ],
+   [
+    302,
+    82
+   ],
+   [
+    354,
+    231
+   ],
+   [
+    338,
+    245
+   ],
+   [
+    334,
+    273
+   ],
+   [
+    312,
+    295
+   ],
+   [
+    301,
+    293
+   ],
+   [
+    268,
+    316
+   ],
+   [
+    242,
+    336
+   ],
+   [
+    241,
+    353
+   ],
+   [
+    221,
+    366
+   ],
+   [
+    128,
+    266
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://nesoddenseilforening.no/next/p/97799/havna",
+   "https://www.havneweb.no/nesoddenseilforening/?mod=omhavnen"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C007",
+  "note": "Faste medlemsplasser og gjesteplasser dokumentert. Operatørens minst 20 normalt tilgjengelige gjesteplasser er ikke lagt inn som total kapasitet; ledige faste plasser kan inngå. Omtalt bryggefornyelse i 2025 gjør datert ortofotokontroll særlig relevant.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ },
+ "C036": {
+  "action": "include",
+  "name": "Alværn brygge – båtplassanlegg",
+  "pixels": [
+   [
+    263,
+    245
+   ],
+   [
+    291,
+    258
+   ],
+   [
+    249,
+    375
+   ],
+   [
+    216,
+    365
+   ]
+  ],
+  "classification": "smabathavn",
+  "sources": [
+   "https://www.openstreetmap.org/way/171834645"
+  ],
+  "capacity": null,
+  "capacity_approximate": null,
+  "group": "C036",
+  "note": "Lang brygge med tydelig rekke av minst ti båser/utriggerplasser i bildet. Operatør og nøyaktig kapasitet er ukjent. Strandbrygge/badeplass og ferge-/servicekai lenger nord inngår ikke.",
+  "basis": "Tydelig sammenhengende båtplassanlegg med minst ti synlige båser/utriggerplasser."
+ }
+}
