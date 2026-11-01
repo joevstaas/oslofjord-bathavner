@@ -1,0 +1,59 @@
+name: Feil eller manglende havn / Map feedback
+description: Meld inn en rettelse eller en havn som mangler. Norwegian and English welcome.
+title: "[Kartinnspill]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Takk for at du hjelper oss å forbedre kartleggingen! Du kan skrive på norsk eller engelsk.
+        Innspill vurderes før datasettet oppdateres. Du trenger ikke kjenne havnens ID eller tegne et nytt omriss.
+
+        **Innspillet blir offentlig.** Unngå personopplysninger, private kontaktopplysninger og materiale du ikke har rett til å dele.
+
+        Thank you for helping improve the map! Feedback is reviewed before inclusion. Harbour IDs and new polygons are not required.
+        **Your submission will be public.** Avoid personal details, private contact information and material you do not have permission to share.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Hva gjelder innspillet? / Feedback type
+      options:
+        - Manglende havn / Missing harbour
+        - Feil navn eller operatør / Incorrect name or operator
+        - Feil plassering eller omriss / Incorrect location or boundary
+        - Usikker havneklassifisering / Harbour classification
+        - Kapasitet eller tjenester / Capacity or services
+        - Nedlagt eller endret anlegg / Closed or changed facility
+        - Annet / Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Havn og sted / Harbour and location
+      description: Oppgi navn og kommune, eller beskriv stedet hvis navnet er ukjent. / Name and municipality, or a location description if the name is unknown.
+      placeholder: "Eksempel: Eksempelhavna, Moss"
+    validations:
+      required: true
+  - type: input
+    id: map_reference
+    attributes:
+      label: Kartlenke, koordinater eller havne-ID / Map link, coordinates or harbour ID
+      description: Valgfritt, men hjelper oss å finne riktig sted. / Optional, but helps us locate the facility.
+  - type: textarea
+    id: change
+    attributes:
+      label: Hva bør endres? / What should change?
+      description: Beskriv hva som mangler eller er feil, og hva du mener er riktig. Er du usikker, si gjerne det. / Describe the issue and proposed correction. Please mention any uncertainty.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Kilde eller observasjon / Source or observation
+      description: Gjerne offentlig lenke og dato, eller beskriv hva du selv har observert og når. Kilde er nyttig, men ikke et krav. / A public link and date, or what you observed and when. Evidence is helpful but optional.
+      placeholder: "Lenke, dokumenttittel, observasjonsdato eller bildeopptaksdato / Link, document title, observation date or image acquisition date"
+  - type: textarea
+    id: image
+    attributes:
+      label: Bilde eller kartutsnitt / Image or map excerpt
+      description: Valgfritt. Oppgi kilde og dato hvis kjent. Last bare opp materiale du har rett til å dele offentlig. / Optional. Include source and date if known. Only upload material you may share publicly.

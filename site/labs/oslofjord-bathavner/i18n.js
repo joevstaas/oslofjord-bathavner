@@ -2,6 +2,15 @@
 (function(root) {
   'use strict';
   const messages = {
+  "feedback.title": {"nb": "Meld inn feil eller mangler", "en": "Report an error or missing harbour"},
+  "feedback.help": {"nb": "Kjenner du en havn vi mangler, eller noe som bør rettes? Send sted, forslag til endring og gjerne en kilde via GitHub Issues. Du trenger en GitHub-konto. Innspill blir offentlige og vurderes før datasettet oppdateres. Unngå personopplysninger.", "en": "Know a missing harbour or something that needs correcting? Send the location, proposed change and a source if available via GitHub Issues. A GitHub account is required. Submissions are public and reviewed before the dataset is updated. Avoid personal information."},
+  "feedback.href": {"nb": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml", "en": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"},
+
+  "publication.status": {"nb": "Første KI-støttede kartlegging", "en": "First AI-assisted mapping"},
+  "publication.notice": {"nb": "Kartleggingen bygger på kart, flybilder og offentlige kilder. Den inneholder usikre kandidater, kan ha mangler og er ikke uavhengig faglig kvalitetssikret. Bildeopptaksdato og aktuell drift er ikke bekreftet.", "en": "This mapping uses maps, aerial imagery and public sources. It includes uncertain candidates, may omit facilities and has not undergone independent professional review. Image acquisition dates and current operation are unverified."},
+  "publication.approval": {"nb": "Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.", "en": "User approval means the project owner has reviewed and included a municipal delivery. It is not official approval or independent professional validation. Several polygons may belong to one harbour group; groups are provisional and may include possible harbours."},
+  "publication.short": {"nb": "Første KI-støttede kartlegging · Ikke uavhengig fagkontrollert", "en": "First AI-assisted mapping · No independent professional review"},
+
   "s0": {
     "nb": "Kartlegger fjorden…",
     "en": "Charting the fjord…"
@@ -1892,7 +1901,7 @@
     const description = root.document.querySelector('meta[name="description"]');
     if (description) description.content = t('description');
     for (const element of root.document.querySelectorAll('[data-i18n]')) element.textContent = t(element.dataset.i18n);
-    for (const attribute of ['aria-label', 'title', 'placeholder', 'content']) {
+    for (const attribute of ['aria-label', 'title', 'placeholder', 'content', 'href']) {
       for (const element of root.document.querySelectorAll(`[data-i18n-${attribute}]`)) element.setAttribute(attribute, t(element.getAttribute(`data-i18n-${attribute}`)));
     }
     const selector = root.document.getElementById('language');
