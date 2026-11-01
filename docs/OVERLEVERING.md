@@ -1,5 +1,7 @@
 # Overlevering til lokal AI-agent
 
+**Gjeldende status 2026-11-01:** 816 polygoner fra 23 kommuner, fordelt på 664 foreløpige fysiske havnegrupper i nettstedets gruppering. Flere polygoner kan tilhøre samme gruppe. Porsgrunn er innlemmet; Ås er uavklart. Eldre statusoversikter nedenfor er historiske. Se `status.json` og `data/samlet/samlet-manifest.json` for gjeldende leveranser. Brukergodkjenning er ikke uavhengig fagkontroll.
+
 ## Autoritativ status ved eksport 2026-10-29
 
 Samlefilen har 210 godkjente polygoner: Holmestrand 14, Horten 16, Tønsberg 20, Færder 35, Sandefjord 67, Larvik 32, Moss 26. Brukeren har godkjent alle disse kommuneleveransene. Det ikke-godkjente suppleringsfunnet Våle båthavn i Holmestrand er fortsatt utenfor samlefilen.

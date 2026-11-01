@@ -85,6 +85,7 @@ svg{display:block}
 .pill:hover,.pill.on{background:var(--harbour);color:var(--navy)}
 .howlink{margin-top:10px;font-size:12.5px;font-weight:700;color:var(--harbour);text-shadow:0 2px 12px rgba(0,0,0,.6)}
 .howlink:hover{text-decoration:underline}
+.howlink a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 
 /* hud */
 #hud{position:fixed;top:14px;right:14px;z-index:5;display:flex;gap:8px;align-items:stretch}
@@ -310,6 +311,7 @@ svg{display:block}
   <div class="eyebrow"><span data-i18n="s51">Om kartet</span></div>
   <h2><span data-i18n="s52">Småbåthavner i Oslofjorden</span></h2>
   <p><span data-i18n="s53">Kartet viser omrisset av småbåthavnene som er funnet så langt i kommunene langs indre og ytre Oslofjord: brygger, båtplasser og vannet mellom dem.</span> <b id="aboutStats"><span data-i18n="s54">816 polygoner fra 23 kommuner</span></b> <span data-i18n="s55">er kartlagt. Kommunene merket</span> <span style="color:var(--todo)"><span data-i18n="s56">ikke kartlagt</span></span> <span data-i18n="s57">står for tur.</span></p>
+  <div class="ai"><b data-i18n="publication.status">Første KI-støttede kartlegging</b><p data-i18n="publication.notice">Kartleggingen bygger på kart, flybilder og offentlige kilder. Den inneholder usikre kandidater, kan ha mangler og er ikke uavhengig faglig kvalitetssikret. Bildeopptaksdato og aktuell drift er ikke bekreftet.</p><p data-i18n="publication.approval">Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.</p></div>
   <h3><span data-i18n="s58">Flyrute</span></h3>
   <p><span data-i18n="s59">Start i Oslo, følg fjorden sørover langs vestsiden og kryss over før turen går nordover igjen.</span></p>
   <h3><span data-i18n="s60">Hva regnes som en småbåthavn?</span></h3>
@@ -326,6 +328,9 @@ svg{display:block}
   <p><a href="#" id="toMethod"><span data-i18n="s75">Kilder, full metode og KI-modeller →</span></a></p>
   <h3><span data-i18n="s76">Begrensninger</span></h3>
   <p><span data-i18n="s77">Bildenes opptaksdato er ukjent, det er ikke gjennomført befaring, og små anlegg kan være oversett. Omrissene er kartleggingsanslag, ikke offisielle havne- eller eiendomsgrenser. Usikre omriss er merket i havnekortet.</span></p>
+  <h3 data-i18n="feedback.title">Meld inn feil eller mangler</h3>
+  <p data-i18n="feedback.help">Kjenner du en havn vi mangler, eller noe som bør rettes? Send sted, forslag til endring og gjerne en kilde via GitHub Issues. Du trenger en GitHub-konto. Innspill blir offentlige og vurderes før datasettet oppdateres. Unngå personopplysninger.</p>
+  <p><a data-i18n-href="feedback.href" href="https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"><span data-i18n="feedback.title">Meld inn feil eller mangler</span></a></p>
   <h3><span data-i18n="s78">Bidragsytere</span></h3>
   <div class="who"><svg width="22" height="22" viewBox="0 0 24 24" fill="#e9f4fb"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a10.9 10.9 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
     <div style="font-size:13px"><span data-i18n="s79">Laget av</span> <a href="https://github.com/joevstaas" target="_blank" rel="noopener">Jo Øvstaas</a><br><a href="https://github.com/joevstaas/oslofjord-bathavner" target="_blank" rel="noopener" style="font-weight:500"><span data-i18n="s81">Full metode, data og kode på GitHub ↗</span></a></div></div>
@@ -407,6 +412,8 @@ svg{display:block}
       <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="desktop-copy"><span data-i18n="s161">Start flyturen</span></span><span class="mobile-copy"><span data-i18n="s162">Start turen</span></span></button>
       <button class="cta sec" id="explore"><span class="desktop-copy"><span data-i18n="s163">Utforsk fritt</span></span><span class="mobile-copy"><span data-i18n="s164">Utforsk kartet</span></span></button>
     </div>
+    <p style="font-size:12px;color:var(--mist);margin-top:12px" data-i18n="publication.short">Første KI-støttede kartlegging · Ikke uavhengig fagkontrollert</p>
+    <p class="howlink" style="margin-bottom:0"><a data-i18n-href="feedback.href" href="https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"><span data-i18n="feedback.title">Meld inn feil eller mangler</span></a></p>
     <button class="howlink" id="howBtn"><span class="desktop-copy"><span data-i18n="s165">Hvordan ble dette kartlagt? Kilder, metode og KI-modeller →</span></span><span class="mobile-copy"><span data-i18n="s166">Om kartleggingen →</span></span></button>
     <div class="odp"><span data-i18n="s82">Drevet av</span> <a href="https://app.hubocean.earth/" target="_blank" rel="noopener">Ocean Data Platform</a> <span data-i18n="s84">fra</span> <a href="https://www.hubocean.earth/" target="_blank" rel="noopener">HUB Ocean</a></div>
   </div>
