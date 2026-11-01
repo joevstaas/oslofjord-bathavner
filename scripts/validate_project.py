@@ -5,7 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def read(path): return json.loads(path.read_text())
 fc = read(ROOT / "data/samlet/oslofjorden-bathavner-samlet.geojson")
 features = fc["features"]
-assert len(features) == 816, "Forventet 816 godkjente polygoner"
+assert len(features) == 817, "Forventet 817 godkjente polygoner"
 assert len({f["properties"]["id"] for f in features}) == len(features), "Dupliserte ID-er"
 assert all(shape(f["geometry"]).is_valid and not shape(f["geometry"]).is_empty for f in features)
 by_name = collections.Counter(f["properties"]["municipality"] for f in features)
@@ -33,8 +33,8 @@ for municipality in approved:
     assert len(ids) == len(set(ids)), "Dupliserte ID-er mellom kommuneleveranse og supplement"
     assert len(municipality_features) == by_name[municipality["name"]]
 manifest = read(ROOT / "data/samlet/samlet-manifest.json")
-assert manifest["features"] == 816 and sum(x["features"] for x in manifest["municipalities"]) == 816
-print("OK: 816 polygoner / 23 kommuner, unike ID-er, gyldige geometrier og samsvar mellom samlefil, kommuneleveranser og CSV.")
+assert manifest["features"] == 817 and sum(x["features"] for x in manifest["municipalities"]) == 817
+print("OK: 817 polygoner / 23 kommuner, unike ID-er, gyldige geometrier og samsvar mellom samlefil, kommuneleveranser og CSV.")
 if pending:
     print("Til godkjenning, utenfor samlefilen:", ", ".join(pending))
 image_dirs = [ROOT / "archive/original" / (name + "-pilot") / "images" for name in ["holmestrand", "horten", "tonsberg", "faerder", "sandefjord", "larvik", "moss"]] + [ROOT / "work/3112-rade/images", ROOT / "work/3107-fredrikstad/images"] + [ROOT / "work" / d / "images" for d in ["3201-baerum", "3203-asker", "3312-lier", "3301-drammen", "0301-oslo"]]

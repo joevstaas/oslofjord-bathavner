@@ -2,11 +2,11 @@
 
 Polygons with traceable metadata for small-boat harbours (marinas, boat club harbours and other shared berthing facilities) in the municipalities bordering the inner and outer Oslofjord, Norway.
 
-Current coverage: **816 polygons from 23 municipalities**, representing **664 provisional physical harbour groups** in the website grouping (including cross-municipality links). Polygons are parts of facilities, not separate harbours. Porsgrunn is included; Ås remains unresolved as a coastal municipality. See `status.json` and `data/samlet/samlet-manifest.json`.
+Current coverage: **817 polygons from 23 municipalities**, representing **665 provisional physical harbour groups** in the website grouping (including cross-municipality links). Polygons are parts of facilities, not separate harbours. Porsgrunn is included; Ås remains unresolved as a coastal municipality. See `status.json` and `data/samlet/samlet-manifest.json`.
 
 This is a first AI-assisted mapping based on maps, imagery and public sources. It includes uncertain candidates, may omit facilities and has not undergone independent professional review. Image acquisition dates and current operation are unverified. Municipality deliveries have been approved by the project owner; this is not official approval or independent professional validation.
 
-**Explore it in 3D:** [www.oceandatajo.com/labs/oslofjord-bathavner](https://www.oceandatajo.com/labs/oslofjord-bathavner). The site is in `site/`, and its data is built with `scripts/build_flyover_data.py`. The dataset will be published on the [Ocean Data Platform](https://app.hubocean.earth/) from [HUB Ocean](https://www.hubocean.earth/).
+**Explore it in 3D:** [www.oceandatajo.com/labs/oslofjord-bathavner](https://www.oceandatajo.com/labs/oslofjord-bathavner). The site is in `site/`, and its data is built with `scripts/build_flyover_data.py`. This is an independent project by Jo Øvstaas. [Ocean Data Platform](https://app.hubocean.earth/) is used for data sharing.
 
 The dataset is an imagery- and source-based mapping. It does not show official harbour or property boundaries. Approval does not remove uncertainty about classification or geometry.
 
@@ -101,7 +101,7 @@ cd oslofjord-bathavner
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
-python scripts/validate_project.py   # expects 816 polygons / 23 municipalities
+python scripts/validate_project.py   # expects 817 polygons / 23 municipalities
 claude
 ```
 

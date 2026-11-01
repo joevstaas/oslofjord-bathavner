@@ -264,5 +264,17 @@
     "sha256": "9f33e61613e733627d848f20ee2f244ac8d552c8aaaa47b11b6b86f843db4521",
     "http_status": 200,
     "locator": "_embedded / enheter / forretningsadresse"
+  },
+  {
+    "id": "L12",
+    "url": "https://velihavn.no/gjestehavner/oslo/bispebrygga-batforening",
+    "title": "Bispebrygga – havnekoordinat og operatørlenke",
+    "publisher": "VELiHAVN",
+    "source_type": "havneoversikt",
+    "published_or_updated": null,
+    "retrieved_utc": "2026-11-01T07:27:48.913149+00:00",
+    "snapshot": "../../kommuner/0301-oslo/bispebrygga-supplering-01/sources/location.html",
+    "sha256": "4028a4cf8a18f2a3af07423ba5948570c58578643870729af64cdc418e73e8cc",
+    "locator": "59.879167, 10.765; Grønsundveien 16; lenke til operatør"
   }
 ]

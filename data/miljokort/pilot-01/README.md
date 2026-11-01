@@ -28,3 +28,5 @@ Totalt seks kort og 25 observasjoner. Nye punkter bygger på publisert besøksad
 ## Prioritering etter forskriftssjekk
 
 Kortene viser nå tre faste temaer: spylevann, båtpuss og arbeidsavfall, samt én neste avklaring. Septik, øvrige tiltak, effekt og full kildehistorikk beholdes under «Kilder og grunnlag». Regulatory-context.json viser at det opprinnelige høringsforslaget er under revisjon, jf. offisiell status 16.10.2026. Verken virkeområde eller regelverksetterlevelse er vurdert for anleggene. Opplysninger om kapasitet i sjø og på land, faktisk vedlikeholdsaktivitet og ansvar må avklares separat.
+
+Oppdatering 2026-11-01: Bispebrygga-supplement 0301-H33 er godkjent og innlemmet. MK-06 er nå koblet til havnepolygonet som geografisk kontekst, støttet av VELiHAVNs havnekoordinat og flyfoto. Eksakt spyleplass og driftsgrenser er fortsatt uavklart. Tidligere omtale av manglende kobling ovenfor beskriver opprinnelig pilotstatus.

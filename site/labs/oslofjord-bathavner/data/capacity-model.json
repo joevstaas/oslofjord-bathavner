@@ -2,9 +2,9 @@
   "model": "area-log-municipality-balanced-v1",
   "purpose": "Exploratory prioritisation of capacity source research; not a berth inventory or regulatory assessment.",
   "equation": "count = coefficient * total_group_area_m2 ** exponent",
-  "coefficient": 0.08927351508766625,
-  "exponent": 0.7810120024337718,
-  "training_groups": 97,
+  "coefficient": 0.13421152182623508,
+  "exponent": 0.740936875327781,
+  "training_groups": 98,
   "training_municipalities": 15,
   "training_distribution": {
     "Asker": 2,
@@ -17,6 +17,7 @@
     "Moss": 8,
     "Nesodden": 2,
     "Nordre Follo": 1,
+    "Oslo": 1,
     "Råde": 1,
     "Sandefjord": 62,
     "Sarpsborg": 3,
@@ -28,17 +29,17 @@
   ],
   "validation": "Leave municipalities out; shared groups are excluded from training whenever either municipality is held out.",
   "evaluation": {
-    "median_absolute_percentage_error": 0.2643282140274238,
-    "within_factor_two": 0.8865979381443299,
-    "mean_absolute_error": 45.152935957671595
+    "median_absolute_percentage_error": 0.29388970093875566,
+    "within_factor_two": 0.826530612244898,
+    "mean_absolute_error": 45.73425534489365
   },
   "baseline_median_density_evaluation": {
-    "median_absolute_percentage_error": 0.27970812663618544,
-    "within_factor_two": 0.8041237113402062,
-    "mean_absolute_error": 47.05266880583404
+    "median_absolute_percentage_error": 0.28691531635697354,
+    "within_factor_two": 0.8163265306122449,
+    "mean_absolute_error": 47.02096132674891
   },
   "uncertainty": {
-    "multiplicative_factor": 2.075531464002719,
+    "multiplicative_factor": 1.906776324987414,
     "calibration": "90th percentile of absolute municipality-balanced held-out log errors; descriptive, not a guaranteed 90% interval.",
     "caveats": [
       "Sparse, nonrandom sample; published counts may be old, approximate or differ in scope. Municipality weights use the first sorted municipality for shared groups.",
@@ -49,11 +50,23 @@
   },
   "estimated_groups": 567,
   "categories": {
-    "likely_ge_200": 16,
-    "uncertain": 348,
-    "likely_lt_200": 203
+    "likely_ge_200": 17,
+    "uncertain": 342,
+    "likely_lt_200": 208
   },
   "training": [
+    {
+      "gid": "0301-H33",
+      "name": "Bispebrygga båtforening",
+      "area": 3396,
+      "count": 72,
+      "municipalities": [
+        "Oslo"
+      ],
+      "municipality": "Oslo",
+      "source": "https://www.havneweb.no/bispebrygga/?mod=omhavnen",
+      "reference_period": "Nettside uten publiseringsdato, lest 2026-11-01"
+    },
     {
       "gid": "3103-H01",
       "name": "Fiske båthavn",
@@ -1223,11 +1236,21 @@
   ],
   "held_out_predictions": [
     {
+      "gid": "0301-H33",
+      "observed": 72,
+      "predicted": 51.39818729120151,
+      "absolute_percentage_error": 0.2861362876222013,
+      "log_residual": 0.3370632138849627,
+      "held_out_municipalities": [
+        "Oslo"
+      ]
+    },
+    {
       "gid": "3103-H01",
       "observed": 376,
-      "predicted": 251.31495026578557,
-      "absolute_percentage_error": 0.3316091748250384,
-      "log_residual": 0.4028822089036397,
+      "predicted": 251.0920281529274,
+      "absolute_percentage_error": 0.3322020527847675,
+      "log_residual": 0.40376962542874134,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1235,9 +1258,9 @@
     {
       "gid": "3103-H02",
       "observed": 409,
-      "predicted": 259.41539398319776,
-      "absolute_percentage_error": 0.36573253304841624,
-      "log_residual": 0.4552845413445711,
+      "predicted": 258.76983411437936,
+      "absolute_percentage_error": 0.36731091903574725,
+      "log_residual": 0.45777616081881617,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1245,9 +1268,9 @@
     {
       "gid": "3103-H03",
       "observed": 100,
-      "predicted": 86.69751379068887,
-      "absolute_percentage_error": 0.13302486209311126,
-      "log_residual": 0.14274497861404137,
+      "predicted": 91.41013746324532,
+      "absolute_percentage_error": 0.0858986253675468,
+      "log_residual": 0.08981380051378772,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1255,9 +1278,9 @@
     {
       "gid": "3103-H04",
       "observed": 300,
-      "predicted": 293.43084078416797,
-      "absolute_percentage_error": 0.02189719738610677,
-      "log_residual": 0.022140499324399515,
+      "predicted": 290.8826159590744,
+      "absolute_percentage_error": 0.030391280136418574,
+      "log_residual": 0.03086267044888198,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1265,9 +1288,9 @@
     {
       "gid": "3103-H05",
       "observed": 360,
-      "predicted": 245.64619498819857,
-      "absolute_percentage_error": 0.3176494583661151,
-      "log_residual": 0.382211762521111,
+      "predicted": 245.7116132368611,
+      "absolute_percentage_error": 0.31746774100871916,
+      "log_residual": 0.38194548711873005,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1275,9 +1298,9 @@
     {
       "gid": "3103-H10",
       "observed": 306,
-      "predicted": 283.5530719286696,
-      "absolute_percentage_error": 0.07335597408931495,
-      "log_residual": 0.07618579373452544,
+      "predicted": 281.5777814762196,
+      "absolute_percentage_error": 0.07981117164634109,
+      "log_residual": 0.0831763817890844,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1285,9 +1308,9 @@
     {
       "gid": "3103-H11",
       "observed": 168,
-      "predicted": 144.72336232646185,
-      "absolute_percentage_error": 0.13855141472344135,
-      "log_residual": 0.1491399052634038,
+      "predicted": 148.68712532111041,
+      "absolute_percentage_error": 0.11495758737434277,
+      "log_residual": 0.12211971125172037,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1295,9 +1318,9 @@
     {
       "gid": "3103-H21",
       "observed": 16,
-      "predicted": 38.945017698177374,
-      "absolute_percentage_error": 1.4340636061360859,
-      "log_residual": -0.8895621265723246,
+      "predicted": 42.75774283180709,
+      "absolute_percentage_error": 1.6723589269879433,
+      "log_residual": -0.9829615756156257,
       "held_out_municipalities": [
         "Moss"
       ]
@@ -1305,9 +1328,9 @@
     {
       "gid": "3105-H25",
       "observed": 100,
-      "predicted": 83.54350873260464,
-      "absolute_percentage_error": 0.16456491267395365,
-      "log_residual": 0.17980262717136983,
+      "predicted": 88.2481846957646,
+      "absolute_percentage_error": 0.11751815304235393,
+      "log_residual": 0.12501706040591548,
       "held_out_municipalities": [
         "Sarpsborg"
       ]
@@ -1315,9 +1338,9 @@
     {
       "gid": "3105-H33",
       "observed": 1250,
-      "predicted": 644.06579053869,
-      "absolute_percentage_error": 0.484747367569048,
-      "log_residual": 0.6630979501883228,
+      "predicted": 608.8152142305851,
+      "absolute_percentage_error": 0.5129478286155319,
+      "log_residual": 0.7193840335378286,
       "held_out_municipalities": [
         "Sarpsborg"
       ]
@@ -1325,9 +1348,9 @@
     {
       "gid": "3105-H35",
       "observed": 400,
-      "predicted": 259.4666834178895,
-      "absolute_percentage_error": 0.35133329145527625,
-      "log_residual": 0.4328362403440871,
+      "predicted": 257.69710011712385,
+      "absolute_percentage_error": 0.35575724970719036,
+      "log_residual": 0.4396796824539016,
       "held_out_municipalities": [
         "Sarpsborg"
       ]
@@ -1335,9 +1358,9 @@
     {
       "gid": "3107-H30",
       "observed": 220,
-      "predicted": 161.84779291396677,
-      "absolute_percentage_error": 0.2643282140274238,
-      "log_residual": 0.30697120268744177,
+      "predicted": 166.3413291833725,
+      "absolute_percentage_error": 0.24390304916648867,
+      "log_residual": 0.27958566918161737,
       "held_out_municipalities": [
         "Fredrikstad"
       ]
@@ -1345,9 +1368,9 @@
     {
       "gid": "3107-H31",
       "observed": 300,
-      "predicted": 351.264650185977,
-      "absolute_percentage_error": 0.17088216728659006,
-      "log_residual": -0.15775745383649556,
+      "predicted": 344.0694246738733,
+      "absolute_percentage_error": 0.14689808224624434,
+      "log_residual": -0.137060978267528,
       "held_out_municipalities": [
         "Fredrikstad"
       ]
@@ -1355,9 +1378,9 @@
     {
       "gid": "3107-H41",
       "observed": 285,
-      "predicted": 91.21264047589642,
-      "absolute_percentage_error": 0.679955647452995,
-      "log_residual": 1.1392956910833036,
+      "predicted": 97.14092410453598,
+      "absolute_percentage_error": 0.659154652264786,
+      "log_residual": 1.0763264302756919,
       "held_out_municipalities": [
         "Fredrikstad"
       ]
@@ -1365,9 +1388,9 @@
     {
       "gid": "3110-H28",
       "observed": 250,
-      "predicted": 295.2203449546652,
-      "absolute_percentage_error": 0.1808813798186609,
-      "log_residual": -0.16626109171237113,
+      "predicted": 292.8225102928773,
+      "absolute_percentage_error": 0.1712900411715093,
+      "log_residual": -0.1581057406854038,
       "held_out_municipalities": [
         "Hvaler"
       ]
@@ -1375,9 +1398,9 @@
     {
       "gid": "3112-H01",
       "observed": 402,
-      "predicted": 267.79950090356084,
-      "absolute_percentage_error": 0.33383208730457503,
-      "log_residual": 0.40621351905464587,
+      "predicted": 266.3357999931392,
+      "absolute_percentage_error": 0.3374731343454249,
+      "log_residual": 0.41169417001253306,
       "held_out_municipalities": [
         "Råde"
       ]
@@ -1385,9 +1408,9 @@
     {
       "gid": "3203-H06",
       "observed": 250,
-      "predicted": 255.17865697964174,
-      "absolute_percentage_error": 0.020714627918566975,
-      "log_residual": -0.02050299758607899,
+      "predicted": 255.1760508369872,
+      "absolute_percentage_error": 0.020704203347948806,
+      "log_residual": -0.020492784522048647,
       "held_out_municipalities": [
         "Asker"
       ]
@@ -1395,9 +1418,9 @@
     {
       "gid": "3203-H49",
       "observed": 73,
-      "predicted": 69.02879244461039,
-      "absolute_percentage_error": 0.054400103498487826,
-      "log_residual": 0.05593574178302494,
+      "predicted": 74.28538429216195,
+      "absolute_percentage_error": 0.017608004002218496,
+      "log_residual": -0.017454779141005135,
       "held_out_municipalities": [
         "Asker"
       ]
@@ -1405,9 +1428,9 @@
     {
       "gid": "3212-H02",
       "observed": 180,
-      "predicted": 277.8870562352175,
-      "absolute_percentage_error": 0.5438169790845419,
-      "log_residual": -0.434257907714192,
+      "predicted": 276.652608589037,
+      "absolute_percentage_error": 0.5369589366057612,
+      "log_residual": -0.4298057476125515,
       "held_out_municipalities": [
         "Nesodden"
       ]
@@ -1415,9 +1438,9 @@
     {
       "gid": "3212-H07",
       "observed": 290,
-      "predicted": 227.0331108439344,
-      "absolute_percentage_error": 0.21712720398643312,
-      "log_residual": 0.24478505338744375,
+      "predicted": 228.40079054184025,
+      "absolute_percentage_error": 0.21241106709710258,
+      "log_residual": 0.23877898398819108,
       "held_out_municipalities": [
         "Nesodden"
       ]
@@ -1425,9 +1448,9 @@
     {
       "gid": "3214-H03",
       "observed": 90,
-      "predicted": 80.74263454351717,
-      "absolute_percentage_error": 0.10285961618314256,
-      "log_residual": 0.10854292547104413,
+      "predicted": 85.7857977147148,
+      "absolute_percentage_error": 0.04682446983650219,
+      "log_residual": 0.047956205338113615,
       "held_out_municipalities": [
         "Frogn"
       ]
@@ -1435,9 +1458,9 @@
     {
       "gid": "3214-H07",
       "observed": 68,
-      "predicted": 124.79919273169202,
-      "absolute_percentage_error": 0.8352822460542944,
-      "log_residual": -0.6071982822422421,
+      "predicted": 129.66079009914415,
+      "absolute_percentage_error": 0.906776324987414,
+      "log_residual": -0.6454140281750687,
       "held_out_municipalities": [
         "Frogn"
       ]
@@ -1445,9 +1468,9 @@
     {
       "gid": "3214-H08",
       "observed": 110,
-      "predicted": 189.47615752796014,
-      "absolute_percentage_error": 0.7225105229814558,
-      "log_residual": -0.5437828330199365,
+      "predicted": 192.6792080407177,
+      "absolute_percentage_error": 0.7516291640065245,
+      "log_residual": -0.5605463057302957,
       "held_out_municipalities": [
         "Frogn"
       ]
@@ -1455,9 +1478,9 @@
     {
       "gid": "3214-H11",
       "observed": 48,
-      "predicted": 54.90284542578067,
-      "absolute_percentage_error": 0.14380927970376392,
-      "log_residual": -0.13436416551369743,
+      "predicted": 59.49947954724605,
+      "absolute_percentage_error": 0.23957249056762597,
+      "log_residual": -0.21476655450032853,
       "held_out_municipalities": [
         "Frogn"
       ]
@@ -1465,9 +1488,9 @@
     {
       "gid": "3905-H14",
       "observed": 170,
-      "predicted": 298.46767873378036,
-      "absolute_percentage_error": 0.7556922278457668,
-      "log_residual": -0.5628632109709969,
+      "predicted": 296.38254641735085,
+      "absolute_percentage_error": 0.7434267436314757,
+      "log_residual": -0.5558525694062568,
       "held_out_municipalities": [
         "Tønsberg"
       ]
@@ -1475,9 +1498,9 @@
     {
       "gid": "3905-H20",
       "observed": 160,
-      "predicted": 152.86828410223825,
-      "absolute_percentage_error": 0.044573224361010945,
-      "log_residual": 0.04559715283913453,
+      "predicted": 157.25636102130633,
+      "absolute_percentage_error": 0.01714774361683542,
+      "log_residual": 0.017296468825595466,
       "held_out_municipalities": [
         "Tønsberg"
       ]
@@ -1485,9 +1508,9 @@
     {
       "gid": "3905-H21",
       "observed": 75,
-      "predicted": 82.24032740365229,
-      "absolute_percentage_error": 0.09653769871536383,
-      "log_residual": -0.09215766923815857,
+      "predicted": 87.41471720625896,
+      "absolute_percentage_error": 0.1655295627501194,
+      "log_residual": -0.1531755440369594,
       "held_out_municipalities": [
         "Tønsberg"
       ]
@@ -1495,9 +1518,9 @@
     {
       "gid": "3907-H01",
       "observed": 52,
-      "predicted": 103.06706570895817,
-      "absolute_percentage_error": 0.9820589559415033,
-      "log_residual": -0.6841361811472908,
+      "predicted": 108.90625687070249,
+      "absolute_percentage_error": 1.0943510936673557,
+      "log_residual": -0.7392437649016979,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1505,9 +1528,9 @@
     {
       "gid": "3907-H02",
       "observed": 20,
-      "predicted": 35.05192834242865,
-      "absolute_percentage_error": 0.7525964171214327,
-      "log_residual": -0.5610983553156206,
+      "predicted": 39.61188851332119,
+      "absolute_percentage_error": 0.9805944256660595,
+      "log_residual": -0.6833970146338016,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1515,9 +1538,9 @@
     {
       "gid": "3907-H03",
       "observed": 107,
-      "predicted": 287.89861162629313,
-      "absolute_percentage_error": 1.6906412301522722,
-      "log_residual": -0.9897795407281083,
+      "predicted": 285.35158395345803,
+      "absolute_percentage_error": 1.6668372332098882,
+      "log_residual": -0.9808932134199237,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1525,9 +1548,9 @@
     {
       "gid": "3907-H04",
       "observed": 10,
-      "predicted": 70.04310330624946,
-      "absolute_percentage_error": 6.004310330624946,
-      "log_residual": -1.946525721069828,
+      "predicted": 75.81393014389592,
+      "absolute_percentage_error": 6.581393014389592,
+      "log_residual": -2.0256969577551605,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1535,9 +1558,9 @@
     {
       "gid": "3907-H06",
       "observed": 18,
-      "predicted": 52.22689056222944,
-      "absolute_percentage_error": 1.9014939201238579,
-      "log_residual": -1.0652257492211565,
+      "predicted": 57.57301282158979,
+      "absolute_percentage_error": 2.198500712310544,
+      "log_residual": -1.1626821726094667,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1545,9 +1568,9 @@
     {
       "gid": "3907-H07",
       "observed": 84,
-      "predicted": 53.81426969183535,
-      "absolute_percentage_error": 0.35935393224005535,
-      "log_residual": 0.4452781309366794,
+      "predicted": 59.21233179831776,
+      "absolute_percentage_error": 0.29509128811526475,
+      "log_residual": 0.34968697124231213,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1555,9 +1578,9 @@
     {
       "gid": "3907-H09",
       "observed": 65,
-      "predicted": 51.39754348206753,
-      "absolute_percentage_error": 0.20926856181434564,
-      "log_residual": 0.23479689075427462,
+      "predicted": 56.71529961677919,
+      "absolute_percentage_error": 0.12745692897262784,
+      "log_residual": 0.13634326104961794,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1565,9 +1588,9 @@
     {
       "gid": "3907-H10",
       "observed": 30,
-      "predicted": 38.40369251411428,
-      "absolute_percentage_error": 0.28012308380380946,
-      "log_residual": -0.24695623253025034,
+      "predicted": 43.15348016203794,
+      "absolute_percentage_error": 0.4384493387345979,
+      "log_residual": -0.3635656852694445,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1575,9 +1598,9 @@
     {
       "gid": "3907-H11",
       "observed": 109,
-      "predicted": 111.71493176588307,
-      "absolute_percentage_error": 0.02490763087966115,
-      "log_residual": -0.024602492314696765,
+      "predicted": 117.45304160170764,
+      "absolute_percentage_error": 0.07755084038263889,
+      "log_residual": -0.07469072553243324,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1585,9 +1608,9 @@
     {
       "gid": "3907-H12",
       "observed": 66,
-      "predicted": 52.16692882744295,
-      "absolute_percentage_error": 0.20959198746298557,
-      "log_residual": 0.23520599528076408,
+      "predicted": 57.51102883261329,
+      "absolute_percentage_error": 0.12862077526343496,
+      "log_residual": 0.13767800683091944,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1595,9 +1618,9 @@
     {
       "gid": "3907-H13",
       "observed": 157,
-      "predicted": 103.57319114818077,
-      "absolute_percentage_error": 0.34029814555298876,
-      "log_residual": 0.41596728171131586,
+      "predicted": 109.40766315730961,
+      "absolute_percentage_error": 0.30313590345662667,
+      "log_residual": 0.3611648706718439,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1605,9 +1628,9 @@
     {
       "gid": "3907-H14",
       "observed": 180,
-      "predicted": 160.60552505405724,
-      "absolute_percentage_error": 0.10774708303301533,
-      "log_residual": 0.1140056473911147,
+      "predicted": 165.07919712066493,
+      "absolute_percentage_error": 0.08289334932963928,
+      "log_residual": 0.08653150959492248,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1615,9 +1638,9 @@
     {
       "gid": "3907-H15",
       "observed": 195,
-      "predicted": 144.74458362245068,
-      "absolute_percentage_error": 0.2577200839874324,
-      "log_residual": 0.29802886165391773,
+      "predicted": 149.74331201614217,
+      "absolute_percentage_error": 0.23208557940439914,
+      "log_residual": 0.26407698355956216,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1625,9 +1648,9 @@
     {
       "gid": "3907-H16",
       "observed": 103,
-      "predicted": 104.22420216156075,
-      "absolute_percentage_error": 0.011885457879230623,
-      "log_residual": -0.011815380545687565,
+      "predicted": 110.0523797986178,
+      "absolute_percentage_error": 0.06846970678269715,
+      "log_residual": -0.06622744421250285,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1635,9 +1658,9 @@
     {
       "gid": "3907-H17",
       "observed": 120,
-      "predicted": 102.91118200220296,
-      "absolute_percentage_error": 0.14240681664830865,
-      "log_residual": 0.15362543721434005,
+      "predicted": 108.75179577088456,
+      "absolute_percentage_error": 0.0937350352426287,
+      "log_residual": 0.09842356011386778,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1645,9 +1668,9 @@
     {
       "gid": "3907-H18",
       "observed": 275,
-      "predicted": 242.068228782685,
-      "absolute_percentage_error": 0.11975189533569092,
-      "log_residual": 0.1275514741281525,
+      "predicted": 242.53232645934295,
+      "absolute_percentage_error": 0.11806426742057108,
+      "log_residual": 0.1256360911863723,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1655,9 +1678,9 @@
     {
       "gid": "3907-H19",
       "observed": 115,
-      "predicted": 202.83788272972433,
-      "absolute_percentage_error": 0.7638076759106464,
-      "log_residual": -0.5674749243791574,
+      "predicted": 205.47768552574738,
+      "absolute_percentage_error": 0.7867624828325859,
+      "log_residual": -0.5804053134277212,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1665,9 +1688,9 @@
     {
       "gid": "3907-H20",
       "observed": 128,
-      "predicted": 121.39678084394014,
-      "absolute_percentage_error": 0.05158764965671769,
-      "log_residual": 0.052965902582042215,
+      "predicted": 126.97304111268271,
+      "absolute_percentage_error": 0.008023116307166345,
+      "log_residual": 0.008055474697775343,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1675,9 +1698,9 @@
     {
       "gid": "3907-H21",
       "observed": 208,
-      "predicted": 291.46386703125165,
-      "absolute_percentage_error": 0.40126859149640215,
-      "log_residual": -0.33737796311025886,
+      "predicted": 288.66388305205174,
+      "absolute_percentage_error": 0.3878071300579411,
+      "log_residual": -0.3277248971397642,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1685,9 +1708,9 @@
     {
       "gid": "3907-H22",
       "observed": 270,
-      "predicted": 264.09646501709886,
-      "absolute_percentage_error": 0.021864944381115317,
-      "log_residual": 0.02210752480153294,
+      "predicted": 263.1710012785553,
+      "absolute_percentage_error": 0.02529258785720256,
+      "log_residual": 0.02561794313028849,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1695,9 +1718,9 @@
     {
       "gid": "3907-H23",
       "observed": 130,
-      "predicted": 148.67064474843306,
-      "absolute_percentage_error": 0.14362034421871586,
-      "log_residual": -0.13419897093590422,
+      "predicted": 153.54874058652163,
+      "absolute_percentage_error": 0.18114415835785871,
+      "log_residual": -0.16648359442119862,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1705,9 +1728,9 @@
     {
       "gid": "3907-H24",
       "observed": 63,
-      "predicted": 49.397443867506865,
-      "absolute_percentage_error": 0.21591358940465294,
-      "log_residual": 0.24323604710913624,
+      "predicted": 54.64321254415188,
+      "absolute_percentage_error": 0.13264741993409715,
+      "log_residual": 0.14230971812542487,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1715,9 +1738,9 @@
     {
       "gid": "3907-H25",
       "observed": 111,
-      "predicted": 84.97897836990312,
-      "absolute_percentage_error": 0.2344236182891611,
-      "log_residual": 0.26712628870425137,
+      "predicted": 90.87940839205211,
+      "absolute_percentage_error": 0.18126659106259357,
+      "log_residual": 0.19999675613123494,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1725,9 +1748,9 @@
     {
       "gid": "3907-H26",
       "observed": 80,
-      "predicted": 78.07214355016686,
-      "absolute_percentage_error": 0.024098205622914294,
-      "log_residual": 0.02439331814690917,
+      "predicted": 83.9350979950245,
+      "absolute_percentage_error": 0.04918872493780633,
+      "log_residual": -0.04801722261067976,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1735,9 +1758,9 @@
     {
       "gid": "3907-H27",
       "observed": 83,
-      "predicted": 55.163562398158355,
-      "absolute_percentage_error": 0.3353787662872487,
-      "log_residual": 0.40853797395909425,
+      "predicted": 60.603403621296614,
+      "absolute_percentage_error": 0.26983851058678776,
+      "log_residual": 0.31448955093061337,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1745,9 +1768,9 @@
     {
       "gid": "3907-H28",
       "observed": 50,
-      "predicted": 126.82644222571959,
-      "absolute_percentage_error": 1.5365288445143919,
-      "log_residual": -0.9307965497377503,
+      "predicted": 132.29101271124068,
+      "absolute_percentage_error": 1.6458202542248137,
+      "log_residual": -0.9729811322533726,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1755,9 +1778,9 @@
     {
       "gid": "3907-H29",
       "observed": 50,
-      "predicted": 95.25061790948602,
-      "absolute_percentage_error": 0.9050123581897205,
-      "log_residual": -0.6444884957963206,
+      "predicted": 101.14270093164956,
+      "absolute_percentage_error": 1.022854018632991,
+      "log_residual": -0.7045093947479758,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1765,9 +1788,9 @@
     {
       "gid": "3907-H30",
       "observed": 91,
-      "predicted": 84.84462515361582,
-      "absolute_percentage_error": 0.06764148182839755,
-      "log_residual": 0.07003786211565914,
+      "predicted": 90.74467089960575,
+      "absolute_percentage_error": 0.002805814290046693,
+      "log_residual": 0.002809757965503161,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1775,9 +1798,9 @@
     {
       "gid": "3907-H31",
       "observed": 55,
-      "predicted": 74.15014604799471,
-      "absolute_percentage_error": 0.34818447359990384,
-      "log_residual": -0.2987588529785893,
+      "predicted": 79.97495147118373,
+      "absolute_percentage_error": 0.45409002674879506,
+      "log_residual": -0.37438029380309845,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1785,9 +1808,9 @@
     {
       "gid": "3907-H32",
       "observed": 92,
-      "predicted": 61.80119568543651,
-      "absolute_percentage_error": 0.32824787298438574,
-      "log_residual": 0.3978658651117738,
+      "predicted": 67.41670744224572,
+      "absolute_percentage_error": 0.2672097017147204,
+      "log_residual": 0.31089570494937624,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1795,9 +1818,9 @@
     {
       "gid": "3907-H33",
       "observed": 60,
-      "predicted": 39.387743720173674,
-      "absolute_percentage_error": 0.3435376046637721,
-      "log_residual": 0.42088986740352174,
+      "predicted": 44.18953294822237,
+      "absolute_percentage_error": 0.2635077841962938,
+      "log_residual": 0.3058566123088212,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1805,9 +1828,9 @@
     {
       "gid": "3907-H34",
       "observed": 82,
-      "predicted": 46.70374703129283,
-      "absolute_percentage_error": 0.4304421093744777,
-      "log_residual": 0.5628948495920341,
+      "predicted": 51.84424950372862,
+      "absolute_percentage_error": 0.3677530548325778,
+      "log_residual": 0.4584752251283185,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1815,9 +1838,9 @@
     {
       "gid": "3907-H35",
       "observed": 63,
-      "predicted": 77.77506948500697,
-      "absolute_percentage_error": 0.23452491246042803,
-      "log_residual": -0.2106862098023375,
+      "predicted": 83.63557595356163,
+      "absolute_percentage_error": 0.32754882465970836,
+      "log_residual": -0.2833342528622878,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1825,9 +1848,9 @@
     {
       "gid": "3907-H36",
       "observed": 55,
-      "predicted": 58.69059327841,
-      "absolute_percentage_error": 0.06710169597109089,
-      "log_residual": -0.06494627796635266,
+      "predicted": 64.2297742110877,
+      "absolute_percentage_error": 0.16781407656523092,
+      "log_residual": -0.155133690712473,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1835,9 +1858,9 @@
     {
       "gid": "3907-H37",
       "observed": 45,
-      "predicted": 118.45807789115918,
-      "absolute_percentage_error": 1.6324017309146484,
-      "log_residual": -0.9678966351420241,
+      "predicted": 124.08864276535905,
+      "absolute_percentage_error": 1.7575253947857568,
+      "log_residual": -1.0143336814542505,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1845,9 +1868,9 @@
     {
       "gid": "3907-H38",
       "observed": 16,
-      "predicted": 30.063535737507536,
-      "absolute_percentage_error": 0.878970983594221,
-      "log_residual": -0.6307242778396179,
+      "predicted": 34.301032150277614,
+      "absolute_percentage_error": 1.1438145093923509,
+      "log_residual": -0.7625867233241909,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1855,9 +1878,9 @@
     {
       "gid": "3907-H39",
       "observed": 30,
-      "predicted": 20.150266728463386,
-      "absolute_percentage_error": 0.3283244423845538,
-      "log_residual": 0.3979798562124887,
+      "predicted": 23.57071319978999,
+      "absolute_percentage_error": 0.21430956000700038,
+      "log_residual": 0.24119240637725003,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1865,9 +1888,9 @@
     {
       "gid": "3907-H40",
       "observed": 31,
-      "predicted": 38.54849858225224,
-      "absolute_percentage_error": 0.24349995426620138,
-      "log_residual": -0.21792994748303568,
+      "predicted": 43.306041211872724,
+      "absolute_percentage_error": 0.39696907135073306,
+      "log_residual": -0.33430494069598304,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1875,9 +1898,9 @@
     {
       "gid": "3907-H41",
       "observed": 24,
-      "predicted": 46.84016320806084,
-      "absolute_percentage_error": 0.9516734670025349,
-      "log_residual": -0.6686871927491308,
+      "predicted": 51.98623378745665,
+      "absolute_percentage_error": 1.1660930744773603,
+      "log_residual": -0.7729251183284208,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1885,9 +1908,9 @@
     {
       "gid": "3907-H42",
       "observed": 38,
-      "predicted": 34.38629949224008,
-      "absolute_percentage_error": 0.09509738178315585,
-      "log_residual": 0.09992794525223873,
+      "predicted": 38.906108532753684,
+      "absolute_percentage_error": 0.023844961388254853,
+      "log_residual": -0.02356511026015563,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1895,9 +1918,9 @@
     {
       "gid": "3907-H43",
       "observed": 14,
-      "predicted": 28.77745173159163,
-      "absolute_percentage_error": 1.0555322665422593,
-      "log_residual": -0.7205348248936249,
+      "predicted": 32.92322400482842,
+      "absolute_percentage_error": 1.3516588574877442,
+      "log_residual": -0.8551209759313997,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1905,9 +1928,9 @@
     {
       "gid": "3907-H44",
       "observed": 14,
-      "predicted": 27.415159108826117,
-      "absolute_percentage_error": 0.958225650630437,
-      "log_residual": -0.6720387829381601,
+      "predicted": 31.459577022691338,
+      "absolute_percentage_error": 1.2471126444779528,
+      "log_residual": -0.8096461230005014,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1915,9 +1938,9 @@
     {
       "gid": "3907-H45",
       "observed": 42,
-      "predicted": 49.5193593319888,
-      "absolute_percentage_error": 0.17903236504735243,
-      "log_residual": -0.16469407244847367,
+      "predicted": 54.769663522684866,
+      "absolute_percentage_error": 0.304039607682973,
+      "log_residual": -0.26546683703319085,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1925,9 +1948,9 @@
     {
       "gid": "3907-H46",
       "observed": 35,
-      "predicted": 40.98557323839633,
-      "absolute_percentage_error": 0.17101637823989507,
-      "log_residual": -0.15787207105909748,
+      "predicted": 45.86838476499539,
+      "absolute_percentage_error": 0.3105252789998683,
+      "log_residual": -0.27042803317931,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1935,9 +1958,9 @@
     {
       "gid": "3907-H47",
       "observed": 40,
-      "predicted": 46.91452085149382,
-      "absolute_percentage_error": 0.1728630212873455,
-      "log_residual": -0.15944778645631924,
+      "predicted": 52.06361563924098,
+      "absolute_percentage_error": 0.30159039098102447,
+      "log_residual": -0.2635868944284955,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1945,9 +1968,9 @@
     {
       "gid": "3907-H48",
       "observed": 47,
-      "predicted": 48.970012430435105,
-      "absolute_percentage_error": 0.041915158094363934,
-      "log_residual": -0.04106051784189512,
+      "predicted": 54.199725827963846,
+      "absolute_percentage_error": 0.1531856559141244,
+      "log_residual": -0.14252824819809523,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1955,9 +1978,9 @@
     {
       "gid": "3907-H49",
       "observed": 22,
-      "predicted": 43.467907090305964,
-      "absolute_percentage_error": 0.9758139586502711,
-      "log_residual": -0.6809804444126093,
+      "predicted": 48.468571923282205,
+      "absolute_percentage_error": 1.2031169056037365,
+      "log_residual": -0.7898731329595424,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1965,9 +1988,9 @@
     {
       "gid": "3907-H50",
       "observed": 29,
-      "predicted": 30.925703533983896,
-      "absolute_percentage_error": 0.06640357013737572,
-      "log_residual": -0.06429183771750781,
+      "predicted": 35.222626277913925,
+      "absolute_percentage_error": 0.21457331992806636,
+      "log_residual": -0.19439283810148697,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1975,9 +1998,9 @@
     {
       "gid": "3907-H51",
       "observed": 27,
-      "predicted": 37.7168753184727,
-      "absolute_percentage_error": 0.39692130809158155,
-      "log_residual": -0.3342707494768089,
+      "predicted": 42.42939037693259,
+      "absolute_percentage_error": 0.5714589028493551,
+      "log_residual": -0.4520044253700055,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1985,9 +2008,9 @@
     {
       "gid": "3907-H52",
       "observed": 34,
-      "predicted": 27.210506915859884,
-      "absolute_percentage_error": 0.1996909730629446,
-      "log_residual": 0.22275734223122023,
+      "predicted": 31.239312394907103,
+      "absolute_percentage_error": 0.08119669426743815,
+      "log_residual": 0.08468321029321145,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -1995,9 +2018,9 @@
     {
       "gid": "3907-H53",
       "observed": 30,
-      "predicted": 35.87521290630735,
-      "absolute_percentage_error": 0.1958404302102449,
-      "log_residual": -0.17884922707060782,
+      "predicted": 40.483681511160704,
+      "absolute_percentage_error": 0.3494560503720235,
+      "log_residual": -0.2997015856036338,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2005,9 +2028,9 @@
     {
       "gid": "3907-H54",
       "observed": 30,
-      "predicted": 33.015440393315615,
-      "absolute_percentage_error": 0.10051467977718716,
-      "log_residual": -0.09577796108413379,
+      "predicted": 37.44985526516865,
+      "absolute_percentage_error": 0.24832850883895502,
+      "log_residual": -0.2218054635451043,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2015,9 +2038,9 @@
     {
       "gid": "3907-H55",
       "observed": 38,
-      "predicted": 40.07862414954835,
-      "absolute_percentage_error": 0.054700635514430176,
-      "log_residual": -0.05325696885493871,
+      "predicted": 44.91595717517472,
+      "absolute_percentage_error": 0.18199887303091364,
+      "log_residual": -0.16720696554090844,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2025,9 +2048,9 @@
     {
       "gid": "3907-H56",
       "observed": 16,
-      "predicted": 25.256909240180565,
-      "absolute_percentage_error": 0.5785568275112853,
-      "log_residual": -0.45651102932530896,
+      "predicted": 29.13136041843967,
+      "absolute_percentage_error": 0.8207100261524793,
+      "log_residual": -0.5992265492696253,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2035,9 +2058,9 @@
     {
       "gid": "3907-H57",
       "observed": 102,
-      "predicted": 69.39547061797258,
-      "absolute_percentage_error": 0.3196522488434061,
-      "log_residual": 0.38515121277206876,
+      "predicted": 75.15641936862463,
+      "absolute_percentage_error": 0.26317235913113113,
+      "log_residual": 0.30540127999324995,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2045,9 +2068,9 @@
     {
       "gid": "3907-H58",
       "observed": 57,
-      "predicted": 61.48205474510966,
-      "absolute_percentage_error": 0.07863253938788872,
-      "log_residual": -0.07569407163568619,
+      "predicted": 67.09020369564554,
+      "absolute_percentage_error": 0.17702111746746566,
+      "log_residual": -0.16298676989073563,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2055,9 +2078,9 @@
     {
       "gid": "3907-H59",
       "observed": 28,
-      "predicted": 28.734282505250107,
-      "absolute_percentage_error": 0.02622437518750382,
-      "log_residual": -0.025886412106138755,
+      "predicted": 32.876910291825816,
+      "absolute_percentage_error": 0.1741753675652077,
+      "log_residual": -0.1605660863706821,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2065,9 +2088,9 @@
     {
       "gid": "3907-H60",
       "observed": 22,
-      "predicted": 29.793450637287823,
-      "absolute_percentage_error": 0.3542477562403556,
-      "log_residual": -0.30324613872625833,
+      "predicted": 34.01199433283606,
+      "absolute_percentage_error": 0.5459997424016391,
+      "log_residual": -0.435670783542732,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2075,9 +2098,9 @@
     {
       "gid": "3907-H61",
       "observed": 41,
-      "predicted": 22.064182189471516,
-      "absolute_percentage_error": 0.4618492148909386,
-      "log_residual": 0.6196164883691285,
+      "predicted": 25.66402642927481,
+      "absolute_percentage_error": 0.3740481358713461,
+      "log_residual": 0.4684818052017344,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2085,9 +2108,9 @@
     {
       "gid": "3907-H62",
       "observed": 31,
-      "predicted": 22.994448714315787,
-      "absolute_percentage_error": 0.25824358986078105,
-      "log_residual": 0.29873437793520835,
+      "predicted": 26.677347273195327,
+      "absolute_percentage_error": 0.13944041054208622,
+      "log_residual": 0.15017241592237346,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2095,9 +2118,9 @@
     {
       "gid": "3907-H63",
       "observed": 48,
-      "predicted": 42.972430477847546,
-      "absolute_percentage_error": 0.10474103171150946,
-      "log_residual": 0.11064225251792578,
+      "predicted": 47.95032771299881,
+      "absolute_percentage_error": 0.0010348393125247195,
+      "log_residual": 0.001035375128413579,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2105,9 +2128,9 @@
     {
       "gid": "3907-H64",
       "observed": 32,
-      "predicted": 109.79013459506719,
-      "absolute_percentage_error": 2.4309417060958496,
-      "log_residual": -1.2328347733780984,
+      "predicted": 115.55442413475016,
+      "absolute_percentage_error": 2.6110757542109426,
+      "log_residual": -1.2840057208099538,
       "held_out_municipalities": [
         "Sandefjord"
       ]
@@ -2115,9 +2138,9 @@
     {
       "gid": "3909-H11",
       "observed": 143,
-      "predicted": 68.89801599259815,
-      "absolute_percentage_error": 0.5181956923594535,
-      "log_residual": 0.7302172481179083,
+      "predicted": 75.00935017916018,
+      "absolute_percentage_error": 0.4754590896562225,
+      "log_residual": 0.6452318554386687,
       "held_out_municipalities": [
         "Larvik"
       ]
@@ -2125,9 +2148,9 @@
     {
       "gid": "3909-H18",
       "observed": 100,
-      "predicted": 136.60310563055435,
-      "absolute_percentage_error": 0.36603105630554356,
-      "log_residual": -0.31190949610651403,
+      "predicted": 142.36173709659445,
+      "absolute_percentage_error": 0.42361737096594454,
+      "log_residual": -0.3532010767190621,
       "held_out_municipalities": [
         "Larvik"
       ]
@@ -2135,9 +2158,9 @@
     {
       "gid": "3911-H14",
       "observed": 100,
-      "predicted": 169.0825153626914,
-      "absolute_percentage_error": 0.690825153626914,
-      "log_residual": -0.5252166663604939,
+      "predicted": 173.0828305060196,
+      "absolute_percentage_error": 0.730828305060196,
+      "log_residual": -0.5486000829789184,
       "held_out_municipalities": [
         "Færder"
       ]
@@ -2145,9 +2168,9 @@
     {
       "gid": "3911-H15",
       "observed": 100,
-      "predicted": 314.1659953496807,
-      "absolute_percentage_error": 2.141659953496807,
-      "log_residual": -1.1447513078456895,
+      "predicted": 312.1037222355205,
+      "absolute_percentage_error": 2.1210372223552048,
+      "log_residual": -1.1381653896370056,
       "held_out_municipalities": [
         "Færder"
       ]
@@ -2155,9 +2178,9 @@
     {
       "gid": "4012-H03",
       "observed": 120,
-      "predicted": 151.27367432917916,
-      "absolute_percentage_error": 0.2606139527431596,
-      "log_residual": -0.23159886637066557,
+      "predicted": 155.1225736514696,
+      "absolute_percentage_error": 0.2926881137622466,
+      "log_residual": -0.2567238593728226,
       "held_out_municipalities": [
         "Bamble"
       ]
@@ -2165,9 +2188,9 @@
     {
       "gid": "4012-H14",
       "observed": 445,
-      "predicted": 317.06604339000086,
-      "absolute_percentage_error": 0.2874920373258408,
-      "log_residual": 0.33896419121874843,
+      "predicted": 313.3353817912158,
+      "absolute_percentage_error": 0.2958755465365937,
+      "log_residual": 0.3508001579601307,
       "held_out_municipalities": [
         "Bamble"
       ]
@@ -2186,9 +2209,9 @@
     {
       "gid": "X-SALTHOLMEN-3112-3107",
       "observed": 220,
-      "predicted": 135.6423457506959,
-      "absolute_percentage_error": 0.3834438829513822,
-      "log_residual": 0.48360593529949086,
+      "predicted": 140.56178614994815,
+      "absolute_percentage_error": 0.36108279022750844,
+      "log_residual": 0.4479803951698801,
       "held_out_municipalities": [
         "Fredrikstad",
         "Råde"
@@ -2196,7 +2219,7 @@
     }
   ],
   "inputs_sha256": {
-    "data/samlet/oslofjorden-bathavner-samlet.geojson": "f69bc92577d030b782c80e58af6d9b0c02f577e1c3dd3219a820896f2ac2258b",
+    "data/samlet/oslofjorden-bathavner-samlet.geojson": "fac25a7b8a512d6d61d0ce666bfbaa0a1ef7fb4b828549ba8b92621c1ae88d21",
     "site/labs/oslofjord-bathavner/data/enrichment.json": "99cf17c6cd8d1ace6700e2094965426c885d9e42f211d5d034349ae4eac8d0d1",
     "scripts/estimate_harbour_capacity.py": "b277661506268f20777eb3a08c2972d54d1750909471c66e415b76d57d56030e"
   }

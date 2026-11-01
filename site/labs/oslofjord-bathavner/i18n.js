@@ -2,15 +2,46 @@
 (function(root) {
   'use strict';
   const messages = {
-  "feedback.title": {"nb": "Meld inn feil eller mangler", "en": "Report an error or missing harbour"},
-  "feedback.help": {"nb": "Kjenner du en havn vi mangler, eller noe som bør rettes? Send sted, forslag til endring og gjerne en kilde via GitHub Issues. Du trenger en GitHub-konto. Innspill blir offentlige og vurderes før datasettet oppdateres. Unngå personopplysninger.", "en": "Know a missing harbour or something that needs correcting? Send the location, proposed change and a source if available via GitHub Issues. A GitHub account is required. Submissions are public and reviewed before the dataset is updated. Avoid personal information."},
-  "feedback.href": {"nb": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml", "en": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"},
-
-  "publication.status": {"nb": "Første KI-støttede kartlegging", "en": "First AI-assisted mapping"},
-  "publication.notice": {"nb": "Kartleggingen bygger på kart, flybilder og offentlige kilder. Den inneholder usikre kandidater, kan ha mangler og er ikke uavhengig faglig kvalitetssikret. Bildeopptaksdato og aktuell drift er ikke bekreftet.", "en": "This mapping uses maps, aerial imagery and public sources. It includes uncertain candidates, may omit facilities and has not undergone independent professional review. Image acquisition dates and current operation are unverified."},
-  "publication.approval": {"nb": "Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.", "en": "User approval means the project owner has reviewed and included a municipal delivery. It is not official approval or independent professional validation. Several polygons may belong to one harbour group; groups are provisional and may include possible harbours."},
-  "publication.short": {"nb": "Første KI-støttede kartlegging · Ikke uavhengig fagkontrollert", "en": "First AI-assisted mapping · No independent professional review"},
-
+  "project.credit": {
+    "nb": "Et selvstendig prosjekt",
+    "en": "An independent project"
+  },
+  "project.independent": {
+    "nb": "Et selvstendig prosjekt.",
+    "en": "An independent project."
+  },
+  "project.sharing": {
+    "nb": "Ocean Data Platform brukes til datadeling.",
+    "en": "Ocean Data Platform is used for data sharing."
+  },
+  "feedback.title": {
+    "nb": "Meld inn feil eller mangler",
+    "en": "Report an error or missing harbour"
+  },
+  "feedback.help": {
+    "nb": "Kjenner du en havn vi mangler, eller noe som bør rettes? Send sted, forslag til endring og gjerne en kilde via GitHub Issues. Du trenger en GitHub-konto. Innspill blir offentlige og vurderes før datasettet oppdateres. Unngå personopplysninger.",
+    "en": "Know a missing harbour or something that needs correcting? Send the location, proposed change and a source if available via GitHub Issues. A GitHub account is required. Submissions are public and reviewed before the dataset is updated. Avoid personal information."
+  },
+  "feedback.href": {
+    "nb": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml",
+    "en": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"
+  },
+  "publication.status": {
+    "nb": "Første KI-støttede kartlegging",
+    "en": "First AI-assisted mapping"
+  },
+  "publication.notice": {
+    "nb": "Kartleggingen bygger på kart, flybilder og offentlige kilder. Den inneholder usikre kandidater, kan ha mangler og er ikke uavhengig faglig kvalitetssikret. Bildeopptaksdato og aktuell drift er ikke bekreftet.",
+    "en": "This mapping uses maps, aerial imagery and public sources. It includes uncertain candidates, may omit facilities and has not undergone independent professional review. Image acquisition dates and current operation are unverified."
+  },
+  "publication.approval": {
+    "nb": "Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.",
+    "en": "User approval means the project owner has reviewed and included a municipal delivery. It is not official approval or independent professional validation. Several polygons may belong to one harbour group; groups are provisional and may include possible harbours."
+  },
+  "publication.short": {
+    "nb": "Første KI-støttede kartlegging · Ikke uavhengig fagkontrollert",
+    "en": "First AI-assisted mapping · No independent professional review"
+  },
   "s0": {
     "nb": "Kartlegger fjorden…",
     "en": "Charting the fjord…"
@@ -24,8 +55,8 @@
     "en": "Oslofjord harbours"
   },
   "s4": {
-    "nb": "Drevet av Ocean Data Platform ↗",
-    "en": "Powered by the Ocean Data Platform ↗"
+    "nb": "Datadeling via Ocean Data Platform ↗",
+    "en": "Data sharing via Ocean Data Platform ↗"
   },
   "s6": {
     "nb": "Småbåthavn",
@@ -168,8 +199,8 @@
     "en": "This map shows the physical outline of every small-boat harbour found so far in the municipalities around the inner and outer Oslofjord: piers, berths and the water between them."
   },
   "s54": {
-    "nb": "816 polygoner fra 23 kommuner",
-    "en": "816 polygons from 23 municipalities"
+    "nb": "817 polygoner fra 23 kommuner",
+    "en": "817 polygons from 23 municipalities"
   },
   "s55": {
     "nb": "er kartlagt. Kommunene merket",
@@ -276,8 +307,8 @@
     "en": "Full method, data and code on GitHub ↗"
   },
   "s82": {
-    "nb": "Drevet av",
-    "en": "Powered by the"
+    "nb": "Datadeling via",
+    "en": "Data sharing via"
   },
   "s84": {
     "nb": "fra",
@@ -1084,8 +1115,8 @@
     "en": "Oslofjord Harbours"
   },
   "description": {
-    "nb": "Utforsk småbåthavnene i Oslofjorden i 3D: 816 polygoner fra 23 kommuner.",
-    "en": "Explore the mapped small-boat harbours of the Oslofjord in 3D: 816 polygons from 23 municipalities."
+    "nb": "Utforsk småbåthavnene i Oslofjorden i 3D: 817 polygoner fra 23 kommuner.",
+    "en": "Explore the mapped small-boat harbours of the Oslofjord in 3D: 817 polygons from 23 municipalities."
   },
   "text.269": {
     "nb": "Miljøkort",
@@ -1872,8 +1903,8 @@
     "en": "Toggle attribution"
   },
   "Powered by the": {
-    "nb": "Drevet av",
-    "en": "Powered by the"
+    "nb": "Datadeling via",
+    "en": "Data sharing via"
   },
   "og.title": {
     "nb": "Havner i Oslofjorden – flytur i 3D",
@@ -1882,6 +1913,10 @@
   "environment.menu": {
     "nb": "Miljøkort",
     "en": "Environmental cards"
+  },
+  "bispebrygga.location": {
+    "nb": "Havnepunktet og polygon 0301-H33 er stedfestet med havnekoordinat fra VELiHAVN og flyfoto ved Grønsundveien 16. Koblingen gir geografisk kontekst; driftsgrenser og nøyaktig spyleplass er ikke bekreftet.",
+    "en": "The harbour point and polygon 0301-H33 were located using VELiHAVN harbour coordinates and aerial imagery at Grønsundveien 16. The link provides geographic context; operating boundaries and the exact wash area are unconfirmed."
   }
 };
 

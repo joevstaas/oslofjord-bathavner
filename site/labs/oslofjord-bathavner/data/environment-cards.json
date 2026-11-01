@@ -937,8 +937,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.76582525671992,
-          59.8794448030807
+          10.7653534,
+          59.8790931
         ]
       },
       "properties": {
@@ -952,18 +952,21 @@
           "S08"
         ],
         "map_link": {
-          "status": "registeradresse_havnekobling_uavklart",
-          "harbour_ids": [],
-          "coordinates": [
-            10.76582525671992,
-            59.8794448030807
+          "status": "geografisk_kontekst_kontrollert",
+          "harbour_ids": [
+            "0301-H33"
           ],
-          "coordinate_kind": "adressepunkt",
+          "coordinates": [
+            10.7653534,
+            59.8790931
+          ],
+          "coordinate_kind": "havnepunkt",
           "source_ids": [
             "L08",
-            "L11"
+            "L11",
+            "L12"
           ],
-          "note": "Kartpunktet viser registrert forretningsadresse Grønsundveien 16, kontrollert mot Kartverket. En registeradresse er ikke bevis for havneposisjon. Ingen sikker kobling til godkjent sjøpolygon er etablert; punktet angir ikke renseanlegg eller spyleplass.",
+          "note": "Havnepunktet og polygon 0301-H33 er stedfestet med havnekoordinat fra VELiHAVN og flyfoto ved Grønsundveien 16. Koblingen gir geografisk kontekst; driftsgrenser og nøyaktig spyleplass er ikke bekreftet.",
           "operating_boundaries_verified": false
         },
         "relations": [],
@@ -1098,6 +1101,15 @@
             "source_type": "stedfestingskilde",
             "published_or_updated": null,
             "retrieved_utc": "2026-10-31T21:05:31.861332+00:00"
+          },
+          {
+            "id": "L12",
+            "url": "https://velihavn.no/gjestehavner/oslo/bispebrygga-batforening",
+            "title": "Bispebrygga – havnekoordinat og operatørlenke",
+            "publisher": "VELiHAVN",
+            "source_type": "havneoversikt",
+            "published_or_updated": null,
+            "retrieved_utc": "2026-11-01T07:27:48.913149+00:00"
           },
           {
             "id": "S07",

@@ -11,7 +11,7 @@ Kildeopplysninger · kontrollert 2026-10-31.
 <details>
 <summary>Kilder og grunnlag</summary>
 
-Plassering: Kartpunktet viser registrert forretningsadresse Grønsundveien 16, kontrollert mot Kartverket. En registeradresse er ikke bevis for havneposisjon. Ingen sikker kobling til godkjent sjøpolygon er etablert; punktet angir ikke renseanlegg eller spyleplass.
+Plassering: Havnepunktet og polygon 0301-H33 er stedfestet med havnekoordinat fra VELiHAVN og flyfoto ved Grønsundveien 16. Koblingen gir geografisk kontekst; driftsgrenser og nøyaktig spyleplass er ikke bekreftet.
 
 ### Spylevann
 

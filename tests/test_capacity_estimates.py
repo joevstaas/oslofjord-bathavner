@@ -40,9 +40,9 @@ class EstimateTests(unittest.TestCase):
     def test_real_dataset_published_wins_and_groups_are_unique(self):
         features = json.loads((ROOT / 'site/labs/oslofjord-bathavner/data/harbours.geojson').read_text())['features']
         estimates, report = estimate(features)
-        self.assertEqual(report['training_groups'], 97)
+        self.assertEqual(report['training_groups'], 98)
         self.assertEqual(len(estimates), 567)
-        self.assertEqual(report['training_groups'] + len(estimates), 664)
+        self.assertEqual(report['training_groups'] + len(estimates), 665)
         for f in features:
             p = f['properties']
             self.assertEqual(p['capacity_estimate'], estimates.get(p['gid']))

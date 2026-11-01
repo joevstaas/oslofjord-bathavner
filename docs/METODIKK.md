@@ -1,6 +1,6 @@
 # Kartlegging av småbåthavner – metodikk og overlevering
 
-**Gjeldende status 2026-11-01:** 816 polygoner fra 23 kommuner, fordelt på 664 foreløpige fysiske havnegrupper i nettstedets gruppering. Flere polygoner kan tilhøre samme gruppe. Porsgrunn er innlemmet; Ås er uavklart. Eldre statusoversikter nedenfor er historiske. Se `status.json` og `data/samlet/samlet-manifest.json` for gjeldende leveranser. Brukergodkjenning er ikke uavhengig fagkontroll.
+**Gjeldende status 2026-11-01:** 817 polygoner fra 23 kommuner, fordelt på 665 foreløpige fysiske havnegrupper i nettstedets gruppering. Flere polygoner kan tilhøre samme gruppe. Porsgrunn er innlemmet; Ås er uavklart. Eldre statusoversikter nedenfor er historiske. Se `status.json` og `data/samlet/samlet-manifest.json` for gjeldende leveranser. Brukergodkjenning er ikke uavhengig fagkontroll.
 
 **Metodeversjon:** 1.1  
 **Sist oppdatert:** 2026-10-29  

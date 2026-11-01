@@ -484395,6 +484395,110 @@
      ]
     ]
    }
+  },
+  {
+   "type": "Feature",
+   "properties": {
+    "id": "0301-H33-B01",
+    "harbour_id": "0301-H33",
+    "name": "Bispebrygga båtforening",
+    "municipality": "Oslo",
+    "municipality_code": "0301",
+    "classification": "smabathavn",
+    "classification_basis": "dokumentert_batforening_med_faste_plasser",
+    "approval_status": "godkjent_av_bruker",
+    "area_m2": 3395.7,
+    "area_crs": "EPSG:25833",
+    "longitude": 10.7653534,
+    "latitude": 59.8790931,
+    "berth_count_published": 72,
+    "berth_count_source": "https://www.havneweb.no/bispebrygga/?mod=omhavnen",
+    "berth_count_scope": "Foreningens samlede sjøplasser; ikke kontrolltelling i polygonet",
+    "berth_count_reference_period": "Nettside uten publiseringsdato, lest 2026-11-01",
+    "geometry_role": "brygger_batplasser_og_mellomliggende_sjo",
+    "geometry_status": "usikker_avgrensning",
+    "needs_orthophoto_review": true,
+    "needs_dated_imagery_review": true,
+    "operating_boundaries_verified": false,
+    "imagery_retrieved_date": "2026-11-01",
+    "source_observation_date": null,
+    "sources": [
+     "https://www.havneweb.no/bispebrygga/?mod=omhavnen",
+     "https://velihavn.no/gjestehavner/oslo/bispebrygga-batforening",
+     "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?f=pjson&bbox=10.7625,59.8777,10.7685,59.881&bboxSR=4326&imageSR=3857&size=1200,1200&format=jpg"
+    ],
+    "note": "Manuelt avgrenset sentralt bryggeanlegg øst for Ormsundveien ved Grønsundveien 16. Sørlige enkeltbrygger og landopplag er ikke inkludert. Om alle 72 plasser omfattes er uavklart. Miljøkort MK-06 tilhører foreningen; nøyaktig spyleplass er ikke stedfestet.",
+    "attribution": "Imagery: Esri, Vantor, Earthstar Geographics and the GIS User Community",
+    "approved_utc": "2026-11-01T07:27:48.913149+00:00",
+    "method": "manuell_digitalisering_georeferert_flyfoto",
+    "method_version": "1.2",
+    "schema_version": "1.1",
+    "revision": 1,
+    "berth_count_approximate": false
+   },
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       10.765006797735811,
+       59.87940504090568
+      ],
+      [
+       10.765187638566013,
+       59.87942154087427
+      ],
+      [
+       10.765346559295585,
+       59.879391290925575
+      ],
+      [
+       10.765697280905671,
+       59.87941054089612
+      ],
+      [
+       10.765757561182406,
+       59.87928679089103
+      ],
+      [
+       10.76579592135851,
+       59.87916029040967
+      ],
+      [
+       10.76581784145914,
+       59.87905028959977
+      ],
+      [
+       10.765921961937137,
+       59.87891003803922
+      ],
+      [
+       10.765949362062925,
+       59.87882478680148
+      ],
+      [
+       10.764957477509391,
+       59.878816536670094
+      ],
+      [
+       10.764836916955925,
+       59.87889353781672
+      ],
+      [
+       10.764836916955925,
+       59.879097039988444
+      ],
+      [
+       10.764908157282974,
+       59.87922354071053
+      ],
+      [
+       10.765006797735811,
+       59.87940504090568
+      ]
+     ]
+    ]
+   }
   }
  ]
 }

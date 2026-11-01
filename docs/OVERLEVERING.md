@@ -200,3 +200,11 @@ merkes med `data-i18n` og tilsvarende attributtmarkører; dynamiske tekster bruk
 oversettelsene. Tester dekker norsk standard, lagring/lagringsfeil, like
 parametere i begge språk, alle brukte statiske nøkler og engelske oversettelser
 av samtlige miljøkortoppsummeringer og strukturerte evidenstekster.
+
+## Bispebrygga funnet – suppleringsforslag 2026-11-01
+
+Brukeren ba om polygon til miljøkort MK-06. Havneposisjon støttes av VELiHAVNs havnekoordinat, operatørlenke og Esri-bilde, utover tidligere registeradresse. Et nytt forslag 0301-H33-B01 (ca. 3 396 m²) ligger i data/kommuner/0301-oslo/bispebrygga-supplering-01/. Gyldig geometri, ingen overlapp, visuelt kontrollert. Operatøren oppgir 72 sjøplasser for foreningen; fullstendig omfang og driftsgrenser er uavklart. Sørlige enkeltbrygger er ikke med. Forslaget er ikke godkjent eller innlemmet; eksisterende godkjente geometrier, miljøkortkobling og nettsted er uendret. Se README og kontroll.png før eventuell godkjenning.
+
+## Bispebrygga godkjent og innlemmet 2026-11-01
+
+Brukeren godkjente polygonforslaget. Supplement 0301-H33-B01 er innlemmet uten endring av de 816 tidligere polygonene. Oslo har 37 polygoner / 33 grupper; samlet 817 polygoner / 665 fysiske grupper. MK-06 er koblet som geografisk kontekst, med havnepunkt i polygonet. Landopplag, sørlige enkeltbrygger og spyleplass er ikke inkludert eller stedfestet. Kapasitet 72 gjelder foreningen. Modellen er regenerert med 98 publiserte grupper og 567 anslag; opprinnelig screening-01 er en historisk gjennomgang av 664 grupper og er ikke omtolket.
