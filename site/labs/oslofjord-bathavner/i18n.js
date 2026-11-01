@@ -2,14 +2,6 @@
 (function(root) {
   'use strict';
   const messages = {
-  "project.credit": {
-    "nb": "Et selvstendig prosjekt",
-    "en": "An independent project"
-  },
-  "project.independent": {
-    "nb": "Et selvstendig prosjekt.",
-    "en": "An independent project."
-  },
   "project.sharing": {
     "nb": "Ocean Data Platform brukes til datadeling.",
     "en": "Ocean Data Platform is used for data sharing."
@@ -26,10 +18,7 @@
     "nb": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml",
     "en": "https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"
   },
-  "publication.status": {
-    "nb": "Første KI-støttede kartlegging",
-    "en": "First AI-assisted mapping"
-  },
+  "publication.status": {"nb": "Eksperimentelt datasett", "en": "Experimental dataset"},
   "publication.notice": {
     "nb": "Kartleggingen bygger på kart, flybilder og offentlige kilder. Den inneholder usikre kandidater, kan ha mangler og er ikke uavhengig faglig kvalitetssikret. Bildeopptaksdato og aktuell drift er ikke bekreftet.",
     "en": "This mapping uses maps, aerial imagery and public sources. It includes uncertain candidates, may omit facilities and has not undergone independent professional review. Image acquisition dates and current operation are unverified."
@@ -38,10 +27,7 @@
     "nb": "Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.",
     "en": "User approval means the project owner has reviewed and included a municipal delivery. It is not official approval or independent professional validation. Several polygons may belong to one harbour group; groups are provisional and may include possible harbours."
   },
-  "publication.short": {
-    "nb": "Første KI-støttede kartlegging · Ikke uavhengig fagkontrollert",
-    "en": "First AI-assisted mapping · No independent professional review"
-  },
+  "publication.short": {"nb": "Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning.", "en": "An experimental dataset developed through active use of AI agents and human approval."},
   "s0": {
     "nb": "Kartlegger fjorden…",
     "en": "Charting the fjord…"
