@@ -401,6 +401,7 @@ svg{display:block}
   <button class="ib" id="find" aria-label="Finn havn" data-i18n-aria-label="Find harbour"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4-4"/></svg><span class="tip"><span data-i18n="s153">Finn en havn</span></span></button>
   <button class="pill" id="methodBtn" aria-label="Metode, datakilder og KI-modeller" data-i18n-aria-label="Methodology, data sources and AI models"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M10 3v6L4.5 19A1.5 1.5 0 0 0 5.8 21h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></svg><span><span data-i18n="s154">Metode</span></span></button>
   <button class="ib" id="layers" aria-label="Kartlag" data-i18n-aria-label="Map layers"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5z"/><path d="M3 13l9 5 9-5"/></svg><span class="tip"><span data-i18n="s155">Kartlag</span></span></button>
+  <a class="ib" id="feedback" data-i18n-href="feedback.href" href="https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml" target="_blank" rel="noopener noreferrer" aria-label="Meld inn feil eller mangler" data-i18n-aria-label="feedback.title" title="Meld inn feil eller mangler" data-i18n-title="feedback.title"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9H13a8.5 8.5 0 0 1 8 8v.5Z"/><path d="M12 7v5m0 3h.01"/></svg><span class="tip" data-i18n="feedback.title">Meld inn feil eller mangler</span></a>
   <button class="ib" id="info" aria-label="Om kartet" data-i18n-aria-label="About this map"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg><span class="tip"><span data-i18n="s51">Om kartet</span></span></button>
 </nav>
 
@@ -414,8 +415,6 @@ svg{display:block}
       <button class="cta sec" id="explore"><span class="desktop-copy"><span data-i18n="s163">Utforsk fritt</span></span><span class="mobile-copy"><span data-i18n="s164">Utforsk kartet</span></span></button>
     </div>
     <p class="publication-intro" style="font-size:12px;color:var(--mist);margin-top:12px"><span data-i18n="publication.short">Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning, som et initiativ fra</span> <a href="https://www.hubocean.earth/" target="_blank" rel="noopener noreferrer">HUB Ocean</a> <span data-i18n="publication.and">og</span> <a href="https://app.hubocean.earth/" target="_blank" rel="noopener noreferrer">Ocean Data Platform</a>.</p>
-    <p class="howlink" style="margin-bottom:0"><a data-i18n-href="feedback.href" href="https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"><span data-i18n="feedback.title">Meld inn feil eller mangler</span></a></p>
-    <button class="howlink" id="howBtn"><span class="desktop-copy"><span data-i18n="s165">Hvordan ble dette kartlagt? Kilder, metode og KI-modeller →</span></span><span class="mobile-copy"><span data-i18n="s166">Om kartleggingen →</span></span></button>
   </div>
 </div>
 
@@ -903,7 +902,6 @@ function wireUI() {
   $('aboutX').onclick = () => setAbout(false);
   $('methodBtn').onclick = () => setMethod(!$('method').classList.contains('open'));
   $('methodX').onclick = () => setMethod(false);
-  $('howBtn').onclick = () => setMethod(true);
   $('toMethod').onclick = e => { e.preventDefault(); setMethod(true); };
   document.querySelectorAll('#method .toc a').forEach(a => a.onclick = e => { e.preventDefault(); document.querySelector(a.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
   fetch(BASE + 'data/meta.json?v=capacity-estimates-1').then(r => r.json()).then(m => { metaData = m; renderMeta(); }).catch(() => {});
