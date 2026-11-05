@@ -27,7 +27,8 @@
     "nb": "Brukergodkjenning betyr at prosjekteieren har kontrollert og tatt inn en kommuneleveranse. Det er ikke en myndighetsgodkjenning eller uavhengig fagkontroll. Flere polygoner kan tilhøre samme havnegruppe; gruppene er foreløpige og kan inkludere mulige havner.",
     "en": "User approval means the project owner has reviewed and included a municipal delivery. It is not official approval or independent professional validation. Several polygons may belong to one harbour group; groups are provisional and may include possible harbours."
   },
-  "publication.short": {"nb": "Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning.", "en": "An experimental dataset developed through active use of AI agents and human approval."},
+  "publication.and": {"nb": "og", "en": "and"},
+  "publication.short": {"nb": "Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning, som et initiativ fra", "en": "An experimental dataset developed through active use of AI agents and human approval, as an initiative from"},
   "s0": {
     "nb": "Kartlegger fjorden…",
     "en": "Charting the fjord…"

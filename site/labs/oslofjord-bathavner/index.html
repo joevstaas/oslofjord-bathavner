@@ -191,6 +191,8 @@ svg{display:block}
 #intro .eyebrow{font-size:11px;letter-spacing:2.5px;text-transform:uppercase;color:var(--harbour);font-weight:700}
 #intro h2{font-size:clamp(28px,5vw,44px);line-height:1.05;margin:8px 0 10px;font-weight:800;letter-spacing:-1px;text-shadow:0 4px 30px rgba(0,0,0,.5)}
 #intro p{margin:0 auto 18px;color:var(--mist);max-width:430px;font-size:14px;text-shadow:0 2px 12px rgba(0,0,0,.6)}
+#intro .publication-intro a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+#intro .publication-intro a:hover{color:var(--harbour)}
 #intro .btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
 .cta{padding:12px 20px;border-radius:999px;font-weight:800;font-size:14px;display:flex;align-items:center;gap:8px}
 .cta.pri{background:var(--harbour);color:var(--navy);box-shadow:0 8px 30px rgba(70,211,198,.35)}
@@ -411,7 +413,7 @@ svg{display:block}
       <button class="cta pri" id="startTour"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg><span class="desktop-copy"><span data-i18n="s161">Start flyturen</span></span><span class="mobile-copy"><span data-i18n="s162">Start turen</span></span></button>
       <button class="cta sec" id="explore"><span class="desktop-copy"><span data-i18n="s163">Utforsk fritt</span></span><span class="mobile-copy"><span data-i18n="s164">Utforsk kartet</span></span></button>
     </div>
-    <p style="font-size:12px;color:var(--mist);margin-top:12px" data-i18n="publication.short">Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning.</p>
+    <p class="publication-intro" style="font-size:12px;color:var(--mist);margin-top:12px"><span data-i18n="publication.short">Et eksperimentelt datasett utviklet med aktiv bruk av KI-agenter og menneskelig godkjenning, som et initiativ fra</span> <a href="https://www.hubocean.earth/" target="_blank" rel="noopener noreferrer">HUB Ocean</a> <span data-i18n="publication.and">og</span> <a href="https://app.hubocean.earth/" target="_blank" rel="noopener noreferrer">Ocean Data Platform</a>.</p>
     <p class="howlink" style="margin-bottom:0"><a data-i18n-href="feedback.href" href="https://github.com/joevstaas/oslofjord-bathavner/issues/new?template=kartinnspill.yml"><span data-i18n="feedback.title">Meld inn feil eller mangler</span></a></p>
     <button class="howlink" id="howBtn"><span class="desktop-copy"><span data-i18n="s165">Hvordan ble dette kartlagt? Kilder, metode og KI-modeller →</span></span><span class="mobile-copy"><span data-i18n="s166">Om kartleggingen →</span></span></button>
   </div>
